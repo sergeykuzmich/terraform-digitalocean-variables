@@ -42,7 +42,7 @@ function arrayToString(values, key) {
     return `
       variable "do_${key}_${item.default}" {
         description = "${item.description}"
-        defalut = "${item.default}"
+        default = "${item.default}"
       }
     `;
   }).join('');
