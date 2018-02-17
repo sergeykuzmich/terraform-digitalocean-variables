@@ -56,7 +56,7 @@ function sectionHeading(heading) {
   `;
 }
 
-function writeOutput(result) {
+function writeOutputFiles(result) {
   fs.mkdirSync(outputDir);
 
   for(let key in result) {
@@ -143,7 +143,7 @@ Promise.all([sizes, regions, distributions, applications])
   let distributionsAsString = sectionHeading("Image Distributions") + arrayToString(distributions, 'distibution');
   let applicationsAsString = sectionHeading("One Click Applications") + arrayToString(applications, 'application');
 
-  writeOutput({
+  writeOutputFiles({
     sizes: sizesAsString,
     regions: regionsAsString,
     distributions: distributionsAsString,
