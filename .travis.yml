@@ -17,7 +17,6 @@ deploy:
   github-token: $GITHUB_TOKEN
   skip-cleanup: true
   keep-history: true
-  allow-empty-commit: true
   committer-from-gh: true
   local-dir: $OUTPUT_DIR
   target-branch: master
