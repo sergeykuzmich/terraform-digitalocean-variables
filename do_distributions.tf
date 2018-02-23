@@ -17,16 +17,6 @@ variable "do_distibution_freebsd-10-3-x64" {
   default     = "freebsd-10-3-x64"
 }
 
-variable "do_distibution_freebsd-11-0-x64-zfs" {
-  description = "FreeBSD 11.0 x64 ZFS"
-  default     = "freebsd-11-0-x64-zfs"
-}
-
-variable "do_distibution_freebsd-11-0-x64" {
-  description = "FreeBSD 11.0 x64"
-  default     = "freebsd-11-0-x64"
-}
-
 variable "do_distibution_fedora-26-x64" {
   description = "Fedora 26 x64"
   default     = "fedora-26-x64"
