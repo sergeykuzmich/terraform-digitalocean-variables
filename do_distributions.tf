@@ -102,11 +102,6 @@ variable "do_distibution_debian-8-x32" {
   default     = "debian-8-x32"
 }
 
-variable "do_distibution_ubuntu-14-04-x32" {
-  description = "Ubuntu 14.04.5 x32"
-  default     = "ubuntu-14-04-x32"
-}
-
 variable "do_distibution_ubuntu-16-04-x64" {
   description = "Ubuntu 16.04.3 x64"
   default     = "ubuntu-16-04-x64"
@@ -130,4 +125,9 @@ variable "do_distibution_coreos-alpha" {
 variable "do_distibution_ubuntu-17-10-x64" {
   description = "Ubuntu 17.10 x64"
   default     = "ubuntu-17-10-x64"
+}
+
+variable "do_distibution_ubuntu-14-04-x32" {
+  description = "Ubuntu 14.04.5 x32"
+  default     = "ubuntu-14-04-x32"
 }
