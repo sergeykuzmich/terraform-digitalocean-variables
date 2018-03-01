@@ -3,7 +3,7 @@
 #
 
 variable "do_distibution_coreos-beta" {
-  description = "CoreOS 1662.2.0 (beta)"
+  description = "CoreOS 1688.1.1 (beta)"
   default     = "coreos-beta"
 }
 
@@ -117,11 +117,6 @@ variable "do_distibution_coreos-stable" {
   default     = "coreos-stable"
 }
 
-variable "do_distibution_coreos-alpha" {
-  description = "CoreOS 1688.0.0 (alpha)"
-  default     = "coreos-alpha"
-}
-
 variable "do_distibution_ubuntu-17-10-x64" {
   description = "Ubuntu 17.10 x64"
   default     = "ubuntu-17-10-x64"
@@ -130,4 +125,9 @@ variable "do_distibution_ubuntu-17-10-x64" {
 variable "do_distibution_ubuntu-14-04-x32" {
   description = "Ubuntu 14.04.5 x32"
   default     = "ubuntu-14-04-x32"
+}
+
+variable "do_distibution_coreos-alpha" {
+  description = "CoreOS 1702.0.0 (alpha)"
+  default     = "coreos-alpha"
 }
