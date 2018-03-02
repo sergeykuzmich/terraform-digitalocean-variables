@@ -17,11 +17,6 @@ variable "do_application_ml-16-04" {
   default     = "ml-16-04"
 }
 
-variable "do_application_mean-16-04" {
-  description = "MEAN on 16.04"
-  default     = "mean-16-04"
-}
-
 variable "do_application_wordpress-16-04" {
   description = "WordPress 4.9.1 on 16.04"
   default     = "wordpress-16-04"
