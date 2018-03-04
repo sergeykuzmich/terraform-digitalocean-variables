@@ -3,7 +3,7 @@
 #
 
 variable "do_distibution_coreos-beta" {
-  description = "CoreOS 1688.1.1 (beta)"
+  description = "CoreOS 1688.2.0 (beta)"
   default     = "coreos-beta"
 }
 
@@ -128,6 +128,6 @@ variable "do_distibution_ubuntu-14-04-x32" {
 }
 
 variable "do_distibution_coreos-alpha" {
-  description = "CoreOS 1702.0.0 (alpha)"
+  description = "CoreOS 1702.1.0 (alpha)"
   default     = "coreos-alpha"
 }
