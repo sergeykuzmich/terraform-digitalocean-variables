@@ -15,4 +15,4 @@ resource "digitalocean_droplet" "droplet" {
 }
 ```
 
-> Variable usage prevents deploying an infrastructure with undefined or misspelled 'image', 'distribution', 'size' or 'region'.
+> Variables prevents infrastructure deploying with undefined or misspelled 'image', 'distribution', 'size' or 'region'.
