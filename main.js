@@ -62,6 +62,8 @@ function writeOutputFiles(result) {
   for(let key in result) {
     fs.writeFileSync(outputDir + '/' + 'do_' + key + '.tf', result[key], 'utf8');
   }
+
+  fs.renameSync('master_README.md', outputDir + '/' + 'README.md');
 }
 
 let sizes = new Promise((resolve, reject) => {
