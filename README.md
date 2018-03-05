@@ -1,7 +1,7 @@
 # DigitalOcean Available Terraform Variables
 [![Build Status](https://travis-ci.org/sergeykuzmich/terraform-digitalocean-variables.svg?branch=master)](https://travis-ci.org/sergeykuzmich/terraform-digitalocean-variables)
 
-This is a self-updating repository with a list of all available DigitalOcean Variables for terraform scripts (Regions, Applications, Sizes, Distributions).
+This is a self-updating repository with a list of all available DigitalOcean Variables for terraform scripts.
  
 ## Using
 
@@ -15,4 +15,4 @@ resource "digitalocean_droplet" "droplet" {
 }
 ```
 
-> Variables usage prevents you from deploying infrastructure with undefined or misspelled 'image', 'distribution', 'size' or 'region'.
+> Variable usage prevents deploying an infrastructure with undefined or misspelled 'image', 'distribution', 'size' or 'region'.
