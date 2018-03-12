@@ -3,7 +3,7 @@
 #
 
 variable "do_distibution_coreos-beta" {
-  description = "CoreOS 1688.2.0 (beta)"
+  description = "CoreOS 1688.3.0 (beta)"
   default     = "coreos-beta"
 }
 
@@ -62,11 +62,6 @@ variable "do_distibution_fedora-27-x64-atomic" {
   default     = "fedora-27-x64-atomic"
 }
 
-variable "do_distibution_centos-7-x64" {
-  description = "CentOS 7.4 x64"
-  default     = "centos-7-x64"
-}
-
 variable "do_distibution_centos-6-x32" {
   description = "CentOS 6.9 x32"
   default     = "centos-6-x32"
@@ -75,11 +70,6 @@ variable "do_distibution_centos-6-x32" {
 variable "do_distibution_centos-6-x64" {
   description = "CentOS 6.9 x64"
   default     = "centos-6-x64"
-}
-
-variable "do_distibution_ubuntu-14-04-x64" {
-  description = "Ubuntu 14.04.5 x64"
-  default     = "ubuntu-14-04-x64"
 }
 
 variable "do_distibution_rancheros" {
@@ -97,19 +87,9 @@ variable "do_distibution_debian-8-x32" {
   default     = "debian-8-x32"
 }
 
-variable "do_distibution_debian-9-x64" {
-  description = "Debian 9.3 x64"
-  default     = "debian-9-x64"
-}
-
 variable "do_distibution_coreos-stable" {
   description = "CoreOS 1632.3.0 (stable)"
   default     = "coreos-stable"
-}
-
-variable "do_distibution_ubuntu-14-04-x32" {
-  description = "Ubuntu 14.04.5 x32"
-  default     = "ubuntu-14-04-x32"
 }
 
 variable "do_distibution_coreos-alpha" {
@@ -127,7 +107,27 @@ variable "do_distibution_ubuntu-17-10-x64" {
   default     = "ubuntu-17-10-x64"
 }
 
+variable "do_distibution_centos-7-x64" {
+  description = "CentOS 7.4 x64"
+  default     = "centos-7-x64"
+}
+
+variable "do_distibution_ubuntu-14-04-x64" {
+  description = "Ubuntu 14.04.5 x64"
+  default     = "ubuntu-14-04-x64"
+}
+
 variable "do_distibution_ubuntu-16-04-x64" {
   description = "Ubuntu 16.04.4 x64"
   default     = "ubuntu-16-04-x64"
+}
+
+variable "do_distibution_ubuntu-14-04-x32" {
+  description = "Ubuntu 14.04.5 x32"
+  default     = "ubuntu-14-04-x32"
+}
+
+variable "do_distibution_debian-9-x64" {
+  description = "Debian 9.4 x64"
+  default     = "debian-9-x64"
 }
