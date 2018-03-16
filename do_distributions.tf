@@ -102,11 +102,6 @@ variable "do_distibution_ubuntu-16-04-x32" {
   default     = "ubuntu-16-04-x32"
 }
 
-variable "do_distibution_ubuntu-17-10-x64" {
-  description = "Ubuntu 17.10 x64"
-  default     = "ubuntu-17-10-x64"
-}
-
 variable "do_distibution_centos-7-x64" {
   description = "CentOS 7.4 x64"
   default     = "centos-7-x64"
@@ -130,4 +125,9 @@ variable "do_distibution_ubuntu-14-04-x32" {
 variable "do_distibution_debian-9-x64" {
   description = "Debian 9.4 x64"
   default     = "debian-9-x64"
+}
+
+variable "do_distibution_ubuntu-17-10-x64" {
+  description = "Ubuntu 17.10 x64"
+  default     = "ubuntu-17-10-x64"
 }
