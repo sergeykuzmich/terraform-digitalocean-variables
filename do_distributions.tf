@@ -92,11 +92,6 @@ variable "do_distibution_coreos-stable" {
   default     = "coreos-stable"
 }
 
-variable "do_distibution_coreos-alpha" {
-  description = "CoreOS 1702.1.0 (alpha)"
-  default     = "coreos-alpha"
-}
-
 variable "do_distibution_ubuntu-16-04-x32" {
   description = "Ubuntu 16.04.4 x32"
   default     = "ubuntu-16-04-x32"
@@ -125,6 +120,11 @@ variable "do_distibution_ubuntu-14-04-x32" {
 variable "do_distibution_debian-9-x64" {
   description = "Debian 9.4 x64"
   default     = "debian-9-x64"
+}
+
+variable "do_distibution_coreos-alpha" {
+  description = "CoreOS 1722.0.0 (alpha)"
+  default     = "coreos-alpha"
 }
 
 variable "do_distibution_ubuntu-17-10-x64" {
