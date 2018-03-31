@@ -38,6 +38,17 @@ function fetchAll(resource, dataKey, endpoint) {
 }
 
 function arrayToString(values, key) {
+  values.sort((a, b) => {
+    if (a.default > b.default) {
+      return 1;
+    }
+    if (a.default < b.default) {
+      return -1;
+    }
+
+    return 0;
+  });
+  
   return values.map(item => {
     return `
       variable "do_${key}_${item.default}" {
