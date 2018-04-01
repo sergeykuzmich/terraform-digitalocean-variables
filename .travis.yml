@@ -24,7 +24,7 @@ deploy:
     branch: ci
 after_deploy:
   - export GIT_TAG="$(git rev-parse --short HEAD)"
-  - git tag $GIT_TAG -a -m "Generated tag from TravisCI: version $GIT_TAG"
+  - git tag $GIT_TAG -a -m "Generated tag from TravisCI\: version $GIT_TAG"
   - git push --quiet git@github.com:$TRAVIS_REPO_SLUG.git $GIT_TAG
 env:
   global:
