@@ -3,7 +3,7 @@
 
 This is a self-updating repository with a list of all available DigitalOcean Variables for terraform scripts.
  
-## Using
+## Usage
 
 ```
 resource "digitalocean_droplet" "droplet" {
