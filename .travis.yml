@@ -22,6 +22,10 @@ deploy:
   target-branch: master
   on:
     branch: ci
+after_deploy:
+  - export SHORT_HASH="$(git rev-parse --short HEAD)"
+  - git tag $SHORT_HASH -a -m "Generated tag from TravisCI: version $SHORT_HASH"
+  - git push origin --tags
 env:
   global:
     - TF_VERSION=0.11.3
