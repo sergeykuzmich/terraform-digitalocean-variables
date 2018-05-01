@@ -72,6 +72,11 @@ variable "do_distibution_fedora-27-x64-atomic" {
   default     = "fedora-27-x64-atomic"
 }
 
+variable "do_distibution_fedora-28-x64" {
+  description = "Fedora 28 x64"
+  default     = "fedora-28-x64"
+}
+
 variable "do_distibution_freebsd-10-3-x64" {
   description = "FreeBSD 10.3 x64"
   default     = "freebsd-10-3-x64"
