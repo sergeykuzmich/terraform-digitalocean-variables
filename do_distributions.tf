@@ -67,14 +67,14 @@ variable "do_distibution_fedora-27-x64" {
   default     = "fedora-27-x64"
 }
 
-variable "do_distibution_fedora-27-x64-atomic" {
-  description = "Fedora Atomic 27 Atomic x64"
-  default     = "fedora-27-x64-atomic"
-}
-
 variable "do_distibution_fedora-28-x64" {
   description = "Fedora 28 x64"
   default     = "fedora-28-x64"
+}
+
+variable "do_distibution_fedora-28-x64-atomic" {
+  description = "Fedora Atomic 28 x64 Atomic"
+  default     = "fedora-28-x64-atomic"
 }
 
 variable "do_distibution_freebsd-10-3-x64" {
