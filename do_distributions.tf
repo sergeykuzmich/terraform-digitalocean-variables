@@ -13,7 +13,7 @@ variable "do_distibution_centos-6-x64" {
 }
 
 variable "do_distibution_centos-7-x64" {
-  description = "CentOS 7.4 x64"
+  description = "CentOS 7.5 x64"
   default     = "centos-7-x64"
 }
 
