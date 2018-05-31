@@ -18,17 +18,17 @@ variable "do_distibution_centos-7-x64" {
 }
 
 variable "do_distibution_coreos-alpha" {
-  description = "CoreOS 1786.1.0 (alpha)"
+  description = "CoreOS 1786.2.0 (alpha)"
   default     = "coreos-alpha"
 }
 
 variable "do_distibution_coreos-beta" {
-  description = "CoreOS 1772.1.1 (beta)"
+  description = "CoreOS 1772.2.0 (beta)"
   default     = "coreos-beta"
 }
 
 variable "do_distibution_coreos-stable" {
-  description = "CoreOS 1745.4.0 (stable)"
+  description = "CoreOS 1745.5.0 (stable)"
   default     = "coreos-stable"
 }
 
@@ -55,11 +55,6 @@ variable "do_distibution_debian-8-x64" {
 variable "do_distibution_debian-9-x64" {
   description = "Debian 9.4 x64"
   default     = "debian-9-x64"
-}
-
-variable "do_distibution_fedora-26-x64" {
-  description = "Fedora 26 x64"
-  default     = "fedora-26-x64"
 }
 
 variable "do_distibution_fedora-27-x64" {

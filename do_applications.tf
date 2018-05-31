@@ -3,7 +3,7 @@
 #
 
 variable "do_application_discourse-16-04" {
-  description = "Discourse 2.0.20170531 on 16.04"
+  description = "Discourse 2.0.20180404 on 16.04"
   default     = "discourse-16-04"
 }
 
