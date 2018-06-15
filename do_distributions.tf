@@ -23,12 +23,12 @@ variable "do_distibution_coreos-alpha" {
 }
 
 variable "do_distibution_coreos-beta" {
-  description = "CoreOS 1772.3.0 (beta)"
+  description = "CoreOS 1772.4.0 (beta)"
   default     = "coreos-beta"
 }
 
 variable "do_distibution_coreos-stable" {
-  description = "CoreOS 1745.6.0 (stable)"
+  description = "CoreOS 1745.7.0 (stable)"
   default     = "coreos-stable"
 }
 
