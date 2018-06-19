@@ -32,16 +32,6 @@ variable "do_distibution_coreos-stable" {
   default     = "coreos-stable"
 }
 
-variable "do_distibution_debian-7-x32" {
-  description = "Debian 7.11 x32"
-  default     = "debian-7-x32"
-}
-
-variable "do_distibution_debian-7-x64" {
-  description = "Debian 7.11 x64"
-  default     = "debian-7-x64"
-}
-
 variable "do_distibution_debian-8-x32" {
   description = "Debian 8.10 x32"
   default     = "debian-8-x32"
