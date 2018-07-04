@@ -92,6 +92,16 @@ variable "do_distibution_freebsd-11-1-x64-zfs" {
   default     = "freebsd-11-1-x64-zfs"
 }
 
+variable "do_distibution_freebsd-11-2-x64" {
+  description = "FreeBSD 11.2 x64 ufs"
+  default     = "freebsd-11-2-x64"
+}
+
+variable "do_distibution_freebsd-11-2-x64-zfs" {
+  description = "FreeBSD 11.2 x64 zfs"
+  default     = "freebsd-11-2-x64-zfs"
+}
+
 variable "do_distibution_rancheros" {
   description = "RancherOS v1.4.0"
   default     = "rancheros"
