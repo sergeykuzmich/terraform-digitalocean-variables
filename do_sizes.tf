@@ -53,7 +53,7 @@ variable "do_size_c-16" {
 }
 
 variable "do_size_c-1vcpu-2gb" {
-  description = "2GB RAM; 1 CPU; 20GB SSD - $20/mo"
+  description = "2GB RAM; 1 CPU; 25GB SSD - $20/mo"
   default     = "c-1vcpu-2gb"
 }
 
