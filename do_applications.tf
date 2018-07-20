@@ -23,7 +23,7 @@ variable "do_application_dokku-16-04" {
 }
 
 variable "do_application_ghost-16-04" {
-  description = "Ghost 1.21.1 on 16.04"
+  description = "Ghost 1.24.9 on 16.04"
   default     = "ghost-16-04"
 }
 
@@ -78,6 +78,6 @@ variable "do_application_ruby-on-rails-16-04" {
 }
 
 variable "do_application_wordpress-16-04" {
-  description = "WordPress 4.9.1 on 16.04"
+  description = "WordPress on 16.04"
   default     = "wordpress-16-04"
 }
