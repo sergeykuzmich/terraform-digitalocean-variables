@@ -128,6 +128,6 @@ variable "do_distibution_ubuntu-16-04-x64" {
 }
 
 variable "do_distibution_ubuntu-18-04-x64" {
-  description = "Ubuntu 18.04 x64"
+  description = "Ubuntu 18.04.1 x64"
   default     = "ubuntu-18-04-x64"
 }
