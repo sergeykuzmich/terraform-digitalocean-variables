@@ -118,12 +118,12 @@ variable "do_distibution_ubuntu-14-04-x64" {
 }
 
 variable "do_distibution_ubuntu-16-04-x32" {
-  description = "Ubuntu 16.04.4 x32"
+  description = "Ubuntu 16.04.5 x32"
   default     = "ubuntu-16-04-x32"
 }
 
 variable "do_distibution_ubuntu-16-04-x64" {
-  description = "Ubuntu 16.04.4 x64"
+  description = "Ubuntu 16.04.5 x64"
   default     = "ubuntu-16-04-x64"
 }
 
