@@ -28,7 +28,7 @@ variable "do_application_ghost-16-04" {
 }
 
 variable "do_application_gitlab-16-04" {
-  description = "GitLab 11.0.0-ce.0 on 16.04"
+  description = "GitLab 11.1.4-ce.0 on 16.04"
   default     = "gitlab-16-04"
 }
 
