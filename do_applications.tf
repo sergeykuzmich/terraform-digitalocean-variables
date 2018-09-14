@@ -2,82 +2,72 @@
 ##  One Click Applications
 #
 
-variable "do_application_discourse-16-04" {
-  description = "Discourse 2.0.20180613 on 16.04"
-  default     = "discourse-16-04"
+variable "do_application_discourse-18-04" {
+  description = "Discourse 2.0.20180802 on 18.04"
+  default     = "discourse-18-04"
 }
 
-variable "do_application_django-16-04" {
-  description = "Django 1.8.7 on 16.04"
-  default     = "django-16-04"
+variable "do_application_django-18-04" {
+  description = "Django 1:1.11.11 on 18.04"
+  default     = "django-18-04"
 }
 
-variable "do_application_docker-16-04" {
-  description = "Docker 17.12.0~ce on 16.04"
-  default     = "docker-16-04"
+variable "do_application_docker-18-04" {
+  description = "Docker 18.06.1~ce~3 on 18.04"
+  default     = "docker-18-04"
 }
 
-variable "do_application_dokku-16-04" {
-  description = "Dokku 0.11.3 on 16.04"
-  default     = "dokku-16-04"
+variable "do_application_dokku-18-04" {
+  description = "Dokku 0.12.12 on 18.04"
+  default     = "dokku-18-04"
 }
 
-variable "do_application_ghost-16-04" {
-  description = "Ghost 1.24.9 on 16.04"
-  default     = "ghost-16-04"
+variable "do_application_ghost-18-04" {
+  description = "Ghost on 18.04"
+  default     = "ghost-18-04"
 }
 
-variable "do_application_gitlab-16-04" {
-  description = "GitLab 11.1.4-ce.0 on 16.04"
-  default     = "gitlab-16-04"
+variable "do_application_gitlab-18-04" {
+  description = "GitLab 11.2.3-ce.0 on 18.04"
+  default     = "gitlab-18-04"
 }
 
-variable "do_application_lamp-16-04" {
-  description = "LAMP on 16.04"
-  default     = "lamp-16-04"
+variable "do_application_lamp-18-04" {
+  description = "LAMP on 18.04"
+  default     = "lamp-18-04"
 }
 
-variable "do_application_lemp-16-04" {
-  description = "LEMP on 16.04"
-  default     = "lemp-16-04"
+variable "do_application_lemp-18-04" {
+  description = "LEMP on 18.04"
+  default     = "lemp-18-04"
 }
 
-variable "do_application_mean-16-04" {
-  description = "MEAN on 16.04"
-  default     = "mean-16-04"
+variable "do_application_mongodb-18-04" {
+  description = "MongoDB 4.0.2 on 18.04"
+  default     = "mongodb-18-04"
 }
 
-variable "do_application_ml-16-04" {
-  description = "Machine Learning and AI"
-  default     = "ml-16-04"
+variable "do_application_mysql-18-04" {
+  description = "MySQL on 18.04"
+  default     = "mysql-18-04"
 }
 
-variable "do_application_mongodb-16-04" {
-  description = "MongoDB 3.4.10 on 16.04"
-  default     = "mongodb-16-04"
+variable "do_application_nodejs-18-04" {
+  description = "NodeJS 8.10.0 on 18.04"
+  default     = "nodejs-18-04"
 }
 
-variable "do_application_mysql-16-04" {
-  description = "MySQL on 16.04"
-  default     = "mysql-16-04"
+variable "do_application_phpmyadmin-18-04" {
+  description = "PhpMyAdmin on 18.04"
+  default     = "phpmyadmin-18-04"
 }
 
-variable "do_application_node-16-04" {
-  description = "NodeJS 6.12.3 on 16.04"
-  default     = "node-16-04"
+variable "do_application_rails-18-04" {
+  description = "Ruby-on-Rails on 18.04"
+  default     = "rails-18-04"
 }
 
-variable "do_application_phpmyadmin-16-04" {
-  description = "PhpMyAdmin on 16.04"
-  default     = "phpmyadmin-16-04"
-}
-
-variable "do_application_ruby-on-rails-16-04" {
-  description = "Ruby-on-Rails on 16.04"
-  default     = "ruby-on-rails-16-04"
-}
-
-variable "do_application_wordpress-16-04" {
-  description = "WordPress on 16.04"
-  default     = "wordpress-16-04"
+variable "do_application_wordpress-18-04" {
+  description = "WordPress on 18.04"
+  default     = "wordpress-18-04"
 }
