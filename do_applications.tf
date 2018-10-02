@@ -13,12 +13,12 @@ variable "do_application_django-18-04" {
 }
 
 variable "do_application_docker-18-04" {
-  description = "Docker 18.06.1~ce~3 on 18.04"
+  description = "Docker 18.06.1-ce on 18.04"
   default     = "docker-18-04"
 }
 
 variable "do_application_dokku-18-04" {
-  description = "Dokku 0.12.12 on 18.04"
+  description = "Dokku 0.12.13 on 18.04"
   default     = "dokku-18-04"
 }
 
@@ -28,7 +28,7 @@ variable "do_application_ghost-18-04" {
 }
 
 variable "do_application_gitlab-18-04" {
-  description = "GitLab 11.2.3-ce.0 on 18.04"
+  description = "GitLab 11.3.1-ce.0 on 18.04"
   default     = "gitlab-18-04"
 }
 
