@@ -18,12 +18,12 @@ variable "do_distibution_centos-7-x64" {
 }
 
 variable "do_distibution_coreos-alpha" {
-  description = "CoreOS 1911.0.2 (alpha)"
+  description = "CoreOS 1925.0.0 (alpha)"
   default     = "coreos-alpha"
 }
 
 variable "do_distibution_coreos-beta" {
-  description = "CoreOS 1883.1.0 (beta)"
+  description = "CoreOS 1911.1.1 (beta)"
   default     = "coreos-beta"
 }
 
