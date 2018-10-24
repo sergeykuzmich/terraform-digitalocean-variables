@@ -62,6 +62,11 @@ variable "do_application_phpmyadmin-18-04" {
   default     = "phpmyadmin-18-04"
 }
 
+variable "do_application_plesk-18-04" {
+  description = "Plesk on 18.04"
+  default     = "plesk-18-04"
+}
+
 variable "do_application_rails-18-04" {
   description = "Ruby-on-Rails on 18.04"
   default     = "rails-18-04"
