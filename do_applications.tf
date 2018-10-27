@@ -32,6 +32,11 @@ variable "do_application_gitlab-18-04" {
   default     = "gitlab-18-04"
 }
 
+variable "do_application_hasura-18-04" {
+  description = "Hasura 1.0-alpha25 on 18.04"
+  default     = "hasura-18-04"
+}
+
 variable "do_application_lamp-18-04" {
   description = "LAMP on 18.04"
   default     = "lamp-18-04"
