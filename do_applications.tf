@@ -33,7 +33,7 @@ variable "do_application_gitlab-18-04" {
 }
 
 variable "do_application_hasura-18-04" {
-  description = "Hasura on 18.04"
+  description = "Hasura GraphQL on 18.04"
   default     = "hasura-18-04"
 }
 
