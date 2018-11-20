@@ -62,6 +62,11 @@ variable "do_application_nodejs-18-04" {
   default     = "nodejs-18-04"
 }
 
+variable "do_application_openlitespeed-wp-18-04" {
+  description = "OpenLiteSpeed WP on 18.04"
+  default     = "openlitespeed-wp-18-04"
+}
+
 variable "do_application_phpmyadmin-18-04" {
   description = "PhpMyAdmin on 18.04"
   default     = "phpmyadmin-18-04"
