@@ -43,7 +43,7 @@ variable "do_distibution_debian-8-x64" {
 }
 
 variable "do_distibution_debian-9-x64" {
-  description = "Debian 9.5 x64"
+  description = "Debian 9.6 x64"
   default     = "debian-9-x64"
 }
 
