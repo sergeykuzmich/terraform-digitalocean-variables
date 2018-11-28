@@ -28,7 +28,7 @@ variable "do_distibution_coreos-beta" {
 }
 
 variable "do_distibution_coreos-stable" {
-  description = "CoreOS 1911.3.0 (stable)"
+  description = "CoreOS 1911.4.0 (stable)"
   default     = "coreos-stable"
 }
 
