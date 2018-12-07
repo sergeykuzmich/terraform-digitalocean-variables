@@ -83,7 +83,7 @@ variable "do_application_rails-18-04" {
 }
 
 variable "do_application_sourcegraph-18-04" {
-  description = "Sourcegraph 2.11.2 on 18.04"
+  description = "Sourcegraph 2.13.5 on 18.04"
   default     = "sourcegraph-18-04"
 }
 
