@@ -67,6 +67,11 @@ variable "do_application_openlitespeed-wp-18-04" {
   default     = "openlitespeed-wp-18-04"
 }
 
+variable "do_application_ossn-18-04" {
+  description = "Open Source Social Network 5.0"
+  default     = "ossn-18-04"
+}
+
 variable "do_application_phpmyadmin-18-04" {
   description = "PhpMyAdmin on 18.04"
   default     = "phpmyadmin-18-04"
