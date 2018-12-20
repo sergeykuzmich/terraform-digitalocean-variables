@@ -2,6 +2,16 @@
 ##  One Click Applications
 #
 
+variable "do_application_countly-16-04" {
+  description = "Countly on 16.04"
+  default     = "countly-16-04"
+}
+
+variable "do_application_cyberpanel-18-04" {
+  description = "CyberPanel on 18.04"
+  default     = "cyberpanel-18-04"
+}
+
 variable "do_application_discourse-18-04" {
   description = "Discourse 2.0.20180802 on 18.04"
   default     = "discourse-18-04"
