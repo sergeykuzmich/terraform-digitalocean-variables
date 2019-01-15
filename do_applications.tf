@@ -72,6 +72,11 @@ variable "do_application_nodejs-18-04" {
   default     = "nodejs-18-04"
 }
 
+variable "do_application_openlitespeed-django-18-04" {
+  description = "OpenLiteSpeed Django"
+  default     = "openlitespeed-django-18-04"
+}
+
 variable "do_application_openlitespeed-node-18-04" {
   description = "OpenLiteSpeed NodeJS on 18.04"
   default     = "openlitespeed-node-18-04"
