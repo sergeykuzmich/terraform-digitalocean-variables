@@ -32,6 +32,11 @@ variable "do_application_dokku-18-04" {
   default     = "dokku-18-04"
 }
 
+variable "do_application_fathom-18-04" {
+  description = "Fathom Analytics on 18.04"
+  default     = "fathom-18-04"
+}
+
 variable "do_application_ghost-18-04" {
   description = "Ghost on 18.04"
   default     = "ghost-18-04"
@@ -40,6 +45,11 @@ variable "do_application_ghost-18-04" {
 variable "do_application_gitlab-18-04" {
   description = "GitLab 11.3.1-ce.0 on 18.04"
   default     = "gitlab-18-04"
+}
+
+variable "do_application_grafana-16-04" {
+  description = "Grafana on Ubuntu 16.04"
+  default     = "grafana-16-04"
 }
 
 variable "do_application_hasura-18-04" {
@@ -67,9 +77,19 @@ variable "do_application_mysql-18-04" {
   default     = "mysql-18-04"
 }
 
+variable "do_application_nknfullnode-18-04" {
+  description = "NKN Full Node on 18.04"
+  default     = "nknfullnode-18-04"
+}
+
 variable "do_application_nodejs-18-04" {
   description = "NodeJS 8.10.0 on 18.04"
   default     = "nodejs-18-04"
+}
+
+variable "do_application_openfaas-18-04" {
+  description = "OpenFaaS on 18.04"
+  default     = "openfaas-18-04"
 }
 
 variable "do_application_openlitespeed-django-18-04" {
