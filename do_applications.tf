@@ -2,6 +2,11 @@
 ##  One Click Applications
 #
 
+variable "do_application_cloudron-18-04" {
+  description = "Cloudron on 18.04"
+  default     = "cloudron-18-04"
+}
+
 variable "do_application_countly-16-04" {
   description = "Countly on 16.04"
   default     = "countly-16-04"
