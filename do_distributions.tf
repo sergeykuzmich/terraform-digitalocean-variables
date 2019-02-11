@@ -23,12 +23,12 @@ variable "do_distibution_coreos-alpha" {
 }
 
 variable "do_distibution_coreos-beta" {
-  description = "CoreOS 2023.1.0 (beta)"
+  description = "CoreOS 2023.2.0 (beta)"
   default     = "coreos-beta"
 }
 
 variable "do_distibution_coreos-stable" {
-  description = "CoreOS 1967.4.0 (stable)"
+  description = "CoreOS 1967.5.0 (stable)"
   default     = "coreos-stable"
 }
 
@@ -103,7 +103,7 @@ variable "do_distibution_freebsd-11-2-x64-zfs" {
 }
 
 variable "do_distibution_rancheros" {
-  description = "RancherOS v1.4.2"
+  description = "RancherOS v1.5.1"
   default     = "rancheros"
 }
 
@@ -122,6 +122,11 @@ variable "do_distibution_ubuntu-16-04-x32" {
   default     = "ubuntu-16-04-x32"
 }
 
+variable "do_distibution_ubuntu-16-04-x64" {
+  description = "Ubuntu 16.04.5 x64"
+  default     = "ubuntu-16-04-x64"
+}
+
 variable "do_distibution_ubuntu-18-04-x64" {
   description = "Ubuntu 18.04.1 x64"
   default     = "ubuntu-18-04-x64"
@@ -133,11 +138,6 @@ variable "do_distibution_ubuntu-18-10-x64" {
 }
 
 variable "do_distibution_null" {
-  description = "RancherOS v1.5.0"
+  description = "RancherOS v1.4.3"
   default     = "null"
-}
-
-variable "do_distibution_ubuntu-16-04-x64" {
-  description = "Ubuntu 16.04.5 x64"
-  default     = "ubuntu-16-04-x64"
 }
