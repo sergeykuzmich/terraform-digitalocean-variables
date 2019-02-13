@@ -18,7 +18,7 @@ variable "do_distibution_centos-7-x64" {
 }
 
 variable "do_distibution_coreos-alpha" {
-  description = "CoreOS 2037.0.0 (alpha)"
+  description = "CoreOS 2051.0.0 (alpha)"
   default     = "coreos-alpha"
 }
 
@@ -28,7 +28,7 @@ variable "do_distibution_coreos-beta" {
 }
 
 variable "do_distibution_coreos-stable" {
-  description = "CoreOS 1967.5.0 (stable)"
+  description = "CoreOS 1967.6.0 (stable)"
   default     = "coreos-stable"
 }
 
@@ -127,11 +127,6 @@ variable "do_distibution_ubuntu-16-04-x64" {
   default     = "ubuntu-16-04-x64"
 }
 
-variable "do_distibution_ubuntu-18-04-x64" {
-  description = "Ubuntu 18.04.1 x64"
-  default     = "ubuntu-18-04-x64"
-}
-
 variable "do_distibution_ubuntu-18-10-x64" {
   description = "Ubuntu 18.10 x64"
   default     = "ubuntu-18-10-x64"
@@ -140,4 +135,9 @@ variable "do_distibution_ubuntu-18-10-x64" {
 variable "do_distibution_null" {
   description = "RancherOS v1.4.3"
   default     = "null"
+}
+
+variable "do_distibution_ubuntu-18-04-x64" {
+  description = "Ubuntu 18.04.1 x64"
+  default     = "ubuntu-18-04-x64"
 }

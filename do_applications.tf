@@ -27,6 +27,11 @@ variable "do_application_django-18-04" {
   default     = "django-18-04"
 }
 
+variable "do_application_docker" {
+  description = "Docker 18.09.2~3 on 18.04"
+  default     = "docker"
+}
+
 variable "do_application_docker-18-04" {
   description = "Docker 18.06.1~ce~3 on 18.04"
   default     = "docker-18-04"
@@ -60,6 +65,11 @@ variable "do_application_grafana-16-04" {
 variable "do_application_hasura-18-04" {
   description = "Hasura GraphQL on 18.04"
   default     = "hasura-18-04"
+}
+
+variable "do_application_helpy-18-04" {
+  description = "Helpy on 18.04"
+  default     = "helpy-18-04"
 }
 
 variable "do_application_lamp-18-04" {
