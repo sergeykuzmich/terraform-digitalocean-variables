@@ -107,6 +107,11 @@ variable "do_distibution_rancheros" {
   default     = "rancheros"
 }
 
+variable "do_distibution_rancheros-1.4" {
+  description = "RancherOS v1.4.3"
+  default     = "rancheros-1.4"
+}
+
 variable "do_distibution_ubuntu-14-04-x32" {
   description = "Ubuntu 14.04.5 x32"
   default     = "ubuntu-14-04-x32"
@@ -122,6 +127,11 @@ variable "do_distibution_ubuntu-16-04-x32" {
   default     = "ubuntu-16-04-x32"
 }
 
+variable "do_distibution_ubuntu-16-04-x64" {
+  description = "Ubuntu 16.04.5 x64"
+  default     = "ubuntu-16-04-x64"
+}
+
 variable "do_distibution_ubuntu-18-04-x64" {
   description = "Ubuntu 18.04.2 x64"
   default     = "ubuntu-18-04-x64"
@@ -130,14 +140,4 @@ variable "do_distibution_ubuntu-18-04-x64" {
 variable "do_distibution_ubuntu-18-10-x64" {
   description = "Ubuntu 18.10 x64"
   default     = "ubuntu-18-10-x64"
-}
-
-variable "do_distibution_null" {
-  description = "RancherOS v1.4.3"
-  default     = "null"
-}
-
-variable "do_distibution_ubuntu-16-04-x64" {
-  description = "Ubuntu 16.04.5 x64"
-  default     = "ubuntu-16-04-x64"
 }

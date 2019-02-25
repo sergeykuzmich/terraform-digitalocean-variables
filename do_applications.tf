@@ -32,11 +32,6 @@ variable "do_application_docker" {
   default     = "docker"
 }
 
-variable "do_application_docker-18-04" {
-  description = "Docker 18.06.1~ce~3 on 18.04"
-  default     = "docker-18-04"
-}
-
 variable "do_application_dokku-18-04" {
   description = "Dokku 0.12.13 on 18.04"
   default     = "dokku-18-04"
