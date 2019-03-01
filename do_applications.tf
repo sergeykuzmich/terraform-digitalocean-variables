@@ -2,6 +2,11 @@
 ##  One Click Applications
 #
 
+variable "do_application_bitwarden-18-04" {
+  description = "Bitwarden on 18.04"
+  default     = "bitwarden-18-04"
+}
+
 variable "do_application_cloudron-18-04" {
   description = "Cloudron on 18.04"
   default     = "cloudron-18-04"
@@ -142,8 +147,13 @@ variable "do_application_rails-18-04" {
   default     = "rails-18-04"
 }
 
+variable "do_application_redash-18-04" {
+  description = "Redash on 18.04"
+  default     = "redash-18-04"
+}
+
 variable "do_application_sourcegraph-18-04" {
-  description = "Sourcegraph 2.13.5 on 18.04"
+  description = "Sourcegraph 3.1.1 on 18.04"
   default     = "sourcegraph-18-04"
 }
 
