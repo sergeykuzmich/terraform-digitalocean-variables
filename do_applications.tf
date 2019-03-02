@@ -17,9 +17,19 @@ variable "do_application_countly-16-04" {
   default     = "countly-16-04"
 }
 
+variable "do_application_cpanel-7-6" {
+  description = "cPanel on CentOS 7.6"
+  default     = "cpanel-7-6"
+}
+
 variable "do_application_cyberpanel-18-04" {
   description = "CyberPanel on 18.04"
   default     = "cyberpanel-18-04"
+}
+
+variable "do_application_directus-18-04" {
+  description = "Directus on 18.04"
+  default     = "directus-18-04"
 }
 
 variable "do_application_discourse-18-04" {
@@ -77,6 +87,11 @@ variable "do_application_influxdb-18-10" {
   default     = "influxdb-18-10"
 }
 
+variable "do_application_jenkins-18-04" {
+  description = "CloudBees Jenkins on 18.04"
+  default     = "jenkins-18-04"
+}
+
 variable "do_application_lamp-18-04" {
   description = "LAMP on 18.04"
   default     = "lamp-18-04"
@@ -95,6 +110,11 @@ variable "do_application_mongodb-18-04" {
 variable "do_application_mysql-18-04" {
   description = "MySQL on 18.04"
   default     = "mysql-18-04"
+}
+
+variable "do_application_nimbella-18-04" {
+  description = "Nimbella Lite on 18.04"
+  default     = "nimbella-18-04"
 }
 
 variable "do_application_nknfullnode-18-04" {
@@ -130,6 +150,11 @@ variable "do_application_openlitespeed-wp-18-04" {
 variable "do_application_ossn-18-04" {
   description = "Open Source Social Network 5.0"
   default     = "ossn-18-04"
+}
+
+variable "do_application_passbolt-18-04" {
+  description = "Passbolt on 18.04"
+  default     = "passbolt-18-04"
 }
 
 variable "do_application_phpmyadmin-18-04" {
