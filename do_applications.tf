@@ -82,9 +82,9 @@ variable "do_application_helpy-18-04" {
   default     = "helpy-18-04"
 }
 
-variable "do_application_influxdb-18-10" {
-  description = "InfluxDB (TICK stack) on 18.10"
-  default     = "influxdb-18-10"
+variable "do_application_influxdb-18-04" {
+  description = "Influx TICK on 18.04"
+  default     = "influxdb-18-04"
 }
 
 variable "do_application_jenkins-18-04" {
@@ -100,6 +100,11 @@ variable "do_application_lamp-18-04" {
 variable "do_application_lemp-18-04" {
   description = "LEMP on 18.04"
   default     = "lemp-18-04"
+}
+
+variable "do_application_microweber-18-04" {
+  description = "Microweber on 18.04"
+  default     = "microweber-18-04"
 }
 
 variable "do_application_mongodb-18-04" {
