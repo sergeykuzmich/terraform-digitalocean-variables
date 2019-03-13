@@ -8,7 +8,7 @@ variable "do_application_bitwarden-18-04" {
 }
 
 variable "do_application_cloudron-18-04" {
-  description = "Cloudron on 18.04"
+  description = "Cloudron 3.5.4 on 18.04"
   default     = "cloudron-18-04"
 }
 
@@ -23,7 +23,7 @@ variable "do_application_cpanel-7-6" {
 }
 
 variable "do_application_cyberpanel-18-04" {
-  description = "CyberPanel on 18.04"
+  description = "CyberPanel 1.8.1 on 18.04"
   default     = "cyberpanel-18-04"
 }
 

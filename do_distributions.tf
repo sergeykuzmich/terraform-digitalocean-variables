@@ -18,17 +18,17 @@ variable "do_distibution_centos-7-x64" {
 }
 
 variable "do_distibution_coreos-alpha" {
-  description = "CoreOS 2065.0.0 (alpha)"
+  description = "CoreOS 2079.0.0 (alpha)"
   default     = "coreos-alpha"
 }
 
 variable "do_distibution_coreos-beta" {
-  description = "CoreOS 2051.1.0 (beta)"
+  description = "CoreOS 2051.2.0 (beta)"
   default     = "coreos-beta"
 }
 
 variable "do_distibution_coreos-stable" {
-  description = "CoreOS 2023.4.0 (stable)"
+  description = "CoreOS 2023.5.0 (stable)"
   default     = "coreos-stable"
 }
 
@@ -123,7 +123,7 @@ variable "do_distibution_ubuntu-14-04-x64" {
 }
 
 variable "do_distibution_ubuntu-16-04-x32" {
-  description = "Ubuntu 16.04.5 x32"
+  description = "Ubuntu 16.04.6 x32"
   default     = "ubuntu-16-04-x32"
 }
 
