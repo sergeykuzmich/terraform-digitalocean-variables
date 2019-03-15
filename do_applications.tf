@@ -2,9 +2,19 @@
 ##  One Click Applications
 #
 
+variable "do_application_akaunting-18-04" {
+  description = "Akaunting 1.3.14 on 18.04"
+  default     = "akaunting-18-04"
+}
+
 variable "do_application_bitwarden-18-04" {
   description = "Bitwarden on 18.04"
   default     = "bitwarden-18-04"
+}
+
+variable "do_application_caprover-18-04" {
+  description = "CapRover 1.3.0 on 18.04"
+  default     = "caprover-18-04"
 }
 
 variable "do_application_cloudron-18-04" {
