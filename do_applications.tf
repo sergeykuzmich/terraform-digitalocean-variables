@@ -32,11 +32,6 @@ variable "do_application_cpanel-7-6" {
   default     = "cpanel-7-6"
 }
 
-variable "do_application_cyberpanel-18-04" {
-  description = "CyberPanel 1.8.1 on 18.04"
-  default     = "cyberpanel-18-04"
-}
-
 variable "do_application_directus-18-04" {
   description = "Directus on 18.04"
   default     = "directus-18-04"
