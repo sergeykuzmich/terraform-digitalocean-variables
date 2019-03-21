@@ -53,7 +53,7 @@ variable "do_application_docker-18-04" {
 }
 
 variable "do_application_dokku-18-04" {
-  description = "Dokku 0.12.13 on 18.04"
+  description = "Dokku 0.14.6 on 18.04"
   default     = "dokku-18-04"
 }
 
