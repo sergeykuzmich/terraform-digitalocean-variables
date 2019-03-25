@@ -38,7 +38,7 @@ variable "do_application_directus-18-04" {
 }
 
 variable "do_application_discourse-18-04" {
-  description = "Discourse 2.0.20180802 on 18.04"
+  description = "Discourse on 18.04"
   default     = "discourse-18-04"
 }
 
@@ -80,11 +80,6 @@ variable "do_application_grafana-16-04" {
 variable "do_application_hasura-18-04" {
   description = "Hasura GraphQL on 18.04"
   default     = "hasura-18-04"
-}
-
-variable "do_application_helpy-18-04" {
-  description = "Helpy on 18.04"
-  default     = "helpy-18-04"
 }
 
 variable "do_application_influxdb-18-04" {
