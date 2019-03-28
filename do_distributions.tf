@@ -32,16 +32,6 @@ variable "do_distibution_coreos-stable" {
   default     = "coreos-stable"
 }
 
-variable "do_distibution_debian-8-x32" {
-  description = "Debian 8.10 x32"
-  default     = "debian-8-x32"
-}
-
-variable "do_distibution_debian-8-x64" {
-  description = "Debian 8.10 x64"
-  default     = "debian-8-x64"
-}
-
 variable "do_distibution_debian-9-x64" {
   description = "Debian 9.7 x64"
   default     = "debian-9-x64"
@@ -60,6 +50,11 @@ variable "do_distibution_fedora-28-x64" {
 variable "do_distibution_fedora-28-x64-atomic" {
   description = "Fedora Atomic 28 x64 Atomic"
   default     = "fedora-28-x64-atomic"
+}
+
+variable "do_distibution_fedora-29-x64" {
+  description = "Fedora 29 x64"
+  default     = "fedora-29-x64"
 }
 
 variable "do_distibution_freebsd-10-3-x64" {

@@ -2,6 +2,11 @@
 ##  One Click Applications
 #
 
+variable "do_application_acra-18-04" {
+  description = "Acra 0.85.0 on 18.04"
+  default     = "acra-18-04"
+}
+
 variable "do_application_akaunting-18-04" {
   description = "Akaunting 1.3.14 on 18.04"
   default     = "akaunting-18-04"
@@ -72,6 +77,11 @@ variable "do_application_gitlab-ee-18-04" {
   default     = "gitlab-ee-18-04"
 }
 
+variable "do_application_gladius-18-04" {
+  description = "Gladius Accelerator 0.1.0 (Beta) on 18.04"
+  default     = "gladius-18-04"
+}
+
 variable "do_application_grafana-16-04" {
   description = "Grafana on Ubuntu 16.04"
   default     = "grafana-16-04"
@@ -80,6 +90,11 @@ variable "do_application_grafana-16-04" {
 variable "do_application_hasura-18-04" {
   description = "Hasura GraphQL on 18.04"
   default     = "hasura-18-04"
+}
+
+variable "do_application_helpy-18-04" {
+  description = "Helpy 2.4 on 18.04"
+  default     = "helpy-18-04"
 }
 
 variable "do_application_influxdb-18-04" {
@@ -180,6 +195,11 @@ variable "do_application_rails-18-04" {
 variable "do_application_redash-18-04" {
   description = "Redash on 18.04"
   default     = "redash-18-04"
+}
+
+variable "do_application_selenoid-18-04" {
+  description = "Selenoid 1.9.1 on 18.04"
+  default     = "selenoid-18-04"
 }
 
 variable "do_application_sourcegraph-18-04" {
