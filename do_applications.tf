@@ -117,6 +117,11 @@ variable "do_application_lemp-18-04" {
   default     = "lemp-18-04"
 }
 
+variable "do_application_mastodon-18-04" {
+  description = "Mastodon 2.7.4 on 18.04"
+  default     = "mastodon-18-04"
+}
+
 variable "do_application_microweber-18-04" {
   description = "Microweber on 18.04"
   default     = "microweber-18-04"
@@ -210,4 +215,9 @@ variable "do_application_sourcegraph-18-04" {
 variable "do_application_wordpress-18-04" {
   description = "WordPress on 18.04"
   default     = "wordpress-18-04"
+}
+
+variable "do_application_zabbix-18-04" {
+  description = "Zabbix 4 on 18.04"
+  default     = "zabbix-18-04"
 }
