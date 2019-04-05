@@ -87,6 +87,11 @@ variable "do_application_grafana-16-04" {
   default     = "grafana-16-04"
 }
 
+variable "do_application_grandnode-18-04" {
+  description = "GrandNode 4.40 on 18.04"
+  default     = "grandnode-18-04"
+}
+
 variable "do_application_hasura-18-04" {
   description = "Hasura GraphQL on 18.04"
   default     = "hasura-18-04"
@@ -170,6 +175,11 @@ variable "do_application_openlitespeed-node-18-04" {
 variable "do_application_openlitespeed-wp-18-04" {
   description = "OpenLiteSpeed WordPress on 18.04"
   default     = "openlitespeed-wp-18-04"
+}
+
+variable "do_application_openvpn-18-04" {
+  description = "OpenVPN Access Server 2.7.3 on 18.04"
+  default     = "openvpn-18-04"
 }
 
 variable "do_application_ossn-18-04" {
