@@ -12,6 +12,11 @@ variable "do_application_akaunting-18-04" {
   default     = "akaunting-18-04"
 }
 
+variable "do_application_ascensiosystem-onlyoffice-18-04" {
+  description = "ONLYOFFICE 18.10.255 on 18.04"
+  default     = "ascensiosystem-onlyoffice-18-04"
+}
+
 variable "do_application_bitwarden-18-04" {
   description = "Bitwarden on 18.04"
   default     = "bitwarden-18-04"
@@ -82,9 +87,9 @@ variable "do_application_gladius-18-04" {
   default     = "gladius-18-04"
 }
 
-variable "do_application_grafana-16-04" {
-  description = "Grafana on Ubuntu 16.04"
-  default     = "grafana-16-04"
+variable "do_application_grafana-18-04" {
+  description = "Grafana 6.1.1 on 18.04"
+  default     = "grafana-18-04"
 }
 
 variable "do_application_grandnode-18-04" {
@@ -215,6 +220,11 @@ variable "do_application_redash-18-04" {
 variable "do_application_selenoid-18-04" {
   description = "Selenoid 1.9.1 on 18.04"
   default     = "selenoid-18-04"
+}
+
+variable "do_application_simplystatistics-rstudio-18-04" {
+  description = "RStudio 1.1 on 18.04"
+  default     = "simplystatistics-rstudio-18-04"
 }
 
 variable "do_application_sourcegraph-18-04" {

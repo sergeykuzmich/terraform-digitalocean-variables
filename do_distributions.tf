@@ -18,7 +18,7 @@ variable "do_distibution_centos-7-x64" {
 }
 
 variable "do_distibution_coreos-alpha" {
-  description = "CoreOS 2093.0.0 (alpha)"
+  description = "CoreOS 2107.0.0 (alpha)"
   default     = "coreos-alpha"
 }
 
