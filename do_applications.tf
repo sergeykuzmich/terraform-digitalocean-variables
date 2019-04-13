@@ -8,7 +8,7 @@ variable "do_application_acra-18-04" {
 }
 
 variable "do_application_akaunting-18-04" {
-  description = "Akaunting 1.3.14 on 18.04"
+  description = "Akaunting on 18.04"
   default     = "akaunting-18-04"
 }
 
@@ -88,7 +88,7 @@ variable "do_application_gladius-18-04" {
 }
 
 variable "do_application_grafana-18-04" {
-  description = "Grafana 6.1.1 on 18.04"
+  description = "Grafana 6.1.3 on 18.04"
   default     = "grafana-18-04"
 }
 
@@ -193,7 +193,7 @@ variable "do_application_ossn-18-04" {
 }
 
 variable "do_application_passbolt-18-04" {
-  description = "Passbolt on 18.04"
+  description = "Passbolt 2.8.2 on 18.04"
   default     = "passbolt-18-04"
 }
 
@@ -203,7 +203,7 @@ variable "do_application_phpmyadmin-18-04" {
 }
 
 variable "do_application_plesk-18-04" {
-  description = "Plesk on 18.04"
+  description = "Plesk 17.8 on 18.04"
   default     = "plesk-18-04"
 }
 
