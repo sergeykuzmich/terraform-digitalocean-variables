@@ -42,6 +42,11 @@ variable "do_application_cpanel-7-6" {
   default     = "cpanel-7-6"
 }
 
+variable "do_application_cyberpanel-18-04" {
+  description = "CyberPanel 1.8.1 on 18.04"
+  default     = "cyberpanel-18-04"
+}
+
 variable "do_application_directus-18-04" {
   description = "Directus on 18.04"
   default     = "directus-18-04"
@@ -70,6 +75,11 @@ variable "do_application_dokku-18-04" {
 variable "do_application_fathom-18-04" {
   description = "Fathom Analytics on 18.04"
   default     = "fathom-18-04"
+}
+
+variable "do_application_fennixglobal-freepbx-7-6" {
+  description = "FreePBX 13 on 7.6"
+  default     = "fennixglobal-freepbx-7-6"
 }
 
 variable "do_application_ghost-18-04" {
@@ -105,6 +115,11 @@ variable "do_application_hasura-18-04" {
 variable "do_application_helpy-18-04" {
   description = "Helpy 2.4 on 18.04"
   default     = "helpy-18-04"
+}
+
+variable "do_application_honeydbagent-9" {
+  description = "HoneyDB Agent on 9"
+  default     = "honeydbagent-9"
 }
 
 variable "do_application_influxdb-18-04" {
@@ -145,6 +160,11 @@ variable "do_application_mongodb-18-04" {
 variable "do_application_mysql-18-04" {
   description = "MySQL on 18.04"
   default     = "mysql-18-04"
+}
+
+variable "do_application_netfoundry-7-6" {
+  description = "NetFoundry Cloud Gateway 2.12.0 on 7.6"
+  default     = "netfoundry-7-6"
 }
 
 variable "do_application_nimbella-18-04" {
