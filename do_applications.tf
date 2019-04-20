@@ -98,7 +98,7 @@ variable "do_application_gladius-18-04" {
 }
 
 variable "do_application_grafana-18-04" {
-  description = "Grafana 6.1.3 on 18.04"
+  description = "Grafana 6.1.4 on 18.04"
   default     = "grafana-18-04"
 }
 
