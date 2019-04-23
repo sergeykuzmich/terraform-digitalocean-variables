@@ -198,7 +198,7 @@ variable "do_application_openlitespeed-node-18-04" {
 }
 
 variable "do_application_openlitespeed-wp-18-04" {
-  description = "OpenLiteSpeed WordPress on 18.04"
+  description = "OpenLiteSpeed WordPress 5.1.1 on 18.04"
   default     = "openlitespeed-wp-18-04"
 }
 
