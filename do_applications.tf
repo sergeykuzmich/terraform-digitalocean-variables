@@ -47,6 +47,11 @@ variable "do_application_cyberpanel-18-04" {
   default     = "cyberpanel-18-04"
 }
 
+variable "do_application_deadcanaries-onionroutedcloud-18-04" {
+  description = "Onion Routed Cloud 14 on 18.04"
+  default     = "deadcanaries-onionroutedcloud-18-04"
+}
+
 variable "do_application_directus-18-04" {
   description = "Directus on 18.04"
   default     = "directus-18-04"
@@ -70,6 +75,11 @@ variable "do_application_docker-18-04" {
 variable "do_application_dokku-18-04" {
   description = "Dokku 0.14.6 on 18.04"
   default     = "dokku-18-04"
+}
+
+variable "do_application_fastnetmon-18-04" {
+  description = "FastNetMon 2.0 on 18.04"
+  default     = "fastnetmon-18-04"
 }
 
 variable "do_application_fathom-18-04" {
@@ -167,6 +177,11 @@ variable "do_application_netfoundry-7-6" {
   default     = "netfoundry-7-6"
 }
 
+variable "do_application_nibblecomm-spotipo-18-04" {
+  description = "Spotipo 3.4.13 on 18.04"
+  default     = "nibblecomm-spotipo-18-04"
+}
+
 variable "do_application_nimbella-18-04" {
   description = "Nimbella Lite on 18.04"
   default     = "nimbella-18-04"
@@ -237,6 +252,21 @@ variable "do_application_redash-18-04" {
   default     = "redash-18-04"
 }
 
+variable "do_application_restyaboard-18-04" {
+  description = "Restyaboard 0.6.7 on 18.04"
+  default     = "restyaboard-18-04"
+}
+
+variable "do_application_restyaboard-7-6" {
+  description = "Restyaboard 0.6.7 on 7.6"
+  default     = "restyaboard-7-6"
+}
+
+variable "do_application_rocketchat-18-04" {
+  description = "Rocket.Chat 0.74.3 on 18.04"
+  default     = "rocketchat-18-04"
+}
+
 variable "do_application_selenoid-18-04" {
   description = "Selenoid 1.9.1 on 18.04"
   default     = "selenoid-18-04"
@@ -257,7 +287,7 @@ variable "do_application_wordpress-18-04" {
   default     = "wordpress-18-04"
 }
 
-variable "do_application_zabbix-18-04" {
-  description = "Zabbix 4 on 18.04"
-  default     = "zabbix-18-04"
+variable "do_application_zeromon-zabbix-18-04" {
+  description = "Zeromon Zabbix 4 on 18.04"
+  default     = "zeromon-zabbix-18-04"
 }
