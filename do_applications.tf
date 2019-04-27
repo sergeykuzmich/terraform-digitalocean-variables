@@ -287,6 +287,11 @@ variable "do_application_wordpress-18-04" {
   default     = "wordpress-18-04"
 }
 
+variable "do_application_zabbix-7-6" {
+  description = "Zabbix 4.2.0 on 7.6"
+  default     = "zabbix-7-6"
+}
+
 variable "do_application_zeromon-zabbix-18-04" {
   description = "Zeromon Zabbix 4 on 18.04"
   default     = "zeromon-zabbix-18-04"
