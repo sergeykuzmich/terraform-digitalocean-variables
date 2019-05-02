@@ -57,6 +57,11 @@ variable "do_distibution_fedora-29-x64" {
   default     = "fedora-29-x64"
 }
 
+variable "do_distibution_fedora-30-x64" {
+  description = "Fedora 30 x64"
+  default     = "fedora-30-x64"
+}
+
 variable "do_distibution_freebsd-10-3-x64" {
   description = "FreeBSD 10.3 x64"
   default     = "freebsd-10-3-x64"
@@ -105,16 +110,6 @@ variable "do_distibution_rancheros" {
 variable "do_distibution_rancheros-1.4" {
   description = "RancherOS v1.4.3"
   default     = "rancheros-1.4"
-}
-
-variable "do_distibution_ubuntu-14-04-x32" {
-  description = "Ubuntu 14.04.5 x32"
-  default     = "ubuntu-14-04-x32"
-}
-
-variable "do_distibution_ubuntu-14-04-x64" {
-  description = "Ubuntu 14.04.5 x64"
-  default     = "ubuntu-14-04-x64"
 }
 
 variable "do_distibution_ubuntu-16-04-x32" {
