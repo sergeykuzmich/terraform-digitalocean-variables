@@ -272,6 +272,11 @@ variable "do_application_selenoid-18-04" {
   default     = "selenoid-18-04"
 }
 
+variable "do_application_shopware-18-04" {
+  description = "Shopware on 18.04"
+  default     = "shopware-18-04"
+}
+
 variable "do_application_simplystatistics-rstudio-18-04" {
   description = "RStudio 1.1 on 18.04"
   default     = "simplystatistics-rstudio-18-04"
