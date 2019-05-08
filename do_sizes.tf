@@ -67,11 +67,6 @@ variable "do_size_c-4" {
   default     = "c-4"
 }
 
-variable "do_size_c-48" {
-  description = "72GB RAM; 48 CPU; 20GB SSD - $960/mo"
-  default     = "c-48"
-}
-
 variable "do_size_c-8" {
   description = "16GB RAM; 8 CPU; 100GB SSD - $160/mo"
   default     = "c-8"
