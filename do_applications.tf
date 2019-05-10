@@ -283,7 +283,7 @@ variable "do_application_simplystatistics-rstudio-18-04" {
 }
 
 variable "do_application_sourcegraph-18-04" {
-  description = "Sourcegraph 3.1.1 on 18.04"
+  description = "Sourcegraph 3.3.7 on 18.04"
   default     = "sourcegraph-18-04"
 }
 
