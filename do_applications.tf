@@ -3,12 +3,12 @@
 #
 
 variable "do_application_acra-18-04" {
-  description = "Acra 0.85.0 on 18.04"
+  description = "Acra 0.85.0 on Ubuntu 18.04"
   default     = "acra-18-04"
 }
 
 variable "do_application_akaunting-18-04" {
-  description = "Akaunting on 18.04"
+  description = "Akaunting on Ubuntu 18.04"
   default     = "akaunting-18-04"
 }
 
@@ -28,17 +28,17 @@ variable "do_application_caprover-18-04" {
 }
 
 variable "do_application_cloudron-18-04" {
-  description = "Cloudron 3.5.4 on 18.04"
+  description = "Cloudron 4.0.3 on Ubuntu 18.04"
   default     = "cloudron-18-04"
 }
 
 variable "do_application_countly-16-04" {
-  description = "Countly on 16.04"
+  description = "Countly 19.02 on Ubuntu 18.04"
   default     = "countly-16-04"
 }
 
 variable "do_application_cpanel-7-6" {
-  description = "cPanel on CentOS 7.6"
+  description = "cPanel 11.78 on CentOS 7.6"
   default     = "cpanel-7-6"
 }
 
@@ -78,7 +78,7 @@ variable "do_application_dokku-18-04" {
 }
 
 variable "do_application_fastnetmon-18-04" {
-  description = "FastNetMon 2.0 on 18.04"
+  description = "FastNetMon 2.0 on Ubuntu 18.04"
   default     = "fastnetmon-18-04"
 }
 
@@ -118,12 +118,12 @@ variable "do_application_grafana-18-04" {
 }
 
 variable "do_application_grandnode-18-04" {
-  description = "GrandNode 4.40 on 18.04"
+  description = "GrandNode 4.40 on Ubuntu 18.04"
   default     = "grandnode-18-04"
 }
 
 variable "do_application_hasura-18-04" {
-  description = "Hasura GraphQL on 18.04"
+  description = "Hasura GraphQL on Ubuntu 18.04"
   default     = "hasura-18-04"
 }
 
@@ -208,17 +208,17 @@ variable "do_application_openfaas-18-04" {
 }
 
 variable "do_application_openlitespeed-django-18-04" {
-  description = "OpenLiteSpeed Django"
+  description = "OpenLiteSpeed Django 2.2.1 on Ubuntu 18.04"
   default     = "openlitespeed-django-18-04"
 }
 
 variable "do_application_openlitespeed-node-18-04" {
-  description = "OpenLiteSpeed NodeJS on 18.04"
+  description = "OpenLiteSpeed NodeJS 10.15.3 on Ubuntu 18.04"
   default     = "openlitespeed-node-18-04"
 }
 
 variable "do_application_openlitespeed-wp-18-04" {
-  description = "OpenLiteSpeed WordPress 5.1.1 on 18.04"
+  description = "OpenLiteSpeed WordPress 5.2 on Ubuntu 18.04"
   default     = "openlitespeed-wp-18-04"
 }
 
@@ -228,12 +228,12 @@ variable "do_application_openvpn-18-04" {
 }
 
 variable "do_application_ossn-18-04" {
-  description = "Open Source Social Network 5.0"
+  description = "Open Source Social Network on Ubuntu 18.04"
   default     = "ossn-18-04"
 }
 
 variable "do_application_passbolt-18-04" {
-  description = "Passbolt 2.8.2 on 18.04"
+  description = "Passbolt 2.10 on Ubuntu 18.04"
   default     = "passbolt-18-04"
 }
 
@@ -253,7 +253,7 @@ variable "do_application_rails-18-04" {
 }
 
 variable "do_application_redash-18-04" {
-  description = "Redash on 18.04"
+  description = "Redash 6.0.0 on Ubuntu 18.04"
   default     = "redash-18-04"
 }
 
@@ -273,7 +273,7 @@ variable "do_application_rocketchat-18-04" {
 }
 
 variable "do_application_selenoid-18-04" {
-  description = "Selenoid 1.9.1 on 18.04"
+  description = "Selenoid 1.9.1 on Ubuntu 18.04"
   default     = "selenoid-18-04"
 }
 
@@ -293,7 +293,7 @@ variable "do_application_sourcegraph-18-04" {
 }
 
 variable "do_application_vitalpointz-7-6" {
-  description = "Vitalpointz on 7.6"
+  description = "Vitalpointz on CentOS 7.6"
   default     = "vitalpointz-7-6"
 }
 
@@ -308,6 +308,6 @@ variable "do_application_zabbix-7-6" {
 }
 
 variable "do_application_zeromon-zabbix-18-04" {
-  description = "Zeromon Zabbix 4 on 18.04"
+  description = "Zeromon Zabbix 4 on Ubuntu 18.04"
   default     = "zeromon-zabbix-18-04"
 }
