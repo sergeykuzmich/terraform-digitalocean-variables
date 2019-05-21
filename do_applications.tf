@@ -23,7 +23,7 @@ variable "do_application_bitwarden-18-04" {
 }
 
 variable "do_application_caprover-18-04" {
-  description = "CapRover 1.3.0 on 18.04"
+  description = "CapRover 1.3.0 on Ubuntu 18.04"
   default     = "caprover-18-04"
 }
 
@@ -133,7 +133,7 @@ variable "do_application_helpy-18-04" {
 }
 
 variable "do_application_honeydbagent-9" {
-  description = "HoneyDB Agent on 9"
+  description = "HoneyDB Agent on Debian 9"
   default     = "honeydbagent-9"
 }
 
