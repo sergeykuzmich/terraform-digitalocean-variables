@@ -18,7 +18,7 @@ variable "do_application_ascensiosystem-onlyoffice-18-04" {
 }
 
 variable "do_application_bitwarden-18-04" {
-  description = "Bitwarden on 18.04"
+  description = "Bitwarden on Ubuntu 18.04"
   default     = "bitwarden-18-04"
 }
 
@@ -43,7 +43,7 @@ variable "do_application_cpanel-7-6" {
 }
 
 variable "do_application_cyberpanel-18-04" {
-  description = "CyberPanel 1.8.1 on 18.04"
+  description = "CyberPanel 1.8.1 on Ubuntu 18.04"
   default     = "cyberpanel-18-04"
 }
 
@@ -188,12 +188,12 @@ variable "do_application_nibblecomm-spotipo-18-04" {
 }
 
 variable "do_application_nimbella-18-04" {
-  description = "Nimbella Lite on 18.04"
+  description = "Nimbella Lite on Ubuntu 18.04"
   default     = "nimbella-18-04"
 }
 
 variable "do_application_nknfullnode-18-04" {
-  description = "NKN Full Node on 18.04"
+  description = "NKN Full Node on Ubuntu 18.04"
   default     = "nknfullnode-18-04"
 }
 

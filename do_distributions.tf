@@ -18,12 +18,12 @@ variable "do_distibution_centos-7-x64" {
 }
 
 variable "do_distibution_coreos-alpha" {
-  description = "CoreOS 2135.1.0 (alpha)"
+  description = "CoreOS 2149.0.0 (alpha)"
   default     = "coreos-alpha"
 }
 
 variable "do_distibution_coreos-beta" {
-  description = "CoreOS 2107.3.0 (beta)"
+  description = "CoreOS 2135.2.0 (beta)"
   default     = "coreos-beta"
 }
 
@@ -35,11 +35,6 @@ variable "do_distibution_coreos-stable" {
 variable "do_distibution_debian-9-x64" {
   description = "Debian 9.7 x64"
   default     = "debian-9-x64"
-}
-
-variable "do_distibution_fedora-27-x64" {
-  description = "Fedora 27 x64"
-  default     = "fedora-27-x64"
 }
 
 variable "do_distibution_fedora-28-x64" {
@@ -62,36 +57,6 @@ variable "do_distibution_fedora-30-x64" {
   default     = "fedora-30-x64"
 }
 
-variable "do_distibution_freebsd-10-3-x64" {
-  description = "FreeBSD 10.3 x64"
-  default     = "freebsd-10-3-x64"
-}
-
-variable "do_distibution_freebsd-10-3-x64-zfs" {
-  description = "FreeBSD 10.3 x64 zfs"
-  default     = "freebsd-10-3-x64-zfs"
-}
-
-variable "do_distibution_freebsd-10-4-x64" {
-  description = "FreeBSD 10.4 x64"
-  default     = "freebsd-10-4-x64"
-}
-
-variable "do_distibution_freebsd-10-4-x64-zfs" {
-  description = "FreeBSD 10.4 x64 ZFS"
-  default     = "freebsd-10-4-x64-zfs"
-}
-
-variable "do_distibution_freebsd-11-1-x64" {
-  description = "FreeBSD 11.1 x64"
-  default     = "freebsd-11-1-x64"
-}
-
-variable "do_distibution_freebsd-11-1-x64-zfs" {
-  description = "FreeBSD 11.1 x64 ZFS"
-  default     = "freebsd-11-1-x64-zfs"
-}
-
 variable "do_distibution_freebsd-11-2-x64" {
   description = "FreeBSD 11.2 x64 ufs"
   default     = "freebsd-11-2-x64"
@@ -100,6 +65,16 @@ variable "do_distibution_freebsd-11-2-x64" {
 variable "do_distibution_freebsd-11-2-x64-zfs" {
   description = "FreeBSD 11.2 x64 zfs"
   default     = "freebsd-11-2-x64-zfs"
+}
+
+variable "do_distibution_freebsd-12-x64" {
+  description = "FreeBSD 12.0 x64 ufs"
+  default     = "freebsd-12-x64"
+}
+
+variable "do_distibution_freebsd-12-x64-zfs" {
+  description = "FreeBSD 12.0 x64 zfs"
+  default     = "freebsd-12-x64-zfs"
 }
 
 variable "do_distibution_rancheros" {
