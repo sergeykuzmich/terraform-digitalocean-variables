@@ -87,11 +87,6 @@ variable "do_size_g-32vcpu-128gb" {
   default     = "g-32vcpu-128gb"
 }
 
-variable "do_size_g-40vcpu-160gb" {
-  description = "160GB RAM; 40 CPU; 500GB SSD - $1200/mo"
-  default     = "g-40vcpu-160gb"
-}
-
 variable "do_size_g-4vcpu-16gb" {
   description = "16GB RAM; 4 CPU; 50GB SSD - $120/mo"
   default     = "g-4vcpu-16gb"
