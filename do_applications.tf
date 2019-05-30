@@ -12,11 +12,6 @@ variable "do_application_akaunting-18-04" {
   default     = "akaunting-18-04"
 }
 
-variable "do_application_ascensiosystem-onlyoffice-18-04" {
-  description = "ONLYOFFICE 18.10.255 on 18.04"
-  default     = "ascensiosystem-onlyoffice-18-04"
-}
-
 variable "do_application_bitwarden-18-04" {
   description = "Bitwarden on Ubuntu 18.04"
   default     = "bitwarden-18-04"
@@ -52,11 +47,6 @@ variable "do_application_deadcanaries-onionroutedcloud-18-04" {
   default     = "deadcanaries-onionroutedcloud-18-04"
 }
 
-variable "do_application_directus-18-04" {
-  description = "Directus on 18.04"
-  default     = "directus-18-04"
-}
-
 variable "do_application_discourse-18-04" {
   description = "Discourse on 18.04"
   default     = "discourse-18-04"
@@ -82,16 +72,6 @@ variable "do_application_fastnetmon-18-04" {
   default     = "fastnetmon-18-04"
 }
 
-variable "do_application_fathom-18-04" {
-  description = "Fathom Analytics on 18.04"
-  default     = "fathom-18-04"
-}
-
-variable "do_application_fennixglobal-freepbx-7-6" {
-  description = "FreePBX 13 on 7.6"
-  default     = "fennixglobal-freepbx-7-6"
-}
-
 variable "do_application_ghost-18-04" {
   description = "Ghost on 18.04"
   default     = "ghost-18-04"
@@ -100,16 +80,6 @@ variable "do_application_ghost-18-04" {
 variable "do_application_gitea-18-04" {
   description = "Gitea on 18.04"
   default     = "gitea-18-04"
-}
-
-variable "do_application_gitlab-ee-18-04" {
-  description = "GitLab EE 11.8.0 on 18.04"
-  default     = "gitlab-ee-18-04"
-}
-
-variable "do_application_gladius-18-04" {
-  description = "Gladius Accelerator 0.1.0 (Beta) on 18.04"
-  default     = "gladius-18-04"
 }
 
 variable "do_application_grafana-18-04" {
@@ -137,11 +107,6 @@ variable "do_application_honeydbagent-9" {
   default     = "honeydbagent-9"
 }
 
-variable "do_application_influxdb-18-04" {
-  description = "Influx TICK on 18.04"
-  default     = "influxdb-18-04"
-}
-
 variable "do_application_jenkins-18-04" {
   description = "CloudBees Jenkins on 18.04"
   default     = "jenkins-18-04"
@@ -155,11 +120,6 @@ variable "do_application_lamp-18-04" {
 variable "do_application_lemp-18-04" {
   description = "LEMP on 18.04"
   default     = "lemp-18-04"
-}
-
-variable "do_application_mastodon-18-04" {
-  description = "Mastodon 2.7.4 on 18.04"
-  default     = "mastodon-18-04"
 }
 
 variable "do_application_microweber-18-04" {
@@ -182,11 +142,6 @@ variable "do_application_nakama-18-04" {
   default     = "nakama-18-04"
 }
 
-variable "do_application_netfoundry-7-6" {
-  description = "NetFoundry Cloud Gateway 2.12.0 on 7.6"
-  default     = "netfoundry-7-6"
-}
-
 variable "do_application_nibblecomm-spotipo-18-04" {
   description = "Spotipo 3.4.13 on 18.04"
   default     = "nibblecomm-spotipo-18-04"
@@ -205,6 +160,11 @@ variable "do_application_nknfullnode-18-04" {
 variable "do_application_nodejs-18-04" {
   description = "NodeJS 8.10.0 on 18.04"
   default     = "nodejs-18-04"
+}
+
+variable "do_application_onjection-jenkins-16-04" {
+  description = "Onjection Jenkins 2.164.3 on Ubuntu 16.04"
+  default     = "onjection-jenkins-16-04"
 }
 
 variable "do_application_openfaas-18-04" {
@@ -228,7 +188,7 @@ variable "do_application_openlitespeed-wp-18-04" {
 }
 
 variable "do_application_openvpn-18-04" {
-  description = "OpenVPN Access Server 2.7.3 on 18.04"
+  description = "OpenVPN Access Server 2.7.3 on Ubuntu 18.04"
   default     = "openvpn-18-04"
 }
 
@@ -262,9 +222,9 @@ variable "do_application_redash-18-04" {
   default     = "redash-18-04"
 }
 
-variable "do_application_restyaboard-18-04" {
-  description = "Restyaboard 0.6.7 on 18.04"
-  default     = "restyaboard-18-04"
+variable "do_application_restyaboard-16-04" {
+  description = "Restyaboard 0.6.7 on Ubuntu 16.04"
+  default     = "restyaboard-16-04"
 }
 
 variable "do_application_restyaboard-7-6" {
@@ -283,7 +243,7 @@ variable "do_application_selenoid-18-04" {
 }
 
 variable "do_application_shopware-18-04" {
-  description = "Shopware on 18.04"
+  description = "Shopware on Ubuntu 18.04"
   default     = "shopware-18-04"
 }
 
