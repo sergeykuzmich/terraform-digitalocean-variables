@@ -82,6 +82,11 @@ variable "do_application_gitea-18-04" {
   default     = "gitea-18-04"
 }
 
+variable "do_application_gitlab-ee-18-04" {
+  description = "GitLab 11.80 on Ubuntu 18.04"
+  default     = "gitlab-ee-18-04"
+}
+
 variable "do_application_grafana-18-04" {
   description = "Grafana 6.1.6 on 18.04"
   default     = "grafana-18-04"
@@ -228,7 +233,7 @@ variable "do_application_restyaboard-16-04" {
 }
 
 variable "do_application_restyaboard-7-6" {
-  description = "Restyaboard 0.6.7 on 7.6"
+  description = "Restyaboard 0.6.7 on CentOS 7.6"
   default     = "restyaboard-7-6"
 }
 
