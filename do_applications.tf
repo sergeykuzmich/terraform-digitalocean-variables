@@ -281,3 +281,8 @@ variable "do_application_zeromon-zabbix-18-04" {
   description = "Zeromon Zabbix 4 on Ubuntu 18.04"
   default     = "zeromon-zabbix-18-04"
 }
+
+variable "do_application_zulip-18-04" {
+  description = "Zulip 2.0.4 on Ubuntu 18.04"
+  default     = "zulip-18-04"
+}
