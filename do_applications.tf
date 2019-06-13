@@ -238,7 +238,7 @@ variable "do_application_restyaboard-7-6" {
 }
 
 variable "do_application_rocketchat-18-04" {
-  description = "Rocket.Chat 0.74.3 on 18.04"
+  description = "Rocket.Chat 1.1.1 on Ubuntu 18.04"
   default     = "rocketchat-18-04"
 }
 
@@ -285,4 +285,9 @@ variable "do_application_zeromon-zabbix-18-04" {
 variable "do_application_zulip-18-04" {
   description = "Zulip 2.0.4 on Ubuntu 18.04"
   default     = "zulip-18-04"
+}
+
+variable "do_application_null" {
+  description = "Rocket.Chat 0.74.3 on 18.04"
+  default     = "null"
 }
