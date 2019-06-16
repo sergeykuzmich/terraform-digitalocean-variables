@@ -12,6 +12,11 @@ variable "do_application_akaunting-18-04" {
   default     = "akaunting-18-04"
 }
 
+variable "do_application_ascensiosystem-onlyoffice-18-04" {
+  description = "ONLYOFFICE 18.10 on Ubuntu 18.04"
+  default     = "ascensiosystem-onlyoffice-18-04"
+}
+
 variable "do_application_bitwarden-18-04" {
   description = "Bitwarden on Ubuntu 18.04"
   default     = "bitwarden-18-04"
@@ -258,12 +263,12 @@ variable "do_application_simplystatistics-rstudio-18-04" {
 }
 
 variable "do_application_sourcegraph-18-04" {
-  description = "Sourcegraph 3.3.7 on 18.04"
+  description = "Sourcegraph 3.4.1 on Ubuntu 18.04"
   default     = "sourcegraph-18-04"
 }
 
 variable "do_application_vitalpointz-7-6" {
-  description = "Vitalpointz on CentOS 7.6"
+  description = "Vitalpointz 1.0.1 on CentOS 7.6"
   default     = "vitalpointz-7-6"
 }
 
@@ -285,4 +290,9 @@ variable "do_application_zeromon-zabbix-18-04" {
 variable "do_application_zulip-18-04" {
   description = "Zulip 2.0.4 on Ubuntu 18.04"
   default     = "zulip-18-04"
+}
+
+variable "do_application_null" {
+  description = "Vitalpointz on CentOS 7.6"
+  default     = "null"
 }
