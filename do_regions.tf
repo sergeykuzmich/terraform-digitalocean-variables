@@ -22,11 +22,6 @@ variable "do_region_lon1" {
   default     = "lon1"
 }
 
-variable "do_region_nyc1" {
-  description = "New York 1"
-  default     = "nyc1"
-}
-
 variable "do_region_nyc3" {
   description = "New York 3"
   default     = "nyc3"
