@@ -53,7 +53,7 @@ variable "do_application_deadcanaries-onionroutedcloud-18-04" {
 }
 
 variable "do_application_discourse-18-04" {
-  description = "Discourse on 18.04"
+  description = "Discourse 2.2.0 beta1 on Ubuntu 18.04"
   default     = "discourse-18-04"
 }
 
