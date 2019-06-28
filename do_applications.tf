@@ -77,6 +77,11 @@ variable "do_application_fastnetmon-18-04" {
   default     = "fastnetmon-18-04"
 }
 
+variable "do_application_flashphoner-7-6" {
+  description = "Flashphoner 5.2.133 on CentOS 7.6"
+  default     = "flashphoner-7-6"
+}
+
 variable "do_application_ghost-18-04" {
   description = "Ghost on 18.04"
   default     = "ghost-18-04"
