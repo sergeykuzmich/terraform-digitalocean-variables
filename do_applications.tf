@@ -98,7 +98,7 @@ variable "do_application_gitlab-ee-18-04" {
 }
 
 variable "do_application_grafana-18-04" {
-  description = "Grafana 6.2.2 on Ubuntu 18.04"
+  description = "Grafana 6.2.5 on Ubuntu 18.04"
   default     = "grafana-18-04"
 }
 
@@ -143,7 +143,7 @@ variable "do_application_microweber-18-04" {
 }
 
 variable "do_application_mongodb-18-04" {
-  description = "MongoDB 4.0.2 on 18.04"
+  description = "MongoDB 4.0.3 on 18.04"
   default     = "mongodb-18-04"
 }
 
