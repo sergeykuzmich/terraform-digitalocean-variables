@@ -22,6 +22,11 @@ variable "do_application_bitwarden-18-04" {
   default     = "bitwarden-18-04"
 }
 
+variable "do_application_buddy-18-04" {
+  description = "Buddy on 18.04"
+  default     = "buddy-18-04"
+}
+
 variable "do_application_caprover-18-04" {
   description = "CapRover 1.3.0 on Ubuntu 18.04"
   default     = "caprover-18-04"
@@ -137,6 +142,11 @@ variable "do_application_lemp-18-04" {
   default     = "lemp-18-04"
 }
 
+variable "do_application_mattermost-18-04" {
+  description = "Mattermost 5.12.0 on Ubuntu 18.04"
+  default     = "mattermost-18-04"
+}
+
 variable "do_application_microweber-18-04" {
   description = "Microweber on Ubuntu 18.04"
   default     = "microweber-18-04"
@@ -227,6 +237,11 @@ variable "do_application_plesk-18-04" {
   default     = "plesk-18-04"
 }
 
+variable "do_application_prometheus-18-04" {
+  description = "Prometheus 2.9.2 on Ubuntu 18.04"
+  default     = "prometheus-18-04"
+}
+
 variable "do_application_rails-18-04" {
   description = "Ruby-on-Rails on 18.04"
   default     = "rails-18-04"
@@ -245,6 +260,11 @@ variable "do_application_restyaboard-16-04" {
 variable "do_application_restyaboard-7-6" {
   description = "Restyaboard 0.6.7 on CentOS 7.6"
   default     = "restyaboard-7-6"
+}
+
+variable "do_application_rethinkdb-18-04" {
+  description = "RethinkDB 2.4.0 on Ubuntu 18.04"
+  default     = "rethinkdb-18-04"
 }
 
 variable "do_application_rocketchat-18-04" {
@@ -295,9 +315,4 @@ variable "do_application_zeromon-zabbix-18-04" {
 variable "do_application_zulip-18-04" {
   description = "Zulip 2.0.4 on Ubuntu 18.04"
   default     = "zulip-18-04"
-}
-
-variable "do_application_null" {
-  description = "Vitalpointz on CentOS 7.6"
-  default     = "null"
 }
