@@ -43,7 +43,7 @@ variable "do_application_countly-16-04" {
 }
 
 variable "do_application_cpanel-7-6" {
-  description = "cPanel 11.78 on CentOS 7.6"
+  description = "cPanel & WHM® 11.80.0.18 on CentOS 7.6"
   default     = "cpanel-7-6"
 }
 
@@ -82,6 +82,11 @@ variable "do_application_fastnetmon-18-04" {
   default     = "fastnetmon-18-04"
 }
 
+variable "do_application_fastpanel-deb-9" {
+  description = "FastPanel 1.7 on Debian 9"
+  default     = "fastpanel-deb-9"
+}
+
 variable "do_application_flashphoner-7-6" {
   description = "Flashphoner 5.2.133 on CentOS 7.6"
   default     = "flashphoner-7-6"
@@ -93,7 +98,7 @@ variable "do_application_ghost-18-04" {
 }
 
 variable "do_application_gitea-18-04" {
-  description = "Gitea on 18.04"
+  description = "Gitea 1.8.2 on Ubuntu 18.04"
   default     = "gitea-18-04"
 }
 
@@ -192,6 +197,11 @@ variable "do_application_onjection-jenkins-16-04" {
   default     = "onjection-jenkins-16-04"
 }
 
+variable "do_application_opencart-18-04" {
+  description = "OpenCart 3.0.3 on Ubuntu 18.04"
+  default     = "opencart-18-04"
+}
+
 variable "do_application_openfaas-18-04" {
   description = "OpenFaaS on Ubuntu 18.04"
   default     = "openfaas-18-04"
@@ -213,7 +223,7 @@ variable "do_application_openlitespeed-wp-18-04" {
 }
 
 variable "do_application_openvpn-18-04" {
-  description = "OpenVPN Access Server 2.7.3 on Ubuntu 18.04"
+  description = "OpenVPN Access Server 2.7.4 on Ubuntu 18.04"
   default     = "openvpn-18-04"
 }
 
@@ -233,7 +243,7 @@ variable "do_application_phpmyadmin-18-04" {
 }
 
 variable "do_application_plesk-18-04" {
-  description = "Plesk 17.8 on 18.04"
+  description = "Plesk 17.8 on Ubuntu 18.04"
   default     = "plesk-18-04"
 }
 
@@ -285,6 +295,11 @@ variable "do_application_shopware-18-04" {
 variable "do_application_simplystatistics-rstudio-18-04" {
   description = "RStudio 1.1 on Ubuntu 18.04"
   default     = "simplystatistics-rstudio-18-04"
+}
+
+variable "do_application_solidinvoice-18-04" {
+  description = "SolidInvoice 2.0.3 on Ubuntu 18.04"
+  default     = "solidinvoice-18-04"
 }
 
 variable "do_application_sourcegraph-18-04" {
