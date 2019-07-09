@@ -32,6 +32,11 @@ variable "do_distibution_coreos-stable" {
   default     = "coreos-stable"
 }
 
+variable "do_distibution_debian-10-x64" {
+  description = "Debian 10 x64"
+  default     = "debian-10-x64"
+}
+
 variable "do_distibution_debian-9-x64" {
   description = "Debian 9.7 x64"
   default     = "debian-9-x64"

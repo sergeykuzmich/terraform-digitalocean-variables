@@ -12,6 +12,11 @@ variable "do_application_akaunting-18-04" {
   default     = "akaunting-18-04"
 }
 
+variable "do_application_antmedia-16-04" {
+  description = "AntMedia Server CE on 16.04"
+  default     = "antmedia-16-04"
+}
+
 variable "do_application_ascensiosystem-onlyoffice-18-04" {
   description = "ONLYOFFICE 18.10 on Ubuntu 18.04"
   default     = "ascensiosystem-onlyoffice-18-04"
@@ -150,6 +155,11 @@ variable "do_application_lemp-18-04" {
 variable "do_application_mattermost-18-04" {
   description = "Mattermost 5.12.0 on Ubuntu 18.04"
   default     = "mattermost-18-04"
+}
+
+variable "do_application_memgraph-9-7" {
+  description = "Memgraph on Debian 9.7"
+  default     = "memgraph-9-7"
 }
 
 variable "do_application_microweber-18-04" {
