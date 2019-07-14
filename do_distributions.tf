@@ -62,14 +62,14 @@ variable "do_distibution_fedora-30-x64" {
   default     = "fedora-30-x64"
 }
 
-variable "do_distibution_freebsd-11-2-x64" {
-  description = "FreeBSD 11.2 x64 ufs"
-  default     = "freebsd-11-2-x64"
+variable "do_distibution_freebsd-11-x64-ufs" {
+  description = "FreeBSD 11.3 x64 ufs"
+  default     = "freebsd-11-x64-ufs"
 }
 
-variable "do_distibution_freebsd-11-2-x64-zfs" {
-  description = "FreeBSD 11.2 x64 zfs"
-  default     = "freebsd-11-2-x64-zfs"
+variable "do_distibution_freebsd-11-x64-zfs" {
+  description = "FreeBSD 11.3 x64 zfs"
+  default     = "freebsd-11-x64-zfs"
 }
 
 variable "do_distibution_freebsd-12-x64" {
