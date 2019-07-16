@@ -298,7 +298,7 @@ variable "do_application_selenoid-18-04" {
 }
 
 variable "do_application_sharklabs-pacvim-18-04" {
-  description = "PacVim Latest on Ubuntu 18.04"
+  description = "PacVim on Ubuntu 18.04"
   default     = "sharklabs-pacvim-18-04"
 }
 
