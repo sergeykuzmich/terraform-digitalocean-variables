@@ -137,6 +137,11 @@ variable "do_application_honeydbagent-9" {
   default     = "honeydbagent-9"
 }
 
+variable "do_application_influxdb-18-04" {
+  description = "Influx TICK on 18.04"
+  default     = "influxdb-18-04"
+}
+
 variable "do_application_jenkins-18-04" {
   description = "CloudBees Jenkins on 18.04"
   default     = "jenkins-18-04"
@@ -320,6 +325,11 @@ variable "do_application_solidinvoice-18-04" {
 variable "do_application_sourcegraph-18-04" {
   description = "Sourcegraph 3.4.1 on Ubuntu 18.04"
   default     = "sourcegraph-18-04"
+}
+
+variable "do_application_thingsboard-18-04" {
+  description = "ThingsBoard CE on Ubuntu 18.04"
+  default     = "thingsboard-18-04"
 }
 
 variable "do_application_vitalpointz-7-6" {
