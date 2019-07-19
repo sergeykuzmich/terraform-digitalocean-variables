@@ -162,11 +162,6 @@ variable "do_application_mattermost-18-04" {
   default     = "mattermost-18-04"
 }
 
-variable "do_application_memgraph-9-7" {
-  description = "Memgraph on Debian 9.7"
-  default     = "memgraph-9-7"
-}
-
 variable "do_application_microweber-18-04" {
   description = "Microweber on Ubuntu 18.04"
   default     = "microweber-18-04"
