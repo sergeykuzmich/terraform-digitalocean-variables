@@ -38,7 +38,7 @@ variable "do_application_caprover-18-04" {
 }
 
 variable "do_application_cloudron-18-04" {
-  description = "Cloudron 4.1.4 on Ubuntu 18.04"
+  description = "Cloudron 4.1.7 on Ubuntu 18.04"
   default     = "cloudron-18-04"
 }
 
