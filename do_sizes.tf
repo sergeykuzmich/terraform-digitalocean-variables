@@ -132,6 +132,36 @@ variable "do_size_gd-8vcpu-32gb" {
   default     = "gd-8vcpu-32gb"
 }
 
+variable "do_size_m-128gb" {
+  description = "128GB RAM; 16 CPU; 340GB SSD - $600/mo"
+  default     = "m-128gb"
+}
+
+variable "do_size_m-16gb" {
+  description = "16GB RAM; 2 CPU; 60GB SSD - $75/mo"
+  default     = "m-16gb"
+}
+
+variable "do_size_m-1vcpu-8gb" {
+  description = "8GB RAM; 1 CPU; 40GB SSD - $40/mo"
+  default     = "m-1vcpu-8gb"
+}
+
+variable "do_size_m-224gb" {
+  description = "224GB RAM; 32 CPU; 500GB SSD - $1100/mo"
+  default     = "m-224gb"
+}
+
+variable "do_size_m-32gb" {
+  description = "32GB RAM; 4 CPU; 90GB SSD - $150/mo"
+  default     = "m-32gb"
+}
+
+variable "do_size_m-64gb" {
+  description = "64GB RAM; 8 CPU; 200GB SSD - $300/mo"
+  default     = "m-64gb"
+}
+
 variable "do_size_s-12vcpu-48gb" {
   description = "48GB RAM; 12 CPU; 960GB SSD - $240/mo"
   default     = "s-12vcpu-48gb"

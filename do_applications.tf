@@ -218,7 +218,7 @@ variable "do_application_openfaas-18-04" {
 }
 
 variable "do_application_openlitespeed-django-18-04" {
-  description = "OpenLiteSpeed Django 2.2.1 on Ubuntu 18.04"
+  description = "OpenLiteSpeed Django 2.2.3 on Ubuntu 18.04"
   default     = "openlitespeed-django-18-04"
 }
 
@@ -228,7 +228,7 @@ variable "do_application_openlitespeed-node-18-04" {
 }
 
 variable "do_application_openlitespeed-wp-18-04" {
-  description = "OpenLiteSpeed WordPress 5.2 on Ubuntu 18.04"
+  description = "OpenLiteSpeed WordPress 5.2.2 on Ubuntu 18.04"
   default     = "openlitespeed-wp-18-04"
 }
 

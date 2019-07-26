@@ -93,17 +93,17 @@ variable "do_distibution_rancheros-1.4" {
 }
 
 variable "do_distibution_ubuntu-16-04-x32" {
-  description = "Ubuntu 16.04.6 x32"
+  description = "Ubuntu 16.04.6 (LTS) x32"
   default     = "ubuntu-16-04-x32"
 }
 
 variable "do_distibution_ubuntu-16-04-x64" {
-  description = "Ubuntu 16.04.6 x64"
+  description = "Ubuntu 16.04.6 (LTS) x64"
   default     = "ubuntu-16-04-x64"
 }
 
 variable "do_distibution_ubuntu-18-04-x64" {
-  description = "Ubuntu 18.04 x64"
+  description = "Ubuntu 18.04 (LTS) x64"
   default     = "ubuntu-18-04-x64"
 }
 
