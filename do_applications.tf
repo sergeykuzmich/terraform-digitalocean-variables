@@ -42,6 +42,11 @@ variable "do_application_cloudron-18-04" {
   default     = "cloudron-18-04"
 }
 
+variable "do_application_code-server-18-04" {
+  description = "code-server on Ubuntu 18.04"
+  default     = "code-server-18-04"
+}
+
 variable "do_application_countly-16-04" {
   description = "Countly 19.02 on Ubuntu 18.04"
   default     = "countly-16-04"
@@ -88,7 +93,7 @@ variable "do_application_fastnetmon-18-04" {
 }
 
 variable "do_application_fastpanel-deb-9" {
-  description = "FastPanel 1.7 on Debian 9"
+  description = "FastPanel 1.7 on Debian"
   default     = "fastpanel-deb-9"
 }
 
@@ -350,4 +355,9 @@ variable "do_application_zeromon-zabbix-18-04" {
 variable "do_application_zulip-18-04" {
   description = "Zulip 2.0.4 on Ubuntu 18.04"
   default     = "zulip-18-04"
+}
+
+variable "do_application_null" {
+  description = "Memgraph on Debian 9.7"
+  default     = "null"
 }
