@@ -53,7 +53,7 @@ variable "do_application_countly-16-04" {
 }
 
 variable "do_application_cpanel-7-6" {
-  description = "cPanel & WHM® 11.80.0.18 on CentOS 7.6"
+  description = "cPanel & WHM® 11.80.0.22 on CentOS 7.6"
   default     = "cpanel-7-6"
 }
 
@@ -167,6 +167,11 @@ variable "do_application_mattermost-18-04" {
   default     = "mattermost-18-04"
 }
 
+variable "do_application_memgraph-deb-9" {
+  description = "Memgraph on Debian 9.7"
+  default     = "memgraph-deb-9"
+}
+
 variable "do_application_microweber-18-04" {
   description = "Microweber on Ubuntu 18.04"
   default     = "microweber-18-04"
@@ -185,6 +190,11 @@ variable "do_application_mysql-18-04" {
 variable "do_application_nakama-18-04" {
   description = "Nakama 2.6.0 on Ubuntu 18.04"
   default     = "nakama-18-04"
+}
+
+variable "do_application_netfoundry-centos-7" {
+  description = "NetFoundry Cloud Gateway 4.18.1 on CentOS 7.6"
+  default     = "netfoundry-centos-7"
 }
 
 variable "do_application_nibblecomm-spotipo-18-04" {
@@ -355,9 +365,4 @@ variable "do_application_zeromon-zabbix-18-04" {
 variable "do_application_zulip-18-04" {
   description = "Zulip 2.0.4 on Ubuntu 18.04"
   default     = "zulip-18-04"
-}
-
-variable "do_application_null" {
-  description = "Memgraph on Debian 9.7"
-  default     = "null"
 }
