@@ -12,6 +12,11 @@ variable "do_application_akaunting-18-04" {
   default     = "akaunting-18-04"
 }
 
+variable "do_application_alfio-7-6" {
+  description = "alf.io 2.0 on CentOS 7.6"
+  default     = "alfio-7-6"
+}
+
 variable "do_application_antmedia-16-04" {
   description = "AntMedia Server CE on 16.04"
   default     = "antmedia-16-04"
@@ -67,6 +72,11 @@ variable "do_application_deadcanaries-onionroutedcloud-18-04" {
   default     = "deadcanaries-onionroutedcloud-18-04"
 }
 
+variable "do_application_deadletter-18-04" {
+  description = "DeadLetter Facial Recognition on 18.04"
+  default     = "deadletter-18-04"
+}
+
 variable "do_application_discourse-18-04" {
   description = "Discourse 2.2.0 beta1 on Ubuntu 18.04"
   default     = "discourse-18-04"
@@ -102,6 +112,11 @@ variable "do_application_flashphoner-7-6" {
   default     = "flashphoner-7-6"
 }
 
+variable "do_application_flexify-18-04" {
+  description = "Flexify 2.8.1 on Ubuntu 18.04"
+  default     = "flexify-18-04"
+}
+
 variable "do_application_ghost-18-04" {
   description = "Ghost on 18.04"
   default     = "ghost-18-04"
@@ -118,7 +133,7 @@ variable "do_application_gitlab-ee-18-04" {
 }
 
 variable "do_application_grafana-18-04" {
-  description = "Grafana 6.2.5 on Ubuntu 18.04"
+  description = "Grafana 6.3.0 on Ubuntu 18.04"
   default     = "grafana-18-04"
 }
 
@@ -147,6 +162,11 @@ variable "do_application_influxdb-18-04" {
   default     = "influxdb-18-04"
 }
 
+variable "do_application_izenda-18-04" {
+  description = "Izenda 3.3.1 on Ubuntu 18.04"
+  default     = "izenda-18-04"
+}
+
 variable "do_application_jenkins-18-04" {
   description = "CloudBees Jenkins on 18.04"
   default     = "jenkins-18-04"
@@ -167,9 +187,14 @@ variable "do_application_mattermost-18-04" {
   default     = "mattermost-18-04"
 }
 
-variable "do_application_memgraph-deb-9" {
+variable "do_application_memgraph-9-7" {
   description = "Memgraph on Debian 9.7"
-  default     = "memgraph-deb-9"
+  default     = "memgraph-9-7"
+}
+
+variable "do_application_metabase-18-04" {
+  description = "Metabase 0.32 on Ubuntu 18.04"
+  default     = "metabase-18-04"
 }
 
 variable "do_application_microweber-18-04" {
@@ -192,9 +217,9 @@ variable "do_application_nakama-18-04" {
   default     = "nakama-18-04"
 }
 
-variable "do_application_netfoundry-centos-7" {
+variable "do_application_netfoundry-7-6" {
   description = "NetFoundry Cloud Gateway 4.18.1 on CentOS 7.6"
-  default     = "netfoundry-centos-7"
+  default     = "netfoundry-7-6"
 }
 
 variable "do_application_nibblecomm-spotipo-18-04" {
@@ -247,9 +272,9 @@ variable "do_application_openlitespeed-wp-18-04" {
   default     = "openlitespeed-wp-18-04"
 }
 
-variable "do_application_openvpn-server-18-04" {
+variable "do_application_openvpn-18-04" {
   description = "OpenVPN Access Server 2.7.4 on Ubuntu 18.04"
-  default     = "openvpn-server-18-04"
+  default     = "openvpn-18-04"
 }
 
 variable "do_application_ossn-18-04" {
@@ -270,6 +295,11 @@ variable "do_application_phpmyadmin-18-04" {
 variable "do_application_plesk-18-04" {
   description = "Plesk 17.8 on Ubuntu 18.04"
   default     = "plesk-18-04"
+}
+
+variable "do_application_plesk-7-6" {
+  description = "Plesk 17.8 on CentOS 7"
+  default     = "plesk-7-6"
 }
 
 variable "do_application_prometheus-18-04" {
@@ -327,6 +357,11 @@ variable "do_application_simplystatistics-rstudio-18-04" {
   default     = "simplystatistics-rstudio-18-04"
 }
 
+variable "do_application_skaffolder-18-04" {
+  description = "Skaffolder 3.0 on Ubuntu 18.04"
+  default     = "skaffolder-18-04"
+}
+
 variable "do_application_solidinvoice-18-04" {
   description = "SolidInvoice 2.0.3 on Ubuntu 18.04"
   default     = "solidinvoice-18-04"
@@ -342,9 +377,19 @@ variable "do_application_thingsboard-18-04" {
   default     = "thingsboard-18-04"
 }
 
+variable "do_application_thingsboardpe-18-04" {
+  description = "ThingsBoard PE on Ubuntu 18.04"
+  default     = "thingsboardpe-18-04"
+}
+
 variable "do_application_vitalpointz-7-6" {
   description = "Vitalpointz 1.0.1 on CentOS 7.6"
   default     = "vitalpointz-7-6"
+}
+
+variable "do_application_weconexpbx-7-6" {
+  description = "WeconexPBX 2.3.4 on CentOS 7.6"
+  default     = "weconexpbx-7-6"
 }
 
 variable "do_application_wordpress-18-04" {
