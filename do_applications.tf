@@ -182,6 +182,11 @@ variable "do_application_lemp-18-04" {
   default     = "lemp-18-04"
 }
 
+variable "do_application_mastodon-18-04" {
+  description = "Mastodon 2.9.3 on Ubuntu 18.04"
+  default     = "mastodon-18-04"
+}
+
 variable "do_application_mattermost-18-04" {
   description = "Mattermost 5.12.0 on Ubuntu 18.04"
   default     = "mattermost-18-04"
@@ -283,7 +288,7 @@ variable "do_application_ossn-18-04" {
 }
 
 variable "do_application_passbolt-18-04" {
-  description = "Passbolt 2.10 on Ubuntu 18.04"
+  description = "Passbolt CE 2.11 on Ubuntu 18.04"
   default     = "passbolt-18-04"
 }
 
