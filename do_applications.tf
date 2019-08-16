@@ -93,7 +93,7 @@ variable "do_application_django-18-04" {
 }
 
 variable "do_application_docker-18-04" {
-  description = "Docker 5:18.09.6~3 on 18.04"
+  description = "Docker 5:19.03.1~3 on 18.04"
   default     = "docker-18-04"
 }
 
