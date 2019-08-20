@@ -72,6 +72,11 @@ variable "do_application_cyberpanel-18-04" {
   default     = "cyberpanel-18-04"
 }
 
+variable "do_application_cyberscore-18-04" {
+  description = "CyberScore 5.0.1 on Ubuntu 18.04.3"
+  default     = "cyberscore-18-04"
+}
+
 variable "do_application_deadcanaries-onionroutedcloud-18-04" {
   description = "Onion Routed Cloud 14 on 18.04"
   default     = "deadcanaries-onionroutedcloud-18-04"
