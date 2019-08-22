@@ -2,11 +2,6 @@
 ##  One Click Applications
 #
 
-variable "do_application_ gitea-18-04" {
-  description = "Gitea 1.8.2 on Ubuntu 18.04"
-  default     = " gitea-18-04"
-}
-
 variable "do_application_acra-18-04" {
   description = "Acra 0.85.0 on Ubuntu 18.04"
   default     = "acra-18-04"
@@ -130,6 +125,11 @@ variable "do_application_flexify-18-04" {
 variable "do_application_ghost-18-04" {
   description = "Ghost on 18.04"
   default     = "ghost-18-04"
+}
+
+variable "do_application_gitea-18-04" {
+  description = "Gitea 1.8.2 on Ubuntu 18.04"
+  default     = "gitea-18-04"
 }
 
 variable "do_application_gitlab-ee-18-04" {
@@ -390,6 +390,11 @@ variable "do_application_thingsboard-18-04" {
 variable "do_application_thingsboardpe-18-04" {
   description = "ThingsBoard PE on Ubuntu 18.04"
   default     = "thingsboardpe-18-04"
+}
+
+variable "do_application_vardot-varbase-18-04" {
+  description = "Varbase 8.6.11 on Ubuntu 18.04"
+  default     = "vardot-varbase-18-04"
 }
 
 variable "do_application_vitalpointz-7-6" {
