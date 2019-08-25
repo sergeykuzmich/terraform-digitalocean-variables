@@ -83,7 +83,7 @@ variable "do_distibution_freebsd-12-x64-zfs" {
 }
 
 variable "do_distibution_rancheros" {
-  description = "RancherOS v1.5.2"
+  description = "RancherOS v1.5.4"
   default     = "rancheros"
 }
 
