@@ -2,6 +2,11 @@
 ##  One Click Applications
 #
 
+variable "do_application_ azuracast-18-04" {
+  description = "AzuraCast 0.9.6.2 on Ubuntu 18.04"
+  default     = " azuracast-18-04"
+}
+
 variable "do_application_acra-18-04" {
   description = "Acra 0.85.0 on Ubuntu 18.04"
   default     = "acra-18-04"
