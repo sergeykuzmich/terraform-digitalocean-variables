@@ -7,6 +7,11 @@ variable "do_application_ azuracast-18-04" {
   default     = " azuracast-18-04"
 }
 
+variable "do_application_ quickcorp-qcobjects-18-04" {
+  description = "QCObjects 2.1.157 on Ubuntu 18.04"
+  default     = " quickcorp-qcobjects-18-04"
+}
+
 variable "do_application_acra-18-04" {
   description = "Acra 0.85.0 on Ubuntu 18.04"
   default     = "acra-18-04"
@@ -170,6 +175,11 @@ variable "do_application_honeydbagent-9" {
 variable "do_application_influxdb-18-04" {
   description = "Influx TICK on 18.04"
   default     = "influxdb-18-04"
+}
+
+variable "do_application_invoiceninja-18-04" {
+  description = "Invoice Ninja 1.0.0 on Ubuntu 18.0.4"
+  default     = "invoiceninja-18-04"
 }
 
 variable "do_application_izenda-18-04" {
