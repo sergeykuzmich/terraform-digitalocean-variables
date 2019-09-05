@@ -2,16 +2,6 @@
 ##  One Click Applications
 #
 
-variable "do_application_ azuracast-18-04" {
-  description = "AzuraCast 0.9.6.2 on Ubuntu 18.04"
-  default     = " azuracast-18-04"
-}
-
-variable "do_application_ quickcorp-qcobjects-18-04" {
-  description = "QCObjects 2.1.157 on Ubuntu 18.04"
-  default     = " quickcorp-qcobjects-18-04"
-}
-
 variable "do_application_acra-18-04" {
   description = "Acra 0.85.0 on Ubuntu 18.04"
   default     = "acra-18-04"
@@ -37,6 +27,11 @@ variable "do_application_ascensiosystem-onlyoffice-18-04" {
   default     = "ascensiosystem-onlyoffice-18-04"
 }
 
+variable "do_application_azuracast-18-04" {
+  description = "AzuraCast 0.9.6.2 on Ubuntu 18.04"
+  default     = "azuracast-18-04"
+}
+
 variable "do_application_bitwarden-18-04" {
   description = "Bitwarden on Ubuntu 18.04"
   default     = "bitwarden-18-04"
@@ -50,6 +45,11 @@ variable "do_application_buddy-18-04" {
 variable "do_application_caprover-18-04" {
   description = "CapRover 1.3.0 on Ubuntu 18.04"
   default     = "caprover-18-04"
+}
+
+variable "do_application_chamilo-18-04" {
+  description = "Chamilo v1.11.10 on Ubuntu 18.04"
+  default     = "chamilo-18-04"
 }
 
 variable "do_application_cloudron-18-04" {
@@ -330,6 +330,11 @@ variable "do_application_plesk-7-6" {
 variable "do_application_prometheus-18-04" {
   description = "Prometheus 2.9.2 on Ubuntu 18.04"
   default     = "prometheus-18-04"
+}
+
+variable "do_application_quickcorp-qcobjects-18-04" {
+  description = "QCObjects 2.1.157 on Ubuntu 18.04"
+  default     = "quickcorp-qcobjects-18-04"
 }
 
 variable "do_application_rails-18-04" {
