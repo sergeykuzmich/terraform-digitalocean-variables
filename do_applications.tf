@@ -423,7 +423,7 @@ variable "do_application_vitalpointz-7-6" {
 }
 
 variable "do_application_weconexpbx-7-6" {
-  description = "WeconexPBX 2.3.5-3  on CentOS 7.6"
+  description = "weconex PBX 3"
   default     = "weconexpbx-7-6"
 }
 
