@@ -298,7 +298,7 @@ variable "do_application_openlitespeed-wp-18-04" {
 }
 
 variable "do_application_openvpn-18-04" {
-  description = "OpenVPN Access Server 2.7.4 on Ubuntu 18.04"
+  description = "OpenVPN Access Server 2.7.5 on Ubuntu 18.04"
   default     = "openvpn-18-04"
 }
 
