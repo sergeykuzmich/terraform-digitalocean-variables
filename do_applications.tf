@@ -62,9 +62,9 @@ variable "do_application_code-server-18-04" {
   default     = "code-server-18-04"
 }
 
-variable "do_application_countly-16-04" {
-  description = "Countly 19.02 on Ubuntu 18.04"
-  default     = "countly-16-04"
+variable "do_application_countly-18-04" {
+  description = "Countly 19.08.1 on Ubuntu 18.04"
+  default     = "countly-18-04"
 }
 
 variable "do_application_cpanel-7-6" {
@@ -145,6 +145,11 @@ variable "do_application_gitea-18-04" {
 variable "do_application_gitlab-ee-18-04" {
   description = "GitLab 11.80 on Ubuntu 18.04"
   default     = "gitlab-ee-18-04"
+}
+
+variable "do_application_gitlab-meltano-18-04" {
+  description = "Meltano 0.42.0 on Ubuntu 18.04"
+  default     = "gitlab-meltano-18-04"
 }
 
 variable "do_application_grafana-18-04" {
