@@ -373,7 +373,7 @@ variable "do_application_rocketchat-18-04" {
 }
 
 variable "do_application_selenoid-18-04" {
-  description = "Selenoid 1.9.1 on Ubuntu 18.04"
+  description = "Selenoid 1.9.2 on Ubuntu 18.04"
   default     = "selenoid-18-04"
 }
 
