@@ -48,7 +48,7 @@ variable "do_application_caprover-18-04" {
 }
 
 variable "do_application_chamilo-18-04" {
-  description = "Chamilo v1.11.10 on Ubuntu 18.04"
+  description = "Chamilo 1.11.10 on Ubuntu 18.04"
   default     = "chamilo-18-04"
 }
 
@@ -448,6 +448,6 @@ variable "do_application_zeromon-zabbix-18-04" {
 }
 
 variable "do_application_zulip-18-04" {
-  description = "Zulip 2.0.4 on Ubuntu 18.04"
+  description = "Zulip 2.0.5 on Ubuntu 18.04"
   default     = "zulip-18-04"
 }
