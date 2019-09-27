@@ -122,6 +122,11 @@ variable "do_application_fastpanel-deb-9" {
   default     = "fastpanel-deb-9"
 }
 
+variable "do_application_fathom-18-04" {
+  description = "Fathom on 18.04"
+  default     = "fathom-18-04"
+}
+
 variable "do_application_flashphoner-7-6" {
   description = "Flashphoner 5.2.259 on CentOS 7.6"
   default     = "flashphoner-7-6"
