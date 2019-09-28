@@ -327,6 +327,11 @@ variable "do_application_phpmyadmin-18-04" {
   default     = "phpmyadmin-18-04"
 }
 
+variable "do_application_pihole-18-04" {
+  description = "OpenVPN pi-hole on 18.04"
+  default     = "pihole-18-04"
+}
+
 variable "do_application_plesk-18-04" {
   description = "Plesk 17.8 on Ubuntu 18.04"
   default     = "plesk-18-04"

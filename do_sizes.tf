@@ -172,11 +172,6 @@ variable "do_size_m-32gb" {
   default     = "m-32gb"
 }
 
-variable "do_size_m-32vcpu-256gb" {
-  description = "256GB RAM; 32 CPU; 800GB SSD - $1440/mo"
-  default     = "m-32vcpu-256gb"
-}
-
 variable "do_size_m-4vcpu-32gb" {
   description = "32GB RAM; 4 CPU; 100GB SSD - $180/mo"
   default     = "m-4vcpu-32gb"
@@ -207,11 +202,6 @@ variable "do_size_m3-2vcpu-16gb" {
   default     = "m3-2vcpu-16gb"
 }
 
-variable "do_size_m3-32vcpu-256gb" {
-  description = "256GB RAM; 32 CPU; 2.34375TB SSD - $1760/mo"
-  default     = "m3-32vcpu-256gb"
-}
-
 variable "do_size_m3-4vcpu-32gb" {
   description = "32GB RAM; 4 CPU; 300GB SSD - $220/mo"
   default     = "m3-4vcpu-32gb"
@@ -235,11 +225,6 @@ variable "do_size_m6-24vcpu-192gb" {
 variable "do_size_m6-2vcpu-16gb" {
   description = "16GB RAM; 2 CPU; 300GB SSD - $140/mo"
   default     = "m6-2vcpu-16gb"
-}
-
-variable "do_size_m6-32vcpu-256gb" {
-  description = "256GB RAM; 32 CPU; 4.6875TB SSD - $2240/mo"
-  default     = "m6-32vcpu-256gb"
 }
 
 variable "do_size_m6-4vcpu-32gb" {
