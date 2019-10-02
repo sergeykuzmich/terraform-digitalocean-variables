@@ -68,7 +68,7 @@ variable "do_application_countly-18-04" {
 }
 
 variable "do_application_cpanel-7-6" {
-  description = "cPanel & WHM® 11.80.0.22 on CentOS 7.6"
+  description = "cPanel & WHM® 82.0.15 on CentOS 7.6"
   default     = "cpanel-7-6"
 }
 
@@ -153,7 +153,7 @@ variable "do_application_gitlab-ee-18-04" {
 }
 
 variable "do_application_gitlab-meltano-18-04" {
-  description = "Meltano 0.42.0 on Ubuntu 18.04"
+  description = "Meltano 0.43.0 on Ubuntu 18.04"
   default     = "gitlab-meltano-18-04"
 }
 
@@ -253,7 +253,7 @@ variable "do_application_nakama-18-04" {
 }
 
 variable "do_application_netfoundry-7-6" {
-  description = "NetFoundry Cloud Gateway 4.18.1 on CentOS 7.6"
+  description = "NetFoundry Cloud Gateway 5.0.0 on CentOS 7.7"
   default     = "netfoundry-7-6"
 }
 
@@ -328,7 +328,7 @@ variable "do_application_phpmyadmin-18-04" {
 }
 
 variable "do_application_pihole-18-04" {
-  description = "OpenVPN pi-hole on 18.04"
+  description = "OpenVPN + Pihole 1.0.1 on Ubuntu 18.04"
   default     = "pihole-18-04"
 }
 
@@ -428,7 +428,7 @@ variable "do_application_thingsboardpe-18-04" {
 }
 
 variable "do_application_vardot-varbase-18-04" {
-  description = "Varbase 8.6.11 on Ubuntu 18.04"
+  description = "Varbase 8.7.11 on Ubuntu 18.04"
   default     = "vardot-varbase-18-04"
 }
 
