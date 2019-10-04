@@ -33,7 +33,7 @@ variable "do_distibution_coreos-stable" {
 }
 
 variable "do_distibution_debian-10-x64" {
-  description = "Debian debian-10 x64"
+  description = "Debian 10 x64"
   default     = "debian-10-x64"
 }
 
