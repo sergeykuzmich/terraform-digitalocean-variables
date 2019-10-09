@@ -248,7 +248,7 @@ variable "do_application_mysql-18-04" {
 }
 
 variable "do_application_nakama-18-04" {
-  description = "Nakama 2.6.0 on Ubuntu 18.04"
+  description = "Nakama 2.7.0 on Ubuntu 18.04"
   default     = "nakama-18-04"
 }
 
