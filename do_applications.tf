@@ -53,7 +53,7 @@ variable "do_application_chamilo-18-04" {
 }
 
 variable "do_application_cloudron-18-04" {
-  description = "Cloudron 4.1.7 on Ubuntu 18.04"
+  description = "Cloudron 4.2.6 on Ubuntu 18.04"
   default     = "cloudron-18-04"
 }
 
@@ -153,7 +153,7 @@ variable "do_application_gitlab-ee-18-04" {
 }
 
 variable "do_application_gitlab-meltano-18-04" {
-  description = "Meltano 0.43.0 on Ubuntu 18.04"
+  description = "Meltano 1.0.1 on Ubuntu 18.04"
   default     = "gitlab-meltano-18-04"
 }
 
@@ -233,7 +233,7 @@ variable "do_application_metabase-18-04" {
 }
 
 variable "do_application_microweber-18-04" {
-  description = "Microweber on Ubuntu 18.04"
+  description = "Microweber 1.1.12 on Ubuntu 18.04"
   default     = "microweber-18-04"
 }
 
@@ -333,12 +333,12 @@ variable "do_application_pihole-18-04" {
 }
 
 variable "do_application_plesk-18-04" {
-  description = "Plesk 17.8 on Ubuntu 18.04"
+  description = "Plesk 18.0 on Ubuntu 18.04"
   default     = "plesk-18-04"
 }
 
 variable "do_application_plesk-7-6" {
-  description = "Plesk 17.8 on CentOS 7"
+  description = "Plesk 18.0 on CentOS 7.7"
   default     = "plesk-7-6"
 }
 
@@ -412,11 +412,6 @@ variable "do_application_solidinvoice-18-04" {
   default     = "solidinvoice-18-04"
 }
 
-variable "do_application_sourcegraph-18-04" {
-  description = "Sourcegraph 3.4.1 on Ubuntu 18.04"
-  default     = "sourcegraph-18-04"
-}
-
 variable "do_application_thingsboard-18-04" {
   description = "ThingsBoard CE on Ubuntu 18.04"
   default     = "thingsboard-18-04"
@@ -425,6 +420,21 @@ variable "do_application_thingsboard-18-04" {
 variable "do_application_thingsboardpe-18-04" {
   description = "ThingsBoard PE on Ubuntu 18.04"
   default     = "thingsboardpe-18-04"
+}
+
+variable "do_application_zabbix-7-6" {
+  description = "Zabbix 4.2.0 on 7.6"
+  default     = "zabbix-7-6"
+}
+
+variable "do_application_null" {
+  description = "Plesk 17.8 on CentOS 7"
+  default     = "null"
+}
+
+variable "do_application_sourcegraph-18-04" {
+  description = "Sourcegraph 3.4.1 on Ubuntu 18.04"
+  default     = "sourcegraph-18-04"
 }
 
 variable "do_application_vardot-varbase-18-04" {
@@ -445,11 +455,6 @@ variable "do_application_weconexpbx-7-6" {
 variable "do_application_wordpress-18-04" {
   description = "WordPress on 18.04"
   default     = "wordpress-18-04"
-}
-
-variable "do_application_zabbix-7-6" {
-  description = "Zabbix 4.2.0 on 7.6"
-  default     = "zabbix-7-6"
 }
 
 variable "do_application_zeromon-zabbix-18-04" {
