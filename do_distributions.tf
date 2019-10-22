@@ -33,7 +33,7 @@ variable "do_distibution_coreos-stable" {
 }
 
 variable "do_distibution_debian-10-x64" {
-  description = "Debian debian-10 x64"
+  description = "Debian 10.0 x64"
   default     = "debian-10-x64"
 }
 
@@ -110,4 +110,9 @@ variable "do_distibution_ubuntu-18-04-x64" {
 variable "do_distibution_ubuntu-19-04-x64" {
   description = "Ubuntu 19.04 x64"
   default     = "ubuntu-19-04-x64"
+}
+
+variable "do_distibution_ubuntu-19-10-x64" {
+  description = "Ubuntu 19.10 x64"
+  default     = "ubuntu-19-10-x64"
 }

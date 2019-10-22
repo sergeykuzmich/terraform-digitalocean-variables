@@ -42,6 +42,11 @@ variable "do_application_bitwarden-18-04" {
   default     = "bitwarden-18-04"
 }
 
+variable "do_application_botpress-18-04" {
+  description = "Botpress 12.1.6 on Ubuntu 18.04"
+  default     = "botpress-18-04"
+}
+
 variable "do_application_buddy-18-04" {
   description = "Buddy on 18.04"
   default     = "buddy-18-04"
@@ -427,24 +432,9 @@ variable "do_application_thingsboardpe-18-04" {
   default     = "thingsboardpe-18-04"
 }
 
-variable "do_application_weconexpbx-7-6" {
-  description = "weconex PBX 3"
-  default     = "weconexpbx-7-6"
-}
-
-variable "do_application_wordpress-18-04" {
-  description = "WordPress on 18.04"
-  default     = "wordpress-18-04"
-}
-
 variable "do_application_zabbix-7-6" {
   description = "Zabbix 4.2.0 on 7.6"
   default     = "zabbix-7-6"
-}
-
-variable "do_application_zeromon-zabbix-18-04" {
-  description = "Zeromon Zabbix 4 on Ubuntu 18.04"
-  default     = "zeromon-zabbix-18-04"
 }
 
 variable "do_application_null" {
@@ -465,6 +455,21 @@ variable "do_application_vardot-varbase-18-04" {
 variable "do_application_vitalpointz-7-6" {
   description = "Vitalpointz 1.0.1 on CentOS 7.6"
   default     = "vitalpointz-7-6"
+}
+
+variable "do_application_weconexpbx-7-6" {
+  description = "weconex PBX 3"
+  default     = "weconexpbx-7-6"
+}
+
+variable "do_application_wordpress-18-04" {
+  description = "WordPress on 18.04"
+  default     = "wordpress-18-04"
+}
+
+variable "do_application_zeromon-zabbix-18-04" {
+  description = "Zeromon Zabbix 4 on Ubuntu 18.04"
+  default     = "zeromon-zabbix-18-04"
 }
 
 variable "do_application_zulip-18-04" {
