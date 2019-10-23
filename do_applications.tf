@@ -83,7 +83,7 @@ variable "do_application_cpanel-7-6" {
 }
 
 variable "do_application_cyberpanel-18-04" {
-  description = "CyberPanel 1.8.8 on Ubuntu 18.04"
+  description = "CyberPanel 1.9.1 on Ubuntu 18.04"
   default     = "cyberpanel-18-04"
 }
 
@@ -278,7 +278,7 @@ variable "do_application_nimbella-18-04" {
 }
 
 variable "do_application_nknfullnode-18-04" {
-  description = "NKN Full Node 1.0 on Ubuntu 18.04"
+  description = "NKN Full Node 1.1 on Ubuntu 18.04"
   default     = "nknfullnode-18-04"
 }
 
