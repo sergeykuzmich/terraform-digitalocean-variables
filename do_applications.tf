@@ -463,7 +463,7 @@ variable "do_application_vardot-varbase-18-04" {
 }
 
 variable "do_application_vitalpointz-7-6" {
-  description = "Vitalpointz 1.0.1 on CentOS 7.6"
+  description = "vitalpointz IoT Core Lite 1.1.0 on CentOS 7.6"
   default     = "vitalpointz-7-6"
 }
 
