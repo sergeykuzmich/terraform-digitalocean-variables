@@ -158,7 +158,7 @@ variable "do_application_gitlab-ee-18-04" {
 }
 
 variable "do_application_gitlab-meltano-18-04" {
-  description = "Meltano 1.0.1 on Ubuntu 18.04"
+  description = "Meltano 1.2.1 on Ubuntu 18.04"
   default     = "gitlab-meltano-18-04"
 }
 
@@ -238,7 +238,7 @@ variable "do_application_metabase-18-04" {
 }
 
 variable "do_application_microweber-18-04" {
-  description = "Microweber 1.1.12 on Ubuntu 18.04"
+  description = "Microweber 1.1.13 on Ubuntu 18.04"
   default     = "microweber-18-04"
 }
 
@@ -363,7 +363,7 @@ variable "do_application_rails-18-04" {
 }
 
 variable "do_application_redash-18-04" {
-  description = "Redash 6.0.0 on Ubuntu 18.04"
+  description = "Redash 8.0.0 on Ubuntu 18.04"
   default     = "redash-18-04"
 }
 
