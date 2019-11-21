@@ -78,7 +78,7 @@ variable "do_application_cpanel-7-6" {
 }
 
 variable "do_application_cyberpanel-18-04" {
-  description = "CyberPanel 1.9.1 on Ubuntu 18.04"
+  description = "CyberPanel 1.9.2 on Ubuntu 18.04"
   default     = "cyberpanel-18-04"
 }
 
@@ -153,7 +153,7 @@ variable "do_application_gitea-18-04" {
 }
 
 variable "do_application_gitlab-meltano-18-04" {
-  description = "Meltano 1.5.0 on Ubuntu 18.04"
+  description = "Meltano 1.6.0 on Ubuntu 18.04"
   default     = "gitlab-meltano-18-04"
 }
 
@@ -198,7 +198,7 @@ variable "do_application_izenda-18-04" {
 }
 
 variable "do_application_jelastic-jelasticpaas-7" {
-  description = "Jelastic PaaS 5.7-6 on Centos 7"
+  description = "Jelastic PaaS 5.7-8 on Centos 7"
   default     = "jelastic-jelasticpaas-7"
 }
 
@@ -223,7 +223,7 @@ variable "do_application_mastodon-18-04" {
 }
 
 variable "do_application_mattermost-18-04" {
-  description = "Mattermost 5.12.0 on Ubuntu 18.04"
+  description = "Mattermost 5.16.3 on Ubuntu 18.04"
   default     = "mattermost-18-04"
 }
 
@@ -258,7 +258,7 @@ variable "do_application_nakama-18-04" {
 }
 
 variable "do_application_netfoundry-7-6" {
-  description = "NetFoundry Cloud Gateway 5.0.0 on CentOS 7.7"
+  description = "NetFoundry Cloud Gateway 6.0.0 on CentOS 7.7"
   default     = "netfoundry-7-6"
 }
 
@@ -383,7 +383,7 @@ variable "do_application_rethinkdb-18-04" {
 }
 
 variable "do_application_rocketchat-18-04" {
-  description = "Rocket.Chat 1.1.1 on Ubuntu 18.04"
+  description = "Rocket.Chat 2.1.0 on Ubuntu 18.04"
   default     = "rocketchat-18-04"
 }
 
