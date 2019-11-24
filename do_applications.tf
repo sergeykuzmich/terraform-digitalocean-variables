@@ -308,7 +308,7 @@ variable "do_application_openlitespeed-node-18-04" {
 }
 
 variable "do_application_openlitespeed-wp-18-04" {
-  description = "OpenLiteSpeed WordPress 5.2.2 on Ubuntu 18.04"
+  description = "OpenLiteSpeed WordPress 5.3 on Ubuntu 18.04"
   default     = "openlitespeed-wp-18-04"
 }
 
@@ -468,6 +468,6 @@ variable "do_application_vitalpointz-7-6" {
 }
 
 variable "do_application_zulip-18-04" {
-  description = "Zulip 2.0.5 on Ubuntu 18.04"
+  description = "Zulip 2.0.7 on Ubuntu 18.04"
   default     = "zulip-18-04"
 }
