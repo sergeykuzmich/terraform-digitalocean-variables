@@ -152,6 +152,11 @@ variable "do_application_gitea-18-04" {
   default     = "gitea-18-04"
 }
 
+variable "do_application_gitlab-ee-18-04" {
+  description = "GitLab Enterprise Edition 12.4.3 on Ubuntu 18.04"
+  default     = "gitlab-ee-18-04"
+}
+
 variable "do_application_gitlab-meltano-18-04" {
   description = "Meltano 1.6.0 on Ubuntu 18.04"
   default     = "gitlab-meltano-18-04"
@@ -427,24 +432,9 @@ variable "do_application_thingsboardpe-18-04" {
   default     = "thingsboardpe-18-04"
 }
 
-variable "do_application_weconexpbx-7-6" {
-  description = "weconex PBX 3"
-  default     = "weconexpbx-7-6"
-}
-
-variable "do_application_wordpress-18-04" {
-  description = "WordPress on 18.04"
-  default     = "wordpress-18-04"
-}
-
 variable "do_application_zabbix-7-6" {
   description = "Zabbix 4.2.0 on 7.6"
   default     = "zabbix-7-6"
-}
-
-variable "do_application_zeromon-zabbix-18-04" {
-  description = "Zeromon Zabbix 4 on Ubuntu 18.04"
-  default     = "zeromon-zabbix-18-04"
 }
 
 variable "do_application_null" {
@@ -465,6 +455,21 @@ variable "do_application_vardot-varbase-18-04" {
 variable "do_application_vitalpointz-7-6" {
   description = "vitalpointz IoT Core Lite 1.1.0 on CentOS 7.6"
   default     = "vitalpointz-7-6"
+}
+
+variable "do_application_weconexpbx-7-6" {
+  description = "weconex PBX 3"
+  default     = "weconexpbx-7-6"
+}
+
+variable "do_application_wordpress-18-04" {
+  description = "WordPress on 18.04"
+  default     = "wordpress-18-04"
+}
+
+variable "do_application_zeromon-zabbix-18-04" {
+  description = "Zeromon Zabbix 4 on Ubuntu 18.04"
+  default     = "zeromon-zabbix-18-04"
 }
 
 variable "do_application_zulip-18-04" {
