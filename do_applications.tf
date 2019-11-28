@@ -47,6 +47,11 @@ variable "do_application_buddy-18-04" {
   default     = "buddy-18-04"
 }
 
+variable "do_application_caddy-18-04" {
+  description = "Caddy 2.0.0-beta10 on Ubuntu 18.04"
+  default     = "caddy-18-04"
+}
+
 variable "do_application_caprover-18-04" {
   description = "CapRover 1.3.0 on Ubuntu 18.04"
   default     = "caprover-18-04"
@@ -58,7 +63,7 @@ variable "do_application_chamilo-18-04" {
 }
 
 variable "do_application_cloudron-18-04" {
-  description = "Cloudron 4.2.6 on Ubuntu 18.04"
+  description = "Cloudron 4.3.4 on Ubuntu 18.04"
   default     = "cloudron-18-04"
 }
 
@@ -158,7 +163,7 @@ variable "do_application_gitlab-ee-18-04" {
 }
 
 variable "do_application_gitlab-meltano-18-04" {
-  description = "Meltano 1.6.0 on Ubuntu 18.04"
+  description = "Meltano 1.7.2 on Ubuntu 18.04"
   default     = "gitlab-meltano-18-04"
 }
 
@@ -385,6 +390,11 @@ variable "do_application_restyaboard-7-6" {
 variable "do_application_rethinkdb-18-04" {
   description = "RethinkDB 2.4.0 on Ubuntu 18.04"
   default     = "rethinkdb-18-04"
+}
+
+variable "do_application_rethinkdb-rethinkdbfantasi-18-04" {
+  description = "RethinkDB (Fantasia) 2.3.7 on Ubuntu 18.04"
+  default     = "rethinkdb-rethinkdbfantasi-18-04"
 }
 
 variable "do_application_rocketchat-18-04" {
