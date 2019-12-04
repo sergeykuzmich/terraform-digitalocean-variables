@@ -22,6 +22,16 @@ variable "do_application_antmedia-16-04" {
   default     = "antmedia-16-04"
 }
 
+variable "do_application_apisnetworks-apnscp-7-7" {
+  description = "apnscp 3.1 on CentOS 7.7"
+  default     = "apisnetworks-apnscp-7-7"
+}
+
+variable "do_application_aplitel-vitalpbx-7" {
+  description = "vitalpbx 2.3.8 on Centos 7"
+  default     = "aplitel-vitalpbx-7"
+}
+
 variable "do_application_ascensiosystem-onlyoffice-18-04" {
   description = "ONLYOFFICE 18.10 on Ubuntu 18.04"
   default     = "ascensiosystem-onlyoffice-18-04"
