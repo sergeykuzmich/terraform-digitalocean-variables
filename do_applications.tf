@@ -93,7 +93,7 @@ variable "do_application_countly-18-04" {
 }
 
 variable "do_application_cpanel-7-6" {
-  description = "cPanel & WHM® 82.0.14 on CentOS 7.6"
+  description = "cPanel & WHM® 84.0.14 on CentOS 7.6"
   default     = "cpanel-7-6"
 }
 
@@ -115,6 +115,11 @@ variable "do_application_deadcanaries-onionroutedcloud-18-04" {
 variable "do_application_deadletter-18-04" {
   description = "DeadLetter Facial Recognition on 18.04"
   default     = "deadletter-18-04"
+}
+
+variable "do_application_directus-18-04" {
+  description = "Directus 8.2.0 on Ubuntu 18.04"
+  default     = "directus-18-04"
 }
 
 variable "do_application_discourse-18-04" {
@@ -462,24 +467,9 @@ variable "do_application_thingsboardpe-18-04" {
   default     = "thingsboardpe-18-04"
 }
 
-variable "do_application_weconexpbx-7-6" {
-  description = "weconex PBX 3"
-  default     = "weconexpbx-7-6"
-}
-
-variable "do_application_wordpress-18-04" {
-  description = "WordPress on 18.04"
-  default     = "wordpress-18-04"
-}
-
 variable "do_application_zabbix-7-6" {
   description = "Zabbix 4.2.0 on 7.6"
   default     = "zabbix-7-6"
-}
-
-variable "do_application_zeromon-zabbix-18-04" {
-  description = "Zeromon Zabbix 4 on Ubuntu 18.04"
-  default     = "zeromon-zabbix-18-04"
 }
 
 variable "do_application_null" {
@@ -497,9 +487,24 @@ variable "do_application_vitalpointz-7-6" {
   default     = "vitalpointz-7-6"
 }
 
+variable "do_application_weconexpbx-7-6" {
+  description = "weconex PBX 3"
+  default     = "weconexpbx-7-6"
+}
+
 variable "do_application_wikijs-18-04" {
   description = "Wiki.js 2.0.12 on Ubuntu 18.04"
   default     = "wikijs-18-04"
+}
+
+variable "do_application_wordpress-18-04" {
+  description = "WordPress on 18.04"
+  default     = "wordpress-18-04"
+}
+
+variable "do_application_zeromon-zabbix-18-04" {
+  description = "Zeromon Zabbix 4 on Ubuntu 18.04"
+  default     = "zeromon-zabbix-18-04"
 }
 
 variable "do_application_zoomadmin-18-04" {
