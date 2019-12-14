@@ -33,7 +33,7 @@ variable "do_application_apisnetworks-apnscp-7-7" {
 }
 
 variable "do_application_aplitel-vitalpbx-7" {
-  description = "vitalpbx 2.3.8 on Centos 7"
+  description = "VitalPBX 2.4.0 on Centos 7"
   default     = "aplitel-vitalpbx-7"
 }
 
@@ -183,7 +183,7 @@ variable "do_application_gitlab-ee-18-04" {
 }
 
 variable "do_application_gitlab-meltano-18-04" {
-  description = "Meltano 1.10.2 on Ubuntu 18.04"
+  description = "Meltano 1.11.1 on Ubuntu 18.04"
   default     = "gitlab-meltano-18-04"
 }
 
@@ -430,6 +430,16 @@ variable "do_application_rocketchat-18-04" {
 variable "do_application_selenoid-18-04" {
   description = "Selenoid 1.9.2 on Ubuntu 18.04"
   default     = "selenoid-18-04"
+}
+
+variable "do_application_sharklabs-ninjam-10-0" {
+  description = "Ninjam on Debian 10.0 x64"
+  default     = "sharklabs-ninjam-10-0"
+}
+
+variable "do_application_sharklabs-nodejsquickstart-18-04" {
+  description = "Node.js Quickstart 1.0 on Ubuntu 18.04"
+  default     = "sharklabs-nodejsquickstart-18-04"
 }
 
 variable "do_application_sharklabs-pacvim-18-04" {

@@ -72,13 +72,23 @@ variable "do_distibution_freebsd-11-x64-zfs" {
   default     = "freebsd-11-x64-zfs"
 }
 
-variable "do_distibution_freebsd-12-x64" {
+variable "do_distibution_freebsd-12-0-x64-ufs" {
   description = "FreeBSD 12.0 x64 ufs"
+  default     = "freebsd-12-0-x64-ufs"
+}
+
+variable "do_distibution_freebsd-12-0-x64-zfs" {
+  description = "FreeBSD 12.0 x64 zfs"
+  default     = "freebsd-12-0-x64-zfs"
+}
+
+variable "do_distibution_freebsd-12-x64" {
+  description = "FreeBSD 12.1 x64 ufs"
   default     = "freebsd-12-x64"
 }
 
 variable "do_distibution_freebsd-12-x64-zfs" {
-  description = "FreeBSD 12.0 x64 zfs"
+  description = "FreeBSD 12.1 x64 zfs"
   default     = "freebsd-12-x64-zfs"
 }
 
