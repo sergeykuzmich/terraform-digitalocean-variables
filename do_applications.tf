@@ -183,7 +183,7 @@ variable "do_application_gitlab-ee-18-04" {
 }
 
 variable "do_application_gitlab-meltano-18-04" {
-  description = "Meltano 1.11.1 on Ubuntu 18.04"
+  description = "Meltano 1.12.0 on Ubuntu 18.04"
   default     = "gitlab-meltano-18-04"
 }
 
@@ -268,7 +268,7 @@ variable "do_application_metabase-18-04" {
 }
 
 variable "do_application_microweber-18-04" {
-  description = "Microweber 1.1.14 on Ubuntu 18.04"
+  description = "Microweber 1.1.15 on Ubuntu 18.04"
   default     = "microweber-18-04"
 }
 
@@ -477,16 +477,6 @@ variable "do_application_thingsboardpe-18-04" {
   default     = "thingsboardpe-18-04"
 }
 
-variable "do_application_zabbix-7-6" {
-  description = "Zabbix 4.2.0 on 7.6"
-  default     = "zabbix-7-6"
-}
-
-variable "do_application_null" {
-  description = "Plesk 17.8 on CentOS 7"
-  default     = "null"
-}
-
 variable "do_application_vardot-varbase-18-04" {
   description = "Varbase 8.7.11 on Ubuntu 18.04"
   default     = "vardot-varbase-18-04"
@@ -512,6 +502,11 @@ variable "do_application_wordpress-18-04" {
   default     = "wordpress-18-04"
 }
 
+variable "do_application_zabbix-7-6" {
+  description = "Zabbix 4.2.0 on 7.6"
+  default     = "zabbix-7-6"
+}
+
 variable "do_application_zeromon-zabbix-18-04" {
   description = "Zeromon Zabbix 4 on Ubuntu 18.04"
   default     = "zeromon-zabbix-18-04"
@@ -523,6 +518,11 @@ variable "do_application_zoomadmin-18-04" {
 }
 
 variable "do_application_zulip-18-04" {
-  description = "Zulip 2.0.7 on Ubuntu 18.04"
+  description = "Zulip 2.1.1 on Ubuntu 18.04"
   default     = "zulip-18-04"
+}
+
+variable "do_application_null" {
+  description = "Plesk 17.8 on CentOS 7"
+  default     = "null"
 }
