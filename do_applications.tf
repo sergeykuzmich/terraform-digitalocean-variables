@@ -268,7 +268,7 @@ variable "do_application_metabase-18-04" {
 }
 
 variable "do_application_microweber-18-04" {
-  description = "Microweber 1.1.15 on Ubuntu 18.04"
+  description = "Microweber 1.1.16 on Ubuntu 18.04"
   default     = "microweber-18-04"
 }
 
@@ -347,18 +347,23 @@ variable "do_application_opentradestatist-rstudioh2o-18-04" {
   default     = "opentradestatist-rstudioh2o-18-04"
 }
 
+variable "do_application_opentradestatist-rstudiopkgdev-18-04" {
+  description = "RStudio + PkgDev 1.2 on Ubuntu 18.04"
+  default     = "opentradestatist-rstudiopkgdev-18-04"
+}
+
 variable "do_application_openvpn-18-04" {
   description = "OpenVPN Access Server 2.7.5 on Ubuntu 18.04"
   default     = "openvpn-18-04"
 }
 
 variable "do_application_ossn-18-04" {
-  description = "Open Source Social Network on Ubuntu 18.04"
+  description = "Open Source Social Network 5.0.1 on Ubuntu 18.04"
   default     = "ossn-18-04"
 }
 
 variable "do_application_passbolt-18-04" {
-  description = "Passbolt CE 2.11 on Ubuntu 18.04"
+  description = "Passbolt CE 2.12 on Ubuntu 18.04"
   default     = "passbolt-18-04"
 }
 
@@ -488,7 +493,7 @@ variable "do_application_vitalpointz-7-6" {
 }
 
 variable "do_application_weconexpbx-7-6" {
-  description = "weconex PBX 3"
+  description = "WeconexPBX 2.4-1 on CentOS 7.6"
   default     = "weconexpbx-7-6"
 }
 
@@ -500,6 +505,11 @@ variable "do_application_wikijs-18-04" {
 variable "do_application_wordpress-18-04" {
   description = "WordPress on 18.04"
   default     = "wordpress-18-04"
+}
+
+variable "do_application_workarea-18-04" {
+  description = "Workarea 3.5.x on Ubuntu 18.04"
+  default     = "workarea-18-04"
 }
 
 variable "do_application_zabbix-7-6" {
