@@ -183,7 +183,7 @@ variable "do_application_gitlab-ee-18-04" {
 }
 
 variable "do_application_gitlab-meltano-18-04" {
-  description = "Meltano 1.12.0 on Ubuntu 18.04"
+  description = "Meltano 1.14.0 on Ubuntu 18.04"
   default     = "gitlab-meltano-18-04"
 }
 
@@ -307,6 +307,11 @@ variable "do_application_nknfullnode-18-04" {
   default     = "nknfullnode-18-04"
 }
 
+variable "do_application_nodegame-18-04" {
+  description = "NodeGame 5.6.1 on Ubuntu 18.04"
+  default     = "nodegame-18-04"
+}
+
 variable "do_application_nodejs-18-04" {
   description = "NodeJS 8.10.0 on 18.04"
   default     = "nodejs-18-04"
@@ -413,7 +418,7 @@ variable "do_application_restyaboard-16-04" {
 }
 
 variable "do_application_restyaboard-7-6" {
-  description = "Restyaboard 0.6.7 on CentOS 7.6"
+  description = "Restyaboard (CentOS) 0.6.8 on CentOS 7.6"
   default     = "restyaboard-7-6"
 }
 
