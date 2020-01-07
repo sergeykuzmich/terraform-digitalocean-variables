@@ -183,7 +183,7 @@ variable "do_application_gitlab-ee-18-04" {
 }
 
 variable "do_application_gitlab-meltano-18-04" {
-  description = "Meltano 1.14.0 on Ubuntu 18.04"
+  description = "Meltano 1.14.1 on Ubuntu 18.04"
   default     = "gitlab-meltano-18-04"
 }
 
@@ -463,7 +463,7 @@ variable "do_application_shopware-18-04" {
 }
 
 variable "do_application_simplystatistics-rstudio-18-04" {
-  description = "RStudio 1.2 on 18.04"
+  description = "RStudio 1.2 on Ubuntu 18.04"
   default     = "simplystatistics-rstudio-18-04"
 }
 
