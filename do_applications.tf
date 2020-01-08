@@ -63,7 +63,7 @@ variable "do_application_buddy-18-04" {
 }
 
 variable "do_application_caddy-18-04" {
-  description = "Caddy 2.0.0-beta10 on Ubuntu 18.04"
+  description = "Caddy 2.0.0-beta12 on Ubuntu 18.04"
   default     = "caddy-18-04"
 }
 
@@ -493,7 +493,7 @@ variable "do_application_vardot-varbase-18-04" {
 }
 
 variable "do_application_vitalpointz-7-6" {
-  description = "vitalpointz IoT Core Lite 1.1.0 on CentOS 7.6"
+  description = "vitalpointz IoT Core Lite 1.2.0 on CentOS 7.6"
   default     = "vitalpointz-7-6"
 }
 
