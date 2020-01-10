@@ -183,7 +183,7 @@ variable "do_application_gitlab-ee-18-04" {
 }
 
 variable "do_application_gitlab-meltano-18-04" {
-  description = "Meltano 1.14.1 on Ubuntu 18.04"
+  description = "Meltano 1.14.3 on Ubuntu 18.04"
   default     = "gitlab-meltano-18-04"
 }
 
@@ -413,7 +413,7 @@ variable "do_application_redash-18-04" {
 }
 
 variable "do_application_restyaboard-16-04" {
-  description = "Restyaboard 0.6.7 on Ubuntu 16.04"
+  description = "Restyaboard 0.6.8 on Ubuntu 16.04"
   default     = "restyaboard-16-04"
 }
 
@@ -515,6 +515,11 @@ variable "do_application_wordpress-18-04" {
 variable "do_application_workarea-18-04" {
   description = "Workarea 3.5.x on Ubuntu 18.04"
   default     = "workarea-18-04"
+}
+
+variable "do_application_xcart-7" {
+  description = "X-Cart 5.4.0.8 on CentOS 7"
+  default     = "xcart-7"
 }
 
 variable "do_application_zabbix-7-6" {
