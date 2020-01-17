@@ -78,7 +78,7 @@ variable "do_application_chamilo-18-04" {
 }
 
 variable "do_application_cloudron-18-04" {
-  description = "Cloudron 4.3.4 on Ubuntu 18.04"
+  description = "Cloudron 4.4.4 on Ubuntu 18.04"
   default     = "cloudron-18-04"
 }
 
@@ -220,6 +220,11 @@ variable "do_application_influxdb-18-04" {
 variable "do_application_invoiceninja-18-04" {
   description = "Invoice Ninja 1.0.0 on Ubuntu 18.0.4"
   default     = "invoiceninja-18-04"
+}
+
+variable "do_application_iota-iotahornetnode-18-04" {
+  description = "IOTA Hornet Node 0.2.12 on Ubuntu 18.04 LTS"
+  default     = "iota-iotahornetnode-18-04"
 }
 
 variable "do_application_izenda-18-04" {
@@ -532,11 +537,6 @@ variable "do_application_zeromon-zabbix-18-04" {
   default     = "zeromon-zabbix-18-04"
 }
 
-variable "do_application_null" {
-  description = "Plesk 17.8 on CentOS 7"
-  default     = "null"
-}
-
 variable "do_application_zoomadmin-18-04" {
   description = "ZoomAdmin 1.1 on Ubuntu 18.04"
   default     = "zoomadmin-18-04"
@@ -545,4 +545,9 @@ variable "do_application_zoomadmin-18-04" {
 variable "do_application_zulip-18-04" {
   description = "Zulip 2.1.1 on Ubuntu 18.04"
   default     = "zulip-18-04"
+}
+
+variable "do_application_null" {
+  description = "Plesk 17.8 on CentOS 7"
+  default     = "null"
 }
