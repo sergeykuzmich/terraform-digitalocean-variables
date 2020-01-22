@@ -262,6 +262,11 @@ variable "do_application_mattermost-18-04" {
   default     = "mattermost-18-04"
 }
 
+variable "do_application_meltano-18-04" {
+  description = "Meltano 1.16.0 on Ubuntu 18.04"
+  default     = "meltano-18-04"
+}
+
 variable "do_application_memgraph-9-7" {
   description = "Memgraph on Debian 9.7"
   default     = "memgraph-9-7"
@@ -537,6 +542,11 @@ variable "do_application_zeromon-zabbix-18-04" {
   default     = "zeromon-zabbix-18-04"
 }
 
+variable "do_application_null" {
+  description = "Plesk 17.8 on CentOS 7"
+  default     = "null"
+}
+
 variable "do_application_zoomadmin-18-04" {
   description = "ZoomAdmin 1.1 on Ubuntu 18.04"
   default     = "zoomadmin-18-04"
@@ -545,9 +555,4 @@ variable "do_application_zoomadmin-18-04" {
 variable "do_application_zulip-18-04" {
   description = "Zulip 2.1.1 on Ubuntu 18.04"
   default     = "zulip-18-04"
-}
-
-variable "do_application_null" {
-  description = "Plesk 17.8 on CentOS 7"
-  default     = "null"
 }
