@@ -18,7 +18,7 @@ variable "do_application_alfio-7-6" {
 }
 
 variable "do_application_antmedia-16-04" {
-  description = "AntMedia Server CE 1.9.0 on Ubuntu 16.04"
+  description = "AntMedia Server Community Edition 1.9.1 on Ubuntu 16.04"
   default     = "antmedia-16-04"
 }
 
@@ -242,6 +242,11 @@ variable "do_application_jenkins-18-04" {
   default     = "jenkins-18-04"
 }
 
+variable "do_application_kandralabs-zulip-18-04" {
+  description = "Zulip 2.1.2 on Ubuntu 18.04"
+  default     = "kandralabs-zulip-18-04"
+}
+
 variable "do_application_lamp-18-04" {
   description = "LAMP on 18.04"
   default     = "lamp-18-04"
@@ -318,7 +323,7 @@ variable "do_application_nknfullnode-18-04" {
 }
 
 variable "do_application_nodegame-18-04" {
-  description = "NodeGame 5.6.1 on Ubuntu 18.04"
+  description = "NodeGame 5.8.0 on Ubuntu 18.04"
   default     = "nodegame-18-04"
 }
 
@@ -420,6 +425,11 @@ variable "do_application_rails-18-04" {
 variable "do_application_redash-18-04" {
   description = "Redash 8.0.0 on Ubuntu 18.04"
   default     = "redash-18-04"
+}
+
+variable "do_application_restya-restyaboard-18-04" {
+  description = "Restyaboard 0.6.8 on Ubuntu 18.04"
+  default     = "restya-restyaboard-18-04"
 }
 
 variable "do_application_restyaboard-16-04" {
@@ -533,7 +543,7 @@ variable "do_application_xcart-7" {
 }
 
 variable "do_application_zabbix-7-6" {
-  description = "Zabbix 4.2.0 on 7.6"
+  description = "Zabbix 4.4.4 on CentOS 7"
   default     = "zabbix-7-6"
 }
 
@@ -550,9 +560,4 @@ variable "do_application_null" {
 variable "do_application_zoomadmin-18-04" {
   description = "ZoomAdmin 1.1 on Ubuntu 18.04"
   default     = "zoomadmin-18-04"
-}
-
-variable "do_application_zulip-18-04" {
-  description = "Zulip 2.1.1 on Ubuntu 18.04"
-  default     = "zulip-18-04"
 }

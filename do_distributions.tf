@@ -17,6 +17,11 @@ variable "do_distibution_centos-7-x64" {
   default     = "centos-7-x64"
 }
 
+variable "do_distibution_centos-8-x64" {
+  description = "CentOS 8.1 x64"
+  default     = "centos-8-x64"
+}
+
 variable "do_distibution_coreos-alpha" {
   description = "CoreOS 2387.0.0 (alpha)"
   default     = "coreos-alpha"
