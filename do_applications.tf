@@ -97,6 +97,11 @@ variable "do_application_cpanel-7-6" {
   default     = "cpanel-7-6"
 }
 
+variable "do_application_cpanel-cpanelwhm-7-6" {
+  description = "cPanel & WHM® 84.0.20 on CentOS 7.6"
+  default     = "cpanel-cpanelwhm-7-6"
+}
+
 variable "do_application_cyberpanel-18-04" {
   description = "CyberPanel 1.9.2 on Ubuntu 18.04"
   default     = "cyberpanel-18-04"
@@ -175,11 +180,6 @@ variable "do_application_ghost-18-04" {
 variable "do_application_gitea-18-04" {
   description = "Gitea 1.8.2 on Ubuntu 18.04"
   default     = "gitea-18-04"
-}
-
-variable "do_application_gitlab-ee-18-04" {
-  description = "GitLab Enterprise Edition 12.4.3 on Ubuntu 18.04"
-  default     = "gitlab-ee-18-04"
 }
 
 variable "do_application_gitlab-meltano-18-04" {
