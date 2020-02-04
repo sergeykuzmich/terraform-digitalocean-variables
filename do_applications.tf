@@ -268,7 +268,7 @@ variable "do_application_mattermost-18-04" {
 }
 
 variable "do_application_meltano-18-04" {
-  description = "Meltano 1.17.1 on Ubuntu 18.04"
+  description = "Meltano 1.18.0 on Ubuntu 18.04"
   default     = "meltano-18-04"
 }
 
@@ -377,6 +377,11 @@ variable "do_application_openvpn-18-04" {
   default     = "openvpn-18-04"
 }
 
+variable "do_application_optimajet-workflowserver-18-04" {
+  description = "WorkflowServer 2.5 on Ubuntu 18.04"
+  default     = "optimajet-workflowserver-18-04"
+}
+
 variable "do_application_ossn-18-04" {
   description = "Open Source Social Network 5.0.1 on Ubuntu 18.04"
   default     = "ossn-18-04"
@@ -430,6 +435,11 @@ variable "do_application_redash-18-04" {
 variable "do_application_restya-restyaboard-18-04" {
   description = "Restyaboard 0.6.8 on Ubuntu 18.04"
   default     = "restya-restyaboard-18-04"
+}
+
+variable "do_application_restya-restyaboardcento-7-6" {
+  description = "Restyaboard (CentOS) 0.6.8 on CentOS 7.6"
+  default     = "restya-restyaboardcento-7-6"
 }
 
 variable "do_application_restyaboard-16-04" {
