@@ -78,7 +78,7 @@ variable "do_application_chamilo-18-04" {
 }
 
 variable "do_application_cloudron-18-04" {
-  description = "Cloudron 4.4.4 on Ubuntu 18.04"
+  description = "Cloudron 4.4.5 on Ubuntu 18.04"
   default     = "cloudron-18-04"
 }
 
@@ -123,7 +123,7 @@ variable "do_application_deadletter-18-04" {
 }
 
 variable "do_application_directus-18-04" {
-  description = "Directus 8.2.0 on Ubuntu 18.04"
+  description = "Directus 8.5.1 on Ubuntu 18.04"
   default     = "directus-18-04"
 }
 
