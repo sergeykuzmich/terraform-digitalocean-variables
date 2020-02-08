@@ -123,7 +123,7 @@ variable "do_application_deadletter-18-04" {
 }
 
 variable "do_application_directus-18-04" {
-  description = "Directus 8.5.1 on Ubuntu 18.04"
+  description = "Directus 8.5.4 on Ubuntu 18.04"
   default     = "directus-18-04"
 }
 
