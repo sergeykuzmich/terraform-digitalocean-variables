@@ -147,6 +147,11 @@ variable "do_application_dokku-18-04" {
   default     = "dokku-18-04"
 }
 
+variable "do_application_dokos-18-04" {
+  description = "Dokos 1.2.6 on Ubuntu 18.04"
+  default     = "dokos-18-04"
+}
+
 variable "do_application_fastnetmon-18-04" {
   description = "FastNetMon 2.0 on Ubuntu 18.04"
   default     = "fastnetmon-18-04"
@@ -383,7 +388,7 @@ variable "do_application_optimajet-workflowserver-18-04" {
 }
 
 variable "do_application_ossn-18-04" {
-  description = "Open Source Social Network 5.0.1 on Ubuntu 18.04"
+  description = "Open Source Social Network 5.2 on Ubuntu 18.04"
   default     = "ossn-18-04"
 }
 
@@ -515,6 +520,11 @@ variable "do_application_thingsboard-18-04" {
 variable "do_application_thingsboardpe-18-04" {
   description = "ThingsBoard PE on Ubuntu 18.04"
   default     = "thingsboardpe-18-04"
+}
+
+variable "do_application_unlight-openunlight-18-04" {
+  description = "Open Unlight 1.0.0.pre1 on Ubuntu 18.04"
+  default     = "unlight-openunlight-18-04"
 }
 
 variable "do_application_vardot-varbase-18-04" {
