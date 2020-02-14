@@ -252,6 +252,11 @@ variable "do_application_kandralabs-zulip-18-04" {
   default     = "kandralabs-zulip-18-04"
 }
 
+variable "do_application_kromit-titra-18-04" {
+  description = "titra 0.9.8 on Ubuntu 18.04"
+  default     = "kromit-titra-18-04"
+}
+
 variable "do_application_lamp-18-04" {
   description = "LAMP on 18.04"
   default     = "lamp-18-04"
