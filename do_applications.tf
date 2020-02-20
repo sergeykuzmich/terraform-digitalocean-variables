@@ -148,7 +148,7 @@ variable "do_application_dokku-18-04" {
 }
 
 variable "do_application_dokos-18-04" {
-  description = "Dokos 1.2.6 on Ubuntu 18.04"
+  description = "Dokos 1.3.0 on Ubuntu 18.04"
   default     = "dokos-18-04"
 }
 
@@ -193,7 +193,7 @@ variable "do_application_gitlab-meltano-18-04" {
 }
 
 variable "do_application_grafana-18-04" {
-  description = "Grafana 6.5.1 on Ubuntu 18.04"
+  description = "Grafana 6.6.1 on Ubuntu 18.04"
   default     = "grafana-18-04"
 }
 
@@ -278,7 +278,7 @@ variable "do_application_mattermost-18-04" {
 }
 
 variable "do_application_meltano-18-04" {
-  description = "Meltano 1.18.0 on Ubuntu 18.04"
+  description = "Meltano 1.21.0 on Ubuntu 18.04"
   default     = "meltano-18-04"
 }
 
@@ -288,13 +288,18 @@ variable "do_application_memgraph-9-7" {
 }
 
 variable "do_application_metabase-18-04" {
-  description = "Metabase 0.32 on Ubuntu 18.04"
+  description = "Metabase 0.34.2 on Ubuntu 18.04"
   default     = "metabase-18-04"
 }
 
 variable "do_application_microweber-18-04" {
   description = "Microweber 1.1.17 on Ubuntu 18.04"
   default     = "microweber-18-04"
+}
+
+variable "do_application_mobilejazz-bugfender-18-04" {
+  description = "Bugfender 2020.1.0 on Ubuntu 18.04"
+  default     = "mobilejazz-bugfender-18-04"
 }
 
 variable "do_application_mongodb-18-04" {
@@ -473,7 +478,7 @@ variable "do_application_rethinkdb-rethinkdbfantasi-18-04" {
 }
 
 variable "do_application_rocketchat-18-04" {
-  description = "Rocket.Chat 2.1.0 on Ubuntu 18.04"
+  description = "Rocket.Chat 2.4.9 on Ubuntu 18.04"
   default     = "rocketchat-18-04"
 }
 
@@ -517,6 +522,11 @@ variable "do_application_solidinvoice-18-04" {
   default     = "solidinvoice-18-04"
 }
 
+variable "do_application_strapi-18-04" {
+  description = "Strapi 0.0.1 on Ubuntu 18.04"
+  default     = "strapi-18-04"
+}
+
 variable "do_application_thingsboard-18-04" {
   description = "ThingsBoard CE on Ubuntu 18.04"
   default     = "thingsboard-18-04"
@@ -548,7 +558,7 @@ variable "do_application_weconexpbx-7-6" {
 }
 
 variable "do_application_wikijs-18-04" {
-  description = "Wiki.js 2.0.12 on Ubuntu 18.04"
+  description = "Wiki.js 2.1.113 on Ubuntu 18.04"
   default     = "wikijs-18-04"
 }
 
