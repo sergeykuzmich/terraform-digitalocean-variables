@@ -152,6 +152,11 @@ variable "do_application_dokos-18-04" {
   default     = "dokos-18-04"
 }
 
+variable "do_application_erpnext-18-04" {
+  description = "ERPNext 12.5.0 on Ubuntu 18.04"
+  default     = "erpnext-18-04"
+}
+
 variable "do_application_fastnetmon-18-04" {
   description = "FastNetMon 2.0 on Ubuntu 18.04"
   default     = "fastnetmon-18-04"
