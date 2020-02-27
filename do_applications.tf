@@ -522,6 +522,16 @@ variable "do_application_skaffolder-18-04" {
   default     = "skaffolder-18-04"
 }
 
+variable "do_application_snapt-snaptaria-18-04" {
+  description = "Snapt Aria 2.0.0 on Ubuntu 18.04"
+  default     = "snapt-snaptaria-18-04"
+}
+
+variable "do_application_snapt-snaptnova-18-04" {
+  description = "Snapt Nova 1.0.0 on Ubuntu 18.04"
+  default     = "snapt-snaptnova-18-04"
+}
+
 variable "do_application_solidinvoice-18-04" {
   description = "SolidInvoice 2.0.3 on Ubuntu 18.04"
   default     = "solidinvoice-18-04"
@@ -552,26 +562,6 @@ variable "do_application_vardot-varbase-18-04" {
   default     = "vardot-varbase-18-04"
 }
 
-variable "do_application_wikijs-18-04" {
-  description = "Wiki.js 2.1.113 on Ubuntu 18.04"
-  default     = "wikijs-18-04"
-}
-
-variable "do_application_wordpress-18-04" {
-  description = "WordPress on 18.04"
-  default     = "wordpress-18-04"
-}
-
-variable "do_application_zabbix-7-6" {
-  description = "Zabbix 4.4.4 on CentOS 7"
-  default     = "zabbix-7-6"
-}
-
-variable "do_application_null" {
-  description = "Plesk 17.8 on CentOS 7"
-  default     = "null"
-}
-
 variable "do_application_vitalpointz-7-6" {
   description = "vitalpointz IoT Core Lite 1.2.0 on CentOS 7.6"
   default     = "vitalpointz-7-6"
@@ -580,6 +570,16 @@ variable "do_application_vitalpointz-7-6" {
 variable "do_application_weconexpbx-7-6" {
   description = "WeconexPBX 2.4-1 on CentOS 7.6"
   default     = "weconexpbx-7-6"
+}
+
+variable "do_application_wikijs-18-04" {
+  description = "Wiki.js 2.1.113 on Ubuntu 18.04"
+  default     = "wikijs-18-04"
+}
+
+variable "do_application_wordpress-18-04" {
+  description = "WordPress on 18.04"
+  default     = "wordpress-18-04"
 }
 
 variable "do_application_workarea-18-04" {
@@ -592,9 +592,19 @@ variable "do_application_xcart-7" {
   default     = "xcart-7"
 }
 
+variable "do_application_zabbix-7-6" {
+  description = "Zabbix 4.4.4 on CentOS 7"
+  default     = "zabbix-7-6"
+}
+
 variable "do_application_zeromon-zabbix-18-04" {
   description = "Zeromon Zabbix 4 on Ubuntu 18.04"
   default     = "zeromon-zabbix-18-04"
+}
+
+variable "do_application_null" {
+  description = "Plesk 17.8 on CentOS 7"
+  default     = "null"
 }
 
 variable "do_application_zoomadmin-18-04" {
