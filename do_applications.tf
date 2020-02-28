@@ -272,8 +272,23 @@ variable "do_application_lemp-18-04" {
   default     = "lemp-18-04"
 }
 
+variable "do_application_litespeedtechnol-openlitespeeddja-18-04" {
+  description = "OpenLiteSpeed Django 3.0.3 on Ubuntu 18.04"
+  default     = "litespeedtechnol-openlitespeeddja-18-04"
+}
+
+variable "do_application_litespeedtechnol-openlitespeednod-18-04" {
+  description = "OpenLiteSpeed NodeJS 12.16.1 on Ubuntu 18.04"
+  default     = "litespeedtechnol-openlitespeednod-18-04"
+}
+
+variable "do_application_litespeedtechnol-openlitespeedwor-18-04" {
+  description = "OpenLiteSpeed WordPress 5.3.2 on Ubuntu 18.04"
+  default     = "litespeedtechnol-openlitespeedwor-18-04"
+}
+
 variable "do_application_mastodon-18-04" {
-  description = "Mastodon 2.9.3 on Ubuntu 18.04"
+  description = "Mastodon 3.1.2 on Ubuntu 18.04"
   default     = "mastodon-18-04"
 }
 
@@ -557,6 +572,26 @@ variable "do_application_unlight-openunlight-18-04" {
   default     = "unlight-openunlight-18-04"
 }
 
+variable "do_application_wikijs-18-04" {
+  description = "Wiki.js 2.1.113 on Ubuntu 18.04"
+  default     = "wikijs-18-04"
+}
+
+variable "do_application_xcart-7" {
+  description = "X-Cart 5.4.0.8 on CentOS 7"
+  default     = "xcart-7"
+}
+
+variable "do_application_zabbix-7-6" {
+  description = "Zabbix 4.4.4 on CentOS 7"
+  default     = "zabbix-7-6"
+}
+
+variable "do_application_null" {
+  description = "Plesk 17.8 on CentOS 7"
+  default     = "null"
+}
+
 variable "do_application_vardot-varbase-18-04" {
   description = "Varbase 8.7.11 on Ubuntu 18.04"
   default     = "vardot-varbase-18-04"
@@ -572,11 +607,6 @@ variable "do_application_weconexpbx-7-6" {
   default     = "weconexpbx-7-6"
 }
 
-variable "do_application_wikijs-18-04" {
-  description = "Wiki.js 2.1.113 on Ubuntu 18.04"
-  default     = "wikijs-18-04"
-}
-
 variable "do_application_wordpress-18-04" {
   description = "WordPress on 18.04"
   default     = "wordpress-18-04"
@@ -587,24 +617,9 @@ variable "do_application_workarea-18-04" {
   default     = "workarea-18-04"
 }
 
-variable "do_application_xcart-7" {
-  description = "X-Cart 5.4.0.8 on CentOS 7"
-  default     = "xcart-7"
-}
-
-variable "do_application_zabbix-7-6" {
-  description = "Zabbix 4.4.4 on CentOS 7"
-  default     = "zabbix-7-6"
-}
-
 variable "do_application_zeromon-zabbix-18-04" {
   description = "Zeromon Zabbix 4 on Ubuntu 18.04"
   default     = "zeromon-zabbix-18-04"
-}
-
-variable "do_application_null" {
-  description = "Plesk 17.8 on CentOS 7"
-  default     = "null"
 }
 
 variable "do_application_zoomadmin-18-04" {
