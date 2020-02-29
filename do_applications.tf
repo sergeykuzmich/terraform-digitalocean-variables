@@ -103,7 +103,7 @@ variable "do_application_cpanel-cpanelwhm-7-6" {
 }
 
 variable "do_application_cyberpanel-18-04" {
-  description = "CyberPanel 1.9.2 on Ubuntu 18.04"
+  description = "CyberPanel 1.9.4 on Ubuntu 18.04"
   default     = "cyberpanel-18-04"
 }
 
