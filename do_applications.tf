@@ -53,7 +53,7 @@ variable "do_application_bitwarden-18-04" {
 }
 
 variable "do_application_botpress-18-04" {
-  description = "Botpress 12.1.6 on Ubuntu 18.04"
+  description = "Botpress 12.6.0 on Ubuntu 18.04"
   default     = "botpress-18-04"
 }
 
@@ -123,7 +123,7 @@ variable "do_application_deadletter-18-04" {
 }
 
 variable "do_application_directus-18-04" {
-  description = "Directus 8.6.0 on Ubuntu 18.04"
+  description = "Directus 8.6.1 on Ubuntu 18.04"
   default     = "directus-18-04"
 }
 
@@ -203,7 +203,7 @@ variable "do_application_grafana-18-04" {
 }
 
 variable "do_application_grandnode-18-04" {
-  description = "GrandNode 4.50 on Ubuntu 18.04"
+  description = "GrandNode 4.60 on Ubuntu 18.04"
   default     = "grandnode-18-04"
 }
 
@@ -298,7 +298,7 @@ variable "do_application_mattermost-18-04" {
 }
 
 variable "do_application_meltano-18-04" {
-  description = "Meltano 1.23.0 on Ubuntu 18.04"
+  description = "Meltano 1.23.2 on Ubuntu 18.04"
   default     = "meltano-18-04"
 }
 
