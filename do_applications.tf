@@ -298,7 +298,7 @@ variable "do_application_mattermost-18-04" {
 }
 
 variable "do_application_meltano-18-04" {
-  description = "Meltano 1.23.2 on Ubuntu 18.04"
+  description = "Meltano 1.24.0 on Ubuntu 18.04"
   default     = "meltano-18-04"
 }
 
@@ -460,6 +460,11 @@ variable "do_application_quickcorp-qcobjects-18-04" {
 variable "do_application_rails-18-04" {
   description = "Ruby-on-Rails on 18.04"
   default     = "rails-18-04"
+}
+
+variable "do_application_reblaze-reblazewaf-18-04" {
+  description = "Reblaze WAF 2.12.10 on Ubuntu 18.04"
+  default     = "reblaze-reblazewaf-18-04"
 }
 
 variable "do_application_redash-18-04" {
