@@ -17,6 +17,16 @@ variable "do_distibution_centos-7-x64" {
   default     = "centos-7-x64"
 }
 
+variable "do_distibution_fedora-30-x64" {
+  description = "Fedora 30 x64"
+  default     = "fedora-30-x64"
+}
+
+variable "do_distibution_null" {
+  description = "Debian 9.11 x64"
+  default     = "null"
+}
+
 variable "do_distibution_centos-8-x64" {
   description = "CentOS 8.1 x64"
   default     = "centos-8-x64"
@@ -38,18 +48,13 @@ variable "do_distibution_coreos-stable" {
 }
 
 variable "do_distibution_debian-10-x64" {
-  description = "Debian 10.2 x64"
+  description = "Debian 10.3 x64"
   default     = "debian-10-x64"
 }
 
 variable "do_distibution_debian-9-x64" {
-  description = "Debian 9.7 x64"
+  description = "Debian 9.12 x64"
   default     = "debian-9-x64"
-}
-
-variable "do_distibution_fedora-30-x64" {
-  description = "Fedora 30 x64"
-  default     = "fedora-30-x64"
 }
 
 variable "do_distibution_fedora-31-x64" {

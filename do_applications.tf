@@ -83,7 +83,7 @@ variable "do_application_cloudron-18-04" {
 }
 
 variable "do_application_code-server-18-04" {
-  description = "code-server on Ubuntu 18.04"
+  description = "code-server 2 on Ubuntu 18.04"
   default     = "code-server-18-04"
 }
 
@@ -502,6 +502,11 @@ variable "do_application_rethinkdb-rethinkdbfantasi-18-04" {
   default     = "rethinkdb-rethinkdbfantasi-18-04"
 }
 
+variable "do_application_revox-keplerbuilder-18-04" {
+  description = "Kepler Builder 1.0.9 on Ubuntu 18.04"
+  default     = "revox-keplerbuilder-18-04"
+}
+
 variable "do_application_rocketchat-18-04" {
   description = "Rocket.Chat 2.4.9 on Ubuntu 18.04"
   default     = "rocketchat-18-04"
@@ -557,6 +562,11 @@ variable "do_application_solidinvoice-18-04" {
   default     = "solidinvoice-18-04"
 }
 
+variable "do_application_spatie-mailcoach-18-04" {
+  description = "Mailcoach 1.0 on Ubuntu 18.04"
+  default     = "spatie-mailcoach-18-04"
+}
+
 variable "do_application_strapi-18-04" {
   description = "Strapi 0.0.1 on Ubuntu 18.04"
   default     = "strapi-18-04"
@@ -575,11 +585,6 @@ variable "do_application_thingsboardpe-18-04" {
 variable "do_application_unlight-openunlight-18-04" {
   description = "Open Unlight 1.0.0.pre1 on Ubuntu 18.04"
   default     = "unlight-openunlight-18-04"
-}
-
-variable "do_application_wikijs-18-04" {
-  description = "Wiki.js 2.1.113 on Ubuntu 18.04"
-  default     = "wikijs-18-04"
 }
 
 variable "do_application_xcart-7" {
@@ -610,6 +615,11 @@ variable "do_application_vitalpointz-7-6" {
 variable "do_application_weconexpbx-7-6" {
   description = "WeconexPBX 2.4-1 on CentOS 7.6"
   default     = "weconexpbx-7-6"
+}
+
+variable "do_application_wikijs-18-04" {
+  description = "Wiki.js 2.1.113 on Ubuntu 18.04"
+  default     = "wikijs-18-04"
 }
 
 variable "do_application_wordpress-18-04" {
