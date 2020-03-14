@@ -23,7 +23,7 @@ variable "do_application_antmedia-16-04" {
 }
 
 variable "do_application_antmedia-antmediaserveren-16-04" {
-  description = "AntMedia Server Enterprise Edition 1.9.0 on Ubuntu 16.04"
+  description = "Ant Media Server Enterprise Edition 1.9.1 on Ubuntu 16.04"
   default     = "antmedia-antmediaserveren-16-04"
 }
 
@@ -48,7 +48,7 @@ variable "do_application_azuracast-18-04" {
 }
 
 variable "do_application_bitwarden-18-04" {
-  description = "Bitwarden on Ubuntu 18.04"
+  description = "Bitwarden 1.32.0 on Ubuntu 18.04"
   default     = "bitwarden-18-04"
 }
 
@@ -568,7 +568,7 @@ variable "do_application_spatie-mailcoach-18-04" {
 }
 
 variable "do_application_strapi-18-04" {
-  description = "Strapi 0.0.1 on Ubuntu 18.04"
+  description = "Strapi 0.0.2 on Ubuntu 18.04"
   default     = "strapi-18-04"
 }
 
@@ -585,21 +585,6 @@ variable "do_application_thingsboardpe-18-04" {
 variable "do_application_unlight-openunlight-18-04" {
   description = "Open Unlight 1.0.0.pre1 on Ubuntu 18.04"
   default     = "unlight-openunlight-18-04"
-}
-
-variable "do_application_xcart-7" {
-  description = "X-Cart 5.4.0.8 on CentOS 7"
-  default     = "xcart-7"
-}
-
-variable "do_application_zabbix-7-6" {
-  description = "Zabbix 4.4.4 on CentOS 7"
-  default     = "zabbix-7-6"
-}
-
-variable "do_application_null" {
-  description = "Plesk 17.8 on CentOS 7"
-  default     = "null"
 }
 
 variable "do_application_vardot-varbase-18-04" {
@@ -630,6 +615,21 @@ variable "do_application_wordpress-18-04" {
 variable "do_application_workarea-18-04" {
   description = "Workarea 3.5.x on Ubuntu 18.04"
   default     = "workarea-18-04"
+}
+
+variable "do_application_zabbix-7-6" {
+  description = "Zabbix 4.4.4 on CentOS 7"
+  default     = "zabbix-7-6"
+}
+
+variable "do_application_null" {
+  description = "Plesk 17.8 on CentOS 7"
+  default     = "null"
+}
+
+variable "do_application_xcart-7" {
+  description = "X-Cart 5.4.0.8 on CentOS 7"
+  default     = "xcart-7"
 }
 
 variable "do_application_zeromon-zabbix-18-04" {
