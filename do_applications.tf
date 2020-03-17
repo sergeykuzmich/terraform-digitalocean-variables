@@ -563,7 +563,7 @@ variable "do_application_solidinvoice-18-04" {
 }
 
 variable "do_application_spatie-mailcoach-18-04" {
-  description = "Mailcoach 1.0 on Ubuntu 18.04"
+  description = "Mailcoach 2.0 on Ubuntu 18.04"
   default     = "spatie-mailcoach-18-04"
 }
 
