@@ -33,7 +33,7 @@ variable "do_application_apisnetworks-apnscp-7-7" {
 }
 
 variable "do_application_aplitel-vitalpbx-7" {
-  description = "VitalPBX 2.4.0 on Centos 7"
+  description = "VitalPBX 2.4.1 on Centos 7"
   default     = "aplitel-vitalpbx-7"
 }
 
@@ -298,7 +298,7 @@ variable "do_application_mattermost-18-04" {
 }
 
 variable "do_application_meltano-18-04" {
-  description = "Meltano 1.25.1 on Ubuntu 18.04"
+  description = "Meltano 1.26.0 on Ubuntu 18.04"
   default     = "meltano-18-04"
 }
 
