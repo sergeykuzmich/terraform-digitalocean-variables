@@ -57,11 +57,6 @@ variable "do_size_c-2" {
   default     = "c-2"
 }
 
-variable "do_size_c-32" {
-  description = "64GB RAM; 32 CPU; 400GB SSD - $640/mo"
-  default     = "c-32"
-}
-
 variable "do_size_c-4" {
   description = "8GB RAM; 4 CPU; 50GB SSD - $80/mo"
   default     = "c-4"
@@ -85,6 +80,11 @@ variable "do_size_g-2vcpu-8gb" {
 variable "do_size_g-32vcpu-128gb" {
   description = "128GB RAM; 32 CPU; 400GB SSD - $960/mo"
   default     = "g-32vcpu-128gb"
+}
+
+variable "do_size_g-40vcpu-160gb" {
+  description = "160GB RAM; 40 CPU; 500GB SSD - $1200/mo"
+  default     = "g-40vcpu-160gb"
 }
 
 variable "do_size_g-4vcpu-16gb" {

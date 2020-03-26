@@ -63,7 +63,7 @@ variable "do_application_buddy-18-04" {
 }
 
 variable "do_application_caddy-18-04" {
-  description = "Caddy 2.0.0-beta12 on Ubuntu 18.04"
+  description = "Caddy 2.0.0-beta20 on Ubuntu 18.04"
   default     = "caddy-18-04"
 }
 
@@ -198,7 +198,7 @@ variable "do_application_gitlab-meltano-18-04" {
 }
 
 variable "do_application_grafana-18-04" {
-  description = "Grafana 6.6.1 on Ubuntu 18.04"
+  description = "Grafana 6.7.1 on Ubuntu 18.04"
   default     = "grafana-18-04"
 }
 
