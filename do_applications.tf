@@ -32,6 +32,11 @@ variable "do_application_chamilo-18-04" {
   default     = "chamilo-18-04"
 }
 
+variable "do_application_code-server-18-04" {
+  description = "code-server 2 on Ubuntu 18.04"
+  default     = "code-server-18-04"
+}
+
 variable "do_application_countly-18-04" {
   description = "Countly 19.08.1 on Ubuntu 18.04"
   default     = "countly-18-04"
@@ -40,11 +45,6 @@ variable "do_application_countly-18-04" {
 variable "do_application_deadletter-18-04" {
   description = "DeadLetter Facial Recognition on 18.04"
   default     = "deadletter-18-04"
-}
-
-variable "do_application_dokos-18-04" {
-  description = "Dokos 1.3.0 on Ubuntu 18.04"
-  default     = "dokos-18-04"
 }
 
 variable "do_application_fastpanel-deb-9" {
@@ -75,6 +75,11 @@ variable "do_application_jelastic-jelasticpaas-7" {
 variable "do_application_kromit-titra-18-04" {
   description = "titra 0.9.8 on Ubuntu 18.04"
   default     = "kromit-titra-18-04"
+}
+
+variable "do_application_litespeedtechnol-openlitespeedcla-18-04" {
+  description = "OpenLiteSpeed ClassicPress 1.1.2 on Ubuntu 18.04"
+  default     = "litespeedtechnol-openlitespeedcla-18-04"
 }
 
 variable "do_application_meltano-18-04" {
@@ -213,13 +218,8 @@ variable "do_application_caprover-18-04" {
 }
 
 variable "do_application_cloudron-18-04" {
-  description = "Cloudron 4.4.5 on Ubuntu 18.04"
+  description = "Cloudron 5.0.6 on Ubuntu 18.04"
   default     = "cloudron-18-04"
-}
-
-variable "do_application_code-server-18-04" {
-  description = "code-server 2 on Ubuntu 18.04"
-  default     = "code-server-18-04"
 }
 
 variable "do_application_cpanel-7-6" {
@@ -270,6 +270,11 @@ variable "do_application_docker-18-04" {
 variable "do_application_dokku-18-04" {
   description = "Dokku 0.17.9 on 18.04"
   default     = "dokku-18-04"
+}
+
+variable "do_application_dokos-18-04" {
+  description = "Dokos 1.3.0 on Ubuntu 18.04"
+  default     = "dokos-18-04"
 }
 
 variable "do_application_erpnext-18-04" {
@@ -633,7 +638,7 @@ variable "do_application_workarea-18-04" {
 }
 
 variable "do_application_xcart-7" {
-  description = "X-Cart 5.4.0.8 on CentOS 7"
+  description = "X-Cart 5.4.0.10 on CentOS 7.6"
   default     = "xcart-7"
 }
 
