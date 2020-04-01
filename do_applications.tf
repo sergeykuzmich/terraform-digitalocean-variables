@@ -83,7 +83,7 @@ variable "do_application_litespeedtechnol-openlitespeedcla-18-04" {
 }
 
 variable "do_application_meltano-18-04" {
-  description = "Meltano 1.26.2 on Ubuntu 18.04"
+  description = "Meltano 1.27.0 on Ubuntu 18.04"
   default     = "meltano-18-04"
 }
 
