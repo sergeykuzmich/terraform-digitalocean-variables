@@ -72,18 +72,13 @@ variable "do_application_jelastic-jelasticpaas-7" {
   default     = "jelastic-jelasticpaas-7"
 }
 
-variable "do_application_kromit-titra-18-04" {
-  description = "titra 0.9.8 on Ubuntu 18.04"
-  default     = "kromit-titra-18-04"
-}
-
 variable "do_application_litespeedtechnol-openlitespeedcla-18-04" {
   description = "OpenLiteSpeed ClassicPress 1.1.2 on Ubuntu 18.04"
   default     = "litespeedtechnol-openlitespeedcla-18-04"
 }
 
 variable "do_application_meltano-18-04" {
-  description = "Meltano 1.27.0 on Ubuntu 18.04"
+  description = "Meltano 1.27.2 on Ubuntu 18.04"
   default     = "meltano-18-04"
 }
 
@@ -130,6 +125,11 @@ variable "do_application_ossn-18-04" {
 variable "do_application_passbolt-18-04" {
   description = "Passbolt CE 2.12 on Ubuntu 18.04"
   default     = "passbolt-18-04"
+}
+
+variable "do_application_revox-keplerbuilder-18-04" {
+  description = "Kepler Builder 1.0.9 on Ubuntu 18.04"
+  default     = "revox-keplerbuilder-18-04"
 }
 
 variable "do_application_selenoid-18-04" {
@@ -357,6 +357,11 @@ variable "do_application_kandralabs-zulip-18-04" {
   default     = "kandralabs-zulip-18-04"
 }
 
+variable "do_application_kromit-titra-18-04" {
+  description = "titra 0.9.8 on Ubuntu 18.04"
+  default     = "kromit-titra-18-04"
+}
+
 variable "do_application_lamp-18-04" {
   description = "LAMP on 18.04"
   default     = "lamp-18-04"
@@ -425,6 +430,11 @@ variable "do_application_nimbella-18-04" {
 variable "do_application_nknfullnode-18-04" {
   description = "NKN Full Node 1.1 on Ubuntu 18.04"
   default     = "nknfullnode-18-04"
+}
+
+variable "do_application_nmtec-erxes-18-04" {
+  description = "Erxes 0.13.0 on Ubuntu 18.04"
+  default     = "nmtec-erxes-18-04"
 }
 
 variable "do_application_nodejs-18-04" {
@@ -547,11 +557,6 @@ variable "do_application_rethinkdb-rethinkdbfantasi-18-04" {
   default     = "rethinkdb-rethinkdbfantasi-18-04"
 }
 
-variable "do_application_revox-keplerbuilder-18-04" {
-  description = "Kepler Builder 1.0.9 on Ubuntu 18.04"
-  default     = "revox-keplerbuilder-18-04"
-}
-
 variable "do_application_rocketchat-18-04" {
   description = "Rocket.Chat 2.4.9 on Ubuntu 18.04"
   default     = "rocketchat-18-04"
@@ -628,7 +633,7 @@ variable "do_application_weconexpbx-7-6" {
 }
 
 variable "do_application_wikijs-18-04" {
-  description = "Wiki.js 2.1.113 on Ubuntu 18.04"
+  description = "Wiki.js 2.2.51 on Ubuntu 18.04"
   default     = "wikijs-18-04"
 }
 
