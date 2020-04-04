@@ -117,14 +117,14 @@ variable "do_application_opentradestatist-rstudiopkgdev-18-04" {
   default     = "opentradestatist-rstudiopkgdev-18-04"
 }
 
-variable "do_application_ossn-18-04" {
-  description = "Open Source Social Network 5.2 on Ubuntu 18.04"
-  default     = "ossn-18-04"
-}
-
 variable "do_application_passbolt-18-04" {
   description = "Passbolt CE 2.12 on Ubuntu 18.04"
   default     = "passbolt-18-04"
+}
+
+variable "do_application_rails-18-04" {
+  description = "Ruby-on-Rails on 18.04"
+  default     = "rails-18-04"
 }
 
 variable "do_application_revox-keplerbuilder-18-04" {
@@ -277,6 +277,11 @@ variable "do_application_dokos-18-04" {
   default     = "dokos-18-04"
 }
 
+variable "do_application_eltrino-magento2opensour-18-04" {
+  description = "Magento 2 Open Source 1.0 on Ubuntu 18.04 (LTS)"
+  default     = "eltrino-magento2opensour-18-04"
+}
+
 variable "do_application_erpnext-18-04" {
   description = "ERPNext 12.5.0 on Ubuntu 18.04"
   default     = "erpnext-18-04"
@@ -353,7 +358,7 @@ variable "do_application_jenkins-18-04" {
 }
 
 variable "do_application_kandralabs-zulip-18-04" {
-  description = "Zulip 2.1.2 on Ubuntu 18.04"
+  description = "Zulip 2.1.3 on Ubuntu 18.04"
   default     = "kandralabs-zulip-18-04"
 }
 
@@ -482,6 +487,11 @@ variable "do_application_optimajet-workflowserver-18-04" {
   default     = "optimajet-workflowserver-18-04"
 }
 
+variable "do_application_ossn-18-04" {
+  description = "Open Source Social Network 5.2 on Ubuntu 18.04"
+  default     = "ossn-18-04"
+}
+
 variable "do_application_phpmyadmin-18-04" {
   description = "PhpMyAdmin on 18.04"
   default     = "phpmyadmin-18-04"
@@ -510,11 +520,6 @@ variable "do_application_prometheus-18-04" {
 variable "do_application_quickcorp-qcobjects-18-04" {
   description = "QCObjects 2.1.157 on Ubuntu 18.04"
   default     = "quickcorp-qcobjects-18-04"
-}
-
-variable "do_application_rails-18-04" {
-  description = "Ruby-on-Rails on 18.04"
-  default     = "rails-18-04"
 }
 
 variable "do_application_reblaze-reblazewaf-18-04" {
