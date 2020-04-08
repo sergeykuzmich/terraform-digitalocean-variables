@@ -22,14 +22,59 @@ variable "do_application_antmedia-16-04" {
   default     = "antmedia-16-04"
 }
 
+variable "do_application_apisnetworks-apnscp-7-7" {
+  description = "apnscp 3.1 on CentOS 7.7"
+  default     = "apisnetworks-apnscp-7-7"
+}
+
+variable "do_application_aplitel-vitalpbx-7" {
+  description = "VitalPBX 2.4.1 on Centos 7"
+  default     = "aplitel-vitalpbx-7"
+}
+
+variable "do_application_ascensiosystem-onlyoffice-18-04" {
+  description = "ONLYOFFICE 18.10 on Ubuntu 18.04"
+  default     = "ascensiosystem-onlyoffice-18-04"
+}
+
+variable "do_application_azuracast-18-04" {
+  description = "AzuraCast 0.9.8.1 on Ubuntu 18.04"
+  default     = "azuracast-18-04"
+}
+
+variable "do_application_bitwarden-18-04" {
+  description = "Bitwarden 1.32.0 on Ubuntu 18.04"
+  default     = "bitwarden-18-04"
+}
+
+variable "do_application_botpress-18-04" {
+  description = "Botpress 12.6.0 on Ubuntu 18.04"
+  default     = "botpress-18-04"
+}
+
+variable "do_application_buddy-18-04" {
+  description = "Buddy on Ubuntu 18.04"
+  default     = "buddy-18-04"
+}
+
 variable "do_application_caddy-18-04" {
   description = "Caddy 2.0.0-beta20 on Ubuntu 18.04"
   default     = "caddy-18-04"
 }
 
+variable "do_application_caprover-18-04" {
+  description = "CapRover 1.3.0 on Ubuntu 18.04"
+  default     = "caprover-18-04"
+}
+
 variable "do_application_chamilo-18-04" {
   description = "Chamilo 1.11.10 on Ubuntu 18.04"
   default     = "chamilo-18-04"
+}
+
+variable "do_application_cloudron-18-04" {
+  description = "Cloudron 5.0.6 on Ubuntu 18.04"
+  default     = "cloudron-18-04"
 }
 
 variable "do_application_code-server-18-04" {
@@ -45,6 +90,11 @@ variable "do_application_countly-18-04" {
 variable "do_application_deadletter-18-04" {
   description = "DeadLetter Facial Recognition on 18.04"
   default     = "deadletter-18-04"
+}
+
+variable "do_application_dokos-18-04" {
+  description = "Dokos 1.3.0 on Ubuntu 18.04"
+  default     = "dokos-18-04"
 }
 
 variable "do_application_fastpanel-deb-9" {
@@ -67,9 +117,9 @@ variable "do_application_honeydbagent-9" {
   default     = "honeydbagent-9"
 }
 
-variable "do_application_jelastic-jelasticpaas-7" {
-  description = "Jelastic PaaS 5.7-8 on Centos 7"
-  default     = "jelastic-jelasticpaas-7"
+variable "do_application_kromit-titra-18-04" {
+  description = "titra 0.9.8 on Ubuntu 18.04"
+  default     = "kromit-titra-18-04"
 }
 
 variable "do_application_litespeedtechnol-openlitespeedcla-18-04" {
@@ -77,8 +127,13 @@ variable "do_application_litespeedtechnol-openlitespeedcla-18-04" {
   default     = "litespeedtechnol-openlitespeedcla-18-04"
 }
 
+variable "do_application_mastodon-18-04" {
+  description = "Mastodon 3.1.3 on Ubuntu 18.04"
+  default     = "mastodon-18-04"
+}
+
 variable "do_application_meltano-18-04" {
-  description = "Meltano 1.27.2 on Ubuntu 18.04"
+  description = "Meltano 1.28.0 on Ubuntu 18.04"
   default     = "meltano-18-04"
 }
 
@@ -117,19 +172,19 @@ variable "do_application_opentradestatist-rstudiopkgdev-18-04" {
   default     = "opentradestatist-rstudiopkgdev-18-04"
 }
 
+variable "do_application_ossn-18-04" {
+  description = "Open Source Social Network 5.2 on Ubuntu 18.04"
+  default     = "ossn-18-04"
+}
+
 variable "do_application_passbolt-18-04" {
   description = "Passbolt CE 2.12 on Ubuntu 18.04"
   default     = "passbolt-18-04"
 }
 
-variable "do_application_rails-18-04" {
-  description = "Ruby-on-Rails on 18.04"
-  default     = "rails-18-04"
-}
-
-variable "do_application_revox-keplerbuilder-18-04" {
-  description = "Kepler Builder 1.0.9 on Ubuntu 18.04"
-  default     = "revox-keplerbuilder-18-04"
+variable "do_application_plesk-18-04" {
+  description = "Plesk 18.0 on Ubuntu 18.04"
+  default     = "plesk-18-04"
 }
 
 variable "do_application_selenoid-18-04" {
@@ -175,51 +230,6 @@ variable "do_application_null" {
 variable "do_application_antmedia-antmediaserveren-16-04" {
   description = "Ant Media Server Enterprise Edition 1.9.1 on Ubuntu 16.04"
   default     = "antmedia-antmediaserveren-16-04"
-}
-
-variable "do_application_apisnetworks-apnscp-7-7" {
-  description = "apnscp 3.1 on CentOS 7.7"
-  default     = "apisnetworks-apnscp-7-7"
-}
-
-variable "do_application_aplitel-vitalpbx-7" {
-  description = "VitalPBX 2.4.1 on Centos 7"
-  default     = "aplitel-vitalpbx-7"
-}
-
-variable "do_application_ascensiosystem-onlyoffice-18-04" {
-  description = "ONLYOFFICE 18.10 on Ubuntu 18.04"
-  default     = "ascensiosystem-onlyoffice-18-04"
-}
-
-variable "do_application_azuracast-18-04" {
-  description = "AzuraCast 0.9.8.1 on Ubuntu 18.04"
-  default     = "azuracast-18-04"
-}
-
-variable "do_application_bitwarden-18-04" {
-  description = "Bitwarden 1.32.0 on Ubuntu 18.04"
-  default     = "bitwarden-18-04"
-}
-
-variable "do_application_botpress-18-04" {
-  description = "Botpress 12.6.0 on Ubuntu 18.04"
-  default     = "botpress-18-04"
-}
-
-variable "do_application_buddy-18-04" {
-  description = "Buddy on Ubuntu 18.04"
-  default     = "buddy-18-04"
-}
-
-variable "do_application_caprover-18-04" {
-  description = "CapRover 1.3.0 on Ubuntu 18.04"
-  default     = "caprover-18-04"
-}
-
-variable "do_application_cloudron-18-04" {
-  description = "Cloudron 5.0.6 on Ubuntu 18.04"
-  default     = "cloudron-18-04"
 }
 
 variable "do_application_cpanel-7-6" {
@@ -270,11 +280,6 @@ variable "do_application_docker-18-04" {
 variable "do_application_dokku-18-04" {
   description = "Dokku 0.17.9 on 18.04"
   default     = "dokku-18-04"
-}
-
-variable "do_application_dokos-18-04" {
-  description = "Dokos 1.3.0 on Ubuntu 18.04"
-  default     = "dokos-18-04"
 }
 
 variable "do_application_eltrino-magento2opensour-18-04" {
@@ -352,6 +357,11 @@ variable "do_application_izenda-18-04" {
   default     = "izenda-18-04"
 }
 
+variable "do_application_jelastic-jelasticpaas-7" {
+  description = "Jelastic PaaS 5.8-1 on Centos 7"
+  default     = "jelastic-jelasticpaas-7"
+}
+
 variable "do_application_jenkins-18-04" {
   description = "CloudBees Jenkins on 18.04"
   default     = "jenkins-18-04"
@@ -360,11 +370,6 @@ variable "do_application_jenkins-18-04" {
 variable "do_application_kandralabs-zulip-18-04" {
   description = "Zulip 2.1.3 on Ubuntu 18.04"
   default     = "kandralabs-zulip-18-04"
-}
-
-variable "do_application_kromit-titra-18-04" {
-  description = "titra 0.9.8 on Ubuntu 18.04"
-  default     = "kromit-titra-18-04"
 }
 
 variable "do_application_lamp-18-04" {
@@ -390,11 +395,6 @@ variable "do_application_litespeedtechnol-openlitespeednod-18-04" {
 variable "do_application_litespeedtechnol-openlitespeedwor-18-04" {
   description = "OpenLiteSpeed WordPress 5.3.2 on Ubuntu 18.04"
   default     = "litespeedtechnol-openlitespeedwor-18-04"
-}
-
-variable "do_application_mastodon-18-04" {
-  description = "Mastodon 3.1.2 on Ubuntu 18.04"
-  default     = "mastodon-18-04"
 }
 
 variable "do_application_mattermost-18-04" {
@@ -487,11 +487,6 @@ variable "do_application_optimajet-workflowserver-18-04" {
   default     = "optimajet-workflowserver-18-04"
 }
 
-variable "do_application_ossn-18-04" {
-  description = "Open Source Social Network 5.2 on Ubuntu 18.04"
-  default     = "ossn-18-04"
-}
-
 variable "do_application_phpmyadmin-18-04" {
   description = "PhpMyAdmin on 18.04"
   default     = "phpmyadmin-18-04"
@@ -500,11 +495,6 @@ variable "do_application_phpmyadmin-18-04" {
 variable "do_application_pihole-18-04" {
   description = "OpenVPN + Pihole 1.0.1 on Ubuntu 18.04"
   default     = "pihole-18-04"
-}
-
-variable "do_application_plesk-18-04" {
-  description = "Plesk 18.0 on Ubuntu 18.04"
-  default     = "plesk-18-04"
 }
 
 variable "do_application_plesk-7-6" {
@@ -520,6 +510,11 @@ variable "do_application_prometheus-18-04" {
 variable "do_application_quickcorp-qcobjects-18-04" {
   description = "QCObjects 2.1.157 on Ubuntu 18.04"
   default     = "quickcorp-qcobjects-18-04"
+}
+
+variable "do_application_rails-18-04" {
+  description = "Ruby-on-Rails on 18.04"
+  default     = "rails-18-04"
 }
 
 variable "do_application_reblaze-reblazewaf-18-04" {
@@ -562,6 +557,11 @@ variable "do_application_rethinkdb-rethinkdbfantasi-18-04" {
   default     = "rethinkdb-rethinkdbfantasi-18-04"
 }
 
+variable "do_application_revox-keplerbuilder-18-04" {
+  description = "Kepler Builder 1.0.9 on Ubuntu 18.04"
+  default     = "revox-keplerbuilder-18-04"
+}
+
 variable "do_application_rocketchat-18-04" {
   description = "Rocket.Chat 2.4.9 on Ubuntu 18.04"
   default     = "rocketchat-18-04"
@@ -580,6 +580,11 @@ variable "do_application_sharklabs-nodejsquickstart-18-04" {
 variable "do_application_sharklabs-pacvim-18-04" {
   description = "PacVim on Ubuntu 18.04"
   default     = "sharklabs-pacvim-18-04"
+}
+
+variable "do_application_sharklabs-pythondjangoquic-18-04" {
+  description = "Python/Django Quickstart 1.0 on Ubuntu 18.04"
+  default     = "sharklabs-pythondjangoquic-18-04"
 }
 
 variable "do_application_skaffolder-18-04" {
