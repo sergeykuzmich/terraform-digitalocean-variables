@@ -22,59 +22,14 @@ variable "do_application_antmedia-16-04" {
   default     = "antmedia-16-04"
 }
 
-variable "do_application_apisnetworks-apnscp-7-7" {
-  description = "apnscp 3.1 on CentOS 7.7"
-  default     = "apisnetworks-apnscp-7-7"
-}
-
-variable "do_application_aplitel-vitalpbx-7" {
-  description = "VitalPBX 2.4.1 on Centos 7"
-  default     = "aplitel-vitalpbx-7"
-}
-
-variable "do_application_ascensiosystem-onlyoffice-18-04" {
-  description = "ONLYOFFICE 18.10 on Ubuntu 18.04"
-  default     = "ascensiosystem-onlyoffice-18-04"
-}
-
-variable "do_application_azuracast-18-04" {
-  description = "AzuraCast 0.9.8.1 on Ubuntu 18.04"
-  default     = "azuracast-18-04"
-}
-
-variable "do_application_bitwarden-18-04" {
-  description = "Bitwarden 1.32.0 on Ubuntu 18.04"
-  default     = "bitwarden-18-04"
-}
-
-variable "do_application_botpress-18-04" {
-  description = "Botpress 12.6.0 on Ubuntu 18.04"
-  default     = "botpress-18-04"
-}
-
-variable "do_application_buddy-18-04" {
-  description = "Buddy on Ubuntu 18.04"
-  default     = "buddy-18-04"
-}
-
 variable "do_application_caddy-18-04" {
   description = "Caddy 2.0.0-beta20 on Ubuntu 18.04"
   default     = "caddy-18-04"
 }
 
-variable "do_application_caprover-18-04" {
-  description = "CapRover 1.3.0 on Ubuntu 18.04"
-  default     = "caprover-18-04"
-}
-
 variable "do_application_chamilo-18-04" {
   description = "Chamilo 1.11.10 on Ubuntu 18.04"
   default     = "chamilo-18-04"
-}
-
-variable "do_application_cloudron-18-04" {
-  description = "Cloudron 5.0.6 on Ubuntu 18.04"
-  default     = "cloudron-18-04"
 }
 
 variable "do_application_code-server-18-04" {
@@ -90,11 +45,6 @@ variable "do_application_countly-18-04" {
 variable "do_application_deadletter-18-04" {
   description = "DeadLetter Facial Recognition on 18.04"
   default     = "deadletter-18-04"
-}
-
-variable "do_application_dokos-18-04" {
-  description = "Dokos 1.3.0 on Ubuntu 18.04"
-  default     = "dokos-18-04"
 }
 
 variable "do_application_fastpanel-deb-9" {
@@ -157,6 +107,11 @@ variable "do_application_nibblecomm-spotipo-18-04" {
   default     = "nibblecomm-spotipo-18-04"
 }
 
+variable "do_application_nlnetlabs-krill-18-04" {
+  description = "Krill 0.5.0 on Ubuntu 18.04"
+  default     = "nlnetlabs-krill-18-04"
+}
+
 variable "do_application_nodegame-18-04" {
   description = "NodeGame 5.8.0 on Ubuntu 18.04"
   default     = "nodegame-18-04"
@@ -180,11 +135,6 @@ variable "do_application_ossn-18-04" {
 variable "do_application_passbolt-18-04" {
   description = "Passbolt CE 2.12 on Ubuntu 18.04"
   default     = "passbolt-18-04"
-}
-
-variable "do_application_plesk-18-04" {
-  description = "Plesk 18.0 on Ubuntu 18.04"
-  default     = "plesk-18-04"
 }
 
 variable "do_application_selenoid-18-04" {
@@ -230,6 +180,51 @@ variable "do_application_null" {
 variable "do_application_antmedia-antmediaserveren-16-04" {
   description = "Ant Media Server Enterprise Edition 1.9.1 on Ubuntu 16.04"
   default     = "antmedia-antmediaserveren-16-04"
+}
+
+variable "do_application_apisnetworks-apnscp-7-7" {
+  description = "apnscp 3.1 on CentOS 7.7"
+  default     = "apisnetworks-apnscp-7-7"
+}
+
+variable "do_application_aplitel-vitalpbx-7" {
+  description = "VitalPBX 2.4.1 on Centos 7"
+  default     = "aplitel-vitalpbx-7"
+}
+
+variable "do_application_ascensiosystem-onlyoffice-18-04" {
+  description = "ONLYOFFICE 18.10 on Ubuntu 18.04"
+  default     = "ascensiosystem-onlyoffice-18-04"
+}
+
+variable "do_application_azuracast-18-04" {
+  description = "AzuraCast 0.9.8.1 on Ubuntu 18.04"
+  default     = "azuracast-18-04"
+}
+
+variable "do_application_bitwarden-18-04" {
+  description = "Bitwarden 1.32.0 on Ubuntu 18.04"
+  default     = "bitwarden-18-04"
+}
+
+variable "do_application_botpress-18-04" {
+  description = "Botpress 12.6.0 on Ubuntu 18.04"
+  default     = "botpress-18-04"
+}
+
+variable "do_application_buddy-18-04" {
+  description = "Buddy on Ubuntu 18.04"
+  default     = "buddy-18-04"
+}
+
+variable "do_application_caprover-18-04" {
+  description = "CapRover 1.3.0 on Ubuntu 18.04"
+  default     = "caprover-18-04"
+}
+
+variable "do_application_cloudron-18-04" {
+  description = "Cloudron 5.0.6 on Ubuntu 18.04"
+  default     = "cloudron-18-04"
 }
 
 variable "do_application_cpanel-7-6" {
@@ -280,6 +275,11 @@ variable "do_application_docker-18-04" {
 variable "do_application_dokku-18-04" {
   description = "Dokku 0.17.9 on 18.04"
   default     = "dokku-18-04"
+}
+
+variable "do_application_dokos-18-04" {
+  description = "Dokos 1.3.0 on Ubuntu 18.04"
+  default     = "dokos-18-04"
 }
 
 variable "do_application_eltrino-magento2opensour-18-04" {
@@ -477,6 +477,11 @@ variable "do_application_openlitespeed-wp-18-04" {
   default     = "openlitespeed-wp-18-04"
 }
 
+variable "do_application_opentradestatist-jitsiserver-18-04" {
+  description = "Jitsi Server 2.1-164 on Ubuntu 18.04"
+  default     = "opentradestatist-jitsiserver-18-04"
+}
+
 variable "do_application_openvpn-18-04" {
   description = "OpenVPN Access Server 2.7.5 on Ubuntu 18.04"
   default     = "openvpn-18-04"
@@ -495,6 +500,11 @@ variable "do_application_phpmyadmin-18-04" {
 variable "do_application_pihole-18-04" {
   description = "OpenVPN + Pihole 1.0.1 on Ubuntu 18.04"
   default     = "pihole-18-04"
+}
+
+variable "do_application_plesk-18-04" {
+  description = "Plesk 18.0 on Ubuntu 18.04"
+  default     = "plesk-18-04"
 }
 
 variable "do_application_plesk-7-6" {
@@ -565,6 +575,11 @@ variable "do_application_revox-keplerbuilder-18-04" {
 variable "do_application_rocketchat-18-04" {
   description = "Rocket.Chat 2.4.9 on Ubuntu 18.04"
   default     = "rocketchat-18-04"
+}
+
+variable "do_application_sharklabs-minecraftjavaedi-18-04" {
+  description = "Minecraft: Java Edition Server 1.0 on Ubuntu 18.04"
+  default     = "sharklabs-minecraftjavaedi-18-04"
 }
 
 variable "do_application_sharklabs-ninjam-10-0" {
