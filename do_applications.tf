@@ -33,7 +33,7 @@ variable "do_application_chamilo-18-04" {
 }
 
 variable "do_application_code-server-18-04" {
-  description = "code-server 2 on Ubuntu 18.04"
+  description = "code-server 3.0.2 on Ubuntu 18.04"
   default     = "code-server-18-04"
 }
 
@@ -83,7 +83,7 @@ variable "do_application_mastodon-18-04" {
 }
 
 variable "do_application_meltano-18-04" {
-  description = "Meltano 1.28.0 on Ubuntu 18.04"
+  description = "Meltano 1.28.1 on Ubuntu 18.04"
   default     = "meltano-18-04"
 }
 
@@ -137,6 +137,11 @@ variable "do_application_passbolt-18-04" {
   default     = "passbolt-18-04"
 }
 
+variable "do_application_revox-keplerbuilder-18-04" {
+  description = "Kepler Builder 1.0.9 on Ubuntu 18.04"
+  default     = "revox-keplerbuilder-18-04"
+}
+
 variable "do_application_selenoid-18-04" {
   description = "Selenoid 1.9.2 on Ubuntu 18.04"
   default     = "selenoid-18-04"
@@ -155,16 +160,6 @@ variable "do_application_shopware-18-04" {
 variable "do_application_simplystatistics-rstudio-18-04" {
   description = "RStudio 1.2 on Ubuntu 18.04"
   default     = "simplystatistics-rstudio-18-04"
-}
-
-variable "do_application_vardot-varbase-18-04" {
-  description = "Varbase 8.7.11 on Ubuntu 18.04"
-  default     = "vardot-varbase-18-04"
-}
-
-variable "do_application_wordpress-18-04" {
-  description = "WordPress on 18.04"
-  default     = "wordpress-18-04"
 }
 
 variable "do_application_zabbix-7-6" {
@@ -238,7 +233,7 @@ variable "do_application_cpanel-cpanelwhm-7-6" {
 }
 
 variable "do_application_cyberpanel-18-04" {
-  description = "CyberPanel 1.9.4 on Ubuntu 18.04"
+  description = "CyberPanel 2.0.0 on Ubuntu 18.04"
   default     = "cyberpanel-18-04"
 }
 
@@ -567,11 +562,6 @@ variable "do_application_rethinkdb-rethinkdbfantasi-18-04" {
   default     = "rethinkdb-rethinkdbfantasi-18-04"
 }
 
-variable "do_application_revox-keplerbuilder-18-04" {
-  description = "Kepler Builder 1.0.9 on Ubuntu 18.04"
-  default     = "revox-keplerbuilder-18-04"
-}
-
 variable "do_application_rocketchat-18-04" {
   description = "Rocket.Chat 2.4.9 on Ubuntu 18.04"
   default     = "rocketchat-18-04"
@@ -647,6 +637,11 @@ variable "do_application_unlight-openunlight-18-04" {
   default     = "unlight-openunlight-18-04"
 }
 
+variable "do_application_vardot-varbase-18-04" {
+  description = "Varbase 8.7.11 on Ubuntu 18.04"
+  default     = "vardot-varbase-18-04"
+}
+
 variable "do_application_vitalpointz-7-6" {
   description = "vitalpointz IoT Core Lite 1.2.0 on CentOS 7.6"
   default     = "vitalpointz-7-6"
@@ -660,6 +655,11 @@ variable "do_application_weconexpbx-7-6" {
 variable "do_application_wikijs-18-04" {
   description = "Wiki.js 2.2.51 on Ubuntu 18.04"
   default     = "wikijs-18-04"
+}
+
+variable "do_application_wordpress-18-04" {
+  description = "WordPress on 18.04"
+  default     = "wordpress-18-04"
 }
 
 variable "do_application_workarea-18-04" {
