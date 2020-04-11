@@ -112,11 +112,6 @@ variable "do_application_nlnetlabs-krill-18-04" {
   default     = "nlnetlabs-krill-18-04"
 }
 
-variable "do_application_nodegame-18-04" {
-  description = "NodeGame 5.8.0 on Ubuntu 18.04"
-  default     = "nodegame-18-04"
-}
-
 variable "do_application_opentradestatist-rstudioh2o-18-04" {
   description = "RStudio + H2O 1.2 on Ubuntu 18.04"
   default     = "opentradestatist-rstudioh2o-18-04"
@@ -160,6 +155,16 @@ variable "do_application_shopware-18-04" {
 variable "do_application_simplystatistics-rstudio-18-04" {
   description = "RStudio 1.2 on Ubuntu 18.04"
   default     = "simplystatistics-rstudio-18-04"
+}
+
+variable "do_application_vardot-varbase-18-04" {
+  description = "Varbase 8.7.11 on Ubuntu 18.04"
+  default     = "vardot-varbase-18-04"
+}
+
+variable "do_application_wordpress-18-04" {
+  description = "WordPress on 18.04"
+  default     = "wordpress-18-04"
 }
 
 variable "do_application_zabbix-7-6" {
@@ -437,6 +442,11 @@ variable "do_application_nmtec-erxes-18-04" {
   default     = "nmtec-erxes-18-04"
 }
 
+variable "do_application_nodegame-18-04" {
+  description = "NodeGame 5.9.0 on Ubuntu 18.04"
+  default     = "nodegame-18-04"
+}
+
 variable "do_application_nodejs-18-04" {
   description = "NodeJS 8.10.0 on 18.04"
   default     = "nodejs-18-04"
@@ -637,11 +647,6 @@ variable "do_application_unlight-openunlight-18-04" {
   default     = "unlight-openunlight-18-04"
 }
 
-variable "do_application_vardot-varbase-18-04" {
-  description = "Varbase 8.7.11 on Ubuntu 18.04"
-  default     = "vardot-varbase-18-04"
-}
-
 variable "do_application_vitalpointz-7-6" {
   description = "vitalpointz IoT Core Lite 1.2.0 on CentOS 7.6"
   default     = "vitalpointz-7-6"
@@ -655,11 +660,6 @@ variable "do_application_weconexpbx-7-6" {
 variable "do_application_wikijs-18-04" {
   description = "Wiki.js 2.2.51 on Ubuntu 18.04"
   default     = "wikijs-18-04"
-}
-
-variable "do_application_wordpress-18-04" {
-  description = "WordPress on 18.04"
-  default     = "wordpress-18-04"
 }
 
 variable "do_application_workarea-18-04" {
