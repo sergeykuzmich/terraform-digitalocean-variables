@@ -47,6 +47,11 @@ variable "do_application_deadletter-18-04" {
   default     = "deadletter-18-04"
 }
 
+variable "do_application_dokos-18-04" {
+  description = "Dokos 1.3.0 on Ubuntu 18.04"
+  default     = "dokos-18-04"
+}
+
 variable "do_application_fastpanel-deb-9" {
   description = "FastPanel 1.7 on Debian"
   default     = "fastpanel-deb-9"
@@ -57,14 +62,14 @@ variable "do_application_flashphoner-7-6" {
   default     = "flashphoner-7-6"
 }
 
-variable "do_application_grafana-18-04" {
-  description = "Grafana 6.7.1 on Ubuntu 18.04"
-  default     = "grafana-18-04"
-}
-
 variable "do_application_honeydbagent-9" {
   description = "HoneyDB Agent on Debian 9"
   default     = "honeydbagent-9"
+}
+
+variable "do_application_jadiangaming-solderio-18-04" {
+  description = "Solder.io 0.7.5.1 on Ubuntu 18.04"
+  default     = "jadiangaming-solderio-18-04"
 }
 
 variable "do_application_kromit-titra-18-04" {
@@ -132,6 +137,11 @@ variable "do_application_passbolt-18-04" {
   default     = "passbolt-18-04"
 }
 
+variable "do_application_plesk-18-04" {
+  description = "Plesk 18.0 on Ubuntu 18.04"
+  default     = "plesk-18-04"
+}
+
 variable "do_application_revox-keplerbuilder-18-04" {
   description = "Kepler Builder 1.0.9 on Ubuntu 18.04"
   default     = "revox-keplerbuilder-18-04"
@@ -155,16 +165,6 @@ variable "do_application_shopware-18-04" {
 variable "do_application_simplystatistics-rstudio-18-04" {
   description = "RStudio 1.2 on Ubuntu 18.04"
   default     = "simplystatistics-rstudio-18-04"
-}
-
-variable "do_application_vardot-varbase-18-04" {
-  description = "Varbase 8.7.11 on Ubuntu 18.04"
-  default     = "vardot-varbase-18-04"
-}
-
-variable "do_application_wordpress-18-04" {
-  description = "WordPress on 18.04"
-  default     = "wordpress-18-04"
 }
 
 variable "do_application_zabbix-7-6" {
@@ -277,11 +277,6 @@ variable "do_application_dokku-18-04" {
   default     = "dokku-18-04"
 }
 
-variable "do_application_dokos-18-04" {
-  description = "Dokos 1.3.0 on Ubuntu 18.04"
-  default     = "dokos-18-04"
-}
-
 variable "do_application_eltrino-magento2opensour-18-04" {
   description = "Magento 2 Open Source 1.0 on Ubuntu 18.04 (LTS)"
   default     = "eltrino-magento2opensour-18-04"
@@ -320,6 +315,11 @@ variable "do_application_gitea-18-04" {
 variable "do_application_gitlab-meltano-18-04" {
   description = "Meltano 1.15.0 on Ubuntu 18.04"
   default     = "gitlab-meltano-18-04"
+}
+
+variable "do_application_grafana-18-04" {
+  description = "Grafana 6.7.1 on Ubuntu 18.04"
+  default     = "grafana-18-04"
 }
 
 variable "do_application_grandnode-18-04" {
@@ -507,11 +507,6 @@ variable "do_application_pihole-18-04" {
   default     = "pihole-18-04"
 }
 
-variable "do_application_plesk-18-04" {
-  description = "Plesk 18.0 on Ubuntu 18.04"
-  default     = "plesk-18-04"
-}
-
 variable "do_application_plesk-7-6" {
   description = "Plesk (CentOS) 18.0 on CentOS 7.7"
   default     = "plesk-7-6"
@@ -647,6 +642,11 @@ variable "do_application_unlight-openunlight-18-04" {
   default     = "unlight-openunlight-18-04"
 }
 
+variable "do_application_vardot-varbase-18-04" {
+  description = "Varbase 8.7.11 on Ubuntu 18.04"
+  default     = "vardot-varbase-18-04"
+}
+
 variable "do_application_vitalpointz-7-6" {
   description = "vitalpointz IoT Core Lite 1.2.0 on CentOS 7.6"
   default     = "vitalpointz-7-6"
@@ -660,6 +660,11 @@ variable "do_application_weconexpbx-7-6" {
 variable "do_application_wikijs-18-04" {
   description = "Wiki.js 2.2.51 on Ubuntu 18.04"
   default     = "wikijs-18-04"
+}
+
+variable "do_application_wordpress-18-04" {
+  description = "WordPress on 18.04"
+  default     = "wordpress-18-04"
 }
 
 variable "do_application_workarea-18-04" {
