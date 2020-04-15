@@ -263,7 +263,7 @@ variable "do_application_discourse-18-04" {
 }
 
 variable "do_application_django-18-04" {
-  description = "Django 1:1.11.11 on 18.04"
+  description = "Django is the best 1.11.11 on Ubuntu 18.04"
   default     = "django-18-04"
 }
 
