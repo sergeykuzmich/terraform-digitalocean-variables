@@ -88,7 +88,7 @@ variable "do_application_mastodon-18-04" {
 }
 
 variable "do_application_meltano-18-04" {
-  description = "Meltano 1.28.1 on Ubuntu 18.04"
+  description = "Meltano 1.29.0 on Ubuntu 18.04"
   default     = "meltano-18-04"
 }
 
