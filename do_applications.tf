@@ -62,6 +62,11 @@ variable "do_application_flashphoner-7-6" {
   default     = "flashphoner-7-6"
 }
 
+variable "do_application_grandnode-18-04" {
+  description = "GrandNode 4.60 on Ubuntu 18.04"
+  default     = "grandnode-18-04"
+}
+
 variable "do_application_honeydbagent-9" {
   description = "HoneyDB Agent on Debian 9"
   default     = "honeydbagent-9"
@@ -133,13 +138,8 @@ variable "do_application_ossn-18-04" {
 }
 
 variable "do_application_passbolt-18-04" {
-  description = "Passbolt CE 2.12 on Ubuntu 18.04"
+  description = "Passbolt CE 2.12.1 on Ubuntu 18.04"
   default     = "passbolt-18-04"
-}
-
-variable "do_application_plesk-18-04" {
-  description = "Plesk 18.0 on Ubuntu 18.04"
-  default     = "plesk-18-04"
 }
 
 variable "do_application_revox-keplerbuilder-18-04" {
@@ -223,7 +223,7 @@ variable "do_application_caprover-18-04" {
 }
 
 variable "do_application_cloudron-18-04" {
-  description = "Cloudron 5.0.6 on Ubuntu 18.04"
+  description = "Cloudron 5.1.5 on Ubuntu 18.04"
   default     = "cloudron-18-04"
 }
 
@@ -320,11 +320,6 @@ variable "do_application_gitlab-meltano-18-04" {
 variable "do_application_grafana-18-04" {
   description = "Grafana 6.7.1 on Ubuntu 18.04"
   default     = "grafana-18-04"
-}
-
-variable "do_application_grandnode-18-04" {
-  description = "GrandNode 4.60 on Ubuntu 18.04"
-  default     = "grandnode-18-04"
 }
 
 variable "do_application_hasura-18-04" {
@@ -505,6 +500,11 @@ variable "do_application_phpmyadmin-18-04" {
 variable "do_application_pihole-18-04" {
   description = "OpenVPN + Pihole 1.0.1 on Ubuntu 18.04"
   default     = "pihole-18-04"
+}
+
+variable "do_application_plesk-18-04" {
+  description = "Plesk 18.0 on Ubuntu 18.04"
+  default     = "plesk-18-04"
 }
 
 variable "do_application_plesk-7-6" {
