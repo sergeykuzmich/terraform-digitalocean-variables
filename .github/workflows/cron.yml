@@ -1,0 +1,19 @@
+name: Daily Check-in
+
+on:
+  schedule:
+    # Run action every 5 minutes while development
+    - cron:  '*/5 * * * *'
+
+jobs:
+  check-in:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Clone Repository
+    - uses: actions/checkout@v2
+
+    - name: Setup Node
+      uses: actions/setup-node@v1
+      with:
+        node-version: '10.x'
