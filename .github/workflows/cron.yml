@@ -18,7 +18,7 @@ jobs:
         age: '1 day'
 
   job_fetch:
-    name: Get DigitalOcean API Variables
+    name: Get Latest DigitalOcean API Variables
     runs-on: ubuntu-latest
 
     steps:
@@ -84,3 +84,7 @@ jobs:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         publish_branch: master
         publish_dir: output
+        enable_jekyll: true
+        user_name: Github Actions [bot]
+        user_email: github-actions[bot]@users.noreply.github.com
+        commit_message: Deploy sergeykuzmich/terraform-digitalocean-variables
