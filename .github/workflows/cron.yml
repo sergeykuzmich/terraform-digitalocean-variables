@@ -34,11 +34,19 @@ jobs:
         name: output
         path: output/
 
+
   job_fmt:
     name: Prettify Output Files
+    needs: job_fetch
     runs-on: ubuntu-latest
 
+    steps:
     - name: Download Artifacts
       uses: actions/download-artifact@v1
       with:
         name: output
+    - name: 'Terraform Format'
+      uses: hashicorp/terraform-github-actions@master
+      with:
+        tf_actions_version: 0.12.13
+        tf_actions_subcommand: 'fmt'
