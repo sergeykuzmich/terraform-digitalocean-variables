@@ -93,7 +93,7 @@ variable "do_application_mastodon-18-04" {
 }
 
 variable "do_application_meltano-18-04" {
-  description = "Meltano 1.29.0 on Ubuntu 18.04"
+  description = "Meltano 1.29.1 on Ubuntu 18.04"
   default     = "meltano-18-04"
 }
 
@@ -363,7 +363,7 @@ variable "do_application_jenkins-18-04" {
 }
 
 variable "do_application_kandralabs-zulip-18-04" {
-  description = "Zulip 2.1.3 on Ubuntu 18.04"
+  description = "Zulip 2.1.4 on Ubuntu 18.04"
   default     = "kandralabs-zulip-18-04"
 }
 
