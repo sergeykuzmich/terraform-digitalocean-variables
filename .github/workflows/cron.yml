@@ -24,3 +24,5 @@ jobs:
 
     - name: Get DigitalOcean API Variables
       run: node main.js
+      env:
+        DIGITALOCEAN_TOKEN: ${{ secrets.DIGITALOCEAN_TOKEN }}
