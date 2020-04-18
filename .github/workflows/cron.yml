@@ -7,7 +7,7 @@ on:
       - feature/switch-to-github-actions
 
 jobs:
-  fetch-vars:
+  fetch:
     name: Get DigitalOcean API Variables
     runs-on: ubuntu-latest
 
@@ -39,7 +39,7 @@ jobs:
     name: Prettify Output Files
     runs-on: ubuntu-latest
 
-    needs: fetch-vars
+    needs: fetch
 
     - name: Download Artifacts
       uses: actions/download-artifact@v1
