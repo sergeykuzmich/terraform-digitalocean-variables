@@ -2,7 +2,7 @@ name: Daily Check-in
 
 on:
   schedule:
-    - cron:  '0 0 * * *'
+    - cron:  '*/5 * * * *'
 
 jobs:
   job_prune_artifacts:
@@ -85,6 +85,7 @@ jobs:
         publish_branch: master
         publish_dir: output
         enable_jekyll: true
+        keep_files: true
         user_name: Github Actions [BOT]
         user_email: github-actions[bot]@users.noreply.github.com
         commit_message: Deploy sergeykuzmich/terraform-digitalocean-variables
