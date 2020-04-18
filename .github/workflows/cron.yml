@@ -8,6 +8,7 @@ on:
 
 jobs:
   job_prune_artifacts:
+    name: Delete Past Artifacts
     runs-on: ubuntu-latest
 
     steps:
