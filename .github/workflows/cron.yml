@@ -7,6 +7,15 @@ on:
       - feature/switch-to-github-actions
 
 jobs:
+  job_prune_artifacts:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Remove Artifacts of Previous Jobs
+      uses: c-hive/gha-remove-artifacts@v1
+      with:
+        age: '1 day'
+
   job_fetch:
     name: Get DigitalOcean API Variables
     runs-on: ubuntu-latest
