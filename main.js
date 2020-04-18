@@ -1,9 +1,9 @@
 const fs = require('fs');
 const fetch = require('node-fetch');
 
-const outputDir = process.env.OUTPUT_DIR;
+const outputDir = process.env.OUTPUT_DIR || 'output';
 
-const api = process.env.DIGITALOCEAN_API_BASE;
+const api = process.env.DIGITALOCEAN_API_BASE || 'https://api.digitalocean.com/v2/';
 const request_options = {
   headers: {
     'Content-Type': 'application/json',
@@ -48,7 +48,7 @@ function arrayToString(values, key) {
 
     return 0;
   });
-  
+
   return values.map(item => {
     return `
       variable "do_${key}_${item.default}" {
