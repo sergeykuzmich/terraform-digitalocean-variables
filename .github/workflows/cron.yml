@@ -2,7 +2,8 @@ name: Daily Check-in
 
 on:
   schedule:
-    - cron:  '/5 * * * *'
+    # * is a special character in YAML so you have to quote this string
+    - cron:  '*/15 * * * *'
 
 jobs:
   job_prune_artifacts:
