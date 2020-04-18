@@ -31,7 +31,10 @@ function fetchAll(resource, dataKey, endpoint) {
       } else {
         resolve(result);
       }
-    }, reject);
+    })
+    .catch(exception => {
+      reject(exception);
+    });
   });
 
   return promise;
@@ -162,4 +165,9 @@ Promise.all([sizes, regions, distributions, applications])
     distributions: distributionsAsString,
     applications: applicationsAsString,
   });
-});
+
+  process.exitCode = 0;
+})
+.catch(exception => {
+  process.exitCode = 1;
+})
