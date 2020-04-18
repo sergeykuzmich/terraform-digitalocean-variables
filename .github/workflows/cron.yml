@@ -18,3 +18,9 @@ jobs:
       uses: actions/setup-node@v1
       with:
         node-version: '10.x'
+
+    - name: Setup node-fetch
+      run: npm install node-fetch --loglevel error
+
+    - name: Get DigitalOcean API Variables
+      run: node main.js
