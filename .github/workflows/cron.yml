@@ -45,10 +45,9 @@ jobs:
       uses: actions/download-artifact@v1
       with:
         name: output
-    - name: Get Terraform
+    - name: Reformat Output with Terraform
       uses: hashicorp/terraform-github-actions@master
       with:
         tf_actions_version: 0.12.13
-    - name: Reformat Files
-      run: terraform fmt output/
-
+        tf_actions_subcommand: 'fmt'
+        tf_actions_fmt_write: true
