@@ -2,6 +2,7 @@
 ##  Droplet Sizes
 #
 
+
 variable "do_size_16gb" {
   description = "16GB RAM; 8 CPU; 160GB SSD - $160/mo"
   default     = "16gb"
@@ -321,3 +322,4 @@ variable "do_size_s-8vcpu-32gb" {
   description = "32GB RAM; 8 CPU; 640GB SSD - $160/mo"
   default     = "s-8vcpu-32gb"
 }
+    

@@ -2,6 +2,7 @@
 ##  DigitalOcean Regions
 #
 
+
 variable "do_region_ams3" {
   description = "Amsterdam 3"
   default     = "ams3"
@@ -46,3 +47,4 @@ variable "do_region_tor1" {
   description = "Toronto 1"
   default     = "tor1"
 }
+    

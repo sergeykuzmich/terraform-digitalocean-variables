@@ -2,6 +2,7 @@
 ##  One Click Applications
 #
 
+
 variable "do_application_acra-18-04" {
   description = "Acra 0.85.0 on Ubuntu 18.04"
   default     = "acra-18-04"
@@ -20,161 +21,6 @@ variable "do_application_alfio-7-6" {
 variable "do_application_antmedia-16-04" {
   description = "AntMedia Server Community Edition 1.9.1 on Ubuntu 16.04"
   default     = "antmedia-16-04"
-}
-
-variable "do_application_caddy-18-04" {
-  description = "Caddy 2.0.0-beta20 on Ubuntu 18.04"
-  default     = "caddy-18-04"
-}
-
-variable "do_application_chamilo-18-04" {
-  description = "Chamilo 1.11.10 on Ubuntu 18.04"
-  default     = "chamilo-18-04"
-}
-
-variable "do_application_code-server-18-04" {
-  description = "code-server 3.0.2 on Ubuntu 18.04"
-  default     = "code-server-18-04"
-}
-
-variable "do_application_countly-18-04" {
-  description = "Countly 19.08.1 on Ubuntu 18.04"
-  default     = "countly-18-04"
-}
-
-variable "do_application_deadletter-18-04" {
-  description = "DeadLetter Facial Recognition on 18.04"
-  default     = "deadletter-18-04"
-}
-
-variable "do_application_dokos-18-04" {
-  description = "Dokos 1.3.0 on Ubuntu 18.04"
-  default     = "dokos-18-04"
-}
-
-variable "do_application_fastpanel-deb-9" {
-  description = "FastPanel 1.7 on Debian"
-  default     = "fastpanel-deb-9"
-}
-
-variable "do_application_flashphoner-7-6" {
-  description = "Flashphoner 5.2.259 on CentOS 7.6"
-  default     = "flashphoner-7-6"
-}
-
-variable "do_application_grandnode-18-04" {
-  description = "GrandNode 4.60 on Ubuntu 18.04"
-  default     = "grandnode-18-04"
-}
-
-variable "do_application_honeydbagent-9" {
-  description = "HoneyDB Agent on Debian 9"
-  default     = "honeydbagent-9"
-}
-
-variable "do_application_jadiangaming-solderio-18-04" {
-  description = "Solder.io 0.7.5.1 on Ubuntu 18.04"
-  default     = "jadiangaming-solderio-18-04"
-}
-
-variable "do_application_kromit-titra-18-04" {
-  description = "titra 0.9.8 on Ubuntu 18.04"
-  default     = "kromit-titra-18-04"
-}
-
-variable "do_application_litespeedtechnol-openlitespeedcla-18-04" {
-  description = "OpenLiteSpeed ClassicPress 1.1.2 on Ubuntu 18.04"
-  default     = "litespeedtechnol-openlitespeedcla-18-04"
-}
-
-variable "do_application_mastodon-18-04" {
-  description = "Mastodon 3.1.3 on Ubuntu 18.04"
-  default     = "mastodon-18-04"
-}
-
-variable "do_application_meltano-18-04" {
-  description = "Meltano 1.29.1 on Ubuntu 18.04"
-  default     = "meltano-18-04"
-}
-
-variable "do_application_memgraph-9-7" {
-  description = "Memgraph on Debian 9.7"
-  default     = "memgraph-9-7"
-}
-
-variable "do_application_metabase-18-04" {
-  description = "Metabase 0.34.2 on Ubuntu 18.04"
-  default     = "metabase-18-04"
-}
-
-variable "do_application_mobilejazz-bugfender-18-04" {
-  description = "Bugfender 2020.1.0 on Ubuntu 18.04"
-  default     = "mobilejazz-bugfender-18-04"
-}
-
-variable "do_application_nibblecomm-spotipo-18-04" {
-  description = "Spotipo 3.4.13 on 18.04"
-  default     = "nibblecomm-spotipo-18-04"
-}
-
-variable "do_application_nlnetlabs-krill-18-04" {
-  description = "Krill 0.5.0 on Ubuntu 18.04"
-  default     = "nlnetlabs-krill-18-04"
-}
-
-variable "do_application_opentradestatist-rstudioh2o-18-04" {
-  description = "RStudio + H2O 1.2 on Ubuntu 18.04"
-  default     = "opentradestatist-rstudioh2o-18-04"
-}
-
-variable "do_application_opentradestatist-rstudiopkgdev-18-04" {
-  description = "RStudio + PkgDev 1.2 on Ubuntu 18.04"
-  default     = "opentradestatist-rstudiopkgdev-18-04"
-}
-
-variable "do_application_ossn-18-04" {
-  description = "Open Source Social Network 5.2 on Ubuntu 18.04"
-  default     = "ossn-18-04"
-}
-
-variable "do_application_passbolt-18-04" {
-  description = "Passbolt CE 2.12.1 on Ubuntu 18.04"
-  default     = "passbolt-18-04"
-}
-
-variable "do_application_revox-keplerbuilder-18-04" {
-  description = "Kepler Builder 1.0.9 on Ubuntu 18.04"
-  default     = "revox-keplerbuilder-18-04"
-}
-
-variable "do_application_selenoid-18-04" {
-  description = "Selenoid 1.9.2 on Ubuntu 18.04"
-  default     = "selenoid-18-04"
-}
-
-variable "do_application_sharklabs-foldinghome-18-04" {
-  description = "Folding@home 0.0.1 on Ubuntu 18.04"
-  default     = "sharklabs-foldinghome-18-04"
-}
-
-variable "do_application_shopware-18-04" {
-  description = "Shopware on Ubuntu 18.04"
-  default     = "shopware-18-04"
-}
-
-variable "do_application_simplystatistics-rstudio-18-04" {
-  description = "RStudio 1.2 on Ubuntu 18.04"
-  default     = "simplystatistics-rstudio-18-04"
-}
-
-variable "do_application_zabbix-7-6" {
-  description = "Zabbix 4.4.4 on CentOS 7"
-  default     = "zabbix-7-6"
-}
-
-variable "do_application_null" {
-  description = "Plesk 17.8 on CentOS 7"
-  default     = "null"
 }
 
 variable "do_application_antmedia-antmediaserveren-16-04" {
@@ -217,14 +63,34 @@ variable "do_application_buddy-18-04" {
   default     = "buddy-18-04"
 }
 
+variable "do_application_caddy-18-04" {
+  description = "Caddy 2.0.0-beta20 on Ubuntu 18.04"
+  default     = "caddy-18-04"
+}
+
 variable "do_application_caprover-18-04" {
   description = "CapRover 1.3.0 on Ubuntu 18.04"
   default     = "caprover-18-04"
 }
 
+variable "do_application_chamilo-18-04" {
+  description = "Chamilo 1.11.10 on Ubuntu 18.04"
+  default     = "chamilo-18-04"
+}
+
 variable "do_application_cloudron-18-04" {
   description = "Cloudron 5.1.5 on Ubuntu 18.04"
   default     = "cloudron-18-04"
+}
+
+variable "do_application_code-server-18-04" {
+  description = "code-server 3.0.2 on Ubuntu 18.04"
+  default     = "code-server-18-04"
+}
+
+variable "do_application_countly-18-04" {
+  description = "Countly 19.08.1 on Ubuntu 18.04"
+  default     = "countly-18-04"
 }
 
 variable "do_application_cpanel-7-6" {
@@ -252,6 +118,11 @@ variable "do_application_deadcanaries-onionroutedcloud-18-04" {
   default     = "deadcanaries-onionroutedcloud-18-04"
 }
 
+variable "do_application_deadletter-18-04" {
+  description = "DeadLetter Facial Recognition on 18.04"
+  default     = "deadletter-18-04"
+}
+
 variable "do_application_directus-18-04" {
   description = "Directus 8.6.1 on Ubuntu 18.04"
   default     = "directus-18-04"
@@ -277,6 +148,11 @@ variable "do_application_dokku-18-04" {
   default     = "dokku-18-04"
 }
 
+variable "do_application_dokos-18-04" {
+  description = "Dokos 1.3.0 on Ubuntu 18.04"
+  default     = "dokos-18-04"
+}
+
 variable "do_application_eltrino-magento2opensour-18-04" {
   description = "Magento 2 Open Source 1.0 on Ubuntu 18.04 (LTS)"
   default     = "eltrino-magento2opensour-18-04"
@@ -287,14 +163,29 @@ variable "do_application_erpnext-18-04" {
   default     = "erpnext-18-04"
 }
 
+variable "do_application_null" {
+  description = "Plesk 17.8 on CentOS 7"
+  default     = "null"
+}
+
 variable "do_application_fastnetmon-18-04" {
   description = "FastNetMon 2.0 on Ubuntu 18.04"
   default     = "fastnetmon-18-04"
 }
 
+variable "do_application_fastpanel-deb-9" {
+  description = "FastPanel 1.7 on Debian"
+  default     = "fastpanel-deb-9"
+}
+
 variable "do_application_fathom-18-04" {
   description = "Fathom on 18.04"
   default     = "fathom-18-04"
+}
+
+variable "do_application_flashphoner-7-6" {
+  description = "Flashphoner 5.2.259 on CentOS 7.6"
+  default     = "flashphoner-7-6"
 }
 
 variable "do_application_flexify-18-04" {
@@ -322,6 +213,11 @@ variable "do_application_grafana-18-04" {
   default     = "grafana-18-04"
 }
 
+variable "do_application_grandnode-18-04" {
+  description = "GrandNode 4.60 on Ubuntu 18.04"
+  default     = "grandnode-18-04"
+}
+
 variable "do_application_hasura-18-04" {
   description = "Hasura GraphQL on Ubuntu 18.04"
   default     = "hasura-18-04"
@@ -330,6 +226,11 @@ variable "do_application_hasura-18-04" {
 variable "do_application_helpy-18-04" {
   description = "Helpy 2.4 on 18.04"
   default     = "helpy-18-04"
+}
+
+variable "do_application_honeydbagent-9" {
+  description = "HoneyDB Agent on Debian 9"
+  default     = "honeydbagent-9"
 }
 
 variable "do_application_influxdb-18-04" {
@@ -352,6 +253,11 @@ variable "do_application_izenda-18-04" {
   default     = "izenda-18-04"
 }
 
+variable "do_application_jadiangaming-solderio-18-04" {
+  description = "Solder.io 0.7.5.1 on Ubuntu 18.04"
+  default     = "jadiangaming-solderio-18-04"
+}
+
 variable "do_application_jelastic-jelasticpaas-7" {
   description = "Jelastic PaaS 5.8-1 on Centos 7"
   default     = "jelastic-jelasticpaas-7"
@@ -367,6 +273,11 @@ variable "do_application_kandralabs-zulip-18-04" {
   default     = "kandralabs-zulip-18-04"
 }
 
+variable "do_application_kromit-titra-18-04" {
+  description = "titra 0.9.8 on Ubuntu 18.04"
+  default     = "kromit-titra-18-04"
+}
+
 variable "do_application_lamp-18-04" {
   description = "LAMP on 18.04"
   default     = "lamp-18-04"
@@ -375,6 +286,11 @@ variable "do_application_lamp-18-04" {
 variable "do_application_lemp-18-04" {
   description = "LEMP on 18.04"
   default     = "lemp-18-04"
+}
+
+variable "do_application_litespeedtechnol-openlitespeedcla-18-04" {
+  description = "OpenLiteSpeed ClassicPress 1.1.2 on Ubuntu 18.04"
+  default     = "litespeedtechnol-openlitespeedcla-18-04"
 }
 
 variable "do_application_litespeedtechnol-openlitespeeddja-18-04" {
@@ -392,14 +308,39 @@ variable "do_application_litespeedtechnol-openlitespeedwor-18-04" {
   default     = "litespeedtechnol-openlitespeedwor-18-04"
 }
 
+variable "do_application_mastodon-18-04" {
+  description = "Mastodon 3.1.3 on Ubuntu 18.04"
+  default     = "mastodon-18-04"
+}
+
 variable "do_application_mattermost-18-04" {
   description = "Mattermost 5.16.3 on Ubuntu 18.04"
   default     = "mattermost-18-04"
 }
 
+variable "do_application_meltano-18-04" {
+  description = "Meltano 1.29.1 on Ubuntu 18.04"
+  default     = "meltano-18-04"
+}
+
+variable "do_application_memgraph-9-7" {
+  description = "Memgraph on Debian 9.7"
+  default     = "memgraph-9-7"
+}
+
+variable "do_application_metabase-18-04" {
+  description = "Metabase 0.34.2 on Ubuntu 18.04"
+  default     = "metabase-18-04"
+}
+
 variable "do_application_microweber-18-04" {
   description = "Microweber 1.1.18 on Ubuntu 18.04"
   default     = "microweber-18-04"
+}
+
+variable "do_application_mobilejazz-bugfender-18-04" {
+  description = "Bugfender 2020.1.0 on Ubuntu 18.04"
+  default     = "mobilejazz-bugfender-18-04"
 }
 
 variable "do_application_mongodb-18-04" {
@@ -422,6 +363,11 @@ variable "do_application_netfoundry-7-6" {
   default     = "netfoundry-7-6"
 }
 
+variable "do_application_nibblecomm-spotipo-18-04" {
+  description = "Spotipo 3.4.13 on 18.04"
+  default     = "nibblecomm-spotipo-18-04"
+}
+
 variable "do_application_nimbella-18-04" {
   description = "Nimbella Lite on Ubuntu 18.04"
   default     = "nimbella-18-04"
@@ -430,6 +376,11 @@ variable "do_application_nimbella-18-04" {
 variable "do_application_nknfullnode-18-04" {
   description = "NKN Full Node 1.1 on Ubuntu 18.04"
   default     = "nknfullnode-18-04"
+}
+
+variable "do_application_nlnetlabs-krill-18-04" {
+  description = "Krill 0.5.0 on Ubuntu 18.04"
+  default     = "nlnetlabs-krill-18-04"
 }
 
 variable "do_application_nmtec-erxes-18-04" {
@@ -482,6 +433,16 @@ variable "do_application_opentradestatist-jitsiserver-18-04" {
   default     = "opentradestatist-jitsiserver-18-04"
 }
 
+variable "do_application_opentradestatist-rstudioh2o-18-04" {
+  description = "RStudio + H2O 1.2 on Ubuntu 18.04"
+  default     = "opentradestatist-rstudioh2o-18-04"
+}
+
+variable "do_application_opentradestatist-rstudiopkgdev-18-04" {
+  description = "RStudio + PkgDev 1.2 on Ubuntu 18.04"
+  default     = "opentradestatist-rstudiopkgdev-18-04"
+}
+
 variable "do_application_openvpn-18-04" {
   description = "OpenVPN Access Server 2.7.5 on Ubuntu 18.04"
   default     = "openvpn-18-04"
@@ -490,6 +451,16 @@ variable "do_application_openvpn-18-04" {
 variable "do_application_optimajet-workflowserver-18-04" {
   description = "WorkflowServer 2.5 on Ubuntu 18.04"
   default     = "optimajet-workflowserver-18-04"
+}
+
+variable "do_application_ossn-18-04" {
+  description = "Open Source Social Network 5.2 on Ubuntu 18.04"
+  default     = "ossn-18-04"
+}
+
+variable "do_application_passbolt-18-04" {
+  description = "Passbolt CE 2.12.1 on Ubuntu 18.04"
+  default     = "passbolt-18-04"
 }
 
 variable "do_application_phpmyadmin-18-04" {
@@ -567,9 +538,24 @@ variable "do_application_rethinkdb-rethinkdbfantasi-18-04" {
   default     = "rethinkdb-rethinkdbfantasi-18-04"
 }
 
+variable "do_application_revox-keplerbuilder-18-04" {
+  description = "Kepler Builder 1.0.9 on Ubuntu 18.04"
+  default     = "revox-keplerbuilder-18-04"
+}
+
 variable "do_application_rocketchat-18-04" {
   description = "Rocket.Chat 2.4.9 on Ubuntu 18.04"
   default     = "rocketchat-18-04"
+}
+
+variable "do_application_selenoid-18-04" {
+  description = "Selenoid 1.9.2 on Ubuntu 18.04"
+  default     = "selenoid-18-04"
+}
+
+variable "do_application_sharklabs-foldinghome-18-04" {
+  description = "Folding@home 0.0.1 on Ubuntu 18.04"
+  default     = "sharklabs-foldinghome-18-04"
 }
 
 variable "do_application_sharklabs-minecraftjavaedi-18-04" {
@@ -595,6 +581,16 @@ variable "do_application_sharklabs-pacvim-18-04" {
 variable "do_application_sharklabs-pythondjangoquic-18-04" {
   description = "Python/Django Quickstart 1.0 on Ubuntu 18.04"
   default     = "sharklabs-pythondjangoquic-18-04"
+}
+
+variable "do_application_shopware-18-04" {
+  description = "Shopware on Ubuntu 18.04"
+  default     = "shopware-18-04"
+}
+
+variable "do_application_simplystatistics-rstudio-18-04" {
+  description = "RStudio 1.2 on Ubuntu 18.04"
+  default     = "simplystatistics-rstudio-18-04"
 }
 
 variable "do_application_skaffolder-18-04" {
@@ -677,6 +673,11 @@ variable "do_application_xcart-7" {
   default     = "xcart-7"
 }
 
+variable "do_application_zabbix-7-6" {
+  description = "Zabbix 4.4.4 on CentOS 7"
+  default     = "zabbix-7-6"
+}
+
 variable "do_application_zeromon-zabbix-18-04" {
   description = "Zeromon Zabbix 4 on Ubuntu 18.04"
   default     = "zeromon-zabbix-18-04"
@@ -686,3 +687,4 @@ variable "do_application_zoomadmin-18-04" {
   description = "ZoomAdmin 1.1 on Ubuntu 18.04"
   default     = "zoomadmin-18-04"
 }
+    

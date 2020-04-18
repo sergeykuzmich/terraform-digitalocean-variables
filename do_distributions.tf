@@ -2,6 +2,7 @@
 ##  Image Distributions
 #
 
+
 variable "do_distibution_centos-6-x32" {
   description = "CentOS 6.9 x32"
   default     = "centos-6-x32"
@@ -101,3 +102,4 @@ variable "do_distibution_ubuntu-19-10-x64" {
   description = "Ubuntu 19.10 x64"
   default     = "ubuntu-19-10-x64"
 }
+    
