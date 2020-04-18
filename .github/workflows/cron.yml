@@ -36,7 +36,6 @@ jobs:
 
   job_fmt:
     name: Prettify Output Files
-    needs: job_fetch
     runs-on: ubuntu-latest
 
     - name: Download Artifacts
