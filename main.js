@@ -1,9 +1,9 @@
 const fs = require('fs');
 const fetch = require('node-fetch');
 
-const outputDir = process.env.OUTPUT_DIR || 'output';
+const outputDir = 'output';
 
-const api = process.env.DIGITALOCEAN_API_BASE || 'https://api.digitalocean.com/v2/';
+const api = 'https://api.digitalocean.com/v2/';
 const request_options = {
   headers: {
     'Content-Type': 'application/json',
