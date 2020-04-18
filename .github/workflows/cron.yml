@@ -39,7 +39,7 @@ jobs:
         DIGITALOCEAN_TOKEN: ${{ secrets.DIGITALOCEAN_TOKEN }}
 
     - name: Copy master_README.md
-      run: cp master_README.md output/README.md
+      run: ls && cp master_README.md output/README.md
       env:
         DIGITALOCEAN_TOKEN: ${{ secrets.DIGITALOCEAN_TOKEN }}
 
