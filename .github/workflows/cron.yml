@@ -40,8 +40,6 @@ jobs:
 
     - name: Copy master_README.md
       run: ls && cp master_README.md output/README.md
-      env:
-        DIGITALOCEAN_TOKEN: ${{ secrets.DIGITALOCEAN_TOKEN }}
 
     - name: Upload Artifacts
       uses: actions/upload-artifact@v1
