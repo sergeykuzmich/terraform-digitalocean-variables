@@ -85,6 +85,6 @@ jobs:
         publish_branch: master
         publish_dir: output
         enable_jekyll: true
-        user_name: Github Actions [bot]
+        user_name: Github Actions [BOT]
         user_email: github-actions[bot]@users.noreply.github.com
         commit_message: Deploy sergeykuzmich/terraform-digitalocean-variables
