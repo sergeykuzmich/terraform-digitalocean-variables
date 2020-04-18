@@ -1,9 +1,7 @@
 name: Daily Check-in
 
 on:
-  schedule:
-    # Run action every 5 minutes while development
-    - cron:  '*/5 * * * *'
+  gollum
 
 jobs:
   check-in:
