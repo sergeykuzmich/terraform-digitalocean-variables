@@ -1,7 +1,10 @@
 name: Daily Check-in
 
 on:
-  gollum
+  push:
+    branches:
+      - ci
+      - feature/switch-to-github-actions
 
 jobs:
   check-in:
