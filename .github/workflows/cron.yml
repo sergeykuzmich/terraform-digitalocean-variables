@@ -2,7 +2,7 @@ name: Daily Check-in
 
 on:
   schedule:
-    - cron:  '0 0 * * *'
+    - cron:  '/5 * * * *'
 
 jobs:
   job_prune_artifacts:
