@@ -444,7 +444,7 @@ variable "do_application_opentradestatist-rstudiopkgdev-18-04" {
 }
 
 variable "do_application_openvpn-18-04" {
-  description = "OpenVPN Access Server 2.7.5 on Ubuntu 18.04"
+  description = "OpenVPN Access Server 2.8.3 on Ubuntu 18.04"
   default     = "openvpn-18-04"
 }
 
