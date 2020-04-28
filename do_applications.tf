@@ -149,7 +149,7 @@ variable "do_application_dokku-18-04" {
 }
 
 variable "do_application_dokos-18-04" {
-  description = "Dokos 1.3.0 on Ubuntu 18.04"
+  description = "Dokos 1.4.0 on Ubuntu 18.04"
   default     = "dokos-18-04"
 }
 
@@ -619,7 +619,7 @@ variable "do_application_spatie-mailcoach-18-04" {
 }
 
 variable "do_application_strapi-18-04" {
-  description = "Strapi 0.0.2 on Ubuntu 18.04"
+  description = "Strapi 0.0.3 on Ubuntu 18.04"
   default     = "strapi-18-04"
 }
 
