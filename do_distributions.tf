@@ -58,6 +58,11 @@ variable "do_distibution_fedora-31-x64" {
   default     = "fedora-31-x64"
 }
 
+variable "do_distibution_fedora-32-x64" {
+  description = "Fedora 32 x64"
+  default     = "fedora-32-x64"
+}
+
 variable "do_distibution_freebsd-11-x64-ufs" {
   description = "FreeBSD 11.3 x64 ufs"
   default     = "freebsd-11-x64-ufs"
