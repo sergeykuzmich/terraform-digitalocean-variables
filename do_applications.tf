@@ -44,7 +44,7 @@ variable "do_application_ascensiosystem-onlyoffice-18-04" {
 }
 
 variable "do_application_azuracast-18-04" {
-  description = "AzuraCast 0.9.8.1 on Ubuntu 18.04"
+  description = "AzuraCast 0.10.1 on Ubuntu 18.04"
   default     = "azuracast-18-04"
 }
 
