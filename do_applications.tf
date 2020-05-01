@@ -308,6 +308,11 @@ variable "do_application_litespeedtechnol-openlitespeedwor-18-04" {
   default     = "litespeedtechnol-openlitespeedwor-18-04"
 }
 
+variable "do_application_livehelperchat-7-8-2003" {
+  description = "Live Helper Chat 3.33 on Centos 7.8.2003"
+  default     = "livehelperchat-7-8-2003"
+}
+
 variable "do_application_mastodon-18-04" {
   description = "Mastodon 3.1.3 on Ubuntu 18.04"
   default     = "mastodon-18-04"
