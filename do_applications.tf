@@ -129,7 +129,7 @@ variable "do_application_directus-18-04" {
 }
 
 variable "do_application_discourse-18-04" {
-  description = "Discourse 2.2.0 beta1 on Ubuntu 18.04"
+  description = "Discourse 2.5.0.beta3 on Ubuntu 18.04"
   default     = "discourse-18-04"
 }
 
@@ -351,6 +351,11 @@ variable "do_application_mobilejazz-bugfender-18-04" {
 variable "do_application_mongodb-18-04" {
   description = "MongoDB 4.0.3 on 18.04"
   default     = "mongodb-18-04"
+}
+
+variable "do_application_mozilla-hubscloudpersona-18-04" {
+  description = "Hubs Cloud Personal 1.1.0 on Ubuntu 18.04"
+  default     = "mozilla-hubscloudpersona-18-04"
 }
 
 variable "do_application_mysql-18-04" {
@@ -619,7 +624,7 @@ variable "do_application_solidinvoice-18-04" {
 }
 
 variable "do_application_spatie-mailcoach-18-04" {
-  description = "Mailcoach 2.0 on Ubuntu 18.04"
+  description = "Mailcoach 2.1 on Ubuntu 18.04"
   default     = "spatie-mailcoach-18-04"
 }
 
