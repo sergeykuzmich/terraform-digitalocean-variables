@@ -18,6 +18,11 @@ variable "do_application_alfio-7-6" {
   default     = "alfio-7-6"
 }
 
+variable "do_application_analythium-shinyproxy-18-04" {
+  description = "ShinyProxy 2.3.0 on Ubuntu 18.04"
+  default     = "analythium-shinyproxy-18-04"
+}
+
 variable "do_application_antmedia-16-04" {
   description = "AntMedia Server Community Edition 1.9.1 on Ubuntu 16.04"
   default     = "antmedia-16-04"
@@ -64,7 +69,7 @@ variable "do_application_buddy-18-04" {
 }
 
 variable "do_application_caddy-18-04" {
-  description = "Caddy 2.0.0-beta20 on Ubuntu 18.04"
+  description = "Caddy 2.0.0 on Ubuntu 18.04"
   default     = "caddy-18-04"
 }
 
@@ -324,7 +329,7 @@ variable "do_application_mattermost-18-04" {
 }
 
 variable "do_application_meltano-18-04" {
-  description = "Meltano 1.30.1 on Ubuntu 18.04"
+  description = "Meltano 1.31.0 on Ubuntu 18.04"
   default     = "meltano-18-04"
 }
 
@@ -664,7 +669,7 @@ variable "do_application_weconexpbx-7-6" {
 }
 
 variable "do_application_wikijs-18-04" {
-  description = "Wiki.js 2.2.51 on Ubuntu 18.04"
+  description = "Wiki.js 2.3.81 on Ubuntu 18.04"
   default     = "wikijs-18-04"
 }
 
