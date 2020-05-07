@@ -39,7 +39,7 @@ variable "do_application_apisnetworks-apnscp-7-7" {
 }
 
 variable "do_application_aplitel-vitalpbx-7" {
-  description = "VitalPBX 2.4.1 on Centos 7"
+  description = "VitalPBX 2.4.2-1 on Centos 7"
   default     = "aplitel-vitalpbx-7"
 }
 
@@ -594,7 +594,7 @@ variable "do_application_sharklabs-pacvim-18-04" {
 }
 
 variable "do_application_sharklabs-pythondjangoquic-18-04" {
-  description = "Python/Django Quickstart 1.0 on Ubuntu 18.04"
+  description = "Python/Django Quickstart 1.1 on Ubuntu 18.04"
   default     = "sharklabs-pythondjangoquic-18-04"
 }
 
@@ -684,7 +684,7 @@ variable "do_application_workarea-18-04" {
 }
 
 variable "do_application_xcart-7" {
-  description = "X-Cart 5.4.0.10 on CentOS 7.6"
+  description = "X-Cart 5.4.1.4 on CentOS 7.6"
   default     = "xcart-7"
 }
 
