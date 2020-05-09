@@ -49,7 +49,7 @@ variable "do_application_ascensiosystem-onlyoffice-18-04" {
 }
 
 variable "do_application_azuracast-18-04" {
-  description = "AzuraCast 0.10.1 on Ubuntu 18.04"
+  description = "AzuraCast 0.10.2 on Ubuntu 18.04"
   default     = "azuracast-18-04"
 }
 
@@ -328,6 +328,11 @@ variable "do_application_mattermost-18-04" {
   default     = "mattermost-18-04"
 }
 
+variable "do_application_meilisas-meilisearch-10" {
+  description = "MeiliSearch 0.10.0 on Debian 10 (buster)"
+  default     = "meilisas-meilisearch-10"
+}
+
 variable "do_application_meltano-18-04" {
   description = "Meltano 1.31.0 on Ubuntu 18.04"
   default     = "meltano-18-04"
@@ -394,7 +399,7 @@ variable "do_application_nknfullnode-18-04" {
 }
 
 variable "do_application_nlnetlabs-krill-18-04" {
-  description = "Krill 0.5.0 on Ubuntu 18.04"
+  description = "Krill 0.6.0 on Ubuntu 18.04"
   default     = "nlnetlabs-krill-18-04"
 }
 
@@ -573,6 +578,11 @@ variable "do_application_sharklabs-foldinghome-18-04" {
   default     = "sharklabs-foldinghome-18-04"
 }
 
+variable "do_application_sharklabs-minecraftbedrock-20-04" {
+  description = "Minecraft: Bedrock Edition 1.0 on Ubuntu 20.04 (LTS)"
+  default     = "sharklabs-minecraftbedrock-20-04"
+}
+
 variable "do_application_sharklabs-minecraftjavaedi-18-04" {
   description = "Minecraft: Java Edition Server 1.0 on Ubuntu 18.04"
   default     = "sharklabs-minecraftjavaedi-18-04"
@@ -636,6 +646,11 @@ variable "do_application_spatie-mailcoach-18-04" {
 variable "do_application_strapi-18-04" {
   description = "Strapi 0.0.3 on Ubuntu 18.04"
   default     = "strapi-18-04"
+}
+
+variable "do_application_supabase-supabasepostgres-18-04" {
+  description = "Supabase Postgres 0.0.11 on Ubuntu 18.04"
+  default     = "supabase-supabasepostgres-18-04"
 }
 
 variable "do_application_thingsboard-18-04" {
