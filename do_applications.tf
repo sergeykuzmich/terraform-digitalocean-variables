@@ -199,7 +199,7 @@ variable "do_application_flexify-18-04" {
 }
 
 variable "do_application_ghost-18-04" {
-  description = "Ghost on 18.04"
+  description = "Ghost on Ubuntu 18.04"
   default     = "ghost-18-04"
 }
 
