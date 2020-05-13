@@ -29,7 +29,7 @@ variable "do_application_antmedia-16-04" {
 }
 
 variable "do_application_antmedia-antmediaserveren-16-04" {
-  description = "Ant Media Server Enterprise Edition 1.9.1 on Ubuntu 16.04"
+  description = "Ant Media Server Enterprise Edition 2.0.0 on Ubuntu 18.04"
   default     = "antmedia-antmediaserveren-16-04"
 }
 
@@ -59,7 +59,7 @@ variable "do_application_bitwarden-18-04" {
 }
 
 variable "do_application_botpress-18-04" {
-  description = "Botpress 12.6.0 on Ubuntu 18.04"
+  description = "Botpress 12.9.1 on Ubuntu 18.04"
   default     = "botpress-18-04"
 }
 
@@ -314,7 +314,7 @@ variable "do_application_litespeedtechnol-openlitespeedwor-18-04" {
 }
 
 variable "do_application_livehelperchat-7-8-2003" {
-  description = "Live Helper Chat 3.33 on Centos 7.8.2003"
+  description = "Live Helper Chat 3.34 on Centos 7.8.2003"
   default     = "livehelperchat-7-8-2003"
 }
 

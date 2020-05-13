@@ -38,6 +38,11 @@ variable "do_region_sfo2" {
   default     = "sfo2"
 }
 
+variable "do_region_sfo3" {
+  description = "San Francisco 3"
+  default     = "sfo3"
+}
+
 variable "do_region_sgp1" {
   description = "Singapore 1"
   default     = "sgp1"
