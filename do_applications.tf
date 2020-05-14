@@ -24,7 +24,7 @@ variable "do_application_analythium-shinyproxy-18-04" {
 }
 
 variable "do_application_antmedia-16-04" {
-  description = "AntMedia Server Community Edition 1.9.1 on Ubuntu 16.04"
+  description = "Ant Media Server Community Edition 2.0.0 on Ubuntu 18.04"
   default     = "antmedia-16-04"
 }
 
@@ -233,6 +233,11 @@ variable "do_application_helpy-18-04" {
   default     = "helpy-18-04"
 }
 
+variable "do_application_helpyio-helpypro-18-04" {
+  description = "Helpy Pro 3.0 on Ubuntu 18.04"
+  default     = "helpyio-helpypro-18-04"
+}
+
 variable "do_application_honeydbagent-9" {
   description = "HoneyDB Agent on Debian 9"
   default     = "honeydbagent-9"
@@ -251,6 +256,11 @@ variable "do_application_invoiceninja-18-04" {
 variable "do_application_iota-iotahornetnode-18-04" {
   description = "IOTA Hornet Node 0.2.12 on Ubuntu 18.04 LTS"
   default     = "iota-iotahornetnode-18-04"
+}
+
+variable "do_application_ispsystem-ispmanagerlite-7" {
+  description = "ISPmanager Lite 5.246.0 on CentOS 7.x"
+  default     = "ispsystem-ispmanagerlite-7"
 }
 
 variable "do_application_izenda-18-04" {
@@ -329,7 +339,7 @@ variable "do_application_mattermost-18-04" {
 }
 
 variable "do_application_meilisas-meilisearch-10" {
-  description = "MeiliSearch 0.10.0 on Debian 10 (buster)"
+  description = "MeiliSearch 0.10.1 on Debian 10 (buster)"
   default     = "meilisas-meilisearch-10"
 }
 
@@ -661,6 +671,11 @@ variable "do_application_thingsboard-18-04" {
 variable "do_application_thingsboardpe-18-04" {
   description = "ThingsBoard PE on Ubuntu 18.04"
   default     = "thingsboardpe-18-04"
+}
+
+variable "do_application_ultrahorizon-uhvpn-18-04" {
+  description = "UH VPN 1.0.0 on Ubuntu 18.04"
+  default     = "ultrahorizon-uhvpn-18-04"
 }
 
 variable "do_application_unlight-openunlight-18-04" {
