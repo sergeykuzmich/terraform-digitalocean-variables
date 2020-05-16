@@ -53,6 +53,11 @@ variable "do_application_azuracast-18-04" {
   default     = "azuracast-18-04"
 }
 
+variable "do_application_bcoin-18-04" {
+  description = "bcoin on 18.04"
+  default     = "bcoin-18-04"
+}
+
 variable "do_application_bitwarden-18-04" {
   description = "Bitwarden 1.32.0 on Ubuntu 18.04"
   default     = "bitwarden-18-04"
