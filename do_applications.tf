@@ -93,6 +93,11 @@ variable "do_application_cloudron-18-04" {
   default     = "cloudron-18-04"
 }
 
+variable "do_application_null" {
+  description = "Plesk 17.8 on CentOS 7"
+  default     = "null"
+}
+
 variable "do_application_code-server-18-04" {
   description = "code-server 3.0.2 on Ubuntu 18.04"
   default     = "code-server-18-04"
@@ -171,11 +176,6 @@ variable "do_application_eltrino-magento2opensour-18-04" {
 variable "do_application_erpnext-18-04" {
   description = "ERPNext 12.5.0 on Ubuntu 18.04"
   default     = "erpnext-18-04"
-}
-
-variable "do_application_null" {
-  description = "Plesk 17.8 on CentOS 7"
-  default     = "null"
 }
 
 variable "do_application_fastnetmon-18-04" {
@@ -324,7 +324,7 @@ variable "do_application_litespeedtechnol-openlitespeednod-18-04" {
 }
 
 variable "do_application_litespeedtechnol-openlitespeedwor-18-04" {
-  description = "OpenLiteSpeed WordPress 5.3.2 on Ubuntu 18.04"
+  description = "OpenLiteSpeed WordPress 5.4.1 on Ubuntu 20.04"
   default     = "litespeedtechnol-openlitespeedwor-18-04"
 }
 
