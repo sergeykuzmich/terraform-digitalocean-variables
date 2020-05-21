@@ -93,11 +93,6 @@ variable "do_application_cloudron-18-04" {
   default     = "cloudron-18-04"
 }
 
-variable "do_application_null" {
-  description = "Plesk 17.8 on CentOS 7"
-  default     = "null"
-}
-
 variable "do_application_code-server-18-04" {
   description = "code-server 3.0.2 on Ubuntu 18.04"
   default     = "code-server-18-04"
@@ -139,7 +134,7 @@ variable "do_application_deadletter-18-04" {
 }
 
 variable "do_application_directus-18-04" {
-  description = "Directus 8.6.1 on Ubuntu 18.04"
+  description = "Directus 8.7.0 on Ubuntu 18.04"
   default     = "directus-18-04"
 }
 
@@ -176,6 +171,11 @@ variable "do_application_eltrino-magento2opensour-18-04" {
 variable "do_application_erpnext-18-04" {
   description = "ERPNext 12.5.0 on Ubuntu 18.04"
   default     = "erpnext-18-04"
+}
+
+variable "do_application_null" {
+  description = "Plesk 17.8 on CentOS 7"
+  default     = "null"
 }
 
 variable "do_application_fastnetmon-18-04" {
@@ -664,7 +664,7 @@ variable "do_application_strapi-18-04" {
 }
 
 variable "do_application_supabase-supabasepostgres-18-04" {
-  description = "Supabase Postgres 0.0.11 on Ubuntu 18.04"
+  description = "Supabase Postgres 0.12.0 on Ubuntu 18.04"
   default     = "supabase-supabasepostgres-18-04"
 }
 
