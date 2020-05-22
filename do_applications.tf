@@ -99,7 +99,7 @@ variable "do_application_code-server-18-04" {
 }
 
 variable "do_application_countly-18-04" {
-  description = "Countly 19.08.1 on Ubuntu 18.04"
+  description = "Countly Analytics 20.04 on Ubuntu 18.04"
   default     = "countly-18-04"
 }
 
@@ -109,7 +109,7 @@ variable "do_application_cpanel-7-6" {
 }
 
 variable "do_application_cpanel-cpanelwhm-7-6" {
-  description = "cPanel & WHM® 86.0.16 on CentOS 7.6"
+  description = "cPanel & WHM® 86.0.21 on CentOS 7.6"
   default     = "cpanel-cpanelwhm-7-6"
 }
 
@@ -319,7 +319,7 @@ variable "do_application_litespeedtechnol-openlitespeeddja-18-04" {
 }
 
 variable "do_application_litespeedtechnol-openlitespeednod-18-04" {
-  description = "OpenLiteSpeed NodeJS 12.16.1 on Ubuntu 18.04"
+  description = "OpenLiteSpeed NodeJS 12.16.3 on Ubuntu 20.04"
   default     = "litespeedtechnol-openlitespeednod-18-04"
 }
 
@@ -644,7 +644,7 @@ variable "do_application_snapt-snaptaria-18-04" {
 }
 
 variable "do_application_snapt-snaptnova-18-04" {
-  description = "Snapt Nova 1.0.0 on Ubuntu 18.04"
+  description = "Snapt Nova ADC (Load Balancer, WAF) 1.0.0 on Ubuntu 18.04"
   default     = "snapt-snaptnova-18-04"
 }
 
@@ -666,6 +666,11 @@ variable "do_application_strapi-18-04" {
 variable "do_application_supabase-supabasepostgres-18-04" {
   description = "Supabase Postgres 0.12.0 on Ubuntu 18.04"
   default     = "supabase-supabasepostgres-18-04"
+}
+
+variable "do_application_ten7-computingforcovi-18-04-4" {
+  description = "Computing for COVID 1 on Ubuntu 18.04.4 LTS"
+  default     = "ten7-computingforcovi-18-04-4"
 }
 
 variable "do_application_thingsboard-18-04" {
