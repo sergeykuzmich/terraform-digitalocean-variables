@@ -23,21 +23,6 @@ variable "do_distibution_centos-8-x64" {
   default     = "centos-8-x64"
 }
 
-variable "do_distibution_coreos-alpha" {
-  description = "CoreOS 2514.0.0 (alpha)"
-  default     = "coreos-alpha"
-}
-
-variable "do_distibution_coreos-beta" {
-  description = "CoreOS 2513.1.0 (beta)"
-  default     = "coreos-beta"
-}
-
-variable "do_distibution_coreos-stable" {
-  description = "CoreOS 2512.2.0 (stable)"
-  default     = "coreos-stable"
-}
-
 variable "do_distibution_debian-10-x64" {
   description = "Debian 10.3 x64"
   default     = "debian-10-x64"
