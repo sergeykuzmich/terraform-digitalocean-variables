@@ -279,7 +279,7 @@ variable "do_application_jadiangaming-solderio-18-04" {
 }
 
 variable "do_application_jelastic-jelasticpaas-7" {
-  description = "Jelastic PaaS 5.8-1 on Centos 7"
+  description = "Jelastic PaaS 5.8-3 on Centos 7"
   default     = "jelastic-jelasticpaas-7"
 }
 
@@ -329,7 +329,7 @@ variable "do_application_litespeedtechnol-openlitespeedwor-18-04" {
 }
 
 variable "do_application_livehelperchat-7-8-2003" {
-  description = "Live Helper Chat 3.34 on Centos 7.8.2003"
+  description = "Live Helper Chat 3.35 on Centos 7.8.2003"
   default     = "livehelperchat-7-8-2003"
 }
 
@@ -669,7 +669,7 @@ variable "do_application_supabase-supabasepostgres-18-04" {
 }
 
 variable "do_application_ten7-computingforcovi-18-04-4" {
-  description = "Computing for COVID 1 on Ubuntu 18.04.4 LTS"
+  description = "Computing for COVID 2 on Ubuntu 18.04.4 LTS"
   default     = "ten7-computingforcovi-18-04-4"
 }
 
