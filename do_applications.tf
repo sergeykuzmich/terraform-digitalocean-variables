@@ -34,7 +34,7 @@ variable "do_application_antmedia-antmediaserveren-16-04" {
 }
 
 variable "do_application_apisnetworks-apnscp-7-7" {
-  description = "apnscp 3.1 on CentOS 7.7"
+  description = "ApisCP 3.1 on CentOS 8.1"
   default     = "apisnetworks-apnscp-7-7"
 }
 
