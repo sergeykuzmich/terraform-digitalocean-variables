@@ -134,7 +134,7 @@ variable "do_application_deadletter-18-04" {
 }
 
 variable "do_application_directus-18-04" {
-  description = "Directus 8.7.0 on Ubuntu 18.04"
+  description = "Directus 8.7.2 on Ubuntu 18.04"
   default     = "directus-18-04"
 }
 
@@ -168,14 +168,14 @@ variable "do_application_eltrino-magento2opensour-18-04" {
   default     = "eltrino-magento2opensour-18-04"
 }
 
-variable "do_application_erpnext-18-04" {
-  description = "ERPNext 12.5.0 on Ubuntu 18.04"
-  default     = "erpnext-18-04"
-}
-
 variable "do_application_null" {
   description = "Plesk 17.8 on CentOS 7"
   default     = "null"
+}
+
+variable "do_application_erpnext-18-04" {
+  description = "ERPNext 12.5.0 on Ubuntu 18.04"
+  default     = "erpnext-18-04"
 }
 
 variable "do_application_fastnetmon-18-04" {
@@ -626,6 +626,11 @@ variable "do_application_sharklabs-pythondjangoquic-18-04" {
 variable "do_application_shopware-18-04" {
   description = "Shopware on Ubuntu 18.04"
   default     = "shopware-18-04"
+}
+
+variable "do_application_simontelephonics-freepbx-7-6" {
+  description = "FreePBX® 15 on CentOS 7.6"
+  default     = "simontelephonics-freepbx-7-6"
 }
 
 variable "do_application_simplystatistics-rstudio-18-04" {
