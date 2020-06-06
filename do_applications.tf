@@ -173,11 +173,6 @@ variable "do_application_erpnext-18-04" {
   default     = "erpnext-18-04"
 }
 
-variable "do_application_null" {
-  description = "Plesk 17.8 on CentOS 7"
-  default     = "null"
-}
-
 variable "do_application_fastnetmon-18-04" {
   description = "FastNetMon 2.0 on Ubuntu 18.04"
   default     = "fastnetmon-18-04"
@@ -548,6 +543,11 @@ variable "do_application_redash-18-04" {
   default     = "redash-18-04"
 }
 
+variable "do_application_null" {
+  description = "Plesk 17.8 on CentOS 7"
+  default     = "null"
+}
+
 variable "do_application_restya-restyaboard-18-04" {
   description = "Restyaboard 0.6.8 on Ubuntu 18.04"
   default     = "restya-restyaboard-18-04"
@@ -694,7 +694,7 @@ variable "do_application_thingsboardpe-18-04" {
 }
 
 variable "do_application_ultrahorizon-uhvpn-18-04" {
-  description = "UH VPN 1.0.0 on Ubuntu 18.04"
+  description = "UH VPN 1.1.0 on Ubuntu 20.04"
   default     = "ultrahorizon-uhvpn-18-04"
 }
 
@@ -749,7 +749,7 @@ variable "do_application_zeromon-zabbix-18-04" {
 }
 
 variable "do_application_zoomadmin-18-04" {
-  description = "ZoomAdmin 1.1 on Ubuntu 18.04"
+  description = "ZoomAdmin 2.0.1 on Ubuntu 18.04.03"
   default     = "zoomadmin-18-04"
 }
     
