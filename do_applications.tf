@@ -138,6 +138,11 @@ variable "do_application_directus-18-04" {
   default     = "directus-18-04"
 }
 
+variable "do_application_null" {
+  description = "Plesk 17.8 on CentOS 7"
+  default     = "null"
+}
+
 variable "do_application_discourse-18-04" {
   description = "Discourse 2.5.0.beta3 on Ubuntu 18.04"
   default     = "discourse-18-04"
@@ -204,7 +209,7 @@ variable "do_application_ghost-18-04" {
 }
 
 variable "do_application_gitea-18-04" {
-  description = "Gitea 1.8.2 on Ubuntu 18.04"
+  description = "Gitea 1.11.6 on Ubuntu 20.04"
   default     = "gitea-18-04"
 }
 
@@ -429,7 +434,7 @@ variable "do_application_nodegame-18-04" {
 }
 
 variable "do_application_nodejs-18-04" {
-  description = "NodeJS 8.10.0 on 18.04"
+  description = "NodeJS 12.18.0 on Ubuntu 20.04"
   default     = "nodejs-18-04"
 }
 
@@ -541,11 +546,6 @@ variable "do_application_reblaze-reblazewaf-18-04" {
 variable "do_application_redash-18-04" {
   description = "Redash 8.0.0 on Ubuntu 18.04"
   default     = "redash-18-04"
-}
-
-variable "do_application_null" {
-  description = "Plesk 17.8 on CentOS 7"
-  default     = "null"
 }
 
 variable "do_application_restya-restyaboard-18-04" {
