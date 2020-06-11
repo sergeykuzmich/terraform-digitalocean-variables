@@ -138,11 +138,6 @@ variable "do_application_directus-18-04" {
   default     = "directus-18-04"
 }
 
-variable "do_application_null" {
-  description = "Plesk 17.8 on CentOS 7"
-  default     = "null"
-}
-
 variable "do_application_discourse-18-04" {
   description = "Discourse 2.5.0.beta3 on Ubuntu 18.04"
   default     = "discourse-18-04"
@@ -264,7 +259,7 @@ variable "do_application_invoiceninja-18-04" {
 }
 
 variable "do_application_iota-iotahornetnode-18-04" {
-  description = "IOTA Hornet Node 0.2.12 on Ubuntu 18.04 LTS"
+  description = "IOTA Hornet Node on Ubuntu 20.04"
   default     = "iota-iotahornetnode-18-04"
 }
 
@@ -386,6 +381,11 @@ variable "do_application_mongodb-18-04" {
 variable "do_application_mozilla-hubscloudpersona-18-04" {
   description = "Hubs Cloud Personal 1.1.0 on Ubuntu 18.04"
   default     = "mozilla-hubscloudpersona-18-04"
+}
+
+variable "do_application_null" {
+  description = "Plesk 17.8 on CentOS 7"
+  default     = "null"
 }
 
 variable "do_application_mysql-18-04" {
