@@ -399,7 +399,7 @@ variable "do_application_nakama-18-04" {
 }
 
 variable "do_application_netfoundry-7-6" {
-  description = "NetFoundry Cloud Gateway 6.1.0 on CentOS 7.7"
+  description = "NetFoundry Zero Trust Networking 6.1.0 on CentOS 7.7"
   default     = "netfoundry-7-6"
 }
 
