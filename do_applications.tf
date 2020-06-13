@@ -219,7 +219,7 @@ variable "do_application_gluu-gluuserverce-18-04-3" {
 }
 
 variable "do_application_grafana-18-04" {
-  description = "Grafana 6.7.1 on Ubuntu 18.04"
+  description = "Grafana 7.0.3 on Ubuntu 18.04"
   default     = "grafana-18-04"
 }
 
@@ -353,6 +353,11 @@ variable "do_application_meltano-18-04" {
   default     = "meltano-18-04"
 }
 
+variable "do_application_null" {
+  description = "Plesk 17.8 on CentOS 7"
+  default     = "null"
+}
+
 variable "do_application_memgraph-9-7" {
   description = "Memgraph on Debian 9.7"
   default     = "memgraph-9-7"
@@ -381,11 +386,6 @@ variable "do_application_mongodb-18-04" {
 variable "do_application_mozilla-hubscloudpersona-18-04" {
   description = "Hubs Cloud Personal 1.1.0 on Ubuntu 18.04"
   default     = "mozilla-hubscloudpersona-18-04"
-}
-
-variable "do_application_null" {
-  description = "Plesk 17.8 on CentOS 7"
-  default     = "null"
 }
 
 variable "do_application_mysql-18-04" {
@@ -509,7 +509,7 @@ variable "do_application_phpmyadmin-18-04" {
 }
 
 variable "do_application_pihole-18-04" {
-  description = "OpenVPN + Pihole 1.0.1 on Ubuntu 18.04"
+  description = "OpenVPN + Pihole 1.1.1 on Ubuntu 18.04"
   default     = "pihole-18-04"
 }
 
