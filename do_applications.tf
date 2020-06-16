@@ -403,6 +403,11 @@ variable "do_application_netfoundry-7-6" {
   default     = "netfoundry-7-6"
 }
 
+variable "do_application_nethesis-nethserver-7" {
+  description = "NethServer 7.8.2003 on CentOS 7.x"
+  default     = "nethesis-nethserver-7"
+}
+
 variable "do_application_nibblecomm-spotipo-18-04" {
   description = "Spotipo 3.4.13 on 18.04"
   default     = "nibblecomm-spotipo-18-04"
