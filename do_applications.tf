@@ -198,6 +198,11 @@ variable "do_application_flexify-18-04" {
   default     = "flexify-18-04"
 }
 
+variable "do_application_flipstarter-18-04" {
+  description = "Flipstarter 1.0.0 on Ubuntu 18.04"
+  default     = "flipstarter-18-04"
+}
+
 variable "do_application_ghost-18-04" {
   description = "Ghost on Ubuntu 18.04"
   default     = "ghost-18-04"
