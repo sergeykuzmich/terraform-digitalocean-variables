@@ -63,11 +63,6 @@ variable "do_distibution_freebsd-12-x64" {
   default     = "freebsd-12-x64"
 }
 
-variable "do_distibution_null" {
-  description = "RancherOS v1.5.5"
-  default     = "null"
-}
-
 variable "do_distibution_freebsd-12-x64-zfs" {
   description = "FreeBSD 12.1 x64 zfs"
   default     = "freebsd-12-x64-zfs"
