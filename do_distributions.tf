@@ -19,7 +19,7 @@ variable "do_distibution_centos-7-x64" {
 }
 
 variable "do_distibution_centos-8-x64" {
-  description = "CentOS 8.1 x64"
+  description = "CentOS 8.2 x64"
   default     = "centos-8-x64"
 }
 
