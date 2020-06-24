@@ -49,7 +49,7 @@ variable "do_application_ascensiosystem-onlyoffice-18-04" {
 }
 
 variable "do_application_azuracast-18-04" {
-  description = "AzuraCast 0.10.2 on Ubuntu 18.04"
+  description = "AzuraCast 0.10.3 on Ubuntu 20.04"
   default     = "azuracast-18-04"
 }
 
@@ -134,7 +134,7 @@ variable "do_application_deadletter-18-04" {
 }
 
 variable "do_application_directus-18-04" {
-  description = "Directus 8.7.2 on Ubuntu 18.04"
+  description = "Directus 8.8.0 on Ubuntu 18.04"
   default     = "directus-18-04"
 }
 
@@ -144,7 +144,7 @@ variable "do_application_discourse-18-04" {
 }
 
 variable "do_application_django-18-04" {
-  description = "Django is the best 1.11.11 on Ubuntu 18.04"
+  description = "Django 2.2.12 on Ubuntu 20.04"
   default     = "django-18-04"
 }
 
@@ -164,7 +164,7 @@ variable "do_application_dokos-18-04" {
 }
 
 variable "do_application_eltrino-magento2opensour-18-04" {
-  description = "Magento 2 Open Source 1.0 on Ubuntu 18.04 (LTS)"
+  description = "Magento 2 Open Source 1.1 on Ubuntu 18.04 (LTS)"
   default     = "eltrino-magento2opensour-18-04"
 }
 
@@ -294,7 +294,7 @@ variable "do_application_jenkins-18-04" {
 }
 
 variable "do_application_kandralabs-zulip-18-04" {
-  description = "Zulip 2.1.4 on Ubuntu 18.04"
+  description = "Zulip 2.1.6 on Ubuntu 18.04"
   default     = "kandralabs-zulip-18-04"
 }
 
@@ -314,7 +314,7 @@ variable "do_application_lemp-18-04" {
 }
 
 variable "do_application_litespeedtechnol-openlitespeedcla-18-04" {
-  description = "OpenLiteSpeed ClassicPress 1.1.2 on Ubuntu 18.04"
+  description = "OpenLiteSpeed ClassicPress 1.1.3 on Ubuntu 20.04"
   default     = "litespeedtechnol-openlitespeedcla-18-04"
 }
 
@@ -349,18 +349,13 @@ variable "do_application_mattermost-18-04" {
 }
 
 variable "do_application_meilisas-meilisearch-10" {
-  description = "MeiliSearch 0.10.1 on Debian 10 (buster)"
+  description = "MeiliSearch 0.11.0 on Debian 10 (buster)"
   default     = "meilisas-meilisearch-10"
 }
 
 variable "do_application_meltano-18-04" {
   description = "Meltano 1.31.0 on Ubuntu 18.04"
   default     = "meltano-18-04"
-}
-
-variable "do_application_null" {
-  description = "Plesk 17.8 on CentOS 7"
-  default     = "null"
 }
 
 variable "do_application_memgraph-9-7" {
@@ -446,6 +441,11 @@ variable "do_application_nodegame-18-04" {
 variable "do_application_nodejs-18-04" {
   description = "NodeJS 12.18.0 on Ubuntu 20.04"
   default     = "nodejs-18-04"
+}
+
+variable "do_application_null" {
+  description = "Plesk 17.8 on CentOS 7"
+  default     = "null"
 }
 
 variable "do_application_onjection-jenkins-16-04" {
@@ -679,7 +679,7 @@ variable "do_application_spatie-mailcoach-18-04" {
 }
 
 variable "do_application_strapi-18-04" {
-  description = "Strapi 0.0.3 on Ubuntu 18.04"
+  description = "Strapi 3.0.0 on Ubuntu 18.04"
   default     = "strapi-18-04"
 }
 
