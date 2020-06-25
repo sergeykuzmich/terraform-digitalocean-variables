@@ -78,6 +78,11 @@ variable "do_application_caddy-18-04" {
   default     = "caddy-18-04"
 }
 
+variable "do_application_null" {
+  description = "Plesk 17.8 on CentOS 7"
+  default     = "null"
+}
+
 variable "do_application_caprover-18-04" {
   description = "CapRover 1.3.0 on Ubuntu 18.04"
   default     = "caprover-18-04"
@@ -114,7 +119,7 @@ variable "do_application_cpanel-cpanelwhm-7-6" {
 }
 
 variable "do_application_cyberpanel-18-04" {
-  description = "CyberPanel 2.0.0 on Ubuntu 18.04"
+  description = "CyberPanel 2.0.1 on Ubuntu 20.04"
   default     = "cyberpanel-18-04"
 }
 
@@ -399,7 +404,7 @@ variable "do_application_nakama-18-04" {
 }
 
 variable "do_application_netfoundry-7-6" {
-  description = "NetFoundry Zero Trust Networking 6.1.0 on CentOS 7.7"
+  description = "NetFoundry Zero Trust Networking 7.0.0 on CentOS 7.8"
   default     = "netfoundry-7-6"
 }
 
@@ -441,11 +446,6 @@ variable "do_application_nodegame-18-04" {
 variable "do_application_nodejs-18-04" {
   description = "NodeJS 12.18.0 on Ubuntu 20.04"
   default     = "nodejs-18-04"
-}
-
-variable "do_application_null" {
-  description = "Plesk 17.8 on CentOS 7"
-  default     = "null"
 }
 
 variable "do_application_onjection-jenkins-16-04" {
@@ -504,12 +504,12 @@ variable "do_application_optimajet-workflowserver-18-04" {
 }
 
 variable "do_application_ossn-18-04" {
-  description = "Open Source Social Network 5.2 on Ubuntu 18.04"
+  description = "Open Source Social Network 5.2.1 on Ubuntu 18.04"
   default     = "ossn-18-04"
 }
 
 variable "do_application_passbolt-18-04" {
-  description = "Passbolt CE 2.12.1 on Ubuntu 18.04"
+  description = "Passbolt CE 2.13.0 on Ubuntu 18.04"
   default     = "passbolt-18-04"
 }
 
