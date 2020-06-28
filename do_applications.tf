@@ -374,7 +374,7 @@ variable "do_application_metabase-18-04" {
 }
 
 variable "do_application_microweber-18-04" {
-  description = "Microweber 1.1.18 on Ubuntu 18.04"
+  description = "Microweber 1.1.20 on Ubuntu 18.04"
   default     = "microweber-18-04"
 }
 
