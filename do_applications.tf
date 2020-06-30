@@ -299,7 +299,7 @@ variable "do_application_jenkins-18-04" {
 }
 
 variable "do_application_kandralabs-zulip-18-04" {
-  description = "Zulip 2.1.6 on Ubuntu 18.04"
+  description = "Zulip 2.1.7 on Ubuntu 18.04"
   default     = "kandralabs-zulip-18-04"
 }
 
