@@ -78,11 +78,6 @@ variable "do_application_caddy-18-04" {
   default     = "caddy-18-04"
 }
 
-variable "do_application_null" {
-  description = "Plesk 17.8 on CentOS 7"
-  default     = "null"
-}
-
 variable "do_application_caprover-18-04" {
   description = "CapRover 1.3.0 on Ubuntu 18.04"
   default     = "caprover-18-04"
@@ -94,7 +89,7 @@ variable "do_application_chamilo-18-04" {
 }
 
 variable "do_application_cloudron-18-04" {
-  description = "Cloudron 5.1.5 on Ubuntu 18.04"
+  description = "Cloudron 5.3.3 on Ubuntu 18.04"
   default     = "cloudron-18-04"
 }
 
@@ -446,6 +441,11 @@ variable "do_application_nodegame-18-04" {
 variable "do_application_nodejs-18-04" {
   description = "NodeJS 12.18.0 on Ubuntu 20.04"
   default     = "nodejs-18-04"
+}
+
+variable "do_application_null" {
+  description = "Plesk 17.8 on CentOS 7"
+  default     = "null"
 }
 
 variable "do_application_onjection-jenkins-16-04" {
