@@ -78,11 +78,6 @@ variable "do_application_caddy-18-04" {
   default     = "caddy-18-04"
 }
 
-variable "do_application_null" {
-  description = "Plesk 17.8 on CentOS 7"
-  default     = "null"
-}
-
 variable "do_application_caprover-18-04" {
   description = "CapRover 1.3.0 on Ubuntu 18.04"
   default     = "caprover-18-04"
@@ -443,6 +438,11 @@ variable "do_application_nodegame-18-04" {
   default     = "nodegame-18-04"
 }
 
+variable "do_application_null" {
+  description = "Plesk 17.8 on CentOS 7"
+  default     = "null"
+}
+
 variable "do_application_nodejs-18-04" {
   description = "NodeJS 12.18.0 on Ubuntu 20.04"
   default     = "nodejs-18-04"
@@ -686,6 +686,11 @@ variable "do_application_strapi-18-04" {
 variable "do_application_supabase-supabasepostgres-18-04" {
   description = "Supabase Postgres 0.12.0 on Ubuntu 18.04"
   default     = "supabase-supabasepostgres-18-04"
+}
+
+variable "do_application_supabase-supabaserealtime-18-04" {
+  description = "Supabase Realtime 0.7.5 on Ubuntu 18.04"
+  default     = "supabase-supabaserealtime-18-04"
 }
 
 variable "do_application_ten7-computingforcovi-18-04-4" {
