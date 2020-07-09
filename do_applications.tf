@@ -349,7 +349,7 @@ variable "do_application_mattermost-18-04" {
 }
 
 variable "do_application_meilisas-meilisearch-10" {
-  description = "MeiliSearch 0.11.0 on Debian 10 (buster)"
+  description = "MeiliSearch 0.12.0 on Debian 10 (buster)"
   default     = "meilisas-meilisearch-10"
 }
 
@@ -509,7 +509,7 @@ variable "do_application_ossn-18-04" {
 }
 
 variable "do_application_passbolt-18-04" {
-  description = "Passbolt CE 2.13.0 on Ubuntu 18.04"
+  description = "Passbolt CE 2.13.1 on Ubuntu 18.04"
   default     = "passbolt-18-04"
 }
 
@@ -596,6 +596,11 @@ variable "do_application_revox-keplerbuilder-18-04" {
 variable "do_application_rocketchat-18-04" {
   description = "Rocket.Chat 2.4.9 on Ubuntu 18.04"
   default     = "rocketchat-18-04"
+}
+
+variable "do_application_runcloud-18-04" {
+  description = "RunCloud on Ubuntu 18.04"
+  default     = "runcloud-18-04"
 }
 
 variable "do_application_selenoid-18-04" {
