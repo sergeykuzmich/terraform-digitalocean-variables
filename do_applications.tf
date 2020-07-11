@@ -44,8 +44,13 @@ variable "do_application_aplitel-vitalpbx-7" {
 }
 
 variable "do_application_ascensiosystem-onlyoffice-18-04" {
-  description = "ONLYOFFICE 18.10 on Ubuntu 18.04"
+  description = "ONLYOFFICE 20.02 on Ubuntu 18.04.4 LTS"
   default     = "ascensiosystem-onlyoffice-18-04"
+}
+
+variable "do_application_ascensiosystemsi-onlyofficeeditor-18-04-4" {
+  description = "ONLYOFFICE Editors  5.5.3 on Ubuntu 18.04.4 LTS"
+  default     = "ascensiosystemsi-onlyofficeeditor-18-04-4"
 }
 
 variable "do_application_azuracast-18-04" {
@@ -79,7 +84,7 @@ variable "do_application_caddy-18-04" {
 }
 
 variable "do_application_caprover-18-04" {
-  description = "CapRover 1.3.0 on Ubuntu 18.04"
+  description = "CapRover 1.7.1 on Ubuntu 18.04"
   default     = "caprover-18-04"
 }
 
@@ -209,7 +214,7 @@ variable "do_application_ghost-18-04" {
 }
 
 variable "do_application_gitea-18-04" {
-  description = "Gitea 1.11.6 on Ubuntu 20.04"
+  description = "Gitea 1.12.1 on Ubuntu 20.04"
   default     = "gitea-18-04"
 }
 
@@ -699,7 +704,7 @@ variable "do_application_supabase-supabaserealtime-18-04" {
 }
 
 variable "do_application_ten7-computingforcovi-18-04-4" {
-  description = "Computing for COVID 2 on Ubuntu 18.04.4 LTS"
+  description = "Computing for COVID 3 on Ubuntu 18.04.4 LTS"
   default     = "ten7-computingforcovi-18-04-4"
 }
 
