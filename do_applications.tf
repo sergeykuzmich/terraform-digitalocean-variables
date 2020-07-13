@@ -604,7 +604,7 @@ variable "do_application_rocketchat-18-04" {
 }
 
 variable "do_application_runcloud-18-04" {
-  description = "RunCloud on Ubuntu 18.04"
+  description = "RunCloud-18.04 on Ubuntu 18.04"
   default     = "runcloud-18-04"
 }
 
