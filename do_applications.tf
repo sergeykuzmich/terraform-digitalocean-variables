@@ -499,7 +499,7 @@ variable "do_application_opentradestatist-rstudiopkgdev-18-04" {
 }
 
 variable "do_application_openvpn-18-04" {
-  description = "OpenVPN Access Server 2.8.3 on Ubuntu 18.04"
+  description = "OpenVPN Access Server 2.8.5 on Ubuntu 18.04"
   default     = "openvpn-18-04"
 }
 
@@ -744,7 +744,7 @@ variable "do_application_weconexpbx-7-6" {
 }
 
 variable "do_application_wikijs-18-04" {
-  description = "Wiki.js 2.3.81 on Ubuntu 18.04"
+  description = "Wiki.js 2.4.107 on Ubuntu 18.04"
   default     = "wikijs-18-04"
 }
 
