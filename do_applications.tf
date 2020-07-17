@@ -204,7 +204,7 @@ variable "do_application_flexify-18-04" {
 }
 
 variable "do_application_flipstarter-18-04" {
-  description = "Flipstarter 1.0.0 on Ubuntu 18.04"
+  description = "Flipstarter 1.0.1 on Ubuntu 18.04"
   default     = "flipstarter-18-04"
 }
 
@@ -299,7 +299,7 @@ variable "do_application_jenkins-18-04" {
 }
 
 variable "do_application_kandralabs-zulip-18-04" {
-  description = "Zulip 2.1.7 on Ubuntu 18.04"
+  description = "Zulip 3.0 on Ubuntu 18.04"
   default     = "kandralabs-zulip-18-04"
 }
 
@@ -443,14 +443,14 @@ variable "do_application_nodegame-18-04" {
   default     = "nodegame-18-04"
 }
 
-variable "do_application_null" {
-  description = "Plesk 17.8 on CentOS 7"
-  default     = "null"
-}
-
 variable "do_application_nodejs-18-04" {
   description = "NodeJS 12.18.0 on Ubuntu 20.04"
   default     = "nodejs-18-04"
+}
+
+variable "do_application_null" {
+  description = "Plesk 17.8 on CentOS 7"
+  default     = "null"
 }
 
 variable "do_application_onjection-jenkins-16-04" {
@@ -606,6 +606,11 @@ variable "do_application_rocketchat-18-04" {
 variable "do_application_runcloud-18-04" {
   description = "RunCloud-18.04 on Ubuntu 18.04"
   default     = "runcloud-18-04"
+}
+
+variable "do_application_runcloud-runcloud2004-20-04" {
+  description = "RunCloud-20.04 on Ubuntu 20.04"
+  default     = "runcloud-runcloud2004-20-04"
 }
 
 variable "do_application_selenoid-18-04" {
