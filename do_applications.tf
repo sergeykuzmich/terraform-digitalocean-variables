@@ -229,7 +229,7 @@ variable "do_application_gluu-gluuserverce-18-04-3" {
 }
 
 variable "do_application_grafana-18-04" {
-  description = "Grafana 7.0.3 on Ubuntu 18.04"
+  description = "Grafana 7.1.0 on Ubuntu 18.04"
   default     = "grafana-18-04"
 }
 
@@ -289,7 +289,7 @@ variable "do_application_jadiangaming-solderio-18-04" {
 }
 
 variable "do_application_jelastic-jelasticpaas-7" {
-  description = "Jelastic PaaS 5.8-3 on Centos 7"
+  description = "Jelastic PaaS 5.9-1 on Centos 7"
   default     = "jelastic-jelasticpaas-7"
 }
 
@@ -319,7 +319,7 @@ variable "do_application_lemp-18-04" {
 }
 
 variable "do_application_litespeedtechnol-openlitespeedcla-18-04" {
-  description = "OpenLiteSpeed ClassicPress 1.1.3 on Ubuntu 20.04"
+  description = "OpenLiteSpeed ClassicPress 1.1.4 on Ubuntu 20.04"
   default     = "litespeedtechnol-openlitespeedcla-18-04"
 }
 
