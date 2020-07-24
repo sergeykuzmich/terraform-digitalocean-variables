@@ -94,7 +94,7 @@ variable "do_application_chamilo-18-04" {
 }
 
 variable "do_application_cloudron-18-04" {
-  description = "Cloudron 5.3.3 on Ubuntu 18.04"
+  description = "Cloudron 5.4.1 on Ubuntu 18.04"
   default     = "cloudron-18-04"
 }
 

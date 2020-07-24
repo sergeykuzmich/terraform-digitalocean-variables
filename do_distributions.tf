@@ -3,9 +3,19 @@
 #
 
 
+variable "do_distibution_null" {
+  description = "FreeBSD 11.3 x64 ufs"
+  default     = "null"
+}
+
 variable "do_distibution_centos-6-x32" {
   description = "CentOS 6.9 x32"
   default     = "centos-6-x32"
+}
+
+variable "do_distibution_null" {
+  description = "FreeBSD 11.3 x64 zfs"
+  default     = "null"
 }
 
 variable "do_distibution_centos-6-x64" {
@@ -49,12 +59,12 @@ variable "do_distibution_fedora-32-x64" {
 }
 
 variable "do_distibution_freebsd-11-x64-ufs" {
-  description = "FreeBSD 11.3 x64 ufs"
+  description = "FreeBSD 11.4 x64 ufs"
   default     = "freebsd-11-x64-ufs"
 }
 
 variable "do_distibution_freebsd-11-x64-zfs" {
-  description = "FreeBSD 11.3 x64 zfs"
+  description = "FreeBSD 11.4 x64 zfs"
   default     = "freebsd-11-x64-zfs"
 }
 
