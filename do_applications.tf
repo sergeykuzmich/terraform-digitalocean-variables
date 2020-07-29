@@ -29,7 +29,7 @@ variable "do_application_antmedia-16-04" {
 }
 
 variable "do_application_antmedia-antmediaserveren-16-04" {
-  description = "Ant Media Server Enterprise Edition 2.0.0 on Ubuntu 18.04"
+  description = "Ant Media Server Enterprise Edition 2.1.0 on Ubuntu 18.04"
   default     = "antmedia-antmediaserveren-16-04"
 }
 
@@ -694,7 +694,7 @@ variable "do_application_spatie-mailcoach-18-04" {
 }
 
 variable "do_application_strapi-18-04" {
-  description = "Strapi 3.0.0 on Ubuntu 18.04"
+  description = "Strapi 3.1.0 on Ubuntu 18.04"
   default     = "strapi-18-04"
 }
 
