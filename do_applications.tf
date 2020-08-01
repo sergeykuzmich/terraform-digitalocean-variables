@@ -138,6 +138,11 @@ variable "do_application_deadletter-18-04" {
   default     = "deadletter-18-04"
 }
 
+variable "do_application_devdojo-laravel-20-04" {
+  description = "Laravel 7.20.0 on Ubuntu 20.04"
+  default     = "devdojo-laravel-20-04"
+}
+
 variable "do_application_directus-18-04" {
   description = "Directus 8.8.0 on Ubuntu 18.04"
   default     = "directus-18-04"
@@ -699,7 +704,7 @@ variable "do_application_strapi-18-04" {
 }
 
 variable "do_application_supabase-supabasepostgres-18-04" {
-  description = "Supabase Postgres 0.12.0 on Ubuntu 18.04"
+  description = "Supabase Postgres 0.13.0 on Ubuntu 18.04"
   default     = "supabase-supabasepostgres-18-04"
 }
 
