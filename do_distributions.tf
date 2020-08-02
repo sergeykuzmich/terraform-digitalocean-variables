@@ -98,11 +98,6 @@ variable "do_distibution_ubuntu-18-04-x64" {
   default     = "ubuntu-18-04-x64"
 }
 
-variable "do_distibution_ubuntu-19-10-x64" {
-  description = "Ubuntu 19.10 x64"
-  default     = "ubuntu-19-10-x64"
-}
-
 variable "do_distibution_ubuntu-20-04-x64" {
   description = "Ubuntu 20.04 (LTS) x64"
   default     = "ubuntu-20-04-x64"
