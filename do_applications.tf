@@ -24,7 +24,7 @@ variable "do_application_analythium-shinyproxy-18-04" {
 }
 
 variable "do_application_antmedia-16-04" {
-  description = "Ant Media Server Community Edition 2.0.0 on Ubuntu 18.04"
+  description = "Ant Media Server Community Edition 2.1.0 on Ubuntu 18.04"
   default     = "antmedia-16-04"
 }
 
@@ -76,6 +76,11 @@ variable "do_application_botpress-18-04" {
 variable "do_application_buddy-18-04" {
   description = "Buddy on Ubuntu 18.04"
   default     = "buddy-18-04"
+}
+
+variable "do_application_buddy-repman-18-04" {
+  description = "Repman 0.4.1 on Ubuntu 18.04 (LTS)"
+  default     = "buddy-repman-18-04"
 }
 
 variable "do_application_caddy-18-04" {
@@ -599,7 +604,7 @@ variable "do_application_rethinkdb-rethinkdbfantasi-18-04" {
 }
 
 variable "do_application_revox-keplerbuilder-18-04" {
-  description = "Kepler Builder 1.0.9 on Ubuntu 18.04"
+  description = "Kepler Builder 1.0.10 on Ubuntu 18.04"
   default     = "revox-keplerbuilder-18-04"
 }
 
