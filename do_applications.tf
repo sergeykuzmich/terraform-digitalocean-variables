@@ -524,7 +524,7 @@ variable "do_application_ossn-18-04" {
 }
 
 variable "do_application_passbolt-18-04" {
-  description = "Passbolt CE 2.13.1 on Ubuntu 18.04"
+  description = "Passbolt CE 2.13.5 on Ubuntu 18.04"
   default     = "passbolt-18-04"
 }
 
