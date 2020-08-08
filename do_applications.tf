@@ -149,7 +149,7 @@ variable "do_application_devdojo-laravel-20-04" {
 }
 
 variable "do_application_directus-18-04" {
-  description = "Directus 8.8.0 on Ubuntu 18.04"
+  description = "Directus 8.8.1 on Ubuntu 18.04"
   default     = "directus-18-04"
 }
 
@@ -364,7 +364,7 @@ variable "do_application_mattermost-18-04" {
 }
 
 variable "do_application_meilisas-meilisearch-10" {
-  description = "MeiliSearch 0.12.0 on Debian 10 (buster)"
+  description = "MeiliSearch 0.13.0 on Debian 10 (buster)"
   default     = "meilisas-meilisearch-10"
 }
 
@@ -741,6 +741,11 @@ variable "do_application_ultrahorizon-uhvpn-18-04" {
 variable "do_application_unlight-openunlight-18-04" {
   description = "Open Unlight 1.0.0.pre1 on Ubuntu 18.04"
   default     = "unlight-openunlight-18-04"
+}
+
+variable "do_application_uxlens-18-04" {
+  description = "UXLens 0.7 on Ubuntu 18.04"
+  default     = "uxlens-18-04"
 }
 
 variable "do_application_vardot-varbase-18-04" {
