@@ -294,7 +294,7 @@ variable "do_application_izenda-18-04" {
 }
 
 variable "do_application_jadiangaming-solderio-18-04" {
-  description = "Solder.io 0.7.5.1 on Ubuntu 18.04"
+  description = "Solder.io 0.7.6 on Ubuntu 18.04.5"
   default     = "jadiangaming-solderio-18-04"
 }
 
@@ -458,11 +458,6 @@ variable "do_application_nodejs-18-04" {
   default     = "nodejs-18-04"
 }
 
-variable "do_application_null" {
-  description = "Plesk 17.8 on CentOS 7"
-  default     = "null"
-}
-
 variable "do_application_onjection-jenkins-16-04" {
   description = "Onjection Jenkins 2.164.3 on Ubuntu 16.04"
   default     = "onjection-jenkins-16-04"
@@ -536,6 +531,11 @@ variable "do_application_phpmyadmin-18-04" {
 variable "do_application_pihole-18-04" {
   description = "OpenVPN + Pihole 1.1.1 on Ubuntu 18.04"
   default     = "pihole-18-04"
+}
+
+variable "do_application_null" {
+  description = "Plesk 17.8 on CentOS 7"
+  default     = "null"
 }
 
 variable "do_application_plesk-18-04" {
@@ -761,6 +761,11 @@ variable "do_application_vitalpointz-7-6" {
 variable "do_application_weconexpbx-7-6" {
   description = "WeconexPBX 2.4-1 on CentOS 7.6"
   default     = "weconexpbx-7-6"
+}
+
+variable "do_application_wftutorials-purdm-18-04" {
+  description = "Purdm 0.3a on Ubuntu 18.04"
+  default     = "wftutorials-purdm-18-04"
 }
 
 variable "do_application_wikijs-18-04" {
