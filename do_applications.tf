@@ -259,7 +259,7 @@ variable "do_application_helpy-18-04" {
 }
 
 variable "do_application_helpyio-helpypro-18-04" {
-  description = "Helpy Pro 3.0 on Ubuntu 18.04"
+  description = "Helpy Pro 3.1 on Ubuntu 18.04"
   default     = "helpyio-helpypro-18-04"
 }
 
@@ -319,7 +319,7 @@ variable "do_application_kromit-titra-18-04" {
 }
 
 variable "do_application_lamp-18-04" {
-  description = "LAMP on 18.04"
+  description = "LAMP N/A on Ubuntu 20.04"
   default     = "lamp-18-04"
 }
 
@@ -389,7 +389,7 @@ variable "do_application_microweber-18-04" {
 }
 
 variable "do_application_mobilejazz-bugfender-18-04" {
-  description = "Bugfender 2020.1.0 on Ubuntu 18.04"
+  description = "Bugfender 2020.2.0 on Ubuntu 18.04"
   default     = "mobilejazz-bugfender-18-04"
 }
 
@@ -493,6 +493,11 @@ variable "do_application_opentradestatist-jitsiserver-18-04" {
   default     = "opentradestatist-jitsiserver-18-04"
 }
 
+variable "do_application_null" {
+  description = "Plesk 17.8 on CentOS 7"
+  default     = "null"
+}
+
 variable "do_application_opentradestatist-rstudioh2o-18-04" {
   description = "RStudio + H2O 1.2 on Ubuntu 18.04"
   default     = "opentradestatist-rstudioh2o-18-04"
@@ -531,11 +536,6 @@ variable "do_application_phpmyadmin-18-04" {
 variable "do_application_pihole-18-04" {
   description = "OpenVPN + Pihole 1.1.1 on Ubuntu 18.04"
   default     = "pihole-18-04"
-}
-
-variable "do_application_null" {
-  description = "Plesk 17.8 on CentOS 7"
-  default     = "null"
 }
 
 variable "do_application_plesk-18-04" {
