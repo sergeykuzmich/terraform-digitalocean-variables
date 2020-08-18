@@ -158,9 +158,9 @@ variable "do_application_discourse-18-04" {
   default     = "discourse-18-04"
 }
 
-variable "do_application_django-18-04" {
+variable "do_application_django-20-04" {
   description = "Django 2.2.12 on Ubuntu 20.04"
-  default     = "django-18-04"
+  default     = "django-20-04"
 }
 
 variable "do_application_docker-18-04" {
@@ -319,8 +319,13 @@ variable "do_application_kromit-titra-18-04" {
 }
 
 variable "do_application_lamp-18-04" {
-  description = "LAMP N/A on Ubuntu 20.04"
+  description = "LAMP on Ubuntu 18.04"
   default     = "lamp-18-04"
+}
+
+variable "do_application_lamp-20-04" {
+  description = "LAMP on Ubuntu 20.04"
+  default     = "lamp-20-04"
 }
 
 variable "do_application_lemp-18-04" {
@@ -381,6 +386,11 @@ variable "do_application_memgraph-9-7" {
 variable "do_application_metabase-18-04" {
   description = "Metabase 0.34.2 on Ubuntu 18.04"
   default     = "metabase-18-04"
+}
+
+variable "do_application_mgtcommercegmbh-cloudpanel1-10-4" {
+  description = "CloudPanel 1 1.0.0 on Debian 10.4"
+  default     = "mgtcommercegmbh-cloudpanel1-10-4"
 }
 
 variable "do_application_microweber-18-04" {
@@ -444,7 +454,7 @@ variable "do_application_nlnetlabs-krill-18-04" {
 }
 
 variable "do_application_nmtec-erxes-18-04" {
-  description = "Erxes 0.13.0 on Ubuntu 18.04"
+  description = "Erxes 0.16.0 on Ubuntu 18.04"
   default     = "nmtec-erxes-18-04"
 }
 
@@ -453,9 +463,14 @@ variable "do_application_nodegame-18-04" {
   default     = "nodegame-18-04"
 }
 
-variable "do_application_nodejs-18-04" {
+variable "do_application_null" {
+  description = "Plesk 17.8 on CentOS 7"
+  default     = "null"
+}
+
+variable "do_application_nodejs-20-04" {
   description = "NodeJS 12.18.0 on Ubuntu 20.04"
-  default     = "nodejs-18-04"
+  default     = "nodejs-20-04"
 }
 
 variable "do_application_onjection-jenkins-16-04" {
@@ -489,13 +504,8 @@ variable "do_application_openlitespeed-wp-18-04" {
 }
 
 variable "do_application_opentradestatist-jitsiserver-18-04" {
-  description = "Jitsi Server 2.1-164 on Ubuntu 18.04"
+  description = "Jitsi Server 2.1-273 on Ubuntu 18.04"
   default     = "opentradestatist-jitsiserver-18-04"
-}
-
-variable "do_application_null" {
-  description = "Plesk 17.8 on CentOS 7"
-  default     = "null"
 }
 
 variable "do_application_opentradestatist-rstudioh2o-18-04" {
@@ -594,7 +604,7 @@ variable "do_application_restyaboard-7-6" {
 }
 
 variable "do_application_rethinkdb-18-04" {
-  description = "RethinkDB 2.4.0 on Ubuntu 18.04"
+  description = "RethinkDB 2.4.1 on Ubuntu 18.04"
   default     = "rethinkdb-18-04"
 }
 
