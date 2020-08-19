@@ -4,7 +4,7 @@
 
 
 variable "do_distibution_null" {
-  description = "FreeBSD 11.3 x64 ufs"
+  description = "Debian 9.12 x64"
   default     = "null"
 }
 
@@ -14,7 +14,17 @@ variable "do_distibution_centos-6-x32" {
 }
 
 variable "do_distibution_null" {
+  description = "Debian 10.3 x64"
+  default     = "null"
+}
+
+variable "do_distibution_null" {
   description = "FreeBSD 11.3 x64 zfs"
+  default     = "null"
+}
+
+variable "do_distibution_null" {
+  description = "FreeBSD 11.3 x64 ufs"
   default     = "null"
 }
 
@@ -34,12 +44,12 @@ variable "do_distibution_centos-8-x64" {
 }
 
 variable "do_distibution_debian-10-x64" {
-  description = "Debian 10.3 x64"
+  description = "Debian 10 x64"
   default     = "debian-10-x64"
 }
 
 variable "do_distibution_debian-9-x64" {
-  description = "Debian 9.12 x64"
+  description = "Debian 9 x64"
   default     = "debian-9-x64"
 }
 
@@ -89,12 +99,12 @@ variable "do_distibution_ubuntu-16-04-x32" {
 }
 
 variable "do_distibution_ubuntu-16-04-x64" {
-  description = "Ubuntu 16.04.6 (LTS) x64"
+  description = "Ubuntu 16.04 (LTS) x64"
   default     = "ubuntu-16-04-x64"
 }
 
 variable "do_distibution_ubuntu-18-04-x64" {
-  description = "Ubuntu 18.04.3 (LTS) x64"
+  description = "Ubuntu 18.04 (LTS) x64"
   default     = "ubuntu-18-04-x64"
 }
 
