@@ -39,7 +39,7 @@ variable "do_application_apisnetworks-apnscp-7-7" {
 }
 
 variable "do_application_aplitel-vitalpbx-7" {
-  description = "VitalPBX 2.4.2-1 on Centos 7"
+  description = "VitalPBX 3.0.1-1 on Centos 7.8"
   default     = "aplitel-vitalpbx-7"
 }
 
@@ -463,14 +463,14 @@ variable "do_application_nodegame-18-04" {
   default     = "nodegame-18-04"
 }
 
-variable "do_application_null" {
-  description = "Plesk 17.8 on CentOS 7"
-  default     = "null"
-}
-
 variable "do_application_nodejs-20-04" {
   description = "NodeJS 12.18.0 on Ubuntu 20.04"
   default     = "nodejs-20-04"
+}
+
+variable "do_application_null" {
+  description = "Plesk 17.8 on CentOS 7"
+  default     = "null"
 }
 
 variable "do_application_onjection-jenkins-16-04" {
