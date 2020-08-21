@@ -89,7 +89,7 @@ variable "do_application_caddy-18-04" {
 }
 
 variable "do_application_caprover-18-04" {
-  description = "CapRover 1.7.1 on Ubuntu 18.04"
+  description = "CapRover 1.8.0 on Ubuntu 18.04"
   default     = "caprover-18-04"
 }
 
@@ -194,7 +194,7 @@ variable "do_application_fastnetmon-18-04" {
 }
 
 variable "do_application_fastpanel-deb-9" {
-  description = "FastPanel 1.7 on Debian"
+  description = "FASTPANEL 1.9+deb10p151 on Debian 10"
   default     = "fastpanel-deb-9"
 }
 
@@ -214,7 +214,7 @@ variable "do_application_flexify-18-04" {
 }
 
 variable "do_application_flipstarter-18-04" {
-  description = "Flipstarter 1.0.1 on Ubuntu 18.04"
+  description = "Flipstarter 1.1.0 on Ubuntu 18.04"
   default     = "flipstarter-18-04"
 }
 
@@ -246,6 +246,11 @@ variable "do_application_grafana-18-04" {
 variable "do_application_grandnode-18-04" {
   description = "GrandNode 4.60 on Ubuntu 18.04"
   default     = "grandnode-18-04"
+}
+
+variable "do_application_harperdb-18-04" {
+  description = "HarperDB 2.1.2 on Ubunut 18.04"
+  default     = "harperdb-18-04"
 }
 
 variable "do_application_hasura-18-04" {
@@ -463,14 +468,14 @@ variable "do_application_nodegame-18-04" {
   default     = "nodegame-18-04"
 }
 
-variable "do_application_nodejs-20-04" {
-  description = "NodeJS 12.18.0 on Ubuntu 20.04"
-  default     = "nodejs-20-04"
-}
-
 variable "do_application_null" {
   description = "Plesk 17.8 on CentOS 7"
   default     = "null"
+}
+
+variable "do_application_nodejs-20-04" {
+  description = "NodeJS 12.18.0 on Ubuntu 20.04"
+  default     = "nodejs-20-04"
 }
 
 variable "do_application_onjection-jenkins-16-04" {
