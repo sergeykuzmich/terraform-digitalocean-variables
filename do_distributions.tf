@@ -43,16 +43,6 @@ variable "do_distibution_fedora-31-x64" {
   default     = "fedora-31-x64"
 }
 
-variable "do_distibution_null" {
-  description = "FreeBSD 11.3 x64 ufs"
-  default     = "null"
-}
-
-variable "do_distibution_null" {
-  description = "FreeBSD 11.3 x64 zfs"
-  default     = "null"
-}
-
 variable "do_distibution_fedora-32-x64" {
   description = "Fedora 32 x64"
   default     = "fedora-32-x64"
