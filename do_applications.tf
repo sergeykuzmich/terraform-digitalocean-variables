@@ -168,6 +168,11 @@ variable "do_application_docker-18-04" {
   default     = "docker-18-04"
 }
 
+variable "do_application_docker-20-04" {
+  description = "Docker 19.03.12 on Ubuntu 20.04"
+  default     = "docker-20-04"
+}
+
 variable "do_application_dokku-18-04" {
   description = "Dokku 0.17.9 on 18.04"
   default     = "dokku-18-04"
@@ -359,7 +364,7 @@ variable "do_application_litespeedtechnol-openlitespeedwor-18-04" {
 }
 
 variable "do_application_livehelperchat-7-8-2003" {
-  description = "Live Helper Chat 3.35 on Centos 7.8.2003"
+  description = "Live Helper Chat 3.39 on Centos 7.8.2003"
   default     = "livehelperchat-7-8-2003"
 }
 
@@ -471,11 +476,6 @@ variable "do_application_nodegame-18-04" {
 variable "do_application_nodejs-20-04" {
   description = "NodeJS 12.18.0 on Ubuntu 20.04"
   default     = "nodejs-20-04"
-}
-
-variable "do_application_null" {
-  description = "Plesk 17.8 on CentOS 7"
-  default     = "null"
 }
 
 variable "do_application_onjection-jenkins-16-04" {
@@ -616,6 +616,11 @@ variable "do_application_rethinkdb-18-04" {
 variable "do_application_rethinkdb-rethinkdbfantasi-18-04" {
   description = "RethinkDB (Fantasia) 2.3.7 on Ubuntu 18.04"
   default     = "rethinkdb-rethinkdbfantasi-18-04"
+}
+
+variable "do_application_null" {
+  description = "Plesk 17.8 on CentOS 7"
+  default     = "null"
 }
 
 variable "do_application_revox-keplerbuilder-18-04" {
