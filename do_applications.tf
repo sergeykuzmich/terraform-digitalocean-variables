@@ -464,7 +464,7 @@ variable "do_application_nlnetlabs-krill-18-04" {
 }
 
 variable "do_application_nmtec-erxes-18-04" {
-  description = "Erxes 0.16.0 on Ubuntu 18.04"
+  description = "Erxes 0.17.6 on Ubuntu 18.04"
   default     = "nmtec-erxes-18-04"
 }
 

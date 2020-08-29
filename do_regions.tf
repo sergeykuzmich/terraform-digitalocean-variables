@@ -3,6 +3,11 @@
 #
 
 
+variable "do_region_ams2" {
+  description = "Amsterdam 2"
+  default     = "ams2"
+}
+
 variable "do_region_ams3" {
   description = "Amsterdam 3"
   default     = "ams3"
@@ -28,9 +33,19 @@ variable "do_region_nyc1" {
   default     = "nyc1"
 }
 
+variable "do_region_nyc2" {
+  description = "New York 2"
+  default     = "nyc2"
+}
+
 variable "do_region_nyc3" {
   description = "New York 3"
   default     = "nyc3"
+}
+
+variable "do_region_sfo1" {
+  description = "San Francisco 1"
+  default     = "sfo1"
 }
 
 variable "do_region_sfo2" {
