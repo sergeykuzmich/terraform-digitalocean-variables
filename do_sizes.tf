@@ -318,6 +318,11 @@ variable "do_size_s-6vcpu-16gb" {
   default     = "s-6vcpu-16gb"
 }
 
+variable "do_size_s-8vcpu-16gb" {
+  description = "16GB RAM; 8 CPU; 320GB SSD - $80/mo"
+  default     = "s-8vcpu-16gb"
+}
+
 variable "do_size_s-8vcpu-32gb" {
   description = "32GB RAM; 8 CPU; 640GB SSD - $160/mo"
   default     = "s-8vcpu-32gb"

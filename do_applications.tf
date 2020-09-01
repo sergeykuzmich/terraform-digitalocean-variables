@@ -358,6 +358,11 @@ variable "do_application_litespeedtechnol-openlitespeednod-18-04" {
   default     = "litespeedtechnol-openlitespeednod-18-04"
 }
 
+variable "do_application_litespeedtechnol-openlitespeedrai-20-04" {
+  description = "OpenLiteSpeed Rails 2.7.1 on Ubuntu 20.04"
+  default     = "litespeedtechnol-openlitespeedrai-20-04"
+}
+
 variable "do_application_litespeedtechnol-openlitespeedwor-18-04" {
   description = "OpenLiteSpeed WordPress 5.5 on Ubuntu 20.04"
   default     = "litespeedtechnol-openlitespeedwor-18-04"
