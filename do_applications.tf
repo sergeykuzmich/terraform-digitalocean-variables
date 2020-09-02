@@ -229,7 +229,7 @@ variable "do_application_ghost-18-04" {
 }
 
 variable "do_application_gitea-18-04" {
-  description = "Gitea 1.12.1 on Ubuntu 20.04"
+  description = "Gitea 1.12.3 on Ubuntu 20.04"
   default     = "gitea-18-04"
 }
 
@@ -483,6 +483,11 @@ variable "do_application_nodejs-20-04" {
   default     = "nodejs-20-04"
 }
 
+variable "do_application_null" {
+  description = "Plesk 17.8 on CentOS 7"
+  default     = "null"
+}
+
 variable "do_application_onjection-jenkins-16-04" {
   description = "Onjection Jenkins 2.164.3 on Ubuntu 16.04"
   default     = "onjection-jenkins-16-04"
@@ -594,12 +599,12 @@ variable "do_application_redash-18-04" {
 }
 
 variable "do_application_restya-restyaboard-18-04" {
-  description = "Restyaboard 0.6.8 on Ubuntu 18.04"
+  description = "Restyaboard 0.6.9 on Ubuntu 18.04"
   default     = "restya-restyaboard-18-04"
 }
 
 variable "do_application_restya-restyaboardcento-7-6" {
-  description = "Restyaboard (CentOS) 0.6.8 on CentOS 7.6"
+  description = "Restyaboard (CentOS) 0.6.9 on CentOS 7.6"
   default     = "restya-restyaboardcento-7-6"
 }
 
@@ -621,11 +626,6 @@ variable "do_application_rethinkdb-18-04" {
 variable "do_application_rethinkdb-rethinkdbfantasi-18-04" {
   description = "RethinkDB (Fantasia) 2.3.7 on Ubuntu 18.04"
   default     = "rethinkdb-rethinkdbfantasi-18-04"
-}
-
-variable "do_application_null" {
-  description = "Plesk 17.8 on CentOS 7"
-  default     = "null"
 }
 
 variable "do_application_revox-keplerbuilder-18-04" {
