@@ -14,7 +14,7 @@ variable "do_distibution_centos-6-x64" {
 }
 
 variable "do_distibution_centos-7-x64" {
-  description = "CentOS 7.6 x64"
+  description = "CentOS 7 x64"
   default     = "centos-7-x64"
 }
 
@@ -49,12 +49,12 @@ variable "do_distibution_fedora-32-x64" {
 }
 
 variable "do_distibution_freebsd-11-x64-ufs" {
-  description = "FreeBSD 11.4 x64 ufs"
+  description = "FreeBSD 11.4 ufs x64"
   default     = "freebsd-11-x64-ufs"
 }
 
 variable "do_distibution_freebsd-11-x64-zfs" {
-  description = "FreeBSD 11.4 x64 zfs"
+  description = "FreeBSD 11.4 zfs x64"
   default     = "freebsd-11-x64-zfs"
 }
 

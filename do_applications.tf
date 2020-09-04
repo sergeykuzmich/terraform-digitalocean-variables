@@ -404,7 +404,7 @@ variable "do_application_metabase-18-04" {
 }
 
 variable "do_application_mgtcommercegmbh-cloudpanel1-10-4" {
-  description = "CloudPanel 1 1.0.0 on Debian 10.4"
+  description = "CloudPanel 1 1.0.2 on Debian 10.5"
   default     = "mgtcommercegmbh-cloudpanel1-10-4"
 }
 
