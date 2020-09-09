@@ -33,11 +33,6 @@ variable "do_distibution_debian-9-x64" {
   default     = "debian-9-x64"
 }
 
-variable "do_distibution_fedora-30-x64" {
-  description = "Fedora 30 x64"
-  default     = "fedora-30-x64"
-}
-
 variable "do_distibution_fedora-31-x64" {
   description = "Fedora 31 x64"
   default     = "fedora-31-x64"
@@ -64,7 +59,7 @@ variable "do_distibution_freebsd-12-x64" {
 }
 
 variable "do_distibution_freebsd-12-x64-zfs" {
-  description = "FreeBSD 12.1 x64 zfs"
+  description = "FreeBSD 12.1 zfs x64"
   default     = "freebsd-12-x64-zfs"
 }
 
