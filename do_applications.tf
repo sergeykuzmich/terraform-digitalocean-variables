@@ -229,7 +229,7 @@ variable "do_application_ghost-18-04" {
 }
 
 variable "do_application_gitea-18-04" {
-  description = "Gitea 1.12.3 on Ubuntu 20.04"
+  description = "Gitea 1.12.4 on Ubuntu 20.04"
   default     = "gitea-18-04"
 }
 
@@ -271,6 +271,11 @@ variable "do_application_helpy-18-04" {
 variable "do_application_helpyio-helpypro-18-04" {
   description = "Helpy Pro 3.1 on Ubuntu 18.04"
   default     = "helpyio-helpypro-18-04"
+}
+
+variable "do_application_null" {
+  description = "Plesk 17.8 on CentOS 7"
+  default     = "null"
 }
 
 variable "do_application_honeydbagent-9" {
@@ -384,7 +389,7 @@ variable "do_application_mattermost-18-04" {
 }
 
 variable "do_application_meilisas-meilisearch-10" {
-  description = "MeiliSearch 0.13.0 on Debian 10 (buster)"
+  description = "MeiliSearch 0.14.0 on Debian 10 (buster)"
   default     = "meilisas-meilisearch-10"
 }
 
@@ -476,11 +481,6 @@ variable "do_application_nmtec-erxes-18-04" {
 variable "do_application_nodegame-18-04" {
   description = "NodeGame 5.9.0 on Ubuntu 18.04"
   default     = "nodegame-18-04"
-}
-
-variable "do_application_null" {
-  description = "Plesk 17.8 on CentOS 7"
-  default     = "null"
 }
 
 variable "do_application_nodejs-20-04" {
@@ -646,6 +646,11 @@ variable "do_application_runcloud-18-04" {
 variable "do_application_runcloud-runcloud2004-20-04" {
   description = "RunCloud-20.04 on Ubuntu 20.04"
   default     = "runcloud-runcloud2004-20-04"
+}
+
+variable "do_application_searchblox-searchbloxenterp-7-6" {
+  description = "SearchBlox Enterprise Search 9.2.1 on CentOS 7.6"
+  default     = "searchblox-searchbloxenterp-7-6"
 }
 
 variable "do_application_selenoid-18-04" {
