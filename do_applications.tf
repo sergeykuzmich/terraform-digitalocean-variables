@@ -39,7 +39,7 @@ variable "do_application_apisnetworks-apnscp-7-7" {
 }
 
 variable "do_application_aplitel-vitalpbx-7" {
-  description = "VitalPBX 3.0.1-1 on Centos 7.8"
+  description = "VitalPBX 3.0.2-1 on Centos 7.8"
   default     = "aplitel-vitalpbx-7"
 }
 
@@ -273,11 +273,6 @@ variable "do_application_helpyio-helpypro-18-04" {
   default     = "helpyio-helpypro-18-04"
 }
 
-variable "do_application_null" {
-  description = "Plesk 17.8 on CentOS 7"
-  default     = "null"
-}
-
 variable "do_application_honeydbagent-9" {
   description = "HoneyDB Agent on Debian 9"
   default     = "honeydbagent-9"
@@ -311,6 +306,11 @@ variable "do_application_izenda-18-04" {
 variable "do_application_jadiangaming-solderio-18-04" {
   description = "Solder.io 0.7.6 on Ubuntu 18.04.5"
   default     = "jadiangaming-solderio-18-04"
+}
+
+variable "do_application_null" {
+  description = "Plesk 17.8 on CentOS 7"
+  default     = "null"
 }
 
 variable "do_application_jelastic-jelasticpaas-7" {
