@@ -58,6 +58,11 @@ variable "do_application_azuracast-18-04" {
   default     = "azuracast-18-04"
 }
 
+variable "do_application_bagisto-18-04" {
+  description = "Bagisto on 18.04"
+  default     = "bagisto-18-04"
+}
+
 variable "do_application_bcoin-18-04" {
   description = "bcoin on 18.04"
   default     = "bcoin-18-04"
@@ -184,7 +189,7 @@ variable "do_application_dokos-18-04" {
 }
 
 variable "do_application_eltrino-magento2opensour-18-04" {
-  description = "Magento 2 Open Source 1.1 on Ubuntu 18.04 (LTS)"
+  description = "Magento 2 Open Source 1.2 on Ubuntu 18.04 (LTS)"
   default     = "eltrino-magento2opensour-18-04"
 }
 
@@ -273,6 +278,11 @@ variable "do_application_helpyio-helpypro-18-04" {
   default     = "helpyio-helpypro-18-04"
 }
 
+variable "do_application_null" {
+  description = "Plesk 17.8 on CentOS 7"
+  default     = "null"
+}
+
 variable "do_application_honeydbagent-9" {
   description = "HoneyDB Agent on Debian 9"
   default     = "honeydbagent-9"
@@ -306,11 +316,6 @@ variable "do_application_izenda-18-04" {
 variable "do_application_jadiangaming-solderio-18-04" {
   description = "Solder.io 0.7.6 on Ubuntu 18.04.5"
   default     = "jadiangaming-solderio-18-04"
-}
-
-variable "do_application_null" {
-  description = "Plesk 17.8 on CentOS 7"
-  default     = "null"
 }
 
 variable "do_application_jelastic-jelasticpaas-7" {
@@ -531,6 +536,11 @@ variable "do_application_opentradestatist-rstudioh2o-18-04" {
 variable "do_application_opentradestatist-rstudiopkgdev-18-04" {
   description = "RStudio + PkgDev 1.2 on Ubuntu 18.04"
   default     = "opentradestatist-rstudiopkgdev-18-04"
+}
+
+variable "do_application_opentradestatist-rstudiostan-18-04" {
+  description = "RStudio + Stan 1.2 on Ubuntu 18.04"
+  default     = "opentradestatist-rstudiostan-18-04"
 }
 
 variable "do_application_openvpn-18-04" {
