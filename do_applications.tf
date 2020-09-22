@@ -104,7 +104,7 @@ variable "do_application_chamilo-18-04" {
 }
 
 variable "do_application_cloudron-18-04" {
-  description = "Cloudron 5.4.1 on Ubuntu 18.04"
+  description = "Cloudron 5.6.1 on Ubuntu 18.04"
   default     = "cloudron-18-04"
 }
 
@@ -359,7 +359,7 @@ variable "do_application_litespeedtechnol-openlitespeedcla-18-04" {
 }
 
 variable "do_application_litespeedtechnol-openlitespeeddja-18-04" {
-  description = "OpenLiteSpeed Django 3.0.3 on Ubuntu 18.04"
+  description = "OpenLiteSpeed Django 3.1.1 on Ubuntu 20.04"
   default     = "litespeedtechnol-openlitespeeddja-18-04"
 }
 
