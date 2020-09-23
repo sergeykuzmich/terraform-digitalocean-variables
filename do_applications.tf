@@ -19,7 +19,7 @@ variable "do_application_alfio-7-6" {
 }
 
 variable "do_application_analythium-shinyproxy-18-04" {
-  description = "ShinyProxy 2.3.0 on Ubuntu 18.04"
+  description = "ShinyProxy 2.3.1 on Ubuntu 20.04"
   default     = "analythium-shinyproxy-18-04"
 }
 
@@ -189,7 +189,7 @@ variable "do_application_dokos-18-04" {
 }
 
 variable "do_application_eltrino-magento2opensour-18-04" {
-  description = "Magento 2 Open Source 1.2 on Ubuntu 18.04 (LTS)"
+  description = "Magento 2 Open Source 1.3 on Ubuntu 20.04 (LTS)"
   default     = "eltrino-magento2opensour-18-04"
 }
 
@@ -329,7 +329,7 @@ variable "do_application_jenkins-18-04" {
 }
 
 variable "do_application_kandralabs-zulip-18-04" {
-  description = "Zulip 3.0 on Ubuntu 18.04"
+  description = "Zulip 3.2 on Ubuntu 18.04"
   default     = "kandralabs-zulip-18-04"
 }
 
