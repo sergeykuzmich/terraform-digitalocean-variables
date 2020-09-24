@@ -278,11 +278,6 @@ variable "do_application_helpyio-helpypro-18-04" {
   default     = "helpyio-helpypro-18-04"
 }
 
-variable "do_application_null" {
-  description = "Plesk 17.8 on CentOS 7"
-  default     = "null"
-}
-
 variable "do_application_honeydbagent-9" {
   description = "HoneyDB Agent on Debian 9"
   default     = "honeydbagent-9"
@@ -316,6 +311,11 @@ variable "do_application_izenda-18-04" {
 variable "do_application_jadiangaming-solderio-18-04" {
   description = "Solder.io 0.7.6 on Ubuntu 18.04.5"
   default     = "jadiangaming-solderio-18-04"
+}
+
+variable "do_application_null" {
+  description = "Plesk 17.8 on CentOS 7"
+  default     = "null"
 }
 
 variable "do_application_jelastic-jelasticpaas-7" {
@@ -796,6 +796,11 @@ variable "do_application_vardot-varbase-18-04" {
 variable "do_application_vitalpointz-7-6" {
   description = "vitalpointz IoT Core Lite 1.2.0 on CentOS 7.6"
   default     = "vitalpointz-7-6"
+}
+
+variable "do_application_vodianetworks-vodiaphonesystem-10" {
+  description = "Vodia Phone System 66 on Debian 10 x64"
+  default     = "vodianetworks-vodiaphonesystem-10"
 }
 
 variable "do_application_weconexpbx-7-6" {
