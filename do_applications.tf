@@ -128,6 +128,11 @@ variable "do_application_cpanel-cpanelwhm-7-6" {
   default     = "cpanel-cpanelwhm-7-6"
 }
 
+variable "do_application_curiositygmbh-curiosity-16-04" {
+  description = "Curiosity 0.12549 on Ubuntu 16.04"
+  default     = "curiositygmbh-curiosity-16-04"
+}
+
 variable "do_application_cyberpanel-18-04" {
   description = "CyberPanel 2.0.1 on Ubuntu 20.04"
   default     = "cyberpanel-18-04"
@@ -313,11 +318,6 @@ variable "do_application_jadiangaming-solderio-18-04" {
   default     = "jadiangaming-solderio-18-04"
 }
 
-variable "do_application_null" {
-  description = "Plesk 17.8 on CentOS 7"
-  default     = "null"
-}
-
 variable "do_application_jelastic-jelasticpaas-7" {
   description = "Jelastic PaaS 5.9-1 on Centos 7"
   default     = "jelastic-jelasticpaas-7"
@@ -348,13 +348,18 @@ variable "do_application_lamp-20-04" {
   default     = "lamp-20-04"
 }
 
+variable "do_application_null" {
+  description = "Plesk 17.8 on CentOS 7"
+  default     = "null"
+}
+
 variable "do_application_lemp-18-04" {
   description = "LEMP on 18.04"
   default     = "lemp-18-04"
 }
 
 variable "do_application_litespeedtechnol-openlitespeedcla-18-04" {
-  description = "OpenLiteSpeed ClassicPress 1.1.4 on Ubuntu 20.04"
+  description = "OpenLiteSpeed ClassicPress 1.2.0 on Ubuntu 20.04"
   default     = "litespeedtechnol-openlitespeedcla-18-04"
 }
 
