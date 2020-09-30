@@ -124,7 +124,7 @@ variable "do_application_cpanel-7-6" {
 }
 
 variable "do_application_cpanel-cpanelwhm-7-6" {
-  description = "cPanel & WHM® 86.0.21 on CentOS 7.6"
+  description = "cPanel & WHM® 90.0.10 on CentOS 7.6"
   default     = "cpanel-cpanelwhm-7-6"
 }
 
@@ -229,7 +229,7 @@ variable "do_application_flexify-18-04" {
 }
 
 variable "do_application_flipstarter-18-04" {
-  description = "Flipstarter 1.1.0 on Ubuntu 18.04"
+  description = "Flipstarter 1.1.1 on Ubuntu 18.04"
   default     = "flipstarter-18-04"
 }
 
@@ -254,7 +254,7 @@ variable "do_application_gluu-gluuserverce-18-04-3" {
 }
 
 variable "do_application_grafana-18-04" {
-  description = "Grafana 7.1.0 on Ubuntu 18.04"
+  description = "Grafana 7.2.0 on Ubuntu 18.04"
   default     = "grafana-18-04"
 }
 
@@ -346,11 +346,6 @@ variable "do_application_lamp-18-04" {
 variable "do_application_lamp-20-04" {
   description = "LAMP on Ubuntu 20.04"
   default     = "lamp-20-04"
-}
-
-variable "do_application_null" {
-  description = "Plesk 17.8 on CentOS 7"
-  default     = "null"
 }
 
 variable "do_application_lemp-18-04" {
@@ -636,6 +631,11 @@ variable "do_application_restyaboard-7-6" {
 variable "do_application_rethinkdb-18-04" {
   description = "RethinkDB 2.4.1 on Ubuntu 18.04"
   default     = "rethinkdb-18-04"
+}
+
+variable "do_application_null" {
+  description = "Plesk 17.8 on CentOS 7"
+  default     = "null"
 }
 
 variable "do_application_rethinkdb-rethinkdbfantasi-18-04" {
