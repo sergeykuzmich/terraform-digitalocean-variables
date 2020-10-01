@@ -264,7 +264,7 @@ variable "do_application_grandnode-18-04" {
 }
 
 variable "do_application_harperdb-18-04" {
-  description = "HarperDB 2.1.2 on Ubunut 18.04"
+  description = "HarperDB 2.2.0 on Ubuntu 18.04"
   default     = "harperdb-18-04"
 }
 
