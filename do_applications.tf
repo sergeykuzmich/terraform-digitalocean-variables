@@ -319,7 +319,7 @@ variable "do_application_jadiangaming-solderio-18-04" {
 }
 
 variable "do_application_jelastic-jelasticpaas-7" {
-  description = "Jelastic PaaS 5.9-1 on Centos 7"
+  description = "Jelastic PaaS 5.9-3 on Centos 7"
   default     = "jelastic-jelasticpaas-7"
 }
 
@@ -521,6 +521,11 @@ variable "do_application_openlitespeed-node-18-04" {
 variable "do_application_openlitespeed-wp-18-04" {
   description = "OpenLiteSpeed WordPress 5.3 on Ubuntu 18.04"
   default     = "openlitespeed-wp-18-04"
+}
+
+variable "do_application_opentradestatist-bigbluebuttonser-16-04" {
+  description = "BigBlueButton Server 2.2 on Ubuntu 16.04"
+  default     = "opentradestatist-bigbluebuttonser-16-04"
 }
 
 variable "do_application_opentradestatist-jitsiserver-18-04" {
@@ -744,7 +749,7 @@ variable "do_application_solidinvoice-18-04" {
 }
 
 variable "do_application_spatie-mailcoach-18-04" {
-  description = "Mailcoach 2.1 on Ubuntu 18.04"
+  description = "Mailcoach 3.0 on Ubuntu 18.04"
   default     = "spatie-mailcoach-18-04"
 }
 
