@@ -219,7 +219,7 @@ variable "do_application_fathom-18-04" {
 }
 
 variable "do_application_flashphoner-7-6" {
-  description = "Flashphoner 5.2.259 on CentOS 7.6"
+  description = "Flashphoner Web Call Server 5.2.780 on CentOS 7.6"
   default     = "flashphoner-7-6"
 }
 
@@ -379,7 +379,7 @@ variable "do_application_litespeedtechnol-openlitespeedwor-18-04" {
 }
 
 variable "do_application_livehelperchat-7-8-2003" {
-  description = "Live Helper Chat 3.39 on Centos 7.8.2003"
+  description = "Live Helper Chat 3.44 on Centos 7.8.2003"
   default     = "livehelperchat-7-8-2003"
 }
 
