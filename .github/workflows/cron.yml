@@ -5,7 +5,7 @@ on:
     - cron:  '0 0 * * *'
 
 jobs:
-  prune_artifacts:
+  job_prune_artifacts:
     name: Delete Past Artifacts
     runs-on: ubuntu-latest
 
@@ -15,7 +15,7 @@ jobs:
       with:
         age: '1 day'
 
-  fetch:
+  job_fetch:
     name: Get Latest DigitalOcean API Variables
     runs-on: ubuntu-latest
 
@@ -45,9 +45,9 @@ jobs:
         path: output/
 
 
-  fmt:
+  job_fmt:
     name: Prettify Output Files
-    needs: fetch
+    needs: job_fetch
     runs-on: ubuntu-latest
 
     steps:
@@ -67,9 +67,9 @@ jobs:
         name: output
         path: output/
 
-  deploy:
+  job_deploy:
     name: Deploy Output to Master
-    needs: fmt
+    needs: job_fmt
     runs-on: ubuntu-latest
 
     steps:
