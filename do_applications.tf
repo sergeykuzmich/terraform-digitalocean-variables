@@ -13,13 +13,23 @@ variable "do_application_akaunting-18-04" {
   default     = "akaunting-18-04"
 }
 
+variable "do_application_akaunting-20-04" {
+  description = "Akaunting on Ubuntu 20.04"
+  default     = "akaunting-20-04"
+}
+
 variable "do_application_alfio-7-6" {
   description = "alf.io 2.0 on CentOS 7.6"
   default     = "alfio-7-6"
 }
 
+variable "do_application_analythium-opencpu-20-04" {
+  description = "OpenCPU 2.2 on Ubuntu 20.04"
+  default     = "analythium-opencpu-20-04"
+}
+
 variable "do_application_analythium-shinyproxy-18-04" {
-  description = "ShinyProxy 2.3.1 on Ubuntu 20.04"
+  description = "ShinyProxy 2.4.0 on Ubuntu 20.04"
   default     = "analythium-shinyproxy-18-04"
 }
 
@@ -29,7 +39,7 @@ variable "do_application_antmedia-16-04" {
 }
 
 variable "do_application_antmedia-antmediaserveren-16-04" {
-  description = "Ant Media Server Enterprise Edition 2.1.0 on Ubuntu 18.04"
+  description = "Ant Media Server Enterprise Edition 2.2.1 on Ubuntu 18.04"
   default     = "antmedia-antmediaserveren-16-04"
 }
 
@@ -39,23 +49,33 @@ variable "do_application_apisnetworks-apnscp-7-7" {
 }
 
 variable "do_application_aplitel-vitalpbx-7" {
-  description = "VitalPBX 3.0.2-1 on Centos 7.8"
+  description = "VitalPBX 3.0.4-1 on Centos 7.8"
   default     = "aplitel-vitalpbx-7"
 }
 
 variable "do_application_ascensiosystem-onlyoffice-18-04" {
-  description = "ONLYOFFICE 20.02 on Ubuntu 18.04.4 LTS"
+  description = "ONLYOFFICE Workspace 20.12.518 on Ubuntu 18.04.4 LTS"
   default     = "ascensiosystem-onlyoffice-18-04"
 }
 
 variable "do_application_ascensiosystemsi-onlyofficeeditor-18-04-4" {
-  description = "ONLYOFFICE Editors  5.5.3 on Ubuntu 18.04.4 LTS"
+  description = "ONLYOFFICE Docs 6.1.0.83 on Ubuntu 18.04.4 LTS"
   default     = "ascensiosystemsi-onlyofficeeditor-18-04-4"
 }
 
+variable "do_application_auspiciaab-theplanminderpos-20-04" {
+  description = "ThePlanMinder PostgreSQL 1.02 on Ubuntu 20.04"
+  default     = "auspiciaab-theplanminderpos-20-04"
+}
+
 variable "do_application_azuracast-18-04" {
-  description = "AzuraCast 0.10.3 on Ubuntu 20.04"
+  description = "AzuraCast 0.11.2 on Ubuntu 20.04"
   default     = "azuracast-18-04"
+}
+
+variable "do_application_azuracast-20-04" {
+  description = "AzuraCast 0.12 on Ubuntu 20.04"
+  default     = "azuracast-20-04"
 }
 
 variable "do_application_bagisto-18-04" {
@@ -88,8 +108,13 @@ variable "do_application_buddy-repman-18-04" {
   default     = "buddy-repman-18-04"
 }
 
+variable "do_application_budibase-20-04" {
+  description = "Budibase 0.6.2 on Ubuntu 20.04"
+  default     = "budibase-20-04"
+}
+
 variable "do_application_caddy-18-04" {
-  description = "Caddy 2.1.1 on Ubuntu 18.04"
+  description = "Caddy 2.2.1 on Ubuntu 18.04"
   default     = "caddy-18-04"
 }
 
@@ -98,13 +123,23 @@ variable "do_application_caprover-18-04" {
   default     = "caprover-18-04"
 }
 
+variable "do_application_castai-castaikubernetes-20-04" {
+  description = "CAST AI Kubernetes 1.18 1.18.6-7 on Ubuntu 20.04"
+  default     = "castai-castaikubernetes-20-04"
+}
+
+variable "do_application_castai-kubernetes119-20-04" {
+  description = "Kubernetes 1.19 1.19.7-001 on Ubuntu 20.04"
+  default     = "castai-kubernetes119-20-04"
+}
+
 variable "do_application_chamilo-18-04" {
   description = "Chamilo 1.11.10 on Ubuntu 18.04"
   default     = "chamilo-18-04"
 }
 
 variable "do_application_cloudron-18-04" {
-  description = "Cloudron 5.6.1 on Ubuntu 18.04"
+  description = "Cloudron 6.0.1 on Ubuntu 20.04"
   default     = "cloudron-18-04"
 }
 
@@ -114,7 +149,7 @@ variable "do_application_code-server-18-04" {
 }
 
 variable "do_application_countly-18-04" {
-  description = "Countly Analytics 20.04 on Ubuntu 18.04"
+  description = "Countly Analytics 20.04.1 on Ubuntu 18.04"
   default     = "countly-18-04"
 }
 
@@ -124,8 +159,13 @@ variable "do_application_cpanel-7-6" {
 }
 
 variable "do_application_cpanel-cpanelwhm-7-6" {
-  description = "cPanel & WHM® 90.0.10 on CentOS 7.6"
+  description = "cPanel & WHM® 92.0.9 on CentOS 7.6"
   default     = "cpanel-cpanelwhm-7-6"
+}
+
+variable "do_application_csmm-20-04" {
+  description = "CSMM 1.20.2 on Ubuntu 20.04"
+  default     = "csmm-20-04"
 }
 
 variable "do_application_curiositygmbh-curiosity-16-04" {
@@ -134,7 +174,7 @@ variable "do_application_curiositygmbh-curiosity-16-04" {
 }
 
 variable "do_application_cyberpanel-18-04" {
-  description = "CyberPanel 2.0.1 on Ubuntu 20.04"
+  description = "CyberPanel 2.0.3 on Ubuntu 20.04"
   default     = "cyberpanel-18-04"
 }
 
@@ -159,7 +199,7 @@ variable "do_application_devdojo-laravel-20-04" {
 }
 
 variable "do_application_directus-18-04" {
-  description = "Directus 8.8.1 on Ubuntu 18.04"
+  description = "Directus 9 on Ubuntu 18.04"
   default     = "directus-18-04"
 }
 
@@ -168,13 +208,18 @@ variable "do_application_discourse-18-04" {
   default     = "discourse-18-04"
 }
 
+variable "do_application_discourse-20-04" {
+  description = "Discourse on Ubuntu 20.04"
+  default     = "discourse-20-04"
+}
+
 variable "do_application_django-20-04" {
   description = "Django 2.2.12 on Ubuntu 20.04"
   default     = "django-20-04"
 }
 
 variable "do_application_docker-18-04" {
-  description = "Docker 5:19.03.1~3 on 18.04"
+  description = "Docker 19.03.12 on Ubuntu 18.04"
   default     = "docker-18-04"
 }
 
@@ -188,19 +233,29 @@ variable "do_application_dokku-18-04" {
   default     = "dokku-18-04"
 }
 
+variable "do_application_dokku-20-04" {
+  description = "Dokku 0.21.4 on Ubuntu 20.04"
+  default     = "dokku-20-04"
+}
+
 variable "do_application_dokos-18-04" {
   description = "Dokos 1.4.0 on Ubuntu 18.04"
   default     = "dokos-18-04"
 }
 
 variable "do_application_eltrino-magento2opensour-18-04" {
-  description = "Magento 2 Open Source 1.3 on Ubuntu 20.04 (LTS)"
+  description = "Magento 2 Open Source 1.3.1 on Ubuntu 20.04 (LTS)"
   default     = "eltrino-magento2opensour-18-04"
 }
 
 variable "do_application_erpnext-18-04" {
   description = "ERPNext 12.5.0 on Ubuntu 18.04"
   default     = "erpnext-18-04"
+}
+
+variable "do_application_eummena-moodle-10" {
+  description = "moodle 3.10 on Debian 10"
+  default     = "eummena-moodle-10"
 }
 
 variable "do_application_fastnetmon-18-04" {
@@ -224,12 +279,12 @@ variable "do_application_flashphoner-7-6" {
 }
 
 variable "do_application_flexify-18-04" {
-  description = "Flexify 2.8.1 on Ubuntu 18.04"
+  description = "Flexify.IO Multi-cloud / Migration 2.12.0 on Ubuntu 20.04 LTS"
   default     = "flexify-18-04"
 }
 
 variable "do_application_flipstarter-18-04" {
-  description = "Flipstarter 1.1.1 on Ubuntu 18.04"
+  description = "Flipstarter 1.1.2 on Ubuntu 18.04"
   default     = "flipstarter-18-04"
 }
 
@@ -238,8 +293,13 @@ variable "do_application_ghost-18-04" {
   default     = "ghost-18-04"
 }
 
+variable "do_application_gigantum-gigantumclient-20-04" {
+  description = "Gigantum Client 1.4.0 on Ubuntu 20.04"
+  default     = "gigantum-gigantumclient-20-04"
+}
+
 variable "do_application_gitea-18-04" {
-  description = "Gitea 1.12.4 on Ubuntu 20.04"
+  description = "Gitea 1.13.1 on Ubuntu 20.04"
   default     = "gitea-18-04"
 }
 
@@ -249,7 +309,7 @@ variable "do_application_gitlab-meltano-18-04" {
 }
 
 variable "do_application_gluu-gluuserverce-18-04-3" {
-  description = "Gluu Server CE 4.1.1 on Ubuntu 18.04.3"
+  description = "Gluu Server CE 4.2.1 on Ubuntu 20.04 (LTS)"
   default     = "gluu-gluuserverce-18-04-3"
 }
 
@@ -259,12 +319,17 @@ variable "do_application_grafana-18-04" {
 }
 
 variable "do_application_grandnode-18-04" {
-  description = "GrandNode 4.60 on Ubuntu 18.04"
+  description = "GrandNode 4.80.0 on Ubuntu 18.04"
   default     = "grandnode-18-04"
 }
 
+variable "do_application_haproxywi-7" {
+  description = "HAProxy-WI 4.5.0 on CentOS 7"
+  default     = "haproxywi-7"
+}
+
 variable "do_application_harperdb-18-04" {
-  description = "HarperDB 2.2.0 on Ubuntu 18.04"
+  description = "HarperDB 2.3.0 on Ubuntu 18.04"
   default     = "harperdb-18-04"
 }
 
@@ -286,6 +351,11 @@ variable "do_application_helpyio-helpypro-18-04" {
 variable "do_application_honeydbagent-9" {
   description = "HoneyDB Agent on Debian 9"
   default     = "honeydbagent-9"
+}
+
+variable "do_application_hyfinity-webmakerserver-20-04" {
+  description = "WebMaker Server 10.5 on Ubuntu 20.04"
+  default     = "hyfinity-webmakerserver-20-04"
 }
 
 variable "do_application_influxdb-18-04" {
@@ -319,7 +389,7 @@ variable "do_application_jadiangaming-solderio-18-04" {
 }
 
 variable "do_application_jelastic-jelasticpaas-7" {
-  description = "Jelastic PaaS 5.9-3 on Centos 7"
+  description = "Jelastic PaaS 5.9-6 on Centos 7"
   default     = "jelastic-jelasticpaas-7"
 }
 
@@ -329,7 +399,7 @@ variable "do_application_jenkins-18-04" {
 }
 
 variable "do_application_kandralabs-zulip-18-04" {
-  description = "Zulip 3.2 on Ubuntu 18.04"
+  description = "Zulip 3.3 on Ubuntu 18.04"
   default     = "kandralabs-zulip-18-04"
 }
 
@@ -353,6 +423,11 @@ variable "do_application_lemp-18-04" {
   default     = "lemp-18-04"
 }
 
+variable "do_application_lemp-20-04" {
+  description = "LEMP on Ubuntu 20.04"
+  default     = "lemp-20-04"
+}
+
 variable "do_application_litespeedtechnol-openlitespeedcla-18-04" {
   description = "OpenLiteSpeed ClassicPress 1.2.0 on Ubuntu 20.04"
   default     = "litespeedtechnol-openlitespeedcla-18-04"
@@ -361,6 +436,16 @@ variable "do_application_litespeedtechnol-openlitespeedcla-18-04" {
 variable "do_application_litespeedtechnol-openlitespeeddja-18-04" {
   description = "OpenLiteSpeed Django 3.1.1 on Ubuntu 20.04"
   default     = "litespeedtechnol-openlitespeeddja-18-04"
+}
+
+variable "do_application_litespeedtechnol-openlitespeeddja-20-04" {
+  description = "OpenLiteSpeed Django 3.1.6 on Ubuntu 20.04"
+  default     = "litespeedtechnol-openlitespeeddja-20-04"
+}
+
+variable "do_application_litespeedtechnol-openlitespeedjoo-20-04" {
+  description = "OpenLiteSpeed Joomla 3.9.22 on Ubuntu 20.04"
+  default     = "litespeedtechnol-openlitespeedjoo-20-04"
 }
 
 variable "do_application_litespeedtechnol-openlitespeednod-18-04" {
@@ -374,12 +459,12 @@ variable "do_application_litespeedtechnol-openlitespeedrai-20-04" {
 }
 
 variable "do_application_litespeedtechnol-openlitespeedwor-18-04" {
-  description = "OpenLiteSpeed WordPress 5.5 on Ubuntu 20.04"
+  description = "OpenLiteSpeed WordPress 5.6 on Ubuntu 20.04"
   default     = "litespeedtechnol-openlitespeedwor-18-04"
 }
 
 variable "do_application_livehelperchat-7-8-2003" {
-  description = "Live Helper Chat 3.44 on Centos 7.8.2003"
+  description = "Live Helper Chat 3.55 on Centos 7.8.2003"
   default     = "livehelperchat-7-8-2003"
 }
 
@@ -394,7 +479,7 @@ variable "do_application_mattermost-18-04" {
 }
 
 variable "do_application_meilisas-meilisearch-10" {
-  description = "MeiliSearch 0.14.0 on Debian 10 (buster)"
+  description = "MeiliSearch 0.18.1 on Debian 10 (buster)"
   default     = "meilisas-meilisearch-10"
 }
 
@@ -414,12 +499,12 @@ variable "do_application_metabase-18-04" {
 }
 
 variable "do_application_mgtcommercegmbh-cloudpanel1-10-4" {
-  description = "CloudPanel 1 1.0.2 on Debian 10.5"
+  description = "CloudPanel 1 1.0.4 on Debian 10.7"
   default     = "mgtcommercegmbh-cloudpanel1-10-4"
 }
 
 variable "do_application_microweber-18-04" {
-  description = "Microweber 1.1.20 on Ubuntu 18.04"
+  description = "Microweber 1.2.0 on Ubuntu 20.04"
   default     = "microweber-18-04"
 }
 
@@ -429,8 +514,13 @@ variable "do_application_mobilejazz-bugfender-18-04" {
 }
 
 variable "do_application_mongodb-18-04" {
-  description = "MongoDB 4.0.3 on 18.04"
+  description = "MongoDB 4.0.3 on Ubuntu 18.04"
   default     = "mongodb-18-04"
+}
+
+variable "do_application_mongodb-20-04" {
+  description = "MongoDB 4.4.1 on Ubuntu 20.04"
+  default     = "mongodb-20-04"
 }
 
 variable "do_application_mozilla-hubscloudpersona-18-04" {
@@ -443,19 +533,29 @@ variable "do_application_mysql-18-04" {
   default     = "mysql-18-04"
 }
 
+variable "do_application_mysql-20-04" {
+  description = "MySQL 8.0.21 on Ubuntu 20.04"
+  default     = "mysql-20-04"
+}
+
 variable "do_application_nakama-18-04" {
   description = "Nakama 2.7.0 on Ubuntu 18.04"
   default     = "nakama-18-04"
 }
 
 variable "do_application_netfoundry-7-6" {
-  description = "NetFoundry Zero Trust Networking 7.0.0 on CentOS 7.8"
+  description = "NetFoundry Zero Trust Networking 7.3.0 on CentOS 7.8"
   default     = "netfoundry-7-6"
 }
 
 variable "do_application_nethesis-nethserver-7" {
-  description = "NethServer 7.8.2003 on CentOS 7.x"
+  description = "NethServer 7.9.2009 on CentOS 7.x"
   default     = "nethesis-nethserver-7"
+}
+
+variable "do_application_netverity-netbox-20-04" {
+  description = "NetBox 2.10.4 on Ubuntu 20.04"
+  default     = "netverity-netbox-20-04"
 }
 
 variable "do_application_nibblecomm-spotipo-18-04" {
@@ -469,7 +569,7 @@ variable "do_application_nimbella-18-04" {
 }
 
 variable "do_application_nknfullnode-18-04" {
-  description = "NKN Full Node 1.1 on Ubuntu 18.04"
+  description = "NKN Commercial 2.0 on Ubuntu 18.04"
   default     = "nknfullnode-18-04"
 }
 
@@ -484,7 +584,7 @@ variable "do_application_nmtec-erxes-18-04" {
 }
 
 variable "do_application_nodegame-18-04" {
-  description = "NodeGame 5.9.0 on Ubuntu 18.04"
+  description = "NodeGame 6.0.2 on Ubuntu 18.04"
   default     = "nodegame-18-04"
 }
 
@@ -496,6 +596,11 @@ variable "do_application_nodejs-20-04" {
 variable "do_application_onjection-jenkins-16-04" {
   description = "Onjection Jenkins 2.164.3 on Ubuntu 16.04"
   default     = "onjection-jenkins-16-04"
+}
+
+variable "do_application_openboxes-20-04" {
+  description = "OpenBoxes 0.8.14 on Ubuntu 20.04"
+  default     = "openboxes-20-04"
 }
 
 variable "do_application_opencart-18-04" {
@@ -559,7 +664,7 @@ variable "do_application_optimajet-workflowserver-18-04" {
 }
 
 variable "do_application_ossn-18-04" {
-  description = "Open Source Social Network 5.2.1 on Ubuntu 18.04"
+  description = "Open Source Social Network 5.6.0 on Ubuntu 18.04"
   default     = "ossn-18-04"
 }
 
@@ -568,9 +673,24 @@ variable "do_application_passbolt-18-04" {
   default     = "passbolt-18-04"
 }
 
+variable "do_application_perconamonitorin-7" {
+  description = "Percona Monitoring and Management 2 2.12.0 on CentOS 7"
+  default     = "perconamonitorin-7"
+}
+
+variable "do_application_pharoahlanesoftw-webdnaserver864-18-04" {
+  description = "WebDNA Server 8.6.4 8.6.4 on Ubuntu 18.04"
+  default     = "pharoahlanesoftw-webdnaserver864-18-04"
+}
+
 variable "do_application_phpmyadmin-18-04" {
   description = "PhpMyAdmin on 18.04"
   default     = "phpmyadmin-18-04"
+}
+
+variable "do_application_phpmyadmin-20-04" {
+  description = "PhpMyAdmin 5.0.3 on Ubuntu 20.04"
+  default     = "phpmyadmin-20-04"
 }
 
 variable "do_application_pihole-18-04" {
@@ -579,13 +699,23 @@ variable "do_application_pihole-18-04" {
 }
 
 variable "do_application_plesk-18-04" {
-  description = "Plesk 18.0 on Ubuntu 18.04"
+  description = "Plesk 18.0 on Ubuntu 20.04"
   default     = "plesk-18-04"
+}
+
+variable "do_application_plesk-20-04" {
+  description = "Plesk 18.0 on Ubuntu 20.04"
+  default     = "plesk-20-04"
 }
 
 variable "do_application_plesk-7-6" {
   description = "Plesk (CentOS) 18.0 on CentOS 7.7"
   default     = "plesk-7-6"
+}
+
+variable "do_application_plesk-pleskcentos-7-7" {
+  description = "Plesk (CentOS) 18.0 on CentOS 7.7"
+  default     = "plesk-pleskcentos-7-7"
 }
 
 variable "do_application_prometheus-18-04" {
@@ -599,8 +729,13 @@ variable "do_application_quickcorp-qcobjects-18-04" {
 }
 
 variable "do_application_rails-18-04" {
-  description = "Ruby-on-Rails on 18.04"
+  description = "Ruby on Rails on 18.04"
   default     = "rails-18-04"
+}
+
+variable "do_application_rails-20-04" {
+  description = "Ruby on Rails 6.0.3.4 on Ubuntu 20.04"
+  default     = "rails-20-04"
 }
 
 variable "do_application_reblaze-reblazewaf-18-04" {
@@ -638,11 +773,6 @@ variable "do_application_rethinkdb-18-04" {
   default     = "rethinkdb-18-04"
 }
 
-variable "do_application_null" {
-  description = "Plesk 17.8 on CentOS 7"
-  default     = "null"
-}
-
 variable "do_application_rethinkdb-rethinkdbfantasi-18-04" {
   description = "RethinkDB (Fantasia) 2.3.7 on Ubuntu 18.04"
   default     = "rethinkdb-rethinkdbfantasi-18-04"
@@ -668,14 +798,29 @@ variable "do_application_runcloud-runcloud2004-20-04" {
   default     = "runcloud-runcloud2004-20-04"
 }
 
+variable "do_application_saltcorn-20-04" {
+  description = "Saltcorn 0.3.0 on Ubuntu 20.04"
+  default     = "saltcorn-20-04"
+}
+
 variable "do_application_searchblox-searchbloxenterp-7-6" {
   description = "SearchBlox Enterprise Search 9.2.1 on CentOS 7.6"
   default     = "searchblox-searchbloxenterp-7-6"
 }
 
+variable "do_application_seknox-trasa-20-04" {
+  description = "TRASA 1.1.2 on Ubuntu 20.04"
+  default     = "seknox-trasa-20-04"
+}
+
 variable "do_application_selenoid-18-04" {
   description = "Selenoid 1.10.0 on Ubuntu 18.04"
   default     = "selenoid-18-04"
+}
+
+variable "do_application_selfhostedpro-yacht-20-04" {
+  description = "Yacht 0.0.5-alpha on Ubuntu 20.04"
+  default     = "selfhostedpro-yacht-20-04"
 }
 
 variable "do_application_sharklabs-foldinghome-18-04" {
@@ -711,6 +856,11 @@ variable "do_application_sharklabs-pacvim-18-04" {
 variable "do_application_sharklabs-pythondjangoquic-18-04" {
   description = "Python/Django Quickstart 1.1 on Ubuntu 18.04"
   default     = "sharklabs-pythondjangoquic-18-04"
+}
+
+variable "do_application_shiftedit-serverwand-18-04" {
+  description = "ServerWand 1.0 on Ubuntu 18.04"
+  default     = "shiftedit-serverwand-18-04"
 }
 
 variable "do_application_shopware-18-04" {
@@ -753,6 +903,11 @@ variable "do_application_spatie-mailcoach-18-04" {
   default     = "spatie-mailcoach-18-04"
 }
 
+variable "do_application_starkdrones-decentralizedint-18-04" {
+  description = "Decentralized Internet 5.3.5 on Ubuntu 18.04"
+  default     = "starkdrones-decentralizedint-18-04"
+}
+
 variable "do_application_strapi-18-04" {
   description = "Strapi 3.1.0 on Ubuntu 18.04"
   default     = "strapi-18-04"
@@ -783,8 +938,18 @@ variable "do_application_thingsboardpe-18-04" {
   default     = "thingsboardpe-18-04"
 }
 
+variable "do_application_traccar-20-04" {
+  description = "Traccar 4.10 on Ubuntu 20.04"
+  default     = "traccar-20-04"
+}
+
+variable "do_application_null" {
+  description = "Plesk 17.8 on CentOS 7"
+  default     = "null"
+}
+
 variable "do_application_ultrahorizon-uhvpn-18-04" {
-  description = "UH VPN 1.1.0 on Ubuntu 20.04"
+  description = "UH VPN 1.2.0 on Ubuntu 20.04"
   default     = "ultrahorizon-uhvpn-18-04"
 }
 
@@ -803,13 +968,18 @@ variable "do_application_vardot-varbase-18-04" {
   default     = "vardot-varbase-18-04"
 }
 
+variable "do_application_varnishsoftware-varnishcache-18-04" {
+  description = "Varnish Cache 6.0.7 on Ubuntu 18.04"
+  default     = "varnishsoftware-varnishcache-18-04"
+}
+
 variable "do_application_vitalpointz-7-6" {
   description = "vitalpointz IoT Core Lite 1.2.0 on CentOS 7.6"
   default     = "vitalpointz-7-6"
 }
 
 variable "do_application_vodianetworks-vodiaphonesystem-10" {
-  description = "Vodia Phone System 66 on Debian 10 x64"
+  description = "Vodia Multi-tenant Cloud PBX 66 on Debian 10 x64"
   default     = "vodianetworks-vodiaphonesystem-10"
 }
 
@@ -829,8 +999,13 @@ variable "do_application_wikijs-18-04" {
 }
 
 variable "do_application_wordpress-18-04" {
-  description = "WordPress on 18.04"
+  description = "WordPress 5.5.1 on Ubuntu 18.04"
   default     = "wordpress-18-04"
+}
+
+variable "do_application_wordpress-20-04" {
+  description = "WordPress 5.5.1 on Ubuntu 20.04"
+  default     = "wordpress-20-04"
 }
 
 variable "do_application_workarea-18-04" {
@@ -844,13 +1019,23 @@ variable "do_application_xcart-7" {
 }
 
 variable "do_application_zabbix-7-6" {
-  description = "Zabbix 4.4.4 on CentOS 7"
+  description = "Zabbix server 5.0.6 on CentOS 7"
   default     = "zabbix-7-6"
+}
+
+variable "do_application_zabbix-zabbixproxy-8" {
+  description = "Zabbix proxy 5.0.6 on CentOS 8"
+  default     = "zabbix-zabbixproxy-8"
 }
 
 variable "do_application_zeromon-zabbix-18-04" {
   description = "Zeromon Zabbix 4 on Ubuntu 18.04"
   default     = "zeromon-zabbix-18-04"
+}
+
+variable "do_application_zeslecp-7" {
+  description = "ZesleCP 3.1.5 on CentOS 7.x"
+  default     = "zeslecp-7"
 }
 
 variable "do_application_zoomadmin-18-04" {
