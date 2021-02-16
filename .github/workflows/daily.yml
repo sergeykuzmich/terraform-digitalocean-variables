@@ -78,6 +78,9 @@ jobs:
       with:
         name: output
 
+    - name: Keep Workflow
+      run: cp .github/workflows/daily.yml output/.github/workflows/daily.yml
+
     - name: Deploy to Master
       uses: peaceiris/actions-gh-pages@v3
       with:
