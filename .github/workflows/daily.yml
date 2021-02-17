@@ -77,7 +77,10 @@ jobs:
       uses: actions/download-artifact@v1
       with:
         name: output
-
+        
+    - name: Clone Repository
+      uses: actions/checkout@v2
+    
     - name: Keep Workflow
       run: cp .github/workflows/daily.yml output/.github/workflows/daily.yml
 
