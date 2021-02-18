@@ -77,12 +77,6 @@ jobs:
       uses: actions/download-artifact@v1
       with:
         name: output
-        
-    - name: Clone Repository
-      uses: actions/checkout@v2
-    
-    - name: Keep Workflow
-      run: cp .github/workflows/daily.yml output/.github/workflows/daily.yml
 
     - name: Deploy to Master
       uses: peaceiris/actions-gh-pages@v3
@@ -90,7 +84,6 @@ jobs:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         publish_branch: master
         publish_dir: output
-        enable_jekyll: true
         keep_files: true
         user_name: Github Actions [BOT]
         user_email: github-actions[bot]@users.noreply.github.com
