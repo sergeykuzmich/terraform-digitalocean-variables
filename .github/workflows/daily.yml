@@ -87,7 +87,7 @@ jobs:
     - name: Keep Workflow
       run: |
         mkdir --parents ./output/.github/workflows; cp .github/workflows/daily.yml $_
-        lf -Ra
+        ls -Ra
 
 #    - name: Deploy to Master
 #      uses: peaceiris/actions-gh-pages@v3
