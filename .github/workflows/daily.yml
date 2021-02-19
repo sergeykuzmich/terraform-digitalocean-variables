@@ -85,19 +85,16 @@ jobs:
         name: output
         
     - name: Keep Workflow
-      run: |
-        ls -a
-        ls -a output/
-        mkdir --parents ./output/.github/workflows; cp .github/workflows/daily.yml $_
-        ls -a output/
+      run: mkdir --parents ./output/.github/workflows; cp .github/workflows/daily.yml $_
 
-#    - name: Deploy to Master
-#      uses: peaceiris/actions-gh-pages@v3
-#      with:
-#        github_token: ${{ secrets.GITHUB_TOKEN }}
-#        publish_branch: master
-#        publish_dir: output
-#        keep_files: true
-#        user_name: Github Actions [BOT]
-#        user_email: github-actions[bot]@users.noreply.github.com
-#        commit_message: Deploy sergeykuzmich/terraform-digitalocean-variables
+    - name: Deploy to Master
+      uses: peaceiris/actions-gh-pages@v3
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_branch: master
+        publish_dir: output
+        keep_files: true
+        enable_jekyll: true
+        user_name: Github Actions [BOT]
+        user_email: github-actions[bot]@users.noreply.github.com
+        commit_message: Deploy sergeykuzmich/terraform-digitalocean-variables
