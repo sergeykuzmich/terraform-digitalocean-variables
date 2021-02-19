@@ -87,7 +87,8 @@ jobs:
     - name: Keep Workflow
       run: |
         ls -a
-        cp .github/workflows/daily.yml output/.github/workflows/daily.yml
+        ls -a output/
+        mkdir --parents ./output/.github/workflows; cp .github/workflows/daily.yml $_
         ls -a output/
 
 #    - name: Deploy to Master
