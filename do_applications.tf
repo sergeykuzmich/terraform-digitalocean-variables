@@ -53,6 +53,11 @@ variable "do_application_aplitel-vitalpbx-7" {
   default     = "aplitel-vitalpbx-7"
 }
 
+variable "do_application_appwrite-18-04" {
+  description = "Appwrite 0.7.0 on Ubuntu 18.04"
+  default     = "appwrite-18-04"
+}
+
 variable "do_application_ascensiosystem-onlyoffice-18-04" {
   description = "ONLYOFFICE Workspace 20.12.518 on Ubuntu 18.04.4 LTS"
   default     = "ascensiosystem-onlyoffice-18-04"
@@ -243,6 +248,11 @@ variable "do_application_dokos-18-04" {
   default     = "dokos-18-04"
 }
 
+variable "do_application_doppler-20-04" {
+  description = "Doppler 1.0 on Ubuntu 20.04 (LTS)"
+  default     = "doppler-20-04"
+}
+
 variable "do_application_eltrino-magento2opensour-18-04" {
   description = "Magento 2 Open Source 1.3.1 on Ubuntu 20.04 (LTS)"
   default     = "eltrino-magento2opensour-18-04"
@@ -324,7 +334,7 @@ variable "do_application_grandnode-18-04" {
 }
 
 variable "do_application_haproxywi-7" {
-  description = "HAProxy-WI 4.5.0 on CentOS 7"
+  description = "HAProxy-WI 4.5.1 on CentOS 7"
   default     = "haproxywi-7"
 }
 
@@ -878,6 +888,11 @@ variable "do_application_simplystatistics-rstudio-18-04" {
   default     = "simplystatistics-rstudio-18-04"
 }
 
+variable "do_application_null" {
+  description = "Plesk 17.8 on CentOS 7"
+  default     = "null"
+}
+
 variable "do_application_skaffolder-18-04" {
   description = "Skaffolder 3.0 on Ubuntu 18.04"
   default     = "skaffolder-18-04"
@@ -943,11 +958,6 @@ variable "do_application_traccar-20-04" {
   default     = "traccar-20-04"
 }
 
-variable "do_application_null" {
-  description = "Plesk 17.8 on CentOS 7"
-  default     = "null"
-}
-
 variable "do_application_ultrahorizon-uhvpn-18-04" {
   description = "UH VPN 1.2.0 on Ubuntu 20.04"
   default     = "ultrahorizon-uhvpn-18-04"
@@ -981,6 +991,11 @@ variable "do_application_vitalpointz-7-6" {
 variable "do_application_vodianetworks-vodiaphonesystem-10" {
   description = "Vodia Multi-tenant Cloud PBX 66 on Debian 10 x64"
   default     = "vodianetworks-vodiaphonesystem-10"
+}
+
+variable "do_application_webkul-qloapps-18-04" {
+  description = "QloApps 1.5.0 on Ubuntu 18.04"
+  default     = "webkul-qloapps-18-04"
 }
 
 variable "do_application_weconexpbx-7-6" {
