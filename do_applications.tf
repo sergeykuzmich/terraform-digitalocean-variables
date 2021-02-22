@@ -888,14 +888,14 @@ variable "do_application_simplystatistics-rstudio-18-04" {
   default     = "simplystatistics-rstudio-18-04"
 }
 
-variable "do_application_null" {
-  description = "Plesk 17.8 on CentOS 7"
-  default     = "null"
-}
-
 variable "do_application_skaffolder-18-04" {
   description = "Skaffolder 3.0 on Ubuntu 18.04"
   default     = "skaffolder-18-04"
+}
+
+variable "do_application_null" {
+  description = "Plesk 17.8 on CentOS 7"
+  default     = "null"
 }
 
 variable "do_application_snapt-snaptaria-18-04" {
@@ -1011,6 +1011,11 @@ variable "do_application_wftutorials-purdm-18-04" {
 variable "do_application_wikijs-18-04" {
   description = "Wiki.js 2.4.107 on Ubuntu 18.04"
   default     = "wikijs-18-04"
+}
+
+variable "do_application_wirespeedvpn-18-04" {
+  description = "WireSpeed VPN 1.1.2 on Ubuntu 18.04"
+  default     = "wirespeedvpn-18-04"
 }
 
 variable "do_application_wordpress-18-04" {
