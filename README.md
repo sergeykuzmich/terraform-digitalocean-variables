@@ -8,9 +8,9 @@ This is a self-updating repository with a list of all available DigitalOcean Var
 
 ```
 resource "digitalocean_droplet" "droplet" {
-  image  = "${do_application_wordpress-16-04}"
-  region = "${do_region_nyc1}"
-  size   = "${do_size_s-1vcpu-1gb}"
+  image  = var.do_application_wordpress-16-04
+  region = var.do_region_nyc1
+  size   = var.do_size_s-1vcpu-1gb
 
   name   = "droplet"
 }
