@@ -208,9 +208,29 @@ variable "do_size_s-1vcpu-1gb" {
   default     = "s-1vcpu-1gb"
 }
 
+variable "do_size_s-1vcpu-1gb-amd" {
+  description = "1GB RAM; 1 CPU; 25GB SSD - $6/mo"
+  default     = "s-1vcpu-1gb-amd"
+}
+
+variable "do_size_s-1vcpu-1gb-intel" {
+  description = "1GB RAM; 1 CPU; 25GB SSD - $6/mo"
+  default     = "s-1vcpu-1gb-intel"
+}
+
 variable "do_size_s-1vcpu-2gb" {
   description = "2GB RAM; 1 CPU; 50GB SSD - $10/mo"
   default     = "s-1vcpu-2gb"
+}
+
+variable "do_size_s-1vcpu-2gb-amd" {
+  description = "2GB RAM; 1 CPU; 50GB SSD - $12/mo"
+  default     = "s-1vcpu-2gb-amd"
+}
+
+variable "do_size_s-1vcpu-2gb-intel" {
+  description = "2GB RAM; 1 CPU; 50GB SSD - $12/mo"
+  default     = "s-1vcpu-2gb-intel"
 }
 
 variable "do_size_s-2vcpu-2gb" {
@@ -218,9 +238,29 @@ variable "do_size_s-2vcpu-2gb" {
   default     = "s-2vcpu-2gb"
 }
 
+variable "do_size_s-2vcpu-2gb-amd" {
+  description = "2GB RAM; 2 CPU; 60GB SSD - $18/mo"
+  default     = "s-2vcpu-2gb-amd"
+}
+
+variable "do_size_s-2vcpu-2gb-intel" {
+  description = "2GB RAM; 2 CPU; 60GB SSD - $18/mo"
+  default     = "s-2vcpu-2gb-intel"
+}
+
 variable "do_size_s-2vcpu-4gb" {
   description = "4GB RAM; 2 CPU; 80GB SSD - $20/mo"
   default     = "s-2vcpu-4gb"
+}
+
+variable "do_size_s-2vcpu-4gb-amd" {
+  description = "4GB RAM; 2 CPU; 80GB SSD - $24/mo"
+  default     = "s-2vcpu-4gb-amd"
+}
+
+variable "do_size_s-2vcpu-4gb-intel" {
+  description = "4GB RAM; 2 CPU; 80GB SSD - $24/mo"
+  default     = "s-2vcpu-4gb-intel"
 }
 
 variable "do_size_s-4vcpu-8gb" {
@@ -228,9 +268,29 @@ variable "do_size_s-4vcpu-8gb" {
   default     = "s-4vcpu-8gb"
 }
 
+variable "do_size_s-4vcpu-8gb-amd" {
+  description = "8GB RAM; 4 CPU; 160GB SSD - $48/mo"
+  default     = "s-4vcpu-8gb-amd"
+}
+
+variable "do_size_s-4vcpu-8gb-intel" {
+  description = "8GB RAM; 4 CPU; 160GB SSD - $48/mo"
+  default     = "s-4vcpu-8gb-intel"
+}
+
 variable "do_size_s-8vcpu-16gb" {
   description = "16GB RAM; 8 CPU; 320GB SSD - $80/mo"
   default     = "s-8vcpu-16gb"
+}
+
+variable "do_size_s-8vcpu-16gb-amd" {
+  description = "16GB RAM; 8 CPU; 320GB SSD - $96/mo"
+  default     = "s-8vcpu-16gb-amd"
+}
+
+variable "do_size_s-8vcpu-16gb-intel" {
+  description = "16GB RAM; 8 CPU; 320GB SSD - $96/mo"
+  default     = "s-8vcpu-16gb-intel"
 }
 
 variable "do_size_so-16vcpu-128gb" {

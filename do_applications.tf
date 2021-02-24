@@ -124,7 +124,7 @@ variable "do_application_caddy-18-04" {
 }
 
 variable "do_application_caprover-18-04" {
-  description = "CapRover 1.8.0 on Ubuntu 18.04"
+  description = "CapRover 1.9.0 on Ubuntu 18.04"
   default     = "caprover-18-04"
 }
 
@@ -146,6 +146,11 @@ variable "do_application_chamilo-18-04" {
 variable "do_application_cloudron-18-04" {
   description = "Cloudron 6.0.1 on Ubuntu 20.04"
   default     = "cloudron-18-04"
+}
+
+variable "do_application_cloudron-20-04" {
+  description = "Cloudron 6.1.2 on Ubuntu 20.04"
+  default     = "cloudron-20-04"
 }
 
 variable "do_application_code-server-18-04" {
@@ -313,6 +318,11 @@ variable "do_application_gitea-18-04" {
   default     = "gitea-18-04"
 }
 
+variable "do_application_gitea-20-04" {
+  description = "Gitea 1.13.2 on Ubuntu 20.04"
+  default     = "gitea-20-04"
+}
+
 variable "do_application_gitlab-meltano-18-04" {
   description = "Meltano 1.15.0 on Ubuntu 18.04"
   default     = "gitlab-meltano-18-04"
@@ -399,7 +409,7 @@ variable "do_application_jadiangaming-solderio-18-04" {
 }
 
 variable "do_application_jelastic-jelasticpaas-7" {
-  description = "Jelastic PaaS 5.9-6 on Centos 7"
+  description = "Jelastic PaaS 5.9-8 on Centos 7"
   default     = "jelastic-jelasticpaas-7"
 }
 
@@ -463,6 +473,11 @@ variable "do_application_litespeedtechnol-openlitespeednod-18-04" {
   default     = "litespeedtechnol-openlitespeednod-18-04"
 }
 
+variable "do_application_litespeedtechnol-openlitespeednod-20-04" {
+  description = "OpenLiteSpeed NodeJS 12.20.2 on Ubuntu 20.04"
+  default     = "litespeedtechnol-openlitespeednod-20-04"
+}
+
 variable "do_application_litespeedtechnol-openlitespeedrai-20-04" {
   description = "OpenLiteSpeed Rails 2.7.1 on Ubuntu 20.04"
   default     = "litespeedtechnol-openlitespeedrai-20-04"
@@ -474,7 +489,7 @@ variable "do_application_litespeedtechnol-openlitespeedwor-18-04" {
 }
 
 variable "do_application_livehelperchat-7-8-2003" {
-  description = "Live Helper Chat 3.55 on Centos 7.8.2003"
+  description = "Live Helper Chat 3.63 on Centos 7.8.2003"
   default     = "livehelperchat-7-8-2003"
 }
 
@@ -511,6 +526,11 @@ variable "do_application_metabase-18-04" {
 variable "do_application_mgtcommercegmbh-cloudpanel1-10-4" {
   description = "CloudPanel 1 1.0.4 on Debian 10.7"
   default     = "mgtcommercegmbh-cloudpanel1-10-4"
+}
+
+variable "do_application_mgtcommercegmbh-cloudpanel1-10-8" {
+  description = "CloudPanel 1 1.0.5 on Debian 10.8"
+  default     = "mgtcommercegmbh-cloudpanel1-10-8"
 }
 
 variable "do_application_microweber-18-04" {
@@ -594,7 +614,7 @@ variable "do_application_nmtec-erxes-18-04" {
 }
 
 variable "do_application_nodegame-18-04" {
-  description = "NodeGame 6.0.2 on Ubuntu 18.04"
+  description = "NodeGame 6.2.4 on Ubuntu 18.04"
   default     = "nodegame-18-04"
 }
 
@@ -728,9 +748,19 @@ variable "do_application_plesk-pleskcentos-7-7" {
   default     = "plesk-pleskcentos-7-7"
 }
 
+variable "do_application_portalcloud-wirespeedvpn-18-04" {
+  description = "WireSpeed VPN 1.1.3 on Ubuntu 18.04"
+  default     = "portalcloud-wirespeedvpn-18-04"
+}
+
 variable "do_application_prometheus-18-04" {
   description = "Prometheus 2.9.2 on Ubuntu 18.04"
   default     = "prometheus-18-04"
+}
+
+variable "do_application_pyboxtechnologie-pyboxtechmed-20-04" {
+  description = "PyboxTech-Med 1.7 on Ubuntu 20.04"
+  default     = "pyboxtechnologie-pyboxtechmed-20-04"
 }
 
 variable "do_application_quickcorp-qcobjects-18-04" {
@@ -888,14 +918,14 @@ variable "do_application_simplystatistics-rstudio-18-04" {
   default     = "simplystatistics-rstudio-18-04"
 }
 
-variable "do_application_skaffolder-18-04" {
-  description = "Skaffolder 3.0 on Ubuntu 18.04"
-  default     = "skaffolder-18-04"
-}
-
 variable "do_application_null" {
   description = "Plesk 17.8 on CentOS 7"
   default     = "null"
+}
+
+variable "do_application_skaffolder-18-04" {
+  description = "Skaffolder 3.0 on Ubuntu 18.04"
+  default     = "skaffolder-18-04"
 }
 
 variable "do_application_snapt-snaptaria-18-04" {
