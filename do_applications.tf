@@ -759,7 +759,7 @@ variable "do_application_prometheus-18-04" {
 }
 
 variable "do_application_pyboxtechnologie-pyboxtechmed-20-04" {
-  description = "PyboxTech-Med 1.7 on Ubuntu 20.04"
+  description = "PyboxTech-Med 1.75 on Ubuntu 20.04"
   default     = "pyboxtechnologie-pyboxtechmed-20-04"
 }
 
