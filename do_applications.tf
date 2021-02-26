@@ -169,7 +169,7 @@ variable "do_application_cpanel-7-6" {
 }
 
 variable "do_application_cpanel-cpanelwhm-7-6" {
-  description = "cPanel & WHM® 92.0.9 on CentOS 7.6"
+  description = "cPanel & WHM® 92.0.11 on CentOS 7.6"
   default     = "cpanel-cpanelwhm-7-6"
 }
 
@@ -309,7 +309,7 @@ variable "do_application_ghost-18-04" {
 }
 
 variable "do_application_gigantum-gigantumclient-20-04" {
-  description = "Gigantum Client 1.4.0 on Ubuntu 20.04"
+  description = "Gigantum Client 1.5.0 on Ubuntu 20.04"
   default     = "gigantum-gigantumclient-20-04"
 }
 
@@ -504,7 +504,7 @@ variable "do_application_mattermost-18-04" {
 }
 
 variable "do_application_meilisas-meilisearch-10" {
-  description = "MeiliSearch 0.18.1 on Debian 10 (buster)"
+  description = "MeiliSearch 0.19.0 on Debian 10 (buster)"
   default     = "meilisas-meilisearch-10"
 }
 
@@ -918,14 +918,14 @@ variable "do_application_simplystatistics-rstudio-18-04" {
   default     = "simplystatistics-rstudio-18-04"
 }
 
-variable "do_application_null" {
-  description = "Plesk 17.8 on CentOS 7"
-  default     = "null"
-}
-
 variable "do_application_skaffolder-18-04" {
   description = "Skaffolder 3.0 on Ubuntu 18.04"
   default     = "skaffolder-18-04"
+}
+
+variable "do_application_null" {
+  description = "Plesk 17.8 on CentOS 7"
+  default     = "null"
 }
 
 variable "do_application_snapt-snaptaria-18-04" {
@@ -1001,6 +1001,11 @@ variable "do_application_unlight-openunlight-18-04" {
 variable "do_application_uxlens-18-04" {
   description = "UXLens 0.7 on Ubuntu 18.04"
   default     = "uxlens-18-04"
+}
+
+variable "do_application_uzerpllp-uzerp-18-04" {
+  description = "uzERP 1.26.6 on Ubuntu 18.04"
+  default     = "uzerpllp-uzerp-18-04"
 }
 
 variable "do_application_vardot-varbase-18-04" {
