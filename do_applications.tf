@@ -43,6 +43,11 @@ variable "do_application_antmedia-antmediaserveren-16-04" {
   default     = "antmedia-antmediaserveren-16-04"
 }
 
+variable "do_application_apisnetworks-apiscp-8-2" {
+  description = "ApisCP 3.2 on CentOS 8.2"
+  default     = "apisnetworks-apiscp-8-2"
+}
+
 variable "do_application_apisnetworks-apnscp-7-7" {
   description = "ApisCP 3.2 on CentOS 8.2"
   default     = "apisnetworks-apnscp-7-7"
@@ -863,6 +868,11 @@ variable "do_application_selfhostedpro-yacht-20-04" {
   default     = "selfhostedpro-yacht-20-04"
 }
 
+variable "do_application_null" {
+  description = "Plesk 17.8 on CentOS 7"
+  default     = "null"
+}
+
 variable "do_application_sharklabs-foldinghome-18-04" {
   description = "Folding@home 0.0.1 on Ubuntu 18.04"
   default     = "sharklabs-foldinghome-18-04"
@@ -921,11 +931,6 @@ variable "do_application_simplystatistics-rstudio-18-04" {
 variable "do_application_skaffolder-18-04" {
   description = "Skaffolder 3.0 on Ubuntu 18.04"
   default     = "skaffolder-18-04"
-}
-
-variable "do_application_null" {
-  description = "Plesk 17.8 on CentOS 7"
-  default     = "null"
 }
 
 variable "do_application_snapt-snaptaria-18-04" {
