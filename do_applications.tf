@@ -813,6 +813,11 @@ variable "do_application_restyaboard-7-6" {
   default     = "restyaboard-7-6"
 }
 
+variable "do_application_null" {
+  description = "Plesk 17.8 on CentOS 7"
+  default     = "null"
+}
+
 variable "do_application_rethinkdb-18-04" {
   description = "RethinkDB 2.4.1 on Ubuntu 18.04"
   default     = "rethinkdb-18-04"
@@ -831,6 +836,11 @@ variable "do_application_revox-keplerbuilder-18-04" {
 variable "do_application_rocketchat-18-04" {
   description = "Rocket.Chat 2.4.9 on Ubuntu 18.04"
   default     = "rocketchat-18-04"
+}
+
+variable "do_application_rstudio-20-04" {
+  description = "RStudio 1.2 on Ubuntu 20.04"
+  default     = "rstudio-20-04"
 }
 
 variable "do_application_runcloud-18-04" {
@@ -866,11 +876,6 @@ variable "do_application_selenoid-18-04" {
 variable "do_application_selfhostedpro-yacht-20-04" {
   description = "Yacht 0.0.5-alpha on Ubuntu 20.04"
   default     = "selfhostedpro-yacht-20-04"
-}
-
-variable "do_application_null" {
-  description = "Plesk 17.8 on CentOS 7"
-  default     = "null"
 }
 
 variable "do_application_sharklabs-foldinghome-18-04" {
