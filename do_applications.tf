@@ -344,7 +344,7 @@ variable "do_application_grafana-18-04" {
 }
 
 variable "do_application_grandnode-18-04" {
-  description = "GrandNode 4.80.0 on Ubuntu 18.04"
+  description = "GrandNode 4.90.0 on Ubuntu 18.04"
   default     = "grandnode-18-04"
 }
 
