@@ -1099,7 +1099,7 @@ variable "do_application_zeromon-zabbix-18-04" {
 }
 
 variable "do_application_zeslecp-7" {
-  description = "ZesleCP 3.1.5 on CentOS 7.x"
+  description = "ZesleCP 3.1.6 on CentOS 7.x"
   default     = "zeslecp-7"
 }
 
