@@ -433,6 +433,11 @@ variable "do_application_kromit-titra-18-04" {
   default     = "kromit-titra-18-04"
 }
 
+variable "do_application_null" {
+  description = "Plesk 17.8 on CentOS 7"
+  default     = "null"
+}
+
 variable "do_application_lamp-18-04" {
   description = "LAMP on Ubuntu 18.04"
   default     = "lamp-18-04"
@@ -708,6 +713,11 @@ variable "do_application_passbolt-18-04" {
   default     = "passbolt-18-04"
 }
 
+variable "do_application_passboltsa-passboltce-20-04" {
+  description = "Passbolt CE 3.0.2 on Ubuntu 20.04"
+  default     = "passboltsa-passboltce-20-04"
+}
+
 variable "do_application_perconamonitorin-7" {
   description = "Percona Monitoring and Management 2 2.12.0 on CentOS 7"
   default     = "perconamonitorin-7"
@@ -811,11 +821,6 @@ variable "do_application_restyaboard-16-04" {
 variable "do_application_restyaboard-7-6" {
   description = "Restyaboard (CentOS) 0.6.8 on CentOS 7.6"
   default     = "restyaboard-7-6"
-}
-
-variable "do_application_null" {
-  description = "Plesk 17.8 on CentOS 7"
-  default     = "null"
 }
 
 variable "do_application_rethinkdb-18-04" {
