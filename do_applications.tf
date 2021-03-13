@@ -998,6 +998,11 @@ variable "do_application_thingsboardpe-18-04" {
   default     = "thingsboardpe-18-04"
 }
 
+variable "do_application_threatwatch-twigs-20-04" {
+  description = "twigs 1.0 on Ubuntu 20.04 LTS"
+  default     = "threatwatch-twigs-20-04"
+}
+
 variable "do_application_traccar-20-04" {
   description = "Traccar 4.10 on Ubuntu 20.04"
   default     = "traccar-20-04"
