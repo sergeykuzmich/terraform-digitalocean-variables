@@ -283,6 +283,11 @@ variable "do_application_fastnetmon-18-04" {
   default     = "fastnetmon-18-04"
 }
 
+variable "do_application_null" {
+  description = "Plesk 17.8 on CentOS 7"
+  default     = "null"
+}
+
 variable "do_application_fastpanel-deb-9" {
   description = "FASTPANEL 1.9+deb10p151 on Debian 10"
   default     = "fastpanel-deb-9"
@@ -433,11 +438,6 @@ variable "do_application_kromit-titra-18-04" {
   default     = "kromit-titra-18-04"
 }
 
-variable "do_application_null" {
-  description = "Plesk 17.8 on CentOS 7"
-  default     = "null"
-}
-
 variable "do_application_lamp-18-04" {
   description = "LAMP on Ubuntu 18.04"
   default     = "lamp-18-04"
@@ -546,6 +546,11 @@ variable "do_application_mgtcommercegmbh-cloudpanel1-10-8" {
 variable "do_application_microweber-18-04" {
   description = "Microweber 1.2.0 on Ubuntu 20.04"
   default     = "microweber-18-04"
+}
+
+variable "do_application_microwebercms-microweber-20-04" {
+  description = "Microweber 1.2.2 on Ubuntu 20.04"
+  default     = "microwebercms-microweber-20-04"
 }
 
 variable "do_application_mobilejazz-bugfender-18-04" {
@@ -999,7 +1004,7 @@ variable "do_application_thingsboardpe-18-04" {
 }
 
 variable "do_application_threatwatch-twigs-20-04" {
-  description = "twigs 1.0 on Ubuntu 20.04 LTS"
+  description = "twigs 1.0.1 on Ubuntu 20.04 LTS"
   default     = "threatwatch-twigs-20-04"
 }
 
