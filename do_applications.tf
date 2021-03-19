@@ -498,6 +498,11 @@ variable "do_application_litespeedtechnol-openlitespeedwor-18-04" {
   default     = "litespeedtechnol-openlitespeedwor-18-04"
 }
 
+variable "do_application_litespeedtechnol-openlitespeedwor-20-04" {
+  description = "OpenLiteSpeed WordPress 5.7 on Ubuntu 20.04"
+  default     = "litespeedtechnol-openlitespeedwor-20-04"
+}
+
 variable "do_application_livehelperchat-7-8-2003" {
   description = "Live Helper Chat 3.63 on Centos 7.8.2003"
   default     = "livehelperchat-7-8-2003"
