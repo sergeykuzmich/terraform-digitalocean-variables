@@ -283,11 +283,6 @@ variable "do_application_fastnetmon-18-04" {
   default     = "fastnetmon-18-04"
 }
 
-variable "do_application_null" {
-  description = "Plesk 17.8 on CentOS 7"
-  default     = "null"
-}
-
 variable "do_application_fastpanel-deb-9" {
   description = "FASTPANEL 1.9+deb10p151 on Debian 10"
   default     = "fastpanel-deb-9"
@@ -419,7 +414,7 @@ variable "do_application_jadiangaming-solderio-18-04" {
 }
 
 variable "do_application_jelastic-jelasticpaas-7" {
-  description = "Jelastic PaaS 5.9-8 on Centos 7"
+  description = "Jelastic PaaS 6.0-2 on Centos 7"
   default     = "jelastic-jelasticpaas-7"
 }
 
@@ -496,6 +491,11 @@ variable "do_application_litespeedtechnol-openlitespeedrai-20-04" {
 variable "do_application_litespeedtechnol-openlitespeedwor-18-04" {
   description = "OpenLiteSpeed WordPress 5.6 on Ubuntu 20.04"
   default     = "litespeedtechnol-openlitespeedwor-18-04"
+}
+
+variable "do_application_null" {
+  description = "Plesk 17.8 on CentOS 7"
+  default     = "null"
 }
 
 variable "do_application_litespeedtechnol-openlitespeedwor-20-04" {
@@ -716,6 +716,11 @@ variable "do_application_optimajet-workflowserver-18-04" {
 variable "do_application_ossn-18-04" {
   description = "Open Source Social Network 5.6.0 on Ubuntu 18.04"
   default     = "ossn-18-04"
+}
+
+variable "do_application_owncast-10" {
+  description = "Owncast 0.0.6 on Debian 10"
+  default     = "owncast-10"
 }
 
 variable "do_application_passbolt-18-04" {
