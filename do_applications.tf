@@ -493,11 +493,6 @@ variable "do_application_litespeedtechnol-openlitespeedwor-18-04" {
   default     = "litespeedtechnol-openlitespeedwor-18-04"
 }
 
-variable "do_application_null" {
-  description = "Plesk 17.8 on CentOS 7"
-  default     = "null"
-}
-
 variable "do_application_litespeedtechnol-openlitespeedwor-20-04" {
   description = "OpenLiteSpeed WordPress 5.7 on Ubuntu 20.04"
   default     = "litespeedtechnol-openlitespeedwor-20-04"
@@ -628,6 +623,11 @@ variable "do_application_nlnetlabs-krill-18-04" {
   default     = "nlnetlabs-krill-18-04"
 }
 
+variable "do_application_null" {
+  description = "Plesk 17.8 on CentOS 7"
+  default     = "null"
+}
+
 variable "do_application_nmtec-erxes-18-04" {
   description = "Erxes 0.17.6 on Ubuntu 18.04"
   default     = "nmtec-erxes-18-04"
@@ -729,7 +729,7 @@ variable "do_application_passbolt-18-04" {
 }
 
 variable "do_application_passboltsa-passboltce-20-04" {
-  description = "Passbolt CE 3.0.2 on Ubuntu 20.04"
+  description = "Passbolt CE 3.1.0 on Ubuntu 20.04"
   default     = "passboltsa-passboltce-20-04"
 }
 
@@ -874,7 +874,7 @@ variable "do_application_runcloud-runcloud2004-20-04" {
 }
 
 variable "do_application_saltcorn-20-04" {
-  description = "Saltcorn 0.3.0 on Ubuntu 20.04"
+  description = "Saltcorn 0.4.2 on Ubuntu 20.04"
   default     = "saltcorn-20-04"
 }
 
