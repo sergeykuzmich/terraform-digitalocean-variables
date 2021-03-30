@@ -158,6 +158,11 @@ variable "do_application_cloudron-20-04" {
   default     = "cloudron-20-04"
 }
 
+variable "do_application_cloudup-webwordpress-20-04" {
+  description = "Web-WordPress 5.7 on 20.04"
+  default     = "cloudup-webwordpress-20-04"
+}
+
 variable "do_application_code-server-18-04" {
   description = "code-server 3.0.2 on Ubuntu 18.04"
   default     = "code-server-18-04"
@@ -246,6 +251,11 @@ variable "do_application_docker-20-04" {
 variable "do_application_dokku-18-04" {
   description = "Dokku 0.17.9 on 18.04"
   default     = "dokku-18-04"
+}
+
+variable "do_application_null" {
+  description = "Plesk 17.8 on CentOS 7"
+  default     = "null"
 }
 
 variable "do_application_dokku-20-04" {
@@ -621,11 +631,6 @@ variable "do_application_nknfullnode-18-04" {
 variable "do_application_nlnetlabs-krill-18-04" {
   description = "Krill 0.6.0 on Ubuntu 18.04"
   default     = "nlnetlabs-krill-18-04"
-}
-
-variable "do_application_null" {
-  description = "Plesk 17.8 on CentOS 7"
-  default     = "null"
 }
 
 variable "do_application_nmtec-erxes-18-04" {
