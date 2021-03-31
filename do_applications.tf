@@ -154,7 +154,7 @@ variable "do_application_cloudron-18-04" {
 }
 
 variable "do_application_cloudron-20-04" {
-  description = "Cloudron 6.1.2 on Ubuntu 20.04"
+  description = "Cloudron 6.2.7 on Ubuntu 20.04"
   default     = "cloudron-20-04"
 }
 
