@@ -253,11 +253,6 @@ variable "do_application_dokku-18-04" {
   default     = "dokku-18-04"
 }
 
-variable "do_application_null" {
-  description = "Plesk 17.8 on CentOS 7"
-  default     = "null"
-}
-
 variable "do_application_dokku-20-04" {
   description = "Dokku 0.21.4 on Ubuntu 20.04"
   default     = "dokku-20-04"
@@ -828,6 +823,11 @@ variable "do_application_restya-restyaboard-18-04" {
   default     = "restya-restyaboard-18-04"
 }
 
+variable "do_application_null" {
+  description = "Plesk 17.8 on CentOS 7"
+  default     = "null"
+}
+
 variable "do_application_restya-restyaboardcento-7-6" {
   description = "Restyaboard (CentOS) 0.6.9 on CentOS 7.6"
   default     = "restya-restyaboardcento-7-6"
@@ -994,7 +994,7 @@ variable "do_application_strapi-18-04" {
 }
 
 variable "do_application_supabase-supabasepostgres-18-04" {
-  description = "Supabase Postgres 0.13.0 on Ubuntu 18.04"
+  description = "Supabase Postgres 0.15.0 on Ubuntu 18.04"
   default     = "supabase-supabasepostgres-18-04"
 }
 
