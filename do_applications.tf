@@ -489,7 +489,7 @@ variable "do_application_litespeedtechnol-openlitespeednod-20-04" {
 }
 
 variable "do_application_litespeedtechnol-openlitespeedrai-20-04" {
-  description = "OpenLiteSpeed Rails 2.7.1 on Ubuntu 20.04"
+  description = "OpenLiteSpeed Rails 6.1.3.1 on Ubuntu 20.04"
   default     = "litespeedtechnol-openlitespeedrai-20-04"
 }
 
@@ -788,6 +788,16 @@ variable "do_application_prometheus-18-04" {
   default     = "prometheus-18-04"
 }
 
+variable "do_application_protocollabs-filecoinlotus-20-04" {
+  description = "filecoin-lotus 1.5.3 on Ubuntu 20.04 (LTS"
+  default     = "protocollabs-filecoinlotus-20-04"
+}
+
+variable "do_application_null" {
+  description = "Plesk 17.8 on CentOS 7"
+  default     = "null"
+}
+
 variable "do_application_pyboxtechnologie-pyboxtechmed-20-04" {
   description = "PyboxTech-Med 1.75 on Ubuntu 20.04"
   default     = "pyboxtechnologie-pyboxtechmed-20-04"
@@ -821,11 +831,6 @@ variable "do_application_redash-18-04" {
 variable "do_application_restya-restyaboard-18-04" {
   description = "Restyaboard 0.6.9 on Ubuntu 18.04"
   default     = "restya-restyaboard-18-04"
-}
-
-variable "do_application_null" {
-  description = "Plesk 17.8 on CentOS 7"
-  default     = "null"
 }
 
 variable "do_application_restya-restyaboardcento-7-6" {
