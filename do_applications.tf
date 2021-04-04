@@ -789,7 +789,7 @@ variable "do_application_prometheus-18-04" {
 }
 
 variable "do_application_protocollabs-filecoinlotus-20-04" {
-  description = "filecoin-lotus 1.5.3 on Ubuntu 20.04 (LTS"
+  description = "filecoin-lotus 1.5.3 on Ubuntu 20.04 (LTS)"
   default     = "protocollabs-filecoinlotus-20-04"
 }
 
