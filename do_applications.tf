@@ -988,6 +988,11 @@ variable "do_application_spatie-mailcoach-18-04" {
   default     = "spatie-mailcoach-18-04"
 }
 
+variable "do_application_spatie-mailcoach-20-04" {
+  description = "Mailcoach 4.0 on Ubuntu 20.04"
+  default     = "spatie-mailcoach-20-04"
+}
+
 variable "do_application_starkdrones-decentralizedint-18-04" {
   description = "Decentralized Internet 5.3.5 on Ubuntu 18.04"
   default     = "starkdrones-decentralizedint-18-04"
