@@ -318,9 +318,24 @@ variable "do_application_ghost-18-04" {
   default     = "ghost-18-04"
 }
 
+variable "do_application_null" {
+  description = "Ant Media Server Community Edition 2.3.0 on Ubuntu 18.04"
+  default     = "null"
+}
+
+variable "do_application_null" {
+  description = "Ant Media Server Enterprise Edition 2.3.0 on Ubuntu 18.04"
+  default     = "null"
+}
+
 variable "do_application_gigantum-gigantumclient-20-04" {
-  description = "Gigantum Client 1.5.0 on Ubuntu 20.04"
+  description = "Gigantum Client 1.5.1 on Ubuntu 20.04"
   default     = "gigantum-gigantumclient-20-04"
+}
+
+variable "do_application_null" {
+  description = "Plesk 17.8 on CentOS 7"
+  default     = "null"
 }
 
 variable "do_application_gitea-18-04" {
@@ -519,7 +534,7 @@ variable "do_application_mattermost-18-04" {
 }
 
 variable "do_application_meilisas-meilisearch-10" {
-  description = "MeiliSearch 0.19.0 on Debian 10 (buster)"
+  description = "MeiliSearch 0.20.0 on Debian 10 (buster)"
   default     = "meilisas-meilisearch-10"
 }
 
@@ -791,11 +806,6 @@ variable "do_application_prometheus-18-04" {
 variable "do_application_protocollabs-filecoinlotus-20-04" {
   description = "filecoin-lotus 1.5.3 on Ubuntu 20.04 (LTS)"
   default     = "protocollabs-filecoinlotus-20-04"
-}
-
-variable "do_application_null" {
-  description = "Plesk 17.8 on CentOS 7"
-  default     = "null"
 }
 
 variable "do_application_pyboxtechnologie-pyboxtechmed-20-04" {
