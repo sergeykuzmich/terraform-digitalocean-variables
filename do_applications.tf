@@ -38,9 +38,19 @@ variable "do_application_antmedia-16-04" {
   default     = "antmedia-16-04"
 }
 
+variable "do_application_antmedia-antmediaserverco-18-04" {
+  description = "Ant Media Server Community Edition 2.3.0 on Ubuntu 18.04"
+  default     = "antmedia-antmediaserverco-18-04"
+}
+
 variable "do_application_antmedia-antmediaserveren-16-04" {
   description = "Ant Media Server Enterprise Edition 2.2.1 on Ubuntu 18.04"
   default     = "antmedia-antmediaserveren-16-04"
+}
+
+variable "do_application_antmedia-antmediaserveren-18-04" {
+  description = "Ant Media Server Enterprise Edition 2.3.0 on Ubuntu 18.04"
+  default     = "antmedia-antmediaserveren-18-04"
 }
 
 variable "do_application_apisnetworks-apiscp-8-2" {
@@ -61,6 +71,11 @@ variable "do_application_aplitel-vitalpbx-7" {
 variable "do_application_appwrite-18-04" {
   description = "Appwrite 0.7.0 on Ubuntu 18.04"
   default     = "appwrite-18-04"
+}
+
+variable "do_application_appwrite-20-04" {
+  description = "Appwrite 0.7.2 on Ubuntu 20.04"
+  default     = "appwrite-20-04"
 }
 
 variable "do_application_ascensiosystem-onlyoffice-18-04" {
@@ -248,6 +263,11 @@ variable "do_application_docker-20-04" {
   default     = "docker-20-04"
 }
 
+variable "do_application_null" {
+  description = "Plesk 17.8 on CentOS 7"
+  default     = "null"
+}
+
 variable "do_application_dokku-18-04" {
   description = "Dokku 0.17.9 on 18.04"
   default     = "dokku-18-04"
@@ -318,24 +338,9 @@ variable "do_application_ghost-18-04" {
   default     = "ghost-18-04"
 }
 
-variable "do_application_null" {
-  description = "Ant Media Server Community Edition 2.3.0 on Ubuntu 18.04"
-  default     = "null"
-}
-
-variable "do_application_null" {
-  description = "Ant Media Server Enterprise Edition 2.3.0 on Ubuntu 18.04"
-  default     = "null"
-}
-
 variable "do_application_gigantum-gigantumclient-20-04" {
   description = "Gigantum Client 1.5.1 on Ubuntu 20.04"
   default     = "gigantum-gigantumclient-20-04"
-}
-
-variable "do_application_null" {
-  description = "Plesk 17.8 on CentOS 7"
-  default     = "null"
 }
 
 variable "do_application_gitea-18-04" {
@@ -444,7 +449,7 @@ variable "do_application_jenkins-18-04" {
 }
 
 variable "do_application_kandralabs-zulip-18-04" {
-  description = "Zulip 3.3 on Ubuntu 18.04"
+  description = "Zulip 3.4 on Ubuntu 18.04"
   default     = "kandralabs-zulip-18-04"
 }
 
