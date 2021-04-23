@@ -263,11 +263,6 @@ variable "do_application_docker-20-04" {
   default     = "docker-20-04"
 }
 
-variable "do_application_null" {
-  description = "Plesk 17.8 on CentOS 7"
-  default     = "null"
-}
-
 variable "do_application_dokku-18-04" {
   description = "Dokku 0.17.9 on 18.04"
   default     = "dokku-18-04"
@@ -339,7 +334,7 @@ variable "do_application_ghost-18-04" {
 }
 
 variable "do_application_gigantum-gigantumclient-20-04" {
-  description = "Gigantum Client 1.5.1 on Ubuntu 20.04"
+  description = "Gigantum Client 1.5.2 on Ubuntu 20.04"
   default     = "gigantum-gigantumclient-20-04"
 }
 
@@ -981,6 +976,11 @@ variable "do_application_simplystatistics-rstudio-18-04" {
 variable "do_application_skaffolder-18-04" {
   description = "Skaffolder 3.0 on Ubuntu 18.04"
   default     = "skaffolder-18-04"
+}
+
+variable "do_application_null" {
+  description = "Plesk 17.8 on CentOS 7"
+  default     = "null"
 }
 
 variable "do_application_snapt-snaptaria-18-04" {
