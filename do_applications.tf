@@ -138,6 +138,11 @@ variable "do_application_budibase-20-04" {
   default     = "budibase-20-04"
 }
 
+variable "do_application_bugfender-20-04" {
+  description = "Bugfender 2021.1.0 on Ubuntu 20.04"
+  default     = "bugfender-20-04"
+}
+
 variable "do_application_caddy-18-04" {
   description = "Caddy 2.2.1 on Ubuntu 18.04"
   default     = "caddy-18-04"
@@ -973,14 +978,14 @@ variable "do_application_simplystatistics-rstudio-18-04" {
   default     = "simplystatistics-rstudio-18-04"
 }
 
-variable "do_application_skaffolder-18-04" {
-  description = "Skaffolder 3.0 on Ubuntu 18.04"
-  default     = "skaffolder-18-04"
-}
-
 variable "do_application_null" {
   description = "Plesk 17.8 on CentOS 7"
   default     = "null"
+}
+
+variable "do_application_skaffolder-18-04" {
+  description = "Skaffolder 3.0 on Ubuntu 18.04"
+  default     = "skaffolder-18-04"
 }
 
 variable "do_application_snapt-snaptaria-18-04" {

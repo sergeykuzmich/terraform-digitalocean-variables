@@ -33,6 +33,11 @@ variable "do_distibution_fedora-33-x64" {
   default     = "fedora-33-x64"
 }
 
+variable "do_distibution_fedora-34-x64" {
+  description = "Fedora 34 x64"
+  default     = "fedora-34-x64"
+}
+
 variable "do_distibution_freebsd-11-x64-ufs" {
   description = "FreeBSD 11.4 ufs x64"
   default     = "freebsd-11-x64-ufs"
