@@ -8,6 +8,11 @@ variable "do_application_acra-18-04" {
   default     = "acra-18-04"
 }
 
+variable "do_application_aecsystems-speckleserver-20-04" {
+  description = "Speckle Server 2 on Ubuntu 20.04"
+  default     = "aecsystems-speckleserver-20-04"
+}
+
 variable "do_application_akaunting-18-04" {
   description = "Akaunting on Ubuntu 18.04"
   default     = "akaunting-18-04"
