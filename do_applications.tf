@@ -399,7 +399,7 @@ variable "do_application_helpy-18-04" {
 }
 
 variable "do_application_helpyio-helpypro-18-04" {
-  description = "Helpy Pro 3.1 on Ubuntu 18.04"
+  description = "Helpy Pro 3.2.7 on Ubuntu 18.04"
   default     = "helpyio-helpypro-18-04"
 }
 
