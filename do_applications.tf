@@ -63,6 +63,11 @@ variable "do_application_apisnetworks-apiscp-8-2" {
   default     = "apisnetworks-apiscp-8-2"
 }
 
+variable "do_application_apisnetworks-apiscp-8-3" {
+  description = "ApisCP 3.2 on CentOS 8.3"
+  default     = "apisnetworks-apiscp-8-3"
+}
+
 variable "do_application_apisnetworks-apnscp-7-7" {
   description = "ApisCP 3.2 on CentOS 8.2"
   default     = "apisnetworks-apnscp-7-7"
