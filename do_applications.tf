@@ -428,6 +428,11 @@ variable "do_application_invoiceninja-18-04" {
   default     = "invoiceninja-18-04"
 }
 
+variable "do_application_invoiceninja-20-0-4" {
+  description = "Invoice Ninja 5 on Ubuntu 20.0.4"
+  default     = "invoiceninja-20-0-4"
+}
+
 variable "do_application_iota-iotahornetnode-18-04" {
   description = "IOTA Hornet Node on Ubuntu 20.04"
   default     = "iota-iotahornetnode-18-04"
@@ -584,8 +589,13 @@ variable "do_application_microweber-18-04" {
 }
 
 variable "do_application_microwebercms-microweber-20-04" {
-  description = "Microweber 1.2.2 on Ubuntu 20.04"
+  description = "Microweber 1.2.6 on Ubuntu 20.04"
   default     = "microwebercms-microweber-20-04"
+}
+
+variable "do_application_null" {
+  description = "Plesk 17.8 on CentOS 7"
+  default     = "null"
 }
 
 variable "do_application_mobilejazz-bugfender-18-04" {
@@ -986,11 +996,6 @@ variable "do_application_simontelephonics-freepbx-7-6" {
 variable "do_application_simplystatistics-rstudio-18-04" {
   description = "RStudio 1.2 on Ubuntu 18.04"
   default     = "simplystatistics-rstudio-18-04"
-}
-
-variable "do_application_null" {
-  description = "Plesk 17.8 on CentOS 7"
-  default     = "null"
 }
 
 variable "do_application_skaffolder-18-04" {
