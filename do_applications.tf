@@ -103,6 +103,11 @@ variable "do_application_auspiciaab-theplanminderpos-20-04" {
   default     = "auspiciaab-theplanminderpos-20-04"
 }
 
+variable "do_application_autopanel-autopanelwordpre-20-04-2" {
+  description = "AutoPanel - Wordpress Automation 1 on Ubuntu 20.04.2 LTS"
+  default     = "autopanel-autopanelwordpre-20-04-2"
+}
+
 variable "do_application_azuracast-18-04" {
   description = "AzuraCast 0.11.2 on Ubuntu 20.04"
   default     = "azuracast-18-04"
