@@ -353,6 +353,11 @@ variable "do_application_ghost-18-04" {
   default     = "ghost-18-04"
 }
 
+variable "do_application_ghost-20-04" {
+  description = "Ghost on Ubuntu 20.04"
+  default     = "ghost-20-04"
+}
+
 variable "do_application_gigantum-gigantumclient-20-04" {
   description = "Gigantum Client 1.5.2 on Ubuntu 20.04"
   default     = "gigantum-gigantumclient-20-04"
@@ -496,6 +501,11 @@ variable "do_application_lemp-18-04" {
 variable "do_application_lemp-20-04" {
   description = "LEMP on Ubuntu 20.04"
   default     = "lemp-20-04"
+}
+
+variable "do_application_litespeedtechnol-cyberpanel-20-04" {
+  description = "CyberPanel 2.1.1 on Ubuntu 20.04"
+  default     = "litespeedtechnol-cyberpanel-20-04"
 }
 
 variable "do_application_litespeedtechnol-openlitespeedcla-18-04" {
@@ -834,7 +844,7 @@ variable "do_application_prometheus-18-04" {
 }
 
 variable "do_application_protocollabs-filecoinlotus-20-04" {
-  description = "filecoin-lotus 1.5.3 on Ubuntu 20.04 (LTS)"
+  description = "filecoin-lotus 1.8.0 on Ubuntu 20.04 (LTS)"
   default     = "protocollabs-filecoinlotus-20-04"
 }
 
