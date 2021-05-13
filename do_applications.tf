@@ -423,6 +423,11 @@ variable "do_application_honeydbagent-9" {
   default     = "honeydbagent-9"
 }
 
+variable "do_application_humhubgmbhkg-humhub-10" {
+  description = "HumHub 1.8.2 on Debian 10"
+  default     = "humhubgmbhkg-humhub-10"
+}
+
 variable "do_application_hyfinity-webmakerserver-20-04" {
   description = "WebMaker Server 10.5 on Ubuntu 20.04"
   default     = "hyfinity-webmakerserver-20-04"
@@ -603,14 +608,14 @@ variable "do_application_microweber-18-04" {
   default     = "microweber-18-04"
 }
 
-variable "do_application_microwebercms-microweber-20-04" {
-  description = "Microweber 1.2.6 on Ubuntu 20.04"
-  default     = "microwebercms-microweber-20-04"
-}
-
 variable "do_application_null" {
   description = "Plesk 17.8 on CentOS 7"
   default     = "null"
+}
+
+variable "do_application_microwebercms-microweber-20-04" {
+  description = "Microweber 1.2.6 on Ubuntu 20.04"
+  default     = "microwebercms-microweber-20-04"
 }
 
 variable "do_application_mobilejazz-bugfender-18-04" {
