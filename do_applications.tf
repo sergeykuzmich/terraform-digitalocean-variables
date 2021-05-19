@@ -923,6 +923,11 @@ variable "do_application_rocketchat-18-04" {
   default     = "rocketchat-18-04"
 }
 
+variable "do_application_rocketchat-20-04" {
+  description = "Rocket.Chat 3.14.0 on Ubuntu 20.04"
+  default     = "rocketchat-20-04"
+}
+
 variable "do_application_rstudio-20-04" {
   description = "RStudio 1.2 on Ubuntu 20.04"
   default     = "rstudio-20-04"
