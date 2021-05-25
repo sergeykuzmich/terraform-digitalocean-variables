@@ -483,6 +483,11 @@ variable "do_application_kandralabs-zulip-18-04" {
   default     = "kandralabs-zulip-18-04"
 }
 
+variable "do_application_konnectedmindzte-hyperledgerfabri-18-04" {
+  description = "Hyperledger Fabric Cloud Lab 1.4.2 on Ubuntu 18.04"
+  default     = "konnectedmindzte-hyperledgerfabri-18-04"
+}
+
 variable "do_application_kromit-titra-18-04" {
   description = "titra 0.9.8 on Ubuntu 18.04"
   default     = "kromit-titra-18-04"
@@ -841,6 +846,11 @@ variable "do_application_plesk-pleskcentos-7-7" {
 variable "do_application_portalcloud-wirespeedvpn-18-04" {
   description = "WireSpeed VPN 1.1.3 on Ubuntu 18.04"
   default     = "portalcloud-wirespeedvpn-18-04"
+}
+
+variable "do_application_portalcloud-wirespeedvpnbybu-18-04" {
+  description = "WireSpeed VPN by Bunker 1.1.5 on Ubuntu 18.04"
+  default     = "portalcloud-wirespeedvpnbybu-18-04"
 }
 
 variable "do_application_prometheus-18-04" {
