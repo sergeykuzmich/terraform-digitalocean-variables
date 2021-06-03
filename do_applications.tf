@@ -303,6 +303,11 @@ variable "do_application_doppler-20-04" {
   default     = "doppler-20-04"
 }
 
+variable "do_application_dsuhininapp1-18-04" {
+  description = "DSuhinin-App-1 1.0 on 18.04"
+  default     = "dsuhininapp1-18-04"
+}
+
 variable "do_application_eltrino-magento2opensour-18-04" {
   description = "Magento 2 Open Source 1.3.1 on Ubuntu 20.04 (LTS)"
   default     = "eltrino-magento2opensour-18-04"
