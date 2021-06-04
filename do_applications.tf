@@ -218,6 +218,16 @@ variable "do_application_cpanel-cpanelwhm-7-6" {
   default     = "cpanel-cpanelwhm-7-6"
 }
 
+variable "do_application_null" {
+  description = "Plesk 17.8 on CentOS 7"
+  default     = "null"
+}
+
+variable "do_application_cpanel-cpanelwhm-7-9" {
+  description = "cPanel & WHM® 96.0.8 on CentOS 7.9"
+  default     = "cpanel-cpanelwhm-7-9"
+}
+
 variable "do_application_csmm-20-04" {
   description = "CSMM 1.20.2 on Ubuntu 20.04"
   default     = "csmm-20-04"
@@ -399,7 +409,7 @@ variable "do_application_grandnode-18-04" {
 }
 
 variable "do_application_haproxywi-7" {
-  description = "HAProxy-WI 4.5.1 on CentOS 7"
+  description = "Roxy-WI 4.5.1 on CentOS 7"
   default     = "haproxywi-7"
 }
 
@@ -618,11 +628,6 @@ variable "do_application_microweber-18-04" {
   default     = "microweber-18-04"
 }
 
-variable "do_application_null" {
-  description = "Plesk 17.8 on CentOS 7"
-  default     = "null"
-}
-
 variable "do_application_microwebercms-microweber-20-04" {
   description = "Microweber 1.2.6 on Ubuntu 20.04"
   default     = "microwebercms-microweber-20-04"
@@ -646,6 +651,11 @@ variable "do_application_mongodb-20-04" {
 variable "do_application_mozilla-hubscloudpersona-18-04" {
   description = "Hubs Cloud Personal 1.1.0 on Ubuntu 18.04"
   default     = "mozilla-hubscloudpersona-18-04"
+}
+
+variable "do_application_mpdev-hectortestimages-18-04" {
+  description = "hector-test-image-slug 1.0.0 on Ubuntu 18.04"
+  default     = "mpdev-hectortestimages-18-04"
 }
 
 variable "do_application_mysql-18-04" {
