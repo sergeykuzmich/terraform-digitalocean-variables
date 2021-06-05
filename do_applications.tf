@@ -493,6 +493,11 @@ variable "do_application_jenkins-18-04" {
   default     = "jenkins-18-04"
 }
 
+variable "do_application_jitsiserver-20-04" {
+  description = "Jitsi Server 2.1-273 on Ubuntu 20.04"
+  default     = "jitsiserver-20-04"
+}
+
 variable "do_application_kandralabs-zulip-18-04" {
   description = "Zulip 3.4 on Ubuntu 18.04"
   default     = "kandralabs-zulip-18-04"
