@@ -183,6 +183,11 @@ variable "do_application_chamilo-18-04" {
   default     = "chamilo-18-04"
 }
 
+variable "do_application_chevereto-20-04" {
+  description = "Chevereto 1.3.0 on Ubuntu 20.04"
+  default     = "chevereto-20-04"
+}
+
 variable "do_application_cloudron-18-04" {
   description = "Cloudron 6.0.1 on Ubuntu 20.04"
   default     = "cloudron-18-04"
@@ -216,11 +221,6 @@ variable "do_application_cpanel-7-6" {
 variable "do_application_cpanel-cpanelwhm-7-6" {
   description = "cPanel & WHM® 92.0.11 on CentOS 7.6"
   default     = "cpanel-cpanelwhm-7-6"
-}
-
-variable "do_application_null" {
-  description = "Plesk 17.8 on CentOS 7"
-  default     = "null"
 }
 
 variable "do_application_cpanel-cpanelwhm-7-9" {
@@ -978,6 +978,16 @@ variable "do_application_saltcorn-20-04" {
   default     = "saltcorn-20-04"
 }
 
+variable "do_application_sandflysecurity-20-04" {
+  description = "sandflysecurity 2.9.0 on Ubuntu 20.04"
+  default     = "sandflysecurity-20-04"
+}
+
+variable "do_application_null" {
+  description = "Plesk 17.8 on CentOS 7"
+  default     = "null"
+}
+
 variable "do_application_searchblox-searchbloxenterp-7-6" {
   description = "SearchBlox Enterprise Search 9.2.1 on CentOS 7.6"
   default     = "searchblox-searchbloxenterp-7-6"
@@ -1231,6 +1241,11 @@ variable "do_application_zeromon-zabbix-18-04" {
 variable "do_application_zeslecp-7" {
   description = "ZesleCP 3.1.6 on CentOS 7.x"
   default     = "zeslecp-7"
+}
+
+variable "do_application_znuny-znunylts-10" {
+  description = "Znuny LTS 6.0.35 on Debian 10 (buster)"
+  default     = "znuny-znunylts-10"
 }
 
 variable "do_application_zoomadmin-18-04" {
