@@ -84,7 +84,7 @@ variable "do_application_appwrite-18-04" {
 }
 
 variable "do_application_appwrite-20-04" {
-  description = "Appwrite 0.7.2 on Ubuntu 20.04"
+  description = "Appwrite 0.8.0 on Ubuntu 20.04"
   default     = "appwrite-20-04"
 }
 
@@ -149,7 +149,7 @@ variable "do_application_buddy-repman-18-04" {
 }
 
 variable "do_application_budibase-20-04" {
-  description = "Budibase 0.6.2 on Ubuntu 20.04"
+  description = "Budibase 0.9.1 on Ubuntu 20.04"
   default     = "budibase-20-04"
 }
 
@@ -384,7 +384,7 @@ variable "do_application_gitea-18-04" {
 }
 
 variable "do_application_gitea-20-04" {
-  description = "Gitea 1.13.2 on Ubuntu 20.04"
+  description = "Gitea 1.14.2 on Ubuntu 20.04"
   default     = "gitea-20-04"
 }
 
@@ -499,7 +499,7 @@ variable "do_application_jitsiserver-20-04" {
 }
 
 variable "do_application_kandralabs-zulip-18-04" {
-  description = "Zulip 3.4 on Ubuntu 18.04"
+  description = "Zulip 4.3 on Ubuntu 18.04"
   default     = "kandralabs-zulip-18-04"
 }
 
@@ -979,7 +979,7 @@ variable "do_application_saltcorn-20-04" {
 }
 
 variable "do_application_sandflysecurity-20-04" {
-  description = "sandflysecurity 2.9.0 on Ubuntu 20.04"
+  description = "Sandfly Security 2.9.0 on Ubuntu 20.04"
   default     = "sandflysecurity-20-04"
 }
 
