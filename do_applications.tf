@@ -638,6 +638,11 @@ variable "do_application_microwebercms-microweber-20-04" {
   default     = "microwebercms-microweber-20-04"
 }
 
+variable "do_application_mistio-mist-20-04" {
+  description = "Mist 4.5.2 on Ubuntu 20.04"
+  default     = "mistio-mist-20-04"
+}
+
 variable "do_application_mobilejazz-bugfender-18-04" {
   description = "Bugfender 2020.2.0 on Ubuntu 18.04"
   default     = "mobilejazz-bugfender-18-04"
