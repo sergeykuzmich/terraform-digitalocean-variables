@@ -388,6 +388,11 @@ variable "do_application_gitea-20-04" {
   default     = "gitea-20-04"
 }
 
+variable "do_application_gitlab-gitlabenterprise-18-04" {
+  description = "GitLab Enterprise Edition on Ubuntu 20.04"
+  default     = "gitlab-gitlabenterprise-18-04"
+}
+
 variable "do_application_gitlab-meltano-18-04" {
   description = "Meltano 1.15.0 on Ubuntu 18.04"
   default     = "gitlab-meltano-18-04"
