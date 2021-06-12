@@ -363,6 +363,11 @@ variable "do_application_flipstarter-18-04" {
   default     = "flipstarter-18-04"
 }
 
+variable "do_application_flussonic-20-04" {
+  description = "flussonic 21.05.1 on Ubuntu 20.04"
+  default     = "flussonic-20-04"
+}
+
 variable "do_application_ghost-18-04" {
   description = "Ghost on Ubuntu 18.04"
   default     = "ghost-18-04"
@@ -391,6 +396,11 @@ variable "do_application_gitea-20-04" {
 variable "do_application_gitlab-gitlabenterprise-18-04" {
   description = "GitLab Enterprise Edition on Ubuntu 20.04"
   default     = "gitlab-gitlabenterprise-18-04"
+}
+
+variable "do_application_gitlab-gitlabenterprise-20-04" {
+  description = "GitLab Enterprise Edition on Ubuntu 20.04"
+  default     = "gitlab-gitlabenterprise-20-04"
 }
 
 variable "do_application_gitlab-meltano-18-04" {
@@ -638,8 +648,13 @@ variable "do_application_microweber-18-04" {
   default     = "microweber-18-04"
 }
 
+variable "do_application_null" {
+  description = "Plesk 17.8 on CentOS 7"
+  default     = "null"
+}
+
 variable "do_application_microwebercms-microweber-20-04" {
-  description = "Microweber 1.2.6 on Ubuntu 20.04"
+  description = "Microweber 1.2.7 on Ubuntu 20.04"
   default     = "microwebercms-microweber-20-04"
 }
 
@@ -991,11 +1006,6 @@ variable "do_application_saltcorn-20-04" {
 variable "do_application_sandflysecurity-20-04" {
   description = "Sandfly Security 2.9.0 on Ubuntu 20.04"
   default     = "sandflysecurity-20-04"
-}
-
-variable "do_application_null" {
-  description = "Plesk 17.8 on CentOS 7"
-  default     = "null"
 }
 
 variable "do_application_searchblox-searchbloxenterp-7-6" {
