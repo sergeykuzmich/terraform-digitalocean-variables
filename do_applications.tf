@@ -499,7 +499,7 @@ variable "do_application_jadiangaming-solderio-18-04" {
 }
 
 variable "do_application_jelastic-jelasticpaas-7" {
-  description = "Jelastic PaaS 6.0-2 on Centos 7"
+  description = "Jelastic PaaS 6.0-5 on Centos 7"
   default     = "jelastic-jelasticpaas-7"
 }
 
