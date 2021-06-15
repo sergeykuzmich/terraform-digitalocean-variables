@@ -19,7 +19,7 @@ variable "do_distibution_debian-10-x64" {
 }
 
 variable "do_distibution_debian-9-x64" {
-  description = "Debian 15 x64"
+  description = "Debian 9 x64"
   default     = "debian-9-x64"
 }
 
