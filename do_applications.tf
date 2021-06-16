@@ -648,11 +648,6 @@ variable "do_application_microweber-18-04" {
   default     = "microweber-18-04"
 }
 
-variable "do_application_null" {
-  description = "Plesk 17.8 on CentOS 7"
-  default     = "null"
-}
-
 variable "do_application_microwebercms-microweber-20-04" {
   description = "Microweber 1.2.7 on Ubuntu 20.04"
   default     = "microwebercms-microweber-20-04"
@@ -749,8 +744,13 @@ variable "do_application_nodegame-18-04" {
 }
 
 variable "do_application_nodejs-20-04" {
-  description = "NodeJS 12.18.0 on Ubuntu 20.04"
+  description = "NodeJS 12.18.1 on Ubuntu 20.04"
   default     = "nodejs-20-04"
+}
+
+variable "do_application_null" {
+  description = "Plesk 17.8 on CentOS 7"
+  default     = "null"
 }
 
 variable "do_application_onjection-jenkins-16-04" {
