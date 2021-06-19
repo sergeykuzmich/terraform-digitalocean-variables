@@ -304,7 +304,7 @@ variable "do_application_dokku-20-04" {
 }
 
 variable "do_application_dokos-18-04" {
-  description = "Dokos 1.4.0 on Ubuntu 18.04"
+  description = "Dokos 2.0.0 on Ubuntu 18.04"
   default     = "dokos-18-04"
 }
 
