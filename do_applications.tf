@@ -913,6 +913,11 @@ variable "do_application_pyboxtechnologie-pyboxtechmed-20-04" {
   default     = "pyboxtechnologie-pyboxtechmed-20-04"
 }
 
+variable "do_application_questdb-20-04" {
+  description = "QuestDB 6.0.3 on Ubuntu 20.04"
+  default     = "questdb-20-04"
+}
+
 variable "do_application_quickcorp-qcobjects-18-04" {
   description = "QCObjects 2.1.157 on Ubuntu 18.04"
   default     = "quickcorp-qcobjects-18-04"
