@@ -679,7 +679,7 @@ variable "do_application_mozilla-hubscloudpersona-18-04" {
 }
 
 variable "do_application_mpdev-hectortestimages-18-04" {
-  description = "hector-test-image-slug 1.0.0 on Ubuntu 18.04"
+  description = "d_test renamed 1 on 1"
   default     = "mpdev-hectortestimages-18-04"
 }
 
@@ -1081,6 +1081,11 @@ variable "do_application_shopware-18-04" {
 variable "do_application_simontelephonics-freepbx-7-6" {
   description = "FreePBX® 15 on CentOS 7.6"
   default     = "simontelephonics-freepbx-7-6"
+}
+
+variable "do_application_simontelephonics-freepbx-7-8" {
+  description = "FreePBX® 15 on CentOS 7.8"
+  default     = "simontelephonics-freepbx-7-8"
 }
 
 variable "do_application_simplystatistics-rstudio-18-04" {
