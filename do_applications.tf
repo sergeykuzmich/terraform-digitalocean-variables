@@ -679,7 +679,7 @@ variable "do_application_mozilla-hubscloudpersona-18-04" {
 }
 
 variable "do_application_mpdev-hectortestimages-18-04" {
-  description = "d_test renamed 1 on 1"
+  description = "d_test_2 1 on 1"
   default     = "mpdev-hectortestimages-18-04"
 }
 
