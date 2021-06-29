@@ -654,7 +654,7 @@ variable "do_application_microwebercms-microweber-20-04" {
 }
 
 variable "do_application_mistio-mist-20-04" {
-  description = "Mist 4.5.2 on Ubuntu 20.04"
+  description = "Mist 4.5.4 on Ubuntu 20.04"
   default     = "mistio-mist-20-04"
 }
 
