@@ -748,14 +748,14 @@ variable "do_application_nodejs-20-04" {
   default     = "nodejs-20-04"
 }
 
-variable "do_application_null" {
-  description = "Plesk 17.8 on CentOS 7"
-  default     = "null"
-}
-
 variable "do_application_onjection-jenkins-16-04" {
   description = "Onjection Jenkins 2.164.3 on Ubuntu 16.04"
   default     = "onjection-jenkins-16-04"
+}
+
+variable "do_application_null" {
+  description = "Plesk 17.8 on CentOS 7"
+  default     = "null"
 }
 
 variable "do_application_openboxes-20-04" {
@@ -1091,6 +1091,11 @@ variable "do_application_simontelephonics-freepbx-7-6" {
 variable "do_application_simontelephonics-freepbx-7-8" {
   description = "FreePBX® 15 on CentOS 7.8"
   default     = "simontelephonics-freepbx-7-8"
+}
+
+variable "do_application_simplex-simplexserver-20-04" {
+  description = "SimpleX server 0.3.2 on Ubuntu 20.04"
+  default     = "simplex-simplexserver-20-04"
 }
 
 variable "do_application_simplystatistics-rstudio-18-04" {
