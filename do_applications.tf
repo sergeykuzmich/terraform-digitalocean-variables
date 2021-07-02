@@ -44,7 +44,7 @@ variable "do_application_antmedia-16-04" {
 }
 
 variable "do_application_antmedia-antmediaserverco-18-04" {
-  description = "Ant Media Server Community Edition 2.3.3 on Ubuntu 18.04"
+  description = "Ant Media Server Community Edition 2.3.3.1 on Ubuntu 18.04"
   default     = "antmedia-antmediaserverco-18-04"
 }
 
@@ -54,7 +54,7 @@ variable "do_application_antmedia-antmediaserveren-16-04" {
 }
 
 variable "do_application_antmedia-antmediaserveren-18-04" {
-  description = "Ant Media Server Enterprise Edition 2.3.3 on Ubuntu 18.04"
+  description = "Ant Media Server Enterprise Edition 2.3.3.1 on Ubuntu 18.04"
   default     = "antmedia-antmediaserveren-18-04"
 }
 
