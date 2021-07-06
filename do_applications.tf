@@ -509,7 +509,7 @@ variable "do_application_jenkins-18-04" {
 }
 
 variable "do_application_jitsiserver-20-04" {
-  description = "Jitsi Server 2.1-273 on Ubuntu 20.04"
+  description = "Jitsi Server 2.10.5550 on Ubuntu 20.04"
   default     = "jitsiserver-20-04"
 }
 
