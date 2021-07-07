@@ -894,7 +894,7 @@ variable "do_application_portalcloud-wirespeedvpn-18-04" {
 }
 
 variable "do_application_portalcloud-wirespeedvpnbybu-18-04" {
-  description = "WireSpeed VPN by Bunker 1.1.5 on Ubuntu 18.04"
+  description = "WireSpeed VPN 1.1.5 on Ubuntu 18.04"
   default     = "portalcloud-wirespeedvpnbybu-18-04"
 }
 
