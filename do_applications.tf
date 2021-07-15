@@ -78,6 +78,11 @@ variable "do_application_aplitel-vitalpbx-7" {
   default     = "aplitel-vitalpbx-7"
 }
 
+variable "do_application_appsmith-18-04" {
+  description = "Appsmith 1.5 on Ubuntu 18.04"
+  default     = "appsmith-18-04"
+}
+
 variable "do_application_appwrite-18-04" {
   description = "Appwrite 0.7.0 on Ubuntu 18.04"
   default     = "appwrite-18-04"
@@ -194,7 +199,7 @@ variable "do_application_cloudron-18-04" {
 }
 
 variable "do_application_cloudron-20-04" {
-  description = "Cloudron 6.2.7 on Ubuntu 20.04"
+  description = "Cloudron 6.3.5 on Ubuntu 20.04"
   default     = "cloudron-20-04"
 }
 
@@ -679,7 +684,7 @@ variable "do_application_mozilla-hubscloudpersona-18-04" {
 }
 
 variable "do_application_mpdev-hectortestimages-18-04" {
-  description = "d_test_2 1 on 1"
+  description = "hector-test-image-slug"
   default     = "mpdev-hectortestimages-18-04"
 }
 
