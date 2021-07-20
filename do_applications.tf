@@ -328,6 +328,11 @@ variable "do_application_eltrino-magento2opensour-18-04" {
   default     = "eltrino-magento2opensour-18-04"
 }
 
+variable "do_application_eltrino-magento2opensour-20-04" {
+  description = "Magento 2 Open Source 1.4.0 on Ubuntu 20.04 (LTS)"
+  default     = "eltrino-magento2opensour-20-04"
+}
+
 variable "do_application_erpnext-18-04" {
   description = "ERPNext 12.5.0 on Ubuntu 18.04"
   default     = "erpnext-18-04"
@@ -428,9 +433,9 @@ variable "do_application_grandnode-18-04" {
   default     = "grandnode-18-04"
 }
 
-variable "do_application_haproxywi-7" {
+variable "do_application_haproxywi-roxywi-7" {
   description = "Roxy-WI 4.5.1 on CentOS 7"
-  default     = "haproxywi-7"
+  default     = "haproxywi-roxywi-7"
 }
 
 variable "do_application_harperdb-18-04" {
@@ -466,6 +471,11 @@ variable "do_application_humhubgmbhkg-humhub-10" {
 variable "do_application_hyfinity-webmakerserver-20-04" {
   description = "WebMaker Server 10.5 on Ubuntu 20.04"
   default     = "hyfinity-webmakerserver-20-04"
+}
+
+variable "do_application_hystax-freecostmanageme-20-04" {
+  description = "Free Cost Management 1-1-326707216-master on Ubuntu 20.04"
+  default     = "hystax-freecostmanageme-20-04"
 }
 
 variable "do_application_influxdb-18-04" {
@@ -683,6 +693,16 @@ variable "do_application_mozilla-hubscloudpersona-18-04" {
   default     = "mozilla-hubscloudpersona-18-04"
 }
 
+variable "do_application_mpdev-gutiumtestapp-20-04" {
+  description = "gutiumtestapp333 1 on Ubuntu 20.04"
+  default     = "mpdev-gutiumtestapp-20-04"
+}
+
+variable "do_application_mpdev-gutiumtestappnew-20-04" {
+  description = "gutiumtestapp_new_test 2 on Ubuntu 20.04"
+  default     = "mpdev-gutiumtestappnew-20-04"
+}
+
 variable "do_application_mpdev-hectortestimages-18-04" {
   description = "hector-test-image-slug"
   default     = "mpdev-hectortestimages-18-04"
@@ -753,14 +773,14 @@ variable "do_application_nodegame-18-04" {
   default     = "nodegame-18-04"
 }
 
-variable "do_application_null" {
-  description = "Plesk 17.8 on CentOS 7"
-  default     = "null"
-}
-
 variable "do_application_nodejs-20-04" {
   description = "NodeJS 12.18.1 on Ubuntu 20.04"
   default     = "nodejs-20-04"
+}
+
+variable "do_application_null" {
+  description = "Plesk 17.8 on CentOS 7"
+  default     = "null"
 }
 
 variable "do_application_onjection-jenkins-16-04" {
