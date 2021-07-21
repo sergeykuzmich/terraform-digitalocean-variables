@@ -1234,7 +1234,7 @@ variable "do_application_vardot-varbase-18-04" {
 }
 
 variable "do_application_varnishsoftware-varnishcache-18-04" {
-  description = "Varnish Cache 6.0.7 on Ubuntu 18.04"
+  description = "Varnish Cache 6.0.8 on Ubuntu 18.04"
   default     = "varnishsoftware-varnishcache-18-04"
 }
 
