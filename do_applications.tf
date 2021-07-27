@@ -38,6 +38,11 @@ variable "do_application_analythium-shinyproxy-18-04" {
   default     = "analythium-shinyproxy-18-04"
 }
 
+variable "do_application_analythium-shinyproxy-20-04" {
+  description = "ShinyProxy 2.5.0 on Ubuntu 20.04"
+  default     = "analythium-shinyproxy-20-04"
+}
+
 variable "do_application_antmedia-16-04" {
   description = "Ant Media Server Community Edition 2.1.0 on Ubuntu 18.04"
   default     = "antmedia-16-04"
@@ -508,9 +513,9 @@ variable "do_application_izenda-18-04" {
   default     = "izenda-18-04"
 }
 
-variable "do_application_jadiangaming-solderio-18-04" {
+variable "do_application_jadiangaming-solderio-18-04-5" {
   description = "Solder.io 0.7.6 on Ubuntu 18.04.5"
-  default     = "jadiangaming-solderio-18-04"
+  default     = "jadiangaming-solderio-18-04-5"
 }
 
 variable "do_application_jelastic-jelasticpaas-7" {
@@ -773,14 +778,14 @@ variable "do_application_nodegame-18-04" {
   default     = "nodegame-18-04"
 }
 
-variable "do_application_nodejs-20-04" {
-  description = "NodeJS 12.18.1 on Ubuntu 20.04"
-  default     = "nodejs-20-04"
-}
-
 variable "do_application_null" {
   description = "Plesk 17.8 on CentOS 7"
   default     = "null"
+}
+
+variable "do_application_nodejs-20-04" {
+  description = "NodeJS 12.18.1 on Ubuntu 20.04"
+  default     = "nodejs-20-04"
 }
 
 variable "do_application_onjection-jenkins-16-04" {
@@ -958,11 +963,6 @@ variable "do_application_rails-18-04" {
   default     = "rails-18-04"
 }
 
-variable "do_application_rails-20-04" {
-  description = "Ruby on Rails 6.0.3.4 on Ubuntu 20.04"
-  default     = "rails-20-04"
-}
-
 variable "do_application_reblaze-reblazewaf-18-04" {
   description = "Reblaze WAF 2.12.10 on Ubuntu 18.04"
   default     = "reblaze-reblazewaf-18-04"
@@ -1021,6 +1021,11 @@ variable "do_application_rocketchat-20-04" {
 variable "do_application_rstudio-20-04" {
   description = "RStudio 1.4 on Ubuntu 20.04"
   default     = "rstudio-20-04"
+}
+
+variable "do_application_rubyonrails-20-04" {
+  description = "Ruby on Rails 6.0.3.4 on Ubuntu 20.04"
+  default     = "rubyonrails-20-04"
 }
 
 variable "do_application_runcloud-18-04" {
