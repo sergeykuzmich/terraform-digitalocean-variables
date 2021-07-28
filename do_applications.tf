@@ -168,6 +168,11 @@ variable "do_application_bugfender-20-04" {
   default     = "bugfender-20-04"
 }
 
+variable "do_application_bunkercloudservi-wirespeedvpn-18-04" {
+  description = "WireSpeed VPN 1.1.5 on Ubuntu 18.04"
+  default     = "bunkercloudservi-wirespeedvpn-18-04"
+}
+
 variable "do_application_caddy-18-04" {
   description = "Caddy 2.2.1 on Ubuntu 18.04"
   default     = "caddy-18-04"
@@ -379,7 +384,7 @@ variable "do_application_flipstarter-18-04" {
 }
 
 variable "do_application_flussonic-20-04" {
-  description = "flussonic 21.05.1 on Ubuntu 20.04"
+  description = "flussonic 21.07.1 on Ubuntu 20.04"
   default     = "flussonic-20-04"
 }
 
@@ -534,7 +539,7 @@ variable "do_application_jitsiserver-20-04" {
 }
 
 variable "do_application_kandralabs-zulip-18-04" {
-  description = "Zulip 4.3 on Ubuntu 18.04"
+  description = "Zulip 4.4 on Ubuntu 18.04"
   default     = "kandralabs-zulip-18-04"
 }
 
@@ -778,14 +783,14 @@ variable "do_application_nodegame-18-04" {
   default     = "nodegame-18-04"
 }
 
-variable "do_application_null" {
-  description = "Plesk 17.8 on CentOS 7"
-  default     = "null"
-}
-
 variable "do_application_nodejs-20-04" {
   description = "NodeJS 12.18.1 on Ubuntu 20.04"
   default     = "nodejs-20-04"
+}
+
+variable "do_application_null" {
+  description = "Plesk 17.8 on CentOS 7"
+  default     = "null"
 }
 
 variable "do_application_onjection-jenkins-16-04" {
