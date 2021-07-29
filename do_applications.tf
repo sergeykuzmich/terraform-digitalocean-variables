@@ -1074,7 +1074,7 @@ variable "do_application_selfhostedpro-yacht-20-04" {
 }
 
 variable "do_application_severalnines-clustercontrol-20-04" {
-  description = "ClusterControl 1.8.2 on Ubuntu 20.04"
+  description = "ClusterControl 1.9.0 on Ubuntu 20.04"
   default     = "severalnines-clustercontrol-20-04"
 }
 
