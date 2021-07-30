@@ -539,7 +539,7 @@ variable "do_application_jitsiserver-20-04" {
 }
 
 variable "do_application_kandralabs-zulip-18-04" {
-  description = "Zulip 4.4 on Ubuntu 18.04"
+  description = "Zulip 4.5 on Ubuntu 18.04"
   default     = "kandralabs-zulip-18-04"
 }
 
@@ -788,11 +788,6 @@ variable "do_application_nodejs-20-04" {
   default     = "nodejs-20-04"
 }
 
-variable "do_application_null" {
-  description = "Plesk 17.8 on CentOS 7"
-  default     = "null"
-}
-
 variable "do_application_onjection-jenkins-16-04" {
   description = "Onjection Jenkins 2.164.3 on Ubuntu 16.04"
   default     = "onjection-jenkins-16-04"
@@ -931,6 +926,11 @@ variable "do_application_plesk-pleskcentos-7-7" {
 variable "do_application_portalcloud-wirespeedvpn-18-04" {
   description = "WireSpeed VPN 1.1.3 on Ubuntu 18.04"
   default     = "portalcloud-wirespeedvpn-18-04"
+}
+
+variable "do_application_null" {
+  description = "Plesk 17.8 on CentOS 7"
+  default     = "null"
 }
 
 variable "do_application_portalcloud-wirespeedvpnbybu-18-04" {
@@ -1081,6 +1081,11 @@ variable "do_application_severalnines-clustercontrol-20-04" {
 variable "do_application_sharklabs-foldinghome-18-04" {
   description = "Folding@home 0.0.1 on Ubuntu 18.04"
   default     = "sharklabs-foldinghome-18-04"
+}
+
+variable "do_application_sharklabs-matrixsynapsebac-10" {
+  description = "Matrix (Synapse backend) 0.1.0 on Debian 10 (buster)"
+  default     = "sharklabs-matrixsynapsebac-10"
 }
 
 variable "do_application_sharklabs-minecraftbedrock-20-04" {
