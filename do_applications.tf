@@ -713,6 +713,16 @@ variable "do_application_mpdev-gutiumtestappnew-20-04" {
   default     = "mpdev-gutiumtestappnew-20-04"
 }
 
+variable "do_application_null" {
+  description = "Plesk 17.8 on CentOS 7"
+  default     = "null"
+}
+
+variable "do_application_mpdev-hectordevtest-20-10" {
+  description = "Hector dev test 2 0.0.1 on Ubuntu 20.10"
+  default     = "mpdev-hectordevtest-20-10"
+}
+
 variable "do_application_mpdev-hectortestimages-18-04" {
   description = "hector-test-image-slug"
   default     = "mpdev-hectortestimages-18-04"
@@ -926,11 +936,6 @@ variable "do_application_plesk-pleskcentos-7-7" {
 variable "do_application_portalcloud-wirespeedvpn-18-04" {
   description = "WireSpeed VPN 1.1.3 on Ubuntu 18.04"
   default     = "portalcloud-wirespeedvpn-18-04"
-}
-
-variable "do_application_null" {
-  description = "Plesk 17.8 on CentOS 7"
-  default     = "null"
 }
 
 variable "do_application_portalcloud-wirespeedvpnbybu-18-04" {
