@@ -9,8 +9,13 @@ variable "do_distibution_centos-7-x64" {
 }
 
 variable "do_distibution_centos-8-x64" {
-  description = "CentOS 8.3 x64"
+  description = "CentOS 8 x64"
   default     = "centos-8-x64"
+}
+
+variable "do_distibution_centos-stream-8-x64" {
+  description = "CentOS 8 Stream x64"
+  default     = "centos-stream-8-x64"
 }
 
 variable "do_distibution_debian-10-x64" {
@@ -56,6 +61,11 @@ variable "do_distibution_freebsd-12-x64-zfs" {
 variable "do_distibution_rancheros" {
   description = "RancherOS 1.5.8 x64"
   default     = "rancheros"
+}
+
+variable "do_distibution_rockylinux-8-x64" {
+  description = "Rocky Linux RockyLinux 8.4 x64"
+  default     = "rockylinux-8-x64"
 }
 
 variable "do_distibution_ubuntu-18-04-x64" {

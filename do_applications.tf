@@ -94,7 +94,7 @@ variable "do_application_appwrite-18-04" {
 }
 
 variable "do_application_appwrite-20-04" {
-  description = "Appwrite 0.9.1 on Ubuntu 20.04"
+  description = "Appwrite 0.9.2 on Ubuntu 20.04"
   default     = "appwrite-20-04"
 }
 
