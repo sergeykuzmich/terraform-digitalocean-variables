@@ -479,7 +479,7 @@ variable "do_application_humhubgmbhkg-humhub-10" {
 }
 
 variable "do_application_hyfinity-webmakerserver-20-04" {
-  description = "WebMaker Server 10.5 on Ubuntu 20.04"
+  description = "WebMaker Server 10.5.0004 on Ubuntu 20.04"
   default     = "hyfinity-webmakerserver-20-04"
 }
 
@@ -713,11 +713,6 @@ variable "do_application_mpdev-gutiumtestappnew-20-04" {
   default     = "mpdev-gutiumtestappnew-20-04"
 }
 
-variable "do_application_null" {
-  description = "Plesk 17.8 on CentOS 7"
-  default     = "null"
-}
-
 variable "do_application_mpdev-hectordevtest-20-10" {
   description = "Hector dev test 2 0.0.1 on Ubuntu 20.10"
   default     = "mpdev-hectordevtest-20-10"
@@ -884,7 +879,7 @@ variable "do_application_passbolt-18-04" {
 }
 
 variable "do_application_passboltsa-passboltce-20-04" {
-  description = "Passbolt CE 3.2.1 on Ubuntu 20.04"
+  description = "Passbolt CE 3.2.1-2 on Ubuntu 20.04"
   default     = "passboltsa-passboltce-20-04"
 }
 
@@ -986,6 +981,16 @@ variable "do_application_redash-18-04" {
 variable "do_application_restya-restyaboard-18-04" {
   description = "Restyaboard 0.6.9 on Ubuntu 18.04"
   default     = "restya-restyaboard-18-04"
+}
+
+variable "do_application_restya-restyaboard-20-04" {
+  description = "Restyaboard 1.7 on Ubuntu 20.04"
+  default     = "restya-restyaboard-20-04"
+}
+
+variable "do_application_null" {
+  description = "Plesk 17.8 on CentOS 7"
+  default     = "null"
 }
 
 variable "do_application_restya-restyaboardcento-7-6" {
