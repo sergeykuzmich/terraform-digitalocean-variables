@@ -924,7 +924,7 @@ variable "do_application_plesk-7-6" {
 }
 
 variable "do_application_plesk-pleskcentos-7-7" {
-  description = "Plesk (CentOS) 18.0 on CentOS 7.7"
+  description = "Plesk (CentOS) 18.0 on CentOS 7.9"
   default     = "plesk-pleskcentos-7-7"
 }
 
