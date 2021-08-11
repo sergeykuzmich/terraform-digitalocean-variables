@@ -988,11 +988,6 @@ variable "do_application_restya-restyaboard-20-04" {
   default     = "restya-restyaboard-20-04"
 }
 
-variable "do_application_null" {
-  description = "Plesk 17.8 on CentOS 7"
-  default     = "null"
-}
-
 variable "do_application_restya-restyaboardcento-7-6" {
   description = "Restyaboard (CentOS) 0.6.9 on CentOS 7.6"
   default     = "restya-restyaboardcento-7-6"
@@ -1059,8 +1054,13 @@ variable "do_application_saltcorn-20-04" {
 }
 
 variable "do_application_sandflysecurity-20-04" {
-  description = "Sandfly Security 2.9.0 on Ubuntu 20.04"
+  description = "Sandfly Security 3.0.0 on Ubuntu 20.04"
   default     = "sandflysecurity-20-04"
+}
+
+variable "do_application_null" {
+  description = "Plesk 17.8 on CentOS 7"
+  default     = "null"
 }
 
 variable "do_application_searchblox-searchbloxenterp-7-6" {
