@@ -94,7 +94,7 @@ variable "do_application_appwrite-18-04" {
 }
 
 variable "do_application_appwrite-20-04" {
-  description = "Appwrite 0.9.2 on Ubuntu 20.04"
+  description = "Appwrite 0.9.4 on Ubuntu 20.04"
   default     = "appwrite-20-04"
 }
 
@@ -658,6 +658,11 @@ variable "do_application_metabase-18-04" {
   default     = "metabase-18-04"
 }
 
+variable "do_application_mgtcommercegmbh-cloudpanel1-10-10" {
+  description = "CloudPanel 1 1.0.6 on Debian 10.10"
+  default     = "mgtcommercegmbh-cloudpanel1-10-10"
+}
+
 variable "do_application_mgtcommercegmbh-cloudpanel1-10-4" {
   description = "CloudPanel 1 1.0.4 on Debian 10.7"
   default     = "mgtcommercegmbh-cloudpanel1-10-4"
@@ -923,9 +928,9 @@ variable "do_application_plesk-7-6" {
   default     = "plesk-7-6"
 }
 
-variable "do_application_plesk-pleskcentos-7-7" {
+variable "do_application_plesk-pleskcentos-7-9" {
   description = "Plesk (CentOS) 18.0 on CentOS 7.9"
-  default     = "plesk-pleskcentos-7-7"
+  default     = "plesk-pleskcentos-7-9"
 }
 
 variable "do_application_portalcloud-wirespeedvpn-18-04" {
@@ -1053,14 +1058,14 @@ variable "do_application_saltcorn-20-04" {
   default     = "saltcorn-20-04"
 }
 
-variable "do_application_sandflysecurity-20-04" {
-  description = "Sandfly Security 3.0.0 on Ubuntu 20.04"
-  default     = "sandflysecurity-20-04"
-}
-
 variable "do_application_null" {
   description = "Plesk 17.8 on CentOS 7"
   default     = "null"
+}
+
+variable "do_application_sandflysecurity-20-04" {
+  description = "Sandfly Security 3.0.0 on Ubuntu 20.04"
+  default     = "sandflysecurity-20-04"
 }
 
 variable "do_application_searchblox-searchbloxenterp-7-6" {
