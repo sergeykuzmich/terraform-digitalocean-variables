@@ -29,7 +29,7 @@ variable "do_application_alfio-7-6" {
 }
 
 variable "do_application_analythium-opencpu-20-04" {
-  description = "OpenCPU 2.2 on Ubuntu 20.04"
+  description = "OpenCPU 2.2.4 on Ubuntu 20.04"
   default     = "analythium-opencpu-20-04"
 }
 
@@ -39,7 +39,7 @@ variable "do_application_analythium-shinyproxy-18-04" {
 }
 
 variable "do_application_analythium-shinyproxy-20-04" {
-  description = "ShinyProxy 2.5.0 on Ubuntu 20.04"
+  description = "ShinyProxy 2.5.0.1 on Ubuntu 20.04"
   default     = "analythium-shinyproxy-20-04"
 }
 
@@ -384,7 +384,7 @@ variable "do_application_flipstarter-18-04" {
 }
 
 variable "do_application_flussonic-20-04" {
-  description = "flussonic 21.07.1 on Ubuntu 20.04"
+  description = "flussonic 21.08.1 on Ubuntu 20.04"
   default     = "flussonic-20-04"
 }
 
@@ -874,7 +874,7 @@ variable "do_application_ossn-18-04" {
 }
 
 variable "do_application_owncast-10" {
-  description = "Owncast 0.0.6 on Debian 10"
+  description = "Owncast 0.0.8 on Debian 10"
   default     = "owncast-10"
 }
 
@@ -896,6 +896,11 @@ variable "do_application_perconamonitorin-7" {
 variable "do_application_pharoahlanesoftw-webdnaserver864-18-04" {
   description = "WebDNA Server 8.6.4 8.6.4 on Ubuntu 18.04"
   default     = "pharoahlanesoftw-webdnaserver864-18-04"
+}
+
+variable "do_application_photoprism-20-04" {
+  description = "PhotoPrism on Ubuntu 20.04"
+  default     = "photoprism-20-04"
 }
 
 variable "do_application_phpmyadmin-18-04" {
@@ -1309,7 +1314,7 @@ variable "do_application_wordpress-18-04" {
 }
 
 variable "do_application_wordpress-20-04" {
-  description = "WordPress 5.5.1 on Ubuntu 20.04"
+  description = "WordPress 5.8 on Ubuntu 20.04"
   default     = "wordpress-20-04"
 }
 
@@ -1344,7 +1349,7 @@ variable "do_application_zeslecp-7" {
 }
 
 variable "do_application_znuny-znunylts-10" {
-  description = "Znuny LTS 6.0.35 on Debian 10 (buster)"
+  description = "Znuny LTS 6.0.36 on Debian 10 (buster)"
   default     = "znuny-znunylts-10"
 }
 
