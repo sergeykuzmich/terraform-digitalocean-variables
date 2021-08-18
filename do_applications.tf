@@ -594,7 +594,7 @@ variable "do_application_litespeedtechnol-openlitespeeddja-20-04" {
 }
 
 variable "do_application_litespeedtechnol-openlitespeedjoo-20-04" {
-  description = "OpenLiteSpeed Joomla 3.9.22 on Ubuntu 20.04"
+  description = "OpenLiteSpeed Joomla 3.9.28 on Ubuntu 20.04"
   default     = "litespeedtechnol-openlitespeedjoo-20-04"
 }
 
