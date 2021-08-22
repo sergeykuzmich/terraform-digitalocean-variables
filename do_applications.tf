@@ -769,7 +769,7 @@ variable "do_application_nimbella-18-04" {
 }
 
 variable "do_application_nirvatosoftware-nirvashare-20-04" {
-  description = "NirvaShare 1.4 on Ubuntu 20.04 (LTS)"
+  description = "NirvaShare 1.5.1 on Ubuntu 20.04 (LTS)"
   default     = "nirvatosoftware-nirvashare-20-04"
 }
 
