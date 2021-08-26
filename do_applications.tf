@@ -639,7 +639,7 @@ variable "do_application_mattermost-18-04" {
 }
 
 variable "do_application_meilisas-meilisearch-10" {
-  description = "MeiliSearch 0.20.0 on Debian 10 (buster)"
+  description = "MeiliSearch 0.21.0 on Debian 10 (buster)"
   default     = "meilisas-meilisearch-10"
 }
 
@@ -964,7 +964,7 @@ variable "do_application_pyboxtechnologie-pyboxtechmed-20-04" {
 }
 
 variable "do_application_questdb-20-04" {
-  description = "QuestDB 6.0.3 on Ubuntu 20.04"
+  description = "QuestDB 6.0.4 on Ubuntu 20.04"
   default     = "questdb-20-04"
 }
 
