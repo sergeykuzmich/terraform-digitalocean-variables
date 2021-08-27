@@ -1069,7 +1069,7 @@ variable "do_application_null" {
 }
 
 variable "do_application_sandflysecurity-20-04" {
-  description = "Sandfly Security 3.0.0 on Ubuntu 20.04"
+  description = "Sandfly Security 3.0.2 on Ubuntu 20.04"
   default     = "sandflysecurity-20-04"
 }
 
