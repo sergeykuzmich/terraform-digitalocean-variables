@@ -49,7 +49,7 @@ variable "do_application_antmedia-16-04" {
 }
 
 variable "do_application_antmedia-antmediaserverco-18-04" {
-  description = "Ant Media Server Community Edition 2.3.3.1 on Ubuntu 18.04"
+  description = "Ant Media Server Community Edition 2.4.0.2 on Ubuntu 18.04"
   default     = "antmedia-antmediaserverco-18-04"
 }
 
@@ -59,7 +59,7 @@ variable "do_application_antmedia-antmediaserveren-16-04" {
 }
 
 variable "do_application_antmedia-antmediaserveren-18-04" {
-  description = "Ant Media Server Enterprise Edition 2.3.3.1 on Ubuntu 18.04"
+  description = "Ant Media Server Enterprise Edition 2.4.0.2 on Ubuntu 18.04"
   default     = "antmedia-antmediaserveren-18-04"
 }
 
@@ -94,7 +94,7 @@ variable "do_application_appwrite-18-04" {
 }
 
 variable "do_application_appwrite-20-04" {
-  description = "Appwrite 0.9.4 on Ubuntu 20.04"
+  description = "Appwrite 0.10.4 on Ubuntu 20.04"
   default     = "appwrite-20-04"
 }
 
@@ -179,7 +179,7 @@ variable "do_application_caddy-18-04" {
 }
 
 variable "do_application_caprover-18-04" {
-  description = "CapRover 1.9.0 on Ubuntu 18.04"
+  description = "CapRover 1.10.0 on Ubuntu 18.04"
   default     = "caprover-18-04"
 }
 
@@ -239,7 +239,7 @@ variable "do_application_cpanel-cpanelwhm-7-6" {
 }
 
 variable "do_application_cpanel-cpanelwhm-7-9" {
-  description = "cPanel & WHM® 96.0.8 on CentOS 7.9"
+  description = "cPanel & WHM® 98.0.6 on CentOS 7.9"
   default     = "cpanel-cpanelwhm-7-9"
 }
 
@@ -464,7 +464,7 @@ variable "do_application_helpy-18-04" {
 }
 
 variable "do_application_helpyio-helpypro-18-04" {
-  description = "Helpy Pro 3.2.7 on Ubuntu 18.04"
+  description = "Helpy Pro 3.2.7.1 on Ubuntu 18.04"
   default     = "helpyio-helpypro-18-04"
 }
 
@@ -543,6 +543,11 @@ variable "do_application_kandralabs-zulip-18-04" {
   default     = "kandralabs-zulip-18-04"
 }
 
+variable "do_application_kasmtechnologies-kasmworkspaces-18-04" {
+  description = "Kasm Workspaces 1.9.0 on Ubuntu 18.04"
+  default     = "kasmtechnologies-kasmworkspaces-18-04"
+}
+
 variable "do_application_konnectedmindzte-hyperledgerfabri-18-04" {
   description = "Hyperledger Fabric Cloud Lab 1.4.2 on Ubuntu 18.04"
   default     = "konnectedmindzte-hyperledgerfabri-18-04"
@@ -619,7 +624,7 @@ variable "do_application_litespeedtechnol-openlitespeedwor-18-04" {
 }
 
 variable "do_application_litespeedtechnol-openlitespeedwor-20-04" {
-  description = "OpenLiteSpeed WordPress 5.7 on Ubuntu 20.04"
+  description = "OpenLiteSpeed WordPress 5.8.1 on Ubuntu 20.04"
   default     = "litespeedtechnol-openlitespeedwor-20-04"
 }
 
@@ -639,7 +644,7 @@ variable "do_application_mattermost-18-04" {
 }
 
 variable "do_application_meilisas-meilisearch-10" {
-  description = "MeiliSearch 0.21.0 on Debian 10 (buster)"
+  description = "MeiliSearch 0.22.0 on Debian 10 (buster)"
   default     = "meilisas-meilisearch-10"
 }
 
@@ -1069,7 +1074,7 @@ variable "do_application_null" {
 }
 
 variable "do_application_sandflysecurity-20-04" {
-  description = "Sandfly Security 3.0.2 on Ubuntu 20.04"
+  description = "Sandfly Security 3.0.4 on Ubuntu 20.04"
   default     = "sandflysecurity-20-04"
 }
 
@@ -1159,7 +1164,7 @@ variable "do_application_simontelephonics-freepbx-7-8" {
 }
 
 variable "do_application_simplex-simplexserver-20-04" {
-  description = "SimpleX server 0.3.2 on Ubuntu 20.04"
+  description = "SimpleX server 0.4.1 on Ubuntu 20.04"
   default     = "simplex-simplexserver-20-04"
 }
 
