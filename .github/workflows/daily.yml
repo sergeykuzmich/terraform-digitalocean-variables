@@ -32,7 +32,7 @@ jobs:
         node-version: '10.x'
 
     - name: Setup `node-fetch`
-      run: npm install node-fetch --loglevel error
+      run: npm install node-fetch@2.6.1 --loglevel error
 
     - name: Fetch Variables
       run: node main.js
