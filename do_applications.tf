@@ -209,7 +209,7 @@ variable "do_application_cloudron-18-04" {
 }
 
 variable "do_application_cloudron-20-04" {
-  description = "Cloudron 6.3.5 on Ubuntu 20.04"
+  description = "Cloudron 6.3.6 on Ubuntu 20.04"
   default     = "cloudron-20-04"
 }
 
@@ -276,6 +276,11 @@ variable "do_application_deadletter-18-04" {
 variable "do_application_devdojo-laravel-20-04" {
   description = "Laravel 7.20.0 on Ubuntu 20.04"
   default     = "devdojo-laravel-20-04"
+}
+
+variable "do_application_devrel-teleport-20-04" {
+  description = "Teleport 7.1.0 on Ubuntu 20.04"
+  default     = "devrel-teleport-20-04"
 }
 
 variable "do_application_directus-18-04" {
@@ -894,7 +899,7 @@ variable "do_application_passboltsa-passboltce-20-04" {
 }
 
 variable "do_application_perconamonitorin-7" {
-  description = "Percona Monitoring and Management 2 2.12.0 on CentOS 7"
+  description = "Percona Monitoring and Management 2 2.21.0 on CentOS 7"
   default     = "perconamonitorin-7"
 }
 
