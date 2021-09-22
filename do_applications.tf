@@ -248,6 +248,11 @@ variable "do_application_csmm-20-04" {
   default     = "csmm-20-04"
 }
 
+variable "do_application_cubitetechnologi-cubite-20-04" {
+  description = "CUBITE lilac on Ubuntu 20.04"
+  default     = "cubitetechnologi-cubite-20-04"
+}
+
 variable "do_application_curiositygmbh-curiosity-16-04" {
   description = "Curiosity 0.12549 on Ubuntu 16.04"
   default     = "curiositygmbh-curiosity-16-04"
