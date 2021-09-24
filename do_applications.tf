@@ -518,6 +518,11 @@ variable "do_application_iota-iotahornetnode-18-04" {
   default     = "iota-iotahornetnode-18-04"
 }
 
+variable "do_application_ispsystem-ispmanager-7" {
+  description = "ISPmanager 6.8.2 on CentOS 7.x"
+  default     = "ispsystem-ispmanager-7"
+}
+
 variable "do_application_ispsystem-ispmanagerlite-7" {
   description = "ISPmanager Lite 5.246.0 on CentOS 7.x"
   default     = "ispsystem-ispmanagerlite-7"
@@ -784,7 +789,7 @@ variable "do_application_nimbella-18-04" {
 }
 
 variable "do_application_nirvatosoftware-nirvashare-20-04" {
-  description = "NirvaShare 1.5.1 on Ubuntu 20.04 (LTS)"
+  description = "NirvaShare 1.5.3 on Ubuntu 20.04 (LTS)"
   default     = "nirvatosoftware-nirvashare-20-04"
 }
 
