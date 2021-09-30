@@ -223,6 +223,11 @@ variable "do_application_code-server-18-04" {
   default     = "code-server-18-04"
 }
 
+variable "do_application_codelathe-filecloud-20-04" {
+  description = "FileCloud 21.2 on Ubuntu 20.04"
+  default     = "codelathe-filecloud-20-04"
+}
+
 variable "do_application_countly-18-04" {
   description = "Countly Analytics 20.04.1 on Ubuntu 18.04"
   default     = "countly-18-04"
@@ -741,6 +746,11 @@ variable "do_application_mpdev-gutiumtestappnew-20-04" {
 variable "do_application_mpdev-hectordevtest-20-10" {
   description = "Hector dev test 2 0.0.1 on Ubuntu 20.10"
   default     = "mpdev-hectordevtest-20-10"
+}
+
+variable "do_application_mpdev-hectorinmutables" {
+  description = "hector inmutable slugs 2 yeeeeeet 1.0.0 on Ubuntu 20.01"
+  default     = "mpdev-hectorinmutables"
 }
 
 variable "do_application_mpdev-hectortestimages-18-04" {
