@@ -1093,14 +1093,14 @@ variable "do_application_saltcorn-20-04" {
   default     = "saltcorn-20-04"
 }
 
-variable "do_application_null" {
-  description = "Plesk 17.8 on CentOS 7"
-  default     = "null"
-}
-
 variable "do_application_sandflysecurity-20-04" {
   description = "Sandfly Security 3.0.5 on Ubuntu 20.04"
   default     = "sandflysecurity-20-04"
+}
+
+variable "do_application_null" {
+  description = "Plesk 17.8 on CentOS 7"
+  default     = "null"
 }
 
 variable "do_application_searchblox-searchbloxenterp-7-6" {
@@ -1378,8 +1378,13 @@ variable "do_application_zeslecp-7" {
   default     = "zeslecp-7"
 }
 
+variable "do_application_znuny" {
+  description = "Znuny 6.1.2 on Debian 10 (buster)"
+  default     = "znuny"
+}
+
 variable "do_application_znuny-znunylts-10" {
-  description = "Znuny LTS 6.0.36 on Debian 10 (buster)"
+  description = "Znuny LTS 6.0.37 on Debian 10 (buster)"
   default     = "znuny-znunylts-10"
 }
 
