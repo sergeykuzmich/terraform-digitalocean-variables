@@ -904,7 +904,7 @@ variable "do_application_ossn-18-04" {
 }
 
 variable "do_application_owncast-10" {
-  description = "Owncast 0.0.8 on Debian 10"
+  description = "Owncast on Debian 10"
   default     = "owncast-10"
 }
 
