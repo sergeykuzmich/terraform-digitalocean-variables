@@ -458,6 +458,11 @@ variable "do_application_grandnode-18-04" {
   default     = "grandnode-18-04"
 }
 
+variable "do_application_grandnode-grandnode20-18-04" {
+  description = "GrandNode 2.0 1.0.0 on Ubuntu 18.04"
+  default     = "grandnode-grandnode20-18-04"
+}
+
 variable "do_application_haproxywi-roxywi-7" {
   description = "Roxy-WI 4.5.1 on CentOS 7"
   default     = "haproxywi-roxywi-7"
@@ -594,7 +599,7 @@ variable "do_application_lemp-18-04" {
 }
 
 variable "do_application_lemp-20-04" {
-  description = "LEMP on Ubuntu 20.04"
+  description = "LEMP 42 on Ubuntu 20.04"
   default     = "lemp-20-04"
 }
 
@@ -1093,14 +1098,14 @@ variable "do_application_saltcorn-20-04" {
   default     = "saltcorn-20-04"
 }
 
-variable "do_application_sandflysecurity-20-04" {
-  description = "Sandfly Security 3.0.5 on Ubuntu 20.04"
-  default     = "sandflysecurity-20-04"
-}
-
 variable "do_application_null" {
   description = "Plesk 17.8 on CentOS 7"
   default     = "null"
+}
+
+variable "do_application_sandflysecurity-20-04" {
+  description = "Sandfly Security 3.0.5 on Ubuntu 20.04"
+  default     = "sandflysecurity-20-04"
 }
 
 variable "do_application_searchblox-searchbloxenterp-7-6" {
