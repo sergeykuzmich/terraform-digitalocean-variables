@@ -903,11 +903,6 @@ variable "do_application_optimajet-workflowserver-18-04" {
   default     = "optimajet-workflowserver-18-04"
 }
 
-variable "do_application_ossn-18-04" {
-  description = "Open Source Social Network 5.6.0 on Ubuntu 18.04"
-  default     = "ossn-18-04"
-}
-
 variable "do_application_owncast-10" {
   description = "Owncast on Debian 10"
   default     = "owncast-10"
@@ -1216,6 +1211,11 @@ variable "do_application_snapt-snaptaria-18-04" {
 variable "do_application_snapt-snaptnova-18-04" {
   description = "Snapt Nova ADC (Load Balancer, WAF) 1.0.0 on Ubuntu 18.04"
   default     = "snapt-snaptnova-18-04"
+}
+
+variable "do_application_softlab24-opensourcesocial-18-04" {
+  description = "Open Source Social Network 6.1.0 on Ubuntu 18.04"
+  default     = "softlab24-opensourcesocial-18-04"
 }
 
 variable "do_application_solidinvoice-18-04" {
