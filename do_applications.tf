@@ -179,7 +179,7 @@ variable "do_application_caddy-18-04" {
 }
 
 variable "do_application_caprover-18-04" {
-  description = "CapRover 1.10.0 on Ubuntu 18.04"
+  description = "CapRover 1.10.1 on Ubuntu 18.04"
   default     = "caprover-18-04"
 }
 
@@ -366,6 +366,11 @@ variable "do_application_erpnext-18-04" {
 variable "do_application_eummena-moodle-10" {
   description = "moodle 3.10 on Debian 10"
   default     = "eummena-moodle-10"
+}
+
+variable "do_application_everlifeaipte-everlifeai" {
+  description = "Everlife.AI 2.2.0 on 20.04"
+  default     = "everlifeaipte-everlifeai"
 }
 
 variable "do_application_fastnetmon-18-04" {
@@ -669,7 +674,7 @@ variable "do_application_mattermost-18-04" {
 }
 
 variable "do_application_meilisas-meilisearch-10" {
-  description = "MeiliSearch 0.22.0 on Debian 10 (buster)"
+  description = "MeiliSearch 0.23.0 on Debian 10 (buster)"
   default     = "meilisas-meilisearch-10"
 }
 
@@ -978,6 +983,11 @@ variable "do_application_portalcloud-wirespeedvpnbybu-18-04" {
   default     = "portalcloud-wirespeedvpnbybu-18-04"
 }
 
+variable "do_application_null" {
+  description = "Plesk 17.8 on CentOS 7"
+  default     = "null"
+}
+
 variable "do_application_prometheus-18-04" {
   description = "Prometheus 2.9.2 on Ubuntu 18.04"
   default     = "prometheus-18-04"
@@ -1091,11 +1101,6 @@ variable "do_application_runcloud-runcloud2004-20-04" {
 variable "do_application_saltcorn-20-04" {
   description = "Saltcorn 0.4.4 on Ubuntu 20.04"
   default     = "saltcorn-20-04"
-}
-
-variable "do_application_null" {
-  description = "Plesk 17.8 on CentOS 7"
-  default     = "null"
 }
 
 variable "do_application_sandflysecurity-20-04" {
