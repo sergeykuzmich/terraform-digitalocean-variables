@@ -104,7 +104,7 @@ variable "do_application_ascensiosystem-onlyoffice-18-04" {
 }
 
 variable "do_application_ascensiosystemsi-onlyofficeeditor-18-04-4" {
-  description = "ONLYOFFICE Docs 6.1.0.83 on Ubuntu 18.04.4 LTS"
+  description = "ONLYOFFICE Docs 6.4.1 on Ubuntu 20.04.3 LTS"
   default     = "ascensiosystemsi-onlyofficeeditor-18-04-4"
 }
 
@@ -468,6 +468,11 @@ variable "do_application_grandnode-grandnode20-18-04" {
   default     = "grandnode-grandnode20-18-04"
 }
 
+variable "do_application_greendeployhq-django32lts-20-04" {
+  description = "Django 3.2 LTS 3.2.4 on Ubuntu 20.04"
+  default     = "greendeployhq-django32lts-20-04"
+}
+
 variable "do_application_haproxywi-roxywi-7" {
   description = "Roxy-WI 4.5.1 on CentOS 7"
   default     = "haproxywi-roxywi-7"
@@ -629,7 +634,7 @@ variable "do_application_litespeedtechnol-openlitespeeddja-20-04" {
 }
 
 variable "do_application_litespeedtechnol-openlitespeedjoo-20-04" {
-  description = "OpenLiteSpeed Joomla 3.9.28 on Ubuntu 20.04"
+  description = "OpenLiteSpeed Joomla 3.10 on Ubuntu 20.04"
   default     = "litespeedtechnol-openlitespeedjoo-20-04"
 }
 
@@ -659,7 +664,7 @@ variable "do_application_litespeedtechnol-openlitespeedwor-20-04" {
 }
 
 variable "do_application_livehelperchat-7-8-2003" {
-  description = "Live Helper Chat 3.63 on Centos 7.8.2003"
+  description = "Live Helper Chat 3.84 on Centos 7.8.2003"
   default     = "livehelperchat-7-8-2003"
 }
 
