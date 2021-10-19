@@ -168,9 +168,9 @@ variable "do_application_bugfender-20-04" {
   default     = "bugfender-20-04"
 }
 
-variable "do_application_bunkercloudservi-wirespeedvpn-18-04" {
-  description = "WireSpeed VPN 1.1.5 on Ubuntu 18.04"
-  default     = "bunkercloudservi-wirespeedvpn-18-04"
+variable "do_application_bunkercloudservi-warpspeedvpn-18-04" {
+  description = "WarpSpeed VPN 1.1.5 on Ubuntu 18.04"
+  default     = "bunkercloudservi-warpspeedvpn-18-04"
 }
 
 variable "do_application_caddy-18-04" {
@@ -354,7 +354,7 @@ variable "do_application_eltrino-magento2opensour-18-04" {
 }
 
 variable "do_application_eltrino-magento2opensour-20-04" {
-  description = "Magento 2 Open Source 1.4.0 on Ubuntu 20.04 (LTS)"
+  description = "Magento 2 Open Source 1.4.3 on Ubuntu 20.04 (LTS)"
   default     = "eltrino-magento2opensour-20-04"
 }
 
@@ -568,6 +568,16 @@ variable "do_application_jenkins-18-04" {
   default     = "jenkins-18-04"
 }
 
+variable "do_application_null" {
+  description = "Plesk 17.8 on CentOS 7"
+  default     = "null"
+}
+
+variable "do_application_jetappsstorageve-jetbackup5" {
+  description = "JetBackup 5 5 on CentOS 7"
+  default     = "jetappsstorageve-jetbackup5"
+}
+
 variable "do_application_jitsiserver-20-04" {
   description = "Jitsi Server 2.10.5550 on Ubuntu 20.04"
   default     = "jitsiserver-20-04"
@@ -679,7 +689,7 @@ variable "do_application_mattermost-18-04" {
 }
 
 variable "do_application_meilisas-meilisearch-10" {
-  description = "MeiliSearch 0.23.0 on Debian 10 (buster)"
+  description = "MeiliSearch 0.23.1 on Debian 10 (buster)"
   default     = "meilisas-meilisearch-10"
 }
 
@@ -986,11 +996,6 @@ variable "do_application_portalcloud-wirespeedvpn-18-04" {
 variable "do_application_portalcloud-wirespeedvpnbybu-18-04" {
   description = "WireSpeed VPN 1.1.5 on Ubuntu 18.04"
   default     = "portalcloud-wirespeedvpnbybu-18-04"
-}
-
-variable "do_application_null" {
-  description = "Plesk 17.8 on CentOS 7"
-  default     = "null"
 }
 
 variable "do_application_prometheus-18-04" {
