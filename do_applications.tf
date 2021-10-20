@@ -104,7 +104,7 @@ variable "do_application_ascensiosystem-onlyoffice-18-04" {
 }
 
 variable "do_application_ascensiosystemsi-onlyofficeeditor-18-04-4" {
-  description = "ONLYOFFICE Docs 6.4.1 on Ubuntu 20.04.3 LTS"
+  description = "ONLYOFFICE Docs 6.4.2 on Ubuntu 20.04.3 LTS"
   default     = "ascensiosystemsi-onlyofficeeditor-18-04-4"
 }
 
