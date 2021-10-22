@@ -574,7 +574,7 @@ variable "do_application_null" {
 }
 
 variable "do_application_jetappsstorageve-jetbackup5" {
-  description = "JetBackup 5 5 on CentOS 7"
+  description = "JetBackup 5 5 on CentOS 7.9"
   default     = "jetappsstorageve-jetbackup5"
 }
 
