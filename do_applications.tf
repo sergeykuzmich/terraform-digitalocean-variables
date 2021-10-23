@@ -1109,7 +1109,7 @@ variable "do_application_runcloud-runcloud2004-20-04" {
 }
 
 variable "do_application_saltcorn-20-04" {
-  description = "Saltcorn 0.4.4 on Ubuntu 20.04"
+  description = "Saltcorn 0.6.0 on Ubuntu 20.04"
   default     = "saltcorn-20-04"
 }
 
