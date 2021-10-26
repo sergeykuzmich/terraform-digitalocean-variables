@@ -83,13 +83,13 @@ variable "do_distibution_ubuntu-20-04-x64" {
   default     = "ubuntu-20-04-x64"
 }
 
-variable "do_distibution_ubuntu-20-10-x64" {
-  description = "Ubuntu 20.10 x64"
-  default     = "ubuntu-20-10-x64"
-}
-
 variable "do_distibution_ubuntu-21-04-x64" {
   description = "Ubuntu 21.04 x64"
   default     = "ubuntu-21-04-x64"
+}
+
+variable "do_distibution_ubuntu-21-10-x64" {
+  description = "Ubuntu 21.10 x64"
+  default     = "ubuntu-21-10-x64"
 }
     

@@ -1053,6 +1053,11 @@ variable "do_application_restya-restyaboardcento-7-6" {
   default     = "restya-restyaboardcento-7-6"
 }
 
+variable "do_application_restya-restyaboardcento-8-3" {
+  description = "Restyaboard (CentOS) 1.7 on CentOS 7"
+  default     = "restya-restyaboardcento-8-3"
+}
+
 variable "do_application_restyaboard-16-04" {
   description = "Restyaboard 0.6.8 on Ubuntu 16.04"
   default     = "restyaboard-16-04"
