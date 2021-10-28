@@ -568,11 +568,6 @@ variable "do_application_jenkins-18-04" {
   default     = "jenkins-18-04"
 }
 
-variable "do_application_null" {
-  description = "Plesk 17.8 on CentOS 7"
-  default     = "null"
-}
-
 variable "do_application_jetappsstorageve-jetbackup5" {
   description = "JetBackup 5 5 on CentOS 7.9"
   default     = "jetappsstorageve-jetbackup5"
@@ -843,6 +838,16 @@ variable "do_application_nmtec-erxes-18-04" {
   default     = "nmtec-erxes-18-04"
 }
 
+variable "do_application_nodearmy" {
+  description = "node-army 1.0 on Ubuntu 18.04"
+  default     = "nodearmy"
+}
+
+variable "do_application_null" {
+  description = "Plesk 17.8 on CentOS 7"
+  default     = "null"
+}
+
 variable "do_application_nodegame-18-04" {
   description = "NodeGame 6.2.4 on Ubuntu 18.04"
   default     = "nodegame-18-04"
@@ -934,7 +939,7 @@ variable "do_application_passbolt-18-04" {
 }
 
 variable "do_application_passboltsa-passboltce-20-04" {
-  description = "Passbolt CE 3.2.1-2 on Ubuntu 20.04"
+  description = "Passbolt CE 3.3.0-1 on Ubuntu 20.04"
   default     = "passboltsa-passboltce-20-04"
 }
 
@@ -1154,7 +1159,7 @@ variable "do_application_sharklabs-foldinghome-18-04" {
 }
 
 variable "do_application_sharklabs-matrixsynapsebac-10" {
-  description = "Matrix (Synapse backend) 0.1.0 on Debian 10 (buster)"
+  description = "Matrix (Synapse backend) 0.1.2 on Debian 10 (buster)"
   default     = "sharklabs-matrixsynapsebac-10"
 }
 
