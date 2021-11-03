@@ -1313,6 +1313,11 @@ variable "do_application_unlight-openunlight-18-04" {
   default     = "unlight-openunlight-18-04"
 }
 
+variable "do_application_utnadmins-utunnelvpn" {
+  description = "UTunnel VPN 1.0.0 on Ubuntu 20.04"
+  default     = "utnadmins-utunnelvpn"
+}
+
 variable "do_application_uxlens-18-04" {
   description = "UXLens 0.7 on Ubuntu 18.04"
   default     = "uxlens-18-04"
