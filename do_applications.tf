@@ -1414,12 +1414,12 @@ variable "do_application_zeslecp-7" {
 }
 
 variable "do_application_znuny" {
-  description = "Znuny 6.1.2 on Debian 10 (buster)"
+  description = "Znuny 6.2.1 on Debian 10 (buster)"
   default     = "znuny"
 }
 
 variable "do_application_znuny-znunylts-10" {
-  description = "Znuny LTS 6.0.37 on Debian 10 (buster)"
+  description = "Znuny LTS 6.0.38 on Debian 10 (buster)"
   default     = "znuny-znunylts-10"
 }
 
