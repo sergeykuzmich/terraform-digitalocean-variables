@@ -468,6 +468,11 @@ variable "do_application_grandnode-grandnode20-18-04" {
   default     = "grandnode-grandnode20-18-04"
 }
 
+variable "do_application_gravitl-netmaker" {
+  description = "Netmaker 0.8.5 on Ubuntu 20.04"
+  default     = "gravitl-netmaker"
+}
+
 variable "do_application_greendeployhq-django32lts-20-04" {
   description = "Django 3.2 LTS 3.2.4 on Ubuntu 20.04"
   default     = "greendeployhq-django32lts-20-04"
