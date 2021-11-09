@@ -209,7 +209,7 @@ variable "do_application_cloudron-18-04" {
 }
 
 variable "do_application_cloudron-20-04" {
-  description = "Cloudron 6.3.6 on Ubuntu 20.04"
+  description = "Cloudron 7.0.3 on Ubuntu 20.04"
   default     = "cloudron-20-04"
 }
 
@@ -441,6 +441,11 @@ variable "do_application_gitlab-gitlabenterprise-18-04" {
 variable "do_application_gitlab-gitlabenterprise-20-04" {
   description = "GitLab Enterprise Edition on Ubuntu 20.04"
   default     = "gitlab-gitlabenterprise-20-04"
+}
+
+variable "do_application_null" {
+  description = "Plesk 17.8 on CentOS 7"
+  default     = "null"
 }
 
 variable "do_application_gitlab-meltano-18-04" {
@@ -844,13 +849,8 @@ variable "do_application_nmtec-erxes-18-04" {
 }
 
 variable "do_application_nodearmy" {
-  description = "node-army 1.0 on Ubuntu 18.04"
+  description = "node-army 2.0 on Ubuntu 18.04"
   default     = "nodearmy"
-}
-
-variable "do_application_null" {
-  description = "Plesk 17.8 on CentOS 7"
-  default     = "null"
 }
 
 variable "do_application_nodegame-18-04" {
