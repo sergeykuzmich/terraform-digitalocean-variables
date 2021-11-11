@@ -13,6 +13,11 @@ variable "do_application_aecsystems-speckleserver-20-04" {
   default     = "aecsystems-speckleserver-20-04"
 }
 
+variable "do_application_airbyte" {
+  description = "Airbyte 0.30.25 on 20.04"
+  default     = "airbyte"
+}
+
 variable "do_application_akaunting-18-04" {
   description = "Akaunting on Ubuntu 18.04"
   default     = "akaunting-18-04"
@@ -39,7 +44,7 @@ variable "do_application_analythium-shinyproxy-18-04" {
 }
 
 variable "do_application_analythium-shinyproxy-20-04" {
-  description = "ShinyProxy 2.5.0.1 on Ubuntu 20.04"
+  description = "ShinyProxy 2.6.0.1 on Ubuntu 20.04"
   default     = "analythium-shinyproxy-20-04"
 }
 
@@ -443,11 +448,6 @@ variable "do_application_gitlab-gitlabenterprise-20-04" {
   default     = "gitlab-gitlabenterprise-20-04"
 }
 
-variable "do_application_null" {
-  description = "Plesk 17.8 on CentOS 7"
-  default     = "null"
-}
-
 variable "do_application_gitlab-meltano-18-04" {
   description = "Meltano 1.15.0 on Ubuntu 18.04"
   default     = "gitlab-meltano-18-04"
@@ -849,8 +849,13 @@ variable "do_application_nmtec-erxes-18-04" {
 }
 
 variable "do_application_nodearmy" {
-  description = "node-army 2.0 on Ubuntu 18.04"
+  description = "node-army 2.1 on Ubuntu 18.04"
   default     = "nodearmy"
+}
+
+variable "do_application_null" {
+  description = "Plesk 17.8 on CentOS 7"
+  default     = "null"
 }
 
 variable "do_application_nodegame-18-04" {
