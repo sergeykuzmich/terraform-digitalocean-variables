@@ -608,6 +608,11 @@ variable "do_application_kromit-titra-18-04" {
   default     = "kromit-titra-18-04"
 }
 
+variable "do_application_kuyio-wireguardianvpna" {
+  description = "Wireguardian VPN Access Server 2110.0 on Ubuntu 20.04"
+  default     = "kuyio-wireguardianvpna"
+}
+
 variable "do_application_lamp-18-04" {
   description = "LAMP on Ubuntu 18.04"
   default     = "lamp-18-04"
