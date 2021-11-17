@@ -579,7 +579,7 @@ variable "do_application_jenkins-18-04" {
 }
 
 variable "do_application_jetappsstorageve-jetbackup5" {
-  description = "JetBackup 5 5 on CentOS 7.9"
+  description = "JetBackup on CentOS 7.9"
   default     = "jetappsstorageve-jetbackup5"
 }
 
