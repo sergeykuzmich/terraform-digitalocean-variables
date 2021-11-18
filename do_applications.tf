@@ -669,7 +669,7 @@ variable "do_application_litespeedtechnol-openlitespeednod-20-04" {
 }
 
 variable "do_application_litespeedtechnol-openlitespeedrai-20-04" {
-  description = "OpenLiteSpeed Rails 6.1.3.1 on Ubuntu 20.04"
+  description = "OpenLiteSpeed Rails 6.1.4.1 on Ubuntu 20.04"
   default     = "litespeedtechnol-openlitespeedrai-20-04"
 }
 
@@ -699,7 +699,7 @@ variable "do_application_mattermost-18-04" {
 }
 
 variable "do_application_meilisas-meilisearch-10" {
-  description = "MeiliSearch 0.23.1 on Debian 10 (buster)"
+  description = "MeiliSearch 0.24.0 on Debian 10 (buster)"
   default     = "meilisas-meilisearch-10"
 }
 
@@ -853,14 +853,14 @@ variable "do_application_nmtec-erxes-18-04" {
   default     = "nmtec-erxes-18-04"
 }
 
-variable "do_application_nodearmy" {
-  description = "node-army 2.1 on Ubuntu 18.04"
-  default     = "nodearmy"
-}
-
 variable "do_application_null" {
   description = "Plesk 17.8 on CentOS 7"
   default     = "null"
+}
+
+variable "do_application_nodearmy" {
+  description = "node-army 2.1 on Ubuntu 18.04"
+  default     = "nodearmy"
 }
 
 variable "do_application_nodegame-18-04" {
@@ -1018,6 +1018,11 @@ variable "do_application_portalcloud-wirespeedvpnbybu-18-04" {
   default     = "portalcloud-wirespeedvpnbybu-18-04"
 }
 
+variable "do_application_powertrader-coincollectorbyp" {
+  description = "Coin Collector by PowerTrader.net 1.0 on Ubuntu 20.04"
+  default     = "powertrader-coincollectorbyp"
+}
+
 variable "do_application_prometheus-18-04" {
   description = "Prometheus 2.9.2 on Ubuntu 18.04"
   default     = "prometheus-18-04"
@@ -1164,7 +1169,7 @@ variable "do_application_selfhostedpro-yacht-20-04" {
 }
 
 variable "do_application_severalnines-clustercontrol-20-04" {
-  description = "ClusterControl 1.9.0 on Ubuntu 20.04"
+  description = "ClusterControl 1.9.1 on Ubuntu 20.04"
   default     = "severalnines-clustercontrol-20-04"
 }
 
