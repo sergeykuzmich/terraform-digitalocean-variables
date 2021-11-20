@@ -214,7 +214,7 @@ variable "do_application_cloudron-18-04" {
 }
 
 variable "do_application_cloudron-20-04" {
-  description = "Cloudron 7.0.3 on Ubuntu 20.04"
+  description = "Cloudron 7.0.4 on Ubuntu 20.04"
   default     = "cloudron-20-04"
 }
 
@@ -1229,7 +1229,7 @@ variable "do_application_simontelephonics-freepbx-7-6" {
 }
 
 variable "do_application_simontelephonics-freepbx-7-8" {
-  description = "FreePBX® 15 on CentOS 7.8"
+  description = "FreePBX® 16 on CentOS 7.8"
   default     = "simontelephonics-freepbx-7-8"
 }
 
