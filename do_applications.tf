@@ -1358,6 +1358,11 @@ variable "do_application_varnishsoftware-varnishcache-18-04" {
   default     = "varnishsoftware-varnishcache-18-04"
 }
 
+variable "do_application_victoriametrics-victoriametricss" {
+  description = "VictoriaMetrics Single 1.69.0 on Ubuntu 20.04"
+  default     = "victoriametrics-victoriametricss"
+}
+
 variable "do_application_vitalpointz-7-6" {
   description = "vitalpointz IoT Core Lite 1.2.0 on CentOS 7.6"
   default     = "vitalpointz-7-6"
