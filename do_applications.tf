@@ -589,7 +589,7 @@ variable "do_application_jitsiserver-20-04" {
 }
 
 variable "do_application_kandralabs-zulip-18-04" {
-  description = "Zulip 4.5 on Ubuntu 18.04"
+  description = "Zulip 4.7 on Ubuntu 20.04"
   default     = "kandralabs-zulip-18-04"
 }
 
@@ -864,7 +864,7 @@ variable "do_application_nodearmy" {
 }
 
 variable "do_application_nodegame-18-04" {
-  description = "NodeGame 6.2.4 on Ubuntu 18.04"
+  description = "NodeGame 7.1.0 on Ubuntu 18.04"
   default     = "nodegame-18-04"
 }
 
@@ -1039,7 +1039,7 @@ variable "do_application_pyboxtechnologie-pyboxtechmed-20-04" {
 }
 
 variable "do_application_questdb-20-04" {
-  description = "QuestDB 6.0.4 on Ubuntu 20.04"
+  description = "QuestDB 6.1.2 on Ubuntu 20.04"
   default     = "questdb-20-04"
 }
 
