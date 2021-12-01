@@ -474,7 +474,7 @@ variable "do_application_grandnode-grandnode20-18-04" {
 }
 
 variable "do_application_gravitl-netmaker" {
-  description = "Netmaker 0.8.5 on Ubuntu 20.04"
+  description = "Netmaker 0.9.1 on Ubuntu 20.04"
   default     = "gravitl-netmaker"
 }
 
@@ -1114,7 +1114,7 @@ variable "do_application_rocketchat-18-04" {
 }
 
 variable "do_application_rocketchat-20-04" {
-  description = "Rocket.Chat 3.14.0 on Ubuntu 20.04"
+  description = "Rocket.Chat 4.1.2 on Ubuntu 20.04"
   default     = "rocketchat-20-04"
 }
 
