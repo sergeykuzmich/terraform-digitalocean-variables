@@ -853,14 +853,19 @@ variable "do_application_nmtec-erxes-18-04" {
   default     = "nmtec-erxes-18-04"
 }
 
-variable "do_application_null" {
-  description = "Plesk 17.8 on CentOS 7"
-  default     = "null"
-}
-
 variable "do_application_nodearmy" {
   description = "node-army 2.1 on Ubuntu 18.04"
   default     = "nodearmy"
+}
+
+variable "do_application_null" {
+  description = "filecoin-lotus 1.11.0 on Ubuntu 20.04 (LTS)"
+  default     = "null"
+}
+
+variable "do_application_null" {
+  description = "Plesk 17.8 on CentOS 7"
+  default     = "null"
 }
 
 variable "do_application_nodegame-18-04" {
@@ -1029,7 +1034,7 @@ variable "do_application_prometheus-18-04" {
 }
 
 variable "do_application_protocollabs-filecoinlotus-20-04" {
-  description = "filecoin-lotus 1.11.0 on Ubuntu 20.04 (LTS)"
+  description = "filecoin-lotus 1.13.0 on Ubuntu 20.04 (LTS)"
   default     = "protocollabs-filecoinlotus-20-04"
 }
 
