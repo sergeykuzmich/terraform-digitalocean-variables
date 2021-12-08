@@ -968,6 +968,11 @@ variable "do_application_perconamonitorin-7" {
   default     = "perconamonitorin-7"
 }
 
+variable "do_application_perforce-perforcehelixcor" {
+  description = "Perforce Helix Core 2021.1.2179737 on CentOS 7.9"
+  default     = "perforce-perforcehelixcor"
+}
+
 variable "do_application_pharoahlanesoftw-webdnaserver864-18-04" {
   description = "WebDNA Server 8.6.4 8.6.4 on Ubuntu 18.04"
   default     = "pharoahlanesoftw-webdnaserver864-18-04"
