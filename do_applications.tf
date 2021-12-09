@@ -54,7 +54,7 @@ variable "do_application_antmedia-16-04" {
 }
 
 variable "do_application_antmedia-antmediaserverco-18-04" {
-  description = "Ant Media Server Community Edition 2.4.0.2 on Ubuntu 18.04"
+  description = "Ant Media Server Community Edition 2.4.1 on Ubuntu 18.04"
   default     = "antmedia-antmediaserverco-18-04"
 }
 
@@ -64,7 +64,7 @@ variable "do_application_antmedia-antmediaserveren-16-04" {
 }
 
 variable "do_application_antmedia-antmediaserveren-18-04" {
-  description = "Ant Media Server Enterprise Edition 2.4.0.2 on Ubuntu 18.04"
+  description = "Ant Media Server Enterprise Edition 2.4.1 on Ubuntu 18.04"
   default     = "antmedia-antmediaserveren-18-04"
 }
 
@@ -164,7 +164,7 @@ variable "do_application_buddy-repman-18-04" {
 }
 
 variable "do_application_budibase-20-04" {
-  description = "Budibase 0.9.1 on Ubuntu 20.04"
+  description = "Budibase 1.0.0 on Ubuntu 20.04"
   default     = "budibase-20-04"
 }
 
@@ -249,7 +249,7 @@ variable "do_application_cpanel-cpanelwhm-7-6" {
 }
 
 variable "do_application_cpanel-cpanelwhm-7-9" {
-  description = "cPanel & WHM® 98.0.6 on CentOS 7.9"
+  description = "cPanel & WHM® 100.0.4 on CentOS 7.9"
   default     = "cpanel-cpanelwhm-7-9"
 }
 
@@ -294,7 +294,7 @@ variable "do_application_devdojo-laravel-20-04" {
 }
 
 variable "do_application_devrel-teleport-20-04" {
-  description = "Teleport 7.1.3 on Ubuntu 20.04"
+  description = "Teleport 8.0.1 on Ubuntu 20.04"
   default     = "devrel-teleport-20-04"
 }
 
@@ -514,7 +514,7 @@ variable "do_application_honeydbagent-9" {
 }
 
 variable "do_application_humhubgmbhkg-humhub-10" {
-  description = "HumHub 1.8.2 on Debian 10"
+  description = "HumHub 1.10.2 on Debian 10"
   default     = "humhubgmbhkg-humhub-10"
 }
 
@@ -856,16 +856,6 @@ variable "do_application_nmtec-erxes-18-04" {
 variable "do_application_nodearmy" {
   description = "node-army 2.1 on Ubuntu 18.04"
   default     = "nodearmy"
-}
-
-variable "do_application_null" {
-  description = "filecoin-lotus 1.11.0 on Ubuntu 20.04 (LTS)"
-  default     = "null"
-}
-
-variable "do_application_null" {
-  description = "Plesk 17.8 on CentOS 7"
-  default     = "null"
 }
 
 variable "do_application_nodegame-18-04" {
@@ -1258,6 +1248,16 @@ variable "do_application_skaffolder-18-04" {
   default     = "skaffolder-18-04"
 }
 
+variable "do_application_null" {
+  description = "Plesk 17.8 on CentOS 7"
+  default     = "null"
+}
+
+variable "do_application_null" {
+  description = "filecoin-lotus 1.11.0 on Ubuntu 20.04 (LTS)"
+  default     = "null"
+}
+
 variable "do_application_snapt-snaptaria-18-04" {
   description = "Snapt Aria 2.0.0 on Ubuntu 18.04"
   default     = "snapt-snaptaria-18-04"
@@ -1369,7 +1369,7 @@ variable "do_application_varnishsoftware-varnishcache-18-04" {
 }
 
 variable "do_application_victoriametrics-victoriametricss" {
-  description = "VictoriaMetrics Single 1.69.0 on Ubuntu 20.04"
+  description = "VictoriaMetrics Single 1.70.0 on Ubuntu 20.04"
   default     = "victoriametrics-victoriametricss"
 }
 

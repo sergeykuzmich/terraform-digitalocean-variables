@@ -73,8 +73,13 @@ variable "do_distibution_rancheros" {
   default     = "rancheros"
 }
 
-variable "do_distibution_rockylinux-8-x64" {
+variable "do_distibution_rockylinux-8-4-x64" {
   description = "Rocky Linux RockyLinux 8.4 x64"
+  default     = "rockylinux-8-4-x64"
+}
+
+variable "do_distibution_rockylinux-8-x64" {
+  description = "Rocky Linux RockyLinux 8.5 x64"
   default     = "rockylinux-8-x64"
 }
 
