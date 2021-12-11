@@ -739,7 +739,7 @@ variable "do_application_microweber-18-04" {
 }
 
 variable "do_application_microwebercms-microweber-20-04" {
-  description = "Microweber 1.2.8 on Ubuntu 20.04"
+  description = "Microweber 1.2.10 on Ubuntu 20.04"
   default     = "microwebercms-microweber-20-04"
 }
 
@@ -856,6 +856,21 @@ variable "do_application_nmtec-erxes-18-04" {
 variable "do_application_nodearmy" {
   description = "node-army 2.1 on Ubuntu 18.04"
   default     = "nodearmy"
+}
+
+variable "do_application_null" {
+  description = "filecoin-lotus 1.11.0 on Ubuntu 20.04 (LTS)"
+  default     = "null"
+}
+
+variable "do_application_null" {
+  description = "Plesk 17.8 on CentOS 7"
+  default     = "null"
+}
+
+variable "do_application_nodearmy-nodearmy30" {
+  description = "node-army-3.0 3.0 on Ubuntu 20.04 (LTS)"
+  default     = "nodearmy-nodearmy30"
 }
 
 variable "do_application_nodegame-18-04" {
@@ -1019,7 +1034,7 @@ variable "do_application_portalcloud-wirespeedvpnbybu-18-04" {
 }
 
 variable "do_application_powertrader-coincollectorbyp" {
-  description = "Coin Collector by PowerTrader.net 1.0 on Ubuntu 20.04"
+  description = "Coin Collector by PowerTrader.net 1.2 on Ubuntu 20.04"
   default     = "powertrader-coincollectorbyp"
 }
 
@@ -1246,16 +1261,6 @@ variable "do_application_simplystatistics-rstudio-18-04" {
 variable "do_application_skaffolder-18-04" {
   description = "Skaffolder 3.0 on Ubuntu 18.04"
   default     = "skaffolder-18-04"
-}
-
-variable "do_application_null" {
-  description = "Plesk 17.8 on CentOS 7"
-  default     = "null"
-}
-
-variable "do_application_null" {
-  description = "filecoin-lotus 1.11.0 on Ubuntu 20.04 (LTS)"
-  default     = "null"
 }
 
 variable "do_application_snapt-snaptaria-18-04" {
