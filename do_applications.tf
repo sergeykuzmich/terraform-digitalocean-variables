@@ -758,11 +758,6 @@ variable "do_application_helpyio-helpypro-18-04" {
   default     = "helpyio-helpypro-18-04"
 }
 
-variable "do_application_kasmtechnologies-kasmworkspaces-18-04" {
-  description = "Kasm Workspaces 1.9.0 on Ubuntu 18.04"
-  default     = "kasmtechnologies-kasmworkspaces-18-04"
-}
-
 variable "do_application_litespeedtechnol-openlitespeedwor-20-04" {
   description = "OpenLiteSpeed WordPress 5.8.1 on Ubuntu 20.04"
   default     = "litespeedtechnol-openlitespeedwor-20-04"
@@ -848,14 +843,19 @@ variable "do_application_humhubgmbhkg-humhub-10" {
   default     = "humhubgmbhkg-humhub-10"
 }
 
+variable "do_application_perforce-perforcehelixcor" {
+  description = "Perforce Helix Core 2021.1.2179737 on CentOS 7.9"
+  default     = "perforce-perforcehelixcor"
+}
+
 variable "do_application_analythium-opencpu-20-04" {
   description = "OpenCPU 2.2.4 on Ubuntu 20.04"
   default     = "analythium-opencpu-20-04"
 }
 
-variable "do_application_perforce-perforcehelixcor" {
-  description = "Perforce Helix Core 2021.1.2179737 on CentOS 7.9"
-  default     = "perforce-perforcehelixcor"
+variable "do_application_kasmtechnologies-kasmworkspaces-18-04" {
+  description = "Kasm Workspaces 1.10.0 on Ubuntu 18.04"
+  default     = "kasmtechnologies-kasmworkspaces-18-04"
 }
 
 variable "do_application_acra-18-04" {
