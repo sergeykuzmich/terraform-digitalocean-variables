@@ -299,7 +299,7 @@ variable "do_application_prometheus-18-04" {
 }
 
 variable "do_application_jitsiserver-20-04" {
-  description = "Jitsi Server 2.10.5550 on Ubuntu 20.04"
+  description = "Jitsi Server 2.0.6726 on Ubuntu 20.04"
   default     = "jitsiserver-20-04"
 }
 
