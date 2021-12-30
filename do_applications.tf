@@ -89,7 +89,7 @@ variable "do_application_aplitel-vitalpbx-7" {
 }
 
 variable "do_application_appsmith-18-04" {
-  description = "Appsmith 1.5 on Ubuntu 18.04"
+  description = "Appsmith 1.5 on Ubuntu 20.04"
   default     = "appsmith-18-04"
 }
 
@@ -854,7 +854,7 @@ variable "do_application_nmtec-erxes-18-04" {
 }
 
 variable "do_application_nodearmy" {
-  description = "node-army 2.1 on Ubuntu 18.04"
+  description = "node-army 3.0 on Ubuntu 20.04"
   default     = "nodearmy"
 }
 
