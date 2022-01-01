@@ -74,7 +74,7 @@ variable "do_application_apisnetworks-apiscp-8-2" {
 }
 
 variable "do_application_apisnetworks-apiscp-8-3" {
-  description = "ApisCP 3.2 on CentOS 8.3"
+  description = "ApisCP 3.2 on Rocky Linux 8.5"
   default     = "apisnetworks-apiscp-8-3"
 }
 
@@ -638,6 +638,11 @@ variable "do_application_litespeedtechnol-cyberpanel-20-04" {
   default     = "litespeedtechnol-cyberpanel-20-04"
 }
 
+variable "do_application_litespeedtechnol-cyberpaneljoomla" {
+  description = "CyberPanel Joomla 3.0.10 on Ubuntu 20.04"
+  default     = "litespeedtechnol-cyberpaneljoomla"
+}
+
 variable "do_application_litespeedtechnol-openlitespeedcla-18-04" {
   description = "OpenLiteSpeed ClassicPress 1.2.0 on Ubuntu 20.04"
   default     = "litespeedtechnol-openlitespeedcla-18-04"
@@ -654,7 +659,7 @@ variable "do_application_litespeedtechnol-openlitespeeddja-20-04" {
 }
 
 variable "do_application_litespeedtechnol-openlitespeedjoo-20-04" {
-  description = "OpenLiteSpeed Joomla 3.10 on Ubuntu 20.04"
+  description = "OpenLiteSpeed Joomla 4.0.5 on Ubuntu 20.04"
   default     = "litespeedtechnol-openlitespeedjoo-20-04"
 }
 
@@ -1153,14 +1158,14 @@ variable "do_application_saltcorn-20-04" {
   default     = "saltcorn-20-04"
 }
 
-variable "do_application_sandflysecurity-20-04" {
-  description = "Sandfly Security 3.1.0 on Ubuntu 20.04"
-  default     = "sandflysecurity-20-04"
-}
-
 variable "do_application_null" {
   description = "filecoin-lotus 1.11.0 on Ubuntu 20.04 (LTS)"
   default     = "null"
+}
+
+variable "do_application_sandflysecurity-20-04" {
+  description = "Sandfly Security 3.1.0 on Ubuntu 20.04"
+  default     = "sandflysecurity-20-04"
 }
 
 variable "do_application_null" {
