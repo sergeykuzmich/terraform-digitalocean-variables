@@ -579,7 +579,7 @@ variable "do_application_jenkins-18-04" {
 }
 
 variable "do_application_jetappsstorageve-jetbackup5" {
-  description = "JetBackup on CentOS 7.9"
+  description = "JetBackup 5 on CentOS 7.9"
   default     = "jetappsstorageve-jetbackup5"
 }
 
@@ -806,6 +806,16 @@ variable "do_application_mysql-18-04" {
 variable "do_application_mysql-20-04" {
   description = "MySQL 8.0.21 on Ubuntu 20.04"
   default     = "mysql-20-04"
+}
+
+variable "do_application_null" {
+  description = "filecoin-lotus 1.11.0 on Ubuntu 20.04 (LTS)"
+  default     = "null"
+}
+
+variable "do_application_null" {
+  description = "Plesk 17.8 on CentOS 7"
+  default     = "null"
 }
 
 variable "do_application_nakama-18-04" {
@@ -1158,19 +1168,9 @@ variable "do_application_saltcorn-20-04" {
   default     = "saltcorn-20-04"
 }
 
-variable "do_application_null" {
-  description = "filecoin-lotus 1.11.0 on Ubuntu 20.04 (LTS)"
-  default     = "null"
-}
-
 variable "do_application_sandflysecurity-20-04" {
   description = "Sandfly Security 3.1.0 on Ubuntu 20.04"
   default     = "sandflysecurity-20-04"
-}
-
-variable "do_application_null" {
-  description = "Plesk 17.8 on CentOS 7"
-  default     = "null"
 }
 
 variable "do_application_searchblox-searchbloxenterp-7-6" {
