@@ -99,7 +99,7 @@ variable "do_application_appwrite-18-04" {
 }
 
 variable "do_application_appwrite-20-04" {
-  description = "Appwrite 0.11.0 on Ubuntu 20.04"
+  description = "Appwrite 0.12.0 on Ubuntu 20.04"
   default     = "appwrite-20-04"
 }
 
@@ -458,6 +458,11 @@ variable "do_application_gluu-gluuserverce-18-04-3" {
   default     = "gluu-gluuserverce-18-04-3"
 }
 
+variable "do_application_goauthentikio-authentik" {
+  description = "authentik 2021.12.4 on Ubuntu 20.04"
+  default     = "goauthentikio-authentik"
+}
+
 variable "do_application_grafana-18-04" {
   description = "Grafana 7.2.0 on Ubuntu 18.04"
   default     = "grafana-18-04"
@@ -618,9 +623,19 @@ variable "do_application_lamp-18-04" {
   default     = "lamp-18-04"
 }
 
+variable "do_application_null" {
+  description = "Plesk 17.8 on CentOS 7"
+  default     = "null"
+}
+
 variable "do_application_lamp-20-04" {
   description = "LAMP on Ubuntu 20.04"
   default     = "lamp-20-04"
+}
+
+variable "do_application_null" {
+  description = "filecoin-lotus 1.11.0 on Ubuntu 20.04 (LTS)"
+  default     = "null"
 }
 
 variable "do_application_lemp-18-04" {
@@ -806,16 +821,6 @@ variable "do_application_mysql-18-04" {
 variable "do_application_mysql-20-04" {
   description = "MySQL 8.0.21 on Ubuntu 20.04"
   default     = "mysql-20-04"
-}
-
-variable "do_application_null" {
-  description = "filecoin-lotus 1.11.0 on Ubuntu 20.04 (LTS)"
-  default     = "null"
-}
-
-variable "do_application_null" {
-  description = "Plesk 17.8 on CentOS 7"
-  default     = "null"
 }
 
 variable "do_application_nakama-18-04" {
