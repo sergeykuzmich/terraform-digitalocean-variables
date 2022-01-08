@@ -249,7 +249,7 @@ variable "do_application_cpanel-cpanelwhm-7-6" {
 }
 
 variable "do_application_cpanel-cpanelwhm-7-9" {
-  description = "cPanel & WHM® 100.0.4 on CentOS 7.9"
+  description = "cPanel & WHM® RELEASE on CentOS 7.9"
   default     = "cpanel-cpanelwhm-7-9"
 }
 
@@ -1209,7 +1209,7 @@ variable "do_application_sharklabs-foldinghome-18-04" {
 }
 
 variable "do_application_sharklabs-matrixsynapsebac-10" {
-  description = "Matrix (Synapse backend) 0.1.2 on Debian 10 (buster)"
+  description = "Matrix (Synapse backend) 0.1.3 on Debian 10 (buster)"
   default     = "sharklabs-matrixsynapsebac-10"
 }
 
@@ -1469,12 +1469,12 @@ variable "do_application_zeslecp-7" {
 }
 
 variable "do_application_znuny" {
-  description = "Znuny 6.2.1 on Debian 10 (buster)"
+  description = "Znuny 6.2.2 on Debian 10 (buster)"
   default     = "znuny"
 }
 
 variable "do_application_znuny-znunylts-10" {
-  description = "Znuny LTS 6.0.38 on Debian 10 (buster)"
+  description = "Znuny LTS 6.0.39 on Debian 10 (buster)"
   default     = "znuny-znunylts-10"
 }
 
