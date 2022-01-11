@@ -114,7 +114,7 @@ variable "do_application_ascensiosystemsi-onlyofficeeditor-18-04-4" {
 }
 
 variable "do_application_auspiciaab-theplanminderpos-20-04" {
-  description = "ThePlanMinder PostgreSQL 1.02 on Ubuntu 20.04"
+  description = "ThePlanMinder PostgreSQL 1.03 on Ubuntu 20.04"
   default     = "auspiciaab-theplanminderpos-20-04"
 }
 
@@ -1389,7 +1389,7 @@ variable "do_application_varnishsoftware-varnishcache-18-04" {
 }
 
 variable "do_application_victoriametrics-victoriametricss" {
-  description = "VictoriaMetrics Single 1.70.0 on Ubuntu 20.04"
+  description = "VictoriaMetrics Single 1.71.0 on Ubuntu 20.04"
   default     = "victoriametrics-victoriametricss"
 }
 
