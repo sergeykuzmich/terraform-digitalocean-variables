@@ -719,7 +719,7 @@ variable "do_application_mattermost-18-04" {
 }
 
 variable "do_application_meilisas-meilisearch-10" {
-  description = "MeiliSearch 0.24.0 on Debian 10 (buster)"
+  description = "MeiliSearch 0.25.0 on Debian 10 (buster)"
   default     = "meilisas-meilisearch-10"
 }
 
@@ -984,7 +984,7 @@ variable "do_application_perconamonitorin-7" {
 }
 
 variable "do_application_perforce-perforcehelixcor" {
-  description = "Perforce Helix Core 2021.1.2179737 on CentOS 7.9"
+  description = "Perforce Helix Core 2021.2.2220431 on CentOS 7.9"
   default     = "perforce-perforcehelixcor"
 }
 
