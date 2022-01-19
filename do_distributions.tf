@@ -8,11 +8,6 @@ variable "do_distibution_centos-7-x64" {
   default     = "centos-7-x64"
 }
 
-variable "do_distibution_centos-8-x64" {
-  description = "CentOS 8 x64"
-  default     = "centos-8-x64"
-}
-
 variable "do_distibution_centos-stream-8-x64" {
   description = "CentOS 8 Stream x64"
   default     = "centos-stream-8-x64"
@@ -33,11 +28,6 @@ variable "do_distibution_debian-9-x64" {
   default     = "debian-9-x64"
 }
 
-variable "do_distibution_fedora-33-x64" {
-  description = "Fedora 33 x64"
-  default     = "fedora-33-x64"
-}
-
 variable "do_distibution_fedora-34-x64" {
   description = "Fedora 34 x64"
   default     = "fedora-34-x64"
@@ -46,16 +36,6 @@ variable "do_distibution_fedora-34-x64" {
 variable "do_distibution_fedora-35-x64" {
   description = "Fedora 35 x64"
   default     = "fedora-35-x64"
-}
-
-variable "do_distibution_freebsd-11-x64-ufs" {
-  description = "FreeBSD 11.4 ufs x64"
-  default     = "freebsd-11-x64-ufs"
-}
-
-variable "do_distibution_freebsd-11-x64-zfs" {
-  description = "FreeBSD 11.4 zfs x64"
-  default     = "freebsd-11-x64-zfs"
 }
 
 variable "do_distibution_freebsd-12-x64-ufs" {
@@ -91,11 +71,6 @@ variable "do_distibution_ubuntu-18-04-x64" {
 variable "do_distibution_ubuntu-20-04-x64" {
   description = "Ubuntu 20.04 (LTS) x64"
   default     = "ubuntu-20-04-x64"
-}
-
-variable "do_distibution_ubuntu-21-04-x64" {
-  description = "Ubuntu 21.04 x64"
-  default     = "ubuntu-21-04-x64"
 }
 
 variable "do_distibution_ubuntu-21-10-x64" {
