@@ -623,19 +623,9 @@ variable "do_application_lamp-18-04" {
   default     = "lamp-18-04"
 }
 
-variable "do_application_null" {
-  description = "Plesk 17.8 on CentOS 7"
-  default     = "null"
-}
-
 variable "do_application_lamp-20-04" {
   description = "LAMP on Ubuntu 20.04"
   default     = "lamp-20-04"
-}
-
-variable "do_application_null" {
-  description = "filecoin-lotus 1.11.0 on Ubuntu 20.04 (LTS)"
-  default     = "null"
 }
 
 variable "do_application_lemp-18-04" {
@@ -739,7 +729,7 @@ variable "do_application_metabase-18-04" {
 }
 
 variable "do_application_mgtcommercegmbh-cloudpanel1-10-10" {
-  description = "CloudPanel 1 1.0.6 on Debian 10.10"
+  description = "CloudPanel 1 1.0.7 on Debian 10.11"
   default     = "mgtcommercegmbh-cloudpanel1-10-10"
 }
 
@@ -978,9 +968,19 @@ variable "do_application_passboltsa-passboltce-20-04" {
   default     = "passboltsa-passboltce-20-04"
 }
 
+variable "do_application_null" {
+  description = "filecoin-lotus 1.11.0 on Ubuntu 20.04 (LTS)"
+  default     = "null"
+}
+
 variable "do_application_perconamonitorin-7" {
   description = "Percona Monitoring and Management 2 2.21.0 on CentOS 7"
   default     = "perconamonitorin-7"
+}
+
+variable "do_application_null" {
+  description = "Plesk 17.8 on CentOS 7"
+  default     = "null"
 }
 
 variable "do_application_perforce-perforcehelixcor" {
