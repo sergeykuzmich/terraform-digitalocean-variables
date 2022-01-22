@@ -104,7 +104,7 @@ variable "do_application_appwrite-20-04" {
 }
 
 variable "do_application_ascensiosystem-onlyoffice-18-04" {
-  description = "ONLYOFFICE Workspace 21.09.597 on Ubuntu 20.04.3 LTS"
+  description = "ONLYOFFICE Workspace 22.01.654 on Ubuntu 20.04 LTS"
   default     = "ascensiosystem-onlyoffice-18-04"
 }
 
