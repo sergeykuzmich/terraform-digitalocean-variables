@@ -109,7 +109,7 @@ variable "do_application_ascensiosystem-onlyoffice-18-04" {
 }
 
 variable "do_application_ascensiosystemsi-onlyofficeeditor-18-04-4" {
-  description = "ONLYOFFICE Docs 6.4.2 on Ubuntu 20.04.3 LTS"
+  description = "ONLYOFFICE Docs 7.0.0 on Ubuntu 20.04 LTS"
   default     = "ascensiosystemsi-onlyofficeeditor-18-04-4"
 }
 
@@ -229,7 +229,7 @@ variable "do_application_code-server-18-04" {
 }
 
 variable "do_application_codelathe-filecloud-20-04" {
-  description = "FileCloud 21.2 on Ubuntu 20.04"
+  description = "FileCloud 21.2.3 on Ubuntu 20.04"
   default     = "codelathe-filecloud-20-04"
 }
 
