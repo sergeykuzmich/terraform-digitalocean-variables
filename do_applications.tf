@@ -813,6 +813,16 @@ variable "do_application_mysql-20-04" {
   default     = "mysql-20-04"
 }
 
+variable "do_application_null" {
+  description = "filecoin-lotus 1.11.0 on Ubuntu 20.04 (LTS)"
+  default     = "null"
+}
+
+variable "do_application_null" {
+  description = "Plesk 17.8 on CentOS 7"
+  default     = "null"
+}
+
 variable "do_application_nakama-18-04" {
   description = "Nakama 2.7.0 on Ubuntu 18.04"
   default     = "nakama-18-04"
@@ -968,19 +978,9 @@ variable "do_application_passboltsa-passboltce-20-04" {
   default     = "passboltsa-passboltce-20-04"
 }
 
-variable "do_application_null" {
-  description = "filecoin-lotus 1.11.0 on Ubuntu 20.04 (LTS)"
-  default     = "null"
-}
-
 variable "do_application_perconamonitorin-7" {
   description = "Percona Monitoring and Management 2 2.21.0 on CentOS 7"
   default     = "perconamonitorin-7"
-}
-
-variable "do_application_null" {
-  description = "Plesk 17.8 on CentOS 7"
-  default     = "null"
 }
 
 variable "do_application_perforce-perforcehelixcor" {
