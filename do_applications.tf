@@ -403,6 +403,11 @@ variable "do_application_flexify-18-04" {
   default     = "flexify-18-04"
 }
 
+variable "do_application_flexifyio-flexifyiomulticl-20-04" {
+  description = "Flexify.IO Multi-cloud / Migration 2.12.8 on Ubuntu 20.04 LTS"
+  default     = "flexifyio-flexifyiomulticl-20-04"
+}
+
 variable "do_application_flipstarter-18-04" {
   description = "Flipstarter 1.1.2 on Ubuntu 18.04"
   default     = "flipstarter-18-04"
@@ -659,7 +664,7 @@ variable "do_application_litespeedtechnol-openlitespeeddja-18-04" {
 }
 
 variable "do_application_litespeedtechnol-openlitespeeddja-20-04" {
-  description = "OpenLiteSpeed Django 3.1.6 on Ubuntu 20.04"
+  description = "OpenLiteSpeed Django 3.2.11 on Ubuntu 20.04"
   default     = "litespeedtechnol-openlitespeeddja-20-04"
 }
 
@@ -709,7 +714,7 @@ variable "do_application_mattermost-18-04" {
 }
 
 variable "do_application_meilisas-meilisearch-10" {
-  description = "MeiliSearch 0.25.0 on Debian 10 (buster)"
+  description = "MeiliSearch 0.25.2 on Debian 10 (buster)"
   default     = "meilisas-meilisearch-10"
 }
 
@@ -811,16 +816,6 @@ variable "do_application_mysql-18-04" {
 variable "do_application_mysql-20-04" {
   description = "MySQL 8.0.21 on Ubuntu 20.04"
   default     = "mysql-20-04"
-}
-
-variable "do_application_null" {
-  description = "filecoin-lotus 1.11.0 on Ubuntu 20.04 (LTS)"
-  default     = "null"
-}
-
-variable "do_application_null" {
-  description = "Plesk 17.8 on CentOS 7"
-  default     = "null"
 }
 
 variable "do_application_nakama-18-04" {
@@ -1046,6 +1041,21 @@ variable "do_application_portalcloud-wirespeedvpn-18-04" {
 variable "do_application_portalcloud-wirespeedvpnbybu-18-04" {
   description = "WireSpeed VPN 1.1.5 on Ubuntu 18.04"
   default     = "portalcloud-wirespeedvpnbybu-18-04"
+}
+
+variable "do_application_null" {
+  description = "Plesk 17.8 on CentOS 7"
+  default     = "null"
+}
+
+variable "do_application_null" {
+  description = "filecoin-lotus 1.11.0 on Ubuntu 20.04 (LTS)"
+  default     = "null"
+}
+
+variable "do_application_postalsystemso-emailengine" {
+  description = "EmailEngine 2.11.1 on Ubuntu 20.04"
+  default     = "postalsystemso-emailengine"
 }
 
 variable "do_application_powertrader-coincollectorbyp" {
@@ -1384,7 +1394,7 @@ variable "do_application_vardot-varbase-18-04" {
 }
 
 variable "do_application_varnishsoftware-varnishcache-18-04" {
-  description = "Varnish Cache 6.0.8 on Ubuntu 18.04"
+  description = "Varnish Cache 6.0.10 on Ubuntu 18.04"
   default     = "varnishsoftware-varnishcache-18-04"
 }
 
