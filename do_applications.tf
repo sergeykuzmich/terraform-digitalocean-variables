@@ -529,7 +529,7 @@ variable "do_application_humhubgmbhkg-humhub-10" {
 }
 
 variable "do_application_hyfinity-webmakerserver-20-04" {
-  description = "WebMaker Server 10.5.0004 on Ubuntu 20.04"
+  description = "WebMaker Server 10.6 on Ubuntu 20.04"
   default     = "hyfinity-webmakerserver-20-04"
 }
 
@@ -729,7 +729,7 @@ variable "do_application_memgraph-9-7" {
 }
 
 variable "do_application_metabase-18-04" {
-  description = "Metabase 0.34.2 on Ubuntu 18.04"
+  description = "Metabase 0.41.6 on Ubuntu 18.04"
   default     = "metabase-18-04"
 }
 
@@ -1043,16 +1043,6 @@ variable "do_application_portalcloud-wirespeedvpnbybu-18-04" {
   default     = "portalcloud-wirespeedvpnbybu-18-04"
 }
 
-variable "do_application_null" {
-  description = "Plesk 17.8 on CentOS 7"
-  default     = "null"
-}
-
-variable "do_application_null" {
-  description = "filecoin-lotus 1.11.0 on Ubuntu 20.04 (LTS)"
-  default     = "null"
-}
-
 variable "do_application_postalsystemso-emailengine" {
   description = "EmailEngine 2.11.1 on Ubuntu 20.04"
   default     = "postalsystemso-emailengine"
@@ -1183,9 +1173,19 @@ variable "do_application_saltcorn-20-04" {
   default     = "saltcorn-20-04"
 }
 
+variable "do_application_null" {
+  description = "Plesk 17.8 on CentOS 7"
+  default     = "null"
+}
+
 variable "do_application_sandflysecurity-20-04" {
-  description = "Sandfly Security 3.1.0 on Ubuntu 20.04"
+  description = "Sandfly Security 3.2.0 on Ubuntu 20.04"
   default     = "sandflysecurity-20-04"
+}
+
+variable "do_application_null" {
+  description = "filecoin-lotus 1.11.0 on Ubuntu 20.04 (LTS)"
+  default     = "null"
 }
 
 variable "do_application_searchblox-searchbloxenterp-7-6" {
@@ -1209,7 +1209,7 @@ variable "do_application_selfhostedpro-yacht-20-04" {
 }
 
 variable "do_application_severalnines-clustercontrol-20-04" {
-  description = "ClusterControl 1.9.1 on Ubuntu 20.04"
+  description = "ClusterControl 1.9.2 on Ubuntu 20.04"
   default     = "severalnines-clustercontrol-20-04"
 }
 
