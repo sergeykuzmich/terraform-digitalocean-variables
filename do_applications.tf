@@ -513,6 +513,16 @@ variable "do_application_helpy-18-04" {
   default     = "helpy-18-04"
 }
 
+variable "do_application_null" {
+  description = "filecoin-lotus 1.11.0 on Ubuntu 20.04 (LTS)"
+  default     = "null"
+}
+
+variable "do_application_null" {
+  description = "Plesk 17.8 on CentOS 7"
+  default     = "null"
+}
+
 variable "do_application_helpyio-helpypro-18-04" {
   description = "Helpy Pro 3.2.7.1 on Ubuntu 18.04"
   default     = "helpyio-helpypro-18-04"
@@ -694,7 +704,7 @@ variable "do_application_litespeedtechnol-openlitespeedwor-18-04" {
 }
 
 variable "do_application_litespeedtechnol-openlitespeedwor-20-04" {
-  description = "OpenLiteSpeed WordPress 5.8.1 on Ubuntu 20.04"
+  description = "OpenLiteSpeed WordPress 5.9 on Ubuntu 20.04"
   default     = "litespeedtechnol-openlitespeedwor-20-04"
 }
 
@@ -1173,19 +1183,9 @@ variable "do_application_saltcorn-20-04" {
   default     = "saltcorn-20-04"
 }
 
-variable "do_application_null" {
-  description = "Plesk 17.8 on CentOS 7"
-  default     = "null"
-}
-
 variable "do_application_sandflysecurity-20-04" {
   description = "Sandfly Security 3.2.0 on Ubuntu 20.04"
   default     = "sandflysecurity-20-04"
-}
-
-variable "do_application_null" {
-  description = "filecoin-lotus 1.11.0 on Ubuntu 20.04 (LTS)"
-  default     = "null"
 }
 
 variable "do_application_searchblox-searchbloxenterp-7-6" {
