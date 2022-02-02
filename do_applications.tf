@@ -208,6 +208,11 @@ variable "do_application_chevereto-20-04" {
   default     = "chevereto-20-04"
 }
 
+variable "do_application_chevereto-cheveretofree" {
+  description = "Chevereto-Free 1.6.2 on Ubuntu 20.04"
+  default     = "chevereto-cheveretofree"
+}
+
 variable "do_application_cloudron-18-04" {
   description = "Cloudron 6.0.1 on Ubuntu 20.04"
   default     = "cloudron-18-04"
@@ -518,14 +523,14 @@ variable "do_application_null" {
   default     = "null"
 }
 
-variable "do_application_null" {
-  description = "Plesk 17.8 on CentOS 7"
-  default     = "null"
-}
-
 variable "do_application_helpyio-helpypro-18-04" {
   description = "Helpy Pro 3.2.7.1 on Ubuntu 18.04"
   default     = "helpyio-helpypro-18-04"
+}
+
+variable "do_application_null" {
+  description = "Plesk 17.8 on CentOS 7"
+  default     = "null"
 }
 
 variable "do_application_honeydbagent-9" {
