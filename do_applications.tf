@@ -469,7 +469,7 @@ variable "do_application_gluu-gluuserverce-18-04-3" {
 }
 
 variable "do_application_goauthentikio-authentik" {
-  description = "authentik 2021.12.4 on Ubuntu 20.04"
+  description = "authentik 2022.1.3 on Ubuntu 20.04"
   default     = "goauthentikio-authentik"
 }
 
