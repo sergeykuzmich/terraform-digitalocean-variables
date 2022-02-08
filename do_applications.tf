@@ -129,7 +129,7 @@ variable "do_application_azuracast-18-04" {
 }
 
 variable "do_application_azuracast-20-04" {
-  description = "AzuraCast 0.12 on Ubuntu 20.04"
+  description = "AzuraCast 0.15.0 on Ubuntu 20.04"
   default     = "azuracast-20-04"
 }
 
@@ -518,14 +518,14 @@ variable "do_application_helpy-18-04" {
   default     = "helpy-18-04"
 }
 
-variable "do_application_null" {
-  description = "filecoin-lotus 1.11.0 on Ubuntu 20.04 (LTS)"
-  default     = "null"
-}
-
 variable "do_application_helpyio-helpypro-18-04" {
   description = "Helpy Pro 3.2.7.1 on Ubuntu 18.04"
   default     = "helpyio-helpypro-18-04"
+}
+
+variable "do_application_null" {
+  description = "filecoin-lotus 1.11.0 on Ubuntu 20.04 (LTS)"
+  default     = "null"
 }
 
 variable "do_application_null" {
@@ -903,6 +903,11 @@ variable "do_application_nodejs-20-04" {
   default     = "nodejs-20-04"
 }
 
+variable "do_application_oneledger-frankensteintest" {
+  description = "Frankenstein Testnet Fullnode 0.18.11 on Ubuntu 20.04"
+  default     = "oneledger-frankensteintest"
+}
+
 variable "do_application_onjection-jenkins-16-04" {
   description = "Onjection Jenkins 2.164.3 on Ubuntu 16.04"
   default     = "onjection-jenkins-16-04"
@@ -1114,7 +1119,7 @@ variable "do_application_restya-restyaboard-18-04" {
 }
 
 variable "do_application_restya-restyaboard-20-04" {
-  description = "Restyaboard 1.7 on Ubuntu 20.04"
+  description = "Restyaboard 1.7.1 on Ubuntu 20.04"
   default     = "restya-restyaboard-20-04"
 }
 
@@ -1124,7 +1129,7 @@ variable "do_application_restya-restyaboardcento-7-6" {
 }
 
 variable "do_application_restya-restyaboardcento-8-3" {
-  description = "Restyaboard (CentOS) 1.7 on CentOS 7"
+  description = "Restyaboard (CentOS) 1.7.1 on CentOS 7"
   default     = "restya-restyaboardcento-8-3"
 }
 
