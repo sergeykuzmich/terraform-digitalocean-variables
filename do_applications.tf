@@ -169,7 +169,7 @@ variable "do_application_budibase-20-04" {
 }
 
 variable "do_application_bugfender-20-04" {
-  description = "Bugfender 2021.1.0 on Ubuntu 20.04"
+  description = "Bugfender 2021.2.2 on Ubuntu 20.04"
   default     = "bugfender-20-04"
 }
 
@@ -781,6 +781,11 @@ variable "do_application_mistio-mist-20-04" {
 variable "do_application_mobilejazz-bugfender-18-04" {
   description = "Bugfender 2020.2.0 on Ubuntu 18.04"
   default     = "mobilejazz-bugfender-18-04"
+}
+
+variable "do_application_monetdbsolutions-monetdb" {
+  description = "MonetDB 11.41.13 on Ubuntu 20.04"
+  default     = "monetdbsolutions-monetdb"
 }
 
 variable "do_application_mongodb-18-04" {
