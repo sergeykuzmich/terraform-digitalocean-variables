@@ -358,6 +358,11 @@ variable "do_application_dsuhininapp1-18-04" {
   default     = "dsuhininapp1-18-04"
 }
 
+variable "do_application_edgedb" {
+  description = "EdgeDB 1.0 on Ubuntu 20.04"
+  default     = "edgedb"
+}
+
 variable "do_application_eltrino-magento2opensour-18-04" {
   description = "Magento 2 Open Source 1.3.1 on Ubuntu 20.04 (LTS)"
   default     = "eltrino-magento2opensour-18-04"
@@ -521,16 +526,6 @@ variable "do_application_helpy-18-04" {
 variable "do_application_helpyio-helpypro-18-04" {
   description = "Helpy Pro 3.2.7.1 on Ubuntu 18.04"
   default     = "helpyio-helpypro-18-04"
-}
-
-variable "do_application_null" {
-  description = "filecoin-lotus 1.11.0 on Ubuntu 20.04 (LTS)"
-  default     = "null"
-}
-
-variable "do_application_null" {
-  description = "Plesk 17.8 on CentOS 7"
-  default     = "null"
 }
 
 variable "do_application_honeydbagent-9" {
@@ -778,6 +773,11 @@ variable "do_application_mistio-mist-20-04" {
   default     = "mistio-mist-20-04"
 }
 
+variable "do_application_mjmair-inventree" {
+  description = "InvenTree 0.5.4 on Ubuntu 20.04"
+  default     = "mjmair-inventree"
+}
+
 variable "do_application_mobilejazz-bugfender-18-04" {
   description = "Bugfender 2020.2.0 on Ubuntu 18.04"
   default     = "mobilejazz-bugfender-18-04"
@@ -911,6 +911,11 @@ variable "do_application_nodejs-20-04" {
 variable "do_application_oneledger-frankensteintest" {
   description = "Frankenstein Testnet Fullnode 0.18.11 on Ubuntu 20.04"
   default     = "oneledger-frankensteintest"
+}
+
+variable "do_application_oneledger-mainnetfullnode" {
+  description = "Mainnet Fullnode 0.18.13 on Ubuntu 20.04"
+  default     = "oneledger-mainnetfullnode"
 }
 
 variable "do_application_onjection-jenkins-16-04" {
@@ -1069,12 +1074,12 @@ variable "do_application_portalcloud-wirespeedvpnbybu-18-04" {
 }
 
 variable "do_application_postalsystemso-emailengine" {
-  description = "EmailEngine 2.11.1 on Ubuntu 20.04"
+  description = "EmailEngine 2.12.1 on Ubuntu 20.04"
   default     = "postalsystemso-emailengine"
 }
 
 variable "do_application_powertrader-coincollectorbyp" {
-  description = "Coin Collector by PowerTrader.net 1.2 on Ubuntu 20.04"
+  description = "Coin Collector by PowerTrader.net 1.3 on Ubuntu 20.04"
   default     = "powertrader-coincollectorbyp"
 }
 
@@ -1298,9 +1303,19 @@ variable "do_application_simplystatistics-rstudio-18-04" {
   default     = "simplystatistics-rstudio-18-04"
 }
 
+variable "do_application_null" {
+  description = "filecoin-lotus 1.11.0 on Ubuntu 20.04 (LTS)"
+  default     = "null"
+}
+
 variable "do_application_skaffolder-18-04" {
   description = "Skaffolder 3.0 on Ubuntu 18.04"
   default     = "skaffolder-18-04"
+}
+
+variable "do_application_null" {
+  description = "Plesk 17.8 on CentOS 7"
+  default     = "null"
 }
 
 variable "do_application_snapt-snaptaria-18-04" {
@@ -1414,7 +1429,7 @@ variable "do_application_varnishsoftware-varnishcache-18-04" {
 }
 
 variable "do_application_victoriametrics-victoriametricss" {
-  description = "VictoriaMetrics Single 1.71.0 on Ubuntu 20.04"
+  description = "VictoriaMetrics Single 1.72.0 on Ubuntu 20.04"
   default     = "victoriametrics-victoriametricss"
 }
 
