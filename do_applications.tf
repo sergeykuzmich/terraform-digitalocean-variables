@@ -319,7 +319,7 @@ variable "do_application_discourse-20-04" {
 }
 
 variable "do_application_django-20-04" {
-  description = "Django 2.2.12 on Ubuntu 20.04"
+  description = "Django 4.0 on Ubuntu 20.04"
   default     = "django-20-04"
 }
 
@@ -1179,7 +1179,7 @@ variable "do_application_rocketchat-20-04" {
 }
 
 variable "do_application_rstudio-20-04" {
-  description = "RStudio 1.4 on Ubuntu 20.04"
+  description = "RStudio 2021.09.2+382 on Ubuntu 20.04"
   default     = "rstudio-20-04"
 }
 
