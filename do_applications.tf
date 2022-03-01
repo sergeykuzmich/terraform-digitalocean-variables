@@ -1459,7 +1459,7 @@ variable "do_application_wftutorials-purdm-18-04" {
 }
 
 variable "do_application_wikijs-18-04" {
-  description = "Wiki.js 2.4.107 on Ubuntu 18.04"
+  description = "Wiki.js 2.5.275 on Ubuntu 20.04"
   default     = "wikijs-18-04"
 }
 
