@@ -318,9 +318,19 @@ variable "do_application_discourse-20-04" {
   default     = "discourse-20-04"
 }
 
+variable "do_application_null" {
+  description = "filecoin-lotus 1.11.0 on Ubuntu 20.04 (LTS)"
+  default     = "null"
+}
+
 variable "do_application_django-20-04" {
   description = "Django 4.0 on Ubuntu 20.04"
   default     = "django-20-04"
+}
+
+variable "do_application_null" {
+  description = "Plesk 17.8 on CentOS 7"
+  default     = "null"
 }
 
 variable "do_application_docker-18-04" {
@@ -589,7 +599,7 @@ variable "do_application_jadiangaming-solderio-18-04-5" {
 }
 
 variable "do_application_jelastic-jelasticpaas-7" {
-  description = "Jelastic PaaS 6.0-5 on Centos 7"
+  description = "Jelastic PaaS 7.0-2 on Centos 7"
   default     = "jelastic-jelasticpaas-7"
 }
 
@@ -654,7 +664,7 @@ variable "do_application_lemp-20-04" {
 }
 
 variable "do_application_litespeedtechnol-cyberpanel-20-04" {
-  description = "CyberPanel 2.1.1 on Ubuntu 20.04"
+  description = "CyberPanel 2.1.2 on Ubuntu 20.04"
   default     = "litespeedtechnol-cyberpanel-20-04"
 }
 
@@ -764,7 +774,7 @@ variable "do_application_microweber-18-04" {
 }
 
 variable "do_application_microwebercms-microweber-20-04" {
-  description = "Microweber 1.2.10 on Ubuntu 20.04"
+  description = "Microweber 1.2.11 on Ubuntu 20.04"
   default     = "microwebercms-microweber-20-04"
 }
 
@@ -1099,7 +1109,7 @@ variable "do_application_pyboxtechnologie-pyboxtechmed-20-04" {
 }
 
 variable "do_application_questdb-20-04" {
-  description = "QuestDB 6.1.2 on Ubuntu 20.04"
+  description = "QuestDB 6.2 on Ubuntu 20.04"
   default     = "questdb-20-04"
 }
 
@@ -1303,19 +1313,9 @@ variable "do_application_simplystatistics-rstudio-18-04" {
   default     = "simplystatistics-rstudio-18-04"
 }
 
-variable "do_application_null" {
-  description = "filecoin-lotus 1.11.0 on Ubuntu 20.04 (LTS)"
-  default     = "null"
-}
-
 variable "do_application_skaffolder-18-04" {
   description = "Skaffolder 3.0 on Ubuntu 18.04"
   default     = "skaffolder-18-04"
-}
-
-variable "do_application_null" {
-  description = "Plesk 17.8 on CentOS 7"
-  default     = "null"
 }
 
 variable "do_application_snapt-snaptaria-18-04" {
