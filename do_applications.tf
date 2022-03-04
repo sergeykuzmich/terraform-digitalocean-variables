@@ -238,6 +238,11 @@ variable "do_application_codelathe-filecloud-20-04" {
   default     = "codelathe-filecloud-20-04"
 }
 
+variable "do_application_coder" {
+  description = "Coder 1.28.1a on Ubuntu 20.04"
+  default     = "coder"
+}
+
 variable "do_application_countly-18-04" {
   description = "Countly Analytics 20.04.1 on Ubuntu 18.04"
   default     = "countly-18-04"
@@ -323,14 +328,14 @@ variable "do_application_null" {
   default     = "null"
 }
 
-variable "do_application_django-20-04" {
-  description = "Django 4.0 on Ubuntu 20.04"
-  default     = "django-20-04"
-}
-
 variable "do_application_null" {
   description = "Plesk 17.8 on CentOS 7"
   default     = "null"
+}
+
+variable "do_application_django-20-04" {
+  description = "Django 4.0 on Ubuntu 20.04"
+  default     = "django-20-04"
 }
 
 variable "do_application_docker-18-04" {
@@ -429,7 +434,7 @@ variable "do_application_flexifyio-flexifyiomulticl-20-04" {
 }
 
 variable "do_application_flipstarter-18-04" {
-  description = "Flipstarter 1.1.2 on Ubuntu 18.04"
+  description = "Flipstarter 1.1.3 on Ubuntu 18.04"
   default     = "flipstarter-18-04"
 }
 
