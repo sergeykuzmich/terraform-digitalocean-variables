@@ -323,16 +323,6 @@ variable "do_application_discourse-20-04" {
   default     = "discourse-20-04"
 }
 
-variable "do_application_null" {
-  description = "filecoin-lotus 1.11.0 on Ubuntu 20.04 (LTS)"
-  default     = "null"
-}
-
-variable "do_application_null" {
-  description = "Plesk 17.8 on CentOS 7"
-  default     = "null"
-}
-
 variable "do_application_django-20-04" {
   description = "Django 4.0 on Ubuntu 20.04"
   default     = "django-20-04"
@@ -624,7 +614,7 @@ variable "do_application_jitsiserver-20-04" {
 }
 
 variable "do_application_kandralabs-zulip-18-04" {
-  description = "Zulip 4.8 on Ubuntu 20.04"
+  description = "Zulip 4.10 on Ubuntu 20.04"
   default     = "kandralabs-zulip-18-04"
 }
 
@@ -1024,7 +1014,7 @@ variable "do_application_perconamonitorin-7" {
 }
 
 variable "do_application_perforce-perforcehelixcor" {
-  description = "Perforce Helix Core 2021.2.2220431 on CentOS 7.9"
+  description = "Perforce Helix Core 2021.2 on CentOS 7.9"
   default     = "perforce-perforcehelixcor"
 }
 
@@ -1114,7 +1104,7 @@ variable "do_application_pyboxtechnologie-pyboxtechmed-20-04" {
 }
 
 variable "do_application_questdb-20-04" {
-  description = "QuestDB 6.2 on Ubuntu 20.04"
+  description = "QuestDB 6.2.1 on Ubuntu 20.04"
   default     = "questdb-20-04"
 }
 
@@ -1219,8 +1209,18 @@ variable "do_application_saltcorn-20-04" {
 }
 
 variable "do_application_sandflysecurity-20-04" {
-  description = "Sandfly Security 3.2.0 on Ubuntu 20.04"
+  description = "Sandfly Security 3.2.1 on Ubuntu 20.04"
   default     = "sandflysecurity-20-04"
+}
+
+variable "do_application_null" {
+  description = "Plesk 17.8 on CentOS 7"
+  default     = "null"
+}
+
+variable "do_application_null" {
+  description = "filecoin-lotus 1.11.0 on Ubuntu 20.04 (LTS)"
+  default     = "null"
 }
 
 variable "do_application_searchblox-searchbloxenterp-7-6" {
@@ -1464,7 +1464,7 @@ variable "do_application_wftutorials-purdm-18-04" {
 }
 
 variable "do_application_wikijs-18-04" {
-  description = "Wiki.js 2.5.275 on Ubuntu 20.04"
+  description = "Wiki.js 2.5.276 on Ubuntu 20.04 (LTS)"
   default     = "wikijs-18-04"
 }
 
