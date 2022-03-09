@@ -779,7 +779,7 @@ variable "do_application_mistio-mist-20-04" {
 }
 
 variable "do_application_mjmair-inventree" {
-  description = "InvenTree 0.6.0 on Ubuntu 20.04"
+  description = "InvenTree 0.6.1 on Ubuntu 20.04"
   default     = "mjmair-inventree"
 }
 
@@ -1209,7 +1209,7 @@ variable "do_application_saltcorn-20-04" {
 }
 
 variable "do_application_sandflysecurity-20-04" {
-  description = "Sandfly Security 3.2.1 on Ubuntu 20.04"
+  description = "Sandfly Security 3.2.2 on Ubuntu 20.04"
   default     = "sandflysecurity-20-04"
 }
 
@@ -1434,7 +1434,7 @@ variable "do_application_varnishsoftware-varnishcache-18-04" {
 }
 
 variable "do_application_victoriametrics-victoriametricss" {
-  description = "VictoriaMetrics Single 1.72.0 on Ubuntu 20.04"
+  description = "VictoriaMetrics Single 1.74.0 on Ubuntu 20.04"
   default     = "victoriametrics-victoriametricss"
 }
 
