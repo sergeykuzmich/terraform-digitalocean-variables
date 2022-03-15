@@ -169,7 +169,7 @@ variable "do_application_budibase-20-04" {
 }
 
 variable "do_application_bugfender-20-04" {
-  description = "Bugfender 2021.2.2 on Ubuntu 20.04"
+  description = "Bugfender 2022.1.0 on Ubuntu 20.04"
   default     = "bugfender-20-04"
 }
 
@@ -424,7 +424,7 @@ variable "do_application_flexifyio-flexifyiomulticl-20-04" {
 }
 
 variable "do_application_flipstarter-18-04" {
-  description = "Flipstarter 1.1.3 on Ubuntu 18.04"
+  description = "Flipstarter 1.1.4 on Ubuntu 20.04"
   default     = "flipstarter-18-04"
 }
 
@@ -874,7 +874,7 @@ variable "do_application_nimbella-18-04" {
 }
 
 variable "do_application_nirvatosoftware-nirvashare-20-04" {
-  description = "NirvaShare 1.5.7 on Ubuntu 20.04 (LTS)"
+  description = "NirvaShare 2.0.4 on Ubuntu 20.04 (LTS)"
   default     = "nirvatosoftware-nirvashare-20-04"
 }
 
@@ -1148,6 +1148,16 @@ variable "do_application_restya-restyaboardcento-8-3" {
   default     = "restya-restyaboardcento-8-3"
 }
 
+variable "do_application_null" {
+  description = "Plesk 17.8 on CentOS 7"
+  default     = "null"
+}
+
+variable "do_application_null" {
+  description = "filecoin-lotus 1.11.0 on Ubuntu 20.04 (LTS)"
+  default     = "null"
+}
+
 variable "do_application_restyaboard-16-04" {
   description = "Restyaboard 0.6.8 on Ubuntu 16.04"
   default     = "restyaboard-16-04"
@@ -1211,16 +1221,6 @@ variable "do_application_saltcorn-20-04" {
 variable "do_application_sandflysecurity-20-04" {
   description = "Sandfly Security 3.2.2 on Ubuntu 20.04"
   default     = "sandflysecurity-20-04"
-}
-
-variable "do_application_null" {
-  description = "Plesk 17.8 on CentOS 7"
-  default     = "null"
-}
-
-variable "do_application_null" {
-  description = "filecoin-lotus 1.11.0 on Ubuntu 20.04 (LTS)"
-  default     = "null"
 }
 
 variable "do_application_searchblox-searchbloxenterp-7-6" {
