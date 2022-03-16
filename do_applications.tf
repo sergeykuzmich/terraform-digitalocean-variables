@@ -99,7 +99,7 @@ variable "do_application_appwrite-18-04" {
 }
 
 variable "do_application_appwrite-20-04" {
-  description = "Appwrite 0.12.0 on Ubuntu 20.04"
+  description = "Appwrite 0.13.2 on Ubuntu 20.04"
   default     = "appwrite-20-04"
 }
 
@@ -363,9 +363,19 @@ variable "do_application_dsuhininapp1-18-04" {
   default     = "dsuhininapp1-18-04"
 }
 
+variable "do_application_null" {
+  description = "filecoin-lotus 1.11.0 on Ubuntu 20.04 (LTS)"
+  default     = "null"
+}
+
 variable "do_application_edgedb" {
-  description = "EdgeDB 1.0 on Ubuntu 20.04"
+  description = "EdgeDB 1.1 on Ubuntu 20.04"
   default     = "edgedb"
+}
+
+variable "do_application_null" {
+  description = "Plesk 17.8 on CentOS 7"
+  default     = "null"
 }
 
 variable "do_application_eltrino-magento2opensour-18-04" {
@@ -729,7 +739,7 @@ variable "do_application_mattermost-18-04" {
 }
 
 variable "do_application_meilisas-meilisearch-10" {
-  description = "MeiliSearch 0.25.2 on Debian 10 (buster)"
+  description = "MeiliSearch 0.26.0 on Debian 10 (buster)"
   default     = "meilisas-meilisearch-10"
 }
 
@@ -1148,16 +1158,6 @@ variable "do_application_restya-restyaboardcento-8-3" {
   default     = "restya-restyaboardcento-8-3"
 }
 
-variable "do_application_null" {
-  description = "Plesk 17.8 on CentOS 7"
-  default     = "null"
-}
-
-variable "do_application_null" {
-  description = "filecoin-lotus 1.11.0 on Ubuntu 20.04 (LTS)"
-  default     = "null"
-}
-
 variable "do_application_restyaboard-16-04" {
   description = "Restyaboard 0.6.8 on Ubuntu 16.04"
   default     = "restyaboard-16-04"
@@ -1514,12 +1514,12 @@ variable "do_application_zeslecp-7" {
 }
 
 variable "do_application_znuny" {
-  description = "Znuny 6.2.2 on Debian 10 (buster)"
+  description = "Znuny 6.3.1 on Debian 10 (buster)"
   default     = "znuny"
 }
 
 variable "do_application_znuny-znunylts-10" {
-  description = "Znuny LTS 6.0.39 on Debian 10 (buster)"
+  description = "Znuny LTS 6.0.40 on Debian 10 (buster)"
   default     = "znuny-znunylts-10"
 }
 
