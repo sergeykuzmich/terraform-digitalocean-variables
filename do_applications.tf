@@ -363,19 +363,9 @@ variable "do_application_dsuhininapp1-18-04" {
   default     = "dsuhininapp1-18-04"
 }
 
-variable "do_application_null" {
-  description = "filecoin-lotus 1.11.0 on Ubuntu 20.04 (LTS)"
-  default     = "null"
-}
-
 variable "do_application_edgedb" {
   description = "EdgeDB 1.1 on Ubuntu 20.04"
   default     = "edgedb"
-}
-
-variable "do_application_null" {
-  description = "Plesk 17.8 on CentOS 7"
-  default     = "null"
 }
 
 variable "do_application_eltrino-magento2opensour-18-04" {
@@ -1014,7 +1004,7 @@ variable "do_application_passbolt-18-04" {
 }
 
 variable "do_application_passboltsa-passboltce-20-04" {
-  description = "Passbolt CE 3.3.0-1 on Ubuntu 20.04"
+  description = "Passbolt CE 3.5.0-1 on Ubuntu 20.04"
   default     = "passboltsa-passboltce-20-04"
 }
 
@@ -1094,7 +1084,7 @@ variable "do_application_postalsystemso-emailengine" {
 }
 
 variable "do_application_powertrader-coincollectorbyp" {
-  description = "Coin Collector by PowerTrader.net 1.3 on Ubuntu 20.04"
+  description = "Coin Collector by PowerTrader.net 1.3.1 on Ubuntu 20.04"
   default     = "powertrader-coincollectorbyp"
 }
 
@@ -1316,6 +1306,16 @@ variable "do_application_simplex-simplexserver-20-04" {
 variable "do_application_simplystatistics-rstudio-18-04" {
   description = "RStudio 1.2 on Ubuntu 18.04"
   default     = "simplystatistics-rstudio-18-04"
+}
+
+variable "do_application_null" {
+  description = "Plesk 17.8 on CentOS 7"
+  default     = "null"
+}
+
+variable "do_application_null" {
+  description = "filecoin-lotus 1.11.0 on Ubuntu 20.04 (LTS)"
+  default     = "null"
 }
 
 variable "do_application_skaffolder-18-04" {
