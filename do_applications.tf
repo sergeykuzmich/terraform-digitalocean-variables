@@ -99,7 +99,7 @@ variable "do_application_appwrite-18-04" {
 }
 
 variable "do_application_appwrite-20-04" {
-  description = "Appwrite 0.13.2 on Ubuntu 20.04"
+  description = "Appwrite 0.13.3 on Ubuntu 20.04"
   default     = "appwrite-20-04"
 }
 
@@ -219,7 +219,7 @@ variable "do_application_cloudron-18-04" {
 }
 
 variable "do_application_cloudron-20-04" {
-  description = "Cloudron 7.0.4 on Ubuntu 20.04"
+  description = "Cloudron 7.1.4 on Ubuntu 20.04"
   default     = "cloudron-20-04"
 }
 
