@@ -364,7 +364,7 @@ variable "do_application_dsuhininapp1-18-04" {
 }
 
 variable "do_application_edgedb" {
-  description = "EdgeDB 1.1 on Ubuntu 20.04"
+  description = "EdgeDB 1.2 on Ubuntu 20.04"
   default     = "edgedb"
 }
 
@@ -424,7 +424,7 @@ variable "do_application_flexifyio-flexifyiomulticl-20-04" {
 }
 
 variable "do_application_flipstarter-18-04" {
-  description = "Flipstarter 1.1.4 on Ubuntu 20.04"
+  description = "Flipstarter 1.1.5 on Ubuntu 20.04"
   default     = "flipstarter-18-04"
 }
 
