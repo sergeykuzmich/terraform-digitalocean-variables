@@ -144,7 +144,7 @@ variable "do_application_bcoin-18-04" {
 }
 
 variable "do_application_bitwarden-18-04" {
-  description = "Bitwarden 1.32.0 on Ubuntu 18.04"
+  description = "Bitwarden 1.47.1 on Ubuntu 20.04"
   default     = "bitwarden-18-04"
 }
 
@@ -1093,6 +1093,16 @@ variable "do_application_prometheus-18-04" {
   default     = "prometheus-18-04"
 }
 
+variable "do_application_null" {
+  description = "filecoin-lotus 1.11.0 on Ubuntu 20.04 (LTS)"
+  default     = "null"
+}
+
+variable "do_application_null" {
+  description = "Plesk 17.8 on CentOS 7"
+  default     = "null"
+}
+
 variable "do_application_protocollabs-filecoinlotus-20-04" {
   description = "filecoin-lotus 1.13.0 on Ubuntu 20.04 (LTS)"
   default     = "protocollabs-filecoinlotus-20-04"
@@ -1306,16 +1316,6 @@ variable "do_application_simplex-simplexserver-20-04" {
 variable "do_application_simplystatistics-rstudio-18-04" {
   description = "RStudio 1.2 on Ubuntu 18.04"
   default     = "simplystatistics-rstudio-18-04"
-}
-
-variable "do_application_null" {
-  description = "Plesk 17.8 on CentOS 7"
-  default     = "null"
-}
-
-variable "do_application_null" {
-  description = "filecoin-lotus 1.11.0 on Ubuntu 20.04 (LTS)"
-  default     = "null"
 }
 
 variable "do_application_skaffolder-18-04" {
