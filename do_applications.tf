@@ -1079,7 +1079,7 @@ variable "do_application_portalcloud-wirespeedvpnbybu-18-04" {
 }
 
 variable "do_application_postalsystemso-emailengine" {
-  description = "EmailEngine 2.12.1 on Ubuntu 20.04"
+  description = "EmailEngine 2.15.1 on Ubuntu 20.04"
   default     = "postalsystemso-emailengine"
 }
 
