@@ -99,7 +99,7 @@ variable "do_application_appwrite-18-04" {
 }
 
 variable "do_application_appwrite-20-04" {
-  description = "Appwrite 0.13.3 on Ubuntu 20.04"
+  description = "Appwrite 0.13.4 on Ubuntu 20.04"
   default     = "appwrite-20-04"
 }
 
@@ -993,6 +993,11 @@ variable "do_application_optimajet-workflowserver-18-04" {
   default     = "optimajet-workflowserver-18-04"
 }
 
+variable "do_application_origintrail-origintrailnode" {
+  description = "OriginTrail node 6 on Ubuntu 20.04"
+  default     = "origintrail-origintrailnode"
+}
+
 variable "do_application_owncast-10" {
   description = "Owncast on Debian 10"
   default     = "owncast-10"
@@ -1093,16 +1098,6 @@ variable "do_application_prometheus-18-04" {
   default     = "prometheus-18-04"
 }
 
-variable "do_application_null" {
-  description = "filecoin-lotus 1.11.0 on Ubuntu 20.04 (LTS)"
-  default     = "null"
-}
-
-variable "do_application_null" {
-  description = "Plesk 17.8 on CentOS 7"
-  default     = "null"
-}
-
 variable "do_application_protocollabs-filecoinlotus-20-04" {
   description = "filecoin-lotus 1.13.0 on Ubuntu 20.04 (LTS)"
   default     = "protocollabs-filecoinlotus-20-04"
@@ -1189,7 +1184,7 @@ variable "do_application_rocketchat-18-04" {
 }
 
 variable "do_application_rocketchat-20-04" {
-  description = "Rocket.Chat 4.1.2 on Ubuntu 20.04"
+  description = "Rocket.Chat 4.5.4 on Ubuntu 20.04"
   default     = "rocketchat-20-04"
 }
 
@@ -1306,6 +1301,16 @@ variable "do_application_simontelephonics-freepbx-7-6" {
 variable "do_application_simontelephonics-freepbx-7-8" {
   description = "FreePBX® 16 on CentOS 7.8"
   default     = "simontelephonics-freepbx-7-8"
+}
+
+variable "do_application_null" {
+  description = "filecoin-lotus 1.11.0 on Ubuntu 20.04 (LTS)"
+  default     = "null"
+}
+
+variable "do_application_null" {
+  description = "Plesk 17.8 on CentOS 7"
+  default     = "null"
 }
 
 variable "do_application_simplex-simplexserver-20-04" {
