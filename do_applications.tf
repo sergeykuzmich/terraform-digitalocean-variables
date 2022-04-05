@@ -363,6 +363,11 @@ variable "do_application_dsuhininapp1-18-04" {
   default     = "dsuhininapp1-18-04"
 }
 
+variable "do_application_easypanel" {
+  description = "Easypanel 1.0.0 on Ubuntu 20.04"
+  default     = "easypanel"
+}
+
 variable "do_application_edgedb" {
   description = "EdgeDB 1.2 on Ubuntu 20.04"
   default     = "edgedb"
@@ -716,6 +721,11 @@ variable "do_application_litespeedtechnol-openlitespeedwor-20-04" {
 variable "do_application_livehelperchat-7-8-2003" {
   description = "Live Helper Chat 3.84 on Centos 7.8.2003"
   default     = "livehelperchat-7-8-2003"
+}
+
+variable "do_application_liveswitch-liveswitchserver" {
+  description = "LiveSwitch Server 1.14.5.12846 on Ubuntu 20.04"
+  default     = "liveswitch-liveswitchserver"
 }
 
 variable "do_application_mastodon-18-04" {
@@ -1108,14 +1118,14 @@ variable "do_application_null" {
   default     = "null"
 }
 
-variable "do_application_protocollabs-filecoinlotus-20-04" {
-  description = "filecoin-lotus 1.13.0 on Ubuntu 20.04 (LTS)"
-  default     = "protocollabs-filecoinlotus-20-04"
-}
-
 variable "do_application_null" {
   description = "filecoin-lotus 1.11.0 on Ubuntu 20.04 (LTS)"
   default     = "null"
+}
+
+variable "do_application_protocollabs-filecoinlotus-20-04" {
+  description = "filecoin-lotus 1.13.0 on Ubuntu 20.04 (LTS)"
+  default     = "protocollabs-filecoinlotus-20-04"
 }
 
 variable "do_application_pyboxtechnologie-pyboxtechmed-20-04" {
