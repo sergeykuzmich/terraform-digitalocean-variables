@@ -364,7 +364,7 @@ variable "do_application_dsuhininapp1-18-04" {
 }
 
 variable "do_application_easypanel" {
-  description = "Easypanel 1.0.0 on Ubuntu 20.04"
+  description = "Easypanel 1.0.2 on Ubuntu 20.04"
   default     = "easypanel"
 }
 
@@ -619,7 +619,7 @@ variable "do_application_jitsiserver-20-04" {
 }
 
 variable "do_application_kandralabs-zulip-18-04" {
-  description = "Zulip 5.0 on Ubuntu 20.04"
+  description = "Zulip 5.1 on Ubuntu 20.04"
   default     = "kandralabs-zulip-18-04"
 }
 
@@ -719,7 +719,7 @@ variable "do_application_litespeedtechnol-openlitespeedwor-20-04" {
 }
 
 variable "do_application_livehelperchat-7-8-2003" {
-  description = "Live Helper Chat 3.84 on Centos 7.8.2003"
+  description = "Live Helper Chat 3.96 on Centos 7.9.2009"
   default     = "livehelperchat-7-8-2003"
 }
 
@@ -779,7 +779,7 @@ variable "do_application_microweber-18-04" {
 }
 
 variable "do_application_microwebercms-microweber-20-04" {
-  description = "Microweber 1.2.11 on Ubuntu 20.04"
+  description = "Microweber 1.2.13 on Ubuntu 20.04"
   default     = "microwebercms-microweber-20-04"
 }
 
@@ -924,7 +924,7 @@ variable "do_application_nodejs-20-04" {
 }
 
 variable "do_application_oneledger-frankensteintest" {
-  description = "Frankenstein Testnet Fullnode 0.18.11 on Ubuntu 20.04"
+  description = "Frankenstein Testnet Fullnode 0.18.13 on Ubuntu 20.04"
   default     = "oneledger-frankensteintest"
 }
 
@@ -1114,12 +1114,12 @@ variable "do_application_prometheus-18-04" {
 }
 
 variable "do_application_null" {
-  description = "Plesk 17.8 on CentOS 7"
+  description = "filecoin-lotus 1.11.0 on Ubuntu 20.04 (LTS)"
   default     = "null"
 }
 
 variable "do_application_null" {
-  description = "filecoin-lotus 1.11.0 on Ubuntu 20.04 (LTS)"
+  description = "Plesk 17.8 on CentOS 7"
   default     = "null"
 }
 
