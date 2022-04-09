@@ -1113,18 +1113,8 @@ variable "do_application_prometheus-18-04" {
   default     = "prometheus-18-04"
 }
 
-variable "do_application_null" {
-  description = "filecoin-lotus 1.11.0 on Ubuntu 20.04 (LTS)"
-  default     = "null"
-}
-
-variable "do_application_null" {
-  description = "Plesk 17.8 on CentOS 7"
-  default     = "null"
-}
-
 variable "do_application_protocollabs-filecoinlotus-20-04" {
-  description = "filecoin-lotus 1.13.0 on Ubuntu 20.04 (LTS)"
+  description = "filecoin-lotus 1.15.0 on Ubuntu 20.04 (LTS)"
   default     = "protocollabs-filecoinlotus-20-04"
 }
 
@@ -1323,9 +1313,19 @@ variable "do_application_simontelephonics-freepbx-7-6" {
   default     = "simontelephonics-freepbx-7-6"
 }
 
+variable "do_application_null" {
+  description = "Plesk 17.8 on CentOS 7"
+  default     = "null"
+}
+
 variable "do_application_simontelephonics-freepbx-7-8" {
   description = "FreePBX® 16 on CentOS 7.8"
   default     = "simontelephonics-freepbx-7-8"
+}
+
+variable "do_application_null" {
+  description = "filecoin-lotus 1.11.0 on Ubuntu 20.04 (LTS)"
+  default     = "null"
 }
 
 variable "do_application_simplex-simplexserver-20-04" {
@@ -1454,7 +1454,7 @@ variable "do_application_varnishsoftware-varnishcache-18-04" {
 }
 
 variable "do_application_victoriametrics-victoriametricss" {
-  description = "VictoriaMetrics Single 1.74.0 on Ubuntu 20.04"
+  description = "VictoriaMetrics Single 1.76.0 on Ubuntu 20.04"
   default     = "victoriametrics-victoriametricss"
 }
 
