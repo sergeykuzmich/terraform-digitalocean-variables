@@ -1008,6 +1008,21 @@ variable "do_application_origintrail-origintrailnode" {
   default     = "origintrail-origintrailnode"
 }
 
+variable "do_application_null" {
+  description = "filecoin-lotus 1.11.0 on Ubuntu 20.04 (LTS)"
+  default     = "null"
+}
+
+variable "do_application_null" {
+  description = "Plesk 17.8 on CentOS 7"
+  default     = "null"
+}
+
+variable "do_application_osmosislabs-osmosis" {
+  description = "Osmosis 7.1.0 on Ubuntu 20.04"
+  default     = "osmosislabs-osmosis"
+}
+
 variable "do_application_ossrs-srs" {
   description = "SRS 4.3 on Ubuntu 20.04"
   default     = "ossrs-srs"
@@ -1313,19 +1328,9 @@ variable "do_application_simontelephonics-freepbx-7-6" {
   default     = "simontelephonics-freepbx-7-6"
 }
 
-variable "do_application_null" {
-  description = "Plesk 17.8 on CentOS 7"
-  default     = "null"
-}
-
 variable "do_application_simontelephonics-freepbx-7-8" {
   description = "FreePBX® 16 on CentOS 7.8"
   default     = "simontelephonics-freepbx-7-8"
-}
-
-variable "do_application_null" {
-  description = "filecoin-lotus 1.11.0 on Ubuntu 20.04 (LTS)"
-  default     = "null"
 }
 
 variable "do_application_simplex-simplexserver-20-04" {
