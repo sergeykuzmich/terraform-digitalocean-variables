@@ -234,7 +234,7 @@ variable "do_application_code-server-18-04" {
 }
 
 variable "do_application_codelathe-filecloud-20-04" {
-  description = "FileCloud 21.2.3 on Ubuntu 20.04"
+  description = "FileCloud 21.3.4 on Ubuntu 20.04"
   default     = "codelathe-filecloud-20-04"
 }
 
@@ -299,7 +299,7 @@ variable "do_application_deadletter-18-04" {
 }
 
 variable "do_application_devdojo-laravel-20-04" {
-  description = "Laravel 7.20.0 on Ubuntu 20.04"
+  description = "Laravel 9.8.1 on Ubuntu 20.04"
   default     = "devdojo-laravel-20-04"
 }
 
@@ -369,7 +369,7 @@ variable "do_application_easypanel" {
 }
 
 variable "do_application_edgedb" {
-  description = "EdgeDB 1.2 on Ubuntu 20.04"
+  description = "EdgeDB 1.3 on Ubuntu 20.04"
   default     = "edgedb"
 }
 
@@ -484,7 +484,7 @@ variable "do_application_gluu-gluuserverce-18-04-3" {
 }
 
 variable "do_application_goauthentikio-authentik" {
-  description = "authentik 2022.1.3 on Ubuntu 20.04"
+  description = "authentik 2022.4.1 on Ubuntu 20.04"
   default     = "goauthentikio-authentik"
 }
 
@@ -546,6 +546,16 @@ variable "do_application_honeydbagent-9" {
 variable "do_application_humhubgmbhkg-humhub-10" {
   description = "HumHub 1.10.2 on Debian 10"
   default     = "humhubgmbhkg-humhub-10"
+}
+
+variable "do_application_null" {
+  description = "filecoin-lotus 1.11.0 on Ubuntu 20.04 (LTS)"
+  default     = "null"
+}
+
+variable "do_application_null" {
+  description = "Plesk 17.8 on CentOS 7"
+  default     = "null"
 }
 
 variable "do_application_hyfinity-webmakerserver-20-04" {
@@ -799,7 +809,7 @@ variable "do_application_mobilejazz-bugfender-18-04" {
 }
 
 variable "do_application_monetdbsolutions-monetdb" {
-  description = "MonetDB 11.41.13 on Ubuntu 20.04"
+  description = "MonetDB 11.43.13 on Ubuntu 20.04"
   default     = "monetdbsolutions-monetdb"
 }
 
@@ -1008,16 +1018,6 @@ variable "do_application_origintrail-origintrailnode" {
   default     = "origintrail-origintrailnode"
 }
 
-variable "do_application_null" {
-  description = "filecoin-lotus 1.11.0 on Ubuntu 20.04 (LTS)"
-  default     = "null"
-}
-
-variable "do_application_null" {
-  description = "Plesk 17.8 on CentOS 7"
-  default     = "null"
-}
-
 variable "do_application_osmosislabs-osmosis" {
   description = "Osmosis 7.1.0 on Ubuntu 20.04"
   default     = "osmosislabs-osmosis"
@@ -1039,7 +1039,7 @@ variable "do_application_passbolt-18-04" {
 }
 
 variable "do_application_passboltsa-passboltce-20-04" {
-  description = "Passbolt CE 3.5.0-1 on Ubuntu 20.04"
+  description = "Passbolt CE 3.5.0-2 on Ubuntu 20.04"
   default     = "passboltsa-passboltce-20-04"
 }
 
@@ -1489,7 +1489,7 @@ variable "do_application_wftutorials-purdm-18-04" {
 }
 
 variable "do_application_wikijs-18-04" {
-  description = "Wiki.js 2.5.276 on Ubuntu 20.04 (LTS)"
+  description = "Wiki.js 2.5.278 on Ubuntu 20.04 (LTS)"
   default     = "wikijs-18-04"
 }
 
