@@ -513,6 +513,11 @@ variable "do_application_greendeployhq-django32lts-20-04" {
   default     = "greendeployhq-django32lts-20-04"
 }
 
+variable "do_application_hammertechnologi-lumewebdnsrelay" {
+  description = "Lume Web DNS Relay 0.1.0 on Ubuntu 18.04"
+  default     = "hammertechnologi-lumewebdnsrelay"
+}
+
 variable "do_application_haproxywi-roxywi-7" {
   description = "Roxy-WI 4.5.1 on CentOS 7"
   default     = "haproxywi-roxywi-7"
@@ -546,16 +551,6 @@ variable "do_application_honeydbagent-9" {
 variable "do_application_humhubgmbhkg-humhub-10" {
   description = "HumHub 1.10.2 on Debian 10"
   default     = "humhubgmbhkg-humhub-10"
-}
-
-variable "do_application_null" {
-  description = "filecoin-lotus 1.11.0 on Ubuntu 20.04 (LTS)"
-  default     = "null"
-}
-
-variable "do_application_null" {
-  description = "Plesk 17.8 on CentOS 7"
-  default     = "null"
 }
 
 variable "do_application_hyfinity-webmakerserver-20-04" {
@@ -1094,7 +1089,7 @@ variable "do_application_plesk-7-6" {
 }
 
 variable "do_application_plesk-pleskcentos-7-9" {
-  description = "Plesk (CentOS) 18.0 on CentOS 7.9"
+  description = "Plesk (CentOS) 18.0.43 on CentOS 7.9"
   default     = "plesk-pleskcentos-7-9"
 }
 
@@ -1243,8 +1238,18 @@ variable "do_application_saltcorn-20-04" {
   default     = "saltcorn-20-04"
 }
 
+variable "do_application_null" {
+  description = "Plesk 17.8 on CentOS 7"
+  default     = "null"
+}
+
+variable "do_application_null" {
+  description = "filecoin-lotus 1.11.0 on Ubuntu 20.04 (LTS)"
+  default     = "null"
+}
+
 variable "do_application_sandflysecurity-20-04" {
-  description = "Sandfly Security 3.2.2 on Ubuntu 20.04"
+  description = "Sandfly Security 3.3.0 on Ubuntu 20.04"
   default     = "sandflysecurity-20-04"
 }
 
