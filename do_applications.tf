@@ -54,7 +54,7 @@ variable "do_application_antmedia-16-04" {
 }
 
 variable "do_application_antmedia-antmediaserverco-18-04" {
-  description = "Ant Media Server Community Edition 2.4.2.1 on Ubuntu 20.04"
+  description = "Ant Media Server Community Edition 2.4.3 on Ubuntu 20.04"
   default     = "antmedia-antmediaserverco-18-04"
 }
 
@@ -784,7 +784,7 @@ variable "do_application_microweber-18-04" {
 }
 
 variable "do_application_microwebercms-microweber-20-04" {
-  description = "Microweber 1.2.13 on Ubuntu 20.04"
+  description = "Microweber 1.2.15 on Ubuntu 20.04"
   default     = "microwebercms-microweber-20-04"
 }
 
@@ -1544,7 +1544,7 @@ variable "do_application_zeslecp-7" {
 }
 
 variable "do_application_znuny" {
-  description = "Znuny 6.3.1 on Debian 10 (buster)"
+  description = "Znuny 6.3.3 on Debian 10 (buster)"
   default     = "znuny"
 }
 
