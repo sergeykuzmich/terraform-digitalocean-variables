@@ -64,7 +64,7 @@ variable "do_application_antmedia-antmediaserveren-16-04" {
 }
 
 variable "do_application_antmedia-antmediaserveren-18-04" {
-  description = "Ant Media Server Enterprise Edition 2.4.2.1 on Ubuntu 20.04"
+  description = "Ant Media Server Enterprise Edition 2.4.3 on Ubuntu 20.04"
   default     = "antmedia-antmediaserveren-18-04"
 }
 
@@ -669,7 +669,7 @@ variable "do_application_lemp-20-04" {
 }
 
 variable "do_application_litespeedtechnol-cyberpanel-20-04" {
-  description = "CyberPanel 2.1.2 on Ubuntu 20.04"
+  description = "CyberPanel 2.3.1 on Ubuntu 20.04"
   default     = "litespeedtechnol-cyberpanel-20-04"
 }
 
@@ -1079,7 +1079,7 @@ variable "do_application_plesk-18-04" {
 }
 
 variable "do_application_plesk-20-04" {
-  description = "Plesk 18.0 on Ubuntu 20.04"
+  description = "Plesk 18.0.43 on Ubuntu 20.04"
   default     = "plesk-20-04"
 }
 
@@ -1549,7 +1549,7 @@ variable "do_application_znuny" {
 }
 
 variable "do_application_znuny-znunylts-10" {
-  description = "Znuny LTS 6.0.40 on Debian 10 (buster)"
+  description = "Znuny LTS 6.0.42 on Debian 10 (buster)"
   default     = "znuny-znunylts-10"
 }
 
