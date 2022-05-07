@@ -89,7 +89,7 @@ variable "do_application_aplitel-vitalpbx-7" {
 }
 
 variable "do_application_appsmith-18-04" {
-  description = "Appsmith 1.5 on Ubuntu 20.04"
+  description = "Appsmith 1.6 on Ubuntu 20.04"
   default     = "appsmith-18-04"
 }
 
@@ -296,6 +296,11 @@ variable "do_application_deadcanaries-onionroutedcloud-18-04" {
 variable "do_application_deadletter-18-04" {
   description = "DeadLetter Facial Recognition on 18.04"
   default     = "deadletter-18-04"
+}
+
+variable "do_application_deskpro" {
+  description = "Deskpro on Ubuntu 20.04"
+  default     = "deskpro"
 }
 
 variable "do_application_devdojo-laravel-20-04" {
@@ -1243,14 +1248,14 @@ variable "do_application_null" {
   default     = "null"
 }
 
-variable "do_application_null" {
-  description = "filecoin-lotus 1.11.0 on Ubuntu 20.04 (LTS)"
-  default     = "null"
-}
-
 variable "do_application_sandflysecurity-20-04" {
   description = "Sandfly Security 3.3.0 on Ubuntu 20.04"
   default     = "sandflysecurity-20-04"
+}
+
+variable "do_application_null" {
+  description = "filecoin-lotus 1.11.0 on Ubuntu 20.04 (LTS)"
+  default     = "null"
 }
 
 variable "do_application_searchblox-searchbloxenterp-7-6" {
