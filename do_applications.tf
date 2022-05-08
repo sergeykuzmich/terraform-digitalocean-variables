@@ -263,6 +263,11 @@ variable "do_application_cpanel-cpanelwhm-7-9" {
   default     = "cpanel-cpanelwhm-7-9"
 }
 
+variable "do_application_cpanel-cpanelwhmforubun" {
+  description = "cPanel & WHM® for Ubuntu RELEASE on Ubuntu 20.04 (LTS)"
+  default     = "cpanel-cpanelwhmforubun"
+}
+
 variable "do_application_csmm-20-04" {
   description = "CSMM 1.20.2 on Ubuntu 20.04"
   default     = "csmm-20-04"
@@ -1039,7 +1044,7 @@ variable "do_application_passbolt-18-04" {
 }
 
 variable "do_application_passboltsa-passboltce-20-04" {
-  description = "Passbolt CE 3.5.0-2 on Ubuntu 20.04"
+  description = "Passbolt CE 3.5.0-3 on Ubuntu 20.04"
   default     = "passboltsa-passboltce-20-04"
 }
 
@@ -1113,9 +1118,19 @@ variable "do_application_portalcloud-wirespeedvpnbybu-18-04" {
   default     = "portalcloud-wirespeedvpnbybu-18-04"
 }
 
+variable "do_application_null" {
+  description = "filecoin-lotus 1.11.0 on Ubuntu 20.04 (LTS)"
+  default     = "null"
+}
+
 variable "do_application_postalsystemso-emailengine" {
-  description = "EmailEngine 2.15.1 on Ubuntu 20.04"
+  description = "EmailEngine 2.20.1 on Ubuntu 20.04"
   default     = "postalsystemso-emailengine"
+}
+
+variable "do_application_null" {
+  description = "Plesk 17.8 on CentOS 7"
+  default     = "null"
 }
 
 variable "do_application_powertrader-coincollectorbyp" {
@@ -1243,19 +1258,9 @@ variable "do_application_saltcorn-20-04" {
   default     = "saltcorn-20-04"
 }
 
-variable "do_application_null" {
-  description = "Plesk 17.8 on CentOS 7"
-  default     = "null"
-}
-
 variable "do_application_sandflysecurity-20-04" {
   description = "Sandfly Security 3.3.0 on Ubuntu 20.04"
   default     = "sandflysecurity-20-04"
-}
-
-variable "do_application_null" {
-  description = "filecoin-lotus 1.11.0 on Ubuntu 20.04 (LTS)"
-  default     = "null"
 }
 
 variable "do_application_searchblox-searchbloxenterp-7-6" {
@@ -1281,6 +1286,11 @@ variable "do_application_selfhostedpro-yacht-20-04" {
 variable "do_application_severalnines-clustercontrol-20-04" {
   description = "ClusterControl 1.9.2 on Ubuntu 20.04"
   default     = "severalnines-clustercontrol-20-04"
+}
+
+variable "do_application_sharklabs-apachekafka" {
+  description = "Apache Kafka 3.1.0 on Ubuntu 20.04"
+  default     = "sharklabs-apachekafka"
 }
 
 variable "do_application_sharklabs-foldinghome-18-04" {
