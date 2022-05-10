@@ -888,6 +888,11 @@ variable "do_application_netverity-netbox-20-04" {
   default     = "netverity-netbox-20-04"
 }
 
+variable "do_application_nextcloudgmbh-nextcloud" {
+  description = "Nextcloud 1.0.1 on Ubuntu 20.04 (LTS)"
+  default     = "nextcloudgmbh-nextcloud"
+}
+
 variable "do_application_nibblecomm-spotipo-18-04" {
   description = "Spotipo 3.4.13 on 18.04"
   default     = "nibblecomm-spotipo-18-04"
@@ -1118,14 +1123,14 @@ variable "do_application_portalcloud-wirespeedvpnbybu-18-04" {
   default     = "portalcloud-wirespeedvpnbybu-18-04"
 }
 
-variable "do_application_null" {
-  description = "filecoin-lotus 1.11.0 on Ubuntu 20.04 (LTS)"
-  default     = "null"
-}
-
 variable "do_application_postalsystemso-emailengine" {
   description = "EmailEngine 2.20.1 on Ubuntu 20.04"
   default     = "postalsystemso-emailengine"
+}
+
+variable "do_application_null" {
+  description = "filecoin-lotus 1.11.0 on Ubuntu 20.04 (LTS)"
+  default     = "null"
 }
 
 variable "do_application_null" {
