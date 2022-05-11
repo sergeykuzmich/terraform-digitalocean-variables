@@ -553,6 +553,11 @@ variable "do_application_helpyio-helpypro-18-04" {
   default     = "helpyio-helpypro-18-04"
 }
 
+variable "do_application_hollaex-hollaexkit" {
+  description = "HollaEx Kit 2.3.1 on Ubuntu 20.04"
+  default     = "hollaex-hollaexkit"
+}
+
 variable "do_application_honeydbagent-9" {
   description = "HoneyDB Agent on Debian 9"
   default     = "honeydbagent-9"
@@ -571,6 +576,11 @@ variable "do_application_hyfinity-webmakerserver-20-04" {
 variable "do_application_hystax-freecostmanageme-20-04" {
   description = "Free Cost Management 1-1-326707216-master on Ubuntu 20.04"
   default     = "hystax-freecostmanageme-20-04"
+}
+
+variable "do_application_ifaxsolutions-hylafaxenterpris" {
+  description = "HylaFAX Enterprise 6.3.19.1 on CentOS 7"
+  default     = "ifaxsolutions-hylafaxenterpris"
 }
 
 variable "do_application_influxdb-18-04" {
@@ -1123,14 +1133,14 @@ variable "do_application_portalcloud-wirespeedvpnbybu-18-04" {
   default     = "portalcloud-wirespeedvpnbybu-18-04"
 }
 
-variable "do_application_postalsystemso-emailengine" {
-  description = "EmailEngine 2.20.1 on Ubuntu 20.04"
-  default     = "postalsystemso-emailengine"
-}
-
 variable "do_application_null" {
   description = "filecoin-lotus 1.11.0 on Ubuntu 20.04 (LTS)"
   default     = "null"
+}
+
+variable "do_application_postalsystemso-emailengine" {
+  description = "EmailEngine 2.20.1 on Ubuntu 20.04"
+  default     = "postalsystemso-emailengine"
 }
 
 variable "do_application_null" {
