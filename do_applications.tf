@@ -1133,19 +1133,9 @@ variable "do_application_portalcloud-wirespeedvpnbybu-18-04" {
   default     = "portalcloud-wirespeedvpnbybu-18-04"
 }
 
-variable "do_application_null" {
-  description = "filecoin-lotus 1.11.0 on Ubuntu 20.04 (LTS)"
-  default     = "null"
-}
-
 variable "do_application_postalsystemso-emailengine" {
   description = "EmailEngine 2.20.1 on Ubuntu 20.04"
   default     = "postalsystemso-emailengine"
-}
-
-variable "do_application_null" {
-  description = "Plesk 17.8 on CentOS 7"
-  default     = "null"
 }
 
 variable "do_application_powertrader-coincollectorbyp" {
@@ -1313,6 +1303,16 @@ variable "do_application_sharklabs-foldinghome-18-04" {
   default     = "sharklabs-foldinghome-18-04"
 }
 
+variable "do_application_null" {
+  description = "Plesk 17.8 on CentOS 7"
+  default     = "null"
+}
+
+variable "do_application_null" {
+  description = "filecoin-lotus 1.11.0 on Ubuntu 20.04 (LTS)"
+  default     = "null"
+}
+
 variable "do_application_sharklabs-matrixsynapsebac-10" {
   description = "Matrix (Synapse backend) 0.1.3 on Debian 10 (buster)"
   default     = "sharklabs-matrixsynapsebac-10"
@@ -1336,6 +1336,11 @@ variable "do_application_sharklabs-ninjam-10-0" {
 variable "do_application_sharklabs-nodejsquickstart-18-04" {
   description = "Node.js Quickstart 1.0 on Ubuntu 18.04"
   default     = "sharklabs-nodejsquickstart-18-04"
+}
+
+variable "do_application_sharklabs-opensearch" {
+  description = "OpenSearch 1.3.1 on Ubuntu 20.04"
+  default     = "sharklabs-opensearch"
 }
 
 variable "do_application_sharklabs-pacvim-18-04" {
@@ -1411,6 +1416,11 @@ variable "do_application_spatie-mailcoach-18-04" {
 variable "do_application_spatie-mailcoach-20-04" {
   description = "Mailcoach 4.0 on Ubuntu 20.04"
   default     = "spatie-mailcoach-20-04"
+}
+
+variable "do_application_stacksfoundation-stacksblockchain" {
+  description = "Stacks Blockchain 2.05.0.2.0 on Debian 9"
+  default     = "stacksfoundation-stacksblockchain"
 }
 
 variable "do_application_starkdrones-decentralizedint-18-04" {
