@@ -664,7 +664,7 @@ variable "do_application_kromit-titra-18-04" {
 }
 
 variable "do_application_kuyio-wireguardianvpna" {
-  description = "Wireguardian VPN Access Server 2110.0 on Ubuntu 20.04"
+  description = "Wireguardian VPN Access Server 2205.0 on Ubuntu 20.04"
   default     = "kuyio-wireguardianvpna"
 }
 
@@ -814,7 +814,7 @@ variable "do_application_mistio-mist-20-04" {
 }
 
 variable "do_application_mjmair-inventree" {
-  description = "InvenTree 0.6.1 on Ubuntu 20.04"
+  description = "InvenTree 0.6.3 on Ubuntu 20.04"
   default     = "mjmair-inventree"
 }
 
@@ -1138,6 +1138,16 @@ variable "do_application_postalsystemso-emailengine" {
   default     = "postalsystemso-emailengine"
 }
 
+variable "do_application_null" {
+  description = "filecoin-lotus 1.11.0 on Ubuntu 20.04 (LTS)"
+  default     = "null"
+}
+
+variable "do_application_null" {
+  description = "Plesk 17.8 on CentOS 7"
+  default     = "null"
+}
+
 variable "do_application_powertrader-coincollectorbyp" {
   description = "Coin Collector by PowerTrader.net 1.3.1 on Ubuntu 20.04"
   default     = "powertrader-coincollectorbyp"
@@ -1303,18 +1313,8 @@ variable "do_application_sharklabs-foldinghome-18-04" {
   default     = "sharklabs-foldinghome-18-04"
 }
 
-variable "do_application_null" {
-  description = "Plesk 17.8 on CentOS 7"
-  default     = "null"
-}
-
-variable "do_application_null" {
-  description = "filecoin-lotus 1.11.0 on Ubuntu 20.04 (LTS)"
-  default     = "null"
-}
-
 variable "do_application_sharklabs-matrixsynapsebac-10" {
-  description = "Matrix (Synapse backend) 0.1.3 on Debian 10 (buster)"
+  description = "Matrix (Synapse backend) 0.1.4 on Debian 10 (buster)"
   default     = "sharklabs-matrixsynapsebac-10"
 }
 
@@ -1534,7 +1534,7 @@ variable "do_application_wftutorials-purdm-18-04" {
 }
 
 variable "do_application_wikijs-18-04" {
-  description = "Wiki.js 2.5.278 on Ubuntu 20.04 (LTS)"
+  description = "Wiki.js 2.5.281 on Ubuntu 20.04 (LTS)"
   default     = "wikijs-18-04"
 }
 
@@ -1579,7 +1579,7 @@ variable "do_application_zeromon-zabbix-18-04" {
 }
 
 variable "do_application_zeslecp-7" {
-  description = "ZesleCP 3.1.6 on CentOS 7.x"
+  description = "ZesleCP 3.1.14 on CentOS 7.x"
   default     = "zeslecp-7"
 }
 
