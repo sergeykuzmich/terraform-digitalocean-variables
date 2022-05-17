@@ -309,7 +309,7 @@ variable "do_application_deskpro" {
 }
 
 variable "do_application_devdojo-laravel-20-04" {
-  description = "Laravel 9.8.1 on Ubuntu 20.04"
+  description = "Laravel 9.12.2 on Ubuntu 20.04"
   default     = "devdojo-laravel-20-04"
 }
 
@@ -764,7 +764,7 @@ variable "do_application_mattermost-18-04" {
 }
 
 variable "do_application_meilisas-meilisearch-10" {
-  description = "MeiliSearch 0.26.0 on Debian 10 (buster)"
+  description = "MeiliSearch 0.27.0 on Debian 10 (buster)"
   default     = "meilisas-meilisearch-10"
 }
 
