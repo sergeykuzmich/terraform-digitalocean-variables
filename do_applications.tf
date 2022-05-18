@@ -1169,7 +1169,7 @@ variable "do_application_pyboxtechnologie-pyboxtechmed-20-04" {
 }
 
 variable "do_application_questdb-20-04" {
-  description = "QuestDB 6.2.1 on Ubuntu 20.04"
+  description = "QuestDB 6.3.1 on Ubuntu 20.04"
   default     = "questdb-20-04"
 }
 
