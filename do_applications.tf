@@ -389,7 +389,7 @@ variable "do_application_eltrino-magento2opensour-18-04" {
 }
 
 variable "do_application_eltrino-magento2opensour-20-04" {
-  description = "Magento 2 Open Source 1.5.1 on Ubuntu 20.04 (LTS)"
+  description = "Magento 2 Open Source 1.6.2 on Ubuntu 20.04 (LTS)"
   default     = "eltrino-magento2opensour-20-04"
 }
 
@@ -554,7 +554,7 @@ variable "do_application_helpyio-helpypro-18-04" {
 }
 
 variable "do_application_hollaex-hollaexkit" {
-  description = "HollaEx Kit 2.3.1 on Ubuntu 20.04"
+  description = "HollaEx Kit 2.3.3 on Ubuntu 20.04"
   default     = "hollaex-hollaexkit"
 }
 
