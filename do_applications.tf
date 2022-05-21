@@ -99,7 +99,7 @@ variable "do_application_appwrite-18-04" {
 }
 
 variable "do_application_appwrite-20-04" {
-  description = "Appwrite 0.13.4 on Ubuntu 20.04"
+  description = "Appwrite 0.14.1 on Ubuntu 20.04"
   default     = "appwrite-20-04"
 }
 
@@ -764,7 +764,7 @@ variable "do_application_mattermost-18-04" {
 }
 
 variable "do_application_meilisas-meilisearch-10" {
-  description = "MeiliSearch 0.27.0 on Debian 10 (buster)"
+  description = "MeiliSearch 0.27.1 on Debian 10 (buster)"
   default     = "meilisas-meilisearch-10"
 }
 
@@ -1138,16 +1138,6 @@ variable "do_application_postalsystemso-emailengine" {
   default     = "postalsystemso-emailengine"
 }
 
-variable "do_application_null" {
-  description = "filecoin-lotus 1.11.0 on Ubuntu 20.04 (LTS)"
-  default     = "null"
-}
-
-variable "do_application_null" {
-  description = "Plesk 17.8 on CentOS 7"
-  default     = "null"
-}
-
 variable "do_application_powertrader-coincollectorbyp" {
   description = "Coin Collector by PowerTrader.net 1.3.1 on Ubuntu 20.04"
   default     = "powertrader-coincollectorbyp"
@@ -1388,6 +1378,16 @@ variable "do_application_skaffolder-18-04" {
   default     = "skaffolder-18-04"
 }
 
+variable "do_application_null" {
+  description = "filecoin-lotus 1.11.0 on Ubuntu 20.04 (LTS)"
+  default     = "null"
+}
+
+variable "do_application_null" {
+  description = "Plesk 17.8 on CentOS 7"
+  default     = "null"
+}
+
 variable "do_application_snapt-snaptaria-18-04" {
   description = "Snapt Aria 2.0.0 on Ubuntu 18.04"
   default     = "snapt-snaptaria-18-04"
@@ -1556,6 +1556,11 @@ variable "do_application_wordpress-20-04" {
 variable "do_application_workarea-18-04" {
   description = "Workarea 3.5.x on Ubuntu 18.04"
   default     = "workarea-18-04"
+}
+
+variable "do_application_wpclouddeploy" {
+  description = "WPCloudDeploy 4.16.6 on Ubuntu 20.04"
+  default     = "wpclouddeploy"
 }
 
 variable "do_application_xcart-7" {
