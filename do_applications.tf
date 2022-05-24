@@ -1069,7 +1069,7 @@ variable "do_application_perconamonitorin-7" {
 }
 
 variable "do_application_perforce-perforcehelixcor" {
-  description = "Perforce Helix Core 2021.2 on CentOS 7.9"
+  description = "Perforce Helix Core 2021.2 on Rocky 8"
   default     = "perforce-perforcehelixcor"
 }
 
