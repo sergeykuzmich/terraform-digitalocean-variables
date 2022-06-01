@@ -99,7 +99,7 @@ variable "do_application_appwrite-18-04" {
 }
 
 variable "do_application_appwrite-20-04" {
-  description = "Appwrite 0.14.1 on Ubuntu 20.04"
+  description = "Appwrite 0.14.2 on Ubuntu 20.04"
   default     = "appwrite-20-04"
 }
 
@@ -174,7 +174,7 @@ variable "do_application_bugfender-20-04" {
 }
 
 variable "do_application_bunkercloudservi-warpspeedvpn-18-04" {
-  description = "WarpSpeed VPN 1.1.5 on Ubuntu 18.04"
+  description = "WarpSpeed VPN 202226192416 on Ubuntu 20.04"
   default     = "bunkercloudservi-warpspeedvpn-18-04"
 }
 
@@ -554,7 +554,7 @@ variable "do_application_helpyio-helpypro-18-04" {
 }
 
 variable "do_application_hollaex-hollaexkit" {
-  description = "HollaEx Kit 2.3.3 on Ubuntu 20.04"
+  description = "HollaEx Kit 2.3.4 on Ubuntu 20.04"
   default     = "hollaex-hollaexkit"
 }
 
@@ -1133,9 +1133,19 @@ variable "do_application_portalcloud-wirespeedvpnbybu-18-04" {
   default     = "portalcloud-wirespeedvpnbybu-18-04"
 }
 
+variable "do_application_null" {
+  description = "filecoin-lotus 1.11.0 on Ubuntu 20.04 (LTS)"
+  default     = "null"
+}
+
 variable "do_application_postalsystemso-emailengine" {
-  description = "EmailEngine 2.20.1 on Ubuntu 20.04"
+  description = "EmailEngine 2.21.0 on Ubuntu 20.04"
   default     = "postalsystemso-emailengine"
+}
+
+variable "do_application_null" {
+  description = "Plesk 17.8 on CentOS 7"
+  default     = "null"
 }
 
 variable "do_application_powertrader-coincollectorbyp" {
@@ -1376,16 +1386,6 @@ variable "do_application_simplystatistics-rstudio-18-04" {
 variable "do_application_skaffolder-18-04" {
   description = "Skaffolder 3.0 on Ubuntu 18.04"
   default     = "skaffolder-18-04"
-}
-
-variable "do_application_null" {
-  description = "filecoin-lotus 1.11.0 on Ubuntu 20.04 (LTS)"
-  default     = "null"
-}
-
-variable "do_application_null" {
-  description = "Plesk 17.8 on CentOS 7"
-  default     = "null"
 }
 
 variable "do_application_snapt-snaptaria-18-04" {
