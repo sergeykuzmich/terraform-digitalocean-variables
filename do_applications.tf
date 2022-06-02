@@ -713,6 +713,11 @@ variable "do_application_litespeedtechnol-openlitespeeddja-20-04" {
   default     = "litespeedtechnol-openlitespeeddja-20-04"
 }
 
+variable "do_application_litespeedtechnol-openlitespeeddru" {
+  description = "OpenLiteSpeed Drupal 9.3.14 on Ubuntu 20.04"
+  default     = "litespeedtechnol-openlitespeeddru"
+}
+
 variable "do_application_litespeedtechnol-openlitespeedjoo-20-04" {
   description = "OpenLiteSpeed Joomla 4.0.5 on Ubuntu 20.04"
   default     = "litespeedtechnol-openlitespeedjoo-20-04"
@@ -1133,14 +1138,14 @@ variable "do_application_portalcloud-wirespeedvpnbybu-18-04" {
   default     = "portalcloud-wirespeedvpnbybu-18-04"
 }
 
-variable "do_application_null" {
-  description = "filecoin-lotus 1.11.0 on Ubuntu 20.04 (LTS)"
-  default     = "null"
-}
-
 variable "do_application_postalsystemso-emailengine" {
   description = "EmailEngine 2.21.0 on Ubuntu 20.04"
   default     = "postalsystemso-emailengine"
+}
+
+variable "do_application_null" {
+  description = "filecoin-lotus 1.11.0 on Ubuntu 20.04 (LTS)"
+  default     = "null"
 }
 
 variable "do_application_null" {

@@ -48,16 +48,6 @@ variable "do_distibution_fedora-36-x64" {
   default     = "fedora-36-x64"
 }
 
-variable "do_distibution_freebsd-12-x64-ufs" {
-  description = "FreeBSD 12.2 ufs x64"
-  default     = "freebsd-12-x64-ufs"
-}
-
-variable "do_distibution_freebsd-12-x64-zfs" {
-  description = "FreeBSD 12.2 zfs x64"
-  default     = "freebsd-12-x64-zfs"
-}
-
 variable "do_distibution_rancheros" {
   description = "RancherOS 1.5.8 x64"
   default     = "rancheros"
