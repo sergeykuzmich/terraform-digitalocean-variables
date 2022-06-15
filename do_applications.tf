@@ -143,6 +143,11 @@ variable "do_application_bcoin-18-04" {
   default     = "bcoin-18-04"
 }
 
+variable "do_application_bitwarden" {
+  description = "Bitwarden 2022.5.1 on Ubuntu 20.04"
+  default     = "bitwarden"
+}
+
 variable "do_application_bitwarden-18-04" {
   description = "Bitwarden 1.47.1 on Ubuntu 20.04"
   default     = "bitwarden-18-04"
@@ -219,7 +224,7 @@ variable "do_application_cloudron-18-04" {
 }
 
 variable "do_application_cloudron-20-04" {
-  description = "Cloudron 7.1.4 on Ubuntu 20.04"
+  description = "Cloudron 7.2.4 on Ubuntu 20.04"
   default     = "cloudron-20-04"
 }
 
@@ -744,7 +749,7 @@ variable "do_application_litespeedtechnol-openlitespeedwor-18-04" {
 }
 
 variable "do_application_litespeedtechnol-openlitespeedwor-20-04" {
-  description = "OpenLiteSpeed WordPress 5.9 on Ubuntu 20.04"
+  description = "OpenLiteSpeed WordPress 6.0 on Ubuntu 20.04"
   default     = "litespeedtechnol-openlitespeedwor-20-04"
 }
 
@@ -1143,16 +1148,6 @@ variable "do_application_postalsystemso-emailengine" {
   default     = "postalsystemso-emailengine"
 }
 
-variable "do_application_null" {
-  description = "filecoin-lotus 1.11.0 on Ubuntu 20.04 (LTS)"
-  default     = "null"
-}
-
-variable "do_application_null" {
-  description = "Plesk 17.8 on CentOS 7"
-  default     = "null"
-}
-
 variable "do_application_powertrader-coincollectorbyp" {
   description = "Coin Collector by PowerTrader.net 1.3.1 on Ubuntu 20.04"
   default     = "powertrader-coincollectorbyp"
@@ -1388,9 +1383,19 @@ variable "do_application_simplystatistics-rstudio-18-04" {
   default     = "simplystatistics-rstudio-18-04"
 }
 
+variable "do_application_null" {
+  description = "filecoin-lotus 1.11.0 on Ubuntu 20.04 (LTS)"
+  default     = "null"
+}
+
 variable "do_application_skaffolder-18-04" {
   description = "Skaffolder 3.0 on Ubuntu 18.04"
   default     = "skaffolder-18-04"
+}
+
+variable "do_application_null" {
+  description = "Plesk 17.8 on CentOS 7"
+  default     = "null"
 }
 
 variable "do_application_snapt-snaptaria-18-04" {
