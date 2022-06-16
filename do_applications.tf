@@ -88,6 +88,11 @@ variable "do_application_aplitel-vitalpbx-7" {
   default     = "aplitel-vitalpbx-7"
 }
 
+variable "do_application_apliteni-keitaro" {
+  description = "Keitaro 9.14 on CentOS 8 Stream"
+  default     = "apliteni-keitaro"
+}
+
 variable "do_application_appsmith-18-04" {
   description = "Appsmith 1.6 on Ubuntu 20.04"
   default     = "appsmith-18-04"
@@ -1144,7 +1149,7 @@ variable "do_application_portalcloud-wirespeedvpnbybu-18-04" {
 }
 
 variable "do_application_postalsystemso-emailengine" {
-  description = "EmailEngine 2.21.0 on Ubuntu 20.04"
+  description = "EmailEngine 2.22.2 on Ubuntu 20.04"
   default     = "postalsystemso-emailengine"
 }
 
@@ -1383,11 +1388,6 @@ variable "do_application_simplystatistics-rstudio-18-04" {
   default     = "simplystatistics-rstudio-18-04"
 }
 
-variable "do_application_null" {
-  description = "filecoin-lotus 1.11.0 on Ubuntu 20.04 (LTS)"
-  default     = "null"
-}
-
 variable "do_application_skaffolder-18-04" {
   description = "Skaffolder 3.0 on Ubuntu 18.04"
   default     = "skaffolder-18-04"
@@ -1395,6 +1395,11 @@ variable "do_application_skaffolder-18-04" {
 
 variable "do_application_null" {
   description = "Plesk 17.8 on CentOS 7"
+  default     = "null"
+}
+
+variable "do_application_null" {
+  description = "filecoin-lotus 1.11.0 on Ubuntu 20.04 (LTS)"
   default     = "null"
 }
 
