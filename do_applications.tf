@@ -654,7 +654,7 @@ variable "do_application_jitsiserver-20-04" {
 }
 
 variable "do_application_kandralabs-zulip-18-04" {
-  description = "Zulip 5.1 on Ubuntu 20.04"
+  description = "Zulip 5.2 on Ubuntu 20.04"
   default     = "kandralabs-zulip-18-04"
 }
 
@@ -1179,7 +1179,7 @@ variable "do_application_protocollabs-filecoinlotus-20-04" {
 }
 
 variable "do_application_pyboxtechnologie-pyboxtechmed-20-04" {
-  description = "PyboxTech-Med 1.76 on Ubuntu 20.04"
+  description = "PyboxTech-Med 1.76.1 on Ubuntu 20.04"
   default     = "pyboxtechnologie-pyboxtechmed-20-04"
 }
 
