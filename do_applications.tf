@@ -244,7 +244,7 @@ variable "do_application_code-server-18-04" {
 }
 
 variable "do_application_codelathe-filecloud-20-04" {
-  description = "FileCloud 21.3.4 on Ubuntu 20.04"
+  description = "FileCloud 21.3.5 on Ubuntu 20.04"
   default     = "codelathe-filecloud-20-04"
 }
 
@@ -654,7 +654,7 @@ variable "do_application_jitsiserver-20-04" {
 }
 
 variable "do_application_kandralabs-zulip-18-04" {
-  description = "Zulip 5.2 on Ubuntu 20.04"
+  description = "Zulip 5.3 on Ubuntu 20.04"
   default     = "kandralabs-zulip-18-04"
 }
 
@@ -968,6 +968,11 @@ variable "do_application_nodejs-20-04" {
   default     = "nodejs-20-04"
 }
 
+variable "do_application_npool" {
+  description = "nPool 1.0 on Ubuntu 20.04"
+  default     = "npool"
+}
+
 variable "do_application_oneledger-frankensteintest" {
   description = "Frankenstein Testnet Fullnode 0.18.13 on Ubuntu 20.04"
   default     = "oneledger-frankensteintest"
@@ -1148,9 +1153,9 @@ variable "do_application_portalcloud-wirespeedvpnbybu-18-04" {
   default     = "portalcloud-wirespeedvpnbybu-18-04"
 }
 
-variable "do_application_postalsystemso-emailengine" {
-  description = "EmailEngine 2.22.2 on Ubuntu 20.04"
-  default     = "postalsystemso-emailengine"
+variable "do_application_null" {
+  description = "filecoin-lotus 1.11.0 on Ubuntu 20.04 (LTS)"
+  default     = "null"
 }
 
 variable "do_application_null" {
@@ -1158,9 +1163,9 @@ variable "do_application_null" {
   default     = "null"
 }
 
-variable "do_application_null" {
-  description = "filecoin-lotus 1.11.0 on Ubuntu 20.04 (LTS)"
-  default     = "null"
+variable "do_application_postalsystemso-emailengine" {
+  description = "EmailEngine 2.22.5 on Ubuntu 20.04"
+  default     = "postalsystemso-emailengine"
 }
 
 variable "do_application_powertrader-coincollectorbyp" {
