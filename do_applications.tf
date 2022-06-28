@@ -253,6 +253,11 @@ variable "do_application_coder" {
   default     = "coder"
 }
 
+variable "do_application_convoy" {
+  description = "Convoy 0.6.0 on Ubuntu 20.04"
+  default     = "convoy"
+}
+
 variable "do_application_countly-18-04" {
   description = "Countly Analytics 20.04.1 on Ubuntu 18.04"
   default     = "countly-18-04"
@@ -1163,14 +1168,14 @@ variable "do_application_null" {
   default     = "null"
 }
 
-variable "do_application_postalsystemso-emailengine" {
-  description = "EmailEngine 2.22.5 on Ubuntu 20.04"
-  default     = "postalsystemso-emailengine"
-}
-
 variable "do_application_null" {
   description = "filecoin-lotus 1.11.0 on Ubuntu 20.04 (LTS)"
   default     = "null"
+}
+
+variable "do_application_postalsystemso-emailengine" {
+  description = "EmailEngine 2.22.5 on Ubuntu 20.04"
+  default     = "postalsystemso-emailengine"
 }
 
 variable "do_application_powertrader-coincollectorbyp" {
