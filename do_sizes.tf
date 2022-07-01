@@ -233,6 +233,11 @@ variable "do_size_s-1vcpu-2gb-intel" {
   default     = "s-1vcpu-2gb-intel"
 }
 
+variable "do_size_s-1vcpu-512mb-10gb" {
+  description = "512MB RAM; 1 CPU; 10GB SSD - $4/mo"
+  default     = "s-1vcpu-512mb-10gb"
+}
+
 variable "do_size_s-2vcpu-2gb" {
   description = "2GB RAM; 2 CPU; 60GB SSD - $15/mo"
   default     = "s-2vcpu-2gb"
