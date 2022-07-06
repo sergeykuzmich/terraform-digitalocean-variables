@@ -1174,7 +1174,7 @@ variable "do_application_null" {
 }
 
 variable "do_application_postalsystemso-emailengine" {
-  description = "EmailEngine 2.22.5 on Ubuntu 20.04"
+  description = "EmailEngine 2.23.1 on Ubuntu 20.04"
   default     = "postalsystemso-emailengine"
 }
 
@@ -1534,7 +1534,7 @@ variable "do_application_varnishsoftware-varnishcache-18-04" {
 }
 
 variable "do_application_victoriametrics-victoriametricss" {
-  description = "VictoriaMetrics Single 1.76.0 on Ubuntu 20.04"
+  description = "VictoriaMetrics Single 1.77.2 on Ubuntu 20.04"
   default     = "victoriametrics-victoriametricss"
 }
 
