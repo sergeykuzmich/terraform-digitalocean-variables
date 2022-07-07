@@ -1164,12 +1164,12 @@ variable "do_application_portalcloud-wirespeedvpnbybu-18-04" {
 }
 
 variable "do_application_null" {
-  description = "Plesk 17.8 on CentOS 7"
+  description = "filecoin-lotus 1.11.0 on Ubuntu 20.04 (LTS)"
   default     = "null"
 }
 
 variable "do_application_null" {
-  description = "filecoin-lotus 1.11.0 on Ubuntu 20.04 (LTS)"
+  description = "Plesk 17.8 on CentOS 7"
   default     = "null"
 }
 
@@ -1436,6 +1436,11 @@ variable "do_application_softlab24-opensourcesocial-18-04" {
 variable "do_application_solidinvoice-18-04" {
   description = "SolidInvoice 2.0.3 on Ubuntu 18.04"
   default     = "solidinvoice-18-04"
+}
+
+variable "do_application_soos-soosdastdroplet" {
+  description = "SOOS DAST Droplet 0.1 on Ubuntu 20.04"
+  default     = "soos-soosdastdroplet"
 }
 
 variable "do_application_spatie-mailcoach-18-04" {
