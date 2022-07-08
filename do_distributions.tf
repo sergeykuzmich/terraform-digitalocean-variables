@@ -33,11 +33,6 @@ variable "do_distibution_debian-9-x64" {
   default     = "debian-9-x64"
 }
 
-variable "do_distibution_fedora-34-x64" {
-  description = "Fedora 34 x64"
-  default     = "fedora-34-x64"
-}
-
 variable "do_distibution_fedora-35-x64" {
   description = "Fedora 35 x64"
   default     = "fedora-35-x64"
