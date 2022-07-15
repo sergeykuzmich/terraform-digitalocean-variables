@@ -729,7 +729,7 @@ variable "do_application_litespeedtechnol-openlitespeeddja-20-04" {
 }
 
 variable "do_application_litespeedtechnol-openlitespeeddru" {
-  description = "OpenLiteSpeed Drupal 9.3.14 on Ubuntu 20.04"
+  description = "OpenLiteSpeed Drupal 9.4 on Ubuntu 20.04"
   default     = "litespeedtechnol-openlitespeeddru"
 }
 
@@ -784,7 +784,7 @@ variable "do_application_mattermost-18-04" {
 }
 
 variable "do_application_meilisas-meilisearch-10" {
-  description = "MeiliSearch 0.27.1 on Debian 10 (buster)"
+  description = "MeiliSearch 0.28.0 on Debian 10 (buster)"
   default     = "meilisas-meilisearch-10"
 }
 
@@ -1164,11 +1164,6 @@ variable "do_application_portalcloud-wirespeedvpnbybu-18-04" {
 }
 
 variable "do_application_null" {
-  description = "filecoin-lotus 1.11.0 on Ubuntu 20.04 (LTS)"
-  default     = "null"
-}
-
-variable "do_application_null" {
   description = "Plesk 17.8 on CentOS 7"
   default     = "null"
 }
@@ -1176,6 +1171,11 @@ variable "do_application_null" {
 variable "do_application_postalsystemso-emailengine" {
   description = "EmailEngine 2.23.1 on Ubuntu 20.04"
   default     = "postalsystemso-emailengine"
+}
+
+variable "do_application_null" {
+  description = "filecoin-lotus 1.11.0 on Ubuntu 20.04 (LTS)"
+  default     = "null"
 }
 
 variable "do_application_powertrader-coincollectorbyp" {
@@ -1279,7 +1279,7 @@ variable "do_application_rocketchat-20-04" {
 }
 
 variable "do_application_rstudio-20-04" {
-  description = "RStudio 2021.09.2+382 on Ubuntu 20.04"
+  description = "RStudio 2022.02.3-492 on Ubuntu 20.04"
   default     = "rstudio-20-04"
 }
 
@@ -1611,6 +1611,16 @@ variable "do_application_zabbix-7-6" {
 variable "do_application_zabbix-zabbixproxy-8" {
   description = "Zabbix proxy 5.0.6 on CentOS 8"
   default     = "zabbix-zabbixproxy-8"
+}
+
+variable "do_application_zabbix-zabbixproxy60" {
+  description = "Zabbix Proxy 6.0 6.0.0 on CentOS 8"
+  default     = "zabbix-zabbixproxy60"
+}
+
+variable "do_application_zabbix-zabbixserver60" {
+  description = "Zabbix Server 6.0 6.0.0 on CentOS 8"
+  default     = "zabbix-zabbixserver60"
 }
 
 variable "do_application_zeromon-zabbix-18-04" {
