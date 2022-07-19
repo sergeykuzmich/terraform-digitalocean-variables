@@ -229,7 +229,7 @@ variable "do_application_cloudron-18-04" {
 }
 
 variable "do_application_cloudron-20-04" {
-  description = "Cloudron 7.2.4 on Ubuntu 20.04"
+  description = "Cloudron 7.2.5 on Ubuntu 22.04"
   default     = "cloudron-20-04"
 }
 
@@ -1163,19 +1163,9 @@ variable "do_application_portalcloud-wirespeedvpnbybu-18-04" {
   default     = "portalcloud-wirespeedvpnbybu-18-04"
 }
 
-variable "do_application_null" {
-  description = "Plesk 17.8 on CentOS 7"
-  default     = "null"
-}
-
 variable "do_application_postalsystemso-emailengine" {
   description = "EmailEngine 2.23.1 on Ubuntu 20.04"
   default     = "postalsystemso-emailengine"
-}
-
-variable "do_application_null" {
-  description = "filecoin-lotus 1.11.0 on Ubuntu 20.04 (LTS)"
-  default     = "null"
 }
 
 variable "do_application_powertrader-coincollectorbyp" {
@@ -1326,6 +1316,16 @@ variable "do_application_selenoid-18-04" {
 variable "do_application_selfhostedpro-yacht-20-04" {
   description = "Yacht 0.0.5-alpha on Ubuntu 20.04"
   default     = "selfhostedpro-yacht-20-04"
+}
+
+variable "do_application_null" {
+  description = "filecoin-lotus 1.11.0 on Ubuntu 20.04 (LTS)"
+  default     = "null"
+}
+
+variable "do_application_null" {
+  description = "Plesk 17.8 on CentOS 7"
+  default     = "null"
 }
 
 variable "do_application_severalnines-clustercontrol-20-04" {
