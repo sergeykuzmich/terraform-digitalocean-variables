@@ -248,6 +248,16 @@ variable "do_application_codelathe-filecloud-20-04" {
   default     = "codelathe-filecloud-20-04"
 }
 
+variable "do_application_null" {
+  description = "Plesk 17.8 on CentOS 7"
+  default     = "null"
+}
+
+variable "do_application_null" {
+  description = "filecoin-lotus 1.11.0 on Ubuntu 20.04 (LTS)"
+  default     = "null"
+}
+
 variable "do_application_coder" {
   description = "Coder 1.28.1a on Ubuntu 20.04"
   default     = "coder"
@@ -1318,16 +1328,6 @@ variable "do_application_selfhostedpro-yacht-20-04" {
   default     = "selfhostedpro-yacht-20-04"
 }
 
-variable "do_application_null" {
-  description = "filecoin-lotus 1.11.0 on Ubuntu 20.04 (LTS)"
-  default     = "null"
-}
-
-variable "do_application_null" {
-  description = "Plesk 17.8 on CentOS 7"
-  default     = "null"
-}
-
 variable "do_application_severalnines-clustercontrol-20-04" {
   description = "ClusterControl 1.9.2 on Ubuntu 20.04"
   default     = "severalnines-clustercontrol-20-04"
@@ -1381,6 +1381,11 @@ variable "do_application_sharklabs-pacvim-18-04" {
 variable "do_application_sharklabs-pythondjangoquic-18-04" {
   description = "Python/Django Quickstart 1.1 on Ubuntu 18.04"
   default     = "sharklabs-pythondjangoquic-18-04"
+}
+
+variable "do_application_shellhub" {
+  description = "ShellHub 0.9.4 on Ubuntu 22.04"
+  default     = "shellhub"
 }
 
 variable "do_application_shiftedit-serverwand-18-04" {
