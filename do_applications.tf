@@ -248,16 +248,6 @@ variable "do_application_codelathe-filecloud-20-04" {
   default     = "codelathe-filecloud-20-04"
 }
 
-variable "do_application_null" {
-  description = "Plesk 17.8 on CentOS 7"
-  default     = "null"
-}
-
-variable "do_application_null" {
-  description = "filecoin-lotus 1.11.0 on Ubuntu 20.04 (LTS)"
-  default     = "null"
-}
-
 variable "do_application_coder" {
   description = "Coder 1.28.1a on Ubuntu 20.04"
   default     = "coder"
@@ -914,7 +904,7 @@ variable "do_application_mysql-20-04" {
 }
 
 variable "do_application_nakama-18-04" {
-  description = "Nakama 2.7.0 on Ubuntu 18.04"
+  description = "Nakama 3.12.0 on Ubuntu 18.04"
   default     = "nakama-18-04"
 }
 
@@ -948,9 +938,19 @@ variable "do_application_nimbella-18-04" {
   default     = "nimbella-18-04"
 }
 
+variable "do_application_null" {
+  description = "Plesk 17.8 on CentOS 7"
+  default     = "null"
+}
+
 variable "do_application_nirvatosoftware-nirvashare-20-04" {
   description = "NirvaShare 2.0.4 on Ubuntu 20.04 (LTS)"
   default     = "nirvatosoftware-nirvashare-20-04"
+}
+
+variable "do_application_null" {
+  description = "filecoin-lotus 1.11.0 on Ubuntu 20.04 (LTS)"
+  default     = "null"
 }
 
 variable "do_application_nknfullnode-18-04" {
