@@ -104,7 +104,7 @@ variable "do_application_appwrite-18-04" {
 }
 
 variable "do_application_appwrite-20-04" {
-  description = "Appwrite 0.15.1 on Ubuntu 20.04"
+  description = "Appwrite 0.15.3 on Ubuntu 20.04"
   default     = "appwrite-20-04"
 }
 
@@ -394,7 +394,7 @@ variable "do_application_easypanel" {
 }
 
 variable "do_application_edgedb" {
-  description = "EdgeDB 1.3 on Ubuntu 20.04"
+  description = "EdgeDB 2.0 on Ubuntu 20.04"
   default     = "edgedb"
 }
 
@@ -529,7 +529,7 @@ variable "do_application_grandnode-grandnode20-18-04" {
 }
 
 variable "do_application_gravitl-netmaker" {
-  description = "Netmaker 0.9.1 on Ubuntu 20.04"
+  description = "Netmaker 0.14.6 on Ubuntu 20.04"
   default     = "gravitl-netmaker"
 }
 
@@ -829,7 +829,7 @@ variable "do_application_microweber-18-04" {
 }
 
 variable "do_application_microwebercms-microweber-20-04" {
-  description = "Microweber 1.2.15 on Ubuntu 20.04"
+  description = "Microweber 1.3.0 on Ubuntu 20.04"
   default     = "microwebercms-microweber-20-04"
 }
 
@@ -1444,7 +1444,7 @@ variable "do_application_solidinvoice-18-04" {
 }
 
 variable "do_application_soos-soosdastdroplet" {
-  description = "SOOS DAST Droplet 0.1 on Ubuntu 20.04"
+  description = "SOOS DAST Droplet 0.2 on Ubuntu 20.04"
   default     = "soos-soosdastdroplet"
 }
 
