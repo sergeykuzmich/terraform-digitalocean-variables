@@ -938,19 +938,9 @@ variable "do_application_nimbella-18-04" {
   default     = "nimbella-18-04"
 }
 
-variable "do_application_null" {
-  description = "Plesk 17.8 on CentOS 7"
-  default     = "null"
-}
-
 variable "do_application_nirvatosoftware-nirvashare-20-04" {
   description = "NirvaShare 2.0.4 on Ubuntu 20.04 (LTS)"
   default     = "nirvatosoftware-nirvashare-20-04"
-}
-
-variable "do_application_null" {
-  description = "filecoin-lotus 1.11.0 on Ubuntu 20.04 (LTS)"
-  default     = "null"
 }
 
 variable "do_application_nknfullnode-18-04" {
@@ -984,7 +974,7 @@ variable "do_application_nodegame-18-04" {
 }
 
 variable "do_application_nodejs-20-04" {
-  description = "NodeJS 12.18.1 on Ubuntu 20.04"
+  description = "NodeJS 18.7.0 on Ubuntu 20.04"
   default     = "nodejs-20-04"
 }
 
@@ -1423,6 +1413,16 @@ variable "do_application_skaffolder-18-04" {
   default     = "skaffolder-18-04"
 }
 
+variable "do_application_null" {
+  description = "filecoin-lotus 1.11.0 on Ubuntu 20.04 (LTS)"
+  default     = "null"
+}
+
+variable "do_application_null" {
+  description = "Plesk 17.8 on CentOS 7"
+  default     = "null"
+}
+
 variable "do_application_snapt-snaptaria-18-04" {
   description = "Snapt Aria 2.0.0 on Ubuntu 18.04"
   default     = "snapt-snaptaria-18-04"
@@ -1599,7 +1599,7 @@ variable "do_application_workarea-18-04" {
 }
 
 variable "do_application_wpclouddeploy" {
-  description = "WPCloudDeploy 4.16.6 on Ubuntu 20.04"
+  description = "WPCloudDeploy 4.20.0 on Ubuntu 20.04"
   default     = "wpclouddeploy"
 }
 
