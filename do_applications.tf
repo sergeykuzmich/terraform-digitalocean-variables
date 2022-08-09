@@ -404,7 +404,7 @@ variable "do_application_dsuhininapp1-18-04" {
 }
 
 variable "do_application_easypanel" {
-  description = "Easypanel 1.0.2 on Ubuntu 20.04"
+  description = "Easypanel 1.7.5 on Ubuntu 22.04"
   default     = "easypanel"
 }
 
@@ -1579,7 +1579,7 @@ variable "do_application_wftutorials-purdm-18-04" {
 }
 
 variable "do_application_wikijs-18-04" {
-  description = "Wiki.js 2.5.281 on Ubuntu 20.04 (LTS)"
+  description = "Wiki.js 2.5.286 on Ubuntu 20.04 (LTS)"
   default     = "wikijs-18-04"
 }
 
