@@ -1104,7 +1104,7 @@ variable "do_application_passbolt-18-04" {
 }
 
 variable "do_application_passboltsa-passboltce-20-04" {
-  description = "Passbolt CE 3.5.0-3 on Ubuntu 20.04"
+  description = "Passbolt CE 3.7.0-1 on Ubuntu 20.04"
   default     = "passboltsa-passboltce-20-04"
 }
 
@@ -1204,7 +1204,7 @@ variable "do_application_pyboxtechnologie-pyboxtechmed-20-04" {
 }
 
 variable "do_application_questdb-20-04" {
-  description = "QuestDB 6.3.1 on Ubuntu 20.04"
+  description = "QuestDB 6.5 on Ubuntu 20.04"
   default     = "questdb-20-04"
 }
 
@@ -1284,7 +1284,7 @@ variable "do_application_rocketchat-20-04" {
 }
 
 variable "do_application_rstudio-20-04" {
-  description = "RStudio 2022.02.3-492 on Ubuntu 20.04"
+  description = "RStudio 2021.09.2+382 on Ubuntu 20.04"
   default     = "rstudio-20-04"
 }
 
