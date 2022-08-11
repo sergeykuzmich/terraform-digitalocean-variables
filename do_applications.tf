@@ -624,7 +624,7 @@ variable "do_application_invoiceninja-18-04" {
 }
 
 variable "do_application_invoiceninja-20-0-4" {
-  description = "Invoice Ninja 5 on Ubuntu 20.04"
+  description = "Invoice Ninja 5 on Ubuntu 20.0.4"
   default     = "invoiceninja-20-0-4"
 }
 

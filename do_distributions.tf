@@ -28,11 +28,6 @@ variable "do_distibution_debian-11-x64" {
   default     = "debian-11-x64"
 }
 
-variable "do_distibution_debian-9-x64" {
-  description = "Debian 9 x64"
-  default     = "debian-9-x64"
-}
-
 variable "do_distibution_fedora-35-x64" {
   description = "Fedora 35 x64"
   default     = "fedora-35-x64"
@@ -53,6 +48,11 @@ variable "do_distibution_rockylinux-8-4-x64" {
   default     = "rockylinux-8-4-x64"
 }
 
+variable "do_distibution_rockylinux-8-5-x64" {
+  description = "Rocky Linux RockyLinux 8.5 x64"
+  default     = "rockylinux-8-5-x64"
+}
+
 variable "do_distibution_rockylinux-8-x64" {
   description = "Rocky Linux RockyLinux 8.6 x64"
   default     = "rockylinux-8-x64"
@@ -66,11 +66,6 @@ variable "do_distibution_ubuntu-18-04-x64" {
 variable "do_distibution_ubuntu-20-04-x64" {
   description = "Ubuntu 20.04 (LTS) x64"
   default     = "ubuntu-20-04-x64"
-}
-
-variable "do_distibution_ubuntu-21-10-x64" {
-  description = "Ubuntu 21.10 x64"
-  default     = "ubuntu-21-10-x64"
 }
 
 variable "do_distibution_ubuntu-22-04-x64" {
