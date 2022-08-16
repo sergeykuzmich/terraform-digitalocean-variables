@@ -774,7 +774,7 @@ variable "do_application_litespeedtechnol-openlitespeedwor-18-04" {
 }
 
 variable "do_application_litespeedtechnol-openlitespeedwor-20-04" {
-  description = "OpenLiteSpeed WordPress 6.0 on Ubuntu 20.04"
+  description = "OpenLiteSpeed WordPress 6.0.1 on Ubuntu 22.04"
   default     = "litespeedtechnol-openlitespeedwor-20-04"
 }
 
@@ -844,7 +844,7 @@ variable "do_application_microweber-18-04" {
 }
 
 variable "do_application_microwebercms-microweber-20-04" {
-  description = "Microweber 1.3.0 on Ubuntu 20.04"
+  description = "Microweber 1.3.1 on Ubuntu 20.04"
   default     = "microwebercms-microweber-20-04"
 }
 
@@ -1104,7 +1104,7 @@ variable "do_application_passbolt-18-04" {
 }
 
 variable "do_application_passboltsa-passboltce-20-04" {
-  description = "Passbolt CE 3.7.0-1 on Ubuntu 20.04"
+  description = "Passbolt CE 3.7.1-1 on Ubuntu 20.04"
   default     = "passboltsa-passboltce-20-04"
 }
 
@@ -1596,6 +1596,11 @@ variable "do_application_wordpress-18-04" {
 variable "do_application_wordpress-20-04" {
   description = "WordPress 6.0 on Ubuntu 20.04"
   default     = "wordpress-20-04"
+}
+
+variable "do_application_wordsmythcreatio-aresmush" {
+  description = "AresMUSH 1.0 on Ubuntu 20.04"
+  default     = "wordsmythcreatio-aresmush"
 }
 
 variable "do_application_workarea-18-04" {
