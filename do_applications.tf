@@ -154,7 +154,7 @@ variable "do_application_bigcloud-odoo" {
 }
 
 variable "do_application_bitwarden" {
-  description = "Bitwarden 2022.5.1 on Ubuntu 20.04"
+  description = "Bitwarden 2202.8.0 on Ubuntu 20.04"
   default     = "bitwarden"
 }
 
@@ -444,7 +444,7 @@ variable "do_application_fastnetmon-18-04" {
 }
 
 variable "do_application_fastpanel-deb-9" {
-  description = "FASTPANEL 1.9+deb10p151 on Debian 10"
+  description = "FASTPANEL 1.10-ubuntu20.04p121 on Ubuntu 20.04"
   default     = "fastpanel-deb-9"
 }
 
@@ -1594,7 +1594,7 @@ variable "do_application_wordpress-18-04" {
 }
 
 variable "do_application_wordpress-20-04" {
-  description = "WordPress 6.0 on Ubuntu 20.04"
+  description = "WordPress 5.8 on Ubuntu 20.04"
   default     = "wordpress-20-04"
 }
 
