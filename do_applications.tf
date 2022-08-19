@@ -158,16 +158,6 @@ variable "do_application_bitwarden" {
   default     = "bitwarden"
 }
 
-variable "do_application_null" {
-  description = "filecoin-lotus 1.11.0 on Ubuntu 20.04 (LTS)"
-  default     = "null"
-}
-
-variable "do_application_null" {
-  description = "Plesk 17.8 on CentOS 7"
-  default     = "null"
-}
-
 variable "do_application_bitwarden-18-04" {
   description = "Bitwarden 1.47.1 on Ubuntu 20.04"
   default     = "bitwarden-18-04"
@@ -409,8 +399,18 @@ variable "do_application_easypanel" {
 }
 
 variable "do_application_edgedb" {
-  description = "EdgeDB 2.0 on Ubuntu 20.04"
+  description = "EdgeDB 2.1 on Ubuntu 20.04"
   default     = "edgedb"
+}
+
+variable "do_application_null" {
+  description = "filecoin-lotus 1.11.0 on Ubuntu 20.04 (LTS)"
+  default     = "null"
+}
+
+variable "do_application_null" {
+  description = "Plesk 17.8 on CentOS 7"
+  default     = "null"
 }
 
 variable "do_application_eltrino-magento2opensour-18-04" {
