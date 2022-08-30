@@ -883,21 +883,6 @@ variable "do_application_mpdev-gutiumtestappnew-20-04" {
   default     = "mpdev-gutiumtestappnew-20-04"
 }
 
-variable "do_application_mpdev-hectordevtest-20-10" {
-  description = "Hector dev test 2 0.0.1 on Ubuntu 20.10"
-  default     = "mpdev-hectordevtest-20-10"
-}
-
-variable "do_application_mpdev-hectorinmutables" {
-  description = "hector inmutable slugs 2 yeeeeeet 1.0.0 on Ubuntu 20.01"
-  default     = "mpdev-hectorinmutables"
-}
-
-variable "do_application_mpdev-hectortestimages-18-04" {
-  description = "hector-test-image-slug"
-  default     = "mpdev-hectortestimages-18-04"
-}
-
 variable "do_application_mysql-18-04" {
   description = "MySQL on 18.04"
   default     = "mysql-18-04"
@@ -1104,7 +1089,7 @@ variable "do_application_perconamonitorin-7" {
 }
 
 variable "do_application_perforce-perforcehelixcor" {
-  description = "Perforce Helix Core 2021.2 on Rocky 8"
+  description = "Perforce Helix Core 2022.1 on Rocky 8"
   default     = "perforce-perforcehelixcor"
 }
 
@@ -1168,19 +1153,9 @@ variable "do_application_portalcloud-wirespeedvpnbybu-18-04" {
   default     = "portalcloud-wirespeedvpnbybu-18-04"
 }
 
-variable "do_application_null" {
-  description = "Plesk 17.8 on CentOS 7"
-  default     = "null"
-}
-
 variable "do_application_postalsystemso-emailengine" {
   description = "EmailEngine 2.25.1 on Ubuntu 20.04"
   default     = "postalsystemso-emailengine"
-}
-
-variable "do_application_null" {
-  description = "filecoin-lotus 1.11.0 on Ubuntu 20.04 (LTS)"
-  default     = "null"
 }
 
 variable "do_application_powertrader-coincollectorbyp" {
@@ -1193,9 +1168,19 @@ variable "do_application_prometheus-18-04" {
   default     = "prometheus-18-04"
 }
 
+variable "do_application_null" {
+  description = "Plesk 17.8 on CentOS 7"
+  default     = "null"
+}
+
 variable "do_application_protocollabs-filecoinlotus-20-04" {
   description = "filecoin-lotus 1.15.0 on Ubuntu 20.04 (LTS)"
   default     = "protocollabs-filecoinlotus-20-04"
+}
+
+variable "do_application_null" {
+  description = "filecoin-lotus 1.11.0 on Ubuntu 20.04 (LTS)"
+  default     = "null"
 }
 
 variable "do_application_pyboxtechnologie-pyboxtechmed-20-04" {
@@ -1493,6 +1478,11 @@ variable "do_application_ten7-computingforcovi-18-04-4" {
   default     = "ten7-computingforcovi-18-04-4"
 }
 
+variable "do_application_thegrampsproject-grampsweb" {
+  description = "Gramps Web 1.0 on Ubuntu 20.04"
+  default     = "thegrampsproject-grampsweb"
+}
+
 variable "do_application_thingsboard-18-04" {
   description = "ThingsBoard CE on Ubuntu 18.04"
   default     = "thingsboard-18-04"
@@ -1549,7 +1539,7 @@ variable "do_application_varnishsoftware-varnishcache-18-04" {
 }
 
 variable "do_application_victoriametrics-victoriametricss" {
-  description = "VictoriaMetrics Single 1.77.2 on Ubuntu 20.04"
+  description = "VictoriaMetrics Single 1.80.0 on Ubuntu 20.04"
   default     = "victoriametrics-victoriametricss"
 }
 
