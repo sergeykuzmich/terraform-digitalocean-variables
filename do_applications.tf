@@ -474,7 +474,7 @@ variable "do_application_ghost-18-04" {
 }
 
 variable "do_application_ghost-20-04" {
-  description = "Ghost on Ubuntu 20.04"
+  description = "Ghost on Ubuntu 22.04"
   default     = "ghost-20-04"
 }
 
@@ -969,7 +969,7 @@ variable "do_application_nodejs-20-04" {
 }
 
 variable "do_application_npool" {
-  description = "nPool 1.1 on Ubuntu 20.04"
+  description = "nPool 1.5 on Ubuntu 20.04"
   default     = "npool"
 }
 
@@ -1189,7 +1189,7 @@ variable "do_application_pyboxtechnologie-pyboxtechmed-20-04" {
 }
 
 variable "do_application_questdb-20-04" {
-  description = "QuestDB 6.5 on Ubuntu 20.04"
+  description = "QuestDB 6.5.1 on Ubuntu 20.04"
   default     = "questdb-20-04"
 }
 
