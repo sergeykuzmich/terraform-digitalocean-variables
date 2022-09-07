@@ -969,7 +969,7 @@ variable "do_application_nodejs-20-04" {
 }
 
 variable "do_application_npool" {
-  description = "nPool 1.5 on Ubuntu 20.04"
+  description = "nPool 1.7 on Ubuntu 20.04"
   default     = "npool"
 }
 
