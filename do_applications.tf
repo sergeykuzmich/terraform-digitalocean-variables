@@ -94,7 +94,7 @@ variable "do_application_apliteni-keitaro" {
 }
 
 variable "do_application_appsmith-18-04" {
-  description = "Appsmith 1.6 on Ubuntu 20.04"
+  description = "Appsmith 1.7 on Ubuntu 20.04"
   default     = "appsmith-18-04"
 }
 
@@ -354,7 +354,7 @@ variable "do_application_discourse-20-04" {
 }
 
 variable "do_application_django-20-04" {
-  description = "Django 4.0 on Ubuntu 20.04"
+  description = "Django 4.1.1 on Ubuntu 22.04"
   default     = "django-20-04"
 }
 
@@ -918,6 +918,11 @@ variable "do_application_nextcloudgmbh-nextcloud" {
   default     = "nextcloudgmbh-nextcloud"
 }
 
+variable "do_application_nginx" {
+  description = "NGINX 1.0 on Ubuntu 22.04"
+  default     = "nginx"
+}
+
 variable "do_application_nibblecomm-spotipo-18-04" {
   description = "Spotipo 3.4.13 on 18.04"
   default     = "nibblecomm-spotipo-18-04"
@@ -1168,11 +1173,6 @@ variable "do_application_prometheus-18-04" {
   default     = "prometheus-18-04"
 }
 
-variable "do_application_null" {
-  description = "Plesk 17.8 on CentOS 7"
-  default     = "null"
-}
-
 variable "do_application_protocollabs-filecoinlotus-20-04" {
   description = "filecoin-lotus 1.15.0 on Ubuntu 20.04 (LTS)"
   default     = "protocollabs-filecoinlotus-20-04"
@@ -1180,6 +1180,11 @@ variable "do_application_protocollabs-filecoinlotus-20-04" {
 
 variable "do_application_null" {
   description = "filecoin-lotus 1.11.0 on Ubuntu 20.04 (LTS)"
+  default     = "null"
+}
+
+variable "do_application_null" {
+  description = "Plesk 17.8 on CentOS 7"
   default     = "null"
 }
 
