@@ -394,7 +394,7 @@ variable "do_application_dsuhininapp1-18-04" {
 }
 
 variable "do_application_easypanel" {
-  description = "Easypanel 1.7.5 on Ubuntu 22.04"
+  description = "Easypanel 1.10.3 on Ubuntu 22.04"
   default     = "easypanel"
 }
 
@@ -974,7 +974,7 @@ variable "do_application_nodejs-20-04" {
 }
 
 variable "do_application_npool" {
-  description = "nPool 1.7 on Ubuntu 20.04"
+  description = "nPool 1.8 on Ubuntu 20.04"
   default     = "npool"
 }
 
@@ -1159,7 +1159,7 @@ variable "do_application_portalcloud-wirespeedvpnbybu-18-04" {
 }
 
 variable "do_application_postalsystemso-emailengine" {
-  description = "EmailEngine 2.25.1 on Ubuntu 20.04"
+  description = "EmailEngine 2.26.0 on Ubuntu 20.04"
   default     = "postalsystemso-emailengine"
 }
 
