@@ -58,6 +58,11 @@ variable "do_distibution_rockylinux-8-x64" {
   default     = "rockylinux-8-x64"
 }
 
+variable "do_distibution_rockylinux-9-x64" {
+  description = "Rocky Linux RockyLinux 9.0 x64"
+  default     = "rockylinux-9-x64"
+}
+
 variable "do_distibution_ubuntu-18-04-x64" {
   description = "Ubuntu 18.04 (LTS) x64"
   default     = "ubuntu-18-04-x64"

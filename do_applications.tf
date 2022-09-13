@@ -824,7 +824,7 @@ variable "do_application_mgtcommercegmbh-cloudpanel1-10-8" {
 }
 
 variable "do_application_mgtcommercegmbh-cloudpanel2ubunt" {
-  description = "CloudPanel 2 - Ubuntu 22.04 2.0.3 on Ubuntu 22.04"
+  description = "CloudPanel 2 - Ubuntu 22.04 2.0.4 on Ubuntu 22.04"
   default     = "mgtcommercegmbh-cloudpanel2ubunt"
 }
 
@@ -1173,9 +1173,9 @@ variable "do_application_prometheus-18-04" {
   default     = "prometheus-18-04"
 }
 
-variable "do_application_protocollabs-filecoinlotus-20-04" {
-  description = "filecoin-lotus 1.15.0 on Ubuntu 20.04 (LTS)"
-  default     = "protocollabs-filecoinlotus-20-04"
+variable "do_application_null" {
+  description = "Plesk 17.8 on CentOS 7"
+  default     = "null"
 }
 
 variable "do_application_null" {
@@ -1183,9 +1183,9 @@ variable "do_application_null" {
   default     = "null"
 }
 
-variable "do_application_null" {
-  description = "Plesk 17.8 on CentOS 7"
-  default     = "null"
+variable "do_application_protocollabs-filecoinlotus-20-04" {
+  description = "filecoin-lotus 1.15.0 on Ubuntu 20.04 (LTS)"
+  default     = "protocollabs-filecoinlotus-20-04"
 }
 
 variable "do_application_pyboxtechnologie-pyboxtechmed-20-04" {
