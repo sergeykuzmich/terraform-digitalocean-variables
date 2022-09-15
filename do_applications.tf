@@ -1269,7 +1269,7 @@ variable "do_application_rocketchat-18-04" {
 }
 
 variable "do_application_rocketchat-20-04" {
-  description = "Rocket.Chat 4.5.4 on Ubuntu 20.04"
+  description = "Rocket.Chat 5.0.7 on Ubuntu 20.04"
   default     = "rocketchat-20-04"
 }
 
