@@ -154,7 +154,7 @@ variable "do_application_bigcloud-odoo" {
 }
 
 variable "do_application_bitwarden" {
-  description = "Bitwarden 2202.8.0 on Ubuntu 20.04"
+  description = "Bitwarden 2202.9.0 on Ubuntu 20.04"
   default     = "bitwarden"
 }
 
@@ -683,6 +683,11 @@ variable "do_application_kromit-titra-18-04" {
   default     = "kromit-titra-18-04"
 }
 
+variable "do_application_kromit-titra-20-04" {
+  description = "titra 0.80.0 on Ubuntu 22.04"
+  default     = "kromit-titra-20-04"
+}
+
 variable "do_application_kuyio-wireguardianvpna" {
   description = "Wireguardian VPN Access Server 2205.0 on Ubuntu 20.04"
   default     = "kuyio-wireguardianvpna"
@@ -856,6 +861,16 @@ variable "do_application_mobilejazz-bugfender-18-04" {
 variable "do_application_monetdbsolutions-monetdb" {
   description = "MonetDB 11.43.13 on Ubuntu 20.04"
   default     = "monetdbsolutions-monetdb"
+}
+
+variable "do_application_null" {
+  description = "filecoin-lotus 1.11.0 on Ubuntu 20.04 (LTS)"
+  default     = "null"
+}
+
+variable "do_application_null" {
+  description = "Plesk 17.8 on CentOS 7"
+  default     = "null"
 }
 
 variable "do_application_mongodb-18-04" {
@@ -1171,16 +1186,6 @@ variable "do_application_powertrader-coincollectorbyp" {
 variable "do_application_prometheus-18-04" {
   description = "Prometheus 2.9.2 on Ubuntu 18.04"
   default     = "prometheus-18-04"
-}
-
-variable "do_application_null" {
-  description = "Plesk 17.8 on CentOS 7"
-  default     = "null"
-}
-
-variable "do_application_null" {
-  description = "filecoin-lotus 1.11.0 on Ubuntu 20.04 (LTS)"
-  default     = "null"
 }
 
 variable "do_application_protocollabs-filecoinlotus-20-04" {
