@@ -1099,7 +1099,7 @@ variable "do_application_passbolt-18-04" {
 }
 
 variable "do_application_passboltsa-passboltce-20-04" {
-  description = "Passbolt CE 3.7.1-1 on Ubuntu 20.04"
+  description = "Passbolt CE 3.7.2-1 on Ubuntu 20.04"
   default     = "passboltsa-passboltce-20-04"
 }
 
@@ -1649,12 +1649,12 @@ variable "do_application_zeslecp-7" {
 }
 
 variable "do_application_znuny" {
-  description = "Znuny 6.3.3 on Debian 10 (buster)"
+  description = "Znuny 6.4.3 on Debian 10 (buster)"
   default     = "znuny"
 }
 
 variable "do_application_znuny-znunylts-10" {
-  description = "Znuny LTS 6.0.42 on Debian 10 (buster)"
+  description = "Znuny LTS 6.0.46 on Debian 10 (buster)"
   default     = "znuny-znunylts-10"
 }
 
