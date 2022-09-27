@@ -114,7 +114,7 @@ variable "do_application_ascensiosystem-onlyoffice-18-04" {
 }
 
 variable "do_application_ascensiosystemsi-onlyofficeeditor-18-04-4" {
-  description = "ONLYOFFICE Docs 7.0.0 on Ubuntu 20.04 LTS"
+  description = "ONLYOFFICE Docs 7.1.1 on Ubuntu 20.04 LTS"
   default     = "ascensiosystemsi-onlyofficeeditor-18-04-4"
 }
 
@@ -598,6 +598,16 @@ variable "do_application_hystax-freecostmanageme-20-04" {
   default     = "hystax-freecostmanageme-20-04"
 }
 
+variable "do_application_null" {
+  description = "filecoin-lotus 1.11.0 on Ubuntu 20.04 (LTS)"
+  default     = "null"
+}
+
+variable "do_application_null" {
+  description = "Plesk 17.8 on CentOS 7"
+  default     = "null"
+}
+
 variable "do_application_ifaxsolutions-hylafaxenterpris" {
   description = "HylaFAX Enterprise 6.3.19.1 on CentOS 7"
   default     = "ifaxsolutions-hylafaxenterpris"
@@ -863,16 +873,6 @@ variable "do_application_monetdbsolutions-monetdb" {
   default     = "monetdbsolutions-monetdb"
 }
 
-variable "do_application_null" {
-  description = "filecoin-lotus 1.11.0 on Ubuntu 20.04 (LTS)"
-  default     = "null"
-}
-
-variable "do_application_null" {
-  description = "Plesk 17.8 on CentOS 7"
-  default     = "null"
-}
-
 variable "do_application_mongodb-18-04" {
   description = "MongoDB 4.0.3 on Ubuntu 18.04"
   default     = "mongodb-18-04"
@@ -949,7 +949,7 @@ variable "do_application_nimbella-18-04" {
 }
 
 variable "do_application_nirvatosoftware-nirvashare-20-04" {
-  description = "NirvaShare 2.0.4 on Ubuntu 20.04 (LTS)"
+  description = "NirvaShare 2.3.2 on Ubuntu 20.04 (LTS)"
   default     = "nirvatosoftware-nirvashare-20-04"
 }
 
