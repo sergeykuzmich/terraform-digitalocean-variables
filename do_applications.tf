@@ -109,12 +109,12 @@ variable "do_application_appwrite-20-04" {
 }
 
 variable "do_application_ascensiosystem-onlyoffice-18-04" {
-  description = "ONLYOFFICE Workspace 22.01.654 on Ubuntu 20.04 LTS"
+  description = "ONLYOFFICE Workspace 22.07.727 on Ubuntu 20.04 LTS"
   default     = "ascensiosystem-onlyoffice-18-04"
 }
 
 variable "do_application_ascensiosystemsi-onlyofficeeditor-18-04-4" {
-  description = "ONLYOFFICE Docs 7.1.1 on Ubuntu 20.04 LTS"
+  description = "ONLYOFFICE Docs 7.2.0 on Ubuntu 20.04 LTS"
   default     = "ascensiosystemsi-onlyofficeeditor-18-04-4"
 }
 
@@ -161,6 +161,11 @@ variable "do_application_bitwarden" {
 variable "do_application_bitwarden-18-04" {
   description = "Bitwarden 1.47.1 on Ubuntu 20.04"
   default     = "bitwarden-18-04"
+}
+
+variable "do_application_botguardo-botguardingressc" {
+  description = "BotGuard Ingress Controller 1.0 on Debian 11 (bullseye)"
+  default     = "botguardo-botguardingressc"
 }
 
 variable "do_application_botpress-18-04" {
@@ -399,7 +404,7 @@ variable "do_application_easypanel" {
 }
 
 variable "do_application_edgedb" {
-  description = "EdgeDB 2.2 on Ubuntu 20.04"
+  description = "EdgeDB 2.3 on Ubuntu 20.04"
   default     = "edgedb"
 }
 
@@ -598,16 +603,6 @@ variable "do_application_hystax-freecostmanageme-20-04" {
   default     = "hystax-freecostmanageme-20-04"
 }
 
-variable "do_application_null" {
-  description = "filecoin-lotus 1.11.0 on Ubuntu 20.04 (LTS)"
-  default     = "null"
-}
-
-variable "do_application_null" {
-  description = "Plesk 17.8 on CentOS 7"
-  default     = "null"
-}
-
 variable "do_application_ifaxsolutions-hylafaxenterpris" {
   description = "HylaFAX Enterprise 6.3.19.1 on CentOS 7"
   default     = "ifaxsolutions-hylafaxenterpris"
@@ -728,6 +723,16 @@ variable "do_application_litespeedtechnol-cyberpanel-20-04" {
   default     = "litespeedtechnol-cyberpanel-20-04"
 }
 
+variable "do_application_null" {
+  description = "Plesk 17.8 on CentOS 7"
+  default     = "null"
+}
+
+variable "do_application_null" {
+  description = "filecoin-lotus 1.11.0 on Ubuntu 20.04 (LTS)"
+  default     = "null"
+}
+
 variable "do_application_litespeedtechnol-cyberpaneljoomla" {
   description = "CyberPanel Joomla 3.0.10 on Ubuntu 20.04"
   default     = "litespeedtechnol-cyberpaneljoomla"
@@ -744,7 +749,7 @@ variable "do_application_litespeedtechnol-openlitespeeddja-18-04" {
 }
 
 variable "do_application_litespeedtechnol-openlitespeeddja-20-04" {
-  description = "OpenLiteSpeed Django 3.2.11 on Ubuntu 20.04"
+  description = "OpenLiteSpeed Django 4.1 on Ubuntu 22.04"
   default     = "litespeedtechnol-openlitespeeddja-20-04"
 }
 
@@ -754,7 +759,7 @@ variable "do_application_litespeedtechnol-openlitespeeddru" {
 }
 
 variable "do_application_litespeedtechnol-openlitespeedjoo-20-04" {
-  description = "OpenLiteSpeed Joomla 4.0.5 on Ubuntu 20.04"
+  description = "OpenLiteSpeed Joomla 4.2.2 on Ubuntu 22.04"
   default     = "litespeedtechnol-openlitespeedjoo-20-04"
 }
 
@@ -1199,7 +1204,7 @@ variable "do_application_pyboxtechnologie-pyboxtechmed-20-04" {
 }
 
 variable "do_application_questdb-20-04" {
-  description = "QuestDB 6.5.1 on Ubuntu 20.04"
+  description = "QuestDB 6.5.3 on Ubuntu 20.04"
   default     = "questdb-20-04"
 }
 
