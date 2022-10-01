@@ -613,6 +613,11 @@ variable "do_application_influxdb-18-04" {
   default     = "influxdb-18-04"
 }
 
+variable "do_application_intel-intelgprofilercr" {
+  description = "Intel gProfiler Crypto Demo 1.3 on Ubuntu 20.04"
+  default     = "intel-intelgprofilercr"
+}
+
 variable "do_application_invoiceninja-18-04" {
   description = "Invoice Ninja 1.0.0 on Ubuntu 18.0.4"
   default     = "invoiceninja-18-04"
@@ -1104,7 +1109,7 @@ variable "do_application_passbolt-18-04" {
 }
 
 variable "do_application_passboltsa-passboltce-20-04" {
-  description = "Passbolt CE 3.7.2-1 on Ubuntu 20.04"
+  description = "Passbolt CE 3.7.3-1 on Ubuntu 20.04"
   default     = "passboltsa-passboltce-20-04"
 }
 
@@ -1381,6 +1386,11 @@ variable "do_application_sharklabs-opensearch" {
 variable "do_application_sharklabs-pacvim-18-04" {
   description = "PacVim on Ubuntu 18.04"
   default     = "sharklabs-pacvim-18-04"
+}
+
+variable "do_application_sharklabs-piholevpn" {
+  description = "Pi-hole VPN 0.2.0-beta on Debian 11"
+  default     = "sharklabs-piholevpn"
 }
 
 variable "do_application_sharklabs-pythondjangoquic-18-04" {
