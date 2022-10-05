@@ -89,7 +89,7 @@ variable "do_application_aplitel-vitalpbx-7" {
 }
 
 variable "do_application_apliteni-keitaro" {
-  description = "Keitaro 9.14 on CentOS 8 Stream"
+  description = "Keitaro 9.14.25 on CentOS 8 Stream"
   default     = "apliteni-keitaro"
 }
 
@@ -109,7 +109,7 @@ variable "do_application_appwrite-20-04" {
 }
 
 variable "do_application_ascensiosystem-onlyoffice-18-04" {
-  description = "ONLYOFFICE Workspace 22.07.727 on Ubuntu 20.04 LTS"
+  description = "ONLYOFFICE Workspace 22.09.738 on Ubuntu 20.04 LTS"
   default     = "ascensiosystem-onlyoffice-18-04"
 }
 
@@ -579,7 +579,7 @@ variable "do_application_helpyio-helpypro-18-04" {
 }
 
 variable "do_application_hollaex-hollaexkit" {
-  description = "HollaEx Kit 2.3.4 on Ubuntu 20.04"
+  description = "HollaEx Kit 2.4.2 on Ubuntu 20.04"
   default     = "hollaex-hollaexkit"
 }
 
@@ -654,7 +654,7 @@ variable "do_application_jadiangaming-solderio-18-04-5" {
 }
 
 variable "do_application_jelastic-jelasticpaas-7" {
-  description = "Jelastic PaaS 7.0-2 on Centos 7"
+  description = "Jelastic PaaS 7.3-1 on Centos 7"
   default     = "jelastic-jelasticpaas-7"
 }
 
@@ -674,7 +674,7 @@ variable "do_application_jitsiserver-20-04" {
 }
 
 variable "do_application_kandralabs-zulip-18-04" {
-  description = "Zulip 5.3 on Ubuntu 20.04"
+  description = "Zulip 5.6 on Ubuntu 20.04"
   default     = "kandralabs-zulip-18-04"
 }
 
@@ -759,7 +759,7 @@ variable "do_application_litespeedtechnol-openlitespeeddja-20-04" {
 }
 
 variable "do_application_litespeedtechnol-openlitespeeddru" {
-  description = "OpenLiteSpeed Drupal 9.4 on Ubuntu 20.04"
+  description = "OpenLiteSpeed Drupal 9.4.7 on Ubuntu 22.04"
   default     = "litespeedtechnol-openlitespeeddru"
 }
 
@@ -1389,7 +1389,7 @@ variable "do_application_sharklabs-pacvim-18-04" {
 }
 
 variable "do_application_sharklabs-piholevpn" {
-  description = "Pi-hole VPN 0.2.0-beta on Debian 11"
+  description = "Pi-hole VPN 0.2.1-beta on Debian 11"
   default     = "sharklabs-piholevpn"
 }
 
