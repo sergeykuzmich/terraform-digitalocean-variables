@@ -814,7 +814,7 @@ variable "do_application_mattermost-18-04" {
 }
 
 variable "do_application_meilisas-meilisearch-10" {
-  description = "MeiliSearch 0.28.0 on Debian 10 (buster)"
+  description = "MeiliSearch 0.29.0 on Ubuntu 20.4 (LTS)"
   default     = "meilisas-meilisearch-10"
 }
 
