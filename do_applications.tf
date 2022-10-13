@@ -203,6 +203,11 @@ variable "do_application_caddy-18-04" {
   default     = "caddy-18-04"
 }
 
+variable "do_application_callabacloud-callabacloudlive" {
+  description = "Callaba Cloud Live Streaming 6.0 on Ubuntu 20.04 (LTS)"
+  default     = "callabacloud-callabacloudlive"
+}
+
 variable "do_application_caprover-18-04" {
   description = "CapRover 1.10.1 on Ubuntu 18.04"
   default     = "caprover-18-04"
@@ -728,16 +733,6 @@ variable "do_application_litespeedtechnol-cyberpanel-20-04" {
   default     = "litespeedtechnol-cyberpanel-20-04"
 }
 
-variable "do_application_null" {
-  description = "Plesk 17.8 on CentOS 7"
-  default     = "null"
-}
-
-variable "do_application_null" {
-  description = "filecoin-lotus 1.11.0 on Ubuntu 20.04 (LTS)"
-  default     = "null"
-}
-
 variable "do_application_litespeedtechnol-cyberpaneljoomla" {
   description = "CyberPanel Joomla 3.0.10 on Ubuntu 20.04"
   default     = "litespeedtechnol-cyberpaneljoomla"
@@ -814,7 +809,7 @@ variable "do_application_mattermost-18-04" {
 }
 
 variable "do_application_meilisas-meilisearch-10" {
-  description = "MeiliSearch 0.29.0 on Ubuntu 20.4 (LTS)"
+  description = "MeiliSearch 0.29.0 on Ubuntu 20.04 (LTS)"
   default     = "meilisas-meilisearch-10"
 }
 
@@ -869,7 +864,7 @@ variable "do_application_mistio-mist-20-04" {
 }
 
 variable "do_application_mjmair-inventree" {
-  description = "InvenTree 0.6.3 on Ubuntu 20.04"
+  description = "InvenTree 0.8.0 on Ubuntu 20.04"
   default     = "mjmair-inventree"
 }
 
@@ -1184,8 +1179,18 @@ variable "do_application_portalcloud-wirespeedvpnbybu-18-04" {
 }
 
 variable "do_application_postalsystemso-emailengine" {
-  description = "EmailEngine 2.26.0 on Ubuntu 20.04"
+  description = "EmailEngine 2.26.9 on Ubuntu 20.04"
   default     = "postalsystemso-emailengine"
+}
+
+variable "do_application_null" {
+  description = "Plesk 17.8 on CentOS 7"
+  default     = "null"
+}
+
+variable "do_application_null" {
+  description = "filecoin-lotus 1.11.0 on Ubuntu 20.04 (LTS)"
+  default     = "null"
 }
 
 variable "do_application_powertrader-coincollectorbyp" {
