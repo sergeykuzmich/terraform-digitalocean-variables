@@ -769,12 +769,12 @@ variable "do_application_litespeedtechnol-openlitespeednod-18-04" {
 }
 
 variable "do_application_litespeedtechnol-openlitespeednod-20-04" {
-  description = "OpenLiteSpeed NodeJS 12.20.2 on Ubuntu 20.04"
+  description = "OpenLiteSpeed NodeJS 18.10.0 on Ubuntu 22.04"
   default     = "litespeedtechnol-openlitespeednod-20-04"
 }
 
 variable "do_application_litespeedtechnol-openlitespeedrai-20-04" {
-  description = "OpenLiteSpeed Rails 6.1.4.1 on Ubuntu 20.04"
+  description = "OpenLiteSpeed Rails 7.0.4 on Ubuntu 22.04"
   default     = "litespeedtechnol-openlitespeedrai-20-04"
 }
 
@@ -1183,16 +1183,6 @@ variable "do_application_postalsystemso-emailengine" {
   default     = "postalsystemso-emailengine"
 }
 
-variable "do_application_null" {
-  description = "Plesk 17.8 on CentOS 7"
-  default     = "null"
-}
-
-variable "do_application_null" {
-  description = "filecoin-lotus 1.11.0 on Ubuntu 20.04 (LTS)"
-  default     = "null"
-}
-
 variable "do_application_powertrader-coincollectorbyp" {
   description = "Coin Collector by PowerTrader.net 1.3.1 on Ubuntu 20.04"
   default     = "powertrader-coincollectorbyp"
@@ -1318,9 +1308,19 @@ variable "do_application_saltcorn-20-04" {
   default     = "saltcorn-20-04"
 }
 
+variable "do_application_null" {
+  description = "filecoin-lotus 1.11.0 on Ubuntu 20.04 (LTS)"
+  default     = "null"
+}
+
 variable "do_application_sandflysecurity-20-04" {
-  description = "Sandfly Security 3.3.0 on Ubuntu 20.04"
+  description = "Sandfly Security 4.2.1 on Ubuntu 22.04"
   default     = "sandflysecurity-20-04"
+}
+
+variable "do_application_null" {
+  description = "Plesk 17.8 on CentOS 7"
+  default     = "null"
 }
 
 variable "do_application_searchblox-searchbloxenterp-7-6" {
