@@ -728,9 +728,19 @@ variable "do_application_lemp-20-04" {
   default     = "lemp-20-04"
 }
 
+variable "do_application_null" {
+  description = "Plesk 17.8 on CentOS 7"
+  default     = "null"
+}
+
 variable "do_application_litespeedtechnol-cyberpanel-20-04" {
   description = "CyberPanel 2.3.1 on Ubuntu 20.04"
   default     = "litespeedtechnol-cyberpanel-20-04"
+}
+
+variable "do_application_null" {
+  description = "filecoin-lotus 1.11.0 on Ubuntu 20.04 (LTS)"
+  default     = "null"
 }
 
 variable "do_application_litespeedtechnol-cyberpaneljoomla" {
@@ -1311,16 +1321,6 @@ variable "do_application_saltcorn-20-04" {
 variable "do_application_sandflysecurity-20-04" {
   description = "Sandfly Security 4.2.1 on Ubuntu 22.04"
   default     = "sandflysecurity-20-04"
-}
-
-variable "do_application_null" {
-  description = "filecoin-lotus 1.11.0 on Ubuntu 20.04 (LTS)"
-  default     = "null"
-}
-
-variable "do_application_null" {
-  description = "Plesk 17.8 on CentOS 7"
-  default     = "null"
 }
 
 variable "do_application_searchblox-searchbloxenterp-7-6" {
