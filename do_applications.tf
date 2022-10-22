@@ -703,6 +703,11 @@ variable "do_application_kromit-titra-20-04" {
   default     = "kromit-titra-20-04"
 }
 
+variable "do_application_kuyio-konnectvpna" {
+  description = "Konnect VPN Access Server 2208.0 on Ubuntu 20.04"
+  default     = "kuyio-konnectvpna"
+}
+
 variable "do_application_kuyio-wireguardianvpna" {
   description = "Wireguardian VPN Access Server 2205.0 on Ubuntu 20.04"
   default     = "kuyio-wireguardianvpna"
@@ -733,14 +738,14 @@ variable "do_application_null" {
   default     = "null"
 }
 
-variable "do_application_litespeedtechnol-cyberpanel-20-04" {
-  description = "CyberPanel 2.3.1 on Ubuntu 20.04"
-  default     = "litespeedtechnol-cyberpanel-20-04"
-}
-
 variable "do_application_null" {
   description = "filecoin-lotus 1.11.0 on Ubuntu 20.04 (LTS)"
   default     = "null"
+}
+
+variable "do_application_litespeedtechnol-cyberpanel-20-04" {
+  description = "CyberPanel 2.3.1 on Ubuntu 20.04"
+  default     = "litespeedtechnol-cyberpanel-20-04"
 }
 
 variable "do_application_litespeedtechnol-cyberpaneljoomla" {
@@ -1464,7 +1469,7 @@ variable "do_application_solidinvoice-18-04" {
 }
 
 variable "do_application_soos-soosdastdroplet" {
-  description = "SOOS DAST Droplet 0.2 on Ubuntu 20.04"
+  description = "SOOS DAST Droplet 0.3.1 on Ubuntu 20.04"
   default     = "soos-soosdastdroplet"
 }
 
