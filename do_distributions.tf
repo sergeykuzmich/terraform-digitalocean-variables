@@ -77,4 +77,9 @@ variable "do_distibution_ubuntu-22-04-x64" {
   description = "Ubuntu 22.04 (LTS) x64"
   default     = "ubuntu-22-04-x64"
 }
+
+variable "do_distibution_ubuntu-22-10-x64" {
+  description = "Ubuntu 22.10 x64"
+  default     = "ubuntu-22-10-x64"
+}
     

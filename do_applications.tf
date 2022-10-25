@@ -339,7 +339,7 @@ variable "do_application_deskpro" {
 }
 
 variable "do_application_devdojo-laravel-20-04" {
-  description = "Laravel 9.12.2 on Ubuntu 20.04"
+  description = "Laravel 9.36.4 on Ubuntu 20.04"
   default     = "devdojo-laravel-20-04"
 }
 
@@ -731,16 +731,6 @@ variable "do_application_lemp-18-04" {
 variable "do_application_lemp-20-04" {
   description = "LEMP 42 on Ubuntu 20.04"
   default     = "lemp-20-04"
-}
-
-variable "do_application_null" {
-  description = "Plesk 17.8 on CentOS 7"
-  default     = "null"
-}
-
-variable "do_application_null" {
-  description = "filecoin-lotus 1.11.0 on Ubuntu 20.04 (LTS)"
-  default     = "null"
 }
 
 variable "do_application_litespeedtechnol-cyberpanel-20-04" {
@@ -1193,9 +1183,19 @@ variable "do_application_portalcloud-wirespeedvpnbybu-18-04" {
   default     = "portalcloud-wirespeedvpnbybu-18-04"
 }
 
+variable "do_application_null" {
+  description = "Plesk 17.8 on CentOS 7"
+  default     = "null"
+}
+
 variable "do_application_postalsystemso-emailengine" {
-  description = "EmailEngine 2.26.9 on Ubuntu 20.04"
+  description = "EmailEngine 2.27.2 on Ubuntu 20.04"
   default     = "postalsystemso-emailengine"
+}
+
+variable "do_application_null" {
+  description = "filecoin-lotus 1.11.0 on Ubuntu 20.04 (LTS)"
+  default     = "null"
 }
 
 variable "do_application_powertrader-coincollectorbyp" {
@@ -1469,7 +1469,7 @@ variable "do_application_solidinvoice-18-04" {
 }
 
 variable "do_application_soos-soosdastdroplet" {
-  description = "SOOS DAST Droplet 0.3.1 on Ubuntu 20.04"
+  description = "SOOS DAST Droplet 0.3.2 on Ubuntu 20.04"
   default     = "soos-soosdastdroplet"
 }
 
@@ -1511,6 +1511,11 @@ variable "do_application_supabase-supabaserealtime-18-04" {
 variable "do_application_ten7-computingforcovi-18-04-4" {
   description = "Computing for COVID 3 on Ubuntu 18.04.4 LTS"
   default     = "ten7-computingforcovi-18-04-4"
+}
+
+variable "do_application_testingsafename2" {
+  description = "testing safe name 2 2 on Ubuntu 20.04"
+  default     = "testingsafename2"
 }
 
 variable "do_application_thegrampsproject-grampsweb" {
