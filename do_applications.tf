@@ -803,6 +803,11 @@ variable "do_application_liveswitch-liveswitchserver" {
   default     = "liveswitch-liveswitchserver"
 }
 
+variable "do_application_logstore" {
+  description = "log-store 0.6.3 on Ubuntu 22.04"
+  default     = "logstore"
+}
+
 variable "do_application_mastodon-18-04" {
   description = "Mastodon 3.1.3 on Ubuntu 18.04"
   default     = "mastodon-18-04"
@@ -1188,14 +1193,14 @@ variable "do_application_null" {
   default     = "null"
 }
 
-variable "do_application_postalsystemso-emailengine" {
-  description = "EmailEngine 2.27.2 on Ubuntu 20.04"
-  default     = "postalsystemso-emailengine"
-}
-
 variable "do_application_null" {
   description = "filecoin-lotus 1.11.0 on Ubuntu 20.04 (LTS)"
   default     = "null"
+}
+
+variable "do_application_postalsystemso-emailengine" {
+  description = "EmailEngine 2.27.2 on Ubuntu 20.04"
+  default     = "postalsystemso-emailengine"
 }
 
 variable "do_application_powertrader-coincollectorbyp" {
