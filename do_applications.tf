@@ -114,7 +114,7 @@ variable "do_application_ascensiosystem-onlyoffice-18-04" {
 }
 
 variable "do_application_ascensiosystemsi-onlyofficeeditor-18-04-4" {
-  description = "ONLYOFFICE Docs 7.2.0 on Ubuntu 20.04 LTS"
+  description = "ONLYOFFICE Docs 7.2.1 on Ubuntu 20.04 LTS"
   default     = "ascensiosystemsi-onlyofficeeditor-18-04-4"
 }
 
@@ -1334,7 +1334,7 @@ variable "do_application_sandflysecurity-20-04" {
 }
 
 variable "do_application_searchblox-searchbloxenterp-7-6" {
-  description = "SearchBlox Enterprise Search 9.2.1 on CentOS 7.6"
+  description = "SearchBlox Enterprise Search 10.2 on CentOS 8.0"
   default     = "searchblox-searchbloxenterp-7-6"
 }
 
