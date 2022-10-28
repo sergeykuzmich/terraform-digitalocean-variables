@@ -3,6 +3,16 @@
 #
 
 
+variable "do_distibution_almalinux-8-x64" {
+  description = "AlmaLinux AlmaLinux 8"
+  default     = "almalinux-8-x64"
+}
+
+variable "do_distibution_almalinux-9-x64" {
+  description = "AlmaLinux AlmaLinux 9"
+  default     = "almalinux-9-x64"
+}
+
 variable "do_distibution_centos-7-x64" {
   description = "CentOS 7 x64"
   default     = "centos-7-x64"
