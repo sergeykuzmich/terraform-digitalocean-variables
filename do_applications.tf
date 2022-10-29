@@ -1159,7 +1159,7 @@ variable "do_application_plesk-18-04" {
 }
 
 variable "do_application_plesk-20-04" {
-  description = "Plesk 18.0.43 on Ubuntu 20.04"
+  description = "Plesk 18.0.47 on Ubuntu 22.04"
   default     = "plesk-20-04"
 }
 
@@ -1169,7 +1169,7 @@ variable "do_application_plesk-7-6" {
 }
 
 variable "do_application_plesk-pleskcentos-7-9" {
-  description = "Plesk (CentOS) 18.0.43 on CentOS 7.9"
+  description = "Plesk (CentOS) 18.0.47 on CentOS 7.9"
   default     = "plesk-pleskcentos-7-9"
 }
 
@@ -1188,6 +1188,11 @@ variable "do_application_portalcloud-wirespeedvpnbybu-18-04" {
   default     = "portalcloud-wirespeedvpnbybu-18-04"
 }
 
+variable "do_application_postalsystemso-emailengine" {
+  description = "EmailEngine 2.27.2 on Ubuntu 20.04"
+  default     = "postalsystemso-emailengine"
+}
+
 variable "do_application_null" {
   description = "Plesk 17.8 on CentOS 7"
   default     = "null"
@@ -1196,11 +1201,6 @@ variable "do_application_null" {
 variable "do_application_null" {
   description = "filecoin-lotus 1.11.0 on Ubuntu 20.04 (LTS)"
   default     = "null"
-}
-
-variable "do_application_postalsystemso-emailengine" {
-  description = "EmailEngine 2.27.2 on Ubuntu 20.04"
-  default     = "postalsystemso-emailengine"
 }
 
 variable "do_application_powertrader-coincollectorbyp" {
@@ -1391,6 +1391,11 @@ variable "do_application_sharklabs-ninjam-10-0" {
 variable "do_application_sharklabs-nodejsquickstart-18-04" {
   description = "Node.js Quickstart 1.0 on Ubuntu 18.04"
   default     = "sharklabs-nodejsquickstart-18-04"
+}
+
+variable "do_application_sharklabs-openmptcprouter" {
+  description = "OpenMPTCProuter 0.1.0-beta on Debian 11"
+  default     = "sharklabs-openmptcprouter"
 }
 
 variable "do_application_sharklabs-opensearch" {
