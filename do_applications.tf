@@ -1419,7 +1419,7 @@ variable "do_application_sharklabs-pythondjangoquic-18-04" {
 }
 
 variable "do_application_shellhub" {
-  description = "ShellHub 0.9.4 on Ubuntu 22.04"
+  description = "ShellHub 0.10.4 on Ubuntu 22.04"
   default     = "shellhub"
 }
 
