@@ -104,7 +104,7 @@ variable "do_application_appwrite-18-04" {
 }
 
 variable "do_application_appwrite-20-04" {
-  description = "Appwrite 1.0.1 on Ubuntu 20.04"
+  description = "Appwrite 1.0.3 on Ubuntu 20.04"
   default     = "appwrite-20-04"
 }
 
@@ -584,7 +584,7 @@ variable "do_application_helpyio-helpypro-18-04" {
 }
 
 variable "do_application_hollaex-hollaexkit" {
-  description = "HollaEx Kit 2.4.2 on Ubuntu 20.04"
+  description = "HollaEx Kit 2.4.5 on Ubuntu 20.04"
   default     = "hollaex-hollaexkit"
 }
 
