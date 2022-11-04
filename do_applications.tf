@@ -854,7 +854,7 @@ variable "do_application_mgtcommercegmbh-cloudpanel1-10-8" {
 }
 
 variable "do_application_mgtcommercegmbh-cloudpanel2ubunt" {
-  description = "CloudPanel 2 - Ubuntu 22.04 2.0.4 on Ubuntu 22.04"
+  description = "CloudPanel 2 - Ubuntu 22.04 2.1.0 on Ubuntu 22.04"
   default     = "mgtcommercegmbh-cloudpanel2ubunt"
 }
 
@@ -1188,9 +1188,9 @@ variable "do_application_portalcloud-wirespeedvpnbybu-18-04" {
   default     = "portalcloud-wirespeedvpnbybu-18-04"
 }
 
-variable "do_application_postalsystemso-emailengine" {
-  description = "EmailEngine 2.27.2 on Ubuntu 20.04"
-  default     = "postalsystemso-emailengine"
+variable "do_application_null" {
+  description = "filecoin-lotus 1.11.0 on Ubuntu 20.04 (LTS)"
+  default     = "null"
 }
 
 variable "do_application_null" {
@@ -1198,9 +1198,9 @@ variable "do_application_null" {
   default     = "null"
 }
 
-variable "do_application_null" {
-  description = "filecoin-lotus 1.11.0 on Ubuntu 20.04 (LTS)"
-  default     = "null"
+variable "do_application_postalsystemso-emailengine" {
+  description = "EmailEngine 2.27.2 on Ubuntu 20.04"
+  default     = "postalsystemso-emailengine"
 }
 
 variable "do_application_powertrader-coincollectorbyp" {
