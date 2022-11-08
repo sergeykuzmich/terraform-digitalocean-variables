@@ -259,7 +259,7 @@ variable "do_application_code-server-18-04" {
 }
 
 variable "do_application_codelathe-filecloud-20-04" {
-  description = "FileCloud 21.3.5 on Ubuntu 20.04"
+  description = "FileCloud 21.3.7 on Ubuntu 20.04"
   default     = "codelathe-filecloud-20-04"
 }
 
@@ -544,7 +544,7 @@ variable "do_application_grandnode-grandnode20-18-04" {
 }
 
 variable "do_application_gravitl-netmaker" {
-  description = "Netmaker 0.14.6 on Ubuntu 20.04"
+  description = "Netmaker 0.16.1 on Ubuntu 22.10"
   default     = "gravitl-netmaker"
 }
 
