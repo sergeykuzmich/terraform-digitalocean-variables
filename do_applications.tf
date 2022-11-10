@@ -163,6 +163,11 @@ variable "do_application_bitwarden-18-04" {
   default     = "bitwarden-18-04"
 }
 
+variable "do_application_botguardo-botguardgatekeep" {
+  description = "BotGuard GateKeeper 1.0.2 on Debian 11 (bullseye)"
+  default     = "botguardo-botguardgatekeep"
+}
+
 variable "do_application_botguardo-botguardingressc" {
   description = "BotGuard Ingress Controller 1.0 on Debian 11 (bullseye)"
   default     = "botguardo-botguardingressc"
@@ -809,7 +814,7 @@ variable "do_application_logstore" {
 }
 
 variable "do_application_mastodon-18-04" {
-  description = "Mastodon 3.1.3 on Ubuntu 18.04"
+  description = "Mastodon 3.5.3 on Ubuntu 20.04"
   default     = "mastodon-18-04"
 }
 
@@ -1189,12 +1194,12 @@ variable "do_application_portalcloud-wirespeedvpnbybu-18-04" {
 }
 
 variable "do_application_null" {
-  description = "filecoin-lotus 1.11.0 on Ubuntu 20.04 (LTS)"
+  description = "Plesk 17.8 on CentOS 7"
   default     = "null"
 }
 
 variable "do_application_null" {
-  description = "Plesk 17.8 on CentOS 7"
+  description = "filecoin-lotus 1.11.0 on Ubuntu 20.04 (LTS)"
   default     = "null"
 }
 
@@ -1479,7 +1484,7 @@ variable "do_application_solidinvoice-18-04" {
 }
 
 variable "do_application_soos-soosdastdroplet" {
-  description = "SOOS DAST Droplet 0.3.2 on Ubuntu 20.04"
+  description = "SOOS DAST Droplet 0.3.4 on Ubuntu 20.04"
   default     = "soos-soosdastdroplet"
 }
 
