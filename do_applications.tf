@@ -349,7 +349,7 @@ variable "do_application_devdojo-laravel-20-04" {
 }
 
 variable "do_application_devrel-teleport-20-04" {
-  description = "Teleport 10-latest on Ubuntu 20.04"
+  description = "Teleport 11-latest on Ubuntu 20.04"
   default     = "devrel-teleport-20-04"
 }
 
@@ -1624,7 +1624,7 @@ variable "do_application_wftutorials-purdm-18-04" {
 }
 
 variable "do_application_wikijs-18-04" {
-  description = "Wiki.js 2.5.286 on Ubuntu 20.04 (LTS)"
+  description = "Wiki.js 2.5.291 on Ubuntu 20.04 (LTS)"
   default     = "wikijs-18-04"
 }
 
