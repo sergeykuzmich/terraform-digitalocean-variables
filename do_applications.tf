@@ -1119,7 +1119,7 @@ variable "do_application_passbolt-18-04" {
 }
 
 variable "do_application_passboltsa-passboltce-20-04" {
-  description = "Passbolt CE 3.7.3-1 on Ubuntu 20.04"
+  description = "Passbolt CE 3.8.0-1 on Ubuntu 20.04"
   default     = "passboltsa-passboltce-20-04"
 }
 
