@@ -63,6 +63,11 @@ variable "do_region_sgp1" {
   default     = "sgp1"
 }
 
+variable "do_region_syd1" {
+  description = "Sydney 1"
+  default     = "syd1"
+}
+
 variable "do_region_tor1" {
   description = "Toronto 1"
   default     = "tor1"
