@@ -48,6 +48,11 @@ variable "do_distibution_fedora-36-x64" {
   default     = "fedora-36-x64"
 }
 
+variable "do_distibution_fedora-37-x64" {
+  description = "Fedora 37 x64"
+  default     = "fedora-37-x64"
+}
+
 variable "do_distibution_rancheros" {
   description = "RancherOS 1.5.8 x64"
   default     = "rancheros"
