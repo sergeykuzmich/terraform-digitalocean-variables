@@ -403,6 +403,11 @@ variable "do_application_doppler-20-04" {
   default     = "doppler-20-04"
 }
 
+variable "do_application_doteamaccount-pocketbase" {
+  description = "PocketBase 0.8.0-rc4 on Ubuntu 22.04"
+  default     = "doteamaccount-pocketbase"
+}
+
 variable "do_application_dsuhininapp1-18-04" {
   description = "DSuhinin-App-1 1.0 on 18.04"
   default     = "dsuhininapp1-18-04"
@@ -459,7 +464,7 @@ variable "do_application_fathom-18-04" {
 }
 
 variable "do_application_flashphoner-7-6" {
-  description = "Flashphoner Web Call Server 5.2.780 on CentOS 7.6"
+  description = "Flashphoner Web Call Server 5.2.1484 on CentOS 7.6"
   default     = "flashphoner-7-6"
 }
 
@@ -684,7 +689,7 @@ variable "do_application_jitsiserver-20-04" {
 }
 
 variable "do_application_kandralabs-zulip-18-04" {
-  description = "Zulip 5.6 on Ubuntu 20.04"
+  description = "Zulip 6.0 on Ubuntu 20.04"
   default     = "kandralabs-zulip-18-04"
 }
 
@@ -1119,7 +1124,7 @@ variable "do_application_passbolt-18-04" {
 }
 
 variable "do_application_passboltsa-passboltce-20-04" {
-  description = "Passbolt CE 3.8.0-2 on Ubuntu 20.04"
+  description = "Passbolt CE 3.8.1-1 on Ubuntu 20.04"
   default     = "passboltsa-passboltce-20-04"
 }
 
@@ -1191,16 +1196,6 @@ variable "do_application_portalcloud-wirespeedvpn-18-04" {
 variable "do_application_portalcloud-wirespeedvpnbybu-18-04" {
   description = "WireSpeed VPN 1.1.5 on Ubuntu 18.04"
   default     = "portalcloud-wirespeedvpnbybu-18-04"
-}
-
-variable "do_application_null" {
-  description = "Plesk 17.8 on CentOS 7"
-  default     = "null"
-}
-
-variable "do_application_null" {
-  description = "filecoin-lotus 1.11.0 on Ubuntu 20.04 (LTS)"
-  default     = "null"
 }
 
 variable "do_application_postalsystemso-emailengine" {
@@ -1359,7 +1354,7 @@ variable "do_application_selfhostedpro-yacht-20-04" {
 }
 
 variable "do_application_severalnines-clustercontrol-20-04" {
-  description = "ClusterControl 1.9.2 on Ubuntu 20.04"
+  description = "ClusterControl 1.9.5 on Ubuntu 20.04"
   default     = "severalnines-clustercontrol-20-04"
 }
 
@@ -1458,9 +1453,24 @@ variable "do_application_simplystatistics-rstudio-18-04" {
   default     = "simplystatistics-rstudio-18-04"
 }
 
+variable "do_application_null" {
+  description = "filecoin-lotus 1.11.0 on Ubuntu 20.04 (LTS)"
+  default     = "null"
+}
+
+variable "do_application_null" {
+  description = "Plesk 17.8 on CentOS 7"
+  default     = "null"
+}
+
 variable "do_application_skaffolder-18-04" {
   description = "Skaffolder 3.0 on Ubuntu 18.04"
   default     = "skaffolder-18-04"
+}
+
+variable "do_application_smartarget-wordpresswoocomm" {
+  description = "WordPress-WooCommerce 7.0.0 on Ubuntu 20.04"
+  default     = "smartarget-wordpresswoocomm"
 }
 
 variable "do_application_snapt-snaptaria-18-04" {
@@ -1589,7 +1599,7 @@ variable "do_application_vardot-varbase-18-04" {
 }
 
 variable "do_application_varnishsoftware-varnishcache-18-04" {
-  description = "Varnish Cache 6.0.10 on Ubuntu 18.04"
+  description = "Varnish Cache 6.0.11 on Ubuntu 20.04"
   default     = "varnishsoftware-varnishcache-18-04"
 }
 
