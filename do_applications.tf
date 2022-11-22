@@ -404,7 +404,7 @@ variable "do_application_doppler-20-04" {
 }
 
 variable "do_application_doteamaccount-pocketbase" {
-  description = "PocketBase 0.8.0-rc4 on Ubuntu 22.04"
+  description = "PocketBase 0.8.0 on Ubuntu 22.04"
   default     = "doteamaccount-pocketbase"
 }
 
