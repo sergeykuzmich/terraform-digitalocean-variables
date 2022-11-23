@@ -3,6 +3,11 @@
 #
 
 
+variable "do_application_3cxcommunication-3cx" {
+  description = "3CX 18.0.5.418 on Debian 10 (Buster)"
+  default     = "3cxcommunication-3cx"
+}
+
 variable "do_application_acra-18-04" {
   description = "Acra 0.85.0 on Ubuntu 18.04"
   default     = "acra-18-04"
@@ -44,7 +49,7 @@ variable "do_application_analythium-shinyproxy-18-04" {
 }
 
 variable "do_application_analythium-shinyproxy-20-04" {
-  description = "ShinyProxy 2.6.0.1 on Ubuntu 20.04"
+  description = "ShinyProxy 2.6.1 on Ubuntu 22.04"
   default     = "analythium-shinyproxy-20-04"
 }
 
@@ -1368,6 +1373,16 @@ variable "do_application_sharklabs-foldinghome-18-04" {
   default     = "sharklabs-foldinghome-18-04"
 }
 
+variable "do_application_null" {
+  description = "filecoin-lotus 1.11.0 on Ubuntu 20.04 (LTS)"
+  default     = "null"
+}
+
+variable "do_application_null" {
+  description = "Plesk 17.8 on CentOS 7"
+  default     = "null"
+}
+
 variable "do_application_sharklabs-matrixsynapsebac-10" {
   description = "Matrix (Synapse backend) 0.1.4 on Debian 10 (buster)"
   default     = "sharklabs-matrixsynapsebac-10"
@@ -1451,16 +1466,6 @@ variable "do_application_simplex-simplexserver-20-04" {
 variable "do_application_simplystatistics-rstudio-18-04" {
   description = "RStudio 1.2 on Ubuntu 18.04"
   default     = "simplystatistics-rstudio-18-04"
-}
-
-variable "do_application_null" {
-  description = "filecoin-lotus 1.11.0 on Ubuntu 20.04 (LTS)"
-  default     = "null"
-}
-
-variable "do_application_null" {
-  description = "Plesk 17.8 on CentOS 7"
-  default     = "null"
 }
 
 variable "do_application_skaffolder-18-04" {
@@ -1634,7 +1639,7 @@ variable "do_application_wftutorials-purdm-18-04" {
 }
 
 variable "do_application_wikijs-18-04" {
-  description = "Wiki.js 2.5.291 on Ubuntu 20.04 (LTS)"
+  description = "Wiki.js 2.5.292 on Ubuntu 20.04 (LTS)"
   default     = "wikijs-18-04"
 }
 
