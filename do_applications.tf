@@ -109,7 +109,7 @@ variable "do_application_appwrite-18-04" {
 }
 
 variable "do_application_appwrite-20-04" {
-  description = "Appwrite 1.0.3 on Ubuntu 20.04"
+  description = "Appwrite 1.1.1 on Ubuntu 20.04"
   default     = "appwrite-20-04"
 }
 
@@ -424,7 +424,7 @@ variable "do_application_easypanel" {
 }
 
 variable "do_application_edgedb" {
-  description = "EdgeDB 2.3 on Ubuntu 20.04"
+  description = "EdgeDB 2.7 on Ubuntu 20.04"
   default     = "edgedb"
 }
 
@@ -963,6 +963,16 @@ variable "do_application_nextcloudgmbh-nextcloud" {
   default     = "nextcloudgmbh-nextcloud"
 }
 
+variable "do_application_null" {
+  description = "filecoin-lotus 1.11.0 on Ubuntu 20.04 (LTS)"
+  default     = "null"
+}
+
+variable "do_application_null" {
+  description = "Plesk 17.8 on CentOS 7"
+  default     = "null"
+}
+
 variable "do_application_nginx" {
   description = "NGINX 1.0 on Ubuntu 22.04"
   default     = "nginx"
@@ -1036,6 +1046,11 @@ variable "do_application_oneledger-mainnetfullnode" {
 variable "do_application_onjection-jenkins-16-04" {
   description = "Onjection Jenkins 2.164.3 on Ubuntu 16.04"
   default     = "onjection-jenkins-16-04"
+}
+
+variable "do_application_openblocks" {
+  description = "Openblocks 1.1.0 on Ubuntu 20.04 (LTS)"
+  default     = "openblocks"
 }
 
 variable "do_application_openboxes-20-04" {
@@ -1373,16 +1388,6 @@ variable "do_application_sharklabs-foldinghome-18-04" {
   default     = "sharklabs-foldinghome-18-04"
 }
 
-variable "do_application_null" {
-  description = "filecoin-lotus 1.11.0 on Ubuntu 20.04 (LTS)"
-  default     = "null"
-}
-
-variable "do_application_null" {
-  description = "Plesk 17.8 on CentOS 7"
-  default     = "null"
-}
-
 variable "do_application_sharklabs-matrixsynapsebac-10" {
   description = "Matrix (Synapse backend) 0.1.4 on Debian 10 (buster)"
   default     = "sharklabs-matrixsynapsebac-10"
@@ -1709,12 +1714,12 @@ variable "do_application_zeslecp-7" {
 }
 
 variable "do_application_znuny" {
-  description = "Znuny 6.4.3 on Debian 10 (buster)"
+  description = "Znuny 6.4.4 on Debian 10 (buster)"
   default     = "znuny"
 }
 
 variable "do_application_znuny-znunylts-10" {
-  description = "Znuny LTS 6.0.46 on Debian 10 (buster)"
+  description = "Znuny LTS 6.0.47 on Debian 10 (buster)"
   default     = "znuny-znunylts-10"
 }
 
