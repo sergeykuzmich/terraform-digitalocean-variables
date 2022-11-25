@@ -384,7 +384,7 @@ variable "do_application_docker-18-04" {
 }
 
 variable "do_application_docker-20-04" {
-  description = "Docker 19.03.12 on Ubuntu 20.04"
+  description = "Docker 20.10.21 on Ubuntu 20.04"
   default     = "docker-20-04"
 }
 
@@ -928,6 +928,11 @@ variable "do_application_mpdev-gutiumtestappnew-20-04" {
   default     = "mpdev-gutiumtestappnew-20-04"
 }
 
+variable "do_application_mpdev-testingupdateapp" {
+  description = "testing update app without image 1 on Ubuntu 20.04"
+  default     = "mpdev-testingupdateapp"
+}
+
 variable "do_application_mysql-18-04" {
   description = "MySQL on 18.04"
   default     = "mysql-18-04"
@@ -961,16 +966,6 @@ variable "do_application_netverity-netbox-20-04" {
 variable "do_application_nextcloudgmbh-nextcloud" {
   description = "Nextcloud 1.0.1 on Ubuntu 20.04 (LTS)"
   default     = "nextcloudgmbh-nextcloud"
-}
-
-variable "do_application_null" {
-  description = "filecoin-lotus 1.11.0 on Ubuntu 20.04 (LTS)"
-  default     = "null"
-}
-
-variable "do_application_null" {
-  description = "Plesk 17.8 on CentOS 7"
-  default     = "null"
 }
 
 variable "do_application_nginx" {
@@ -1378,9 +1373,19 @@ variable "do_application_severalnines-clustercontrol-20-04" {
   default     = "severalnines-clustercontrol-20-04"
 }
 
+variable "do_application_null" {
+  description = "Plesk 17.8 on CentOS 7"
+  default     = "null"
+}
+
 variable "do_application_sharklabs-apachekafka" {
   description = "Apache Kafka 3.1.0 on Ubuntu 20.04"
   default     = "sharklabs-apachekafka"
+}
+
+variable "do_application_null" {
+  description = "filecoin-lotus 1.11.0 on Ubuntu 20.04 (LTS)"
+  default     = "null"
 }
 
 variable "do_application_sharklabs-foldinghome-18-04" {
