@@ -824,7 +824,7 @@ variable "do_application_logstore" {
 }
 
 variable "do_application_mastodon-18-04" {
-  description = "Mastodon 3.5.3 on Ubuntu 20.04"
+  description = "Mastodon 4.0.2 on Ubuntu 20.04"
   default     = "mastodon-18-04"
 }
 
