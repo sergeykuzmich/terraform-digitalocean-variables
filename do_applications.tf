@@ -109,7 +109,7 @@ variable "do_application_appwrite-18-04" {
 }
 
 variable "do_application_appwrite-20-04" {
-  description = "Appwrite 1.1.1 on Ubuntu 20.04"
+  description = "Appwrite 1.1.2 on Ubuntu 20.04"
   default     = "appwrite-20-04"
 }
 
@@ -169,7 +169,7 @@ variable "do_application_bitwarden-18-04" {
 }
 
 variable "do_application_botguardo-botguardgatekeep" {
-  description = "BotGuard GateKeeper 1.0.2 on Debian 11 (bullseye)"
+  description = "BotGuard GateKeeper 1.1.2 on Debian 11 (bullseye)"
   default     = "botguardo-botguardgatekeep"
 }
 
@@ -384,7 +384,7 @@ variable "do_application_docker-18-04" {
 }
 
 variable "do_application_docker-20-04" {
-  description = "Docker 20.10.21 on Ubuntu 20.04"
+  description = "Docker 20.10.21 on Ubuntu 22.04"
   default     = "docker-20-04"
 }
 
@@ -478,9 +478,19 @@ variable "do_application_flexify-18-04" {
   default     = "flexify-18-04"
 }
 
+variable "do_application_null" {
+  description = "filecoin-lotus 1.11.0 on Ubuntu 20.04 (LTS)"
+  default     = "null"
+}
+
 variable "do_application_flexifyio-flexifyiomulticl-20-04" {
-  description = "Flexify.IO Multi-cloud / Migration 2.12.8 on Ubuntu 20.04 LTS"
+  description = "Flexify.IO Multi-cloud / Migration 2.12.11 on Ubuntu 20.04 LTS"
   default     = "flexifyio-flexifyiomulticl-20-04"
+}
+
+variable "do_application_null" {
+  description = "Plesk 17.8 on CentOS 7"
+  default     = "null"
 }
 
 variable "do_application_flipstarter-18-04" {
@@ -621,6 +631,11 @@ variable "do_application_hyfinity-webmakerserver-20-04" {
 variable "do_application_hystax-freecostmanageme-20-04" {
   description = "Free Cost Management 1-1-326707216-master on Ubuntu 20.04"
   default     = "hystax-freecostmanageme-20-04"
+}
+
+variable "do_application_ibsurgeon-hqbirdfirebird" {
+  description = "HQbird Firebird  3.0-10.1.1023 on CentOS 7"
+  default     = "ibsurgeon-hqbirdfirebird"
 }
 
 variable "do_application_ifaxsolutions-hylafaxenterpris" {
@@ -821,6 +836,11 @@ variable "do_application_liveswitch-liveswitchserver" {
 variable "do_application_logstore" {
   description = "log-store 0.6.3 on Ubuntu 22.04"
   default     = "logstore"
+}
+
+variable "do_application_m3o-micro" {
+  description = "Micro 3.15.0 on 22.04"
+  default     = "m3o-micro"
 }
 
 variable "do_application_mastodon-18-04" {
@@ -1139,7 +1159,7 @@ variable "do_application_passbolt-18-04" {
 }
 
 variable "do_application_passboltsa-passboltce-20-04" {
-  description = "Passbolt CE 3.8.1-1 on Ubuntu 20.04"
+  description = "Passbolt CE 3.8.3-1 on Ubuntu 20.04"
   default     = "passboltsa-passboltce-20-04"
 }
 
@@ -1373,19 +1393,9 @@ variable "do_application_severalnines-clustercontrol-20-04" {
   default     = "severalnines-clustercontrol-20-04"
 }
 
-variable "do_application_null" {
-  description = "Plesk 17.8 on CentOS 7"
-  default     = "null"
-}
-
 variable "do_application_sharklabs-apachekafka" {
   description = "Apache Kafka 3.1.0 on Ubuntu 20.04"
   default     = "sharklabs-apachekafka"
-}
-
-variable "do_application_null" {
-  description = "filecoin-lotus 1.11.0 on Ubuntu 20.04 (LTS)"
-  default     = "null"
 }
 
 variable "do_application_sharklabs-foldinghome-18-04" {
@@ -1538,6 +1548,11 @@ variable "do_application_strapi-18-04" {
   default     = "strapi-18-04"
 }
 
+variable "do_application_stretchshop" {
+  description = "StretchShop 0.6.4 on Ubuntu 22.04"
+  default     = "stretchshop"
+}
+
 variable "do_application_supabase-supabasepostgres-18-04" {
   description = "Supabase Postgres 0.15.0 on Ubuntu 18.04"
   default     = "supabase-supabasepostgres-18-04"
@@ -1631,6 +1646,11 @@ variable "do_application_vitalpointz-7-6" {
 variable "do_application_vodianetworks-vodiaphonesystem-10" {
   description = "Vodia Multi-tenant Cloud PBX 66 on Debian 10 x64"
   default     = "vodianetworks-vodiaphonesystem-10"
+}
+
+variable "do_application_warpspeedvpn-wpcontroller" {
+  description = "wpcontroller 20221127181653 on Ubuntu 22.04"
+  default     = "warpspeedvpn-wpcontroller"
 }
 
 variable "do_application_webkul-qloapps-18-04" {
