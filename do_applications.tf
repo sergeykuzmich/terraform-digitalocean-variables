@@ -478,19 +478,9 @@ variable "do_application_flexify-18-04" {
   default     = "flexify-18-04"
 }
 
-variable "do_application_null" {
-  description = "filecoin-lotus 1.11.0 on Ubuntu 20.04 (LTS)"
-  default     = "null"
-}
-
 variable "do_application_flexifyio-flexifyiomulticl-20-04" {
   description = "Flexify.IO Multi-cloud / Migration 2.12.11 on Ubuntu 20.04 LTS"
   default     = "flexifyio-flexifyiomulticl-20-04"
-}
-
-variable "do_application_null" {
-  description = "Plesk 17.8 on CentOS 7"
-  default     = "null"
 }
 
 variable "do_application_flipstarter-18-04" {
@@ -703,9 +693,19 @@ variable "do_application_jetappsstorageve-jetbackup5" {
   default     = "jetappsstorageve-jetbackup5"
 }
 
+variable "do_application_null" {
+  description = "Plesk 17.8 on CentOS 7"
+  default     = "null"
+}
+
 variable "do_application_jitsiserver-20-04" {
   description = "Jitsi Server 2.0.6726 on Ubuntu 20.04"
   default     = "jitsiserver-20-04"
+}
+
+variable "do_application_null" {
+  description = "filecoin-lotus 1.11.0 on Ubuntu 20.04 (LTS)"
+  default     = "null"
 }
 
 variable "do_application_kandralabs-zulip-18-04" {
