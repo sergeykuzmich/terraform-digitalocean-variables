@@ -233,6 +233,11 @@ variable "do_application_castai-kubernetes119-20-04" {
   default     = "castai-kubernetes119-20-04"
 }
 
+variable "do_application_chaarmiworlds-metaverse" {
+  description = "Metaverse 0.91b1 on Ubuntu 20.04"
+  default     = "chaarmiworlds-metaverse"
+}
+
 variable "do_application_chamilo-18-04" {
   description = "Chamilo 1.11.10 on Ubuntu 18.04"
   default     = "chamilo-18-04"
@@ -693,19 +698,9 @@ variable "do_application_jetappsstorageve-jetbackup5" {
   default     = "jetappsstorageve-jetbackup5"
 }
 
-variable "do_application_null" {
-  description = "Plesk 17.8 on CentOS 7"
-  default     = "null"
-}
-
 variable "do_application_jitsiserver-20-04" {
   description = "Jitsi Server 2.0.6726 on Ubuntu 20.04"
   default     = "jitsiserver-20-04"
-}
-
-variable "do_application_null" {
-  description = "filecoin-lotus 1.11.0 on Ubuntu 20.04 (LTS)"
-  default     = "null"
 }
 
 variable "do_application_kandralabs-zulip-18-04" {
@@ -1019,7 +1014,7 @@ variable "do_application_nlnetlabs-krill-18-04" {
 }
 
 variable "do_application_nmtec-erxes-18-04" {
-  description = "Erxes 0.17.6 on Ubuntu 18.04"
+  description = "Erxes 1.0 on Ubuntu 22.04"
   default     = "nmtec-erxes-18-04"
 }
 
@@ -1396,6 +1391,16 @@ variable "do_application_severalnines-clustercontrol-20-04" {
 variable "do_application_sharklabs-apachekafka" {
   description = "Apache Kafka 3.1.0 on Ubuntu 20.04"
   default     = "sharklabs-apachekafka"
+}
+
+variable "do_application_null" {
+  description = "filecoin-lotus 1.11.0 on Ubuntu 20.04 (LTS)"
+  default     = "null"
+}
+
+variable "do_application_null" {
+  description = "Plesk 17.8 on CentOS 7"
+  default     = "null"
 }
 
 variable "do_application_sharklabs-foldinghome-18-04" {
