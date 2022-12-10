@@ -849,7 +849,7 @@ variable "do_application_mattermost-18-04" {
 }
 
 variable "do_application_meilisas-meilisearch-10" {
-  description = "MeiliSearch 0.29.0 on Ubuntu 20.04 (LTS)"
+  description = "MeiliSearch 0.30.0 on Debian 10 (buster)"
   default     = "meilisas-meilisearch-10"
 }
 
@@ -1554,7 +1554,7 @@ variable "do_application_strapi-18-04" {
 }
 
 variable "do_application_stretchshop" {
-  description = "StretchShop 0.6.4 on Ubuntu 22.04"
+  description = "StretchShop 0.6.8 on Ubuntu 22.04"
   default     = "stretchshop"
 }
 
