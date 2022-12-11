@@ -1514,7 +1514,7 @@ variable "do_application_snapt-snaptnova-18-04" {
 }
 
 variable "do_application_softlab24-opensourcesocial-18-04" {
-  description = "Open Source Social Network 6.1.0 on Ubuntu 18.04"
+  description = "Open Source Social Network 6.6.0 on Ubuntu 22.04"
   default     = "softlab24-opensourcesocial-18-04"
 }
 
