@@ -378,9 +378,19 @@ variable "do_application_discourse-20-04" {
   default     = "discourse-20-04"
 }
 
+variable "do_application_null" {
+  description = "filecoin-lotus 1.11.0 on Ubuntu 20.04 (LTS)"
+  default     = "null"
+}
+
 variable "do_application_django-20-04" {
   description = "Django 4.1.1 on Ubuntu 22.04"
   default     = "django-20-04"
+}
+
+variable "do_application_null" {
+  description = "Plesk 17.8 on CentOS 7"
+  default     = "null"
 }
 
 variable "do_application_docker-18-04" {
@@ -1393,16 +1403,6 @@ variable "do_application_sharklabs-apachekafka" {
   default     = "sharklabs-apachekafka"
 }
 
-variable "do_application_null" {
-  description = "filecoin-lotus 1.11.0 on Ubuntu 20.04 (LTS)"
-  default     = "null"
-}
-
-variable "do_application_null" {
-  description = "Plesk 17.8 on CentOS 7"
-  default     = "null"
-}
-
 variable "do_application_sharklabs-foldinghome-18-04" {
   description = "Folding@home 0.0.1 on Ubuntu 18.04"
   default     = "sharklabs-foldinghome-18-04"
@@ -1571,6 +1571,11 @@ variable "do_application_supabase-supabaserealtime-18-04" {
 variable "do_application_ten7-computingforcovi-18-04-4" {
   description = "Computing for COVID 3 on Ubuntu 18.04.4 LTS"
   default     = "ten7-computingforcovi-18-04-4"
+}
+
+variable "do_application_test433" {
+  description = "Test433 2.3 on Ubuntu 18.04"
+  default     = "test433"
 }
 
 variable "do_application_testingsafename2" {
