@@ -378,19 +378,9 @@ variable "do_application_discourse-20-04" {
   default     = "discourse-20-04"
 }
 
-variable "do_application_null" {
-  description = "filecoin-lotus 1.11.0 on Ubuntu 20.04 (LTS)"
-  default     = "null"
-}
-
 variable "do_application_django-20-04" {
   description = "Django 4.1.1 on Ubuntu 22.04"
   default     = "django-20-04"
-}
-
-variable "do_application_null" {
-  description = "Plesk 17.8 on CentOS 7"
-  default     = "null"
 }
 
 variable "do_application_docker-18-04" {
@@ -424,8 +414,18 @@ variable "do_application_doppler-20-04" {
 }
 
 variable "do_application_doteamaccount-pocketbase" {
-  description = "PocketBase 0.8.0 on Ubuntu 22.04"
+  description = "PocketBase 0.9.2 on Ubuntu 22.04"
   default     = "doteamaccount-pocketbase"
+}
+
+variable "do_application_null" {
+  description = "filecoin-lotus 1.11.0 on Ubuntu 20.04 (LTS)"
+  default     = "null"
+}
+
+variable "do_application_null" {
+  description = "Plesk 17.8 on CentOS 7"
+  default     = "null"
 }
 
 variable "do_application_dsuhininapp1-18-04" {
@@ -574,7 +574,7 @@ variable "do_application_grandnode-grandnode20-18-04" {
 }
 
 variable "do_application_gravitl-netmaker" {
-  description = "Netmaker 0.16.1 on Ubuntu 22.10"
+  description = "Netmaker 0.17.0 on Ubuntu 22.10"
   default     = "gravitl-netmaker"
 }
 
