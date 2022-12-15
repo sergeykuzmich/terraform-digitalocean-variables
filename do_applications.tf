@@ -354,7 +354,7 @@ variable "do_application_deskpro" {
 }
 
 variable "do_application_devdojo-laravel-20-04" {
-  description = "Laravel 9.36.4 on Ubuntu 20.04"
+  description = "Laravel 9.43.0 on Ubuntu 20.04"
   default     = "devdojo-laravel-20-04"
 }
 
