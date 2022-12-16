@@ -259,7 +259,7 @@ variable "do_application_cloudron-18-04" {
 }
 
 variable "do_application_cloudron-20-04" {
-  description = "Cloudron 7.2.5 on Ubuntu 22.04"
+  description = "Cloudron 7.3.4 on Ubuntu 22.04"
   default     = "cloudron-20-04"
 }
 
@@ -413,9 +413,9 @@ variable "do_application_doppler-20-04" {
   default     = "doppler-20-04"
 }
 
-variable "do_application_doteamaccount-pocketbase" {
-  description = "PocketBase 0.9.2 on Ubuntu 22.04"
-  default     = "doteamaccount-pocketbase"
+variable "do_application_null" {
+  description = "Plesk 17.8 on CentOS 7"
+  default     = "null"
 }
 
 variable "do_application_null" {
@@ -423,9 +423,9 @@ variable "do_application_null" {
   default     = "null"
 }
 
-variable "do_application_null" {
-  description = "Plesk 17.8 on CentOS 7"
-  default     = "null"
+variable "do_application_doteamaccount-pocketbase" {
+  description = "PocketBase 0.9.2 on Ubuntu 22.04"
+  default     = "doteamaccount-pocketbase"
 }
 
 variable "do_application_dsuhininapp1-18-04" {
@@ -439,7 +439,7 @@ variable "do_application_easypanel" {
 }
 
 variable "do_application_edgedb" {
-  description = "EdgeDB 2.7 on Ubuntu 20.04"
+  description = "EdgeDB 2.8 on Ubuntu 20.04"
   default     = "edgedb"
 }
 
@@ -894,7 +894,7 @@ variable "do_application_mgtcommercegmbh-cloudpanel1-10-8" {
 }
 
 variable "do_application_mgtcommercegmbh-cloudpanel2ubunt" {
-  description = "CloudPanel 2 - Ubuntu 22.04 2.1.0 on Ubuntu 22.04"
+  description = "CloudPanel 2 - Ubuntu 22.04 2.2.0 on Ubuntu 22.04"
   default     = "mgtcommercegmbh-cloudpanel2ubunt"
 }
 
@@ -1209,7 +1209,7 @@ variable "do_application_plesk-18-04" {
 }
 
 variable "do_application_plesk-20-04" {
-  description = "Plesk 18.0.47 on Ubuntu 22.04"
+  description = "Plesk 18.0.48 on Ubuntu 22.04"
   default     = "plesk-20-04"
 }
 
