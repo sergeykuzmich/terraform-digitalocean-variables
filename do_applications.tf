@@ -159,7 +159,7 @@ variable "do_application_bigcloud-odoo" {
 }
 
 variable "do_application_bitwarden" {
-  description = "Bitwarden 2202.9.0 on Ubuntu 20.04"
+  description = "Bitwarden 2022.12.0 on Ubuntu 20.04"
   default     = "bitwarden"
 }
 
@@ -424,7 +424,7 @@ variable "do_application_null" {
 }
 
 variable "do_application_doteamaccount-pocketbase" {
-  description = "PocketBase 0.9.2 on Ubuntu 22.04"
+  description = "PocketBase 0.10.1 on Ubuntu 22.04"
   default     = "doteamaccount-pocketbase"
 }
 
@@ -434,12 +434,12 @@ variable "do_application_dsuhininapp1-18-04" {
 }
 
 variable "do_application_easypanel" {
-  description = "Easypanel 1.10.3 on Ubuntu 22.04"
+  description = "Easypanel 1.12.9 on Ubuntu 22.04"
   default     = "easypanel"
 }
 
 variable "do_application_edgedb" {
-  description = "EdgeDB 2.8 on Ubuntu 20.04"
+  description = "EdgeDB 2.9 on Ubuntu 20.04"
   default     = "edgedb"
 }
 
@@ -769,7 +769,7 @@ variable "do_application_lemp-20-04" {
 }
 
 variable "do_application_litespeedtechnol-cyberpanel-20-04" {
-  description = "CyberPanel 2.3.1 on Ubuntu 20.04"
+  description = "CyberPanel 2.3.2 on Ubuntu 22.04"
   default     = "litespeedtechnol-cyberpanel-20-04"
 }
 
@@ -859,7 +859,7 @@ variable "do_application_mattermost-18-04" {
 }
 
 variable "do_application_meilisas-meilisearch-10" {
-  description = "MeiliSearch 0.30.0 on Debian 10 (buster)"
+  description = "MeiliSearch 0.30.4 on Debian 10 (buster)"
   default     = "meilisas-meilisearch-10"
 }
 
@@ -1264,7 +1264,7 @@ variable "do_application_pyboxtechnologie-pyboxtechmed-20-04" {
 }
 
 variable "do_application_questdb-20-04" {
-  description = "QuestDB 6.5.3 on Ubuntu 20.04"
+  description = "QuestDB 6.6.1 on Ubuntu 20.04"
   default     = "questdb-20-04"
 }
 
@@ -1709,7 +1709,7 @@ variable "do_application_workarea-18-04" {
 }
 
 variable "do_application_wpclouddeploy" {
-  description = "WPCloudDeploy 4.20.0 on Ubuntu 20.04"
+  description = "WPCloudDeploy 5.2.2 on Ubuntu 20.04"
   default     = "wpclouddeploy"
 }
 
