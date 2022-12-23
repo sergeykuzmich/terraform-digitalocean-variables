@@ -94,7 +94,7 @@ variable "do_application_aplitel-vitalpbx-7" {
 }
 
 variable "do_application_apliteni-keitaro" {
-  description = "Keitaro 9.14.25 on CentOS 8 Stream"
+  description = "Keitaro 9.14.36.1 on CentOS 8 Stream"
   default     = "apliteni-keitaro"
 }
 
@@ -413,16 +413,6 @@ variable "do_application_doppler-20-04" {
   default     = "doppler-20-04"
 }
 
-variable "do_application_null" {
-  description = "Plesk 17.8 on CentOS 7"
-  default     = "null"
-}
-
-variable "do_application_null" {
-  description = "filecoin-lotus 1.11.0 on Ubuntu 20.04 (LTS)"
-  default     = "null"
-}
-
 variable "do_application_doteamaccount-pocketbase" {
   description = "PocketBase 0.10.1 on Ubuntu 22.04"
   default     = "doteamaccount-pocketbase"
@@ -639,7 +629,7 @@ variable "do_application_hystax-freecostmanageme-20-04" {
 }
 
 variable "do_application_ibsurgeon-hqbirdfirebird" {
-  description = "HQbird Firebird  3.0-10.1.1023 on CentOS 7"
+  description = "HQbird Firebird  3.0-10.1.1209 on CentOS 7"
   default     = "ibsurgeon-hqbirdfirebird"
 }
 
@@ -994,8 +984,18 @@ variable "do_application_nextcloudgmbh-nextcloud" {
 }
 
 variable "do_application_nginx" {
-  description = "NGINX 1.0 on Ubuntu 22.04"
+  description = "NGINX 1.23.3 on Ubuntu 22.04"
   default     = "nginx"
+}
+
+variable "do_application_null" {
+  description = "filecoin-lotus 1.11.0 on Ubuntu 20.04 (LTS)"
+  default     = "null"
+}
+
+variable "do_application_null" {
+  description = "Plesk 17.8 on CentOS 7"
+  default     = "null"
 }
 
 variable "do_application_nibblecomm-spotipo-18-04" {
@@ -1749,12 +1749,12 @@ variable "do_application_zeslecp-7" {
 }
 
 variable "do_application_znuny" {
-  description = "Znuny 6.4.4 on Debian 10 (buster)"
+  description = "Znuny 6.4.5 on Debian 10 (buster)"
   default     = "znuny"
 }
 
 variable "do_application_znuny-znunylts-10" {
-  description = "Znuny LTS 6.0.47 on Debian 10 (buster)"
+  description = "Znuny LTS 6.0.48 on Debian 10 (buster)"
   default     = "znuny-znunylts-10"
 }
 
