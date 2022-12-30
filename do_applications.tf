@@ -109,7 +109,7 @@ variable "do_application_appwrite-18-04" {
 }
 
 variable "do_application_appwrite-20-04" {
-  description = "Appwrite 1.1.2 on Ubuntu 20.04"
+  description = "Appwrite 1.2.0 on Ubuntu 20.04"
   default     = "appwrite-20-04"
 }
 
@@ -234,7 +234,7 @@ variable "do_application_castai-kubernetes119-20-04" {
 }
 
 variable "do_application_chaarmiworlds-metaverse" {
-  description = "Metaverse 0.91b1 on Ubuntu 20.04"
+  description = "Metaverse 0.92b1 on Ubuntu 20.04"
   default     = "chaarmiworlds-metaverse"
 }
 
@@ -988,16 +988,6 @@ variable "do_application_nginx" {
   default     = "nginx"
 }
 
-variable "do_application_null" {
-  description = "filecoin-lotus 1.11.0 on Ubuntu 20.04 (LTS)"
-  default     = "null"
-}
-
-variable "do_application_null" {
-  description = "Plesk 17.8 on CentOS 7"
-  default     = "null"
-}
-
 variable "do_application_nibblecomm-spotipo-18-04" {
   description = "Spotipo 3.4.13 on 18.04"
   default     = "nibblecomm-spotipo-18-04"
@@ -1203,6 +1193,11 @@ variable "do_application_pihole-18-04" {
   default     = "pihole-18-04"
 }
 
+variable "do_application_playboxtechnolog-ottstream" {
+  description = "OTT Stream 1.0 on Centos 7"
+  default     = "playboxtechnolog-ottstream"
+}
+
 variable "do_application_plesk-18-04" {
   description = "Plesk 18.0 on Ubuntu 20.04"
   default     = "plesk-18-04"
@@ -1398,9 +1393,19 @@ variable "do_application_severalnines-clustercontrol-20-04" {
   default     = "severalnines-clustercontrol-20-04"
 }
 
+variable "do_application_null" {
+  description = "Plesk 17.8 on CentOS 7"
+  default     = "null"
+}
+
 variable "do_application_sharklabs-apachekafka" {
   description = "Apache Kafka 3.1.0 on Ubuntu 20.04"
   default     = "sharklabs-apachekafka"
+}
+
+variable "do_application_null" {
+  description = "filecoin-lotus 1.11.0 on Ubuntu 20.04 (LTS)"
+  default     = "null"
 }
 
 variable "do_application_sharklabs-foldinghome-18-04" {
