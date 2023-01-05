@@ -414,7 +414,7 @@ variable "do_application_doppler-20-04" {
 }
 
 variable "do_application_doteamaccount-pocketbase" {
-  description = "PocketBase 0.10.1 on Ubuntu 22.04"
+  description = "PocketBase 0.10.4 on Ubuntu 22.04"
   default     = "doteamaccount-pocketbase"
 }
 
@@ -1059,8 +1059,18 @@ variable "do_application_onjection-jenkins-16-04" {
 }
 
 variable "do_application_openblocks" {
-  description = "Openblocks 1.1.0 on Ubuntu 20.04 (LTS)"
+  description = "Openblocks 1.1.3 on Ubuntu 20.04 (LTS)"
   default     = "openblocks"
+}
+
+variable "do_application_null" {
+  description = "filecoin-lotus 1.11.0 on Ubuntu 20.04 (LTS)"
+  default     = "null"
+}
+
+variable "do_application_null" {
+  description = "Plesk 17.8 on CentOS 7"
+  default     = "null"
 }
 
 variable "do_application_openboxes-20-04" {
@@ -1393,19 +1403,9 @@ variable "do_application_severalnines-clustercontrol-20-04" {
   default     = "severalnines-clustercontrol-20-04"
 }
 
-variable "do_application_null" {
-  description = "Plesk 17.8 on CentOS 7"
-  default     = "null"
-}
-
 variable "do_application_sharklabs-apachekafka" {
   description = "Apache Kafka 3.1.0 on Ubuntu 20.04"
   default     = "sharklabs-apachekafka"
-}
-
-variable "do_application_null" {
-  description = "filecoin-lotus 1.11.0 on Ubuntu 20.04 (LTS)"
-  default     = "null"
 }
 
 variable "do_application_sharklabs-foldinghome-18-04" {
@@ -1544,7 +1544,7 @@ variable "do_application_spatie-mailcoach-20-04" {
 }
 
 variable "do_application_stacksfoundation-stacksblockchain" {
-  description = "Stacks Blockchain 2.05.0.2.0 on Debian 9"
+  description = "Stacks Blockchain 2.05.0.6.0 on Debian 11"
   default     = "stacksfoundation-stacksblockchain"
 }
 
