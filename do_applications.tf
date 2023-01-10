@@ -1214,7 +1214,7 @@ variable "do_application_plesk-18-04" {
 }
 
 variable "do_application_plesk-20-04" {
-  description = "Plesk 18.0.48 on Ubuntu 22.04"
+  description = "Plesk 18.0.49 on Ubuntu 22.04"
   default     = "plesk-20-04"
 }
 
