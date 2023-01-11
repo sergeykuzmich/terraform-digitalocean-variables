@@ -413,8 +413,18 @@ variable "do_application_doppler-20-04" {
   default     = "doppler-20-04"
 }
 
+variable "do_application_null" {
+  description = "Plesk 17.8 on CentOS 7"
+  default     = "null"
+}
+
+variable "do_application_null" {
+  description = "filecoin-lotus 1.11.0 on Ubuntu 20.04 (LTS)"
+  default     = "null"
+}
+
 variable "do_application_doteamaccount-pocketbase" {
-  description = "PocketBase 0.10.4 on Ubuntu 22.04"
+  description = "PocketBase 0.11.0 on Ubuntu 22.04"
   default     = "doteamaccount-pocketbase"
 }
 
@@ -1061,16 +1071,6 @@ variable "do_application_onjection-jenkins-16-04" {
 variable "do_application_openblocks" {
   description = "Openblocks 1.1.3 on Ubuntu 20.04 (LTS)"
   default     = "openblocks"
-}
-
-variable "do_application_null" {
-  description = "filecoin-lotus 1.11.0 on Ubuntu 20.04 (LTS)"
-  default     = "null"
-}
-
-variable "do_application_null" {
-  description = "Plesk 17.8 on CentOS 7"
-  default     = "null"
 }
 
 variable "do_application_openboxes-20-04" {
