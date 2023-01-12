@@ -13,6 +13,11 @@ variable "do_application_acra-18-04" {
   default     = "acra-18-04"
 }
 
+variable "do_application_activepieces" {
+  description = "Activepieces 0.1.1 on Ubuntu 22.04"
+  default     = "activepieces"
+}
+
 variable "do_application_aecsystems-speckleserver-20-04" {
   description = "Speckle Server 2 on Ubuntu 20.04"
   default     = "aecsystems-speckleserver-20-04"
@@ -354,7 +359,7 @@ variable "do_application_deskpro" {
 }
 
 variable "do_application_devdojo-laravel-20-04" {
-  description = "Laravel 9.43.0 on Ubuntu 20.04"
+  description = "Laravel 9.46.0 on Ubuntu 20.04"
   default     = "devdojo-laravel-20-04"
 }
 
@@ -411,16 +416,6 @@ variable "do_application_dokos-18-04" {
 variable "do_application_doppler-20-04" {
   description = "Doppler 1.0 on Ubuntu 20.04 (LTS)"
   default     = "doppler-20-04"
-}
-
-variable "do_application_null" {
-  description = "Plesk 17.8 on CentOS 7"
-  default     = "null"
-}
-
-variable "do_application_null" {
-  description = "filecoin-lotus 1.11.0 on Ubuntu 20.04 (LTS)"
-  default     = "null"
 }
 
 variable "do_application_doteamaccount-pocketbase" {
@@ -914,7 +909,7 @@ variable "do_application_mistio-mist-20-04" {
 }
 
 variable "do_application_mjmair-inventree" {
-  description = "InvenTree 0.8.0 on Ubuntu 20.04"
+  description = "InvenTree 0.9.2 on Ubuntu 20.04"
   default     = "mjmair-inventree"
 }
 
@@ -1224,7 +1219,7 @@ variable "do_application_plesk-7-6" {
 }
 
 variable "do_application_plesk-pleskcentos-7-9" {
-  description = "Plesk (CentOS) 18.0.47 on CentOS 7.9"
+  description = "Plesk (CentOS) 18.0.49 on CentOS 7.9"
   default     = "plesk-pleskcentos-7-9"
 }
 
@@ -1498,9 +1493,19 @@ variable "do_application_simplystatistics-rstudio-18-04" {
   default     = "simplystatistics-rstudio-18-04"
 }
 
+variable "do_application_null" {
+  description = "Plesk 17.8 on CentOS 7"
+  default     = "null"
+}
+
 variable "do_application_skaffolder-18-04" {
   description = "Skaffolder 3.0 on Ubuntu 18.04"
   default     = "skaffolder-18-04"
+}
+
+variable "do_application_null" {
+  description = "filecoin-lotus 1.11.0 on Ubuntu 20.04 (LTS)"
+  default     = "null"
 }
 
 variable "do_application_smartarget-wordpresswoocomm" {
