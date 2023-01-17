@@ -164,7 +164,7 @@ variable "do_application_bigcloud-odoo" {
 }
 
 variable "do_application_bitwarden" {
-  description = "Bitwarden 2022.12.0 on Ubuntu 20.04"
+  description = "Bitwarden 2023.1.0 on Ubuntu 20.04"
   default     = "bitwarden"
 }
 
@@ -1403,6 +1403,11 @@ variable "do_application_sharklabs-apachekafka" {
   default     = "sharklabs-apachekafka"
 }
 
+variable "do_application_sharklabs-dropletnfsserver" {
+  description = "Droplet NFS Server 2.6.1 on Ubuntu 20.04"
+  default     = "sharklabs-dropletnfsserver"
+}
+
 variable "do_application_sharklabs-foldinghome-18-04" {
   description = "Folding@home 0.0.1 on Ubuntu 18.04"
   default     = "sharklabs-foldinghome-18-04"
@@ -1493,11 +1498,6 @@ variable "do_application_simplystatistics-rstudio-18-04" {
   default     = "simplystatistics-rstudio-18-04"
 }
 
-variable "do_application_null" {
-  description = "Plesk 17.8 on CentOS 7"
-  default     = "null"
-}
-
 variable "do_application_skaffolder-18-04" {
   description = "Skaffolder 3.0 on Ubuntu 18.04"
   default     = "skaffolder-18-04"
@@ -1505,6 +1505,11 @@ variable "do_application_skaffolder-18-04" {
 
 variable "do_application_null" {
   description = "filecoin-lotus 1.11.0 on Ubuntu 20.04 (LTS)"
+  default     = "null"
+}
+
+variable "do_application_null" {
+  description = "Plesk 17.8 on CentOS 7"
   default     = "null"
 }
 
