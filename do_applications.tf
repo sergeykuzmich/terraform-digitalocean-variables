@@ -819,7 +819,7 @@ variable "do_application_litespeedtechnol-openlitespeedwor-18-04" {
 }
 
 variable "do_application_litespeedtechnol-openlitespeedwor-20-04" {
-  description = "OpenLiteSpeed WordPress 6.0.1 on Ubuntu 22.04"
+  description = "OpenLiteSpeed WordPress 6.1.1 on Ubuntu 22.04"
   default     = "litespeedtechnol-openlitespeedwor-20-04"
 }
 
@@ -1403,6 +1403,16 @@ variable "do_application_sharklabs-apachekafka" {
   default     = "sharklabs-apachekafka"
 }
 
+variable "do_application_null" {
+  description = "Plesk 17.8 on CentOS 7"
+  default     = "null"
+}
+
+variable "do_application_null" {
+  description = "filecoin-lotus 1.11.0 on Ubuntu 20.04 (LTS)"
+  default     = "null"
+}
+
 variable "do_application_sharklabs-dropletnfsserver" {
   description = "Droplet NFS Server 2.6.1 on Ubuntu 20.04"
   default     = "sharklabs-dropletnfsserver"
@@ -1501,16 +1511,6 @@ variable "do_application_simplystatistics-rstudio-18-04" {
 variable "do_application_skaffolder-18-04" {
   description = "Skaffolder 3.0 on Ubuntu 18.04"
   default     = "skaffolder-18-04"
-}
-
-variable "do_application_null" {
-  description = "filecoin-lotus 1.11.0 on Ubuntu 20.04 (LTS)"
-  default     = "null"
-}
-
-variable "do_application_null" {
-  description = "Plesk 17.8 on CentOS 7"
-  default     = "null"
 }
 
 variable "do_application_smartarget-wordpresswoocomm" {
