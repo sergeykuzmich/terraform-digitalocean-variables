@@ -174,7 +174,7 @@ variable "do_application_bitwarden-18-04" {
 }
 
 variable "do_application_botguardo-botguardgatekeep" {
-  description = "BotGuard GateKeeper 1.1.2 on Debian 11 (bullseye)"
+  description = "BotGuard GateKeeper 1.1.3 on Debian 11 (bullseye)"
   default     = "botguardo-botguardgatekeep"
 }
 
@@ -279,7 +279,7 @@ variable "do_application_code-server-18-04" {
 }
 
 variable "do_application_codelathe-filecloud-20-04" {
-  description = "FileCloud 21.3.7 on Ubuntu 20.04"
+  description = "FileCloud 22.1.0 on Ubuntu 20.04"
   default     = "codelathe-filecloud-20-04"
 }
 
@@ -1378,6 +1378,11 @@ variable "do_application_searchblox-searchbloxenterp-7-6" {
   default     = "searchblox-searchbloxenterp-7-6"
 }
 
+variable "do_application_seatablegmbh-seatable" {
+  description = "SeaTable 3.3.7 on Debian 11"
+  default     = "seatablegmbh-seatable"
+}
+
 variable "do_application_seknox-trasa-20-04" {
   description = "TRASA 1.1.2 on Ubuntu 20.04"
   default     = "seknox-trasa-20-04"
@@ -1401,16 +1406,6 @@ variable "do_application_severalnines-clustercontrol-20-04" {
 variable "do_application_sharklabs-apachekafka" {
   description = "Apache Kafka 3.1.0 on Ubuntu 20.04"
   default     = "sharklabs-apachekafka"
-}
-
-variable "do_application_null" {
-  description = "Plesk 17.8 on CentOS 7"
-  default     = "null"
-}
-
-variable "do_application_null" {
-  description = "filecoin-lotus 1.11.0 on Ubuntu 20.04 (LTS)"
-  default     = "null"
 }
 
 variable "do_application_sharklabs-dropletnfsserver" {
@@ -1511,6 +1506,16 @@ variable "do_application_simplystatistics-rstudio-18-04" {
 variable "do_application_skaffolder-18-04" {
   description = "Skaffolder 3.0 on Ubuntu 18.04"
   default     = "skaffolder-18-04"
+}
+
+variable "do_application_null" {
+  description = "filecoin-lotus 1.11.0 on Ubuntu 20.04 (LTS)"
+  default     = "null"
+}
+
+variable "do_application_null" {
+  description = "Plesk 17.8 on CentOS 7"
+  default     = "null"
 }
 
 variable "do_application_smartarget-wordpresswoocomm" {
