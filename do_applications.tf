@@ -498,6 +498,11 @@ variable "do_application_flipstarter-18-04" {
   default     = "flipstarter-18-04"
 }
 
+variable "do_application_flowforge" {
+  description = "FlowForge 1.3.0 on Ubuntu 22.04"
+  default     = "flowforge"
+}
+
 variable "do_application_flussonic-20-04" {
   description = "flussonic 21.08.1 on Ubuntu 20.04"
   default     = "flussonic-20-04"
@@ -1408,9 +1413,19 @@ variable "do_application_sharklabs-apachekafka" {
   default     = "sharklabs-apachekafka"
 }
 
+variable "do_application_null" {
+  description = "Plesk 17.8 on CentOS 7"
+  default     = "null"
+}
+
 variable "do_application_sharklabs-dropletnfsserver" {
   description = "Droplet NFS Server 2.6.1 on Ubuntu 20.04"
   default     = "sharklabs-dropletnfsserver"
+}
+
+variable "do_application_null" {
+  description = "filecoin-lotus 1.11.0 on Ubuntu 20.04 (LTS)"
+  default     = "null"
 }
 
 variable "do_application_sharklabs-foldinghome-18-04" {
@@ -1506,16 +1521,6 @@ variable "do_application_simplystatistics-rstudio-18-04" {
 variable "do_application_skaffolder-18-04" {
   description = "Skaffolder 3.0 on Ubuntu 18.04"
   default     = "skaffolder-18-04"
-}
-
-variable "do_application_null" {
-  description = "filecoin-lotus 1.11.0 on Ubuntu 20.04 (LTS)"
-  default     = "null"
-}
-
-variable "do_application_null" {
-  description = "Plesk 17.8 on CentOS 7"
-  default     = "null"
 }
 
 variable "do_application_smartarget-wordpresswoocomm" {
