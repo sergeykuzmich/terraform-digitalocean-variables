@@ -64,7 +64,7 @@ variable "do_application_antmedia-16-04" {
 }
 
 variable "do_application_antmedia-antmediaserverco-18-04" {
-  description = "Ant Media Server Community Edition 2.5.1 on Ubuntu 20.04"
+  description = "Ant Media Server Community Edition 2.5.3 on Ubuntu 20.04"
   default     = "antmedia-antmediaserverco-18-04"
 }
 
@@ -74,7 +74,7 @@ variable "do_application_antmedia-antmediaserveren-16-04" {
 }
 
 variable "do_application_antmedia-antmediaserveren-18-04" {
-  description = "Ant Media Server Enterprise Edition 2.5.1 on Ubuntu 20.04"
+  description = "Ant Media Server Enterprise Edition 2.5.3 on Ubuntu 20.04"
   default     = "antmedia-antmediaserveren-18-04"
 }
 
@@ -1164,7 +1164,7 @@ variable "do_application_passbolt-18-04" {
 }
 
 variable "do_application_passboltsa-passboltce-20-04" {
-  description = "Passbolt CE 3.8.3-1 on Ubuntu 20.04"
+  description = "Passbolt CE 3.9.0-1 on Ubuntu 20.04"
   default     = "passboltsa-passboltce-20-04"
 }
 
@@ -1243,8 +1243,18 @@ variable "do_application_portalcloud-wirespeedvpnbybu-18-04" {
   default     = "portalcloud-wirespeedvpnbybu-18-04"
 }
 
+variable "do_application_null" {
+  description = "filecoin-lotus 1.11.0 on Ubuntu 20.04 (LTS)"
+  default     = "null"
+}
+
+variable "do_application_null" {
+  description = "Plesk 17.8 on CentOS 7"
+  default     = "null"
+}
+
 variable "do_application_postalsystemso-emailengine" {
-  description = "EmailEngine 2.27.2 on Ubuntu 20.04"
+  description = "EmailEngine 2.29.2 on Ubuntu 20.04"
   default     = "postalsystemso-emailengine"
 }
 
@@ -1369,7 +1379,7 @@ variable "do_application_runcloud-runcloud2004-20-04" {
 }
 
 variable "do_application_saltcorn-20-04" {
-  description = "Saltcorn 0.6.0 on Ubuntu 20.04"
+  description = "Saltcorn 0.8.2 on Ubuntu 22.04"
   default     = "saltcorn-20-04"
 }
 
@@ -1413,19 +1423,9 @@ variable "do_application_sharklabs-apachekafka" {
   default     = "sharklabs-apachekafka"
 }
 
-variable "do_application_null" {
-  description = "Plesk 17.8 on CentOS 7"
-  default     = "null"
-}
-
 variable "do_application_sharklabs-dropletnfsserver" {
   description = "Droplet NFS Server 2.6.1 on Ubuntu 20.04"
   default     = "sharklabs-dropletnfsserver"
-}
-
-variable "do_application_null" {
-  description = "filecoin-lotus 1.11.0 on Ubuntu 20.04 (LTS)"
-  default     = "null"
 }
 
 variable "do_application_sharklabs-foldinghome-18-04" {
