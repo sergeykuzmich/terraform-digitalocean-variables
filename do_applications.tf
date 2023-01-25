@@ -4,7 +4,7 @@
 
 
 variable "do_application_3cxcommunication-3cx" {
-  description = "3CX 18.0.5.418 on Debian 10 (Buster)"
+  description = "3CX 18.0.6.905 on Debian 10 (Buster)"
   default     = "3cxcommunication-3cx"
 }
 
@@ -418,8 +418,18 @@ variable "do_application_doppler-20-04" {
   default     = "doppler-20-04"
 }
 
+variable "do_application_null" {
+  description = "Plesk 17.8 on CentOS 7"
+  default     = "null"
+}
+
+variable "do_application_null" {
+  description = "filecoin-lotus 1.11.0 on Ubuntu 20.04 (LTS)"
+  default     = "null"
+}
+
 variable "do_application_doteamaccount-pocketbase" {
-  description = "PocketBase 0.11.0 on Ubuntu 22.04"
+  description = "PocketBase 0.11.3 on Ubuntu 22.04"
   default     = "doteamaccount-pocketbase"
 }
 
@@ -714,7 +724,7 @@ variable "do_application_jitsiserver-20-04" {
 }
 
 variable "do_application_kandralabs-zulip-18-04" {
-  description = "Zulip 6.0 on Ubuntu 20.04"
+  description = "Zulip 6.1 on Ubuntu 20.04"
   default     = "kandralabs-zulip-18-04"
 }
 
@@ -1241,16 +1251,6 @@ variable "do_application_portalcloud-wirespeedvpn-18-04" {
 variable "do_application_portalcloud-wirespeedvpnbybu-18-04" {
   description = "WireSpeed VPN 1.1.5 on Ubuntu 18.04"
   default     = "portalcloud-wirespeedvpnbybu-18-04"
-}
-
-variable "do_application_null" {
-  description = "filecoin-lotus 1.11.0 on Ubuntu 20.04 (LTS)"
-  default     = "null"
-}
-
-variable "do_application_null" {
-  description = "Plesk 17.8 on CentOS 7"
-  default     = "null"
 }
 
 variable "do_application_postalsystemso-emailengine" {
