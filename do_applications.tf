@@ -14,7 +14,7 @@ variable "do_application_acra-18-04" {
 }
 
 variable "do_application_activepieces" {
-  description = "Activepieces 0.1.1 on Ubuntu 22.04"
+  description = "Activepieces 0.2.0 on Ubuntu 22.04"
   default     = "activepieces"
 }
 
@@ -774,7 +774,7 @@ variable "do_application_lemp-18-04" {
 }
 
 variable "do_application_lemp-20-04" {
-  description = "LEMP 42 on Ubuntu 20.04"
+  description = "LEMP 43 on Ubuntu 22.04"
   default     = "lemp-20-04"
 }
 
@@ -1204,7 +1204,7 @@ variable "do_application_phpmyadmin-18-04" {
 }
 
 variable "do_application_phpmyadmin-20-04" {
-  description = "PhpMyAdmin 5.0.3 on Ubuntu 20.04"
+  description = "PhpMyAdmin 5.2.0 on Ubuntu 22.04"
   default     = "phpmyadmin-20-04"
 }
 
