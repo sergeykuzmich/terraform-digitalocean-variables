@@ -4,7 +4,7 @@
 
 
 variable "do_application_3cxcommunication-3cx" {
-  description = "3CX 18.0.6.905 on Debian 10 (Buster)"
+  description = "3CX 18.0.6.907 on Debian 10 (Buster)"
   default     = "3cxcommunication-3cx"
 }
 
@@ -624,7 +624,7 @@ variable "do_application_helpyio-helpypro-18-04" {
 }
 
 variable "do_application_hollaex-hollaexkit" {
-  description = "HollaEx Kit 2.4.5 on Ubuntu 20.04"
+  description = "HollaEx Kit 2.4.7 on Ubuntu 20.04"
   default     = "hollaex-hollaexkit"
 }
 
@@ -1384,7 +1384,7 @@ variable "do_application_saltcorn-20-04" {
 }
 
 variable "do_application_sandflysecurity-20-04" {
-  description = "Sandfly Security 4.2.1 on Ubuntu 22.04"
+  description = "Sandfly Security 4.3.0 on Ubuntu 22.04"
   default     = "sandflysecurity-20-04"
 }
 
