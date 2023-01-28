@@ -14,7 +14,7 @@ variable "do_application_acra-18-04" {
 }
 
 variable "do_application_activepieces" {
-  description = "Activepieces 0.2.0 on Ubuntu 22.04"
+  description = "Activepieces 0.2.2 on Ubuntu 22.04"
   default     = "activepieces"
 }
 
@@ -379,7 +379,7 @@ variable "do_application_discourse-18-04" {
 }
 
 variable "do_application_discourse-20-04" {
-  description = "Discourse on Ubuntu 20.04"
+  description = "Discourse on Ubuntu 22.04"
   default     = "discourse-20-04"
 }
 
@@ -416,16 +416,6 @@ variable "do_application_dokos-18-04" {
 variable "do_application_doppler-20-04" {
   description = "Doppler 1.0 on Ubuntu 20.04 (LTS)"
   default     = "doppler-20-04"
-}
-
-variable "do_application_null" {
-  description = "Plesk 17.8 on CentOS 7"
-  default     = "null"
-}
-
-variable "do_application_null" {
-  description = "filecoin-lotus 1.11.0 on Ubuntu 20.04 (LTS)"
-  default     = "null"
 }
 
 variable "do_application_doteamaccount-pocketbase" {
@@ -1058,9 +1048,19 @@ variable "do_application_nodejs-20-04" {
   default     = "nodejs-20-04"
 }
 
+variable "do_application_null" {
+  description = "filecoin-lotus 1.11.0 on Ubuntu 20.04 (LTS)"
+  default     = "null"
+}
+
 variable "do_application_npool" {
   description = "nPool 1.8 on Ubuntu 20.04"
   default     = "npool"
+}
+
+variable "do_application_null" {
+  description = "Plesk 17.8 on CentOS 7"
+  default     = "null"
 }
 
 variable "do_application_oneledger-frankensteintest" {
@@ -1364,7 +1364,7 @@ variable "do_application_rstudio-20-04" {
 }
 
 variable "do_application_rubyonrails-20-04" {
-  description = "Ruby on Rails 6.0.3.4 on Ubuntu 20.04"
+  description = "Ruby on Rails 7.0.4.2 on Ubuntu 20.04"
   default     = "rubyonrails-20-04"
 }
 
