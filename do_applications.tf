@@ -4,7 +4,7 @@
 
 
 variable "do_application_3cxcommunication-3cx" {
-  description = "3CX 18.0.6.907 on Debian 10 (Buster)"
+  description = "3CX 18.0.6.908 on Debian 10 (Buster)"
   default     = "3cxcommunication-3cx"
 }
 
@@ -1009,7 +1009,7 @@ variable "do_application_nimbella-18-04" {
 }
 
 variable "do_application_nirvatosoftware-nirvashare-20-04" {
-  description = "NirvaShare 2.3.2 on Ubuntu 20.04 (LTS)"
+  description = "NirvaShare 2.4.0 on Ubuntu 20.04 (LTS)"
   default     = "nirvatosoftware-nirvashare-20-04"
 }
 
@@ -1719,7 +1719,7 @@ variable "do_application_wordpress-18-04" {
 }
 
 variable "do_application_wordpress-20-04" {
-  description = "WordPress 5.8 on Ubuntu 20.04"
+  description = "WordPress 6.1.1 on Ubuntu 22.04"
   default     = "wordpress-20-04"
 }
 
