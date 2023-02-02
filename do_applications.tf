@@ -118,6 +118,11 @@ variable "do_application_appwrite-20-04" {
   default     = "appwrite-20-04"
 }
 
+variable "do_application_aqtraplatform" {
+  description = "Aqtra Platform 0.4.16 on Ubuntu 18.04+"
+  default     = "aqtraplatform"
+}
+
 variable "do_application_ascensiosystem-onlyoffice-18-04" {
   description = "ONLYOFFICE Workspace 22.09.738 on Ubuntu 20.04 LTS"
   default     = "ascensiosystem-onlyoffice-18-04"
@@ -1048,19 +1053,9 @@ variable "do_application_nodejs-20-04" {
   default     = "nodejs-20-04"
 }
 
-variable "do_application_null" {
-  description = "filecoin-lotus 1.11.0 on Ubuntu 20.04 (LTS)"
-  default     = "null"
-}
-
 variable "do_application_npool" {
   description = "nPool 1.8 on Ubuntu 20.04"
   default     = "npool"
-}
-
-variable "do_application_null" {
-  description = "Plesk 17.8 on CentOS 7"
-  default     = "null"
 }
 
 variable "do_application_oneledger-frankensteintest" {
@@ -1186,6 +1181,16 @@ variable "do_application_perconamonitorin-7" {
 variable "do_application_perforce-perforcehelixcor" {
   description = "Perforce Helix Core 2022.1 on Rocky 8"
   default     = "perforce-perforcehelixcor"
+}
+
+variable "do_application_null" {
+  description = "filecoin-lotus 1.11.0 on Ubuntu 20.04 (LTS)"
+  default     = "null"
+}
+
+variable "do_application_null" {
+  description = "Plesk 17.8 on CentOS 7"
+  default     = "null"
 }
 
 variable "do_application_pharoahlanesoftw-webdnaserver864-18-04" {
@@ -1354,7 +1359,7 @@ variable "do_application_rocketchat-18-04" {
 }
 
 variable "do_application_rocketchat-20-04" {
-  description = "Rocket.Chat 5.0.7 on Ubuntu 20.04"
+  description = "Rocket.Chat 5.4.2 on Ubuntu 20.04"
   default     = "rocketchat-20-04"
 }
 
