@@ -99,7 +99,7 @@ variable "do_application_aplitel-vitalpbx-7" {
 }
 
 variable "do_application_apliteni-keitaro" {
-  description = "Keitaro 9.14.36.1 on CentOS 8 Stream"
+  description = "Keitaro 10.0.2 on CentOS 8 Stream"
   default     = "apliteni-keitaro"
 }
 
@@ -129,7 +129,7 @@ variable "do_application_ascensiosystem-onlyoffice-18-04" {
 }
 
 variable "do_application_ascensiosystemsi-onlyofficeeditor-18-04-4" {
-  description = "ONLYOFFICE Docs 7.2.2 on Ubuntu 20.04 LTS"
+  description = "ONLYOFFICE Docs 7.3.0 on Ubuntu 20.04 LTS"
   default     = "ascensiosystemsi-onlyofficeeditor-18-04-4"
 }
 
@@ -724,7 +724,7 @@ variable "do_application_kandralabs-zulip-18-04" {
 }
 
 variable "do_application_kasmtechnologies-kasmworkspaces-18-04" {
-  description = "Kasm Workspaces 1.10.0 on Ubuntu 18.04"
+  description = "Kasm Workspaces 1.12.0 on Ubuntu 20.04"
   default     = "kasmtechnologies-kasmworkspaces-18-04"
 }
 
@@ -791,6 +791,16 @@ variable "do_application_litespeedtechnol-openlitespeedcla-18-04" {
 variable "do_application_litespeedtechnol-openlitespeeddja-18-04" {
   description = "OpenLiteSpeed Django 3.1.1 on Ubuntu 20.04"
   default     = "litespeedtechnol-openlitespeeddja-18-04"
+}
+
+variable "do_application_null" {
+  description = "Plesk 17.8 on CentOS 7"
+  default     = "null"
+}
+
+variable "do_application_null" {
+  description = "filecoin-lotus 1.11.0 on Ubuntu 20.04 (LTS)"
+  default     = "null"
 }
 
 variable "do_application_litespeedtechnol-openlitespeeddja-20-04" {
@@ -864,7 +874,7 @@ variable "do_application_mattermost-18-04" {
 }
 
 variable "do_application_meilisas-meilisearch-10" {
-  description = "MeiliSearch 0.30.4 on Debian 10 (buster)"
+  description = "MeiliSearch 1.0.0 on Debian 10 (buster)"
   default     = "meilisas-meilisearch-10"
 }
 
@@ -1181,16 +1191,6 @@ variable "do_application_perconamonitorin-7" {
 variable "do_application_perforce-perforcehelixcor" {
   description = "Perforce Helix Core 2022.1 on Rocky 8"
   default     = "perforce-perforcehelixcor"
-}
-
-variable "do_application_null" {
-  description = "filecoin-lotus 1.11.0 on Ubuntu 20.04 (LTS)"
-  default     = "null"
-}
-
-variable "do_application_null" {
-  description = "Plesk 17.8 on CentOS 7"
-  default     = "null"
 }
 
 variable "do_application_pharoahlanesoftw-webdnaserver864-18-04" {
