@@ -799,12 +799,12 @@ variable "do_application_litespeedtechnol-openlitespeeddja-18-04" {
 }
 
 variable "do_application_null" {
-  description = "filecoin-lotus 1.11.0 on Ubuntu 20.04 (LTS)"
+  description = "Plesk 17.8 on CentOS 7"
   default     = "null"
 }
 
 variable "do_application_null" {
-  description = "Plesk 17.8 on CentOS 7"
+  description = "filecoin-lotus 1.11.0 on Ubuntu 20.04 (LTS)"
   default     = "null"
 }
 
@@ -1096,6 +1096,11 @@ variable "do_application_openblocks" {
 variable "do_application_openboxes-20-04" {
   description = "OpenBoxes 0.8.14 on Ubuntu 20.04"
   default     = "openboxes-20-04"
+}
+
+variable "do_application_openboxes-openboxesserver" {
+  description = "OpenBoxes Server 0.8.20 on Ubuntu 22.04"
+  default     = "openboxes-openboxesserver"
 }
 
 variable "do_application_opencart-18-04" {
