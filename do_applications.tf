@@ -388,6 +388,16 @@ variable "do_application_discourse-20-04" {
   default     = "discourse-20-04"
 }
 
+variable "do_application_null" {
+  description = "Plesk 17.8 on CentOS 7"
+  default     = "null"
+}
+
+variable "do_application_null" {
+  description = "filecoin-lotus 1.11.0 on Ubuntu 20.04 (LTS)"
+  default     = "null"
+}
+
 variable "do_application_django-20-04" {
   description = "Django 4.1.1 on Ubuntu 22.04"
   default     = "django-20-04"
@@ -658,6 +668,11 @@ variable "do_application_ibsurgeon-hqbirdfirebirdv3" {
   default     = "ibsurgeon-hqbirdfirebirdv3"
 }
 
+variable "do_application_ibsurgeon-hqbirdfirebirdv4" {
+  description = "HQbird Firebird v4.0 4.0.3.2884-10.1.1209 on CentOS 7.x"
+  default     = "ibsurgeon-hqbirdfirebirdv4"
+}
+
 variable "do_application_ifaxsolutions-hylafaxenterpris" {
   description = "HylaFAX Enterprise 6.3.19.1 on CentOS 7"
   default     = "ifaxsolutions-hylafaxenterpris"
@@ -801,16 +816,6 @@ variable "do_application_litespeedtechnol-openlitespeedcla-18-04" {
 variable "do_application_litespeedtechnol-openlitespeeddja-18-04" {
   description = "OpenLiteSpeed Django 3.1.1 on Ubuntu 20.04"
   default     = "litespeedtechnol-openlitespeeddja-18-04"
-}
-
-variable "do_application_null" {
-  description = "filecoin-lotus 1.11.0 on Ubuntu 20.04 (LTS)"
-  default     = "null"
-}
-
-variable "do_application_null" {
-  description = "Plesk 17.8 on CentOS 7"
-  default     = "null"
 }
 
 variable "do_application_litespeedtechnol-openlitespeeddja-20-04" {
