@@ -388,16 +388,6 @@ variable "do_application_discourse-20-04" {
   default     = "discourse-20-04"
 }
 
-variable "do_application_null" {
-  description = "Plesk 17.8 on CentOS 7"
-  default     = "null"
-}
-
-variable "do_application_null" {
-  description = "filecoin-lotus 1.11.0 on Ubuntu 20.04 (LTS)"
-  default     = "null"
-}
-
 variable "do_application_django-20-04" {
   description = "Django 4.1.1 on Ubuntu 22.04"
   default     = "django-20-04"
@@ -818,6 +808,16 @@ variable "do_application_litespeedtechnol-openlitespeeddja-18-04" {
   default     = "litespeedtechnol-openlitespeeddja-18-04"
 }
 
+variable "do_application_null" {
+  description = "filecoin-lotus 1.11.0 on Ubuntu 20.04 (LTS)"
+  default     = "null"
+}
+
+variable "do_application_null" {
+  description = "Plesk 17.8 on CentOS 7"
+  default     = "null"
+}
+
 variable "do_application_litespeedtechnol-openlitespeeddja-20-04" {
   description = "OpenLiteSpeed Django 4.1 on Ubuntu 22.04"
   default     = "litespeedtechnol-openlitespeeddja-20-04"
@@ -1099,7 +1099,7 @@ variable "do_application_onjection-jenkins-16-04" {
 }
 
 variable "do_application_openblocks" {
-  description = "Openblocks 1.1.3 on Ubuntu 20.04 (LTS)"
+  description = "Openblocks 1.1.5 on Ubuntu 20.04 (LTS)"
   default     = "openblocks"
 }
 
@@ -1389,7 +1389,7 @@ variable "do_application_rstudio-20-04" {
 }
 
 variable "do_application_rubyonrails-20-04" {
-  description = "Ruby on Rails 7.0.4.2 on Ubuntu 20.04"
+  description = "Ruby on Rails 7.0.4.2 on Ubuntu 22.04"
   default     = "rubyonrails-20-04"
 }
 
