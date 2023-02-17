@@ -808,16 +808,6 @@ variable "do_application_litespeedtechnol-openlitespeeddja-18-04" {
   default     = "litespeedtechnol-openlitespeeddja-18-04"
 }
 
-variable "do_application_null" {
-  description = "filecoin-lotus 1.11.0 on Ubuntu 20.04 (LTS)"
-  default     = "null"
-}
-
-variable "do_application_null" {
-  description = "Plesk 17.8 on CentOS 7"
-  default     = "null"
-}
-
 variable "do_application_litespeedtechnol-openlitespeeddja-20-04" {
   description = "OpenLiteSpeed Django 4.1 on Ubuntu 22.04"
   default     = "litespeedtechnol-openlitespeeddja-20-04"
@@ -1199,7 +1189,7 @@ variable "do_application_passbolt-18-04" {
 }
 
 variable "do_application_passboltsa-passboltce-20-04" {
-  description = "Passbolt CE 3.9.0-1 on Ubuntu 20.04"
+  description = "Passbolt CE 3.10.0-1 on Ubuntu 20.04"
   default     = "passboltsa-passboltce-20-04"
 }
 
@@ -1278,9 +1268,19 @@ variable "do_application_portalcloud-wirespeedvpnbybu-18-04" {
   default     = "portalcloud-wirespeedvpnbybu-18-04"
 }
 
+variable "do_application_null" {
+  description = "filecoin-lotus 1.11.0 on Ubuntu 20.04 (LTS)"
+  default     = "null"
+}
+
 variable "do_application_postalsystemso-emailengine" {
-  description = "EmailEngine 2.29.2 on Ubuntu 20.04"
+  description = "EmailEngine 2.30.3 on Ubuntu 20.04"
   default     = "postalsystemso-emailengine"
+}
+
+variable "do_application_null" {
+  description = "Plesk 17.8 on CentOS 7"
+  default     = "null"
 }
 
 variable "do_application_powertrader-coincollectorbyp" {
@@ -1399,7 +1399,7 @@ variable "do_application_runcloud-18-04" {
 }
 
 variable "do_application_runcloud-runcloud2004-20-04" {
-  description = "RunCloud-20.04 on Ubuntu 20.04"
+  description = "RunCloud-20.04 2.6.1.1 on Ubuntu 20.04"
   default     = "runcloud-runcloud2004-20-04"
 }
 
@@ -1694,7 +1694,7 @@ variable "do_application_varnishsoftware-varnishcache-18-04" {
 }
 
 variable "do_application_victoriametrics-victoriametricss" {
-  description = "VictoriaMetrics Single 1.80.0 on Ubuntu 20.04"
+  description = "VictoriaMetrics Single 1.87.1 on Ubuntu 20.04"
   default     = "victoriametrics-victoriametricss"
 }
 
