@@ -114,7 +114,7 @@ variable "do_application_appwrite-18-04" {
 }
 
 variable "do_application_appwrite-20-04" {
-  description = "Appwrite 1.2.0 on Ubuntu 20.04"
+  description = "Appwrite 1.2.1 on Ubuntu 20.04"
   default     = "appwrite-20-04"
 }
 
@@ -129,7 +129,7 @@ variable "do_application_ascensiosystem-onlyoffice-18-04" {
 }
 
 variable "do_application_ascensiosystemsi-onlyofficeeditor-18-04-4" {
-  description = "ONLYOFFICE Docs 7.3.0 on Ubuntu 20.04 LTS"
+  description = "ONLYOFFICE Docs 7.3.2 on Ubuntu 20.04 LTS"
   default     = "ascensiosystemsi-onlyofficeeditor-18-04-4"
 }
 
@@ -169,7 +169,7 @@ variable "do_application_bigcloud-odoo" {
 }
 
 variable "do_application_bitwarden" {
-  description = "Bitwarden 2023.1.0 on Ubuntu 20.04"
+  description = "Bitwarden 2023.2.0 on Ubuntu 20.04"
   default     = "bitwarden"
 }
 
@@ -474,7 +474,7 @@ variable "do_application_fastnetmon-18-04" {
 }
 
 variable "do_application_fastpanel-deb-9" {
-  description = "FASTPANEL 1.10-ubuntu20.04p123 on Ubuntu 20.04"
+  description = "FASTPANEL 1.10-ubuntu20.04p206 on Ubuntu 20.04"
   default     = "fastpanel-deb-9"
 }
 
@@ -586,6 +586,11 @@ variable "do_application_gravitl-netmaker" {
 variable "do_application_greendeployhq-django32lts-20-04" {
   description = "Django 3.2 LTS 3.2.4 on Ubuntu 20.04"
   default     = "greendeployhq-django32lts-20-04"
+}
+
+variable "do_application_haltdos-haltdoscommunity" {
+  description = "Haltdos Community WAF 1.0.0 on Ubuntu 20.04"
+  default     = "haltdos-haltdoscommunity"
 }
 
 variable "do_application_hammertechnologi-lumewebdnsrelay" {
@@ -1268,11 +1273,6 @@ variable "do_application_portalcloud-wirespeedvpnbybu-18-04" {
   default     = "portalcloud-wirespeedvpnbybu-18-04"
 }
 
-variable "do_application_null" {
-  description = "filecoin-lotus 1.11.0 on Ubuntu 20.04 (LTS)"
-  default     = "null"
-}
-
 variable "do_application_postalsystemso-emailengine" {
   description = "EmailEngine 2.30.3 on Ubuntu 20.04"
   default     = "postalsystemso-emailengine"
@@ -1280,6 +1280,11 @@ variable "do_application_postalsystemso-emailengine" {
 
 variable "do_application_null" {
   description = "Plesk 17.8 on CentOS 7"
+  default     = "null"
+}
+
+variable "do_application_null" {
+  description = "filecoin-lotus 1.11.0 on Ubuntu 20.04 (LTS)"
   default     = "null"
 }
 
