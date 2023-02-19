@@ -589,7 +589,7 @@ variable "do_application_greendeployhq-django32lts-20-04" {
 }
 
 variable "do_application_haltdos-haltdoscommunity" {
-  description = "Haltdos Community WAF 1.0.0 on Ubuntu 20.04"
+  description = "Haltdos Community WAF 1.0.0 on Ubuntu 22.04"
   default     = "haltdos-haltdoscommunity"
 }
 
