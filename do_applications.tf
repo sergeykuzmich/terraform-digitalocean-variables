@@ -1224,7 +1224,7 @@ variable "do_application_phpmyadmin-18-04" {
 }
 
 variable "do_application_phpmyadmin-20-04" {
-  description = "PhpMyAdmin 5.2.0 on Ubuntu 22.04"
+  description = "PhpMyAdmin 5.2.1 on Ubuntu 22.04"
   default     = "phpmyadmin-20-04"
 }
 
