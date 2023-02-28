@@ -1164,7 +1164,7 @@ variable "do_application_openvpn-18-04" {
 }
 
 variable "do_application_optimajet-workflowserver-18-04" {
-  description = "WorkflowServer 2.5 on Ubuntu 18.04"
+  description = "WorkflowServer 3.1.1 on Ubuntu 22.04"
   default     = "optimajet-workflowserver-18-04"
 }
 
@@ -1273,9 +1273,9 @@ variable "do_application_portalcloud-wirespeedvpnbybu-18-04" {
   default     = "portalcloud-wirespeedvpnbybu-18-04"
 }
 
-variable "do_application_postalsystemso-emailengine" {
-  description = "EmailEngine 2.30.3 on Ubuntu 20.04"
-  default     = "postalsystemso-emailengine"
+variable "do_application_null" {
+  description = "filecoin-lotus 1.11.0 on Ubuntu 20.04 (LTS)"
+  default     = "null"
 }
 
 variable "do_application_null" {
@@ -1283,9 +1283,9 @@ variable "do_application_null" {
   default     = "null"
 }
 
-variable "do_application_null" {
-  description = "filecoin-lotus 1.11.0 on Ubuntu 20.04 (LTS)"
-  default     = "null"
+variable "do_application_postalsystemso-emailengine" {
+  description = "EmailEngine 2.30.3 on Ubuntu 20.04"
+  default     = "postalsystemso-emailengine"
 }
 
 variable "do_application_powertrader-coincollectorbyp" {
