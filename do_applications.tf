@@ -364,7 +364,7 @@ variable "do_application_deskpro" {
 }
 
 variable "do_application_devdojo-laravel-20-04" {
-  description = "Laravel 9.46.0 on Ubuntu 20.04"
+  description = "Laravel 10.0.0 on Ubuntu 22.04"
   default     = "devdojo-laravel-20-04"
 }
 
@@ -504,7 +504,7 @@ variable "do_application_flipstarter-18-04" {
 }
 
 variable "do_application_flowforge" {
-  description = "FlowForge 1.3.0 on Ubuntu 22.04"
+  description = "FlowForge 1.4.0 on Ubuntu 22.04"
   default     = "flowforge"
 }
 
@@ -884,7 +884,7 @@ variable "do_application_mattermost-18-04" {
 }
 
 variable "do_application_meilisas-meilisearch-10" {
-  description = "MeiliSearch 1.0.0 on Debian 10 (buster)"
+  description = "MeiliSearch 1.0.2 on Debian 10 (buster)"
   default     = "meilisas-meilisearch-10"
 }
 
@@ -919,7 +919,7 @@ variable "do_application_mgtcommercegmbh-cloudpanel1-10-8" {
 }
 
 variable "do_application_mgtcommercegmbh-cloudpanel2ubunt" {
-  description = "CloudPanel 2 - Ubuntu 22.04 2.2.0 on Ubuntu 22.04"
+  description = "CloudPanel 2 - Ubuntu 22.04 2.2.1 on Ubuntu 22.04"
   default     = "mgtcommercegmbh-cloudpanel2ubunt"
 }
 
@@ -1094,7 +1094,7 @@ variable "do_application_onjection-jenkins-16-04" {
 }
 
 variable "do_application_openblocks" {
-  description = "Openblocks 1.1.5 on Ubuntu 20.04 (LTS)"
+  description = "Openblocks 1.1.6 on Ubuntu 20.04 (LTS)"
   default     = "openblocks"
 }
 
@@ -1273,16 +1273,6 @@ variable "do_application_portalcloud-wirespeedvpnbybu-18-04" {
   default     = "portalcloud-wirespeedvpnbybu-18-04"
 }
 
-variable "do_application_null" {
-  description = "filecoin-lotus 1.11.0 on Ubuntu 20.04 (LTS)"
-  default     = "null"
-}
-
-variable "do_application_null" {
-  description = "Plesk 17.8 on CentOS 7"
-  default     = "null"
-}
-
 variable "do_application_postalsystemso-emailengine" {
   description = "EmailEngine 2.30.3 on Ubuntu 20.04"
   default     = "postalsystemso-emailengine"
@@ -1413,9 +1403,19 @@ variable "do_application_saltcorn-20-04" {
   default     = "saltcorn-20-04"
 }
 
+variable "do_application_null" {
+  description = "filecoin-lotus 1.11.0 on Ubuntu 20.04 (LTS)"
+  default     = "null"
+}
+
 variable "do_application_sandflysecurity-20-04" {
-  description = "Sandfly Security 4.3.0 on Ubuntu 22.04"
+  description = "Sandfly Security 4.3.1 on Ubuntu 22.04"
   default     = "sandflysecurity-20-04"
+}
+
+variable "do_application_null" {
+  description = "Plesk 17.8 on CentOS 7"
+  default     = "null"
 }
 
 variable "do_application_searchblox-searchbloxenterp-7-6" {
