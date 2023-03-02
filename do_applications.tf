@@ -439,7 +439,7 @@ variable "do_application_easypanel" {
 }
 
 variable "do_application_edgedb" {
-  description = "EdgeDB 2.9 on Ubuntu 20.04"
+  description = "EdgeDB 2.12 on Ubuntu 20.04"
   default     = "edgedb"
 }
 
@@ -1073,6 +1073,16 @@ variable "do_application_nodejs-20-04" {
   default     = "nodejs-20-04"
 }
 
+variable "do_application_null" {
+  description = "filecoin-lotus 1.11.0 on Ubuntu 20.04 (LTS)"
+  default     = "null"
+}
+
+variable "do_application_null" {
+  description = "Plesk 17.8 on CentOS 7"
+  default     = "null"
+}
+
 variable "do_application_npool" {
   description = "nPool 1.8 on Ubuntu 20.04"
   default     = "npool"
@@ -1403,19 +1413,9 @@ variable "do_application_saltcorn-20-04" {
   default     = "saltcorn-20-04"
 }
 
-variable "do_application_null" {
-  description = "filecoin-lotus 1.11.0 on Ubuntu 20.04 (LTS)"
-  default     = "null"
-}
-
 variable "do_application_sandflysecurity-20-04" {
   description = "Sandfly Security 4.3.1 on Ubuntu 22.04"
   default     = "sandflysecurity-20-04"
-}
-
-variable "do_application_null" {
-  description = "Plesk 17.8 on CentOS 7"
-  default     = "null"
 }
 
 variable "do_application_searchblox-searchbloxenterp-7-6" {
