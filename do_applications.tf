@@ -54,7 +54,7 @@ variable "do_application_analythium-shinyproxy-18-04" {
 }
 
 variable "do_application_analythium-shinyproxy-20-04" {
-  description = "ShinyProxy 2.6.1 on Ubuntu 22.04"
+  description = "ShinyProxy 3.0.0 on Ubuntu 22.04"
   default     = "analythium-shinyproxy-20-04"
 }
 
@@ -229,7 +229,7 @@ variable "do_application_callabacloud-callabacloudlive" {
 }
 
 variable "do_application_caprover-18-04" {
-  description = "CapRover 1.10.1 on Ubuntu 18.04"
+  description = "CapRover 1.10.1 on Ubuntu 20.04"
   default     = "caprover-18-04"
 }
 
@@ -369,7 +369,7 @@ variable "do_application_devdojo-laravel-20-04" {
 }
 
 variable "do_application_devrel-teleport-20-04" {
-  description = "Teleport 11-latest on Ubuntu 20.04"
+  description = "Teleport 12-latest on Ubuntu 20.04"
   default     = "devrel-teleport-20-04"
 }
 
@@ -624,7 +624,7 @@ variable "do_application_helpyio-helpypro-18-04" {
 }
 
 variable "do_application_hollaex-hollaexkit" {
-  description = "HollaEx Kit 2.4.7 on Ubuntu 20.04"
+  description = "HollaEx Kit 2.5.1 on Ubuntu 20.04"
   default     = "hollaex-hollaexkit"
 }
 
@@ -813,9 +813,19 @@ variable "do_application_litespeedtechnol-openlitespeeddja-18-04" {
   default     = "litespeedtechnol-openlitespeeddja-18-04"
 }
 
+variable "do_application_null" {
+  description = "Plesk 17.8 on CentOS 7"
+  default     = "null"
+}
+
 variable "do_application_litespeedtechnol-openlitespeeddja-20-04" {
   description = "OpenLiteSpeed Django 4.1 on Ubuntu 22.04"
   default     = "litespeedtechnol-openlitespeeddja-20-04"
+}
+
+variable "do_application_null" {
+  description = "filecoin-lotus 1.11.0 on Ubuntu 20.04 (LTS)"
+  default     = "null"
 }
 
 variable "do_application_litespeedtechnol-openlitespeeddru" {
@@ -1014,7 +1024,7 @@ variable "do_application_netverity-netbox-20-04" {
 }
 
 variable "do_application_nextcloudgmbh-nextcloud" {
-  description = "Nextcloud 1.0.1 on Ubuntu 20.04 (LTS)"
+  description = "Nextcloud 4.5.0 on Ubuntu 22.04 (LTS)"
   default     = "nextcloudgmbh-nextcloud"
 }
 
@@ -1071,16 +1081,6 @@ variable "do_application_nodegame-18-04" {
 variable "do_application_nodejs-20-04" {
   description = "NodeJS 18.7.0 on Ubuntu 20.04"
   default     = "nodejs-20-04"
-}
-
-variable "do_application_null" {
-  description = "filecoin-lotus 1.11.0 on Ubuntu 20.04 (LTS)"
-  default     = "null"
-}
-
-variable "do_application_null" {
-  description = "Plesk 17.8 on CentOS 7"
-  default     = "null"
 }
 
 variable "do_application_npool" {
@@ -1204,7 +1204,7 @@ variable "do_application_passbolt-18-04" {
 }
 
 variable "do_application_passboltsa-passboltce-20-04" {
-  description = "Passbolt CE 3.10.0-1 on Ubuntu 20.04"
+  description = "Passbolt CE 3.11.0-1 on Ubuntu 20.04"
   default     = "passboltsa-passboltce-20-04"
 }
 
@@ -1384,7 +1384,7 @@ variable "do_application_rocketchat-18-04" {
 }
 
 variable "do_application_rocketchat-20-04" {
-  description = "Rocket.Chat 5.4.2 on Ubuntu 20.04"
+  description = "Rocket.Chat 5.4.3 on Ubuntu 20.04"
   default     = "rocketchat-20-04"
 }
 
