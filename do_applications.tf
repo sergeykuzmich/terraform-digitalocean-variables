@@ -4,7 +4,7 @@
 
 
 variable "do_application_3cxcommunication-3cx" {
-  description = "3CX 18.0.6.908 on Debian 10 (Buster)"
+  description = "3CX 18.0.7.304 on Debian 10 (Buster)"
   default     = "3cxcommunication-3cx"
 }
 
@@ -443,6 +443,16 @@ variable "do_application_edgedb" {
   default     = "edgedb"
 }
 
+variable "do_application_null" {
+  description = "filecoin-lotus 1.11.0 on Ubuntu 20.04 (LTS)"
+  default     = "null"
+}
+
+variable "do_application_null" {
+  description = "Plesk 17.8 on CentOS 7"
+  default     = "null"
+}
+
 variable "do_application_eltrino-magento2opensour-18-04" {
   description = "Magento 2 Open Source 1.3.1 on Ubuntu 20.04 (LTS)"
   default     = "eltrino-magento2opensour-18-04"
@@ -813,19 +823,9 @@ variable "do_application_litespeedtechnol-openlitespeeddja-18-04" {
   default     = "litespeedtechnol-openlitespeeddja-18-04"
 }
 
-variable "do_application_null" {
-  description = "Plesk 17.8 on CentOS 7"
-  default     = "null"
-}
-
 variable "do_application_litespeedtechnol-openlitespeeddja-20-04" {
   description = "OpenLiteSpeed Django 4.1 on Ubuntu 22.04"
   default     = "litespeedtechnol-openlitespeeddja-20-04"
-}
-
-variable "do_application_null" {
-  description = "filecoin-lotus 1.11.0 on Ubuntu 20.04 (LTS)"
-  default     = "null"
 }
 
 variable "do_application_litespeedtechnol-openlitespeeddru" {
@@ -906,6 +906,11 @@ variable "do_application_meltano-18-04" {
 variable "do_application_memgraph-9-7" {
   description = "Memgraph on Debian 9.7"
   default     = "memgraph-9-7"
+}
+
+variable "do_application_mern" {
+  description = "MERN 1.0 on Ubuntu 22.04"
+  default     = "mern"
 }
 
 variable "do_application_metabase-18-04" {
