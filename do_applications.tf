@@ -1183,6 +1183,11 @@ variable "do_application_optimajet-workflowserver-18-04" {
   default     = "optimajet-workflowserver-18-04"
 }
 
+variable "do_application_optimajet-workflowserver3" {
+  description = "Workflow Server 3 3.1.1 on Ubuntu 22.04"
+  default     = "optimajet-workflowserver3"
+}
+
 variable "do_application_origintrail-origintrailnode" {
   description = "OriginTrail node 6 on Ubuntu 20.04"
   default     = "origintrail-origintrailnode"
@@ -1406,6 +1411,11 @@ variable "do_application_rubyonrails-20-04" {
 variable "do_application_runcloud-18-04" {
   description = "RunCloud-18.04 on Ubuntu 18.04"
   default     = "runcloud-18-04"
+}
+
+variable "do_application_runcloud-runcloud1804-18-04" {
+  description = "RunCloud-18.04 on Ubuntu 18.04"
+  default     = "runcloud-runcloud1804-18-04"
 }
 
 variable "do_application_runcloud-runcloud2004-20-04" {
