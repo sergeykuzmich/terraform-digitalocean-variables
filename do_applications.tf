@@ -4,7 +4,7 @@
 
 
 variable "do_application_3cxcommunication-3cx" {
-  description = "3CX 18.0.7.304 on Debian 10 (Buster)"
+  description = "3CX 18.0.7.311 on Debian 10 (Buster)"
   default     = "3cxcommunication-3cx"
 }
 
