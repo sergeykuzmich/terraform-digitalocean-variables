@@ -744,7 +744,7 @@ variable "do_application_jetappsstorageve-jetbackup5" {
 }
 
 variable "do_application_jitsiserver-20-04" {
-  description = "Jitsi Server 2.0.6726 on Ubuntu 20.04"
+  description = "Jitsi Server on Ubuntu 22.04"
   default     = "jitsiserver-20-04"
 }
 
