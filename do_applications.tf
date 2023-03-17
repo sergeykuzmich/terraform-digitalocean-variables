@@ -893,6 +893,11 @@ variable "do_application_mattermost-18-04" {
   default     = "mattermost-18-04"
 }
 
+variable "do_application_mean" {
+  description = "MEAN 1.0 on Ubuntu 22.04"
+  default     = "mean"
+}
+
 variable "do_application_meilisas-meilisearch-10" {
   description = "MeiliSearch 1.0.2 on Debian 10 (buster)"
   default     = "meilisas-meilisearch-10"
