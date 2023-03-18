@@ -4,7 +4,7 @@
 
 
 variable "do_application_3cxcommunication-3cx" {
-  description = "3CX 18.0.7.311 on Debian 10 (Buster)"
+  description = "3CX 18.0.7.312 on Debian 10 (Buster)"
   default     = "3cxcommunication-3cx"
 }
 
@@ -443,16 +443,6 @@ variable "do_application_edgedb" {
   default     = "edgedb"
 }
 
-variable "do_application_null" {
-  description = "filecoin-lotus 1.11.0 on Ubuntu 20.04 (LTS)"
-  default     = "null"
-}
-
-variable "do_application_null" {
-  description = "Plesk 17.8 on CentOS 7"
-  default     = "null"
-}
-
 variable "do_application_eltrino-magento2opensour-18-04" {
   description = "Magento 2 Open Source 1.3.1 on Ubuntu 20.04 (LTS)"
   default     = "eltrino-magento2opensour-18-04"
@@ -634,7 +624,7 @@ variable "do_application_helpyio-helpypro-18-04" {
 }
 
 variable "do_application_hollaex-hollaexkit" {
-  description = "HollaEx Kit 2.5.1 on Ubuntu 20.04"
+  description = "HollaEx Kit 2.5.2 on Ubuntu 20.04"
   default     = "hollaex-hollaexkit"
 }
 
@@ -1114,7 +1104,7 @@ variable "do_application_onjection-jenkins-16-04" {
 }
 
 variable "do_application_openblocks" {
-  description = "Openblocks 1.1.6 on Ubuntu 20.04 (LTS)"
+  description = "Openblocks 1.1.7 on Ubuntu 20.04 (LTS)"
   default     = "openblocks"
 }
 
@@ -1399,7 +1389,7 @@ variable "do_application_rocketchat-18-04" {
 }
 
 variable "do_application_rocketchat-20-04" {
-  description = "Rocket.Chat 5.4.3 on Ubuntu 20.04"
+  description = "Rocket.Chat 6.0.0 on Ubuntu 20.04"
   default     = "rocketchat-20-04"
 }
 
@@ -1434,8 +1424,18 @@ variable "do_application_saltcorn-20-04" {
 }
 
 variable "do_application_sandflysecurity-20-04" {
-  description = "Sandfly Security 4.3.1 on Ubuntu 22.04"
+  description = "Sandfly Security 4.3.2 on Ubuntu 22.04"
   default     = "sandflysecurity-20-04"
+}
+
+variable "do_application_null" {
+  description = "filecoin-lotus 1.11.0 on Ubuntu 20.04 (LTS)"
+  default     = "null"
+}
+
+variable "do_application_null" {
+  description = "Plesk 17.8 on CentOS 7"
+  default     = "null"
 }
 
 variable "do_application_searchblox-searchbloxenterp-7-6" {
