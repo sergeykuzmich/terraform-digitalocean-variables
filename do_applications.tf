@@ -99,7 +99,7 @@ variable "do_application_aplitel-vitalpbx-7" {
 }
 
 variable "do_application_apliteni-keitaro" {
-  description = "Keitaro 10.0.2 on CentOS 8 Stream"
+  description = "Keitaro 10.0.4 on CentOS 8 Stream"
   default     = "apliteni-keitaro"
 }
 
@@ -488,6 +488,11 @@ variable "do_application_flashphoner-7-6" {
   default     = "flashphoner-7-6"
 }
 
+variable "do_application_flask" {
+  description = "Flask 1.0 on Ubuntu 22.04"
+  default     = "flask"
+}
+
 variable "do_application_flexify-18-04" {
   description = "Flexify.IO Multi-cloud / Migration 2.12.0 on Ubuntu 20.04 LTS"
   default     = "flexify-18-04"
@@ -759,7 +764,7 @@ variable "do_application_kromit-titra-18-04" {
 }
 
 variable "do_application_kromit-titra-20-04" {
-  description = "titra 0.80.0 on Ubuntu 22.04"
+  description = "titra 0.90.2 on Ubuntu 22.04"
   default     = "kromit-titra-20-04"
 }
 
@@ -1423,14 +1428,14 @@ variable "do_application_saltcorn-20-04" {
   default     = "saltcorn-20-04"
 }
 
-variable "do_application_sandflysecurity-20-04" {
-  description = "Sandfly Security 4.3.2 on Ubuntu 22.04"
-  default     = "sandflysecurity-20-04"
-}
-
 variable "do_application_null" {
   description = "filecoin-lotus 1.11.0 on Ubuntu 20.04 (LTS)"
   default     = "null"
+}
+
+variable "do_application_sandflysecurity-20-04" {
+  description = "Sandfly Security 4.3.2 on Ubuntu 22.04"
+  default     = "sandflysecurity-20-04"
 }
 
 variable "do_application_null" {
