@@ -129,7 +129,7 @@ variable "do_application_ascensiosystem-onlyoffice-18-04" {
 }
 
 variable "do_application_ascensiosystemsi-onlyofficeeditor-18-04-4" {
-  description = "ONLYOFFICE Docs 7.3.2 on Ubuntu 20.04 LTS"
+  description = "ONLYOFFICE Docs 7.3.3 on Ubuntu 20.04 LTS"
   default     = "ascensiosystemsi-onlyofficeeditor-18-04-4"
 }
 
@@ -244,7 +244,7 @@ variable "do_application_castai-kubernetes119-20-04" {
 }
 
 variable "do_application_chaarmiworlds-metaverse" {
-  description = "Metaverse 0.92b1 on Ubuntu 20.04"
+  description = "Metaverse 0.93b1 on Ubuntu 20.04"
   default     = "chaarmiworlds-metaverse"
 }
 
@@ -509,7 +509,7 @@ variable "do_application_flipstarter-18-04" {
 }
 
 variable "do_application_flowforge" {
-  description = "FlowForge 1.4.0 on Ubuntu 22.04"
+  description = "FlowForge 1.5.0 on Ubuntu 22.04"
   default     = "flowforge"
 }
 
@@ -1234,7 +1234,7 @@ variable "do_application_pharoahlanesoftw-webdnaserver864-18-04" {
 }
 
 variable "do_application_photoprism-20-04" {
-  description = "PhotoPrism on Ubuntu 20.04"
+  description = "PhotoPrism on Ubuntu 22.04"
   default     = "photoprism-20-04"
 }
 
