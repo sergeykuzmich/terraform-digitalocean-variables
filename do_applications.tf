@@ -424,7 +424,7 @@ variable "do_application_doppler-20-04" {
 }
 
 variable "do_application_doteamaccount-pocketbase" {
-  description = "PocketBase 0.12.2 on Ubuntu 22.04"
+  description = "PocketBase 0.14.0 on Ubuntu 22.04"
   default     = "doteamaccount-pocketbase"
 }
 
@@ -466,6 +466,11 @@ variable "do_application_eummena-moodle-10" {
 variable "do_application_everlifeaipte-everlifeai" {
   description = "Everlife.AI 2.2.0 on 20.04"
   default     = "everlifeaipte-everlifeai"
+}
+
+variable "do_application_farm" {
+  description = "FARM 1.0 on Ubuntu 22.04"
+  default     = "farm"
 }
 
 variable "do_application_fastnetmon-18-04" {
@@ -868,9 +873,19 @@ variable "do_application_liveswitch-liveswitchserver" {
   default     = "liveswitch-liveswitchserver"
 }
 
+variable "do_application_null" {
+  description = "filecoin-lotus 1.11.0 on Ubuntu 20.04 (LTS)"
+  default     = "null"
+}
+
 variable "do_application_logstore" {
   description = "log-store 0.6.3 on Ubuntu 22.04"
   default     = "logstore"
+}
+
+variable "do_application_null" {
+  description = "Plesk 17.8 on CentOS 7"
+  default     = "null"
 }
 
 variable "do_application_m3o-micro" {
@@ -1428,19 +1443,9 @@ variable "do_application_saltcorn-20-04" {
   default     = "saltcorn-20-04"
 }
 
-variable "do_application_null" {
-  description = "filecoin-lotus 1.11.0 on Ubuntu 20.04 (LTS)"
-  default     = "null"
-}
-
 variable "do_application_sandflysecurity-20-04" {
   description = "Sandfly Security 4.3.2 on Ubuntu 22.04"
   default     = "sandflysecurity-20-04"
-}
-
-variable "do_application_null" {
-  description = "Plesk 17.8 on CentOS 7"
-  default     = "null"
 }
 
 variable "do_application_searchblox-searchbloxenterp-7-6" {
