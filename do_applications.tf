@@ -504,7 +504,7 @@ variable "do_application_flexify-18-04" {
 }
 
 variable "do_application_flexifyio-flexifyiomulticl-20-04" {
-  description = "Flexify.IO Multi-cloud / Migration 2.12.11 on Ubuntu 20.04 LTS"
+  description = "Flexify.IO Multi-cloud / Migration 2.12.13 on Ubuntu 20.04 LTS"
   default     = "flexifyio-flexifyiomulticl-20-04"
 }
 
@@ -878,14 +878,14 @@ variable "do_application_null" {
   default     = "null"
 }
 
-variable "do_application_logstore" {
-  description = "log-store 0.6.3 on Ubuntu 22.04"
-  default     = "logstore"
-}
-
 variable "do_application_null" {
   description = "Plesk 17.8 on CentOS 7"
   default     = "null"
+}
+
+variable "do_application_logstore" {
+  description = "log-store 0.6.3 on Ubuntu 22.04"
+  default     = "logstore"
 }
 
 variable "do_application_m3o-micro" {
@@ -1124,7 +1124,7 @@ variable "do_application_onjection-jenkins-16-04" {
 }
 
 variable "do_application_openblocks" {
-  description = "Openblocks 1.1.7 on Ubuntu 20.04 (LTS)"
+  description = "Openblocks 1.1.8 on Ubuntu 20.04 (LTS)"
   default     = "openblocks"
 }
 
