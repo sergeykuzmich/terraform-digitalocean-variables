@@ -909,7 +909,7 @@ variable "do_application_mean" {
 }
 
 variable "do_application_meilisas-meilisearch-10" {
-  description = "MeiliSearch 1.0.2 on Debian 10 (buster)"
+  description = "MeiliSearch 1.1.0 on Debian 10 (buster)"
   default     = "meilisas-meilisearch-10"
 }
 
@@ -949,7 +949,7 @@ variable "do_application_mgtcommercegmbh-cloudpanel1-10-8" {
 }
 
 variable "do_application_mgtcommercegmbh-cloudpanel2ubunt" {
-  description = "CloudPanel 2 - Ubuntu 22.04 2.2.1 on Ubuntu 22.04"
+  description = "CloudPanel 2 - Ubuntu 22.04 2.2.2 on Ubuntu 22.04"
   default     = "mgtcommercegmbh-cloudpanel2ubunt"
 }
 
@@ -1484,7 +1484,7 @@ variable "do_application_sharklabs-apachekafka" {
 }
 
 variable "do_application_sharklabs-dropletnfsserver" {
-  description = "Droplet NFS Server 2.6.1 on Ubuntu 20.04"
+  description = "Droplet NFS Server 2.6.1 on Ubuntu 22.04"
   default     = "sharklabs-dropletnfsserver"
 }
 
