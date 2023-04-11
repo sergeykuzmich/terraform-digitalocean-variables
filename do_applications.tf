@@ -244,7 +244,7 @@ variable "do_application_castai-kubernetes119-20-04" {
 }
 
 variable "do_application_chaarmiworlds-metaverse" {
-  description = "Metaverse 0.93b1 on Ubuntu 20.04"
+  description = "Metaverse 0.94b1 on Ubuntu 20.04"
   default     = "chaarmiworlds-metaverse"
 }
 
@@ -434,12 +434,12 @@ variable "do_application_dsuhininapp1-18-04" {
 }
 
 variable "do_application_easypanel" {
-  description = "Easypanel 1.12.9 on Ubuntu 22.04"
+  description = "Easypanel 1.16.0 on Ubuntu 22.04"
   default     = "easypanel"
 }
 
 variable "do_application_edgedb" {
-  description = "EdgeDB 2.12 on Ubuntu 20.04"
+  description = "EdgeDB 2.13 on Ubuntu 20.04"
   default     = "edgedb"
 }
 
