@@ -424,7 +424,7 @@ variable "do_application_doppler-20-04" {
 }
 
 variable "do_application_doteamaccount-pocketbase" {
-  description = "PocketBase 0.14.0 on Ubuntu 22.04"
+  description = "PocketBase 0.14.4 on Ubuntu 22.04"
   default     = "doteamaccount-pocketbase"
 }
 
@@ -871,16 +871,6 @@ variable "do_application_livehelperchat-7-8-2003" {
 variable "do_application_liveswitch-liveswitchserver" {
   description = "LiveSwitch Server 1.14.5.12846 on Ubuntu 20.04"
   default     = "liveswitch-liveswitchserver"
-}
-
-variable "do_application_null" {
-  description = "filecoin-lotus 1.11.0 on Ubuntu 20.04 (LTS)"
-  default     = "null"
-}
-
-variable "do_application_null" {
-  description = "Plesk 17.8 on CentOS 7"
-  default     = "null"
 }
 
 variable "do_application_logstore" {
@@ -1541,6 +1531,21 @@ variable "do_application_sharklabs-piholevpn" {
 variable "do_application_sharklabs-pythondjangoquic-18-04" {
   description = "Python/Django Quickstart 1.1 on Ubuntu 18.04"
   default     = "sharklabs-pythondjangoquic-18-04"
+}
+
+variable "do_application_sharklabs-testproject" {
+  description = "test-project 1 on Ubuntu 22.04"
+  default     = "sharklabs-testproject"
+}
+
+variable "do_application_null" {
+  description = "filecoin-lotus 1.11.0 on Ubuntu 20.04 (LTS)"
+  default     = "null"
+}
+
+variable "do_application_null" {
+  description = "Plesk 17.8 on CentOS 7"
+  default     = "null"
 }
 
 variable "do_application_shellhub" {
