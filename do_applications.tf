@@ -149,7 +149,7 @@ variable "do_application_azuracast-18-04" {
 }
 
 variable "do_application_azuracast-20-04" {
-  description = "AzuraCast 0.15.0 on Ubuntu 20.04"
+  description = "AzuraCast 0.17.7 on Ubuntu 22.04"
   default     = "azuracast-20-04"
 }
 
@@ -316,6 +316,11 @@ variable "do_application_cpanel-cpanelwhm-7-6" {
 variable "do_application_cpanel-cpanelwhm-7-9" {
   description = "cPanel & WHM® RELEASE on CentOS 7.9"
   default     = "cpanel-cpanelwhm-7-9"
+}
+
+variable "do_application_cpanel-cpanelwhmforalma" {
+  description = "cPanel & WHM® for AlmaLinux 8 RELEASE on AlmaLinux 8"
+  default     = "cpanel-cpanelwhmforalma"
 }
 
 variable "do_application_cpanel-cpanelwhmforubun" {
@@ -1538,16 +1543,6 @@ variable "do_application_sharklabs-testproject" {
   default     = "sharklabs-testproject"
 }
 
-variable "do_application_null" {
-  description = "filecoin-lotus 1.11.0 on Ubuntu 20.04 (LTS)"
-  default     = "null"
-}
-
-variable "do_application_null" {
-  description = "Plesk 17.8 on CentOS 7"
-  default     = "null"
-}
-
 variable "do_application_shellhub" {
   description = "ShellHub 0.10.4 on Ubuntu 22.04"
   default     = "shellhub"
@@ -1586,6 +1581,16 @@ variable "do_application_simplystatistics-rstudio-18-04" {
 variable "do_application_skaffolder-18-04" {
   description = "Skaffolder 3.0 on Ubuntu 18.04"
   default     = "skaffolder-18-04"
+}
+
+variable "do_application_null" {
+  description = "filecoin-lotus 1.11.0 on Ubuntu 20.04 (LTS)"
+  default     = "null"
+}
+
+variable "do_application_null" {
+  description = "Plesk 17.8 on CentOS 7"
+  default     = "null"
 }
 
 variable "do_application_smartarget-wordpresswoocomm" {
