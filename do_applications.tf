@@ -519,7 +519,7 @@ variable "do_application_flipstarter-18-04" {
 }
 
 variable "do_application_flowforge" {
-  description = "FlowForge 1.5.0 on Ubuntu 22.04"
+  description = "FlowForge 1.6.0 on Ubuntu 22.04"
   default     = "flowforge"
 }
 
