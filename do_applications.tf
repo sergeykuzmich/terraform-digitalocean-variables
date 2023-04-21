@@ -114,7 +114,7 @@ variable "do_application_appwrite-18-04" {
 }
 
 variable "do_application_appwrite-20-04" {
-  description = "Appwrite 1.2.1 on Ubuntu 20.04"
+  description = "Appwrite 1.3 on Ubuntu 22.04"
   default     = "appwrite-20-04"
 }
 
@@ -1008,6 +1008,16 @@ variable "do_application_mpdev-testingupdateapp" {
   default     = "mpdev-testingupdateapp"
 }
 
+variable "do_application_null" {
+  description = "filecoin-lotus 1.11.0 on Ubuntu 20.04 (LTS)"
+  default     = "null"
+}
+
+variable "do_application_null" {
+  description = "Plesk 17.8 on CentOS 7"
+  default     = "null"
+}
+
 variable "do_application_mysql-18-04" {
   description = "MySQL on 18.04"
   default     = "mysql-18-04"
@@ -1439,7 +1449,7 @@ variable "do_application_saltcorn-20-04" {
 }
 
 variable "do_application_sandflysecurity-20-04" {
-  description = "Sandfly Security 4.3.2 on Ubuntu 22.04"
+  description = "Sandfly Security 4.4.0 on Ubuntu 22.04"
   default     = "sandflysecurity-20-04"
 }
 
@@ -1581,16 +1591,6 @@ variable "do_application_simplystatistics-rstudio-18-04" {
 variable "do_application_skaffolder-18-04" {
   description = "Skaffolder 3.0 on Ubuntu 18.04"
   default     = "skaffolder-18-04"
-}
-
-variable "do_application_null" {
-  description = "filecoin-lotus 1.11.0 on Ubuntu 20.04 (LTS)"
-  default     = "null"
-}
-
-variable "do_application_null" {
-  description = "Plesk 17.8 on CentOS 7"
-  default     = "null"
 }
 
 variable "do_application_smartarget-wordpresswoocomm" {
