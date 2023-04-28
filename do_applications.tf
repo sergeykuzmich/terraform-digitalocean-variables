@@ -99,7 +99,7 @@ variable "do_application_aplitel-vitalpbx-7" {
 }
 
 variable "do_application_apliteni-keitaro" {
-  description = "Keitaro 10.0.4 on CentOS 8 Stream"
+  description = "Keitaro 10.0.6.1 on CentOS 9 Stream"
   default     = "apliteni-keitaro"
 }
 
@@ -444,7 +444,7 @@ variable "do_application_easypanel" {
 }
 
 variable "do_application_edgedb" {
-  description = "EdgeDB 2.13 on Ubuntu 20.04"
+  description = "EdgeDB 2.14 on Ubuntu 20.04"
   default     = "edgedb"
 }
 
@@ -639,7 +639,7 @@ variable "do_application_helpyio-helpypro-18-04" {
 }
 
 variable "do_application_hollaex-hollaexkit" {
-  description = "HollaEx Kit 2.5.3 on Ubuntu 20.04"
+  description = "HollaEx Kit 2.6.1 on Ubuntu 20.04"
   default     = "hollaex-hollaexkit"
 }
 
@@ -748,19 +748,9 @@ variable "do_application_jetappsstorageve-jetbackup5" {
   default     = "jetappsstorageve-jetbackup5"
 }
 
-variable "do_application_null" {
-  description = "filecoin-lotus 1.11.0 on Ubuntu 20.04 (LTS)"
-  default     = "null"
-}
-
 variable "do_application_jitsiserver-20-04" {
   description = "Jitsi Server on Ubuntu 22.04"
   default     = "jitsiserver-20-04"
-}
-
-variable "do_application_null" {
-  description = "Plesk 17.8 on CentOS 7"
-  default     = "null"
 }
 
 variable "do_application_kandralabs-zulip-18-04" {
@@ -803,9 +793,19 @@ variable "do_application_lamp-18-04" {
   default     = "lamp-18-04"
 }
 
+variable "do_application_null" {
+  description = "filecoin-lotus 1.11.0 on Ubuntu 20.04 (LTS)"
+  default     = "null"
+}
+
 variable "do_application_lamp-20-04" {
   description = "LAMP on Ubuntu 20.04"
   default     = "lamp-20-04"
+}
+
+variable "do_application_null" {
+  description = "Plesk 17.8 on CentOS 7"
+  default     = "null"
 }
 
 variable "do_application_lemp-18-04" {
@@ -1234,7 +1234,7 @@ variable "do_application_passbolt-18-04" {
 }
 
 variable "do_application_passboltsa-passboltce-20-04" {
-  description = "Passbolt CE 3.11.0-1 on Ubuntu 20.04"
+  description = "Passbolt CE 3.12.2-1 on Ubuntu 20.04"
   default     = "passboltsa-passboltce-20-04"
 }
 
@@ -1828,8 +1828,13 @@ variable "do_application_zabbix-zabbixproxy60" {
   default     = "zabbix-zabbixproxy60"
 }
 
+variable "do_application_zabbix-zabbixproxy64" {
+  description = "Zabbix Proxy 6.4 6.4.1 on Alma Linux 9.1"
+  default     = "zabbix-zabbixproxy64"
+}
+
 variable "do_application_zabbix-zabbixserver60" {
-  description = "Zabbix Server 6.0 6.0.0 on CentOS 8"
+  description = "Zabbix Server 6.0 6.0.17 on Alma Linux 9.1"
   default     = "zabbix-zabbixserver60"
 }
 
