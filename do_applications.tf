@@ -119,7 +119,7 @@ variable "do_application_appwrite-20-04" {
 }
 
 variable "do_application_aqtraplatform" {
-  description = "Aqtra Platform 0.4.16 on Ubuntu 18.04+"
+  description = "Aqtra Platform 0.5.24 on Ubuntu 18.04+"
   default     = "aqtraplatform"
 }
 
@@ -679,7 +679,7 @@ variable "do_application_ibsurgeon-hqbirdfirebirdv3" {
 }
 
 variable "do_application_ibsurgeon-hqbirdfirebirdv4" {
-  description = "HQbird Firebird v4.0 4.0.3.2884-10.1.1416 on CentOS 7.x"
+  description = "HQbird Firebird v4.0 4.0.3.2930-10.1.1623 on CentOS 7.x"
   default     = "ibsurgeon-hqbirdfirebirdv4"
 }
 
@@ -1314,7 +1314,7 @@ variable "do_application_portalcloud-wirespeedvpnbybu-18-04" {
 }
 
 variable "do_application_postalsystemso-emailengine" {
-  description = "EmailEngine 2.30.3 on Ubuntu 20.04"
+  description = "EmailEngine 2.32.5 on Ubuntu 20.04"
   default     = "postalsystemso-emailengine"
 }
 
@@ -1414,7 +1414,7 @@ variable "do_application_rocketchat-18-04" {
 }
 
 variable "do_application_rocketchat-20-04" {
-  description = "Rocket.Chat 6.0.0 on Ubuntu 20.04"
+  description = "Rocket.Chat 6.1.4 on Ubuntu 20.04"
   default     = "rocketchat-20-04"
 }
 
