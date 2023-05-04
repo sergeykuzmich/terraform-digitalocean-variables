@@ -974,7 +974,7 @@ variable "do_application_mistio-mist-20-04" {
 }
 
 variable "do_application_mjmair-inventree" {
-  description = "InvenTree 0.9.2 on Ubuntu 20.04"
+  description = "InvenTree 0.11.0 on Ubuntu 20.04"
   default     = "mjmair-inventree"
 }
 
