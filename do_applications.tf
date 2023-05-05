@@ -169,7 +169,7 @@ variable "do_application_bigcloud-odoo" {
 }
 
 variable "do_application_bitwarden" {
-  description = "Bitwarden 2023.2.0 on Ubuntu 20.04"
+  description = "Bitwarden 2023.4.0 on Ubuntu 20.04"
   default     = "bitwarden"
 }
 
@@ -669,7 +669,7 @@ variable "do_application_ibsurgeon-hqbirdfirebird" {
 }
 
 variable "do_application_ibsurgeon-hqbirdfirebirdv2" {
-  description = "HQbird Firebird v2.5 2.5.9.2717-10.1.1416 on CentOS 7.x"
+  description = "HQbird Firebird v2.5 2.5.9.2717-10.1.1623 on CentOS 7.x"
   default     = "ibsurgeon-hqbirdfirebirdv2"
 }
 
