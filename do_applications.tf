@@ -639,7 +639,7 @@ variable "do_application_helpyio-helpypro-18-04" {
 }
 
 variable "do_application_hollaex-hollaexkit" {
-  description = "HollaEx Kit 2.6.1 on Ubuntu 20.04"
+  description = "HollaEx Kit 2.6.2 on Ubuntu 20.04"
   default     = "hollaex-hollaexkit"
 }
 
@@ -1836,6 +1836,11 @@ variable "do_application_zabbix-zabbixproxy64" {
 variable "do_application_zabbix-zabbixserver60" {
   description = "Zabbix Server 6.0 6.0.17 on Alma Linux 9.1"
   default     = "zabbix-zabbixserver60"
+}
+
+variable "do_application_zabbix-zabbixserver64" {
+  description = "Zabbix Server 6.4 6.4.1 on Rocky Linux 9.1"
+  default     = "zabbix-zabbixserver64"
 }
 
 variable "do_application_zeromon-zabbix-18-04" {
