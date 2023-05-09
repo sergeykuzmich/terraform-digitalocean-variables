@@ -48,6 +48,11 @@ variable "do_distibution_fedora-37-x64" {
   default     = "fedora-37-x64"
 }
 
+variable "do_distibution_fedora-38-x64" {
+  description = "Fedora 38 x64"
+  default     = "fedora-38-x64"
+}
+
 variable "do_distibution_rockylinux-8-4-x64" {
   description = "Rocky Linux RockyLinux 8.4 x64"
   default     = "rockylinux-8-4-x64"
