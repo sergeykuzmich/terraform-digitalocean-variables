@@ -269,7 +269,7 @@ variable "do_application_cloudron-18-04" {
 }
 
 variable "do_application_cloudron-20-04" {
-  description = "Cloudron 7.3.4 on Ubuntu 22.04"
+  description = "Cloudron 7.4.2 on Ubuntu 22.04"
   default     = "cloudron-20-04"
 }
 
@@ -443,6 +443,16 @@ variable "do_application_easypanel" {
   default     = "easypanel"
 }
 
+variable "do_application_null" {
+  description = "Plesk 17.8 on CentOS 7"
+  default     = "null"
+}
+
+variable "do_application_null" {
+  description = "filecoin-lotus 1.11.0 on Ubuntu 20.04 (LTS)"
+  default     = "null"
+}
+
 variable "do_application_edgedb" {
   description = "EdgeDB 2.14 on Ubuntu 20.04"
   default     = "edgedb"
@@ -594,7 +604,7 @@ variable "do_application_grandnode-grandnode20-18-04" {
 }
 
 variable "do_application_gravitl-netmaker" {
-  description = "Netmaker 0.18.6 on Ubuntu 22.10"
+  description = "Netmaker 0.18.7 on Ubuntu 22.10"
   default     = "gravitl-netmaker"
 }
 
@@ -793,19 +803,9 @@ variable "do_application_lamp-18-04" {
   default     = "lamp-18-04"
 }
 
-variable "do_application_null" {
-  description = "filecoin-lotus 1.11.0 on Ubuntu 20.04 (LTS)"
-  default     = "null"
-}
-
 variable "do_application_lamp-20-04" {
   description = "LAMP on Ubuntu 20.04"
   default     = "lamp-20-04"
-}
-
-variable "do_application_null" {
-  description = "Plesk 17.8 on CentOS 7"
-  default     = "null"
 }
 
 variable "do_application_lemp-18-04" {
@@ -1414,7 +1414,7 @@ variable "do_application_rocketchat-18-04" {
 }
 
 variable "do_application_rocketchat-20-04" {
-  description = "Rocket.Chat 6.1.4 on Ubuntu 20.04"
+  description = "Rocket.Chat 6.1.6 on Ubuntu 20.04"
   default     = "rocketchat-20-04"
 }
 
