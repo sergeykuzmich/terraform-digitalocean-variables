@@ -404,7 +404,7 @@ variable "do_application_docker-18-04" {
 }
 
 variable "do_application_docker-20-04" {
-  description = "Docker 20.10.21 on Ubuntu 22.04"
+  description = "Docker 23.0.6 on Ubuntu 22.04"
   default     = "docker-20-04"
 }
 
@@ -441,16 +441,6 @@ variable "do_application_dsuhininapp1-18-04" {
 variable "do_application_easypanel" {
   description = "Easypanel 1.16.0 on Ubuntu 22.04"
   default     = "easypanel"
-}
-
-variable "do_application_null" {
-  description = "Plesk 17.8 on CentOS 7"
-  default     = "null"
-}
-
-variable "do_application_null" {
-  description = "filecoin-lotus 1.11.0 on Ubuntu 20.04 (LTS)"
-  default     = "null"
 }
 
 variable "do_application_edgedb" {
@@ -806,6 +796,16 @@ variable "do_application_lamp-18-04" {
 variable "do_application_lamp-20-04" {
   description = "LAMP on Ubuntu 20.04"
   default     = "lamp-20-04"
+}
+
+variable "do_application_null" {
+  description = "filecoin-lotus 1.11.0 on Ubuntu 20.04 (LTS)"
+  default     = "null"
+}
+
+variable "do_application_null" {
+  description = "Plesk 17.8 on CentOS 7"
+  default     = "null"
 }
 
 variable "do_application_lemp-18-04" {
