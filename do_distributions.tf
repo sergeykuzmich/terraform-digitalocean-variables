@@ -54,12 +54,12 @@ variable "do_distibution_fedora-38-x64" {
 }
 
 variable "do_distibution_rockylinux-8-x64" {
-  description = "Rocky Linux 8"
+  description = "Rocky Linux 8 x64"
   default     = "rockylinux-8-x64"
 }
 
 variable "do_distibution_rockylinux-9-x64" {
-  description = "Rocky Linux RockyLinux 9.0 x64"
+  description = "Rocky Linux 9"
   default     = "rockylinux-9-x64"
 }
 
