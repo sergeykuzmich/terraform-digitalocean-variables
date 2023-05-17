@@ -14,7 +14,7 @@ variable "do_application_acra-18-04" {
 }
 
 variable "do_application_activepieces" {
-  description = "Activepieces 0.3.0 on Ubuntu 22.04"
+  description = "Activepieces 0.3.13 on Ubuntu 22.04"
   default     = "activepieces"
 }
 
@@ -519,7 +519,7 @@ variable "do_application_flipstarter-18-04" {
 }
 
 variable "do_application_flowforge" {
-  description = "FlowForge 1.6.0 on Ubuntu 22.04"
+  description = "FlowForge 1.7.0 on Ubuntu 22.04"
   default     = "flowforge"
 }
 
@@ -734,7 +734,7 @@ variable "do_application_jadiangaming-solderio-18-04-5" {
 }
 
 variable "do_application_jelastic-jelasticpaas-7" {
-  description = "Jelastic PaaS 7.3-1 on Centos 7"
+  description = "Jelastic PaaS 8.2-5 on Centos 7"
   default     = "jelastic-jelasticpaas-7"
 }
 
@@ -1294,7 +1294,7 @@ variable "do_application_plesk-7-6" {
 }
 
 variable "do_application_plesk-pleskcentos-7-9" {
-  description = "Plesk (CentOS) 18.0.49 on CentOS 7.9"
+  description = "Plesk (CentOS) 18.0.52 on CentOS 7.9"
   default     = "plesk-pleskcentos-7-9"
 }
 
@@ -1479,7 +1479,7 @@ variable "do_application_selfhostedpro-yacht-20-04" {
 }
 
 variable "do_application_severalnines-clustercontrol-20-04" {
-  description = "ClusterControl 1.9.5 on Ubuntu 20.04"
+  description = "ClusterControl 1.9.6 on Ubuntu 20.04"
   default     = "severalnines-clustercontrol-20-04"
 }
 

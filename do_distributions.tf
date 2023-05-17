@@ -59,7 +59,7 @@ variable "do_distibution_rockylinux-8-x64" {
 }
 
 variable "do_distibution_rockylinux-9-x64" {
-  description = "Rocky Linux 9"
+  description = "Rocky Linux 9 x64"
   default     = "rockylinux-9-x64"
 }
 
