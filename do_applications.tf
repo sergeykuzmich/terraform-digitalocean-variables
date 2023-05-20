@@ -519,7 +519,7 @@ variable "do_application_flipstarter-18-04" {
 }
 
 variable "do_application_flowforge" {
-  description = "FlowForge 1.7.0 on Ubuntu 22.04"
+  description = "FlowForge 1.7.1 on Ubuntu 22.04"
   default     = "flowforge"
 }
 
@@ -639,7 +639,7 @@ variable "do_application_helpyio-helpypro-18-04" {
 }
 
 variable "do_application_hollaex-hollaexkit" {
-  description = "HollaEx Kit 2.6.2 on Ubuntu 20.04"
+  description = "HollaEx Kit 2.6.3 on Ubuntu 20.04"
   default     = "hollaex-hollaexkit"
 }
 
@@ -1284,7 +1284,7 @@ variable "do_application_plesk-18-04" {
 }
 
 variable "do_application_plesk-20-04" {
-  description = "Plesk 18.0.49 on Ubuntu 22.04"
+  description = "Plesk 18.0.52 on Ubuntu 22.04"
   default     = "plesk-20-04"
 }
 
