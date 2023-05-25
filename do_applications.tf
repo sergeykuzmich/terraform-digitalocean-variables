@@ -509,7 +509,7 @@ variable "do_application_flexify-18-04" {
 }
 
 variable "do_application_flexifyio-flexifyiomulticl-20-04" {
-  description = "Flexify.IO Multi-cloud / Migration 2.12.13 on Ubuntu 20.04 LTS"
+  description = "Flexify.IO Multi-cloud / Migration 2.12.15 on Ubuntu 20.04 LTS"
   default     = "flexifyio-flexifyiomulticl-20-04"
 }
 
@@ -796,16 +796,6 @@ variable "do_application_lamp-18-04" {
 variable "do_application_lamp-20-04" {
   description = "LAMP on Ubuntu 20.04"
   default     = "lamp-20-04"
-}
-
-variable "do_application_null" {
-  description = "filecoin-lotus 1.11.0 on Ubuntu 20.04 (LTS)"
-  default     = "null"
-}
-
-variable "do_application_null" {
-  description = "Plesk 17.8 on CentOS 7"
-  default     = "null"
 }
 
 variable "do_application_lemp-18-04" {
@@ -1588,6 +1578,16 @@ variable "do_application_simplystatistics-rstudio-18-04" {
   default     = "simplystatistics-rstudio-18-04"
 }
 
+variable "do_application_null" {
+  description = "Plesk 17.8 on CentOS 7"
+  default     = "null"
+}
+
+variable "do_application_null" {
+  description = "filecoin-lotus 1.11.0 on Ubuntu 20.04 (LTS)"
+  default     = "null"
+}
+
 variable "do_application_skaffolder-18-04" {
   description = "Skaffolder 3.0 on Ubuntu 18.04"
   default     = "skaffolder-18-04"
@@ -1804,7 +1804,7 @@ variable "do_application_workarea-18-04" {
 }
 
 variable "do_application_wpclouddeploy" {
-  description = "WPCloudDeploy 5.2.2 on Ubuntu 20.04"
+  description = "WPCloudDeploy 5.3.0 on Ubuntu 20.04"
   default     = "wpclouddeploy"
 }
 
