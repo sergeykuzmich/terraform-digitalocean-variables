@@ -179,7 +179,7 @@ variable "do_application_bitwarden-18-04" {
 }
 
 variable "do_application_botguardo-botguardgatekeep" {
-  description = "BotGuard GateKeeper 1.1.3 on Debian 11 (bullseye)"
+  description = "BotGuard GateKeeper 1.1.6 on Debian 11 (bullseye)"
   default     = "botguardo-botguardgatekeep"
 }
 
@@ -1204,7 +1204,7 @@ variable "do_application_origintrail-origintrailnode" {
 }
 
 variable "do_application_osmosislabs-osmosis" {
-  description = "Osmosis 7.1.0 on Ubuntu 20.04"
+  description = "Osmosis 15.1.0 on Ubuntu 22.04"
   default     = "osmosislabs-osmosis"
 }
 
