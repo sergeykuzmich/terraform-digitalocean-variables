@@ -1204,7 +1204,7 @@ variable "do_application_origintrail-origintrailnode" {
 }
 
 variable "do_application_osmosislabs-osmosis" {
-  description = "Osmosis 15.1.0 on Ubuntu 22.04"
+  description = "Osmosis 15.1.2 on Ubuntu 22.04"
   default     = "osmosislabs-osmosis"
 }
 
