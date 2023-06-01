@@ -244,7 +244,7 @@ variable "do_application_castai-kubernetes119-20-04" {
 }
 
 variable "do_application_chaarmiworlds-metaverse" {
-  description = "Metaverse 0.94b1 on Ubuntu 20.04"
+  description = "Metaverse 0.95b1 on Ubuntu 20.04"
   default     = "chaarmiworlds-metaverse"
 }
 
@@ -1488,6 +1488,11 @@ variable "do_application_sharklabs-foldinghome-18-04" {
   default     = "sharklabs-foldinghome-18-04"
 }
 
+variable "do_application_sharklabs-jupyternotebook" {
+  description = "Jupyter Notebook 4.0.1 on Ubuntu 22.04"
+  default     = "sharklabs-jupyternotebook"
+}
+
 variable "do_application_sharklabs-matrixsynapsebac-10" {
   description = "Matrix (Synapse backend) 0.1.4 on Debian 10 (buster)"
   default     = "sharklabs-matrixsynapsebac-10"
@@ -1579,11 +1584,6 @@ variable "do_application_simplystatistics-rstudio-18-04" {
 }
 
 variable "do_application_null" {
-  description = "Plesk 17.8 on CentOS 7"
-  default     = "null"
-}
-
-variable "do_application_null" {
   description = "filecoin-lotus 1.11.0 on Ubuntu 20.04 (LTS)"
   default     = "null"
 }
@@ -1591,6 +1591,11 @@ variable "do_application_null" {
 variable "do_application_skaffolder-18-04" {
   description = "Skaffolder 3.0 on Ubuntu 18.04"
   default     = "skaffolder-18-04"
+}
+
+variable "do_application_null" {
+  description = "Plesk 17.8 on CentOS 7"
+  default     = "null"
 }
 
 variable "do_application_smartarget-wordpresswoocomm" {
