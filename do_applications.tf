@@ -904,7 +904,7 @@ variable "do_application_mean" {
 }
 
 variable "do_application_meilisas-meilisearch-10" {
-  description = "MeiliSearch 1.1.0 on Debian 10 (buster)"
+  description = "MeiliSearch 1.2.0 on Debian 11 (Bullseye)"
   default     = "meilisas-meilisearch-10"
 }
 
@@ -1744,7 +1744,7 @@ variable "do_application_varnishsoftware-varnishcache-18-04" {
 }
 
 variable "do_application_victoriametrics-victoriametricss" {
-  description = "VictoriaMetrics Single 1.87.1 on Ubuntu 20.04"
+  description = "VictoriaMetrics Single 1.91.2 on Ubuntu 20.04"
   default     = "victoriametrics-victoriametricss"
 }
 
