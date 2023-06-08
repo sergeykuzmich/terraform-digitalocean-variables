@@ -944,7 +944,7 @@ variable "do_application_mgtcommercegmbh-cloudpanel1-10-8" {
 }
 
 variable "do_application_mgtcommercegmbh-cloudpanel2ubunt" {
-  description = "CloudPanel 2 - Ubuntu 22.04 2.2.2 on Ubuntu 22.04"
+  description = "CloudPanel 2 - Ubuntu 22.04 2.3.0 on Ubuntu 22.04"
   default     = "mgtcommercegmbh-cloudpanel2ubunt"
 }
 
@@ -1439,8 +1439,18 @@ variable "do_application_saltcorn-20-04" {
 }
 
 variable "do_application_sandflysecurity-20-04" {
-  description = "Sandfly Security 4.4.0 on Ubuntu 22.04"
+  description = "Sandfly Security 4.5.0 on Ubuntu 22.04"
   default     = "sandflysecurity-20-04"
+}
+
+variable "do_application_null" {
+  description = "Plesk 17.8 on CentOS 7"
+  default     = "null"
+}
+
+variable "do_application_null" {
+  description = "filecoin-lotus 1.11.0 on Ubuntu 20.04 (LTS)"
+  default     = "null"
 }
 
 variable "do_application_searchblox-searchbloxenterp-7-6" {
@@ -1583,19 +1593,9 @@ variable "do_application_simplystatistics-rstudio-18-04" {
   default     = "simplystatistics-rstudio-18-04"
 }
 
-variable "do_application_null" {
-  description = "filecoin-lotus 1.11.0 on Ubuntu 20.04 (LTS)"
-  default     = "null"
-}
-
 variable "do_application_skaffolder-18-04" {
   description = "Skaffolder 3.0 on Ubuntu 18.04"
   default     = "skaffolder-18-04"
-}
-
-variable "do_application_null" {
-  description = "Plesk 17.8 on CentOS 7"
-  default     = "null"
 }
 
 variable "do_application_smartarget-wordpresswoocomm" {
