@@ -74,7 +74,7 @@ variable "do_application_antmedia-antmediaserveren-16-04" {
 }
 
 variable "do_application_antmedia-antmediaserveren-18-04" {
-  description = "Ant Media Server Enterprise Edition 2.5.3 on Ubuntu 20.04"
+  description = "Ant Media Server Enterprise Edition 2.6.1 on Ubuntu 20.04"
   default     = "antmedia-antmediaserveren-18-04"
 }
 
@@ -414,7 +414,7 @@ variable "do_application_dokku-18-04" {
 }
 
 variable "do_application_dokku-20-04" {
-  description = "Dokku 0.21.4 on Ubuntu 20.04"
+  description = "Dokku 0.30.6 on Ubuntu 22.04"
   default     = "dokku-20-04"
 }
 
@@ -886,6 +886,16 @@ variable "do_application_logstore" {
 variable "do_application_m3o-micro" {
   description = "Micro 3.15.0 on 22.04"
   default     = "m3o-micro"
+}
+
+variable "do_application_null" {
+  description = "filecoin-lotus 1.11.0 on Ubuntu 20.04 (LTS)"
+  default     = "null"
+}
+
+variable "do_application_null" {
+  description = "Plesk 17.8 on CentOS 7"
+  default     = "null"
 }
 
 variable "do_application_mastodon-18-04" {
@@ -1441,16 +1451,6 @@ variable "do_application_saltcorn-20-04" {
 variable "do_application_sandflysecurity-20-04" {
   description = "Sandfly Security 4.5.0 on Ubuntu 22.04"
   default     = "sandflysecurity-20-04"
-}
-
-variable "do_application_null" {
-  description = "Plesk 17.8 on CentOS 7"
-  default     = "null"
-}
-
-variable "do_application_null" {
-  description = "filecoin-lotus 1.11.0 on Ubuntu 20.04 (LTS)"
-  default     = "null"
 }
 
 variable "do_application_searchblox-searchbloxenterp-7-6" {
