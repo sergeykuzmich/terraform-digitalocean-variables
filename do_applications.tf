@@ -433,6 +433,11 @@ variable "do_application_doteamaccount-pocketbase" {
   default     = "doteamaccount-pocketbase"
 }
 
+variable "do_application_dreamfactory" {
+  description = "DreamFactory 5.0.1 on Ubuntu 20.04.6"
+  default     = "dreamfactory"
+}
+
 variable "do_application_dsuhininapp1-18-04" {
   description = "DSuhinin-App-1 1.0 on 18.04"
   default     = "dsuhininapp1-18-04"
@@ -889,11 +894,6 @@ variable "do_application_m3o-micro" {
 }
 
 variable "do_application_null" {
-  description = "filecoin-lotus 1.11.0 on Ubuntu 20.04 (LTS)"
-  default     = "null"
-}
-
-variable "do_application_null" {
   description = "Plesk 17.8 on CentOS 7"
   default     = "null"
 }
@@ -901,6 +901,11 @@ variable "do_application_null" {
 variable "do_application_mastodon-18-04" {
   description = "Mastodon 4.0.2 on Ubuntu 20.04"
   default     = "mastodon-18-04"
+}
+
+variable "do_application_null" {
+  description = "filecoin-lotus 1.11.0 on Ubuntu 20.04 (LTS)"
+  default     = "null"
 }
 
 variable "do_application_mattermost-18-04" {
