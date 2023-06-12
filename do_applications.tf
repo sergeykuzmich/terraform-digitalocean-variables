@@ -64,7 +64,7 @@ variable "do_application_antmedia-16-04" {
 }
 
 variable "do_application_antmedia-antmediaserverco-18-04" {
-  description = "Ant Media Server Community Edition 2.5.3 on Ubuntu 20.04"
+  description = "Ant Media Server Community Edition 2.6.1. on Ubuntu 20.04"
   default     = "antmedia-antmediaserverco-18-04"
 }
 
@@ -524,7 +524,7 @@ variable "do_application_flipstarter-18-04" {
 }
 
 variable "do_application_flowforge" {
-  description = "FlowForge 1.7.1 on Ubuntu 22.04"
+  description = "FlowForge 1.8.0 on Ubuntu 22.04"
   default     = "flowforge"
 }
 
