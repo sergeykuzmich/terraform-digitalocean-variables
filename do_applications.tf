@@ -99,7 +99,7 @@ variable "do_application_aplitel-vitalpbx-7" {
 }
 
 variable "do_application_apliteni-keitaro" {
-  description = "Keitaro 10.0.9.1 on CentOS 9 Stream"
+  description = "Keitaro 10.0.9.1.1 on CentOS 9 Stream"
   default     = "apliteni-keitaro"
 }
 
