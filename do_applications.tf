@@ -644,7 +644,7 @@ variable "do_application_helpyio-helpypro-18-04" {
 }
 
 variable "do_application_hollaex-hollaexkit" {
-  description = "HollaEx Kit 2.6.3 on Ubuntu 20.04"
+  description = "HollaEx Kit 2.6.6 on Ubuntu 20.04"
   default     = "hollaex-hollaexkit"
 }
 
@@ -759,7 +759,7 @@ variable "do_application_jitsiserver-20-04" {
 }
 
 variable "do_application_kandralabs-zulip-18-04" {
-  description = "Zulip 7.0 on Ubuntu 20.04"
+  description = "Zulip 7.1 on Ubuntu 20.04"
   default     = "kandralabs-zulip-18-04"
 }
 
@@ -1419,7 +1419,7 @@ variable "do_application_rocketchat-18-04" {
 }
 
 variable "do_application_rocketchat-20-04" {
-  description = "Rocket.Chat 6.1.6 on Ubuntu 20.04"
+  description = "Rocket.Chat 6.2.5 on Ubuntu 20.04"
   default     = "rocketchat-20-04"
 }
 
