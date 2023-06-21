@@ -99,7 +99,7 @@ variable "do_application_aplitel-vitalpbx-7" {
 }
 
 variable "do_application_apliteni-keitaro" {
-  description = "Keitaro 10.0.9.1.1 on CentOS 9 Stream"
+  description = "Keitaro 10.0.9.1 on CentOS 9 Stream"
   default     = "apliteni-keitaro"
 }
 
@@ -169,7 +169,7 @@ variable "do_application_bigcloud-odoo" {
 }
 
 variable "do_application_bitwarden" {
-  description = "Bitwarden 2023.4.0 on Ubuntu 20.04"
+  description = "Bitwarden 2023.5.0 on Ubuntu 22.04"
   default     = "bitwarden"
 }
 
@@ -624,7 +624,7 @@ variable "do_application_haproxywi-roxywi-7" {
 }
 
 variable "do_application_harperdb-18-04" {
-  description = "HarperDB 2.3.0 on Ubuntu 18.04"
+  description = "HarperDB 4.1.1 on Ubuntu 22.04"
   default     = "harperdb-18-04"
 }
 
@@ -893,19 +893,9 @@ variable "do_application_m3o-micro" {
   default     = "m3o-micro"
 }
 
-variable "do_application_null" {
-  description = "Plesk 17.8 on CentOS 7"
-  default     = "null"
-}
-
 variable "do_application_mastodon-18-04" {
   description = "Mastodon 4.0.2 on Ubuntu 20.04"
   default     = "mastodon-18-04"
-}
-
-variable "do_application_null" {
-  description = "filecoin-lotus 1.11.0 on Ubuntu 20.04 (LTS)"
-  default     = "null"
 }
 
 variable "do_application_mattermost-18-04" {
@@ -1344,7 +1334,7 @@ variable "do_application_pyboxtechnologie-pyboxtechmed-20-04" {
 }
 
 variable "do_application_questdb-20-04" {
-  description = "QuestDB 6.6.1 on Ubuntu 20.04"
+  description = "QuestDB 7.2 on Ubuntu 20.04"
   default     = "questdb-20-04"
 }
 
@@ -1519,7 +1509,7 @@ variable "do_application_sharklabs-minecraftbedrock-20-04" {
 }
 
 variable "do_application_sharklabs-minecraftjavaedi-18-04" {
-  description = "Minecraft: Java Edition Server 1.0 on Ubuntu 18.04"
+  description = "Minecraft: Java Edition Server 1.20.1 on Ubuntu 22.04"
   default     = "sharklabs-minecraftjavaedi-18-04"
 }
 
@@ -1598,9 +1588,19 @@ variable "do_application_simplystatistics-rstudio-18-04" {
   default     = "simplystatistics-rstudio-18-04"
 }
 
+variable "do_application_null" {
+  description = "filecoin-lotus 1.11.0 on Ubuntu 20.04 (LTS)"
+  default     = "null"
+}
+
 variable "do_application_skaffolder-18-04" {
   description = "Skaffolder 3.0 on Ubuntu 18.04"
   default     = "skaffolder-18-04"
+}
+
+variable "do_application_null" {
+  description = "Plesk 17.8 on CentOS 7"
+  default     = "null"
 }
 
 variable "do_application_smartarget-wordpresswoocomm" {
