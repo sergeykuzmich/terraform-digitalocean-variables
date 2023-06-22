@@ -129,7 +129,7 @@ variable "do_application_ascensiosystem-onlyoffice-18-04" {
 }
 
 variable "do_application_ascensiosystemsi-onlyofficeeditor-18-04-4" {
-  description = "ONLYOFFICE Docs 7.3.3 on Ubuntu 20.04 LTS"
+  description = "ONLYOFFICE Docs 7.4.0 on Ubuntu 20.04 LTS"
   default     = "ascensiosystemsi-onlyofficeeditor-18-04-4"
 }
 
@@ -429,7 +429,7 @@ variable "do_application_doppler-20-04" {
 }
 
 variable "do_application_doteamaccount-pocketbase" {
-  description = "PocketBase 0.14.4 on Ubuntu 22.04"
+  description = "PocketBase 0.16.5 on Ubuntu 22.04"
   default     = "doteamaccount-pocketbase"
 }
 
