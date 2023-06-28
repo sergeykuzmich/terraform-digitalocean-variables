@@ -194,7 +194,7 @@ variable "do_application_flask" {
 }
 
 variable "do_application_flexifyio-flexifyiomulticl-20-04" {
-  description = "Flexify.IO Multi-cloud / Migration 2.12.16 on Ubuntu 22.04 LTS"
+  description = "Flexify.IO Multi-cloud / Migration 2.12.17 on Ubuntu 22.04 LTS"
   default     = "flexifyio-flexifyiomulticl-20-04"
 }
 

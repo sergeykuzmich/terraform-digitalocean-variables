@@ -38,6 +38,11 @@ variable "do_distibution_debian-11-x64" {
   default     = "debian-11-x64"
 }
 
+variable "do_distibution_debian-12-x64" {
+  description = "Debian 12 x64"
+  default     = "debian-12-x64"
+}
+
 variable "do_distibution_fedora-36-x64" {
   description = "Fedora 36 x64"
   default     = "fedora-36-x64"
