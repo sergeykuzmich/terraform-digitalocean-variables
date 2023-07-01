@@ -658,6 +658,11 @@ variable "do_application_zabbix-zabbixserver64" {
   default     = "zabbix-zabbixserver64"
 }
 
+variable "do_application_zeslecp-7" {
+  description = "ZesleCP 3.1.20 on CentOS 7.x"
+  default     = "zeslecp-7"
+}
+
 variable "do_application_znuny" {
   description = "Znuny 6.4.5 on Debian 10 (buster)"
   default     = "znuny"
