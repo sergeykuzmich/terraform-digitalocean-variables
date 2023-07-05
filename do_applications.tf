@@ -304,7 +304,7 @@ variable "do_application_litespeedtechnol-openlitespeeddja-20-04" {
 }
 
 variable "do_application_litespeedtechnol-openlitespeeddru" {
-  description = "OpenLiteSpeed Drupal 9.4.7 on Ubuntu 22.04"
+  description = "OpenLiteSpeed Drupal 10.1.0 on Ubuntu 22.04"
   default     = "litespeedtechnol-openlitespeeddru"
 }
 
@@ -324,7 +324,7 @@ variable "do_application_litespeedtechnol-openlitespeedrai-20-04" {
 }
 
 variable "do_application_litespeedtechnol-openlitespeedwor-20-04" {
-  description = "OpenLiteSpeed WordPress 6.1.1 on Ubuntu 22.04"
+  description = "OpenLiteSpeed WordPress 6.2.2 on Ubuntu 22.04"
   default     = "litespeedtechnol-openlitespeedwor-20-04"
 }
 
@@ -439,7 +439,7 @@ variable "do_application_origintrail-origintrailnode" {
 }
 
 variable "do_application_osmosislabs-osmosis" {
-  description = "Osmosis 15.1.2 on Ubuntu 22.04"
+  description = "Osmosis 15.2.0 on Ubuntu 22.04"
   default     = "osmosislabs-osmosis"
 }
 
