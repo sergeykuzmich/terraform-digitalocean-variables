@@ -218,6 +218,11 @@ variable "do_application_haltdos-haltdoscommunity" {
   default     = "haltdos-haltdoscommunity"
 }
 
+variable "do_application_harperdb-18-04" {
+  description = "HarperDB 4.1.2 on Ubuntu 22.04"
+  default     = "harperdb-18-04"
+}
+
 variable "do_application_hollaex-hollaexkit" {
   description = "HollaEx Kit 2.6.6 on Ubuntu 20.04"
   default     = "hollaex-hollaexkit"
