@@ -24,12 +24,12 @@ variable "do_application_analythium-shinyproxy-20-04" {
 }
 
 variable "do_application_antmedia-antmediaserverco-18-04" {
-  description = "Ant Media Server Community Edition 2.6.1. on Ubuntu 20.04"
+  description = "Ant Media Server Community Edition 2.6.2 on Ubuntu 20.04"
   default     = "antmedia-antmediaserverco-18-04"
 }
 
 variable "do_application_antmedia-antmediaserveren-18-04" {
-  description = "Ant Media Server Enterprise Edition 2.6.1 on Ubuntu 20.04"
+  description = "Ant Media Server Enterprise Edition 2.6.2 on Ubuntu 20.04"
   default     = "antmedia-antmediaserveren-18-04"
 }
 
@@ -199,7 +199,7 @@ variable "do_application_flexifyio-flexifyiomulticl-20-04" {
 }
 
 variable "do_application_flowforge" {
-  description = "FlowForge 1.8.0 on Ubuntu 22.04"
+  description = "FlowForge 1.9.0 on Ubuntu 22.04"
   default     = "flowforge"
 }
 
@@ -269,7 +269,7 @@ variable "do_application_jitsiserver-20-04" {
 }
 
 variable "do_application_kandralabs-zulip-18-04" {
-  description = "Zulip 7.1 on Ubuntu 20.04"
+  description = "Zulip 7.2 on Ubuntu 20.04"
   default     = "kandralabs-zulip-18-04"
 }
 
@@ -459,7 +459,7 @@ variable "do_application_ossrs-srs" {
 }
 
 variable "do_application_passboltsa-passboltce-20-04" {
-  description = "Passbolt CE 3.12.2-1 on Ubuntu 20.04"
+  description = "Passbolt CE 4.1.0-1 on Ubuntu 20.04"
   default     = "passboltsa-passboltce-20-04"
 }
 
