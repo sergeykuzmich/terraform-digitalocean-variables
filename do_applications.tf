@@ -404,7 +404,7 @@ variable "do_application_nginx" {
 }
 
 variable "do_application_nirvatosoftware-nirvashare-20-04" {
-  description = "NirvaShare 2.4.0 on Ubuntu 20.04 (LTS)"
+  description = "NirvaShare 4.0 on Ubuntu 20.04 (LTS)"
   default     = "nirvatosoftware-nirvashare-20-04"
 }
 
@@ -606,6 +606,11 @@ variable "do_application_stacksfoundation-stacksblockchain" {
 variable "do_application_stretchshop" {
   description = "StretchShop 0.6.8 on Ubuntu 22.04"
   default     = "stretchshop"
+}
+
+variable "do_application_supabase" {
+  description = "Supabase 3.8 on Ubuntu 22.04"
+  default     = "supabase"
 }
 
 variable "do_application_test433" {

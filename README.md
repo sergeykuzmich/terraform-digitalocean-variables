@@ -1,5 +1,5 @@
 # DigitalOcean Available Terraform Variables
-[![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/sergeykuzmich/terraform-digitalocean-variables/daily.yml?branch=master)](https://github.com/sergeykuzmich/terraform-digitalocean-variables/actions?query=workflow%3A%22Daily+Check-in%22)
+[![GitHub Workflow Status](https://img.shields.io/github/workflow/status/sergeykuzmich/terraform-digitalocean-variables/Daily%20Check-in)](https://github.com/sergeykuzmich/terraform-digitalocean-variables/actions?query=workflow%3A%22Daily+Check-in%22)
 [![Last Updated](https://img.shields.io/github/last-commit/sergeykuzmich/terraform-digitalocean-variables/master.svg?label=last%20updated)](https://github.com/sergeykuzmich/terraform-digitalocean-variables/commits/master)
 
 This is a self-updating repository with a list of all available DigitalOcean Variables for terraform scripts.
@@ -16,4 +16,4 @@ resource "digitalocean_droplet" "droplet" {
 }
 ```
 
-> It prevents infrastructure deploying with undefined or misspelled 'image', 'distribution', 'size' or 'region'.
+> Variables prevents infrastructure deploying with undefined or misspelled 'image', 'distribution', 'size' or 'region'.
