@@ -619,7 +619,7 @@ variable "do_application_test433" {
 }
 
 variable "do_application_thegrampsproject-grampsweb" {
-  description = "Gramps Web 1.0 on Ubuntu 20.04"
+  description = "Gramps Web 0.22.2+ on Ubuntu 20.04"
   default     = "thegrampsproject-grampsweb"
 }
 
