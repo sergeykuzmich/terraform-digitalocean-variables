@@ -298,6 +298,11 @@ variable "do_application_lemp-20-04" {
   default     = "lemp-20-04"
 }
 
+variable "do_application_linuxgsm" {
+  description = "LinuxGSM 1.0 on Ubuntu 20.04"
+  default     = "linuxgsm"
+}
+
 variable "do_application_litespeedtechnol-cyberpanel-20-04" {
   description = "CyberPanel 2.3.2 on Ubuntu 22.04"
   default     = "litespeedtechnol-cyberpanel-20-04"
