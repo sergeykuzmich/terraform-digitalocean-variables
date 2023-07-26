@@ -88,6 +88,11 @@ variable "do_application_botguardo-botguardingressc" {
   default     = "botguardo-botguardingressc"
 }
 
+variable "do_application_caligrafybypostc-caligrafy" {
+  description = "Caligrafy 2.0 on 22.10"
+  default     = "caligrafybypostc-caligrafy"
+}
+
 variable "do_application_callabacloud-callabacloudlive" {
   description = "Callaba Cloud Live Streaming 6.0 on Ubuntu 20.04 (LTS)"
   default     = "callabacloud-callabacloudlive"
@@ -304,7 +309,7 @@ variable "do_application_linuxgsm" {
 }
 
 variable "do_application_litespeedtechnol-cyberpanel-20-04" {
-  description = "CyberPanel 2.3.2 on Ubuntu 22.04"
+  description = "CyberPanel 2.3.4 on Ubuntu 22.04"
   default     = "litespeedtechnol-cyberpanel-20-04"
 }
 
@@ -534,7 +539,7 @@ variable "do_application_saltcorn-20-04" {
 }
 
 variable "do_application_sandflysecurity-20-04" {
-  description = "Sandfly Security 4.5.0 on Ubuntu 22.04"
+  description = "Sandfly Security 4.6.0 on Ubuntu 22.04"
   default     = "sandflysecurity-20-04"
 }
 
