@@ -79,7 +79,7 @@ variable "do_application_bitwarden" {
 }
 
 variable "do_application_botguardo-botguardgatekeep" {
-  description = "BotGuard GateKeeper 1.1.6 on Debian 11 (bullseye)"
+  description = "BotGuard GateKeeper 1.2.0 on Debian 12 (bookworm)"
   default     = "botguardo-botguardgatekeep"
 }
 
@@ -129,7 +129,7 @@ variable "do_application_cpanel-cpanelwhmforalma" {
 }
 
 variable "do_application_devdojo-laravel-20-04" {
-  description = "Laravel 10.0.0 on Ubuntu 22.04"
+  description = "Laravel 10.16.1 on Ubuntu 22.04"
   default     = "devdojo-laravel-20-04"
 }
 
