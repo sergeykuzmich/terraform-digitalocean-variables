@@ -4,7 +4,7 @@
 
 
 variable "do_application_3cxcommunication-3cx" {
-  description = "3CX 18.0.7.312 on Debian 10 (Buster)"
+  description = "3CX 18.0.8.912 on Debian 10 (Buster)"
   default     = "3cxcommunication-3cx"
 }
 
@@ -176,6 +176,11 @@ variable "do_application_easypanel" {
 variable "do_application_edgedb" {
   description = "EdgeDB 3.0 on Ubuntu 20.04"
   default     = "edgedb"
+}
+
+variable "do_application_eltrino-magento2opensour-20-04" {
+  description = "Magento 2 Open Source 1.6.3 on Ubuntu 20.04 (LTS)"
+  default     = "eltrino-magento2opensour-20-04"
 }
 
 variable "do_application_farm" {
@@ -511,6 +516,11 @@ variable "do_application_postalsystemso-emailengine" {
 variable "do_application_questdb-20-04" {
   description = "QuestDB 7.2 on Ubuntu 20.04"
   default     = "questdb-20-04"
+}
+
+variable "do_application_rabbitmq" {
+  description = "RabbitMQ 3.12 on Ubuntu 22.04"
+  default     = "rabbitmq"
 }
 
 variable "do_application_rocketchat-20-04" {
