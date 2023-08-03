@@ -369,7 +369,7 @@ variable "do_application_mean" {
 }
 
 variable "do_application_meilisas-meilisearch-10" {
-  description = "MeiliSearch 1.2.0 on Debian 11 (Bullseye)"
+  description = "MeiliSearch 1.3.0 on Debian 11 (Bullseye)"
   default     = "meilisas-meilisearch-10"
 }
 
