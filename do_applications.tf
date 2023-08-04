@@ -54,12 +54,12 @@ variable "do_application_aqtraplatform" {
 }
 
 variable "do_application_ascensiosystem-onlyoffice-18-04" {
-  description = "ONLYOFFICE Workspace 22.09.738 on Ubuntu 20.04 LTS"
+  description = "ONLYOFFICE Workspace 23.05.777 on Ubuntu 20.04 LTS"
   default     = "ascensiosystem-onlyoffice-18-04"
 }
 
 variable "do_application_ascensiosystemsi-onlyofficeeditor-18-04-4" {
-  description = "ONLYOFFICE Docs 7.4.0 on Ubuntu 20.04 LTS"
+  description = "ONLYOFFICE Docs 7.4.1 on Ubuntu 20.04 LTS"
   default     = "ascensiosystemsi-onlyofficeeditor-18-04-4"
 }
 
