@@ -159,7 +159,7 @@ variable "do_application_dokku-20-04" {
 }
 
 variable "do_application_doteamaccount-pocketbase" {
-  description = "PocketBase 0.16.5 on Ubuntu 22.04"
+  description = "PocketBase 0.17.2 on Ubuntu 22.04"
   default     = "doteamaccount-pocketbase"
 }
 
@@ -499,7 +499,7 @@ variable "do_application_playboxtechnolog-ottstream" {
 }
 
 variable "do_application_plesk-20-04" {
-  description = "Plesk 18.0.52 on Ubuntu 22.04"
+  description = "Plesk 18.0.54 on Ubuntu 22.04"
   default     = "plesk-20-04"
 }
 
@@ -524,7 +524,7 @@ variable "do_application_rabbitmq" {
 }
 
 variable "do_application_rocketchat-20-04" {
-  description = "Rocket.Chat 6.2.9 on Ubuntu 20.04"
+  description = "Rocket.Chat 6.3.0 on Ubuntu 20.04"
   default     = "rocketchat-20-04"
 }
 
