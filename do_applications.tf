@@ -309,7 +309,7 @@ variable "do_application_lemp-20-04" {
 }
 
 variable "do_application_linuxgsm" {
-  description = "LinuxGSM 1.0 on Ubuntu 20.04"
+  description = "LinuxGSM 1.0 on Ubuntu 22.04"
   default     = "linuxgsm"
 }
 
@@ -504,7 +504,7 @@ variable "do_application_plesk-20-04" {
 }
 
 variable "do_application_plesk-pleskcentos-7-9" {
-  description = "Plesk (CentOS) 18.0.52 on CentOS 7.9"
+  description = "Plesk (CentOS) 18.0.54 on CentOS 7.9"
   default     = "plesk-pleskcentos-7-9"
 }
 
