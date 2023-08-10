@@ -114,7 +114,7 @@ variable "do_application_cloudron-20-04" {
 }
 
 variable "do_application_codelathe-filecloud-20-04" {
-  description = "FileCloud 22.1.0 on Ubuntu 20.04"
+  description = "FileCloud 23.1 on Ubuntu 22.04"
   default     = "codelathe-filecloud-20-04"
 }
 
@@ -204,7 +204,7 @@ variable "do_application_flask" {
 }
 
 variable "do_application_flexifyio-flexifyiomulticl-20-04" {
-  description = "Flexify.IO Multi-cloud / Migration 2.12.17 on Ubuntu 22.04 LTS"
+  description = "Flexify.IO Multi-cloud / Migration 2.12.18 on Ubuntu 22.04 LTS"
   default     = "flexifyio-flexifyiomulticl-20-04"
 }
 
@@ -229,7 +229,7 @@ variable "do_application_haltdos-haltdoscommunity" {
 }
 
 variable "do_application_harperdb-18-04" {
-  description = "HarperDB 4.1.2 on Ubuntu 22.04"
+  description = "HarperDB 4.1.3 on Ubuntu 22.04"
   default     = "harperdb-18-04"
 }
 
@@ -469,7 +469,7 @@ variable "do_application_osmosislabs-osmosis" {
 }
 
 variable "do_application_ossrs-srs" {
-  description = "SRS 4.6.15 on Ubuntu 20.04"
+  description = "SRS 5.7.18 on Ubuntu 20.04"
   default     = "ossrs-srs"
 }
 
