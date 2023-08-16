@@ -49,7 +49,7 @@ variable "do_application_appwrite-20-04" {
 }
 
 variable "do_application_aqtraplatform" {
-  description = "Aqtra Platform 0.5.24 on Ubuntu 18.04+"
+  description = "Aqtra Platform 0.7.14 on Ubuntu 18.04+"
   default     = "aqtraplatform"
 }
 
