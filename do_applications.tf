@@ -228,6 +228,11 @@ variable "do_application_haltdos-haltdoscommunity" {
   default     = "haltdos-haltdoscommunity"
 }
 
+variable "do_application_haltdos-haltdosprowaf" {
+  description = "Haltdos Pro WAF 1.0.1 on Ubuntu 22.04"
+  default     = "haltdos-haltdosprowaf"
+}
+
 variable "do_application_harperdb-18-04" {
   description = "HarperDB 4.1.3 on Ubuntu 22.04"
   default     = "harperdb-18-04"
@@ -509,7 +514,7 @@ variable "do_application_plesk-pleskcentos-7-9" {
 }
 
 variable "do_application_postalsystemso-emailengine" {
-  description = "EmailEngine 2.32.5 on Ubuntu 20.04"
+  description = "EmailEngine 2.34.0 on Ubuntu 20.04"
   default     = "postalsystemso-emailengine"
 }
 
@@ -549,7 +554,7 @@ variable "do_application_saltcorn-20-04" {
 }
 
 variable "do_application_sandflysecurity-20-04" {
-  description = "Sandfly Security 4.6.0 on Ubuntu 22.04"
+  description = "Sandfly Security 4.6.1 on Ubuntu 22.04"
   default     = "sandflysecurity-20-04"
 }
 
