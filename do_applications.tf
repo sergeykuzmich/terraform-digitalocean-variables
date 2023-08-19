@@ -233,6 +233,11 @@ variable "do_application_haltdos-haltdosprowaf" {
   default     = "haltdos-haltdosprowaf"
 }
 
+variable "do_application_haltdos-haltdoswafpro" {
+  description = "Haltdos WAF Pro 1.0.1 on Ubuntu 22.04"
+  default     = "haltdos-haltdoswafpro"
+}
+
 variable "do_application_harperdb-18-04" {
   description = "HarperDB 4.1.3 on Ubuntu 22.04"
   default     = "harperdb-18-04"
