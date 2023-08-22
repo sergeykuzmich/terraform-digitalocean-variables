@@ -389,7 +389,7 @@ variable "do_application_mern" {
 }
 
 variable "do_application_mgtcommercegmbh-cloudpanel2ubunt" {
-  description = "CloudPanel 2 - Ubuntu 22.04 2.3.0 on Ubuntu 22.04"
+  description = "CloudPanel 2 - Ubuntu 22.04 2.3.2 on Ubuntu 22.04"
   default     = "mgtcommercegmbh-cloudpanel2ubunt"
 }
 
@@ -401,6 +401,11 @@ variable "do_application_microwebercms-microweber-20-04" {
 variable "do_application_mjmair-inventree" {
   description = "InvenTree 0.11.0 on Ubuntu 20.04"
   default     = "mjmair-inventree"
+}
+
+variable "do_application_mongodb-18-04" {
+  description = "MongoDB 7.0.0 on Ubuntu 22.04"
+  default     = "mongodb-18-04"
 }
 
 variable "do_application_mpdev-testingupdateapp" {
