@@ -648,6 +648,11 @@ variable "do_application_supabase" {
   default     = "supabase"
 }
 
+variable "do_application_supernetworks-spr" {
+  description = "SPR 0.2.21 on Ubuntu 22.04"
+  default     = "supernetworks-spr"
+}
+
 variable "do_application_test433" {
   description = "Test433 2.3 on Ubuntu 18.04"
   default     = "test433"
