@@ -74,7 +74,7 @@ variable "do_application_bigcloud-odoo" {
 }
 
 variable "do_application_bitwarden" {
-  description = "Bitwarden 2023.7.0 on Ubuntu 22.04"
+  description = "Bitwarden 2023.8.0 on Ubuntu 22.04"
   default     = "bitwarden"
 }
 
@@ -99,7 +99,7 @@ variable "do_application_callabacloud-callabacloudlive" {
 }
 
 variable "do_application_caprover-18-04" {
-  description = "CapRover 1.10.1 on Ubuntu 20.04"
+  description = "CapRover 1.11.0 on Ubuntu 20.04"
   default     = "caprover-18-04"
 }
 
@@ -489,7 +489,7 @@ variable "do_application_ossrs-srs" {
 }
 
 variable "do_application_passboltsa-passboltce-20-04" {
-  description = "Passbolt CE 4.1.0-1 on Ubuntu 20.04"
+  description = "Passbolt CE 4.2.0-1 on Ubuntu 20.04"
   default     = "passboltsa-passboltce-20-04"
 }
 
