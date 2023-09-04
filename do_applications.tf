@@ -209,7 +209,7 @@ variable "do_application_flexifyio-flexifyiomulticl-20-04" {
 }
 
 variable "do_application_flowforge" {
-  description = "FlowForge 1.10.0 on Ubuntu 22.04"
+  description = "FlowForge 1.11.0 on Ubuntu 22.04"
   default     = "flowforge"
 }
 
