@@ -278,6 +278,11 @@ variable "do_application_invoiceninja-20-0-4" {
   default     = "invoiceninja-20-0-4"
 }
 
+variable "do_application_ispmanager-ispmanager6" {
+  description = "Ispmanager 6 6.80.0 on Ubuntu 20.04"
+  default     = "ispmanager-ispmanager6"
+}
+
 variable "do_application_jelastic-jelasticpaas-7" {
   description = "Jelastic PaaS 8.2-5 on Centos 7"
   default     = "jelastic-jelasticpaas-7"
@@ -471,6 +476,11 @@ variable "do_application_optimajet-workflowserver-18-04" {
 variable "do_application_optimajet-workflowserver3" {
   description = "Workflow Server 3 3.1.1 on Ubuntu 22.04"
   default     = "optimajet-workflowserver3"
+}
+
+variable "do_application_origintrail-origintraildkgma" {
+  description = "OriginTrail DKG mainnet node 6 on Ubuntu 20.04"
+  default     = "origintrail-origintraildkgma"
 }
 
 variable "do_application_origintrail-origintrailnode" {
