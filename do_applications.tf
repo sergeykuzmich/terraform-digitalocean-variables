@@ -4,7 +4,7 @@
 
 
 variable "do_application_3cxcommunication-3cx" {
-  description = "3CX 18.0.8.917 on Debian 10 (Buster)"
+  description = "3CX 18.0.8.935 on Debian 10 (Buster)"
   default     = "3cxcommunication-3cx"
 }
 
@@ -159,7 +159,7 @@ variable "do_application_dokku-20-04" {
 }
 
 variable "do_application_doteamaccount-pocketbase" {
-  description = "PocketBase 0.17.2 on Ubuntu 22.04"
+  description = "PocketBase 0.18.1 on Ubuntu 22.04"
   default     = "doteamaccount-pocketbase"
 }
 
