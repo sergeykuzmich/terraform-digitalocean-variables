@@ -314,7 +314,7 @@ variable "do_application_kuyio-konnectvpna" {
 }
 
 variable "do_application_lamp-20-04" {
-  description = "LAMP on Ubuntu 20.04"
+  description = "LAMP on Ubuntu 22.04"
   default     = "lamp-20-04"
 }
 
