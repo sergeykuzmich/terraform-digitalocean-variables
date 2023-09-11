@@ -549,7 +549,7 @@ variable "do_application_rabbitmq" {
 }
 
 variable "do_application_rocketchat-20-04" {
-  description = "Rocket.Chat 6.3.0 on Ubuntu 20.04"
+  description = "Rocket.Chat 6.3.4 on Ubuntu 20.04"
   default     = "rocketchat-20-04"
 }
 
