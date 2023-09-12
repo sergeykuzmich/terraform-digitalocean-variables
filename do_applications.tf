@@ -4,7 +4,7 @@
 
 
 variable "do_application_3cxcommunication-3cx" {
-  description = "3CX 18.0.8.935 on Debian 10 (Buster)"
+  description = "3CX 18.0.8.939 on Debian 10 (Buster)"
   default     = "3cxcommunication-3cx"
 }
 
@@ -24,12 +24,12 @@ variable "do_application_analythium-shinyproxy-20-04" {
 }
 
 variable "do_application_antmedia-antmediaserverco-18-04" {
-  description = "Ant Media Server Community Edition 2.6.2 on Ubuntu 20.04"
+  description = "Ant Media Server Community Edition 2.6.4 on Ubuntu 20.04"
   default     = "antmedia-antmediaserverco-18-04"
 }
 
 variable "do_application_antmedia-antmediaserveren-18-04" {
-  description = "Ant Media Server Enterprise Edition 2.6.2 on Ubuntu 20.04"
+  description = "Ant Media Server Enterprise Edition 2.6.4 on Ubuntu 20.04"
   default     = "antmedia-antmediaserveren-18-04"
 }
 
