@@ -74,7 +74,7 @@ variable "do_application_bigcloud-odoo" {
 }
 
 variable "do_application_bitwarden" {
-  description = "Bitwarden 2023.8.0 on Ubuntu 22.04"
+  description = "Bitwarden 2023.8.1 on Ubuntu 22.04"
   default     = "bitwarden"
 }
 
@@ -174,7 +174,7 @@ variable "do_application_easypanel" {
 }
 
 variable "do_application_edgedb" {
-  description = "EdgeDB 3.0 on Ubuntu 20.04"
+  description = "EdgeDB 3.3 on Ubuntu 20.04"
   default     = "edgedb"
 }
 
