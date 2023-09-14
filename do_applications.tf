@@ -159,7 +159,7 @@ variable "do_application_dokku-20-04" {
 }
 
 variable "do_application_doteamaccount-pocketbase" {
-  description = "PocketBase 0.18.1 on Ubuntu 22.04"
+  description = "PocketBase 0.18.4 on Ubuntu 22.04"
   default     = "doteamaccount-pocketbase"
 }
 
@@ -706,6 +706,11 @@ variable "do_application_wordsmythcreatio-aresmush" {
 variable "do_application_wpclouddeploy" {
   description = "WPCloudDeploy 5.3.0 on Ubuntu 20.04"
   default     = "wpclouddeploy"
+}
+
+variable "do_application_yeastar-ypsps1" {
+  description = "YPSPS-1 83.11.0.30 on Ubuntu 20.04 LTS"
+  default     = "yeastar-ypsps1"
 }
 
 variable "do_application_zabbix-zabbixproxy64" {
