@@ -159,7 +159,7 @@ variable "do_application_dokku-20-04" {
 }
 
 variable "do_application_doteamaccount-pocketbase" {
-  description = "PocketBase 0.18.5 on Ubuntu 22.04"
+  description = "PocketBase 0.18.6 on Ubuntu 22.04"
   default     = "doteamaccount-pocketbase"
 }
 
@@ -494,7 +494,7 @@ variable "do_application_osmosislabs-osmosis" {
 }
 
 variable "do_application_ossrs-srs" {
-  description = "SRS 5.7.18 on Ubuntu 20.04"
+  description = "SRS 5.9.27 on Ubuntu 20.04"
   default     = "ossrs-srs"
 }
 
@@ -579,7 +579,7 @@ variable "do_application_sandflysecurity-20-04" {
 }
 
 variable "do_application_searchblox-searchbloxenterp-7-6" {
-  description = "SearchBlox Enterprise Search 10.2 on CentOS 8.0"
+  description = "SearchBlox Enterprise Search 10.5 on CentOS 8.0"
   default     = "searchblox-searchbloxenterp-7-6"
 }
 
