@@ -99,7 +99,7 @@ variable "do_application_callabacloud-callabacloudlive" {
 }
 
 variable "do_application_caprover-18-04" {
-  description = "CapRover 1.11.0 on Ubuntu 20.04"
+  description = "CapRover 1.11.1 on Ubuntu 20.04"
   default     = "caprover-18-04"
 }
 
@@ -176,6 +176,11 @@ variable "do_application_easypanel" {
 variable "do_application_edgedb" {
   description = "EdgeDB 3.3 on Ubuntu 20.04"
   default     = "edgedb"
+}
+
+variable "do_application_elasticsearch" {
+  description = "ElasticSearch on Ubuntu 22.04"
+  default     = "elasticsearch"
 }
 
 variable "do_application_eltrino-magento2opensour-20-04" {
@@ -294,7 +299,7 @@ variable "do_application_jitsiserver-20-04" {
 }
 
 variable "do_application_kandralabs-zulip-18-04" {
-  description = "Zulip 7.2 on Ubuntu 20.04"
+  description = "Zulip 7.4 on Ubuntu 20.04"
   default     = "kandralabs-zulip-18-04"
 }
 
