@@ -608,6 +608,11 @@ variable "do_application_sharklabs-jupyternotebook" {
   default     = "sharklabs-jupyternotebook"
 }
 
+variable "do_application_sharklabs-kibana" {
+  description = "Kibana on Ubuntu 22.04"
+  default     = "sharklabs-kibana"
+}
+
 variable "do_application_sharklabs-minecraftjavaedi-18-04" {
   description = "Minecraft: Java Edition Server 1.20.1 on Ubuntu 22.04"
   default     = "sharklabs-minecraftjavaedi-18-04"
