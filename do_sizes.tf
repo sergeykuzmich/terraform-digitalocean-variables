@@ -263,16 +263,6 @@ variable "do_size_m6-8vcpu-64gb" {
   default     = "m6-8vcpu-64gb"
 }
 
-variable "do_size_s-16vcpu-64gb-amd" {
-  description = "64GB RAM; 16 CPU; 800GB SSD - $336/mo"
-  default     = "s-16vcpu-64gb-amd"
-}
-
-variable "do_size_s-16vcpu-64gb-intel" {
-  description = "64GB RAM; 16 CPU; 1.25TB SSD - $384/mo"
-  default     = "s-16vcpu-64gb-intel"
-}
-
 variable "do_size_s-1vcpu-1gb" {
   description = "1GB RAM; 1 CPU; 25GB SSD - $6/mo"
   default     = "s-1vcpu-1gb"

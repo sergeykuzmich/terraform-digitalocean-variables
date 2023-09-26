@@ -74,7 +74,7 @@ variable "do_application_bigcloud-odoo" {
 }
 
 variable "do_application_bitwarden" {
-  description = "Bitwarden 2023.8.1 on Ubuntu 22.04"
+  description = "Bitwarden 2023.9.1 on Ubuntu 22.04"
   default     = "bitwarden"
 }
 
@@ -109,7 +109,7 @@ variable "do_application_chaarmiworlds-metaverse" {
 }
 
 variable "do_application_cloudron-20-04" {
-  description = "Cloudron 7.4.2 on Ubuntu 22.04"
+  description = "Cloudron 7.5.2 on Ubuntu 22.04"
   default     = "cloudron-20-04"
 }
 
@@ -249,7 +249,7 @@ variable "do_application_harperdb-18-04" {
 }
 
 variable "do_application_hollaex-hollaexkit" {
-  description = "HollaEx Kit 2.7.2 on Ubuntu 20.04"
+  description = "HollaEx Kit 2.8.0 on Ubuntu 20.04"
   default     = "hollaex-hollaexkit"
 }
 
@@ -611,6 +611,11 @@ variable "do_application_sharklabs-jupyternotebook" {
 variable "do_application_sharklabs-kibana" {
   description = "Kibana on Ubuntu 22.04"
   default     = "sharklabs-kibana"
+}
+
+variable "do_application_sharklabs-logstash" {
+  description = "LogStash on Ubuntu 22.04"
+  default     = "sharklabs-logstash"
 }
 
 variable "do_application_sharklabs-minecraftjavaedi-18-04" {
