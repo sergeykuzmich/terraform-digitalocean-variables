@@ -34,7 +34,7 @@ variable "do_application_antmedia-antmediaserveren-18-04" {
 }
 
 variable "do_application_apliteni-keitaro" {
-  description = "Keitaro 10.0.9.1 on CentOS 9 Stream"
+  description = "Keitaro 10.1.2 on CentOS 9 Stream"
   default     = "apliteni-keitaro"
 }
 
@@ -486,6 +486,11 @@ variable "do_application_optimajet-workflowserver3" {
 variable "do_application_origintrail-origintraildkgma" {
   description = "OriginTrail DKG mainnet node 6 on Ubuntu 20.04"
   default     = "origintrail-origintraildkgma"
+}
+
+variable "do_application_origintrail-origintraildkgte" {
+  description = "OriginTrail DKG testnet node 6 on Ubuntu 20.04"
+  default     = "origintrail-origintraildkgte"
 }
 
 variable "do_application_origintrail-origintrailnode" {
