@@ -174,7 +174,7 @@ variable "do_application_easypanel" {
 }
 
 variable "do_application_edgedb" {
-  description = "EdgeDB 3.3 on Ubuntu 20.04"
+  description = "EdgeDB 3.4 on Ubuntu 20.04"
   default     = "edgedb"
 }
 
@@ -214,7 +214,7 @@ variable "do_application_flexifyio-flexifyiomulticl-20-04" {
 }
 
 variable "do_application_flowforge" {
-  description = "FlowForge 1.11.0 on Ubuntu 22.04"
+  description = "FlowForge 1.12.0 on Ubuntu 22.04"
   default     = "flowforge"
 }
 
@@ -389,7 +389,7 @@ variable "do_application_mean" {
 }
 
 variable "do_application_meilisas-meilisearch-10" {
-  description = "MeiliSearch 1.3.0 on Debian 11 (Bullseye)"
+  description = "MeiliSearch 1.4.0 on Debian 11 (Bullseye)"
   default     = "meilisas-meilisearch-10"
 }
 
@@ -499,7 +499,7 @@ variable "do_application_origintrail-origintrailnode" {
 }
 
 variable "do_application_osmosislabs-osmosis" {
-  description = "Osmosis 15.2.0 on Ubuntu 22.04"
+  description = "Osmosis 19.2.0 on Ubuntu 22.04"
   default     = "osmosislabs-osmosis"
 }
 
@@ -509,7 +509,7 @@ variable "do_application_ossrs-srs" {
 }
 
 variable "do_application_passboltsa-passboltce-20-04" {
-  description = "Passbolt CE 4.2.0-1 on Ubuntu 20.04"
+  description = "Passbolt CE 4.3.0-1 on Ubuntu 20.04"
   default     = "passboltsa-passboltce-20-04"
 }
 
@@ -599,7 +599,7 @@ variable "do_application_seatablegmbh-seatable" {
 }
 
 variable "do_application_severalnines-clustercontrol-20-04" {
-  description = "ClusterControl 1.9.6 on Ubuntu 20.04"
+  description = "ClusterControl 1.9.7 on Ubuntu 20.04"
   default     = "severalnines-clustercontrol-20-04"
 }
 
