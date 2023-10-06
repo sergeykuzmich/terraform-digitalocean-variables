@@ -249,7 +249,7 @@ variable "do_application_harperdb-18-04" {
 }
 
 variable "do_application_hollaex-hollaexkit" {
-  description = "HollaEx Kit 2.8.0 on Ubuntu 20.04"
+  description = "HollaEx Kit 2.8.2 on Ubuntu 20.04"
   default     = "hollaex-hollaexkit"
 }
 
