@@ -1,5 +1,5 @@
 # DigitalOcean Available Terraform Variables
-[![GitHub Workflow Status](https://img.shields.io/github/workflow/status/sergeykuzmich/terraform-digitalocean-variables/daily.yml?branch=master)](https://img.shields.io/github/workflow/status/sergeykuzmich/terraform-digitalocean-variables/daily.yml?branch=master)
+[![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/sergeykuzmich/terraform-digitalocean-variables/daily.yml?branch=master)](https://img.shields.io/github/actions/workflow/status/sergeykuzmich/terraform-digitalocean-variables/daily.yml?branch=master)
 [![Last Updated](https://img.shields.io/github/last-commit/sergeykuzmich/terraform-digitalocean-variables/master.svg?label=last%20updated)](https://github.com/sergeykuzmich/terraform-digitalocean-variables/commits/master)
 
 This is a self-updating repository with a list of all available DigitalOcean Variables for terraform scripts.
