@@ -30,15 +30,12 @@ jobs:
       uses: actions/setup-node@v3
       with:
         node-version: '10.x'
-
     - name: Setup `node-fetch`
       run: npm install node-fetch@2.6.1 --loglevel error
-
     - name: Fetch Variables
       run: node main.js
       env:
         DIGITALOCEAN_TOKEN: ${{ secrets.DIGITALOCEAN_TOKEN }}
-
     - name: Upload Artifacts
       uses: actions/upload-artifact@v3
       with:
@@ -56,12 +53,12 @@ jobs:
       uses: actions/download-artifact@v3
       with:
         name: output
-    - name: Reformat Output with Terraform
-      uses: hashicorp/terraform-github-actions@master
+        path: output/
+    - uses: hashicorp/setup-terraform@v2
       with:
-        tf_actions_version: 0.14.7
-        tf_actions_subcommand: 'fmt'
-        tf_actions_fmt_write: true
+        terraform_version: 1.5.0
+    - name: Format Files
+      run: terraform fmt output/
     - name: Upload Artifacts
       uses: actions/upload-artifact@v1
       with:
@@ -78,12 +75,11 @@ jobs:
       uses: actions/checkout@v4
       with:
         ref: master
-    
     - name: Download Artifacts
       uses: actions/download-artifact@v3
       with:
         name: output
-
+        path: output/
     - name: Deploy to Master
       uses: peaceiris/actions-gh-pages@v3
       with:
