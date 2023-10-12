@@ -159,7 +159,7 @@ variable "do_application_dokku-20-04" {
 }
 
 variable "do_application_doteamaccount-pocketbase" {
-  description = "PocketBase 0.18.9 on Ubuntu 22.04"
+  description = "PocketBase 0.18.10 on Ubuntu 22.04"
   default     = "doteamaccount-pocketbase"
 }
 
@@ -679,7 +679,7 @@ variable "do_application_supabase" {
 }
 
 variable "do_application_supernetworks-spr" {
-  description = "SPR 0.2.21 on Ubuntu 22.04"
+  description = "SPR 0.2.23 on Ubuntu 22.04"
   default     = "supernetworks-spr"
 }
 
