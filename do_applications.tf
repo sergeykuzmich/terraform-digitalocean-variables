@@ -79,7 +79,7 @@ variable "do_application_bitwarden" {
 }
 
 variable "do_application_botguardo-botguardgatekeep" {
-  description = "BotGuard GateKeeper 1.2.0 on Debian 12 (bookworm)"
+  description = "BotGuard GateKeeper 1.2.1 on Debian 12 (bookworm)"
   default     = "botguardo-botguardgatekeep"
 }
 
