@@ -74,12 +74,12 @@ variable "do_application_bigcloud-odoo" {
 }
 
 variable "do_application_bitwarden" {
-  description = "Bitwarden 2023.9.1 on Ubuntu 22.04"
+  description = "Bitwarden 2023.9.3 on Ubuntu 22.04"
   default     = "bitwarden"
 }
 
 variable "do_application_botguardo-botguardgatekeep" {
-  description = "BotGuard GateKeeper 1.2.1 on Debian 12 (bookworm)"
+  description = "BotGuard GateKeeper 1.2.2 on Debian 12 (bookworm)"
   default     = "botguardo-botguardgatekeep"
 }
 
