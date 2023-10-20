@@ -159,7 +159,7 @@ variable "do_application_dokku-20-04" {
 }
 
 variable "do_application_doteamaccount-pocketbase" {
-  description = "PocketBase 0.18.6 on Ubuntu 22.04"
+  description = "PocketBase 0.19.0 on Ubuntu 22.04"
   default     = "doteamaccount-pocketbase"
 }
 
@@ -606,6 +606,11 @@ variable "do_application_severalnines-clustercontrol-20-04" {
 variable "do_application_sharklabs-dropletnfsserver" {
   description = "Droplet NFS Server 2.6.1 on Ubuntu 22.04"
   default     = "sharklabs-dropletnfsserver"
+}
+
+variable "do_application_sharklabs-erpodoo" {
+  description = "ERP Odoo 16 on Ubuntu 22.04"
+  default     = "sharklabs-erpodoo"
 }
 
 variable "do_application_sharklabs-jupyternotebook" {
