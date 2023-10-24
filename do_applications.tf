@@ -609,7 +609,7 @@ variable "do_application_sharklabs-dropletnfsserver" {
 }
 
 variable "do_application_sharklabs-erpodoo" {
-  description = "ERP Odoo 16 on Ubuntu 22.04"
+  description = "Odoo ERP 16 on Ubuntu 22.04"
   default     = "sharklabs-erpodoo"
 }
 
