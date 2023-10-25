@@ -49,7 +49,7 @@ variable "do_application_appwrite-20-04" {
 }
 
 variable "do_application_aqtraplatform" {
-  description = "Aqtra Platform 0.7.14 on Ubuntu 18.04+"
+  description = "Aqtra Platform 0.8.20 on Ubuntu 18.04+"
   default     = "aqtraplatform"
 }
 
@@ -364,7 +364,7 @@ variable "do_application_litespeedtechnol-openlitespeedrai-20-04" {
 }
 
 variable "do_application_litespeedtechnol-openlitespeedwor-20-04" {
-  description = "OpenLiteSpeed WordPress 6.2.2 on Ubuntu 22.04"
+  description = "OpenLiteSpeed WordPress 6.3.1 on Ubuntu 22.04"
   default     = "litespeedtechnol-openlitespeedwor-20-04"
 }
 
