@@ -214,7 +214,7 @@ variable "do_application_flexifyio-flexifyiomulticl-20-04" {
 }
 
 variable "do_application_flowforge" {
-  description = "FlowForge 1.12.0 on Ubuntu 22.04"
+  description = "FlowForge 1.13.1 on Ubuntu 22.04"
   default     = "flowforge"
 }
 
@@ -504,7 +504,7 @@ variable "do_application_osmosislabs-osmosis" {
 }
 
 variable "do_application_ossrs-srs" {
-  description = "SRS 5.9.27 on Ubuntu 20.04"
+  description = "SRS 5.10.18 on Ubuntu 20.04"
   default     = "ossrs-srs"
 }
 
