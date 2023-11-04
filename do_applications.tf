@@ -159,7 +159,7 @@ variable "do_application_dokku-20-04" {
 }
 
 variable "do_application_doteamaccount-pocketbase" {
-  description = "PocketBase 0.19.0 on Ubuntu 22.04"
+  description = "PocketBase 0.19.1 on Ubuntu 22.04"
   default     = "doteamaccount-pocketbase"
 }
 
@@ -209,7 +209,7 @@ variable "do_application_flask" {
 }
 
 variable "do_application_flexifyio-flexifyiomulticl-20-04" {
-  description = "Flexify.IO Multi-cloud / Migration 2.12.18 on Ubuntu 22.04 LTS"
+  description = "Flexify.IO Multi-cloud / Migration 2.12.19 on Ubuntu 22.04 LTS"
   default     = "flexifyio-flexifyiomulticl-20-04"
 }
 
@@ -244,7 +244,7 @@ variable "do_application_haltdos-haltdoswafpro" {
 }
 
 variable "do_application_harperdb-18-04" {
-  description = "HarperDB 4.1.3 on Ubuntu 22.04"
+  description = "HarperDB 4.2.0 on Ubuntu 22.04"
   default     = "harperdb-18-04"
 }
 
