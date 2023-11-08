@@ -378,6 +378,11 @@ variable "do_application_m3o-micro" {
   default     = "m3o-micro"
 }
 
+variable "do_application_mariadb" {
+  description = "MariaDB 10.6.12 on Ubuntu 22.04"
+  default     = "mariadb"
+}
+
 variable "do_application_mastodon-18-04" {
   description = "Mastodon 4.0.2 on Ubuntu 20.04"
   default     = "mastodon-18-04"
