@@ -74,7 +74,7 @@ variable "do_application_bigcloud-odoo" {
 }
 
 variable "do_application_bitwarden" {
-  description = "Bitwarden 2023.9.3 on Ubuntu 22.04"
+  description = "Bitwarden 2023.10.1 on Ubuntu 22.04"
   default     = "bitwarden"
 }
 
@@ -159,7 +159,7 @@ variable "do_application_dokku-20-04" {
 }
 
 variable "do_application_doteamaccount-pocketbase" {
-  description = "PocketBase 0.19.1 on Ubuntu 22.04"
+  description = "PocketBase 0.19.2 on Ubuntu 22.04"
   default     = "doteamaccount-pocketbase"
 }
 
@@ -314,7 +314,7 @@ variable "do_application_kromit-titra-20-04" {
 }
 
 variable "do_application_kuyio-konnectvpna" {
-  description = "Konnect VPN Access Server 2208.0 on Ubuntu 20.04"
+  description = "Konnect VPN Access Server 2310.0 on Ubuntu 20.04"
   default     = "kuyio-konnectvpna"
 }
 
@@ -514,7 +514,7 @@ variable "do_application_ossrs-srs" {
 }
 
 variable "do_application_passboltsa-passboltce-20-04" {
-  description = "Passbolt CE 4.3.0-1 on Ubuntu 20.04"
+  description = "Passbolt CE 4.4.0-1 on Ubuntu 20.04"
   default     = "passboltsa-passboltce-20-04"
 }
 
