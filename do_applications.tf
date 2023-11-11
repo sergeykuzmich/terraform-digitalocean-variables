@@ -673,6 +673,11 @@ variable "do_application_soos-soosdastdroplet" {
   default     = "soos-soosdastdroplet"
 }
 
+variable "do_application_spinupwp" {
+  description = "SpinupWP 1.0 on Ubuntu 22.04"
+  default     = "spinupwp"
+}
+
 variable "do_application_stacksfoundation-stacksblockchain" {
   description = "Stacks Blockchain 2.05.0.6.0 on Debian 11"
   default     = "stacksfoundation-stacksblockchain"
@@ -734,7 +739,7 @@ variable "do_application_wordsmythcreatio-aresmush" {
 }
 
 variable "do_application_wpclouddeploy" {
-  description = "WPCloudDeploy 5.3.0 on Ubuntu 20.04"
+  description = "WPCloudDeploy 5.5.0 on Ubuntu 20.04"
   default     = "wpclouddeploy"
 }
 
