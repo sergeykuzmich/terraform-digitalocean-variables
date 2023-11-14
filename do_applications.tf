@@ -134,7 +134,7 @@ variable "do_application_devdojo-laravel-20-04" {
 }
 
 variable "do_application_devrel-teleport-20-04" {
-  description = "Teleport 12-latest on Ubuntu 20.04"
+  description = "Teleport 14 on Ubuntu 20.04"
   default     = "devrel-teleport-20-04"
 }
 
