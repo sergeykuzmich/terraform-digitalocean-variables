@@ -159,7 +159,7 @@ variable "do_application_dokku-20-04" {
 }
 
 variable "do_application_doteamaccount-pocketbase" {
-  description = "PocketBase 0.19.2 on Ubuntu 22.04"
+  description = "PocketBase 0.19.3 on Ubuntu 22.04"
   default     = "doteamaccount-pocketbase"
 }
 
@@ -229,7 +229,7 @@ variable "do_application_gravitl-netmaker" {
 }
 
 variable "do_application_haltdos-haltdoscommunity" {
-  description = "Haltdos Community WAF 1.0.0 on Ubuntu 22.04"
+  description = "Haltdos Community WAF 1.0.3 on Ubuntu 22.04"
   default     = "haltdos-haltdoscommunity"
 }
 
