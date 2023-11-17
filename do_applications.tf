@@ -24,12 +24,12 @@ variable "do_application_analythium-shinyproxy-20-04" {
 }
 
 variable "do_application_antmedia-antmediaserverco-18-04" {
-  description = "Ant Media Server Community Edition 2.6.4 on Ubuntu 20.04"
+  description = "Ant Media Server Community Edition 2.7.0 on Ubuntu 20.04"
   default     = "antmedia-antmediaserverco-18-04"
 }
 
 variable "do_application_antmedia-antmediaserveren-18-04" {
-  description = "Ant Media Server Enterprise Edition 2.6.4 on Ubuntu 20.04"
+  description = "Ant Media Server Enterprise Edition 2.7.0 on Ubuntu 20.04"
   default     = "antmedia-antmediaserveren-18-04"
 }
 
