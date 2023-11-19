@@ -299,7 +299,7 @@ variable "do_application_jitsiserver-20-04" {
 }
 
 variable "do_application_kandralabs-zulip-18-04" {
-  description = "Zulip 7.4 on Ubuntu 20.04"
+  description = "Zulip 7.5 on Ubuntu 20.04"
   default     = "kandralabs-zulip-18-04"
 }
 
