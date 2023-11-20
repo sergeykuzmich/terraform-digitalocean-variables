@@ -184,7 +184,7 @@ variable "do_application_elasticsearch" {
 }
 
 variable "do_application_eltrino-magento2opensour-20-04" {
-  description = "Magento 2 Open Source 1.6.3 on Ubuntu 20.04 (LTS)"
+  description = "Magento 2 Open Source 1.6.4 on Ubuntu 20.04 (LTS)"
   default     = "eltrino-magento2opensour-20-04"
 }
 
@@ -209,7 +209,7 @@ variable "do_application_flask" {
 }
 
 variable "do_application_flexifyio-flexifyiomulticl-20-04" {
-  description = "Flexify.IO Multi-cloud / Migration 2.12.19 on Ubuntu 22.04 LTS"
+  description = "Flexify.IO Multi-cloud / Migration 2.13.0 on Ubuntu 22.04 LTS"
   default     = "flexifyio-flexifyiomulticl-20-04"
 }
 
