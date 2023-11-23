@@ -128,6 +128,11 @@ variable "do_application_cpanel-cpanelwhmforalma" {
   default     = "cpanel-cpanelwhmforalma"
 }
 
+variable "do_application_csmm-20-04" {
+  description = "CSMM 1.20.2 on Ubuntu 20.04"
+  default     = "csmm-20-04"
+}
+
 variable "do_application_devdojo-laravel-20-04" {
   description = "Laravel 10.16.1 on Ubuntu 22.04"
   default     = "devdojo-laravel-20-04"
@@ -744,7 +749,7 @@ variable "do_application_wpclouddeploy" {
 }
 
 variable "do_application_yeastar-yeastarpseriesph" {
-  description = "Yeastar P-Series Phone System 83.11.0.30 on Ubuntu 20.04 LTS"
+  description = "Yeastar P-Series Phone System 83.13.0.34.4401 on Ubuntu 20.04 LTS"
   default     = "yeastar-yeastarpseriesph"
 }
 
