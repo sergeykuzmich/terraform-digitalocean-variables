@@ -108,6 +108,11 @@ variable "do_application_chaarmiworlds-metaverse" {
   default     = "chaarmiworlds-metaverse"
 }
 
+variable "do_application_clickhouse" {
+  description = "ClickHouse 23.10.4.25 on Ubuntu 22.04"
+  default     = "clickhouse"
+}
+
 variable "do_application_cloudron-20-04" {
   description = "Cloudron 7.5.2 on Ubuntu 22.04"
   default     = "cloudron-20-04"
@@ -219,7 +224,7 @@ variable "do_application_flexifyio-flexifyiomulticl-20-04" {
 }
 
 variable "do_application_flowforge" {
-  description = "FlowForge 1.13.1 on Ubuntu 22.04"
+  description = "FlowForge 1.14.0 on Ubuntu 22.04"
   default     = "flowforge"
 }
 
@@ -519,7 +524,7 @@ variable "do_application_ossrs-srs" {
 }
 
 variable "do_application_passboltsa-passboltce-20-04" {
-  description = "Passbolt CE 4.4.0-1 on Ubuntu 20.04"
+  description = "Passbolt CE 4.4.1-1 on Ubuntu 20.04"
   default     = "passboltsa-passboltce-20-04"
 }
 
@@ -734,7 +739,7 @@ variable "do_application_wikijs-18-04" {
 }
 
 variable "do_application_wordpress-20-04" {
-  description = "WordPress 6.1.1 on Ubuntu 22.04"
+  description = "WordPress 6.4.1 on Ubuntu 22.04"
   default     = "wordpress-20-04"
 }
 
