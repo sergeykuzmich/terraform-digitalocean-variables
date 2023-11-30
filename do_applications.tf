@@ -618,6 +618,11 @@ variable "do_application_severalnines-clustercontrol-20-04" {
   default     = "severalnines-clustercontrol-20-04"
 }
 
+variable "do_application_sharklabs-anaconda" {
+  description = "Anaconda 2023.09-0 on Ubuntu 22.04 (LTS)"
+  default     = "sharklabs-anaconda"
+}
+
 variable "do_application_sharklabs-dropletnfsserver" {
   description = "Droplet NFS Server 2.6.1 on Ubuntu 22.04"
   default     = "sharklabs-dropletnfsserver"
