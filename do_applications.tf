@@ -414,7 +414,7 @@ variable "do_application_mern" {
 }
 
 variable "do_application_mgtcommercegmbh-cloudpanel2ubunt" {
-  description = "CloudPanel 2 - Ubuntu 22.04 2.3.2 on Ubuntu 22.04"
+  description = "CloudPanel 2 - Ubuntu 22.04 2.4.0 on Ubuntu 22.04"
   default     = "mgtcommercegmbh-cloudpanel2ubunt"
 }
 
@@ -709,7 +709,7 @@ variable "do_application_supabase" {
 }
 
 variable "do_application_supernetworks-spr" {
-  description = "SPR 0.2.23 on Ubuntu 22.04"
+  description = "SPR 0.3.1 on Ubuntu 22.04"
   default     = "supernetworks-spr"
 }
 
