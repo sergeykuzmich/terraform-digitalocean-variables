@@ -49,7 +49,7 @@ variable "do_application_appwrite-20-04" {
 }
 
 variable "do_application_aqtraplatform" {
-  description = "Aqtra Platform 0.8.20 on Ubuntu 18.04+"
+  description = "Aqtra Platform 0.9.40 on Ubuntu 18.04+"
   default     = "aqtraplatform"
 }
 
@@ -394,7 +394,7 @@ variable "do_application_mariadb" {
 }
 
 variable "do_application_mastodon-18-04" {
-  description = "Mastodon 4.0.2 on Ubuntu 20.04"
+  description = "Mastodon 4.2.1 on Debian 12"
   default     = "mastodon-18-04"
 }
 
