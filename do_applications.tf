@@ -114,7 +114,7 @@ variable "do_application_clickhouse" {
 }
 
 variable "do_application_cloudron-20-04" {
-  description = "Cloudron 7.5.2 on Ubuntu 22.04"
+  description = "Cloudron 7.6.2 on Ubuntu 22.04"
   default     = "cloudron-20-04"
 }
 
@@ -154,7 +154,7 @@ variable "do_application_discourse-20-04" {
 }
 
 variable "do_application_django-20-04" {
-  description = "Django 4.1.1 on Ubuntu 22.04"
+  description = "Django 5.0 on Ubuntu 22.04"
   default     = "django-20-04"
 }
 
@@ -214,7 +214,7 @@ variable "do_application_flashphoner-7-6" {
 }
 
 variable "do_application_flask" {
-  description = "Flask 1.0 on Ubuntu 22.04"
+  description = "Flask 3.0.0 on Ubuntu 22.04"
   default     = "flask"
 }
 
@@ -721,6 +721,11 @@ variable "do_application_test433" {
 variable "do_application_thegrampsproject-grampsweb" {
   description = "Gramps Web 0.22.2+ on Ubuntu 20.04"
   default     = "thegrampsproject-grampsweb"
+}
+
+variable "do_application_ubuntudesktopgno" {
+  description = "Ubuntu Desktop (GNOME) 1.524 on Ubuntu 22.04"
+  default     = "ubuntudesktopgno"
 }
 
 variable "do_application_varnishsoftware-varnishcache-18-04" {
