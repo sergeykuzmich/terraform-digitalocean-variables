@@ -138,6 +138,11 @@ variable "do_application_csmm-20-04" {
   default     = "csmm-20-04"
 }
 
+variable "do_application_deskpro" {
+  description = "Deskpro on Ubuntu 22.04"
+  default     = "deskpro"
+}
+
 variable "do_application_devdojo-laravel-20-04" {
   description = "Laravel 10.16.1 on Ubuntu 22.04"
   default     = "devdojo-laravel-20-04"
@@ -259,7 +264,7 @@ variable "do_application_harperdb-18-04" {
 }
 
 variable "do_application_hollaex-hollaexkit" {
-  description = "HollaEx Kit 2.8.2 on Ubuntu 20.04"
+  description = "HollaEx Kit 2.9.1 on Ubuntu 20.04"
   default     = "hollaex-hollaexkit"
 }
 
