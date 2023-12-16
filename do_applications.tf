@@ -63,6 +63,11 @@ variable "do_application_ascensiosystemsi-onlyofficeeditor-18-04-4" {
   default     = "ascensiosystemsi-onlyofficeeditor-18-04-4"
 }
 
+variable "do_application_axlabs-1clicknodeforneo" {
+  description = "1ClickNode for Neo 3.6.2 on Ubuntu 22.04"
+  default     = "axlabs-1clicknodeforneo"
+}
+
 variable "do_application_azuracast-20-04" {
   description = "AzuraCast 0.17.7 on Ubuntu 22.04"
   default     = "azuracast-20-04"
@@ -626,6 +631,11 @@ variable "do_application_severalnines-clustercontrol-20-04" {
 variable "do_application_sharklabs-anaconda" {
   description = "Anaconda 2023.09-0 on Ubuntu 22.04 (LTS)"
   default     = "sharklabs-anaconda"
+}
+
+variable "do_application_sharklabs-codeserver1" {
+  description = "Code Server 4.19.1 on Ubuntu 22.04 (LTS)"
+  default     = "sharklabs-codeserver1"
 }
 
 variable "do_application_sharklabs-dropletnfsserver" {
