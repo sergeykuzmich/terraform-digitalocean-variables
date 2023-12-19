@@ -128,6 +128,11 @@ variable "do_application_codelathe-filecloud-20-04" {
   default     = "codelathe-filecloud-20-04"
 }
 
+variable "do_application_codertechnologie-vscodeserver" {
+  description = "VS Code Server 4.19.1 on Ubuntu 22.04 (LTS)"
+  default     = "codertechnologie-vscodeserver"
+}
+
 variable "do_application_convoy" {
   description = "Convoy 0.6.0 on Ubuntu 20.04"
   default     = "convoy"
@@ -319,7 +324,7 @@ variable "do_application_jitsiserver-20-04" {
 }
 
 variable "do_application_kandralabs-zulip-18-04" {
-  description = "Zulip 7.5 on Ubuntu 20.04"
+  description = "Zulip 8.0 on Ubuntu 20.04"
   default     = "kandralabs-zulip-18-04"
 }
 
