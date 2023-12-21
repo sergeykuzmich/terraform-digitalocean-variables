@@ -564,7 +564,7 @@ variable "do_application_playboxtechnolog-ottstream" {
 }
 
 variable "do_application_plesk-20-04" {
-  description = "Plesk 18.0.54 on Ubuntu 22.04"
+  description = "Plesk 18.0.57 on Ubuntu 22.04"
   default     = "plesk-20-04"
 }
 
@@ -576,6 +576,11 @@ variable "do_application_plesk-pleskcentos-7-9" {
 variable "do_application_postalsystemso-emailengine" {
   description = "EmailEngine 2.34.0 on Ubuntu 20.04"
   default     = "postalsystemso-emailengine"
+}
+
+variable "do_application_quantrocket" {
+  description = "QuantRocket 2.9.1 on Ubuntu 22.04"
+  default     = "quantrocket"
 }
 
 variable "do_application_questdb-20-04" {
@@ -749,7 +754,7 @@ variable "do_application_ubuntudesktopgno" {
 }
 
 variable "do_application_varnishsoftware-varnishcache-18-04" {
-  description = "Varnish Cache 6.0.11 on Ubuntu 20.04"
+  description = "Varnish Cache 6.0.12 on Ubuntu 20.04"
   default     = "varnishsoftware-varnishcache-18-04"
 }
 
