@@ -184,7 +184,7 @@ variable "do_application_dokku-20-04" {
 }
 
 variable "do_application_doteamaccount-pocketbase" {
-  description = "PocketBase 0.20.0 on Ubuntu 22.04"
+  description = "PocketBase 0.20.1 on Ubuntu 22.04"
   default     = "doteamaccount-pocketbase"
 }
 
@@ -239,7 +239,7 @@ variable "do_application_flexifyio-flexifyiomulticl-20-04" {
 }
 
 variable "do_application_flowforge" {
-  description = "FlowForge 1.14.0 on Ubuntu 22.04"
+  description = "FlowForge 1.15.0 on Ubuntu 22.04"
   default     = "flowforge"
 }
 
@@ -534,7 +534,7 @@ variable "do_application_osmosislabs-osmosis" {
 }
 
 variable "do_application_ossrs-srs" {
-  description = "SRS 5.11.24 on Ubuntu 20.04"
+  description = "SRS 5.12.17 on Ubuntu 20.04"
   default     = "ossrs-srs"
 }
 
