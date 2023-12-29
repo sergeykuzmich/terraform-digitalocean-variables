@@ -73,6 +73,11 @@ variable "do_application_azuracast-20-04" {
   default     = "azuracast-20-04"
 }
 
+variable "do_application_bevywise-bevywisemqttrout" {
+  description = "BevywiseMQTTRoute 4.0 on Ubuntu 22.04"
+  default     = "bevywise-bevywisemqttrout"
+}
+
 variable "do_application_bigcloud-odoo" {
   description = "Odoo 14 on Ubuntu 20.04"
   default     = "bigcloud-odoo"
@@ -209,7 +214,7 @@ variable "do_application_elasticsearch" {
 }
 
 variable "do_application_eltrino-magento2opensour-20-04" {
-  description = "Magento 2 Open Source 1.6.4 on Ubuntu 20.04 (LTS)"
+  description = "Magento 2 Open Source 1.6.5 on Ubuntu 20.04 (LTS)"
   default     = "eltrino-magento2opensour-20-04"
 }
 
@@ -569,7 +574,7 @@ variable "do_application_plesk-20-04" {
 }
 
 variable "do_application_plesk-pleskcentos-7-9" {
-  description = "Plesk (CentOS) 18.0.54 on CentOS 7.9"
+  description = "Plesk (CentOS) 18.0.57 on AlmaLinux 9"
   default     = "plesk-pleskcentos-7-9"
 }
 
