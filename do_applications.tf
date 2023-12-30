@@ -289,17 +289,17 @@ variable "do_application_ibsurgeon-hqbirdfirebird" {
 }
 
 variable "do_application_ibsurgeon-hqbirdfirebirdv2" {
-  description = "HQbird Firebird v2.5 2.5.9.2717-10.1.1623 on CentOS 7.x"
+  description = "HQbird Firebird v2.5 2.5.9.2717-10.2.1201 on CentOS 7.x"
   default     = "ibsurgeon-hqbirdfirebirdv2"
 }
 
 variable "do_application_ibsurgeon-hqbirdfirebirdv3" {
-  description = "HQbird Firebird v3.0 3.0.11.33646-10.1.14 on CentOS 7.x"
+  description = "HQbird Firebird v3.0 3.0.12.33725-10.2.12 on CentOS 7.x"
   default     = "ibsurgeon-hqbirdfirebirdv3"
 }
 
 variable "do_application_ibsurgeon-hqbirdfirebirdv4" {
-  description = "HQbird Firebird v4.0 4.0.3.2930-10.1.1623 on CentOS 7.x"
+  description = "HQbird Firebird v4.0 4.0.5.3034-10.2.1201 on CentOS 7.x"
   default     = "ibsurgeon-hqbirdfirebirdv4"
 }
 
