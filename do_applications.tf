@@ -253,6 +253,11 @@ variable "do_application_ghost-20-04" {
   default     = "ghost-20-04"
 }
 
+variable "do_application_gitlab-gitlabenterprise-20-04" {
+  description = "GitLab Enterprise Edition on Ubuntu 22.04"
+  default     = "gitlab-gitlabenterprise-20-04"
+}
+
 variable "do_application_gravitl-netmaker" {
   description = "Netmaker 0.18.7 on Ubuntu 22.10"
   default     = "gravitl-netmaker"
