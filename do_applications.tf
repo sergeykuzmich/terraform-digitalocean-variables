@@ -8,6 +8,11 @@ variable "do_application_3cxcommunication-3cx" {
   default     = "3cxcommunication-3cx"
 }
 
+variable "do_application_3cxcommunication-3cxv18" {
+  description = "3CX-V18 18.0.9.20 on Debian 10 (Buster)"
+  default     = "3cxcommunication-3cxv18"
+}
+
 variable "do_application_activepieces" {
   description = "Activepieces 0.3.13 on Ubuntu 22.04"
   default     = "activepieces"
@@ -84,7 +89,7 @@ variable "do_application_bigcloud-odoo" {
 }
 
 variable "do_application_bitwarden" {
-  description = "Bitwarden 2023.12.0 on Ubuntu 22.04"
+  description = "Bitwarden 2024.1.0 on Ubuntu 22.04"
   default     = "bitwarden"
 }
 
@@ -379,7 +384,7 @@ variable "do_application_litespeedtechnol-openlitespeeddja-20-04" {
 }
 
 variable "do_application_litespeedtechnol-openlitespeeddru" {
-  description = "OpenLiteSpeed Drupal 10.1.0 on Ubuntu 22.04"
+  description = "OpenLiteSpeed Drupal 10.2.0 on Ubuntu 22.04"
   default     = "litespeedtechnol-openlitespeeddru"
 }
 
