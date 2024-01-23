@@ -24,7 +24,7 @@ variable "do_application_akaunting-20-04" {
 }
 
 variable "do_application_analythium-shinyproxy-20-04" {
-  description = "ShinyProxy 3.0.0 on Ubuntu 22.04"
+  description = "ShinyProxy 3.0.2 on Ubuntu 22.04"
   default     = "analythium-shinyproxy-20-04"
 }
 
@@ -89,7 +89,7 @@ variable "do_application_bigcloud-odoo" {
 }
 
 variable "do_application_bitwarden" {
-  description = "Bitwarden 2024.1.0 on Ubuntu 22.04"
+  description = "Bitwarden 2024.1.1 on Ubuntu 22.04"
   default     = "bitwarden"
 }
 
@@ -209,7 +209,7 @@ variable "do_application_easypanel" {
 }
 
 variable "do_application_edgedb" {
-  description = "EdgeDB 3.4 on Ubuntu 20.04"
+  description = "EdgeDB 4.4 on Ubuntu 20.04"
   default     = "edgedb"
 }
 
@@ -244,12 +244,12 @@ variable "do_application_flask" {
 }
 
 variable "do_application_flexifyio-flexifyiomulticl-20-04" {
-  description = "Flexify.IO Multi-cloud / Migration 2.13.0 on Ubuntu 22.04 LTS"
+  description = "Flexify.IO Multi-cloud / Migration 2.14.0 on Ubuntu 22.04 LTS"
   default     = "flexifyio-flexifyiomulticl-20-04"
 }
 
 variable "do_application_flowforge" {
-  description = "FlowForge 1.15.0 on Ubuntu 22.04"
+  description = "FlowForge 2.0.0 on Ubuntu 22.04"
   default     = "flowforge"
 }
 
@@ -289,7 +289,7 @@ variable "do_application_harperdb-18-04" {
 }
 
 variable "do_application_hollaex-hollaexkit" {
-  description = "HollaEx Kit 2.9.1 on Ubuntu 20.04"
+  description = "HollaEx Kit 2.9.3 on Ubuntu 20.04"
   default     = "hollaex-hollaexkit"
 }
 
@@ -756,6 +756,11 @@ variable "do_application_supabase" {
 variable "do_application_supernetworks-spr" {
   description = "SPR 0.3.1 on Ubuntu 22.04"
   default     = "supernetworks-spr"
+}
+
+variable "do_application_swarmfoundation-swarmlightnode" {
+  description = "Swarm Lightnode 0.1a on Ubuntu 20.04"
+  default     = "swarmfoundation-swarmlightnode"
 }
 
 variable "do_application_test433" {
