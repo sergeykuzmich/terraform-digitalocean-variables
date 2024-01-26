@@ -89,7 +89,7 @@ variable "do_application_bigcloud-odoo" {
 }
 
 variable "do_application_bitwarden" {
-  description = "Bitwarden 2024.1.1 on Ubuntu 22.04"
+  description = "Bitwarden 2024.1.2 on Ubuntu 22.04"
   default     = "bitwarden"
 }
 
@@ -194,7 +194,7 @@ variable "do_application_dokku-20-04" {
 }
 
 variable "do_application_doteamaccount-pocketbase" {
-  description = "PocketBase 0.20.7 on Ubuntu 22.04"
+  description = "PocketBase 0.21.1 on Ubuntu 22.04"
   default     = "doteamaccount-pocketbase"
 }
 
@@ -339,7 +339,7 @@ variable "do_application_jitsiserver-20-04" {
 }
 
 variable "do_application_kandralabs-zulip-18-04" {
-  description = "Zulip 8.0 on Ubuntu 20.04"
+  description = "Zulip 8.1 on Ubuntu 20.04"
   default     = "kandralabs-zulip-18-04"
 }
 
@@ -404,7 +404,7 @@ variable "do_application_litespeedtechnol-openlitespeedrai-20-04" {
 }
 
 variable "do_application_litespeedtechnol-openlitespeedwor-20-04" {
-  description = "OpenLiteSpeed WordPress 6.3.1 on Ubuntu 22.04"
+  description = "OpenLiteSpeed WordPress 6.4.2 on Ubuntu 22.04"
   default     = "litespeedtechnol-openlitespeedwor-20-04"
 }
 
@@ -559,7 +559,7 @@ variable "do_application_passboltsa-passboltce-20-04" {
 }
 
 variable "do_application_perforce-perforcehelixcor" {
-  description = "Perforce Helix Core 2022.1 on Rocky 8"
+  description = "Perforce Helix Core 2023.2 on Rocky 8"
   default     = "perforce-perforcehelixcor"
 }
 
@@ -634,7 +634,7 @@ variable "do_application_runcloud-runcloud2004-20-04" {
 }
 
 variable "do_application_saltcorn-20-04" {
-  description = "Saltcorn 0.8.7 on Debian 12"
+  description = "Saltcorn 0.9.3 on Debian 12"
   default     = "saltcorn-20-04"
 }
 
