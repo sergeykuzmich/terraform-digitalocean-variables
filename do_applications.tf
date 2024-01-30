@@ -444,7 +444,7 @@ variable "do_application_mern" {
 }
 
 variable "do_application_mgtcommercegmbh-cloudpanel2ubunt" {
-  description = "CloudPanel 2 - Ubuntu 22.04 2.4.0 on Ubuntu 22.04"
+  description = "CloudPanel 2 - Ubuntu 22.04 2.4.1 on Ubuntu 22.04"
   default     = "mgtcommercegmbh-cloudpanel2ubunt"
 }
 
@@ -761,6 +761,11 @@ variable "do_application_supernetworks-spr" {
 variable "do_application_swarmfoundation-swarmlightnode" {
   description = "Swarm Lightnode 0.1a on Ubuntu 20.04"
   default     = "swarmfoundation-swarmlightnode"
+}
+
+variable "do_application_tebex-tebexrconadapter" {
+  description = "Tebex RCON Adapter 1.0.0-alpha.5 on 22.04"
+  default     = "tebex-tebexrconadapter"
 }
 
 variable "do_application_test433" {
