@@ -389,7 +389,7 @@ variable "do_application_litespeedtechnol-openlitespeeddru" {
 }
 
 variable "do_application_litespeedtechnol-openlitespeedjoo-20-04" {
-  description = "OpenLiteSpeed Joomla 4.2.2 on Ubuntu 22.04"
+  description = "OpenLiteSpeed Joomla 4.4.2 on Ubuntu 22.04"
   default     = "litespeedtechnol-openlitespeedjoo-20-04"
 }
 
@@ -786,6 +786,11 @@ variable "do_application_ubuntudesktopgno" {
 variable "do_application_varnishsoftware-varnishcache-18-04" {
   description = "Varnish Cache 6.0.12 on Ubuntu 20.04"
   default     = "varnishsoftware-varnishcache-18-04"
+}
+
+variable "do_application_victoriametrics-victorialogssing" {
+  description = "VictoriaLogs Single 0.4.2 on 22.04"
+  default     = "victoriametrics-victorialogssing"
 }
 
 variable "do_application_victoriametrics-victoriametricss" {
