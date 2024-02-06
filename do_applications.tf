@@ -209,7 +209,7 @@ variable "do_application_easypanel" {
 }
 
 variable "do_application_edgedb" {
-  description = "EdgeDB 4.4 on Ubuntu 20.04"
+  description = "EdgeDB 4.5 on Ubuntu 20.04"
   default     = "edgedb"
 }
 
