@@ -93,6 +93,11 @@ variable "do_application_bitwarden" {
   default     = "bitwarden"
 }
 
+variable "do_application_border0" {
+  description = "Border0 1.1-603 on Ubuntu 22.04"
+  default     = "border0"
+}
+
 variable "do_application_botguardo-botguardgatekeep" {
   description = "BotGuard GateKeeper 1.2.2 on Debian 12 (bookworm)"
   default     = "botguardo-botguardgatekeep"
