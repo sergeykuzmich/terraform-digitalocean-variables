@@ -29,12 +29,12 @@ variable "do_application_analythium-shinyproxy-20-04" {
 }
 
 variable "do_application_antmedia-antmediaserverco-18-04" {
-  description = "Ant Media Server Community Edition 2.7.0 on Ubuntu 20.04"
+  description = "Ant Media Server Community Edition 2.8.2 on Ubuntu 20.04"
   default     = "antmedia-antmediaserverco-18-04"
 }
 
 variable "do_application_antmedia-antmediaserveren-18-04" {
-  description = "Ant Media Server Enterprise Edition 2.7.0 on Ubuntu 20.04"
+  description = "Ant Media Server Enterprise Edition 2.8.2 on Ubuntu 22.04"
   default     = "antmedia-antmediaserveren-18-04"
 }
 
@@ -89,7 +89,7 @@ variable "do_application_bigcloud-odoo" {
 }
 
 variable "do_application_bitwarden" {
-  description = "Bitwarden 2024.1.2 on Ubuntu 22.04"
+  description = "Bitwarden 2024.2.0 on Ubuntu 22.04"
   default     = "bitwarden"
 }
 
@@ -199,7 +199,7 @@ variable "do_application_dokku-20-04" {
 }
 
 variable "do_application_doteamaccount-pocketbase" {
-  description = "PocketBase 0.21.1 on Ubuntu 22.04"
+  description = "PocketBase 0.21.2 on Ubuntu 22.04"
   default     = "doteamaccount-pocketbase"
 }
 
@@ -228,13 +228,18 @@ variable "do_application_eltrino-magento2opensour-20-04" {
   default     = "eltrino-magento2opensour-20-04"
 }
 
+variable "do_application_eummena-moodle-10" {
+  description = "moodle 4.3.2 on Debian 12"
+  default     = "eummena-moodle-10"
+}
+
 variable "do_application_farm" {
   description = "FARM 1.0 on Ubuntu 22.04"
   default     = "farm"
 }
 
 variable "do_application_fastpanel-deb-9" {
-  description = "FASTPANEL 1.10-ubuntu20.04p206 on Ubuntu 20.04"
+  description = "FASTPANEL 1.10-ubuntu20.04p407 on Ubuntu 20.04"
   default     = "fastpanel-deb-9"
 }
 
@@ -294,7 +299,7 @@ variable "do_application_harperdb-18-04" {
 }
 
 variable "do_application_hollaex-hollaexkit" {
-  description = "HollaEx Kit 2.9.3 on Ubuntu 20.04"
+  description = "HollaEx Kit 2.9.5 on Ubuntu 20.04"
   default     = "hollaex-hollaexkit"
 }
 
@@ -338,6 +343,11 @@ variable "do_application_jelastic-jelasticpaas-7" {
   default     = "jelastic-jelasticpaas-7"
 }
 
+variable "do_application_jelastic-virtuozzoapplica" {
+  description = "Virtuozzo Application Platform  8.4-3 on CentOS 7"
+  default     = "jelastic-virtuozzoapplica"
+}
+
 variable "do_application_jitsiserver-20-04" {
   description = "Jitsi Server on Ubuntu 22.04"
   default     = "jitsiserver-20-04"
@@ -379,7 +389,7 @@ variable "do_application_linuxgsm" {
 }
 
 variable "do_application_litespeedtechnol-cyberpanel-20-04" {
-  description = "CyberPanel 2.3.4 on Ubuntu 22.04"
+  description = "CyberPanel 2.3.5 on Ubuntu 22.04"
   default     = "litespeedtechnol-cyberpanel-20-04"
 }
 
@@ -409,7 +419,7 @@ variable "do_application_litespeedtechnol-openlitespeedrai-20-04" {
 }
 
 variable "do_application_litespeedtechnol-openlitespeedwor-20-04" {
-  description = "OpenLiteSpeed WordPress 6.4.2 on Ubuntu 22.04"
+  description = "OpenLiteSpeed WordPress 6.4.3 on Ubuntu 22.04"
   default     = "litespeedtechnol-openlitespeedwor-20-04"
 }
 
@@ -454,7 +464,7 @@ variable "do_application_mgtcommercegmbh-cloudpanel2ubunt" {
 }
 
 variable "do_application_microwebercms-microweber-20-04" {
-  description = "Microweber 1.3.1 on Ubuntu 20.04"
+  description = "Microweber 2.0.9 on Ubuntu 22.04"
   default     = "microwebercms-microweber-20-04"
 }
 
@@ -554,7 +564,7 @@ variable "do_application_osmosislabs-osmosis" {
 }
 
 variable "do_application_ossrs-srs" {
-  description = "SRS 5.12.17 on Ubuntu 20.04"
+  description = "SRS 5.13.21 on Ubuntu 20.04"
   default     = "ossrs-srs"
 }
 
