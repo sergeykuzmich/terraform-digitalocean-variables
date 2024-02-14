@@ -199,7 +199,7 @@ variable "do_application_dokku-20-04" {
 }
 
 variable "do_application_doteamaccount-pocketbase" {
-  description = "PocketBase 0.21.2 on Ubuntu 22.04"
+  description = "PocketBase 0.21.3 on Ubuntu 22.04"
   default     = "doteamaccount-pocketbase"
 }
 
@@ -346,6 +346,11 @@ variable "do_application_jelastic-jelasticpaas-7" {
 variable "do_application_jelastic-virtuozzoapplica" {
   description = "Virtuozzo Application Platform  8.4-3 on CentOS 7"
   default     = "jelastic-virtuozzoapplica"
+}
+
+variable "do_application_jenkins" {
+  description = "Jenkins 2.445 on Ubuntu 22.04"
+  default     = "jenkins"
 }
 
 variable "do_application_jitsiserver-20-04" {
@@ -781,6 +786,11 @@ variable "do_application_swarmfoundation-swarmlightnode" {
 variable "do_application_tebex-tebexrconadapter" {
   description = "Tebex RCON Adapter 1.0.0-alpha.5 on 22.04"
   default     = "tebex-tebexrconadapter"
+}
+
+variable "do_application_temporal" {
+  description = "Temporal 1.22.4 on Ubuntu 22.04"
+  default     = "temporal"
 }
 
 variable "do_application_test433" {
