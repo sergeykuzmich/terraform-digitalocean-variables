@@ -349,7 +349,7 @@ variable "do_application_jelastic-virtuozzoapplica" {
 }
 
 variable "do_application_jenkins" {
-  description = "Jenkins 2.445 on Ubuntu 22.04"
+  description = "Jenkins 2.426.3 on Ubuntu 22.04"
   default     = "jenkins"
 }
 
