@@ -189,7 +189,7 @@ variable "do_application_django-20-04" {
 }
 
 variable "do_application_docker-20-04" {
-  description = "Docker 23.0.6 on Ubuntu 22.04"
+  description = "Docker 25.0.3 on Ubuntu 22.04"
   default     = "docker-20-04"
 }
 
