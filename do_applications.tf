@@ -574,7 +574,7 @@ variable "do_application_ossrs-srs" {
 }
 
 variable "do_application_passboltsa-passboltce-20-04" {
-  description = "Passbolt CE 4.4.1-1 on Ubuntu 20.04"
+  description = "Passbolt CE 4.5.2-1 on Ubuntu 20.04"
   default     = "passboltsa-passboltce-20-04"
 }
 
@@ -659,7 +659,7 @@ variable "do_application_saltcorn-20-04" {
 }
 
 variable "do_application_sandflysecurity-20-04" {
-  description = "Sandfly Security 4.6.1 on Ubuntu 22.04"
+  description = "Sandfly Security 5.0.4 on Ubuntu 22.04"
   default     = "sandflysecurity-20-04"
 }
 
