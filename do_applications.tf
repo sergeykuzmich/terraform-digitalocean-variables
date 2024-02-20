@@ -634,7 +634,7 @@ variable "do_application_rackware-rackwarecloudmig" {
 }
 
 variable "do_application_rocketchat-20-04" {
-  description = "Rocket.Chat 6.3.4 on Ubuntu 20.04"
+  description = "Rocket.Chat 6.6.0 on Ubuntu 20.04"
   default     = "rocketchat-20-04"
 }
 
