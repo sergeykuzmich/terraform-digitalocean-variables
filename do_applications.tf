@@ -224,7 +224,7 @@ variable "do_application_elasticsearch" {
 }
 
 variable "do_application_eltrino-magento2opensour-20-04" {
-  description = "Magento 2 Open Source 1.6.5 on Ubuntu 20.04 (LTS)"
+  description = "Magento 2 Open Source 1.6.6 on Ubuntu 20.04 (LTS)"
   default     = "eltrino-magento2opensour-20-04"
 }
 
@@ -254,12 +254,12 @@ variable "do_application_flask" {
 }
 
 variable "do_application_flexifyio-flexifyiomulticl-20-04" {
-  description = "Flexify.IO Multi-cloud / Migration 2.14.0 on Ubuntu 22.04 LTS"
+  description = "Flexify.IO Multi-cloud / Migration 2.15.0 on Ubuntu 22.04 LTS"
   default     = "flexifyio-flexifyiomulticl-20-04"
 }
 
 variable "do_application_flowforge" {
-  description = "FlowForge 2.0.0 on Ubuntu 22.04"
+  description = "FlowForge 2.1.0 on Ubuntu 22.04"
   default     = "flowforge"
 }
 
@@ -359,7 +359,7 @@ variable "do_application_jitsiserver-20-04" {
 }
 
 variable "do_application_kandralabs-zulip-18-04" {
-  description = "Zulip 8.1 on Ubuntu 20.04"
+  description = "Zulip 8.2 on Ubuntu 20.04"
   default     = "kandralabs-zulip-18-04"
 }
 
