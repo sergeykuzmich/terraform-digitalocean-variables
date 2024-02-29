@@ -39,7 +39,7 @@ variable "do_application_antmedia-antmediaserveren-18-04" {
 }
 
 variable "do_application_apliteni-keitaro" {
-  description = "Keitaro 10.1.2 on CentOS 9 Stream"
+  description = "Keitaro 10.2 on CentOS 9 Stream"
   default     = "apliteni-keitaro"
 }
 
@@ -89,7 +89,7 @@ variable "do_application_bigcloud-odoo" {
 }
 
 variable "do_application_bitwarden" {
-  description = "Bitwarden 2024.2.0 on Ubuntu 22.04"
+  description = "Bitwarden 2024.2.2 on Ubuntu 22.04"
   default     = "bitwarden"
 }
 
@@ -139,7 +139,7 @@ variable "do_application_cloudron-20-04" {
 }
 
 variable "do_application_codelathe-filecloud-20-04" {
-  description = "FileCloud 23.1 on Ubuntu 22.04"
+  description = "FileCloud 23.232 on Ubuntu 22.04"
   default     = "codelathe-filecloud-20-04"
 }
 
@@ -334,7 +334,7 @@ variable "do_application_invoiceninja-20-0-4" {
 }
 
 variable "do_application_ispmanager-ispmanager6" {
-  description = "Ispmanager 6 6.80.0 on Ubuntu 20.04"
+  description = "Ispmanager 6 6.90.2 on Ubuntu 20.04"
   default     = "ispmanager-ispmanager6"
 }
 
@@ -599,12 +599,12 @@ variable "do_application_playboxtechnolog-ottstream" {
 }
 
 variable "do_application_plesk-20-04" {
-  description = "Plesk 18.0.57 on Ubuntu 22.04"
+  description = "Plesk 18.0.59 on Ubuntu 22.04"
   default     = "plesk-20-04"
 }
 
 variable "do_application_plesk-pleskcentos-7-9" {
-  description = "Plesk (CentOS) 18.0.57 on AlmaLinux 9"
+  description = "Plesk (CentOS) 18.0.59 on AlmaLinux 9"
   default     = "plesk-pleskcentos-7-9"
 }
 
