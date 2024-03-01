@@ -688,6 +688,11 @@ variable "do_application_sharklabs-codeserver1" {
   default     = "sharklabs-codeserver1"
 }
 
+variable "do_application_sharklabs-counterstrike2" {
+  description = "Counter Strike 2 0~20180105-4:i386 on Ubuntu 22.04"
+  default     = "sharklabs-counterstrike2"
+}
+
 variable "do_application_sharklabs-dropletnfsserver" {
   description = "Droplet NFS Server 2.6.1 on Ubuntu 22.04"
   default     = "sharklabs-dropletnfsserver"
