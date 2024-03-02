@@ -674,7 +674,7 @@ variable "do_application_seatablegmbh-seatable" {
 }
 
 variable "do_application_severalnines-clustercontrol-20-04" {
-  description = "ClusterControl 1.9.7 on Ubuntu 20.04"
+  description = "ClusterControl 1.9.8 on Ubuntu 20.04"
   default     = "severalnines-clustercontrol-20-04"
 }
 
@@ -689,7 +689,7 @@ variable "do_application_sharklabs-codeserver1" {
 }
 
 variable "do_application_sharklabs-counterstrike2" {
-  description = "Counter Strike 2 0~20180105-4:i386 on Ubuntu 22.04"
+  description = "Counter Strike 2 on Ubuntu 22.04"
   default     = "sharklabs-counterstrike2"
 }
 
