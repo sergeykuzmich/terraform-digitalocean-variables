@@ -54,17 +54,17 @@ variable "do_application_appwrite-20-04" {
 }
 
 variable "do_application_aqtraplatform" {
-  description = "Aqtra Platform 0.9.40 on Ubuntu 18.04+"
+  description = "Aqtra Platform 0.13 on Ubuntu 20.04"
   default     = "aqtraplatform"
 }
 
 variable "do_application_ascensiosystem-onlyoffice-18-04" {
-  description = "ONLYOFFICE Workspace 23.05.777 on Ubuntu 20.04 LTS"
+  description = "ONLYOFFICE Workspace 24.02.802 on Ubuntu 22.04 LTS"
   default     = "ascensiosystem-onlyoffice-18-04"
 }
 
 variable "do_application_ascensiosystemsi-onlyofficeeditor-18-04-4" {
-  description = "ONLYOFFICE Docs 7.4.1 on Ubuntu 20.04 LTS"
+  description = "ONLYOFFICE Docs 8.0.1 on Ubuntu 22.04 LTS"
   default     = "ascensiosystemsi-onlyofficeeditor-18-04-4"
 }
 
@@ -131,6 +131,11 @@ variable "do_application_chaarmiworlds-metaverse" {
 variable "do_application_chevereto-20-04" {
   description = "Chevereto 4 on Ubuntu 22.04 LTS"
   default     = "chevereto-20-04"
+}
+
+variable "do_application_chevereto-xrdebug" {
+  description = "xrDebug on Ubuntu 22.04 LTS"
+  default     = "chevereto-xrdebug"
 }
 
 variable "do_application_clickhouse" {
@@ -204,7 +209,7 @@ variable "do_application_dokku-20-04" {
 }
 
 variable "do_application_doteamaccount-pocketbase" {
-  description = "PocketBase 0.22.0 on Ubuntu 22.04"
+  description = "PocketBase 0.22.2 on Ubuntu 22.04"
   default     = "doteamaccount-pocketbase"
 }
 
@@ -229,7 +234,7 @@ variable "do_application_elasticsearch" {
 }
 
 variable "do_application_eltrino-magento2opensour-20-04" {
-  description = "Magento 2 Open Source 1.6.6 on Ubuntu 20.04 (LTS)"
+  description = "Magento 2 Open Source 1.6.7 on Ubuntu 20.04 (LTS)"
   default     = "eltrino-magento2opensour-20-04"
 }
 
@@ -326,6 +331,11 @@ variable "do_application_ibsurgeon-hqbirdfirebirdv3" {
 variable "do_application_ibsurgeon-hqbirdfirebirdv4" {
   description = "HQbird Firebird v4.0 4.0.5.3034-10.2.1201 on CentOS 7.x"
   default     = "ibsurgeon-hqbirdfirebirdv4"
+}
+
+variable "do_application_ibsurgeon-hqbirdfirebirdv5" {
+  description = "HQbird Firebird v5.0 5.0.1.1340-10.2.1201 on CentOS 7.x"
+  default     = "ibsurgeon-hqbirdfirebirdv5"
 }
 
 variable "do_application_intel-intelgprofilercr" {
@@ -664,7 +674,7 @@ variable "do_application_saltcorn-20-04" {
 }
 
 variable "do_application_sandflysecurity-20-04" {
-  description = "Sandfly Security 5.0.4 on Ubuntu 22.04"
+  description = "Sandfly Security 5.0.5 on Ubuntu 22.04"
   default     = "sandflysecurity-20-04"
 }
 
