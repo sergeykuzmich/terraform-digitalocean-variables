@@ -39,7 +39,7 @@ variable "do_application_antmedia-antmediaserveren-18-04" {
 }
 
 variable "do_application_apliteni-keitaro" {
-  description = "Keitaro 10.2 on CentOS 9 Stream"
+  description = "Keitaro 10.2.1 on CentOS 9 Stream"
   default     = "apliteni-keitaro"
 }
 
@@ -209,7 +209,7 @@ variable "do_application_dokku-20-04" {
 }
 
 variable "do_application_doteamaccount-pocketbase" {
-  description = "PocketBase 0.22.2 on Ubuntu 22.04"
+  description = "PocketBase 0.22.3 on Ubuntu 22.04"
   default     = "doteamaccount-pocketbase"
 }
 
@@ -269,7 +269,7 @@ variable "do_application_flexifyio-flexifyiomulticl-20-04" {
 }
 
 variable "do_application_flowforge" {
-  description = "FlowForge 2.1.0 on Ubuntu 22.04"
+  description = "FlowForge 2.2.0 on Ubuntu 22.04"
   default     = "flowforge"
 }
 
@@ -584,7 +584,7 @@ variable "do_application_osmosislabs-osmosis" {
 }
 
 variable "do_application_ossrs-srs" {
-  description = "SRS 5.13.21 on Ubuntu 20.04"
+  description = "SRS 5.13.31 on Ubuntu 20.04"
   default     = "ossrs-srs"
 }
 
@@ -709,7 +709,7 @@ variable "do_application_sharklabs-counterstrike2" {
 }
 
 variable "do_application_sharklabs-dropletnfsserver" {
-  description = "Droplet NFS Server 2.6.1 on Ubuntu 22.04"
+  description = "Droplet NFS Server on Ubuntu 22.04"
   default     = "sharklabs-dropletnfsserver"
 }
 
