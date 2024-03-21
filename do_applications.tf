@@ -209,7 +209,7 @@ variable "do_application_dokku-20-04" {
 }
 
 variable "do_application_doteamaccount-pocketbase" {
-  description = "PocketBase 0.22.3 on Ubuntu 22.04"
+  description = "PocketBase 0.22.4 on Ubuntu 22.04"
   default     = "doteamaccount-pocketbase"
 }
 
@@ -304,7 +304,7 @@ variable "do_application_haltdos-haltdoswafpro" {
 }
 
 variable "do_application_harperdb-18-04" {
-  description = "HarperDB 4.2.0 on Ubuntu 22.04"
+  description = "HarperDB 4.3.0 on Ubuntu 22.04"
   default     = "harperdb-18-04"
 }
 
@@ -524,7 +524,7 @@ variable "do_application_nginx" {
 }
 
 variable "do_application_nirvatosoftware-nirvashare-20-04" {
-  description = "NirvaShare 4.0 on Ubuntu 20.04 (LTS)"
+  description = "NirvaShare 5.1.0 on Ubuntu 20.04 (LTS)"
   default     = "nirvatosoftware-nirvashare-20-04"
 }
 
