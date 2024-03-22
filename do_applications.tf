@@ -164,7 +164,7 @@ variable "do_application_convoy" {
 }
 
 variable "do_application_cpanel-cpanelwhmforalma" {
-  description = "cPanel & WHM® for AlmaLinux 8 RELEASE on AlmaLinux 8"
+  description = "cPanel & WHM® for AlmaLinux 8 RELEASE on AlmaLinux 9"
   default     = "cpanel-cpanelwhmforalma"
 }
 
