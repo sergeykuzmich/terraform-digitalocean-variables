@@ -18,6 +18,11 @@ variable "do_application_activepieces" {
   default     = "activepieces"
 }
 
+variable "do_application_airflow" {
+  description = "Airflow 2.8.3 on Ubuntu 22.04"
+  default     = "airflow"
+}
+
 variable "do_application_akaunting-20-04" {
   description = "Akaunting on Ubuntu 20.04"
   default     = "akaunting-20-04"
@@ -234,7 +239,7 @@ variable "do_application_elasticsearch" {
 }
 
 variable "do_application_eltrino-magento2opensour-20-04" {
-  description = "Magento 2 Open Source 1.6.7 on Ubuntu 20.04 (LTS)"
+  description = "Magento 2 Open Source 1.6.9 on Ubuntu 20.04 (LTS)"
   default     = "eltrino-magento2opensour-20-04"
 }
 
