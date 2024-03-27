@@ -169,7 +169,7 @@ variable "do_application_convoy" {
 }
 
 variable "do_application_cpanel-cpanelwhmforalma" {
-  description = "cPanel & WHM® for AlmaLinux 8 RELEASE on AlmaLinux 9"
+  description = "cPanel & WHM® for AlmaLinux 9 RELEASE on AlmaLinux 9"
   default     = "cpanel-cpanelwhmforalma"
 }
 
@@ -229,7 +229,7 @@ variable "do_application_easypanel" {
 }
 
 variable "do_application_edgedb" {
-  description = "EdgeDB 4.5 on Ubuntu 20.04"
+  description = "EdgeDB 4.6 on Ubuntu 20.04"
   default     = "edgedb"
 }
 
@@ -379,7 +379,7 @@ variable "do_application_jitsiserver-20-04" {
 }
 
 variable "do_application_kandralabs-zulip-18-04" {
-  description = "Zulip 8.2 on Ubuntu 20.04"
+  description = "Zulip 8.3 on Ubuntu 20.04"
   default     = "kandralabs-zulip-18-04"
 }
 
