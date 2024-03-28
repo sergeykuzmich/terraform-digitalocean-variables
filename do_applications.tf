@@ -94,7 +94,7 @@ variable "do_application_bigcloud-odoo" {
 }
 
 variable "do_application_bitwarden" {
-  description = "Bitwarden 2024.2.3 on Ubuntu 22.04"
+  description = "Bitwarden 2024.3.0 on Ubuntu 22.04"
   default     = "bitwarden"
 }
 
@@ -189,7 +189,7 @@ variable "do_application_devdojo-laravel-20-04" {
 }
 
 variable "do_application_devrel-teleport-20-04" {
-  description = "Teleport 14 on Ubuntu 20.04"
+  description = "Teleport 15 on Ubuntu 20.04"
   default     = "devrel-teleport-20-04"
 }
 
@@ -214,7 +214,7 @@ variable "do_application_dokku-20-04" {
 }
 
 variable "do_application_doteamaccount-pocketbase" {
-  description = "PocketBase 0.22.4 on Ubuntu 22.04"
+  description = "PocketBase 0.22.5 on Ubuntu 22.04"
   default     = "doteamaccount-pocketbase"
 }
 
