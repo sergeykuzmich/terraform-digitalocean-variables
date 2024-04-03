@@ -214,7 +214,7 @@ variable "do_application_dokku-20-04" {
 }
 
 variable "do_application_doteamaccount-pocketbase" {
-  description = "PocketBase 0.22.6 on Ubuntu 22.04"
+  description = "PocketBase 0.22.7 on Ubuntu 22.04"
   default     = "doteamaccount-pocketbase"
 }
 
@@ -309,12 +309,12 @@ variable "do_application_haltdos-haltdoswafpro" {
 }
 
 variable "do_application_harperdb-18-04" {
-  description = "HarperDB 4.3.0 on Ubuntu 22.04"
+  description = "HarperDB 4.3.2 on Ubuntu 22.04"
   default     = "harperdb-18-04"
 }
 
 variable "do_application_hollaex-hollaexkit" {
-  description = "HollaEx Kit 2.9.5 on Ubuntu 20.04"
+  description = "HollaEx Kit 2.10.1 on Ubuntu 20.04"
   default     = "hollaex-hollaexkit"
 }
 
@@ -508,6 +508,11 @@ variable "do_application_mpdev-testingupdateapp" {
   default     = "mpdev-testingupdateapp"
 }
 
+variable "do_application_multiversx-multiversxobserv" {
+  description = "MultiversX Observing Squad v1.0 1.0 on Ubuntu 22.04"
+  default     = "multiversx-multiversxobserv"
+}
+
 variable "do_application_nakama-18-04" {
   description = "Nakama 3.12.0 on Ubuntu 18.04"
   default     = "nakama-18-04"
@@ -624,8 +629,13 @@ variable "do_application_plesk-20-04" {
 }
 
 variable "do_application_plesk-pleskcentos-7-9" {
-  description = "Plesk (CentOS) 18.0.59 on AlmaLinux 9"
+  description = "Plesk (CentOS) 49 on AlmaLinux 9"
   default     = "plesk-pleskcentos-7-9"
+}
+
+variable "do_application_plesk-plesktest" {
+  description = "Plesk-test 18.0.59 on Ubuntu 22.04"
+  default     = "plesk-plesktest"
 }
 
 variable "do_application_postalsystemso-emailengine" {
