@@ -149,7 +149,7 @@ variable "do_application_clickhouse" {
 }
 
 variable "do_application_cloudron-20-04" {
-  description = "Cloudron 7.6.2 on Ubuntu 22.04"
+  description = "Cloudron 7.7.2 on Ubuntu 22.04"
   default     = "cloudron-20-04"
 }
 
@@ -214,7 +214,7 @@ variable "do_application_dokku-20-04" {
 }
 
 variable "do_application_doteamaccount-pocketbase" {
-  description = "PocketBase 0.22.7 on Ubuntu 22.04"
+  description = "PocketBase 0.22.8 on Ubuntu 22.04"
   default     = "doteamaccount-pocketbase"
 }
 
@@ -229,7 +229,7 @@ variable "do_application_easypanel" {
 }
 
 variable "do_application_edgedb" {
-  description = "EdgeDB 4.6 on Ubuntu 20.04"
+  description = "EdgeDB 4.7 on Ubuntu 20.04"
   default     = "edgedb"
 }
 
@@ -509,7 +509,7 @@ variable "do_application_mpdev-testingupdateapp" {
 }
 
 variable "do_application_multiversx-multiversxobserv" {
-  description = "MultiversX Observing Squad v1.0 1.0 on Ubuntu 22.04"
+  description = "MultiversX Observing Squad 1.0 on Ubuntu 22.04"
   default     = "multiversx-multiversxobserv"
 }
 
@@ -629,7 +629,7 @@ variable "do_application_plesk-20-04" {
 }
 
 variable "do_application_plesk-pleskcentos-7-9" {
-  description = "Plesk (CentOS) 49 on AlmaLinux 9"
+  description = "Plesk (CentOS) 18.0.60 on AlmaLinux 9"
   default     = "plesk-pleskcentos-7-9"
 }
 
@@ -639,7 +639,7 @@ variable "do_application_plesk-plesktest" {
 }
 
 variable "do_application_postalsystemso-emailengine" {
-  description = "EmailEngine 2.34.0 on Ubuntu 20.04"
+  description = "EmailEngine 2.40.9 on Ubuntu 22.04"
   default     = "postalsystemso-emailengine"
 }
 
@@ -884,7 +884,7 @@ variable "do_application_wpclouddeploy" {
 }
 
 variable "do_application_yeastar-yeastarpseriesph" {
-  description = "Yeastar P-Series Phone System 83.13.0.34.4401 on Ubuntu 20.04 LTS"
+  description = "Yeastar P-Series Phone System 83.13.0.29.4405 on Ubuntu 20.04 LTS"
   default     = "yeastar-yeastarpseriesph"
 }
 
