@@ -94,7 +94,7 @@ variable "do_application_bigcloud-odoo" {
 }
 
 variable "do_application_bitwarden" {
-  description = "Bitwarden 2024.3.0 on Ubuntu 22.04"
+  description = "Bitwarden 2024.3.2 on Ubuntu 22.04"
   default     = "bitwarden"
 }
 
@@ -216,6 +216,11 @@ variable "do_application_dokku-20-04" {
 variable "do_application_doteamaccount-pocketbase" {
   description = "PocketBase 0.22.8 on Ubuntu 22.04"
   default     = "doteamaccount-pocketbase"
+}
+
+variable "do_application_drakkarsoftware-octobot" {
+  description = "OctoBot 1.0.0 on Ubuntu 22.04"
+  default     = "drakkarsoftware-octobot"
 }
 
 variable "do_application_dreamfactory" {
@@ -654,7 +659,7 @@ variable "do_application_questdb-20-04" {
 }
 
 variable "do_application_rabbitmq" {
-  description = "RabbitMQ 3.12 on Ubuntu 22.04"
+  description = "RabbitMQ 3.13.1 on Ubuntu 22.04"
   default     = "rabbitmq"
 }
 
@@ -919,7 +924,7 @@ variable "do_application_znuny" {
 }
 
 variable "do_application_znuny-znunylts-10" {
-  description = "Znuny LTS 6.0.48 on Debian 10 (buster)"
+  description = "Znuny LTS 6.5.7 on Debian 12 bookworm)"
   default     = "znuny-znunylts-10"
 }
     
