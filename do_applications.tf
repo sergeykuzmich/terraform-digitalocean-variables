@@ -779,7 +779,7 @@ variable "do_application_shellhub" {
 }
 
 variable "do_application_smartarget-wordpresswoocomm" {
-  description = "WordPress-WooCommerce 7.0.0 on Ubuntu 20.04"
+  description = "WordPress-WooCommerce 8.7.0 on Ubuntu 22.04"
   default     = "smartarget-wordpresswoocomm"
 }
 
