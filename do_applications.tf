@@ -773,6 +773,11 @@ variable "do_application_sharklabs-testproject" {
   default     = "sharklabs-testproject"
 }
 
+variable "do_application_sharklabs-valkey" {
+  description = "Valkey on Ubuntu 22.04"
+  default     = "sharklabs-valkey"
+}
+
 variable "do_application_shellhub" {
   description = "ShellHub 0.10.4 on Ubuntu 22.04"
   default     = "shellhub"
@@ -841,6 +846,11 @@ variable "do_application_test433" {
 variable "do_application_thegrampsproject-grampsweb" {
   description = "Gramps Web 0.22.2+ on Ubuntu 20.04"
   default     = "thegrampsproject-grampsweb"
+}
+
+variable "do_application_tips4designsrl-uxwizz" {
+  description = "UXWizz 6.0.3 on Ubuntu 20.04"
+  default     = "tips4designsrl-uxwizz"
 }
 
 variable "do_application_ubuntudesktopgno" {
