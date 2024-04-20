@@ -34,12 +34,12 @@ variable "do_application_analythium-shinyproxy-20-04" {
 }
 
 variable "do_application_antmedia-antmediaserverco-18-04" {
-  description = "Ant Media Server Community Edition 2.8.2 on Ubuntu 20.04"
+  description = "Ant Media Server Community Edition 2.9.0 on Ubuntu 22.04"
   default     = "antmedia-antmediaserverco-18-04"
 }
 
 variable "do_application_antmedia-antmediaserveren-18-04" {
-  description = "Ant Media Server Enterprise Edition 2.8.2 on Ubuntu 22.04"
+  description = "Ant Media Server Enterprise Edition 2.9.0 on Ubuntu 22.04"
   default     = "antmedia-antmediaserveren-18-04"
 }
 
@@ -94,7 +94,7 @@ variable "do_application_bigcloud-odoo" {
 }
 
 variable "do_application_bitwarden" {
-  description = "Bitwarden 2024.3.2 on Ubuntu 22.04"
+  description = "Bitwarden 2024.4.0 on Ubuntu 22.04"
   default     = "bitwarden"
 }
 
@@ -214,7 +214,7 @@ variable "do_application_dokku-20-04" {
 }
 
 variable "do_application_doteamaccount-pocketbase" {
-  description = "PocketBase 0.22.8 on Ubuntu 22.04"
+  description = "PocketBase 0.22.9 on Ubuntu 22.04"
   default     = "doteamaccount-pocketbase"
 }
 
@@ -859,7 +859,7 @@ variable "do_application_ubuntudesktopgno" {
 }
 
 variable "do_application_varnishsoftware-varnishcache-18-04" {
-  description = "Varnish Cache 6.0.12 on Ubuntu 20.04"
+  description = "Varnish Cache 6.0.13 on Ubuntu 20.04"
   default     = "varnishsoftware-varnishcache-18-04"
 }
 
@@ -934,7 +934,7 @@ variable "do_application_znuny" {
 }
 
 variable "do_application_znuny-znunylts-10" {
-  description = "Znuny LTS 6.5.7 on Debian 12 bookworm)"
+  description = "Znuny LTS 6.5.8 on Debian 12 bookworm)"
   default     = "znuny-znunylts-10"
 }
     
