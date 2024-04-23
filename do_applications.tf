@@ -424,7 +424,7 @@ variable "do_application_litespeedtechnol-cyberpanel-20-04" {
 }
 
 variable "do_application_litespeedtechnol-openlitespeeddja-20-04" {
-  description = "OpenLiteSpeed Django 4.1 on Ubuntu 22.04"
+  description = "OpenLiteSpeed Django 5.0.4 on Ubuntu 22.04"
   default     = "litespeedtechnol-openlitespeeddja-20-04"
 }
 
