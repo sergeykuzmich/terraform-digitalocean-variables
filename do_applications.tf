@@ -173,6 +173,11 @@ variable "do_application_cpanel-cpanelwhmforalma" {
   default     = "cpanel-cpanelwhmforalma"
 }
 
+variable "do_application_cpanel-cpanelwhmforubun" {
+  description = "cPanel & WHM® for Ubuntu 118 on Ubuntu 20.04 (LTS)"
+  default     = "cpanel-cpanelwhmforubun"
+}
+
 variable "do_application_csmm-20-04" {
   description = "CSMM 1.20.2 on Ubuntu 20.04"
   default     = "csmm-20-04"
