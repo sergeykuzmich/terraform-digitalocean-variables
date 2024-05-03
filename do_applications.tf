@@ -219,7 +219,7 @@ variable "do_application_dokku-20-04" {
 }
 
 variable "do_application_doteamaccount-pocketbase" {
-  description = "PocketBase 0.22.9 on Ubuntu 22.04"
+  description = "PocketBase 0.22.10 on Ubuntu 22.04"
   default     = "doteamaccount-pocketbase"
 }
 
@@ -654,7 +654,7 @@ variable "do_application_postalsystemso-emailengine" {
 }
 
 variable "do_application_quantrocket" {
-  description = "QuantRocket 2.9.1 on Ubuntu 22.04"
+  description = "QuantRocket 2.10.1 on Ubuntu 22.04"
   default     = "quantrocket"
 }
 
@@ -664,7 +664,7 @@ variable "do_application_questdb-20-04" {
 }
 
 variable "do_application_rabbitmq" {
-  description = "RabbitMQ 3.13.1 on Ubuntu 22.04"
+  description = "RabbitMQ 3.13.2 on Ubuntu 22.04"
   default     = "rabbitmq"
 }
 
@@ -821,6 +821,11 @@ variable "do_application_stretchshop" {
 variable "do_application_supabase" {
   description = "Supabase 3.8 on Ubuntu 22.04"
   default     = "supabase"
+}
+
+variable "do_application_superinverse-statusnook" {
+  description = "Statusnook 0.0.0 on Ubuntu 22.04"
+  default     = "superinverse-statusnook"
 }
 
 variable "do_application_supernetworks-spr" {
