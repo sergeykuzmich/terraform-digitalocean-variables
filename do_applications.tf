@@ -98,6 +98,11 @@ variable "do_application_bitwarden" {
   default     = "bitwarden"
 }
 
+variable "do_application_blueskysocialpds" {
+  description = "BlueSky Social PDS 0.4 on Ubuntu 22.04"
+  default     = "blueskysocialpds"
+}
+
 variable "do_application_border0" {
   description = "Border0 1.1-603 on Ubuntu 22.04"
   default     = "border0"
@@ -634,7 +639,7 @@ variable "do_application_playboxtechnolog-ottstream" {
 }
 
 variable "do_application_plesk-20-04" {
-  description = "Plesk 18.0.59 on Ubuntu 22.04"
+  description = "Plesk 18.0.60 on Ubuntu 22.04"
   default     = "plesk-20-04"
 }
 
