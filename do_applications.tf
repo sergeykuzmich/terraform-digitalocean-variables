@@ -94,7 +94,7 @@ variable "do_application_bigcloud-odoo" {
 }
 
 variable "do_application_bitwarden" {
-  description = "Bitwarden 2024.4.1 on Ubuntu 22.04"
+  description = "Bitwarden 2024.4.2 on Ubuntu 22.04"
   default     = "bitwarden"
 }
 
@@ -224,7 +224,7 @@ variable "do_application_dokku-20-04" {
 }
 
 variable "do_application_doteamaccount-pocketbase" {
-  description = "PocketBase 0.22.10 on Ubuntu 22.04"
+  description = "PocketBase 0.22.11 on Ubuntu 22.04"
   default     = "doteamaccount-pocketbase"
 }
 
@@ -793,6 +793,11 @@ variable "do_application_shellhub" {
   default     = "shellhub"
 }
 
+variable "do_application_smartarget-prestashop" {
+  description = "PrestaShop 8.1.5 on Ubuntu 22.04"
+  default     = "smartarget-prestashop"
+}
+
 variable "do_application_smartarget-wordpresswoocomm" {
   description = "WordPress-WooCommerce 8.7.0 on Ubuntu 22.04"
   default     = "smartarget-wordpresswoocomm"
@@ -829,7 +834,7 @@ variable "do_application_supabase" {
 }
 
 variable "do_application_superinverse-statusnook" {
-  description = "Statusnook 0.0.0 on Ubuntu 22.04"
+  description = "Statusnook 0.2.0 on Ubuntu 22.04"
   default     = "superinverse-statusnook"
 }
 
@@ -864,7 +869,7 @@ variable "do_application_thegrampsproject-grampsweb" {
 }
 
 variable "do_application_tips4designsrl-uxwizz" {
-  description = "UXWizz 6.0.3 on Ubuntu 20.04"
+  description = "UXWizz 6.1.0 on Ubuntu 20.04"
   default     = "tips4designsrl-uxwizz"
 }
 
