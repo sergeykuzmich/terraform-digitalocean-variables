@@ -29,7 +29,7 @@ variable "do_application_akaunting-20-04" {
 }
 
 variable "do_application_analythium-shinyproxy-20-04" {
-  description = "ShinyProxy 3.0.2 on Ubuntu 22.04"
+  description = "ShinyProxy 3.1.0 on Ubuntu 22.04"
   default     = "analythium-shinyproxy-20-04"
 }
 
@@ -709,7 +709,7 @@ variable "do_application_sandflysecurity-20-04" {
 }
 
 variable "do_application_searchblox-searchbloxenterp-7-6" {
-  description = "SearchBlox Enterprise Search 10.5 on CentOS 8.0"
+  description = "SearchBlox Enterprise Search 10.6 on CentOS 8.0"
   default     = "searchblox-searchbloxenterp-7-6"
 }
 
