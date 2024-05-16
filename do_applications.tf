@@ -224,7 +224,7 @@ variable "do_application_dokku-20-04" {
 }
 
 variable "do_application_doteamaccount-pocketbase" {
-  description = "PocketBase 0.22.11 on Ubuntu 22.04"
+  description = "PocketBase 0.22.12 on Ubuntu 22.04"
   default     = "doteamaccount-pocketbase"
 }
 
@@ -244,7 +244,7 @@ variable "do_application_easypanel" {
 }
 
 variable "do_application_edgedb" {
-  description = "EdgeDB 4.7 on Ubuntu 20.04"
+  description = "EdgeDB 5.3 on Ubuntu 20.04"
   default     = "edgedb"
 }
 
@@ -254,7 +254,7 @@ variable "do_application_elasticsearch" {
 }
 
 variable "do_application_eltrino-magento2opensour-20-04" {
-  description = "Magento 2 Open Source 1.6.9 on Ubuntu 20.04 (LTS)"
+  description = "Magento 2 Open Source 1.6.10 on Ubuntu 20.04 (LTS)"
   default     = "eltrino-magento2opensour-20-04"
 }
 
@@ -269,7 +269,7 @@ variable "do_application_farm" {
 }
 
 variable "do_application_fastpanel-deb-9" {
-  description = "FASTPANEL 1.10-ubuntu20.04p407 on Ubuntu 20.04"
+  description = "FASTPANEL 1.10-ubuntu20.04p505 on Ubuntu 20.04"
   default     = "fastpanel-deb-9"
 }
 
@@ -284,13 +284,18 @@ variable "do_application_flask" {
 }
 
 variable "do_application_flexifyio-flexifyiomulticl-20-04" {
-  description = "Flexify.IO Multi-cloud / Migration 2.15.0 on Ubuntu 22.04 LTS"
+  description = "Flexify.IO Multi-cloud / Migration 2.16.1 on Ubuntu 22.04 LTS"
   default     = "flexifyio-flexifyiomulticl-20-04"
 }
 
 variable "do_application_flowforge" {
-  description = "FlowForge 2.2.0 on Ubuntu 22.04"
+  description = "FlowForge 2.4.0 on Ubuntu 22.04"
   default     = "flowforge"
+}
+
+variable "do_application_flowforge-flowfuse" {
+  description = "FlowFuse 2.4.0 on Ubuntu 22.04"
+  default     = "flowforge-flowfuse"
 }
 
 variable "do_application_ghost-20-04" {
@@ -394,7 +399,7 @@ variable "do_application_jitsiserver-20-04" {
 }
 
 variable "do_application_kandralabs-zulip-18-04" {
-  description = "Zulip 8.3 on Ubuntu 20.04"
+  description = "Zulip 8.4 on Ubuntu 20.04"
   default     = "kandralabs-zulip-18-04"
 }
 
@@ -679,7 +684,7 @@ variable "do_application_rackware-rackwarecloudmig" {
 }
 
 variable "do_application_rocketchat-20-04" {
-  description = "Rocket.Chat 6.6.0 on Ubuntu 20.04"
+  description = "Rocket.Chat 6.8.0 on Ubuntu 20.04"
   default     = "rocketchat-20-04"
 }
 
@@ -773,6 +778,11 @@ variable "do_application_sharklabs-openmptcprouter" {
   default     = "sharklabs-openmptcprouter"
 }
 
+variable "do_application_sharklabs-paperminecraftse" {
+  description = "Paper: Minecraft Server 1.20.4 on Ubuntu 22.04"
+  default     = "sharklabs-paperminecraftse"
+}
+
 variable "do_application_sharklabs-piholevpn" {
   description = "Pi-hole VPN 0.2.1-beta on Debian 11"
   default     = "sharklabs-piholevpn"
@@ -834,7 +844,7 @@ variable "do_application_supabase" {
 }
 
 variable "do_application_superinverse-statusnook" {
-  description = "Statusnook 0.2.0 on Ubuntu 22.04"
+  description = "Statusnook 0.2.0 on Ubuntu 24.04"
   default     = "superinverse-statusnook"
 }
 
@@ -889,7 +899,7 @@ variable "do_application_victoriametrics-victorialogssing" {
 }
 
 variable "do_application_victoriametrics-victoriametricss" {
-  description = "VictoriaMetrics Single 1.91.2 on Ubuntu 20.04"
+  description = "VictoriaMetrics Single 1.101.0 on Ubuntu 20.04"
   default     = "victoriametrics-victoriametricss"
 }
 
@@ -936,6 +946,11 @@ variable "do_application_zabbix-zabbixproxy64" {
 variable "do_application_zabbix-zabbixserver60" {
   description = "Zabbix Server 6.0 6.0.17 on Alma Linux 9.1"
   default     = "zabbix-zabbixserver60"
+}
+
+variable "do_application_zabbix-zabbixserver62" {
+  description = "Zabbix Server 6.2 2 on CentOS 8"
+  default     = "zabbix-zabbixserver62"
 }
 
 variable "do_application_zabbix-zabbixserver64" {
