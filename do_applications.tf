@@ -94,7 +94,7 @@ variable "do_application_bigcloud-odoo" {
 }
 
 variable "do_application_bitwarden" {
-  description = "Bitwarden 2024.4.2 on Ubuntu 22.04"
+  description = "Bitwarden 2024.5.0 on Ubuntu 22.04"
   default     = "bitwarden"
 }
 
@@ -516,6 +516,11 @@ variable "do_application_microwebercms-microweber-20-04" {
 variable "do_application_mjmair-inventree" {
   description = "InvenTree 0.11.0 on Ubuntu 20.04"
   default     = "mjmair-inventree"
+}
+
+variable "do_application_monetdbsolutions-monetdb" {
+  description = "MonetDB 11.49.9 on Ubuntu 20.04"
+  default     = "monetdbsolutions-monetdb"
 }
 
 variable "do_application_mongodb-18-04" {
