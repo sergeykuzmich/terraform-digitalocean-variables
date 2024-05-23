@@ -233,6 +233,11 @@ variable "do_size_gd-8vcpu-32gb-intel" {
   default     = "gd-8vcpu-32gb-intel"
 }
 
+variable "do_size_internal-a30-1x" {
+  description = "48GB RAM; 10 CPU; 720GB SSD - $0/mo"
+  default     = "internal-a30-1x"
+}
+
 variable "do_size_m-16vcpu-128gb" {
   description = "128GB RAM; 16 CPU; 400GB SSD - $672/mo"
   default     = "m-16vcpu-128gb"
