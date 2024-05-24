@@ -533,6 +533,11 @@ variable "do_application_mpdev-testingupdateapp" {
   default     = "mpdev-testingupdateapp"
 }
 
+variable "do_application_multiversx-multiversxfullob" {
+  description = "MultiversX Full Observing Squad 1.0 on Ubuntu 22.04"
+  default     = "multiversx-multiversxfullob"
+}
+
 variable "do_application_multiversx-multiversxobserv" {
   description = "MultiversX Observing Squad 1.0 on Ubuntu 22.04"
   default     = "multiversx-multiversxobserv"
