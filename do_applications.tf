@@ -504,13 +504,18 @@ variable "do_application_mern" {
 }
 
 variable "do_application_mgtcommercegmbh-cloudpanel2ubunt" {
-  description = "CloudPanel 2 - Ubuntu 22.04 2.4.1 on Ubuntu 22.04"
+  description = "CloudPanel 2 - Ubuntu 24.04 2.4.2 on Ubuntu 24.04"
   default     = "mgtcommercegmbh-cloudpanel2ubunt"
 }
 
 variable "do_application_microwebercms-microweber-20-04" {
   description = "Microweber 2.0.9 on Ubuntu 22.04"
   default     = "microwebercms-microweber-20-04"
+}
+
+variable "do_application_minecraftforgeed" {
+  description = "Minecraft Forge Edition Server 1.20.2 on Ubuntu 22.04"
+  default     = "minecraftforgeed"
 }
 
 variable "do_application_mjmair-inventree" {
@@ -734,7 +739,7 @@ variable "do_application_seatablegmbh-seatable" {
 }
 
 variable "do_application_severalnines-clustercontrol-20-04" {
-  description = "ClusterControl 1.9.8 on Ubuntu 20.04"
+  description = "ClusterControl 2.0.0 on Ubuntu 20.04"
   default     = "severalnines-clustercontrol-20-04"
 }
 
