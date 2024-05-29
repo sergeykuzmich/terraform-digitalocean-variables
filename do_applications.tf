@@ -244,7 +244,7 @@ variable "do_application_easypanel" {
 }
 
 variable "do_application_edgedb" {
-  description = "EdgeDB 5.3 on Ubuntu 20.04"
+  description = "EdgeDB 5.4 on Ubuntu 20.04"
   default     = "edgedb"
 }
 
@@ -874,7 +874,7 @@ variable "do_application_swarmfoundation-swarmlightnode" {
 }
 
 variable "do_application_tebex-tebexrconadapter" {
-  description = "Tebex RCON Adapter 1.0.0-alpha.5 on 22.04"
+  description = "Tebex RCON Adapter 1.0.0 on 22.04"
   default     = "tebex-tebexrconadapter"
 }
 
