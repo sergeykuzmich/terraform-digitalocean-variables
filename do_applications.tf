@@ -44,7 +44,7 @@ variable "do_application_antmedia-antmediaserveren-18-04" {
 }
 
 variable "do_application_apliteni-keitaro" {
-  description = "Keitaro 10.2.1 on CentOS 9 Stream"
+  description = "Keitaro 10.3.0 on CentOS 9 Stream"
   default     = "apliteni-keitaro"
 }
 
@@ -224,7 +224,7 @@ variable "do_application_dokku-20-04" {
 }
 
 variable "do_application_doteamaccount-pocketbase" {
-  description = "PocketBase 0.22.12 on Ubuntu 22.04"
+  description = "PocketBase 0.22.13 on Ubuntu 22.04"
   default     = "doteamaccount-pocketbase"
 }
 
@@ -333,8 +333,13 @@ variable "do_application_harperdb-18-04" {
   default     = "harperdb-18-04"
 }
 
+variable "do_application_hashicorpvault" {
+  description = "HashiCorp Vault 1.14.8 on Ubuntu 22.04"
+  default     = "hashicorpvault"
+}
+
 variable "do_application_hollaex-hollaexkit" {
-  description = "HollaEx Kit 2.10.1 on Ubuntu 20.04"
+  description = "HollaEx Kit 2.10.4 on Ubuntu 20.04"
   default     = "hollaex-hollaexkit"
 }
 
@@ -574,7 +579,7 @@ variable "do_application_nirvatosoftware-nirvashare-20-04" {
 }
 
 variable "do_application_nodejs-20-04" {
-  description = "NodeJS 18.7.0 on Ubuntu 20.04"
+  description = "NodeJS on Ubuntu 20.04"
   default     = "nodejs-20-04"
 }
 
@@ -689,7 +694,7 @@ variable "do_application_questdb-20-04" {
 }
 
 variable "do_application_rabbitmq" {
-  description = "RabbitMQ 3.13.2 on Ubuntu 22.04"
+  description = "RabbitMQ 3.13.3 on Ubuntu 22.04"
   default     = "rabbitmq"
 }
 
@@ -809,7 +814,7 @@ variable "do_application_sharklabs-testproject" {
 }
 
 variable "do_application_sharklabs-valkey" {
-  description = "Valkey on Ubuntu 22.04"
+  description = "Valkey 7.2.5 on Ubuntu 22.04"
   default     = "sharklabs-valkey"
 }
 
