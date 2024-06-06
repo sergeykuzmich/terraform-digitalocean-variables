@@ -109,7 +109,7 @@ variable "do_application_border0" {
 }
 
 variable "do_application_botguardo-botguardgatekeep" {
-  description = "BotGuard GateKeeper 1.3.0 on Debian 12 (bookworm)"
+  description = "BotGuard GateKeeper 1.3.2 on Debian 12 (bookworm)"
   default     = "botguardo-botguardgatekeep"
 }
 
