@@ -18,11 +18,6 @@ variable "do_distibution_centos-7-x64" {
   default     = "centos-7-x64"
 }
 
-variable "do_distibution_centos-stream-8-x64" {
-  description = "CentOS 8 Stream x64"
-  default     = "centos-stream-8-x64"
-}
-
 variable "do_distibution_centos-stream-9-x64" {
   description = "CentOS 9 Stream x64"
   default     = "centos-stream-9-x64"
