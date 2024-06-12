@@ -188,6 +188,11 @@ variable "do_application_csmm-20-04" {
   default     = "csmm-20-04"
 }
 
+variable "do_application_depomo-chartbrew" {
+  description = "Chartbrew 3.5.1 on Ubuntu 20.04"
+  default     = "depomo-chartbrew"
+}
+
 variable "do_application_deskpro" {
   description = "Deskpro on Ubuntu 22.04"
   default     = "deskpro"
