@@ -188,6 +188,16 @@ variable "do_application_csmm-20-04" {
   default     = "csmm-20-04"
 }
 
+variable "do_application_decyphertekio-jenkinscicd" {
+  description = "Jenkins CI/CD 2.452.2 on Debian 12"
+  default     = "decyphertekio-jenkinscicd"
+}
+
+variable "do_application_decyphertekio-uptimekuma" {
+  description = "Uptime Kuma 1.23.13 on Debian 12"
+  default     = "decyphertekio-uptimekuma"
+}
+
 variable "do_application_depomo-chartbrew" {
   description = "Chartbrew 3.5.1 on Ubuntu 20.04"
   default     = "depomo-chartbrew"
@@ -259,7 +269,7 @@ variable "do_application_elasticsearch" {
 }
 
 variable "do_application_eltrino-magento2opensour-20-04" {
-  description = "Magento 2 Open Source 1.6.10 on Ubuntu 20.04 (LTS)"
+  description = "Magento 2 Open Source 1.6.11 on Ubuntu 20.04 (LTS)"
   default     = "eltrino-magento2opensour-20-04"
 }
 
@@ -299,7 +309,7 @@ variable "do_application_flowforge" {
 }
 
 variable "do_application_flowforge-flowfuse" {
-  description = "FlowFuse 2.4.0 on Ubuntu 22.04"
+  description = "FlowFuse 2.5.0 on Ubuntu 22.04"
   default     = "flowforge-flowfuse"
 }
 
