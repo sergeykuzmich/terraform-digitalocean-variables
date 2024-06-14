@@ -193,6 +193,11 @@ variable "do_application_decyphertekio-jenkinscicd" {
   default     = "decyphertekio-jenkinscicd"
 }
 
+variable "do_application_decyphertekio-misp" {
+  description = "MISP 2.4.192 on Debian 12"
+  default     = "decyphertekio-misp"
+}
+
 variable "do_application_decyphertekio-uptimekuma" {
   description = "Uptime Kuma 1.23.13 on Debian 12"
   default     = "decyphertekio-uptimekuma"
@@ -229,7 +234,7 @@ variable "do_application_django-20-04" {
 }
 
 variable "do_application_docker-20-04" {
-  description = "Docker 25.0.3 on Ubuntu 22.04"
+  description = "Docker on Ubuntu 22.04"
   default     = "docker-20-04"
 }
 
@@ -444,7 +449,7 @@ variable "do_application_lamp-20-04" {
 }
 
 variable "do_application_lemp-20-04" {
-  description = "LEMP 43 on Ubuntu 22.04"
+  description = "LEMP on Ubuntu 22.04"
   default     = "lemp-20-04"
 }
 
@@ -683,6 +688,11 @@ variable "do_application_plesk-20-04" {
   default     = "plesk-20-04"
 }
 
+variable "do_application_plesk-pleskalmalinux" {
+  description = "Plesk (AlmaLinux) 18.0.61 on AlmaLinux 9"
+  default     = "plesk-pleskalmalinux"
+}
+
 variable "do_application_plesk-pleskcentos-7-9" {
   description = "Plesk (CentOS) 18.0.60 on AlmaLinux 9"
   default     = "plesk-pleskcentos-7-9"
@@ -744,7 +754,7 @@ variable "do_application_saltcorn-20-04" {
 }
 
 variable "do_application_sandflysecurity-20-04" {
-  description = "Sandfly Security 5.0.5 on Ubuntu 22.04"
+  description = "Sandfly Security 5.0.6 on Ubuntu 22.04"
   default     = "sandflysecurity-20-04"
 }
 
