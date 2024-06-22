@@ -244,7 +244,7 @@ variable "do_application_dokku-20-04" {
 }
 
 variable "do_application_doteamaccount-pocketbase" {
-  description = "PocketBase 0.22.13 on Ubuntu 22.04"
+  description = "PocketBase 0.22.14 on Ubuntu 22.04"
   default     = "doteamaccount-pocketbase"
 }
 
@@ -974,7 +974,7 @@ variable "do_application_wpclouddeploy" {
 }
 
 variable "do_application_yeastar-yeastarpseriesph" {
-  description = "Yeastar P-Series Phone System 83.13.0.29.4405 on Ubuntu 20.04 LTS"
+  description = "Yeastar P-Series Phone System 83.13.0.30 on Ubuntu 20.04 LTS"
   default     = "yeastar-yeastarpseriesph"
 }
 
