@@ -29,7 +29,7 @@ variable "do_application_akaunting-20-04" {
 }
 
 variable "do_application_analythium-shinyproxy-20-04" {
-  description = "ShinyProxy 3.1.0 on Ubuntu 22.04"
+  description = "ShinyProxy 3.1.1 on Ubuntu 24.04"
   default     = "analythium-shinyproxy-20-04"
 }
 
@@ -783,6 +783,11 @@ variable "do_application_sharklabs-codeserver1" {
   default     = "sharklabs-codeserver1"
 }
 
+variable "do_application_sharklabs-conduktorconsole" {
+  description = "Conduktor Console 1.24.0 on Ubuntu 24.04"
+  default     = "sharklabs-conduktorconsole"
+}
+
 variable "do_application_sharklabs-counterstrike2" {
   description = "Counter Strike 2 on Ubuntu 22.04"
   default     = "sharklabs-counterstrike2"
@@ -894,7 +899,7 @@ variable "do_application_superinverse-statusnook" {
 }
 
 variable "do_application_supernetworks-spr" {
-  description = "SPR 0.3.1 on Ubuntu 22.04"
+  description = "SPR 0.3.13 on Ubuntu 24.04"
   default     = "supernetworks-spr"
 }
 
