@@ -104,7 +104,7 @@ variable "do_application_blueskysocialpds" {
 }
 
 variable "do_application_border0" {
-  description = "Border0 1.1-603 on Ubuntu 22.04"
+  description = "Border0 1.1-779 on Ubuntu 22.04"
   default     = "border0"
 }
 
@@ -334,7 +334,7 @@ variable "do_application_gravitl-netmaker" {
 }
 
 variable "do_application_haltdos-haltdoscommunity" {
-  description = "Haltdos Community WAF 1.0.3 on Ubuntu 22.04"
+  description = "Haltdos Community WAF 1.0.4 on Ubuntu 22.04"
   default     = "haltdos-haltdoscommunity"
 }
 
@@ -729,7 +729,7 @@ variable "do_application_rackware-rackwarecloudmig" {
 }
 
 variable "do_application_rocketchat-20-04" {
-  description = "Rocket.Chat 6.8.0 on Ubuntu 20.04"
+  description = "Rocket.Chat 6.9.3 on Ubuntu 20.04"
   default     = "rocketchat-20-04"
 }
 
@@ -774,7 +774,7 @@ variable "do_application_severalnines-clustercontrol-20-04" {
 }
 
 variable "do_application_sharklabs-anaconda" {
-  description = "Anaconda 2024.02-1 on Ubuntu 22.04 (LTS)"
+  description = "Anaconda 2024.06-1 on Ubuntu 22.04 (LTS)"
   default     = "sharklabs-anaconda"
 }
 
