@@ -519,7 +519,7 @@ variable "do_application_mean" {
 }
 
 variable "do_application_meilisas-meilisearch-10" {
-  description = "MeiliSearch 1.4.0 on Debian 11 (Bullseye)"
+  description = "MeiliSearch 1.9.0 on Debian 11 (Bullseye)"
   default     = "meilisas-meilisearch-10"
 }
 
@@ -571,6 +571,11 @@ variable "do_application_multiversx-multiversxfullob" {
 variable "do_application_multiversx-multiversxobserv" {
   description = "MultiversX Observing Squad 1.0 on Ubuntu 22.04"
   default     = "multiversx-multiversxobserv"
+}
+
+variable "do_application_multiversx-multiversxtestne" {
+  description = "MultiversX Testnet Sovereign Chain alpha on Ubuntu 22.04"
+  default     = "multiversx-multiversxtestne"
 }
 
 variable "do_application_nakama-18-04" {
@@ -806,6 +811,11 @@ variable "do_application_sharklabs-erpodoo" {
 variable "do_application_sharklabs-jupyternotebook" {
   description = "Jupyter Notebook 4.0.1 on Ubuntu 22.04"
   default     = "sharklabs-jupyternotebook"
+}
+
+variable "do_application_sharklabs-keycloak" {
+  description = "Keycloak 25.0 on Ubuntu 22.04"
+  default     = "sharklabs-keycloak"
 }
 
 variable "do_application_sharklabs-kibana" {
