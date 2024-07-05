@@ -13,11 +13,6 @@ variable "do_distibution_almalinux-9-x64" {
   default     = "almalinux-9-x64"
 }
 
-variable "do_distibution_centos-7-x64" {
-  description = "CentOS 7 x64"
-  default     = "centos-7-x64"
-}
-
 variable "do_distibution_centos-stream-9-x64" {
   description = "CentOS 9 Stream x64"
   default     = "centos-stream-9-x64"
