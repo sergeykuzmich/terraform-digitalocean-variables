@@ -74,7 +74,7 @@ variable "do_application_ascensiosystemsi-onlyofficeeditor-18-04-4" {
 }
 
 variable "do_application_axlabs-1clicknodeforneo" {
-  description = "1ClickNode for Neo 3.6.2 on Ubuntu 22.04"
+  description = "1ClickNode for Neo 3.7.5 on Ubuntu 24.04"
   default     = "axlabs-1clicknodeforneo"
 }
 
@@ -94,7 +94,7 @@ variable "do_application_bigcloud-odoo" {
 }
 
 variable "do_application_bitwarden" {
-  description = "Bitwarden 2024.5.0 on Ubuntu 22.04"
+  description = "Bitwarden 2024.6.2 on Ubuntu 22.04"
   default     = "bitwarden"
 }
 
@@ -109,7 +109,7 @@ variable "do_application_border0" {
 }
 
 variable "do_application_botguardo-botguardgatekeep" {
-  description = "BotGuard GateKeeper 1.3.2 on Debian 12 (bookworm)"
+  description = "BotGuard GateKeeper 1.3.3 on Debian 12 (bookworm)"
   default     = "botguardo-botguardgatekeep"
 }
 
@@ -244,7 +244,7 @@ variable "do_application_dokku-20-04" {
 }
 
 variable "do_application_doteamaccount-pocketbase" {
-  description = "PocketBase 0.22.14 on Ubuntu 22.04"
+  description = "PocketBase 0.22.15 on Ubuntu 22.04"
   default     = "doteamaccount-pocketbase"
 }
 
@@ -544,7 +544,7 @@ variable "do_application_minecraftforgeed" {
 }
 
 variable "do_application_mjmair-inventree" {
-  description = "InvenTree 0.11.0 on Ubuntu 20.04"
+  description = "InvenTree 0.15.4 on Ubuntu 20.04"
   default     = "mjmair-inventree"
 }
 
@@ -689,12 +689,12 @@ variable "do_application_playboxtechnolog-ottstream" {
 }
 
 variable "do_application_plesk-20-04" {
-  description = "Plesk 18.0.60 on Ubuntu 22.04"
+  description = "Plesk 18.0.62 on Ubuntu 22.04"
   default     = "plesk-20-04"
 }
 
 variable "do_application_plesk-pleskalmalinux" {
-  description = "Plesk (AlmaLinux) 18.0.61 on AlmaLinux 9"
+  description = "Plesk (AlmaLinux) 18.0.62 on AlmaLinux 9"
   default     = "plesk-pleskalmalinux"
 }
 
@@ -724,7 +724,7 @@ variable "do_application_questdb-20-04" {
 }
 
 variable "do_application_rabbitmq" {
-  description = "RabbitMQ 3.13.3 on Ubuntu 22.04"
+  description = "RabbitMQ 3.13.4 on Ubuntu 22.04"
   default     = "rabbitmq"
 }
 
