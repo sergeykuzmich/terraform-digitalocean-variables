@@ -4,7 +4,7 @@
 
 
 variable "do_application_3cxcommunication-3cx" {
-  description = "3CX 20.0.1.731 on Debian 12 (Bookworm)"
+  description = "3CX 20.0.2.715 on Debian 12 (Bookworm)"
   default     = "3cxcommunication-3cx"
 }
 
@@ -939,7 +939,7 @@ variable "do_application_thegrampsproject-grampsweb" {
 }
 
 variable "do_application_tips4designsrl-uxwizz" {
-  description = "UXWizz 6.1.0 on Ubuntu 20.04"
+  description = "UXWizz 6.4.0 on Ubuntu 20.04"
   default     = "tips4designsrl-uxwizz"
 }
 
