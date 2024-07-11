@@ -244,7 +244,7 @@ variable "do_application_dokku-20-04" {
 }
 
 variable "do_application_doteamaccount-pocketbase" {
-  description = "PocketBase 0.22.15 on Ubuntu 22.04"
+  description = "PocketBase 0.22.16 on Ubuntu 22.04"
   default     = "doteamaccount-pocketbase"
 }
 
@@ -359,7 +359,7 @@ variable "do_application_hashicorpvault" {
 }
 
 variable "do_application_hollaex-hollaexkit" {
-  description = "HollaEx Kit 2.10.4 on Ubuntu 20.04"
+  description = "HollaEx Kit 2.11.3 on Ubuntu 20.04"
   default     = "hollaex-hollaexkit"
 }
 
