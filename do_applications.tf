@@ -244,7 +244,7 @@ variable "do_application_dokku-20-04" {
 }
 
 variable "do_application_doteamaccount-pocketbase" {
-  description = "PocketBase 0.22.16 on Ubuntu 22.04"
+  description = "PocketBase 0.22.17 on Ubuntu 22.04"
   default     = "doteamaccount-pocketbase"
 }
 
@@ -621,6 +621,11 @@ variable "do_application_openblocks" {
 variable "do_application_openboxes-openboxesserver" {
   description = "OpenBoxes Server 0.8.20 on Ubuntu 22.04"
   default     = "openboxes-openboxesserver"
+}
+
+variable "do_application_openpanel" {
+  description = "OpenPanel 0.2.1 on Ubuntu 22.04"
+  default     = "openpanel"
 }
 
 variable "do_application_openvpn-18-04" {
