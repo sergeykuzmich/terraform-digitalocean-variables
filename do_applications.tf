@@ -314,7 +314,7 @@ variable "do_application_flowforge" {
 }
 
 variable "do_application_flowforge-flowfuse" {
-  description = "FlowFuse 2.5.0 on Ubuntu 22.04"
+  description = "FlowFuse 2.6.1 on Ubuntu 22.04"
   default     = "flowforge-flowfuse"
 }
 
@@ -739,7 +739,7 @@ variable "do_application_rackware-rackwarecloudmig" {
 }
 
 variable "do_application_rocketchat-20-04" {
-  description = "Rocket.Chat 6.9.3 on Ubuntu 20.04"
+  description = "Rocket.Chat 6.10.0 on Ubuntu 20.04"
   default     = "rocketchat-20-04"
 }
 
@@ -764,7 +764,7 @@ variable "do_application_saltcorn-20-04" {
 }
 
 variable "do_application_sandflysecurity-20-04" {
-  description = "Sandfly Security 5.0.6 on Ubuntu 22.04"
+  description = "Sandfly Security 5.1.0 on Ubuntu 22.04"
   default     = "sandflysecurity-20-04"
 }
 
