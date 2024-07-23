@@ -729,7 +729,7 @@ variable "do_application_questdb-20-04" {
 }
 
 variable "do_application_rabbitmq" {
-  description = "RabbitMQ 3.13.4 on Ubuntu 22.04"
+  description = "RabbitMQ 3.13.5 on Ubuntu 22.04"
   default     = "rabbitmq"
 }
 
