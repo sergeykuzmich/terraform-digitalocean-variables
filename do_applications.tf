@@ -219,7 +219,7 @@ variable "do_application_devdojo-laravel-20-04" {
 }
 
 variable "do_application_devrel-teleport-20-04" {
-  description = "Teleport 15 on Ubuntu 20.04"
+  description = "Teleport 15 on Ubuntu 22.04"
   default     = "devrel-teleport-20-04"
 }
 
@@ -369,22 +369,22 @@ variable "do_application_ibsurgeon-hqbirdfirebird" {
 }
 
 variable "do_application_ibsurgeon-hqbirdfirebirdv2" {
-  description = "HQbird Firebird v2.5 2.5.9.2717-10.2.1201 on CentOS 7.x"
+  description = "HQbird Firebird v2.5 2.5.9.27174-11.0.070 on CentOS 9.x"
   default     = "ibsurgeon-hqbirdfirebirdv2"
 }
 
 variable "do_application_ibsurgeon-hqbirdfirebirdv3" {
-  description = "HQbird Firebird v3.0 3.0.12.33725-10.2.12 on CentOS 7.x"
+  description = "HQbird Firebird v3.0 3.0.12.33746-11.0.07 on CentOS 9.x"
   default     = "ibsurgeon-hqbirdfirebirdv3"
 }
 
 variable "do_application_ibsurgeon-hqbirdfirebirdv4" {
-  description = "HQbird Firebird v4.0 4.0.5.3034-10.2.1201 on CentOS 7.x"
+  description = "HQbird Firebird v4.0 4.0.5.3109-11.0.0703 on CentOS 9.x"
   default     = "ibsurgeon-hqbirdfirebirdv4"
 }
 
 variable "do_application_ibsurgeon-hqbirdfirebirdv5" {
-  description = "HQbird Firebird v5.0 5.0.1.1340-10.2.1201 on CentOS 7.x"
+  description = "HQbird Firebird v5.0 5.0.1.1428-11.0.0703 on CentOS 9.x"
   default     = "ibsurgeon-hqbirdfirebirdv5"
 }
 
@@ -686,6 +686,11 @@ variable "do_application_photoprism-20-04" {
 variable "do_application_phpmyadmin-20-04" {
   description = "PhpMyAdmin 5.2.1 on Ubuntu 22.04"
   default     = "phpmyadmin-20-04"
+}
+
+variable "do_application_planesoftware-planecommunityed" {
+  description = "Plane (Community Edition) 0.22 on Ubuntu 22.04"
+  default     = "planesoftware-planecommunityed"
 }
 
 variable "do_application_playboxtechnolog-ottstream" {
