@@ -154,7 +154,7 @@ variable "do_application_clickhouse" {
 }
 
 variable "do_application_cloudron-20-04" {
-  description = "Cloudron 7.7.2 on Ubuntu 22.04"
+  description = "Cloudron 8.0.2 on Ubuntu 24.04"
   default     = "cloudron-20-04"
 }
 
@@ -969,7 +969,7 @@ variable "do_application_victoriametrics-victorialogssing" {
 }
 
 variable "do_application_victoriametrics-victoriametricss" {
-  description = "VictoriaMetrics Single 1.101.0 on Ubuntu 20.04"
+  description = "VictoriaMetrics Single 1.102.0 on Ubuntu 20.04"
   default     = "victoriametrics-victoriametricss"
 }
 
