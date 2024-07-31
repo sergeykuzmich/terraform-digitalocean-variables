@@ -83,6 +83,11 @@ variable "do_application_azuracast-20-04" {
   default     = "azuracast-20-04"
 }
 
+variable "do_application_babybuddy" {
+  description = "Baby Buddy 2.5.0 on Ubuntu 24.04 (LTS)"
+  default     = "babybuddy"
+}
+
 variable "do_application_bevywise-bevywisemqttrout" {
   description = "BevywiseMQTTRoute 4.0 on Ubuntu 22.04"
   default     = "bevywise-bevywisemqttrout"
@@ -154,7 +159,7 @@ variable "do_application_clickhouse" {
 }
 
 variable "do_application_cloudron-20-04" {
-  description = "Cloudron 8.0.2 on Ubuntu 24.04"
+  description = "Cloudron 8.0.3 on Ubuntu 24.04"
   default     = "cloudron-20-04"
 }
 
@@ -214,7 +219,7 @@ variable "do_application_deskpro" {
 }
 
 variable "do_application_devdojo-laravel-20-04" {
-  description = "Laravel 10.16.1 on Ubuntu 22.04"
+  description = "Laravel 11.18.1 on Ubuntu 22.04"
   default     = "devdojo-laravel-20-04"
 }
 
@@ -274,7 +279,7 @@ variable "do_application_elasticsearch" {
 }
 
 variable "do_application_eltrino-magento2opensour-20-04" {
-  description = "Magento 2 Open Source 1.6.11 on Ubuntu 20.04 (LTS)"
+  description = "Magento 2 Open Source 1.6.12 on Ubuntu 20.04 (LTS)"
   default     = "eltrino-magento2opensour-20-04"
 }
 
@@ -388,6 +393,11 @@ variable "do_application_ibsurgeon-hqbirdfirebirdv5" {
   default     = "ibsurgeon-hqbirdfirebirdv5"
 }
 
+variable "do_application_in4it-vpnserver" {
+  description = "VPN Server 1.0.39 on Ubuntu 24.04"
+  default     = "in4it-vpnserver"
+}
+
 variable "do_application_intel-intelgprofilercr" {
   description = "Intel gProfiler Crypto Demo 1.3 on Ubuntu 20.04"
   default     = "intel-intelgprofilercr"
@@ -424,7 +434,7 @@ variable "do_application_jitsiserver-20-04" {
 }
 
 variable "do_application_kandralabs-zulip-18-04" {
-  description = "Zulip 8.4 on Ubuntu 20.04"
+  description = "Zulip 9.0 on Ubuntu 22.04"
   default     = "kandralabs-zulip-18-04"
 }
 
@@ -544,7 +554,7 @@ variable "do_application_minecraftforgeed" {
 }
 
 variable "do_application_mjmair-inventree" {
-  description = "InvenTree 0.15.4 on Ubuntu 20.04"
+  description = "InvenTree 0.15.7 on Ubuntu 20.04"
   default     = "mjmair-inventree"
 }
 
