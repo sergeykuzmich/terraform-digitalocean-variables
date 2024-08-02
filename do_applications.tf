@@ -319,7 +319,7 @@ variable "do_application_flowforge" {
 }
 
 variable "do_application_flowforge-flowfuse" {
-  description = "FlowFuse 2.6.1 on Ubuntu 22.04"
+  description = "FlowFuse 2.7.0 on Ubuntu 22.04"
   default     = "flowforge-flowfuse"
 }
 
