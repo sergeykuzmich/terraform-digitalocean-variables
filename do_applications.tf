@@ -319,7 +319,7 @@ variable "do_application_flowforge" {
 }
 
 variable "do_application_flowforge-flowfuse" {
-  description = "FlowFuse 2.7.0 on Ubuntu 22.04"
+  description = "FlowFuse 2.7.1 on Ubuntu 22.04"
   default     = "flowforge-flowfuse"
 }
 
@@ -434,7 +434,7 @@ variable "do_application_jitsiserver-20-04" {
 }
 
 variable "do_application_kandralabs-zulip-18-04" {
-  description = "Zulip 9.0 on Ubuntu 22.04"
+  description = "Zulip 9.1 on Ubuntu 22.04"
   default     = "kandralabs-zulip-18-04"
 }
 
@@ -783,6 +783,11 @@ variable "do_application_sandflysecurity-20-04" {
   default     = "sandflysecurity-20-04"
 }
 
+variable "do_application_scalegrid-scalegridcentos7" {
+  description = "Scalegrid-Centos7 1 on Centos7"
+  default     = "scalegrid-scalegridcentos7"
+}
+
 variable "do_application_searchblox-searchbloxenterp-7-6" {
   description = "SearchBlox Enterprise Search 10.6 on CentOS 8.0"
   default     = "searchblox-searchbloxenterp-7-6"
@@ -974,7 +979,7 @@ variable "do_application_varnishsoftware-varnishcache-18-04" {
 }
 
 variable "do_application_victoriametrics-victorialogssing" {
-  description = "VictoriaLogs Single 0.4.2 on 22.04"
+  description = "VictoriaLogs Single 0.4.2 on 24.04"
   default     = "victoriametrics-victorialogssing"
 }
 
