@@ -834,7 +834,7 @@ variable "do_application_sharklabs-erpodoo" {
 }
 
 variable "do_application_sharklabs-jupyternotebook" {
-  description = "Jupyter Notebook 4.0.1 on Ubuntu 22.04"
+  description = "Jupyter Notebook 4.2.4 on Ubuntu 22.04"
   default     = "sharklabs-jupyternotebook"
 }
 
