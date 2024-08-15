@@ -73,6 +73,11 @@ variable "do_application_ascensiosystemsi-onlyofficeeditor-18-04-4" {
   default     = "ascensiosystemsi-onlyofficeeditor-18-04-4"
 }
 
+variable "do_application_autopanel-postfix" {
+  description = "Postfix 1.0 on Ubuntu 24.04"
+  default     = "autopanel-postfix"
+}
+
 variable "do_application_axlabs-1clicknodeforneo" {
   description = "1ClickNode for Neo 3.7.5 on Ubuntu 24.04"
   default     = "axlabs-1clicknodeforneo"
@@ -249,7 +254,7 @@ variable "do_application_dokku-20-04" {
 }
 
 variable "do_application_doteamaccount-pocketbase" {
-  description = "PocketBase 0.22.18 on Ubuntu 22.04"
+  description = "PocketBase 0.22.19 on Ubuntu 22.04"
   default     = "doteamaccount-pocketbase"
 }
 
@@ -754,7 +759,7 @@ variable "do_application_rackware-rackwarecloudmig" {
 }
 
 variable "do_application_rocketchat-20-04" {
-  description = "Rocket.Chat 6.10.0 on Ubuntu 20.04"
+  description = "Rocket.Chat 6.11.0 on Ubuntu 20.04"
   default     = "rocketchat-20-04"
 }
 
@@ -779,7 +784,7 @@ variable "do_application_saltcorn-20-04" {
 }
 
 variable "do_application_sandflysecurity-20-04" {
-  description = "Sandfly Security 5.1.0 on Ubuntu 22.04"
+  description = "Sandfly Security 5.1.1 on Ubuntu 22.04"
   default     = "sandflysecurity-20-04"
 }
 
