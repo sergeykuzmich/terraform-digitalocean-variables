@@ -713,6 +713,11 @@ variable "do_application_phpmyadmin-20-04" {
   default     = "phpmyadmin-20-04"
 }
 
+variable "do_application_pirichaintechnol-pirisubchainsnod" {
+  description = "Pirisubchains Node 1.0.5 on 22.04"
+  default     = "pirichaintechnol-pirisubchainsnod"
+}
+
 variable "do_application_planesoftware-planecommunityed" {
   description = "Plane (Community Edition) 0.22 on Ubuntu 22.04"
   default     = "planesoftware-planecommunityed"
