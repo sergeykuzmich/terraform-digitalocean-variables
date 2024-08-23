@@ -164,7 +164,7 @@ variable "do_application_clickhouse" {
 }
 
 variable "do_application_cloudron-20-04" {
-  description = "Cloudron 8.0.3 on Ubuntu 24.04"
+  description = "Cloudron 8.0.4 on Ubuntu 24.04"
   default     = "cloudron-20-04"
 }
 
@@ -189,7 +189,7 @@ variable "do_application_cpanel-cpanelwhmforalma" {
 }
 
 variable "do_application_cpanel-cpanelwhmforubun" {
-  description = "cPanel & WHM® for Ubuntu 118 on Ubuntu 20.04 (LTS)"
+  description = "cPanel & WHM® for Ubuntu RELEASE on Ubuntu 22.04"
   default     = "cpanel-cpanelwhmforubun"
 }
 
@@ -399,7 +399,7 @@ variable "do_application_ibsurgeon-hqbirdfirebirdv5" {
 }
 
 variable "do_application_in4it-vpnserver" {
-  description = "VPN Server 1.0.39 on Ubuntu 24.04"
+  description = "VPN Server 1.0.41 on Ubuntu 24.04"
   default     = "in4it-vpnserver"
 }
 
@@ -714,7 +714,7 @@ variable "do_application_phpmyadmin-20-04" {
 }
 
 variable "do_application_pirichaintechnol-pirisubchainsnod" {
-  description = "Pirisubchains Node 1.0.5 on 22.04"
+  description = "Pirisubchains Node 1.0.6 on 22.04"
   default     = "pirichaintechnol-pirisubchainsnod"
 }
 
