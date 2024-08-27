@@ -34,12 +34,12 @@ variable "do_application_analythium-shinyproxy-20-04" {
 }
 
 variable "do_application_antmedia-antmediaserverco-18-04" {
-  description = "Ant Media Server Community Edition 2.10.0 on Ubuntu 22.04"
+  description = "Ant Media Server Community Edition 2.11.0 on Ubuntu 22.04"
   default     = "antmedia-antmediaserverco-18-04"
 }
 
 variable "do_application_antmedia-antmediaserveren-18-04" {
-  description = "Ant Media Server Enterprise Edition 2.10.0 on Ubuntu 22.04"
+  description = "Ant Media Server Enterprise Edition 2.11.0 on Ubuntu 22.04"
   default     = "antmedia-antmediaserveren-18-04"
 }
 
@@ -104,7 +104,7 @@ variable "do_application_bigcloud-odoo" {
 }
 
 variable "do_application_bitwarden" {
-  description = "Bitwarden 2024.6.2 on Ubuntu 22.04"
+  description = "Bitwarden 2024.8.0 on Ubuntu 22.04"
   default     = "bitwarden"
 }
 
@@ -369,7 +369,7 @@ variable "do_application_hashicorpvault" {
 }
 
 variable "do_application_hollaex-hollaexkit" {
-  description = "HollaEx Kit 2.11.3 on Ubuntu 20.04"
+  description = "HollaEx Kit 2.12.0 on Ubuntu 20.04"
   default     = "hollaex-hollaexkit"
 }
 
@@ -876,6 +876,11 @@ variable "do_application_sharklabs-logstash" {
 variable "do_application_sharklabs-minecraftjavaedi-18-04" {
   description = "Minecraft: Java Edition Server 1.20.1 on Ubuntu 22.04"
   default     = "sharklabs-minecraftjavaedi-18-04"
+}
+
+variable "do_application_sharklabs-ollamawithopenwe" {
+  description = "Ollama with Open WebUI 0.3.6 on Ubuntu 22.04"
+  default     = "sharklabs-ollamawithopenwe"
 }
 
 variable "do_application_sharklabs-openmptcprouter" {
