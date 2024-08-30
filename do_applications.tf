@@ -78,6 +78,11 @@ variable "do_application_autopanel-postfix" {
   default     = "autopanel-postfix"
 }
 
+variable "do_application_autopanel-selfhostedemails" {
+  description = "Self Hosted Email Server 0.1 on Ubuntu 24.04"
+  default     = "autopanel-selfhostedemails"
+}
+
 variable "do_application_axlabs-1clicknodeforneo" {
   description = "1ClickNode for Neo 3.7.5 on Ubuntu 24.04"
   default     = "axlabs-1clicknodeforneo"
@@ -104,7 +109,7 @@ variable "do_application_bigcloud-odoo" {
 }
 
 variable "do_application_bitwarden" {
-  description = "Bitwarden 2024.8.0 on Ubuntu 22.04"
+  description = "Bitwarden 2024.8.1 on Ubuntu 22.04"
   default     = "bitwarden"
 }
 
@@ -514,7 +519,7 @@ variable "do_application_litespeedtechnol-openlitespeedrai-20-04" {
 }
 
 variable "do_application_litespeedtechnol-openlitespeedwor-20-04" {
-  description = "OpenLiteSpeed WordPress 6.4.3 on Ubuntu 22.04"
+  description = "OpenLiteSpeed WordPress 6.6.1 on Ubuntu 24.04"
   default     = "litespeedtechnol-openlitespeedwor-20-04"
 }
 
@@ -544,7 +549,7 @@ variable "do_application_mean" {
 }
 
 variable "do_application_meilisas-meilisearch-10" {
-  description = "MeiliSearch 1.9.0 on Debian 11 (Bullseye)"
+  description = "MeiliSearch 1.10.0 on Debian 11 (Bullseye)"
   default     = "meilisas-meilisearch-10"
 }
 
@@ -694,7 +699,7 @@ variable "do_application_ossrs-srs" {
 }
 
 variable "do_application_passboltsa-passboltce-20-04" {
-  description = "Passbolt CE 4.5.2-1 on Ubuntu 20.04"
+  description = "Passbolt CE 4.9.1-1 on Ubuntu 20.04"
   default     = "passboltsa-passboltce-20-04"
 }
 
