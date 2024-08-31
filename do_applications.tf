@@ -259,7 +259,7 @@ variable "do_application_dokku-20-04" {
 }
 
 variable "do_application_doteamaccount-pocketbase" {
-  description = "PocketBase 0.22.19 on Ubuntu 22.04"
+  description = "PocketBase 0.22.20 on Ubuntu 22.04"
   default     = "doteamaccount-pocketbase"
 }
 
@@ -329,7 +329,7 @@ variable "do_application_flowforge" {
 }
 
 variable "do_application_flowforge-flowfuse" {
-  description = "FlowFuse 2.7.1 on Ubuntu 22.04"
+  description = "FlowFuse 2.8.0 on Ubuntu 22.04"
   default     = "flowforge-flowfuse"
 }
 
@@ -404,7 +404,7 @@ variable "do_application_ibsurgeon-hqbirdfirebirdv5" {
 }
 
 variable "do_application_in4it-vpnserver" {
-  description = "VPN Server 1.0.41 on Ubuntu 24.04"
+  description = "VPN Server 1.1.2 on Ubuntu 24.04"
   default     = "in4it-vpnserver"
 }
 
