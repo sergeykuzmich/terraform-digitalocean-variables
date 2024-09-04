@@ -468,6 +468,21 @@ variable "do_application_lamp-20-04" {
   default     = "lamp-20-04"
 }
 
+variable "do_application_laravel-forge-ubuntu-20-04" {
+  description = "Laravel Forge - Ubuntu 20.04 0.1.5 on Ubuntu 20.04"
+  default     = "laravel-forge-ubuntu-20-04"
+}
+
+variable "do_application_laravel-forge-ubuntu-22-04" {
+  description = "Laravel Forge - Ubuntu 22.04 0.1.5 on Ubuntu 22.04"
+  default     = "laravel-forge-ubuntu-22-04"
+}
+
+variable "do_application_laravel-forge-ubuntu-24-04" {
+  description = "Laravel Forge - Ubuntu 24.04 0.1.5 on Ubuntu 24.04"
+  default     = "laravel-forge-ubuntu-24-04"
+}
+
 variable "do_application_laravelforge" {
   description = "Laravel Forge 0.1.0 on Ubuntu 24.04"
   default     = "laravelforge"
