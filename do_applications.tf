@@ -34,12 +34,12 @@ variable "do_application_analythium-shinyproxy-20-04" {
 }
 
 variable "do_application_antmedia-antmediaserverco-18-04" {
-  description = "Ant Media Server Community Edition 2.11.0 on Ubuntu 22.04"
+  description = "Ant Media Server Community Edition 2.11.3 on Ubuntu 22.04"
   default     = "antmedia-antmediaserverco-18-04"
 }
 
 variable "do_application_antmedia-antmediaserveren-18-04" {
-  description = "Ant Media Server Enterprise Edition 2.11.0 on Ubuntu 22.04"
+  description = "Ant Media Server Enterprise Edition 2.11.3 on Ubuntu 22.04"
   default     = "antmedia-antmediaserveren-18-04"
 }
 
@@ -109,7 +109,7 @@ variable "do_application_bigcloud-odoo" {
 }
 
 variable "do_application_bitwarden" {
-  description = "Bitwarden 2024.8.1 on Ubuntu 22.04"
+  description = "Bitwarden 2024.8.3 on Ubuntu 22.04"
   default     = "bitwarden"
 }
 
@@ -509,27 +509,27 @@ variable "do_application_litespeedtechnol-cyberpanel-20-04" {
 }
 
 variable "do_application_litespeedtechnol-openlitespeeddja-20-04" {
-  description = "OpenLiteSpeed Django 5.0.4 on Ubuntu 22.04"
+  description = "OpenLiteSpeed Django 5.1.0 on Ubuntu 24.04"
   default     = "litespeedtechnol-openlitespeeddja-20-04"
 }
 
 variable "do_application_litespeedtechnol-openlitespeeddru" {
-  description = "OpenLiteSpeed Drupal 10.2.0 on Ubuntu 22.04"
+  description = "OpenLiteSpeed Drupal 11.0.1 on Ubuntu 24.04"
   default     = "litespeedtechnol-openlitespeeddru"
 }
 
 variable "do_application_litespeedtechnol-openlitespeedjoo-20-04" {
-  description = "OpenLiteSpeed Joomla 4.4.2 on Ubuntu 22.04"
+  description = "OpenLiteSpeed Joomla 5.1.2 on Ubuntu 24.04"
   default     = "litespeedtechnol-openlitespeedjoo-20-04"
 }
 
 variable "do_application_litespeedtechnol-openlitespeednod-20-04" {
-  description = "OpenLiteSpeed NodeJS 18.10.0 on Ubuntu 22.04"
+  description = "OpenLiteSpeed NodeJS 18.20.4 on Ubuntu 24.04"
   default     = "litespeedtechnol-openlitespeednod-20-04"
 }
 
 variable "do_application_litespeedtechnol-openlitespeedrai-20-04" {
-  description = "OpenLiteSpeed Rails 7.0.4 on Ubuntu 22.04"
+  description = "OpenLiteSpeed Rails 7.1.4 on Ubuntu 24.04"
   default     = "litespeedtechnol-openlitespeedrai-20-04"
 }
 
@@ -589,7 +589,7 @@ variable "do_application_minecraftforgeed" {
 }
 
 variable "do_application_mjmair-inventree" {
-  description = "InvenTree 0.15.7 on Ubuntu 20.04"
+  description = "InvenTree 0.16.1 on Ubuntu 20.04"
   default     = "mjmair-inventree"
 }
 
@@ -719,7 +719,7 @@ variable "do_application_passboltsa-passboltce-20-04" {
 }
 
 variable "do_application_perforce-perforcehelixcor" {
-  description = "Perforce Helix Core 2023.2 on Rocky 8"
+  description = "Perforce Helix Core 2024.1 on Rocky 9"
   default     = "perforce-perforcehelixcor"
 }
 
@@ -769,7 +769,7 @@ variable "do_application_plesk-plesktest" {
 }
 
 variable "do_application_postalsystemso-emailengine" {
-  description = "EmailEngine 2.40.9 on Ubuntu 22.04"
+  description = "EmailEngine 2.46.1 on Ubuntu 22.04"
   default     = "postalsystemso-emailengine"
 }
 
@@ -794,7 +794,7 @@ variable "do_application_rackware-rackwarecloudmig" {
 }
 
 variable "do_application_rocketchat-20-04" {
-  description = "Rocket.Chat 6.11.0 on Ubuntu 20.04"
+  description = "Rocket.Chat 6.12.0 on Ubuntu 20.04"
   default     = "rocketchat-20-04"
 }
 
