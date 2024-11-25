@@ -39,8 +39,8 @@ jobs:
     - name: Upload Artifacts
       uses: actions/upload-artifact@v4
       with:
-        name: raw
-        path: raw/
+        name: fetch
+        path: output/
 
 
   fmt:
@@ -52,17 +52,17 @@ jobs:
     - name: Download Artifacts
       uses: actions/download-artifact@v4
       with:
-        name: raw
-        path: raw/
+        name: fetch
+        path: output/
     - uses: hashicorp/setup-terraform@v3
       with:
         terraform_version: 1.5.0
     - name: Format Files
-      run: terraform fmt raw/
+      run: terraform fmt output/
     - name: Upload Artifacts
       uses: actions/upload-artifact@v4
       with:
-        name: output
+        name: fmt
         path: output/
 
   deploy:
@@ -78,7 +78,7 @@ jobs:
     - name: Download Artifacts
       uses: actions/download-artifact@v4
       with:
-        name: output
+        name: fmt
         path: output/
     - name: Deploy to Master
       uses: peaceiris/actions-gh-pages@v4
