@@ -48,6 +48,11 @@ variable "do_size_c-48-intel" {
   default     = "c-48-intel"
 }
 
+variable "do_size_c-60-intel" {
+  description = "120GB RAM; 60 CPU; 750GB SSD - $1639/mo"
+  default     = "c-60-intel"
+}
+
 variable "do_size_c-8" {
   description = "16GB RAM; 8 CPU; 100GB SSD - $168/mo"
   default     = "c-8"
@@ -101,6 +106,11 @@ variable "do_size_c2-4vcpu-8gb" {
 variable "do_size_c2-4vcpu-8gb-intel" {
   description = "8GB RAM; 4 CPU; 100GB SSD - $122/mo"
   default     = "c2-4vcpu-8gb-intel"
+}
+
+variable "do_size_c2-60vcpu-120gb-intel" {
+  description = "120GB RAM; 60 CPU; 1.46484375TB SSD - $1834/mo"
+  default     = "c2-60vcpu-120gb-intel"
 }
 
 variable "do_size_c2-8vcpu-16gb" {
@@ -163,6 +173,11 @@ variable "do_size_g-4vcpu-16gb-intel" {
   default     = "g-4vcpu-16gb-intel"
 }
 
+variable "do_size_g-60vcpu-240gb-intel" {
+  description = "240GB RAM; 60 CPU; 900GB SSD - $2269/mo"
+  default     = "g-60vcpu-240gb-intel"
+}
+
 variable "do_size_g-8vcpu-32gb" {
   description = "32GB RAM; 8 CPU; 100GB SSD - $252/mo"
   default     = "g-8vcpu-32gb"
@@ -223,6 +238,11 @@ variable "do_size_gd-4vcpu-16gb-intel" {
   default     = "gd-4vcpu-16gb-intel"
 }
 
+variable "do_size_gd-60vcpu-240gb-intel" {
+  description = "240GB RAM; 60 CPU; 1.7578125TB SSD - $2378/mo"
+  default     = "gd-60vcpu-240gb-intel"
+}
+
 variable "do_size_gd-8vcpu-32gb" {
   description = "32GB RAM; 8 CPU; 200GB SSD - $272/mo"
   default     = "gd-8vcpu-32gb"
@@ -231,6 +251,26 @@ variable "do_size_gd-8vcpu-32gb" {
 variable "do_size_gd-8vcpu-32gb-intel" {
   description = "32GB RAM; 8 CPU; 240GB SSD - $317/mo"
   default     = "gd-8vcpu-32gb-intel"
+}
+
+variable "do_size_gpu-h100x1-80gb" {
+  description = "240GB RAM; 20 CPU; 720GB SSD - $2522/mo"
+  default     = "gpu-h100x1-80gb"
+}
+
+variable "do_size_gpu-h100x1-80gb-200" {
+  description = "240GB RAM; 20 CPU; 200GB SSD - $5015/mo"
+  default     = "gpu-h100x1-80gb-200"
+}
+
+variable "do_size_gpu-h100x8-640gb" {
+  description = "1920GB RAM; 160 CPU; 1.998046875TB SSD - $17797/mo"
+  default     = "gpu-h100x8-640gb"
+}
+
+variable "do_size_gpu-h100x8-640gb-200" {
+  description = "1920GB RAM; 160 CPU; 200GB SSD - $35414/mo"
+  default     = "gpu-h100x8-640gb-200"
 }
 
 variable "do_size_m-16vcpu-128gb" {
@@ -271,6 +311,11 @@ variable "do_size_m-32vcpu-256gb" {
 variable "do_size_m-32vcpu-256gb-intel" {
   description = "256GB RAM; 32 CPU; 800GB SSD - $1584/mo"
   default     = "m-32vcpu-256gb-intel"
+}
+
+variable "do_size_m-48vcpu-384gb-intel" {
+  description = "384GB RAM; 48 CPU; 1.171875TB SSD - $2376/mo"
+  default     = "m-48vcpu-384gb-intel"
 }
 
 variable "do_size_m-4vcpu-32gb" {
@@ -331,6 +376,11 @@ variable "do_size_m3-32vcpu-256gb" {
 variable "do_size_m3-32vcpu-256gb-intel" {
   description = "256GB RAM; 32 CPU; 2.34375TB SSD - $1760/mo"
   default     = "m3-32vcpu-256gb-intel"
+}
+
+variable "do_size_m3-48vcpu-384gb-intel" {
+  description = "384GB RAM; 48 CPU; 3.515625TB SSD - $2640/mo"
+  default     = "m3-48vcpu-384gb-intel"
 }
 
 variable "do_size_m3-4vcpu-32gb" {
@@ -576,6 +626,11 @@ variable "do_size_so-32vcpu-256gb" {
 variable "do_size_so-32vcpu-256gb-intel" {
   description = "256GB RAM; 32 CPU; 4.6875TB SSD - $2096/mo"
   default     = "so-32vcpu-256gb-intel"
+}
+
+variable "do_size_so-48vcpu-384gb-intel" {
+  description = "384GB RAM; 48 CPU; 6.8359375TB SSD - $3144/mo"
+  default     = "so-48vcpu-384gb-intel"
 }
 
 variable "do_size_so-4vcpu-32gb" {

@@ -4,13 +4,23 @@
 
 
 variable "do_application_3cxcommunication-3cx" {
-  description = "3CX 20.0.2.715 on Debian 12 (Bookworm)"
+  description = "3CX 20.0.3.806 on Debian 12 (Bookworm)"
   default     = "3cxcommunication-3cx"
 }
 
 variable "do_application_3cxcommunication-3cxv18" {
   description = "3CX-V18 18.0.9.31 on Debian 10 (Buster)"
   default     = "3cxcommunication-3cxv18"
+}
+
+variable "do_application_aapanel" {
+  description = "aaPanel 7.0.9 on Ubuntu 22.04"
+  default     = "aapanel"
+}
+
+variable "do_application_aapanel-aapanellnmp" {
+  description = "aaPanel LNMP 7.0.11 on Ubuntu 22.04"
+  default     = "aapanel-aapanellnmp"
 }
 
 variable "do_application_activepieces" {
@@ -44,7 +54,7 @@ variable "do_application_antmedia-antmediaserveren-18-04" {
 }
 
 variable "do_application_apliteni-keitaro" {
-  description = "Keitaro 10.3.0 on CentOS 9 Stream"
+  description = "Keitaro 10.3.7 on CentOS 9 Stream"
   default     = "apliteni-keitaro"
 }
 
@@ -69,8 +79,13 @@ variable "do_application_ascensiosystem-onlyoffice-18-04" {
 }
 
 variable "do_application_ascensiosystemsi-onlyofficeeditor-18-04-4" {
-  description = "ONLYOFFICE Docs 8.0.1 on Ubuntu 22.04 LTS"
+  description = "ONLYOFFICE Docs 8.2.0.1 on Ubuntu 24.04 LTS"
   default     = "ascensiosystemsi-onlyofficeeditor-18-04-4"
+}
+
+variable "do_application_askarlabs-passwordlab" {
+  description = "PasswordLab on Ubuntu 24.04"
+  default     = "askarlabs-passwordlab"
 }
 
 variable "do_application_autopanel-postfix" {
@@ -109,7 +124,7 @@ variable "do_application_bigcloud-odoo" {
 }
 
 variable "do_application_bitwarden" {
-  description = "Bitwarden 2024.8.3 on Ubuntu 22.04"
+  description = "Bitwarden 2024.10.2 on Ubuntu 22.04"
   default     = "bitwarden"
 }
 
@@ -144,12 +159,12 @@ variable "do_application_callabacloud-callabacloudlive" {
 }
 
 variable "do_application_caprover-18-04" {
-  description = "CapRover 1.11.1 on Ubuntu 20.04"
+  description = "CapRover 1.13.2 on Ubuntu 22.04"
   default     = "caprover-18-04"
 }
 
 variable "do_application_chaarmiworlds-metaverse" {
-  description = "Metaverse 0.95b1 on Ubuntu 20.04"
+  description = "Metaverse 2.01b on Ubuntu 20.04"
   default     = "chaarmiworlds-metaverse"
 }
 
@@ -229,13 +244,108 @@ variable "do_application_deskpro" {
 }
 
 variable "do_application_devdojo-laravel-20-04" {
-  description = "Laravel 11.18.1 on Ubuntu 22.04"
+  description = "Laravel 11.26.0 on Ubuntu 22.04"
   default     = "devdojo-laravel-20-04"
 }
 
 variable "do_application_devrel-teleport-20-04" {
   description = "Teleport 15 on Ubuntu 22.04"
   default     = "devrel-teleport-20-04"
+}
+
+variable "do_application_digitaloceanai-googlegemma227bi" {
+  description = "google/gemma-2-27b-it-8x 2-27b-it on AI/ML Ready Linux"
+  default     = "digitaloceanai-googlegemma227bi"
+}
+
+variable "do_application_digitaloceanai-googlegemma227bit1x" {
+  description = "google/gemma-2-27b-it-1x 2-27b-it on DO AI/ML Ready Linux"
+  default     = "digitaloceanai-googlegemma227bit1x"
+}
+
+variable "do_application_digitaloceanai-googlegemma29b" {
+  description = "Google Gemma 2 9B - Multi GPU 2-9b-it on Ubuntu AI/ML Ready"
+  default     = "digitaloceanai-googlegemma29b"
+}
+
+variable "do_application_digitaloceanai-googlegemma29bit" {
+  description = "Google Gemma 2 9B - Single GPU 2-9b-it on DO AI/ML Ready Linux"
+  default     = "digitaloceanai-googlegemma29bit"
+}
+
+variable "do_application_digitaloceanai-llama31405binstr" {
+  description = "Llama 3.1 405B Instruct FP8 - Single GPU 3.1 405b on DO ML/AI Ready Linux"
+  default     = "digitaloceanai-llama31405binstr"
+}
+
+variable "do_application_digitaloceanai-llama31405binstructfp8" {
+  description = "Llama 3.1 405B Instruct FP8 - Multi GPU Llama 3.1 405B on DO AI/ML Multi GPU"
+  default     = "digitaloceanai-llama31405binstructfp8"
+}
+
+variable "do_application_digitaloceanai-metallamallama31" {
+  description = "meta-llama/Llama-3.1-8B-Instruct-1x 3.1-8B-Instruct on Ubuntu AI/ML Ready"
+  default     = "digitaloceanai-metallamallama31"
+}
+
+variable "do_application_digitaloceanai-metallamallama3170binstruct1" {
+  description = "meta-llama/Llama-3.1-70B-Instruct-1 3.1-70B-Instruct on Ubuntu AI/ML Ready"
+  default     = "digitaloceanai-metallamallama3170binstruct1"
+}
+
+variable "do_application_digitaloceanai-metallamallama3170binstruct8" {
+  description = "meta-llama/Llama-3.1-70B-Instruct-8 3.1-70B-Instruct on Ubuntu AI/ML Ready"
+  default     = "digitaloceanai-metallamallama3170binstruct8"
+}
+
+variable "do_application_digitaloceanai-metallamallama318binstruct8x" {
+  description = "meta-llama/Llama-3.1-8B-Instruct-8x 3.1-8B-Instruct on Ubuntu AI/ML Ready"
+  default     = "digitaloceanai-metallamallama318binstruct8x"
+}
+
+variable "do_application_digitaloceanai-mistral7binstruc" {
+  description = "Mistral-7B-Instruct-v0-3-1x 7B-Instruct-v0.3 on Ubuntu AI/ML Ready"
+  default     = "digitaloceanai-mistral7binstruc"
+}
+
+variable "do_application_digitaloceanai-mistral7binstructv038x" {
+  description = "mistral-7b-instruct-v0-3-8x 7B-Instruct-v0.3 on Ubuntu AI/ML Ready"
+  default     = "digitaloceanai-mistral7binstructv038x"
+}
+
+variable "do_application_digitaloceanai-mixtral8x22binst" {
+  description = "mixtral-8x22b-instruct-v0-1-8x 8x22B-Instruct-v0.1 on Ubuntu AI/ML Ready"
+  default     = "digitaloceanai-mixtral8x22binst"
+}
+
+variable "do_application_digitaloceanai-mixtral8x7binstructv018x" {
+  description = "Mixtral-8x7B-Instruct-v0-1-8x 8x7B-Instruct-v0.1 on DO AI/ML Ready Linux"
+  default     = "digitaloceanai-mixtral8x7binstructv018x"
+}
+
+variable "do_application_digitaloceanai-noushermes2mixtr" {
+  description = "Nous-Hermes-2-Mixtral-8x7B-DPO-8x Hermes-2-Mixtral-8x7 on Ubuntu AI/ML Ready"
+  default     = "digitaloceanai-noushermes2mixtr"
+}
+
+variable "do_application_digitaloceanai-nresearchhermes3" {
+  description = "NResearch/Hermes-3-Llama-3-1-70B-8x 3-Llama-3.1-70B on Ubuntu AI/ML Ready"
+  default     = "digitaloceanai-nresearchhermes3"
+}
+
+variable "do_application_digitaloceanai-nresearchhermes3llama318b1x" {
+  description = "NResearch/Hermes-3-Llama-3-1-8B-1x 3-Llama-3.1-8B on Ubuntu AI/ML Ready"
+  default     = "digitaloceanai-nresearchhermes3llama318b1x"
+}
+
+variable "do_application_digitaloceanai-qwen27b1x" {
+  description = "Qwen 2 7B - Single GPU 2-7B-Instruct on DO AI/ML Ready Linux"
+  default     = "digitaloceanai-qwen27b1x"
+}
+
+variable "do_application_digitaloceanai-researchhermes3l" {
+  description = "Research-Hermes-3-Llama-3-1-405B-8x 3-Llama-3.1-405B on Ubuntu AI/ML Ready"
+  default     = "digitaloceanai-researchhermes3l"
 }
 
 variable "do_application_discourse-20-04" {
@@ -259,7 +369,7 @@ variable "do_application_dokku-20-04" {
 }
 
 variable "do_application_doteamaccount-pocketbase" {
-  description = "PocketBase 0.22.20 on Ubuntu 22.04"
+  description = "PocketBase 0.22.24 on Ubuntu 22.04"
   default     = "doteamaccount-pocketbase"
 }
 
@@ -289,7 +399,7 @@ variable "do_application_elasticsearch" {
 }
 
 variable "do_application_eltrino-magento2opensour-20-04" {
-  description = "Magento 2 Open Source 1.6.12 on Ubuntu 20.04 (LTS)"
+  description = "Magento 2 Open Source 1.6.14 on Ubuntu 20.04 (LTS)"
   default     = "eltrino-magento2opensour-20-04"
 }
 
@@ -319,7 +429,7 @@ variable "do_application_flask" {
 }
 
 variable "do_application_flexifyio-flexifyiomulticl-20-04" {
-  description = "Flexify.IO Multi-cloud / Migration 2.16.1 on Ubuntu 22.04 LTS"
+  description = "Flexify.IO Multi-cloud / Migration 2.18.1 on Ubuntu 22.04 LTS"
   default     = "flexifyio-flexifyiomulticl-20-04"
 }
 
@@ -329,7 +439,7 @@ variable "do_application_flowforge" {
 }
 
 variable "do_application_flowforge-flowfuse" {
-  description = "FlowFuse 2.8.0 on Ubuntu 22.04"
+  description = "FlowFuse 2.10.0 on Ubuntu 22.04"
   default     = "flowforge-flowfuse"
 }
 
@@ -341,6 +451,11 @@ variable "do_application_ghost-20-04" {
 variable "do_application_gitlab-gitlabenterprise-20-04" {
   description = "GitLab Enterprise Edition on Ubuntu 22.04"
   default     = "gitlab-gitlabenterprise-20-04"
+}
+
+variable "do_application_grafana-18-04" {
+  description = "Grafana 11.2 on Ubuntu 24.04"
+  default     = "grafana-18-04"
 }
 
 variable "do_application_gravitl-netmaker" {
@@ -404,7 +519,7 @@ variable "do_application_ibsurgeon-hqbirdfirebirdv5" {
 }
 
 variable "do_application_in4it-vpnserver" {
-  description = "VPN Server 1.1.2 on Ubuntu 24.04"
+  description = "VPN Server 1.1.4 on Ubuntu 24.04"
   default     = "in4it-vpnserver"
 }
 
@@ -444,7 +559,7 @@ variable "do_application_jitsiserver-20-04" {
 }
 
 variable "do_application_kandralabs-zulip-18-04" {
-  description = "Zulip 9.1 on Ubuntu 22.04"
+  description = "Zulip 9.2 on Ubuntu 22.04"
   default     = "kandralabs-zulip-18-04"
 }
 
@@ -469,17 +584,17 @@ variable "do_application_lamp-20-04" {
 }
 
 variable "do_application_laravel-forge-ubuntu-20-04" {
-  description = "Laravel Forge - Ubuntu 20.04 0.1.5 on Ubuntu 20.04"
+  description = "Laravel Forge - Ubuntu 20.04 0.2.1 on Ubuntu 20.04"
   default     = "laravel-forge-ubuntu-20-04"
 }
 
 variable "do_application_laravel-forge-ubuntu-22-04" {
-  description = "Laravel Forge - Ubuntu 22.04 0.1.5 on Ubuntu 22.04"
+  description = "Laravel Forge - Ubuntu 22.04 0.2.1 on Ubuntu 22.04"
   default     = "laravel-forge-ubuntu-22-04"
 }
 
 variable "do_application_laravel-forge-ubuntu-24-04" {
-  description = "Laravel Forge - Ubuntu 24.04 0.1.5 on Ubuntu 24.04"
+  description = "Laravel Forge - Ubuntu 24.04 0.2.1 on Ubuntu 24.04"
   default     = "laravel-forge-ubuntu-24-04"
 }
 
@@ -503,8 +618,13 @@ variable "do_application_linuxgsm" {
   default     = "linuxgsm"
 }
 
+variable "do_application_linuxpatchcom-linuxpatchapplia" {
+  description = "LinuxPatch Appliance 1.8 on Ubuntu 24.04 (LTS)"
+  default     = "linuxpatchcom-linuxpatchapplia"
+}
+
 variable "do_application_litespeedtechnol-cyberpanel-20-04" {
-  description = "CyberPanel 2.3.5 on Ubuntu 22.04"
+  description = "CyberPanel 2.3.6 on Ubuntu 22.04"
   default     = "litespeedtechnol-cyberpanel-20-04"
 }
 
@@ -534,7 +654,7 @@ variable "do_application_litespeedtechnol-openlitespeedrai-20-04" {
 }
 
 variable "do_application_litespeedtechnol-openlitespeedwor-20-04" {
-  description = "OpenLiteSpeed WordPress 6.6.1 on Ubuntu 24.04"
+  description = "OpenLiteSpeed WordPress 6.7 on Ubuntu 24.04"
   default     = "litespeedtechnol-openlitespeedwor-20-04"
 }
 
@@ -564,7 +684,7 @@ variable "do_application_mean" {
 }
 
 variable "do_application_meilisas-meilisearch-10" {
-  description = "MeiliSearch 1.10.0 on Debian 11 (Bullseye)"
+  description = "MeiliSearch 1.11.0 on Debian 11 (Bullseye)"
   default     = "meilisas-meilisearch-10"
 }
 
@@ -589,7 +709,7 @@ variable "do_application_minecraftforgeed" {
 }
 
 variable "do_application_mjmair-inventree" {
-  description = "InvenTree 0.16.1 on Ubuntu 20.04"
+  description = "InvenTree 0.16.8 on Ubuntu 20.04"
   default     = "mjmair-inventree"
 }
 
@@ -621,6 +741,11 @@ variable "do_application_multiversx-multiversxobserv" {
 variable "do_application_multiversx-multiversxtestne" {
   description = "MultiversX Testnet Sovereign Chain alpha on Ubuntu 22.04"
   default     = "multiversx-multiversxtestne"
+}
+
+variable "do_application_mysql-20-04" {
+  description = "MySQL on Ubuntu 20.04"
+  default     = "mysql-20-04"
 }
 
 variable "do_application_nakama-18-04" {
@@ -739,7 +864,7 @@ variable "do_application_pirichaintechnol-pirisubchainsnod" {
 }
 
 variable "do_application_planesoftware-planecommunityed" {
-  description = "Plane (Community Edition) 0.22 on Ubuntu 22.04"
+  description = "Plane (Community Edition) 0.23.1 on Ubuntu 22.04"
   default     = "planesoftware-planecommunityed"
 }
 
@@ -749,12 +874,12 @@ variable "do_application_playboxtechnolog-ottstream" {
 }
 
 variable "do_application_plesk-20-04" {
-  description = "Plesk 18.0.62 on Ubuntu 22.04"
+  description = "Plesk 18.0.64 on Ubuntu 22.04"
   default     = "plesk-20-04"
 }
 
 variable "do_application_plesk-pleskalmalinux" {
-  description = "Plesk (AlmaLinux) 18.0.62 on AlmaLinux 9"
+  description = "Plesk (AlmaLinux) 18.0.64 on AlmaLinux 9"
   default     = "plesk-pleskalmalinux"
 }
 
@@ -771,6 +896,11 @@ variable "do_application_plesk-plesktest" {
 variable "do_application_postalsystemso-emailengine" {
   description = "EmailEngine 2.46.1 on Ubuntu 22.04"
   default     = "postalsystemso-emailengine"
+}
+
+variable "do_application_prometheus-18-04" {
+  description = "Prometheus 2.54.1 on Ubuntu 24.04"
+  default     = "prometheus-18-04"
 }
 
 variable "do_application_quantrocket" {
@@ -819,7 +949,7 @@ variable "do_application_saltcorn-20-04" {
 }
 
 variable "do_application_sandflysecurity-20-04" {
-  description = "Sandfly Security 5.1.1 on Ubuntu 22.04"
+  description = "Sandfly Security 5.2.0 on Ubuntu 22.04"
   default     = "sandflysecurity-20-04"
 }
 
@@ -834,7 +964,7 @@ variable "do_application_searchblox-searchbloxenterp-7-6" {
 }
 
 variable "do_application_seatablegmbh-seatable" {
-  description = "SeaTable 3.3.7 on Debian 11"
+  description = "SeaTable 5.0.8 on Debian 11"
   default     = "seatablegmbh-seatable"
 }
 
@@ -844,7 +974,7 @@ variable "do_application_severalnines-clustercontrol-20-04" {
 }
 
 variable "do_application_sharklabs-anaconda" {
-  description = "Anaconda 2024.06-1 on Ubuntu 22.04 (LTS)"
+  description = "Anaconda 2024.10-1 on Ubuntu 22.04 (LTS)"
   default     = "sharklabs-anaconda"
 }
 
@@ -918,6 +1048,11 @@ variable "do_application_sharklabs-piholevpn" {
   default     = "sharklabs-piholevpn"
 }
 
+variable "do_application_sharklabs-prometheus2541" {
+  description = "Prometheus-2.54.1 2.54.1 on Ubuntu 24.04"
+  default     = "sharklabs-prometheus2541"
+}
+
 variable "do_application_sharklabs-testproject" {
   description = "test-project 1 on Ubuntu 22.04"
   default     = "sharklabs-testproject"
@@ -931,6 +1066,11 @@ variable "do_application_sharklabs-valkey" {
 variable "do_application_shellhub" {
   description = "ShellHub 0.10.4 on Ubuntu 22.04"
   default     = "shellhub"
+}
+
+variable "do_application_skudonet-skudonetv10" {
+  description = "SKUDONET v10 10.0.4 on Debian 12"
+  default     = "skudonet-skudonetv10"
 }
 
 variable "do_application_smartarget-prestashop" {
@@ -989,7 +1129,7 @@ variable "do_application_swarmfoundation-swarmlightnode" {
 }
 
 variable "do_application_tebex-tebexrconadapter" {
-  description = "Tebex RCON Adapter 1.0.0 on 22.04"
+  description = "Tebex RCON Adapter 1.1.1 on 24.04"
   default     = "tebex-tebexrconadapter"
 }
 
@@ -1018,18 +1158,23 @@ variable "do_application_ubuntudesktopgno" {
   default     = "ubuntudesktopgno"
 }
 
+variable "do_application_uibakery" {
+  description = "UI Bakery 3.96.2 on Ubuntu 24.04"
+  default     = "uibakery"
+}
+
 variable "do_application_varnishsoftware-varnishcache-18-04" {
   description = "Varnish Cache 6.0.13 on Ubuntu 20.04"
   default     = "varnishsoftware-varnishcache-18-04"
 }
 
 variable "do_application_victoriametrics-victorialogssing" {
-  description = "VictoriaLogs Single 0.4.2 on 24.04"
+  description = "VictoriaLogs Single 0.35.0 on 24.04"
   default     = "victoriametrics-victorialogssing"
 }
 
 variable "do_application_victoriametrics-victoriametricss" {
-  description = "VictoriaMetrics Single 1.102.0 on Ubuntu 20.04"
+  description = "VictoriaMetrics Single 1.104.0 on Ubuntu 22.04"
   default     = "victoriametrics-victoriametricss"
 }
 
@@ -1049,13 +1194,18 @@ variable "do_application_wordpress-20-04" {
 }
 
 variable "do_application_wordsmythcreatio-aresmush" {
-  description = "AresMUSH 1.0 on Ubuntu 20.04"
+  description = "AresMUSH 1.5.2 on Ubuntu 22.04"
   default     = "wordsmythcreatio-aresmush"
 }
 
 variable "do_application_wpclouddeploy" {
   description = "WPCloudDeploy 5.5.0 on Ubuntu 20.04"
   default     = "wpclouddeploy"
+}
+
+variable "do_application_xplex" {
+  description = "xplex 1.0.0 on Ubuntu 22.04 (LTS)"
+  default     = "xplex"
 }
 
 variable "do_application_yeastar-yeastarpseriesph" {

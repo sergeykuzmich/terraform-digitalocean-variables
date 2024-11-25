@@ -38,6 +38,21 @@ variable "do_distibution_fedora-40-x64" {
   default     = "fedora-40-x64"
 }
 
+variable "do_distibution_fedora-41-x64" {
+  description = "Fedora 41 x64"
+  default     = "fedora-41-x64"
+}
+
+variable "do_distibution_gpu-h100x1-base" {
+  description = "Ubuntu AI/ML Ready H100x1"
+  default     = "gpu-h100x1-base"
+}
+
+variable "do_distibution_gpu-h100x8-base" {
+  description = "Ubuntu AI/ML Ready H100x8"
+  default     = "gpu-h100x8-base"
+}
+
 variable "do_distibution_rockylinux-8-x64" {
   description = "Rocky Linux 8 x64"
   default     = "rockylinux-8-x64"
@@ -61,5 +76,10 @@ variable "do_distibution_ubuntu-22-04-x64" {
 variable "do_distibution_ubuntu-24-04-x64" {
   description = "Ubuntu 24.04 (LTS) x64"
   default     = "ubuntu-24-04-x64"
+}
+
+variable "do_distibution_ubuntu-24-10-x64" {
+  description = "Ubuntu 24.10 x64"
+  default     = "ubuntu-24-10-x64"
 }
     
