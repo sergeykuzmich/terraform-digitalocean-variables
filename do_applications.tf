@@ -88,6 +88,11 @@ variable "do_application_askarlabs-passwordlab" {
   default     = "askarlabs-passwordlab"
 }
 
+variable "do_application_automazeme-n8n" {
+  description = "n8n 1.67.1 on Ubuntu 22.04 (LTS)"
+  default     = "automazeme-n8n"
+}
+
 variable "do_application_autopanel-postfix" {
   description = "Postfix 1.0 on Ubuntu 24.04"
   default     = "autopanel-postfix"
@@ -439,7 +444,7 @@ variable "do_application_flowforge" {
 }
 
 variable "do_application_flowforge-flowfuse" {
-  description = "FlowFuse 2.10.0 on Ubuntu 22.04"
+  description = "FlowFuse 2.11.0 on Ubuntu 22.04"
   default     = "flowforge-flowfuse"
 }
 
@@ -559,7 +564,7 @@ variable "do_application_jitsiserver-20-04" {
 }
 
 variable "do_application_kandralabs-zulip-18-04" {
-  description = "Zulip 9.2 on Ubuntu 22.04"
+  description = "Zulip 9.3 on Ubuntu 22.04"
   default     = "kandralabs-zulip-18-04"
 }
 
@@ -944,7 +949,7 @@ variable "do_application_runcloud-runcloud2004-20-04" {
 }
 
 variable "do_application_saltcorn-20-04" {
-  description = "Saltcorn 0.9.3 on Debian 12"
+  description = "Saltcorn 1.0.0 on Debian 12"
   default     = "saltcorn-20-04"
 }
 
