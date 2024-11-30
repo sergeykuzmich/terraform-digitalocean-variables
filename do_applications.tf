@@ -4,7 +4,7 @@
 
 
 variable "do_application_3cxcommunication-3cx" {
-  description = "3CX 20.0.3.806 on Debian 12 (Bookworm)"
+  description = "3CX 20.0.4.487 on Debian 12 (Bookworm)"
   default     = "3cxcommunication-3cx"
 }
 
@@ -974,7 +974,7 @@ variable "do_application_seatablegmbh-seatable" {
 }
 
 variable "do_application_severalnines-clustercontrol-20-04" {
-  description = "ClusterControl 2.0.0 on Ubuntu 20.04"
+  description = "ClusterControl 2.3.0 on Ubuntu 20.04"
   default     = "severalnines-clustercontrol-20-04"
 }
 
