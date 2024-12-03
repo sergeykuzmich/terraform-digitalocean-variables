@@ -78,6 +78,11 @@ variable "do_application_ascensiosystem-onlyoffice-18-04" {
   default     = "ascensiosystem-onlyoffice-18-04"
 }
 
+variable "do_application_ascensiosystemsi-onlyofficedocspa" {
+  description = "ONLYOFFICE DocSpace 3.0 on Ubuntu 24.04 LTS"
+  default     = "ascensiosystemsi-onlyofficedocspa"
+}
+
 variable "do_application_ascensiosystemsi-onlyofficeeditor-18-04-4" {
   description = "ONLYOFFICE Docs 8.2.0.1 on Ubuntu 24.04 LTS"
   default     = "ascensiosystemsi-onlyofficeeditor-18-04-4"
@@ -144,7 +149,7 @@ variable "do_application_border0" {
 }
 
 variable "do_application_botguardo-botguardgatekeep" {
-  description = "BotGuard GateKeeper 1.3.3 on Debian 12 (bookworm)"
+  description = "BotGuard GateKeeper 1.4.3 on Debian 12 (bookworm)"
   default     = "botguardo-botguardgatekeep"
 }
 
@@ -189,7 +194,7 @@ variable "do_application_clickhouse" {
 }
 
 variable "do_application_cloudron-20-04" {
-  description = "Cloudron 8.0.4 on Ubuntu 24.04"
+  description = "Cloudron 8.1.0 on Ubuntu 24.04"
   default     = "cloudron-20-04"
 }
 
@@ -374,7 +379,7 @@ variable "do_application_dokku-20-04" {
 }
 
 variable "do_application_doteamaccount-pocketbase" {
-  description = "PocketBase 0.22.27 on Ubuntu 22.04"
+  description = "PocketBase 0.23.1 on Ubuntu 22.04"
   default     = "doteamaccount-pocketbase"
 }
 
@@ -774,7 +779,7 @@ variable "do_application_nginx" {
 }
 
 variable "do_application_nirvatosoftware-nirvashare-20-04" {
-  description = "NirvaShare 5.1.0 on Ubuntu 20.04 (LTS)"
+  description = "NirvaShare 6.1.0 on Ubuntu 20.04 (LTS)"
   default     = "nirvatosoftware-nirvashare-20-04"
 }
 
