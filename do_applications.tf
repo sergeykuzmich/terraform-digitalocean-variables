@@ -169,7 +169,7 @@ variable "do_application_callabacloud-callabacloudlive" {
 }
 
 variable "do_application_caprover-18-04" {
-  description = "CapRover 1.13.2 on Ubuntu 22.04"
+  description = "CapRover 1.13.3 on Ubuntu 22.04"
   default     = "caprover-18-04"
 }
 
