@@ -1033,6 +1033,11 @@ variable "do_application_sharklabs-logstash" {
   default     = "sharklabs-logstash"
 }
 
+variable "do_application_sharklabs-matrixsynapsebac-10" {
+  description = "Matrix (Synapse backend) 0.1.7 on Debian 12 (bookworm)"
+  default     = "sharklabs-matrixsynapsebac-10"
+}
+
 variable "do_application_sharklabs-minecraftjavaedi-18-04" {
   description = "Minecraft: Java Edition Server 1.20.1 on Ubuntu 22.04"
   default     = "sharklabs-minecraftjavaedi-18-04"
@@ -1186,6 +1191,11 @@ variable "do_application_victoriametrics-victorialogssing" {
 variable "do_application_victoriametrics-victoriametricss" {
   description = "VictoriaMetrics Single 1.104.0 on Ubuntu 22.04"
   default     = "victoriametrics-victoriametricss"
+}
+
+variable "do_application_vodianetworks-vodiaphonesystem-10" {
+  description = "Vodia Multi-tenant Cloud PBX 69.5.3 on Debian 10 x64"
+  default     = "vodianetworks-vodiaphonesystem-10"
 }
 
 variable "do_application_warpspeedvpn-wpcontroller" {
