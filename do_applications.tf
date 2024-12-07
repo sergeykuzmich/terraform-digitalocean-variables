@@ -199,7 +199,7 @@ variable "do_application_cloudron-20-04" {
 }
 
 variable "do_application_codelathe-filecloud-20-04" {
-  description = "FileCloud 23.232 on Ubuntu 22.04"
+  description = "FileCloud 23.241 on Ubuntu 22.04"
   default     = "codelathe-filecloud-20-04"
 }
 
@@ -379,7 +379,7 @@ variable "do_application_dokku-20-04" {
 }
 
 variable "do_application_doteamaccount-pocketbase" {
-  description = "PocketBase 0.23.1 on Ubuntu 22.04"
+  description = "PocketBase 0.23.4 on Ubuntu 22.04"
   default     = "doteamaccount-pocketbase"
 }
 
