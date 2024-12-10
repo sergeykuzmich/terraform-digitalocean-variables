@@ -884,12 +884,12 @@ variable "do_application_playboxtechnolog-ottstream" {
 }
 
 variable "do_application_plesk-20-04" {
-  description = "Plesk 18.0.64 on Ubuntu 22.04"
+  description = "Plesk 18.0.65 on Ubuntu 22.04"
   default     = "plesk-20-04"
 }
 
 variable "do_application_plesk-pleskalmalinux" {
-  description = "Plesk (AlmaLinux) 18.0.64 on AlmaLinux 9"
+  description = "Plesk (AlmaLinux) 18.0.65 on AlmaLinux 9"
   default     = "plesk-pleskalmalinux"
 }
 
