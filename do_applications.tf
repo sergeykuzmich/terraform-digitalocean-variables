@@ -379,7 +379,7 @@ variable "do_application_dokku-20-04" {
 }
 
 variable "do_application_doteamaccount-pocketbase" {
-  description = "PocketBase 0.23.10 on Ubuntu 22.04"
+  description = "PocketBase 0.23.12 on Ubuntu 22.04"
   default     = "doteamaccount-pocketbase"
 }
 
@@ -694,7 +694,7 @@ variable "do_application_mean" {
 }
 
 variable "do_application_meilisas-meilisearch-10" {
-  description = "MeiliSearch 1.11.0 on Debian 11 (Bullseye)"
+  description = "MeiliSearch 1.12.0 on Debian 11 (Bullseye)"
   default     = "meilisas-meilisearch-10"
 }
 
