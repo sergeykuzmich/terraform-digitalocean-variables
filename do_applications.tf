@@ -379,7 +379,7 @@ variable "do_application_dokku-20-04" {
 }
 
 variable "do_application_doteamaccount-pocketbase" {
-  description = "PocketBase 0.23.12 on Ubuntu 22.04"
+  description = "PocketBase 0.24.0 on Ubuntu 22.04"
   default     = "doteamaccount-pocketbase"
 }
 
