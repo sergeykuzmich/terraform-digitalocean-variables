@@ -544,7 +544,7 @@ variable "do_application_invoiceninja-20-0-4" {
 }
 
 variable "do_application_ispmanager-ispmanager6" {
-  description = "Ispmanager 6 6.90.2 on Ubuntu 20.04"
+  description = "Ispmanager 6 6.110.2 on Ubuntu 20.04"
   default     = "ispmanager-ispmanager6"
 }
 
@@ -968,6 +968,11 @@ variable "do_application_scalegrid-scalegridcentos7" {
   default     = "scalegrid-scalegridcentos7"
 }
 
+variable "do_application_searchblox-searchai" {
+  description = "SearchAI 10.8.0.5 on CentOS Stream 9"
+  default     = "searchblox-searchai"
+}
+
 variable "do_application_searchblox-searchbloxenterp-7-6" {
   description = "SearchBlox Enterprise Search 10.6 on CentOS 8.0"
   default     = "searchblox-searchbloxenterp-7-6"
@@ -1201,6 +1206,11 @@ variable "do_application_vodianetworks-vodiaphonesystem-10" {
 variable "do_application_warpspeedvpn-wpcontroller" {
   description = "wpcontroller 20221127181653 on Ubuntu 22.04"
   default     = "warpspeedvpn-wpcontroller"
+}
+
+variable "do_application_wgdashboard" {
+  description = "WGDashboard on Ubuntu 22.04"
+  default     = "wgdashboard"
 }
 
 variable "do_application_wikijs-18-04" {
