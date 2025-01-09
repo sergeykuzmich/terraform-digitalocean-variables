@@ -14,7 +14,7 @@ variable "do_application_3cxcommunication-3cxv18" {
 }
 
 variable "do_application_aapanel" {
-  description = "aaPanel 7.0.9 on Ubuntu 22.04"
+  description = "aaPanel 7.0.13 on Ubuntu 22.04"
   default     = "aapanel"
 }
 
@@ -44,12 +44,12 @@ variable "do_application_analythium-shinyproxy-20-04" {
 }
 
 variable "do_application_antmedia-antmediaserverco-18-04" {
-  description = "Ant Media Server Community Edition 2.11.3 on Ubuntu 22.04"
+  description = "Ant Media Server Community Edition 2.12.0 on Ubuntu 22.04"
   default     = "antmedia-antmediaserverco-18-04"
 }
 
 variable "do_application_antmedia-antmediaserveren-18-04" {
-  description = "Ant Media Server Enterprise Edition 2.11.3 on Ubuntu 22.04"
+  description = "Ant Media Server Enterprise Edition 2.12.0 on Ubuntu 22.04"
   default     = "antmedia-antmediaserveren-18-04"
 }
 
@@ -264,12 +264,12 @@ variable "do_application_devrel-teleport-20-04" {
 }
 
 variable "do_application_digitaloceanai-googlegemma227bi" {
-  description = "google/gemma-2-27b-it-8x 2-27b-it on AI/ML Ready Linux"
+  description = "Google Gemma 2 27B - Multi GPU 2-27b-it on Ubuntu AI/ML Ready"
   default     = "digitaloceanai-googlegemma227bi"
 }
 
 variable "do_application_digitaloceanai-googlegemma227bit1x" {
-  description = "google/gemma-2-27b-it-1x 2-27b-it on DO AI/ML Ready Linux"
+  description = "Google Gemma 2 27B - Single GPU 2-27b-it on Ubuntu AI/ML Ready"
   default     = "digitaloceanai-googlegemma227bit1x"
 }
 
@@ -279,37 +279,37 @@ variable "do_application_digitaloceanai-googlegemma29b" {
 }
 
 variable "do_application_digitaloceanai-googlegemma29bit" {
-  description = "Google Gemma 2 9B - Single GPU 2-9b-it on DO AI/ML Ready Linux"
+  description = "Google Gemma 2 9B - Single GPU 2-9b-it on Ubuntu AI/ML Ready"
   default     = "digitaloceanai-googlegemma29bit"
 }
 
 variable "do_application_digitaloceanai-llama31405binstr" {
-  description = "Llama 3.1 405B Instruct FP8 - Single GPU 3.1 405b on DO ML/AI Ready Linux"
+  description = "Llama 3.1 405B Instruct FP8 - Single GPU 3.1 405b on Ubuntu AI/ML Ready"
   default     = "digitaloceanai-llama31405binstr"
 }
 
 variable "do_application_digitaloceanai-llama31405binstructfp8" {
-  description = "Llama 3.1 405B Instruct FP8 - Multi GPU Llama 3.1 405B on DO AI/ML Multi GPU"
+  description = "Llama 3.1 405B Instruct FP8 - Multi GPU Llama 3.1 405B on Ubuntu AI/ML Ready"
   default     = "digitaloceanai-llama31405binstructfp8"
 }
 
 variable "do_application_digitaloceanai-metallamallama31" {
-  description = "meta-llama/Llama-3.1-8B-Instruct-1x 3.1-8B-Instruct on Ubuntu AI/ML Ready"
+  description = "Llama 3.1 8B Instruct - Single GPU 3.1-8B-Instruct on Ubuntu AI/ML Ready"
   default     = "digitaloceanai-metallamallama31"
 }
 
 variable "do_application_digitaloceanai-metallamallama3170binstruct1" {
-  description = "meta-llama/Llama-3.1-70B-Instruct-1 3.1-70B-Instruct on Ubuntu AI/ML Ready"
+  description = "Llama 3.1 70B Instruct - Single GPU 3.1-70B-Instruct on Ubuntu AI/ML Ready"
   default     = "digitaloceanai-metallamallama3170binstruct1"
 }
 
 variable "do_application_digitaloceanai-metallamallama3170binstruct8" {
-  description = "meta-llama/Llama-3.1-70B-Instruct-8 3.1-70B-Instruct on Ubuntu AI/ML Ready"
+  description = "Llama 3.1 70B Instruct - Multi GPU 3.1-70B-Instruct on Ubuntu AI/ML Ready"
   default     = "digitaloceanai-metallamallama3170binstruct8"
 }
 
 variable "do_application_digitaloceanai-metallamallama318binstruct8x" {
-  description = "meta-llama/Llama-3.1-8B-Instruct-8x 3.1-8B-Instruct on Ubuntu AI/ML Ready"
+  description = "Llama 3.1 8B Instruct - Multi GPU 3.1-8B-Instruct on Ubuntu AI/ML Ready"
   default     = "digitaloceanai-metallamallama318binstruct8x"
 }
 
@@ -319,42 +319,42 @@ variable "do_application_digitaloceanai-mistral7binstruc" {
 }
 
 variable "do_application_digitaloceanai-mistral7binstructv038x" {
-  description = "mistral-7b-instruct-v0-3-8x 7B-Instruct-v0.3 on Ubuntu AI/ML Ready"
+  description = "Mistral 7B Instruct v0.3 - Multi GPU 7B-Instruct-v0.3 on Ubuntu AI/ML Ready"
   default     = "digitaloceanai-mistral7binstructv038x"
 }
 
 variable "do_application_digitaloceanai-mixtral8x22binst" {
-  description = "mixtral-8x22b-instruct-v0-1-8x 8x22B-Instruct-v0.1 on Ubuntu AI/ML Ready"
+  description = "Mixtral 8x22B Instruct v0.1 - Multi GPU 8x22B-Instruct-v0.1 on Ubuntu AI/ML Ready"
   default     = "digitaloceanai-mixtral8x22binst"
 }
 
 variable "do_application_digitaloceanai-mixtral8x7binstructv018x" {
-  description = "Mixtral-8x7B-Instruct-v0-1-8x 8x7B-Instruct-v0.1 on DO AI/ML Ready Linux"
+  description = "Mixtral 8x7B Instruct v0.1 - Multi GPU 8x7B-Instruct-v0.1 on Ubuntu AI/ML Ready"
   default     = "digitaloceanai-mixtral8x7binstructv018x"
 }
 
 variable "do_application_digitaloceanai-noushermes2mixtr" {
-  description = "Nous-Hermes-2-Mixtral-8x7B-DPO-8x Hermes-2-Mixtral-8x7 on Ubuntu AI/ML Ready"
+  description = "NousResearch Nous Hermes 2 Mixtral 8x7B DPO - Multi GPU Hermes-2-Mixtral-8x7B-DP0 on Ubuntu AI/ML Ready"
   default     = "digitaloceanai-noushermes2mixtr"
 }
 
 variable "do_application_digitaloceanai-nresearchhermes3" {
-  description = "NResearch/Hermes-3-Llama-3-1-70B-8x 3-Llama-3.1-70B on Ubuntu AI/ML Ready"
+  description = "NousResearch Hermes 3 Llama 3.1  70B - Multi GPU 3-Llama-3.1-70B on Ubuntu AI/ML Ready"
   default     = "digitaloceanai-nresearchhermes3"
 }
 
 variable "do_application_digitaloceanai-nresearchhermes3llama318b1x" {
-  description = "NResearch/Hermes-3-Llama-3-1-8B-1x 3-Llama-3.1-8B on Ubuntu AI/ML Ready"
+  description = "NousResearch Hermes 3 Llama 3.1  8B - Single GPU 3-Llama-3.1-8B on Ubuntu AI/ML Ready"
   default     = "digitaloceanai-nresearchhermes3llama318b1x"
 }
 
 variable "do_application_digitaloceanai-qwen27b1x" {
-  description = "Qwen 2 7B - Single GPU 2-7B-Instruct on DO AI/ML Ready Linux"
+  description = "Qwen 2 7B - Single GPU 2-7B-Instruct on Ubuntu AI/ML Ready"
   default     = "digitaloceanai-qwen27b1x"
 }
 
 variable "do_application_digitaloceanai-researchhermes3l" {
-  description = "Research-Hermes-3-Llama-3-1-405B-8x 3-Llama-3.1-405B on Ubuntu AI/ML Ready"
+  description = "NousResearch Hermes 3 Llama 3.1  405B - Multi GPU 3-Llama-3.1-405B on Ubuntu AI/ML Ready"
   default     = "digitaloceanai-researchhermes3l"
 }
 
