@@ -134,7 +134,7 @@ variable "do_application_bigcloud-odoo" {
 }
 
 variable "do_application_bitwarden" {
-  description = "Bitwarden 2024.11.1 on Ubuntu 22.04"
+  description = "Bitwarden 2024.12.1 on Ubuntu 22.04"
   default     = "bitwarden"
 }
 
@@ -379,7 +379,7 @@ variable "do_application_dokku-20-04" {
 }
 
 variable "do_application_doteamaccount-pocketbase" {
-  description = "PocketBase 0.24.0 on Ubuntu 22.04"
+  description = "PocketBase 0.24.1 on Ubuntu 22.04"
   default     = "doteamaccount-pocketbase"
 }
 
@@ -884,12 +884,12 @@ variable "do_application_playboxtechnolog-ottstream" {
 }
 
 variable "do_application_plesk-20-04" {
-  description = "Plesk 18.0.65 on Ubuntu 22.04"
+  description = "Plesk 18.0.66 on Ubuntu 22.04"
   default     = "plesk-20-04"
 }
 
 variable "do_application_plesk-pleskalmalinux" {
-  description = "Plesk (AlmaLinux) 18.0.65 on AlmaLinux 9"
+  description = "Plesk (AlmaLinux) 18.0.66 on AlmaLinux 9"
   default     = "plesk-pleskalmalinux"
 }
 
