@@ -1058,6 +1058,11 @@ variable "do_application_sharklabs-openmptcprouter" {
   default     = "sharklabs-openmptcprouter"
 }
 
+variable "do_application_sharklabs-openwebui" {
+  description = "Open WebUI on Ubuntu 22.04"
+  default     = "sharklabs-openwebui"
+}
+
 variable "do_application_sharklabs-paperminecraftse" {
   description = "Paper: Minecraft Server 1.20.4 on Ubuntu 22.04"
   default     = "sharklabs-paperminecraftse"
@@ -1099,7 +1104,7 @@ variable "do_application_smartarget-prestashop" {
 }
 
 variable "do_application_smartarget-wordpresswoocomm" {
-  description = "WordPress-WooCommerce 8.7.0 on Ubuntu 22.04"
+  description = "WordPress-WooCommerce 9.5.2 on Ubuntu 24.04 (LTS)"
   default     = "smartarget-wordpresswoocomm"
 }
 
