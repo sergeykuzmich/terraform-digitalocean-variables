@@ -134,7 +134,7 @@ variable "do_application_bigcloud-odoo" {
 }
 
 variable "do_application_bitwarden" {
-  description = "Bitwarden 2024.12.1 on Ubuntu 22.04"
+  description = "Bitwarden 2025.1.0 on Ubuntu 22.04"
   default     = "bitwarden"
 }
 
@@ -379,7 +379,7 @@ variable "do_application_dokku-20-04" {
 }
 
 variable "do_application_doteamaccount-pocketbase" {
-  description = "PocketBase 0.24.2 on Ubuntu 22.04"
+  description = "PocketBase 0.24.3 on Ubuntu 22.04"
   default     = "doteamaccount-pocketbase"
 }
 
@@ -1194,7 +1194,7 @@ variable "do_application_varnishsoftware-varnishcache-18-04" {
 }
 
 variable "do_application_victoriametrics-victorialogssing" {
-  description = "VictoriaLogs Single 0.35.0 on 24.04"
+  description = "VictoriaLogs Single 1.5.0 on 24.04"
   default     = "victoriametrics-victorialogssing"
 }
 
