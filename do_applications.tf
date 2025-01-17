@@ -1174,7 +1174,7 @@ variable "do_application_thegrampsproject-grampsweb" {
 }
 
 variable "do_application_tips4designsrl-uxwizz" {
-  description = "UXWizz 7.0.2 on Ubuntu 20.04"
+  description = "UXWizz 7.1.0 on Ubuntu 20.04"
   default     = "tips4designsrl-uxwizz"
 }
 
