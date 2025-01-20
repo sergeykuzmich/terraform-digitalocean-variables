@@ -379,7 +379,7 @@ variable "do_application_dokku-20-04" {
 }
 
 variable "do_application_doteamaccount-pocketbase" {
-  description = "PocketBase 0.24.3 on Ubuntu 22.04"
+  description = "PocketBase 0.24.4 on Ubuntu 22.04"
   default     = "doteamaccount-pocketbase"
 }
 
@@ -569,7 +569,7 @@ variable "do_application_jitsiserver-20-04" {
 }
 
 variable "do_application_kandralabs-zulip-18-04" {
-  description = "Zulip 9.3 on Ubuntu 22.04"
+  description = "Zulip 9.4 on Ubuntu 22.04"
   default     = "kandralabs-zulip-18-04"
 }
 
