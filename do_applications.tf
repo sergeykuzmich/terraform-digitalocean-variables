@@ -134,7 +134,7 @@ variable "do_application_bigcloud-odoo" {
 }
 
 variable "do_application_bitwarden" {
-  description = "Bitwarden 2025.1.0 on Ubuntu 22.04"
+  description = "Bitwarden 2025.1.1 on Ubuntu 22.04"
   default     = "bitwarden"
 }
 
@@ -854,7 +854,7 @@ variable "do_application_passboltsa-passboltce-20-04" {
 }
 
 variable "do_application_perforce-perforcehelixcor" {
-  description = "Perforce Helix Core 2024.1 on Rocky 9"
+  description = "Perforce Helix Core 2024.2 on Rocky 9.5"
   default     = "perforce-perforcehelixcor"
 }
 
