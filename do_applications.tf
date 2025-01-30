@@ -173,6 +173,11 @@ variable "do_application_caprover-18-04" {
   default     = "caprover-18-04"
 }
 
+variable "do_application_certellixcom-certellix" {
+  description = "Certellix 1.4.2 on Ubuntu 24.04 LTS"
+  default     = "certellixcom-certellix"
+}
+
 variable "do_application_chaarmiworlds-metaverse" {
   description = "Metaverse 2.01b on Ubuntu 20.04"
   default     = "chaarmiworlds-metaverse"
