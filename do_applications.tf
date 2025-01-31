@@ -268,6 +268,36 @@ variable "do_application_devrel-teleport-20-04" {
   default     = "devrel-teleport-20-04"
 }
 
+variable "do_application_digitaloceanai-deepseekr1671b1x" {
+  description = "DeepSeek R1 671B 1x R1-671B on Linux AI/ML Ready"
+  default     = "digitaloceanai-deepseekr1671b1x"
+}
+
+variable "do_application_digitaloceanai-deepseekr1671b8x" {
+  description = "DeepSeek R1 671B 8x R1-671B on Linux AI/ML Ready"
+  default     = "digitaloceanai-deepseekr1671b8x"
+}
+
+variable "do_application_digitaloceanai-deepseekr1distil" {
+  description = "DeepSeek R1 Distill Qwen 7B 1x R1-Distill-Qwen-7B on Linux AI/ML Ready"
+  default     = "digitaloceanai-deepseekr1distil"
+}
+
+variable "do_application_digitaloceanai-deepseekr1distillllama8b1x" {
+  description = "DeepSeek R1 Distill Llama 8B 1x R1-Distill-Llama-8B on Linux AI/ML Ready"
+  default     = "digitaloceanai-deepseekr1distillllama8b1x"
+}
+
+variable "do_application_digitaloceanai-deepseekr1distillllama8b8x" {
+  description = "DeepSeek R1 Distill Llama 8B 8x R1-Distill-Llama-8B on Linux AI/ML Ready"
+  default     = "digitaloceanai-deepseekr1distillllama8b8x"
+}
+
+variable "do_application_digitaloceanai-deepseekr1distillqwen7b8x" {
+  description = "DeepSeek R1 Distill Qwen 7B 8x R1-Distill-Qwen-7B on Linux AI/ML Ready"
+  default     = "digitaloceanai-deepseekr1distillqwen7b8x"
+}
+
 variable "do_application_digitaloceanai-googlegemma227bi" {
   description = "Google Gemma 2 27B - Multi GPU 2-27b-it on Ubuntu AI/ML Ready"
   default     = "digitaloceanai-googlegemma227bi"
