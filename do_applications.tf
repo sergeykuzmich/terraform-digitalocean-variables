@@ -414,7 +414,7 @@ variable "do_application_dokku-20-04" {
 }
 
 variable "do_application_doteamaccount-pocketbase" {
-  description = "PocketBase 0.24.4 on Ubuntu 22.04"
+  description = "PocketBase 0.25.0 on Ubuntu 22.04"
   default     = "doteamaccount-pocketbase"
 }
 
@@ -949,7 +949,7 @@ variable "do_application_prometheus-18-04" {
 }
 
 variable "do_application_quantrocket" {
-  description = "QuantRocket 2.10.1 on Ubuntu 22.04"
+  description = "QuantRocket 2.11.0 on Ubuntu 24.04"
   default     = "quantrocket"
 }
 
@@ -1251,6 +1251,11 @@ variable "do_application_warpspeedvpn-wpcontroller" {
 variable "do_application_wgdashboard" {
   description = "WGDashboard on Ubuntu 22.04"
   default     = "wgdashboard"
+}
+
+variable "do_application_whmcs" {
+  description = "WHMCS 8.12 on Ubuntu 22.04"
+  default     = "whmcs"
 }
 
 variable "do_application_wikijs-18-04" {
