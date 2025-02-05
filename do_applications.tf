@@ -994,7 +994,7 @@ variable "do_application_saltcorn-20-04" {
 }
 
 variable "do_application_sandflysecurity-20-04" {
-  description = "Sandfly Security 5.2.0 on Ubuntu 22.04"
+  description = "Sandfly Security 5.3.0 on Ubuntu 22.04"
   default     = "sandflysecurity-20-04"
 }
 
