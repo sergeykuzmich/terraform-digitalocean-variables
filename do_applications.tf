@@ -534,7 +534,7 @@ variable "do_application_hashicorpvault" {
 }
 
 variable "do_application_hollaex-hollaexkit" {
-  description = "HollaEx Kit 2.12.0 on Ubuntu 20.04"
+  description = "HollaEx Kit 2.13.3 on Ubuntu 20.04"
   default     = "hollaex-hollaexkit"
 }
 
