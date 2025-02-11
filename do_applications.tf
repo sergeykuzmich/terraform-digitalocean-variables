@@ -414,7 +414,7 @@ variable "do_application_dokku-20-04" {
 }
 
 variable "do_application_doteamaccount-pocketbase" {
-  description = "PocketBase 0.25.0 on Ubuntu 22.04"
+  description = "PocketBase 0.25.1 on Ubuntu 22.04"
   default     = "doteamaccount-pocketbase"
 }
 
@@ -954,7 +954,7 @@ variable "do_application_quantrocket" {
 }
 
 variable "do_application_questdb-20-04" {
-  description = "QuestDB 7.2 on Ubuntu 20.04"
+  description = "QuestDB 8.2.2 on Ubuntu 20.04"
   default     = "questdb-20-04"
 }
 
