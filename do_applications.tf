@@ -414,7 +414,7 @@ variable "do_application_dokku-20-04" {
 }
 
 variable "do_application_doteamaccount-pocketbase" {
-  description = "PocketBase 0.25.3 on Ubuntu 22.04"
+  description = "PocketBase 0.25.4 on Ubuntu 22.04"
   default     = "doteamaccount-pocketbase"
 }
 
@@ -484,7 +484,7 @@ variable "do_application_flowforge" {
 }
 
 variable "do_application_flowforge-flowfuse" {
-  description = "FlowFuse 2.13.1 on Ubuntu 22.04"
+  description = "FlowFuse 2.14.0 on Ubuntu 22.04"
   default     = "flowforge-flowfuse"
 }
 
