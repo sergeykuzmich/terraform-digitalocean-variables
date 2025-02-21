@@ -44,12 +44,12 @@ variable "do_application_analythium-shinyproxy-20-04" {
 }
 
 variable "do_application_antmedia-antmediaserverco-18-04" {
-  description = "Ant Media Server Community Edition 2.12.0 on Ubuntu 22.04"
+  description = "Ant Media Server Community Edition 2.13.2 on Ubuntu 22.04"
   default     = "antmedia-antmediaserverco-18-04"
 }
 
 variable "do_application_antmedia-antmediaserveren-18-04" {
-  description = "Ant Media Server Enterprise Edition 2.12.0 on Ubuntu 22.04"
+  description = "Ant Media Server Enterprise Edition 2.13.0 on Ubuntu 22.04"
   default     = "antmedia-antmediaserveren-18-04"
 }
 
@@ -729,7 +729,7 @@ variable "do_application_mean" {
 }
 
 variable "do_application_meilisas-meilisearch-10" {
-  description = "MeiliSearch 1.12.0 on Debian 11 (Bullseye)"
+  description = "MeiliSearch 1.13.0 on Debian 11 (Bullseye)"
   default     = "meilisas-meilisearch-10"
 }
 
