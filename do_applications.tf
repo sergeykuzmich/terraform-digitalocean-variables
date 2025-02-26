@@ -563,6 +563,11 @@ variable "do_application_ibsurgeon-hqbirdfirebirdv5" {
   default     = "ibsurgeon-hqbirdfirebirdv5"
 }
 
+variable "do_application_ikigaisystems-fundamento" {
+  description = "Fundamento 0.1.0 on Ubuntu 22.04"
+  default     = "ikigaisystems-fundamento"
+}
+
 variable "do_application_in4it-vpnserver" {
   description = "VPN Server 1.1.4 on Ubuntu 24.04"
   default     = "in4it-vpnserver"
