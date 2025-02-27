@@ -134,7 +134,7 @@ variable "do_application_bigcloud-odoo" {
 }
 
 variable "do_application_bitwarden" {
-  description = "Bitwarden 2025.1.3 on Ubuntu 22.04"
+  description = "Bitwarden 2025.2.0 on Ubuntu 22.04"
   default     = "bitwarden"
 }
 
@@ -199,7 +199,7 @@ variable "do_application_clickhouse" {
 }
 
 variable "do_application_cloudron-20-04" {
-  description = "Cloudron 8.1.0 on Ubuntu 24.04"
+  description = "Cloudron 8.2.4 on Ubuntu 24.04"
   default     = "cloudron-20-04"
 }
 
@@ -264,7 +264,7 @@ variable "do_application_devdojo-laravel-20-04" {
 }
 
 variable "do_application_devrel-teleport-20-04" {
-  description = "Teleport 15 on Ubuntu 22.04"
+  description = "Teleport 17 on Ubuntu 22.04"
   default     = "devrel-teleport-20-04"
 }
 
@@ -414,7 +414,7 @@ variable "do_application_dokku-20-04" {
 }
 
 variable "do_application_doteamaccount-pocketbase" {
-  description = "PocketBase 0.25.4 on Ubuntu 22.04"
+  description = "PocketBase 0.25.5 on Ubuntu 22.04"
   default     = "doteamaccount-pocketbase"
 }
 
@@ -496,6 +496,11 @@ variable "do_application_ghost-20-04" {
 variable "do_application_gitlab-gitlabenterprise-20-04" {
   description = "GitLab Enterprise Edition on Ubuntu 22.04"
   default     = "gitlab-gitlabenterprise-20-04"
+}
+
+variable "do_application_goauthentikio-authentik" {
+  description = "authentik 2025.2.0 on Ubuntu 24.04"
+  default     = "goauthentikio-authentik"
 }
 
 variable "do_application_grafana-18-04" {
@@ -944,7 +949,7 @@ variable "do_application_plesk-plesktest" {
 }
 
 variable "do_application_postalsystemso-emailengine" {
-  description = "EmailEngine 2.46.1 on Ubuntu 22.04"
+  description = "EmailEngine 2.50.9 on Ubuntu 22.04"
   default     = "postalsystemso-emailengine"
 }
 
@@ -999,7 +1004,7 @@ variable "do_application_saltcorn-20-04" {
 }
 
 variable "do_application_sandflysecurity-20-04" {
-  description = "Sandfly Security 5.3.0 on Ubuntu 22.04"
+  description = "Sandfly Security 5.3.1 on Ubuntu 22.04"
   default     = "sandflysecurity-20-04"
 }
 
