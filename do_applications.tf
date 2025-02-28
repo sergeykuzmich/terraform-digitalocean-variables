@@ -1198,6 +1198,11 @@ variable "do_application_swarmfoundation-swarmlightnode" {
   default     = "swarmfoundation-swarmlightnode"
 }
 
+variable "do_application_swpanel" {
+  description = "SWPanel 1.0 on Debian 12"
+  default     = "swpanel"
+}
+
 variable "do_application_tebex-tebexrconadapter" {
   description = "Tebex RCON Adapter 1.1.1 on 24.04"
   default     = "tebex-tebexrconadapter"
