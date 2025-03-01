@@ -54,7 +54,7 @@ variable "do_application_antmedia-antmediaserveren-18-04" {
 }
 
 variable "do_application_apliteni-keitaro" {
-  description = "Keitaro 10.3.7 on CentOS 9 Stream"
+  description = "Keitaro 10.3.10 on CentOS 9 Stream"
   default     = "apliteni-keitaro"
 }
 
@@ -414,7 +414,7 @@ variable "do_application_dokku-20-04" {
 }
 
 variable "do_application_doteamaccount-pocketbase" {
-  description = "PocketBase 0.25.5 on Ubuntu 22.04"
+  description = "PocketBase 0.25.8 on Ubuntu 22.04"
   default     = "doteamaccount-pocketbase"
 }
 
