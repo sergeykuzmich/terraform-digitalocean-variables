@@ -829,7 +829,7 @@ variable "do_application_nirvatosoftware-nirvashare-20-04" {
 }
 
 variable "do_application_nodejs-20-04" {
-  description = "NodeJS on Ubuntu 20.04"
+  description = "NodeJS on Ubuntu 24.04"
   default     = "nodejs-20-04"
 }
 
