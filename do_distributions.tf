@@ -39,12 +39,12 @@ variable "do_distibution_fedora-41-x64" {
 }
 
 variable "do_distibution_gpu-h100x1-base" {
-  description = "Ubuntu AI/ML Ready H100x1"
+  description = "Ubuntu AI/ML Ready"
   default     = "gpu-h100x1-base"
 }
 
 variable "do_distibution_gpu-h100x8-base" {
-  description = "Ubuntu AI/ML Ready H100x8"
+  description = "Ubuntu AI/ML Ready with NVLink"
   default     = "gpu-h100x8-base"
 }
 
