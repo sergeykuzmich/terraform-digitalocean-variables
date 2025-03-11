@@ -93,6 +93,11 @@ variable "do_application_askarlabs-passwordlab" {
   default     = "askarlabs-passwordlab"
 }
 
+variable "do_application_auspiciaab-theplanminderpos-20-04" {
+  description = "ThePlanMinder PostgreSQL 1.04 on Ubuntu 24.04"
+  default     = "auspiciaab-theplanminderpos-20-04"
+}
+
 variable "do_application_automazeme-n8n" {
   description = "n8n 1.67.1 on Ubuntu 22.04 (LTS)"
   default     = "automazeme-n8n"
@@ -134,7 +139,7 @@ variable "do_application_bigcloud-odoo" {
 }
 
 variable "do_application_bitwarden" {
-  description = "Bitwarden 2025.2.0 on Ubuntu 22.04"
+  description = "Bitwarden 2025.2.1 on Ubuntu 22.04"
   default     = "bitwarden"
 }
 
@@ -199,7 +204,7 @@ variable "do_application_clickhouse" {
 }
 
 variable "do_application_cloudron-20-04" {
-  description = "Cloudron 8.2.4 on Ubuntu 24.04"
+  description = "Cloudron 8.3.0 on Ubuntu 24.04"
   default     = "cloudron-20-04"
 }
 
@@ -414,7 +419,7 @@ variable "do_application_dokku-20-04" {
 }
 
 variable "do_application_doteamaccount-pocketbase" {
-  description = "PocketBase 0.25.8 on Ubuntu 22.04"
+  description = "PocketBase 0.25.9 on Ubuntu 22.04"
   default     = "doteamaccount-pocketbase"
 }
 
@@ -436,6 +441,11 @@ variable "do_application_easypanel" {
 variable "do_application_edgedb" {
   description = "EdgeDB 5.4 on Ubuntu 20.04"
   default     = "edgedb"
+}
+
+variable "do_application_edgedb-gel" {
+  description = "Gel 6.1 on Ubuntu 24.04"
+  default     = "edgedb-gel"
 }
 
 variable "do_application_elasticsearch" {
@@ -749,7 +759,7 @@ variable "do_application_mern" {
 }
 
 variable "do_application_mgtcommercegmbh-cloudpanel2ubunt" {
-  description = "CloudPanel 2 - Ubuntu 24.04 2.5.0 on Ubuntu 24.04"
+  description = "CloudPanel 2 - Ubuntu 24.04 2.5.1 on Ubuntu 24.04"
   default     = "mgtcommercegmbh-cloudpanel2ubunt"
 }
 
