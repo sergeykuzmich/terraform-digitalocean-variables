@@ -333,6 +333,21 @@ variable "do_application_digitaloceanai-llama31405binstructfp8" {
   default     = "digitaloceanai-llama31405binstructfp8"
 }
 
+variable "do_application_digitaloceanai-llama3211bvision" {
+  description = "llama-3.2-11b-vision-instruct-1x 11b-vision-instruct on DO AI/ML"
+  default     = "digitaloceanai-llama3211bvision"
+}
+
+variable "do_application_digitaloceanai-llama3211bvisioninstruct8x" {
+  description = "llama-3.2-11b-vision-instruct-8x 11b-vision-instruct on AI ML"
+  default     = "digitaloceanai-llama3211bvisioninstruct8x"
+}
+
+variable "do_application_digitaloceanai-llama3290bvision" {
+  description = "llama-3.2-90b-vision-instruct-8x 90b-vision-instruct on AL ML"
+  default     = "digitaloceanai-llama3290bvision"
+}
+
 variable "do_application_digitaloceanai-metallamallama31" {
   description = "Llama 3.1 8B Instruct - Single GPU 3.1-8B-Instruct on Ubuntu AI/ML Ready"
   default     = "digitaloceanai-metallamallama31"
