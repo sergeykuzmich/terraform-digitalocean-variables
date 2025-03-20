@@ -84,7 +84,7 @@ variable "do_application_ascensiosystemsi-onlyofficedocspa" {
 }
 
 variable "do_application_ascensiosystemsi-onlyofficeeditor-18-04-4" {
-  description = "ONLYOFFICE Docs 8.2.0.1 on Ubuntu 24.04 LTS"
+  description = "ONLYOFFICE Docs 8.3.1.1 on Ubuntu 24.04 LTS"
   default     = "ascensiosystemsi-onlyofficeeditor-18-04-4"
 }
 
@@ -429,12 +429,12 @@ variable "do_application_docker-20-04" {
 }
 
 variable "do_application_dokku-20-04" {
-  description = "Dokku 0.30.6 on Ubuntu 22.04"
+  description = "Dokku 0.35.16 on Ubuntu 22.04"
   default     = "dokku-20-04"
 }
 
 variable "do_application_doteamaccount-pocketbase" {
-  description = "PocketBase 0.25.9 on Ubuntu 22.04"
+  description = "PocketBase 0.26.0 on Ubuntu 22.04"
   default     = "doteamaccount-pocketbase"
 }
 
@@ -499,7 +499,7 @@ variable "do_application_flask" {
 }
 
 variable "do_application_flexifyio-flexifyiomulticl-20-04" {
-  description = "Flexify.IO Multi-cloud / Migration 2.18.1 on Ubuntu 22.04 LTS"
+  description = "Flexify.IO Multi-cloud / Migration 2.20.0 on Ubuntu 24.04.2 LTS"
   default     = "flexifyio-flexifyiomulticl-20-04"
 }
 
@@ -509,7 +509,7 @@ variable "do_application_flowforge" {
 }
 
 variable "do_application_flowforge-flowfuse" {
-  description = "FlowFuse 2.14.0 on Ubuntu 22.04"
+  description = "FlowFuse 2.15.0 on Ubuntu 22.04"
   default     = "flowforge-flowfuse"
 }
 
@@ -524,7 +524,7 @@ variable "do_application_gitlab-gitlabenterprise-20-04" {
 }
 
 variable "do_application_goauthentikio-authentik" {
-  description = "authentik 2025.2.0 on Ubuntu 24.04"
+  description = "authentik 2025.2.2 on Ubuntu 24.04"
   default     = "goauthentikio-authentik"
 }
 
@@ -686,6 +686,11 @@ variable "do_application_laravelforge" {
 variable "do_application_laravelforge-laravelforgeubun" {
   description = "Laravel Forge - Ubuntu 22.04 0.1.0 on Ubuntu 22.04"
   default     = "laravelforge-laravelforgeubun"
+}
+
+variable "do_application_launchwp-launchwpio" {
+  description = "LaunchWP.io 1.0.2 on Ubuntu 24.04 (LTS)"
+  default     = "launchwp-launchwpio"
 }
 
 variable "do_application_lemp-20-04" {
@@ -1168,6 +1173,11 @@ variable "do_application_skudonet-skudonetv10" {
   default     = "skudonet-skudonetv10"
 }
 
+variable "do_application_slotixsro-dbconvertstreams" {
+  description = "DBConvert Streams 1.1.0 on Ubuntu 24.04"
+  default     = "slotixsro-dbconvertstreams"
+}
+
 variable "do_application_smartarget-prestashop" {
   description = "PrestaShop 8.1.5 on Ubuntu 22.04"
   default     = "smartarget-prestashop"
@@ -1263,6 +1273,11 @@ variable "do_application_uibakery" {
   default     = "uibakery"
 }
 
+variable "do_application_utnadmins-utunnelvpn" {
+  description = "UTunnel VPN 10114 on Ubuntu 24.04"
+  default     = "utnadmins-utunnelvpn"
+}
+
 variable "do_application_varnishsoftware-varnishcache-18-04" {
   description = "Varnish Cache 6.0.13 on Ubuntu 20.04"
   default     = "varnishsoftware-varnishcache-18-04"
@@ -1324,7 +1339,7 @@ variable "do_application_xplex" {
 }
 
 variable "do_application_yeastar-yeastarpseriesph" {
-  description = "Yeastar P-Series Phone System 83.13.0.30 on Ubuntu 20.04 LTS"
+  description = "Yeastar P-Series Phone System 83.18.0.72 on Ubuntu 24.04 LTS"
   default     = "yeastar-yeastarpseriesph"
 }
 
