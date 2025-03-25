@@ -139,7 +139,7 @@ variable "do_application_bigcloud-odoo" {
 }
 
 variable "do_application_bitwarden" {
-  description = "Bitwarden 2025.2.1 on Ubuntu 22.04"
+  description = "Bitwarden 2025.3.0 on Ubuntu 22.04"
   default     = "bitwarden"
 }
 
@@ -149,7 +149,7 @@ variable "do_application_blueskysocialpds" {
 }
 
 variable "do_application_border0" {
-  description = "Border0 1.1-779 on Ubuntu 22.04"
+  description = "Border0 1.1-1418 on Ubuntu 22.04"
   default     = "border0"
 }
 
@@ -434,7 +434,7 @@ variable "do_application_dokku-20-04" {
 }
 
 variable "do_application_doteamaccount-pocketbase" {
-  description = "PocketBase 0.26.0 on Ubuntu 22.04"
+  description = "PocketBase 0.26.1 on Ubuntu 22.04"
   default     = "doteamaccount-pocketbase"
 }
 
@@ -639,7 +639,7 @@ variable "do_application_jitsiserver-20-04" {
 }
 
 variable "do_application_kandralabs-zulip-18-04" {
-  description = "Zulip 9.4 on Ubuntu 22.04"
+  description = "Zulip 10.0 on Ubuntu 22.04"
   default     = "kandralabs-zulip-18-04"
 }
 
@@ -999,7 +999,7 @@ variable "do_application_questdb-20-04" {
 }
 
 variable "do_application_rabbitmq" {
-  description = "RabbitMQ 3.13.5 on Ubuntu 22.04"
+  description = "RabbitMQ 4.0.7 on Ubuntu 22.04"
   default     = "rabbitmq"
 }
 
@@ -1056,6 +1056,11 @@ variable "do_application_searchblox-searchbloxenterp-7-6" {
 variable "do_application_seatablegmbh-seatable" {
   description = "SeaTable 5.0.8 on Debian 11"
   default     = "seatablegmbh-seatable"
+}
+
+variable "do_application_semaphore" {
+  description = "Semaphore 2.13.0 on Ubuntu 22.04"
+  default     = "semaphore"
 }
 
 variable "do_application_severalnines-clustercontrol-20-04" {
