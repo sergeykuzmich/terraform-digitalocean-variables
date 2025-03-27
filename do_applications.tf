@@ -1179,7 +1179,7 @@ variable "do_application_skudonet-skudonetv10" {
 }
 
 variable "do_application_slotixsro-dbconvertstreams" {
-  description = "DBConvert Streams 1.1.0 on Ubuntu 24.04"
+  description = "DBConvert Streams 1.2.0 on Ubuntu 24.04"
   default     = "slotixsro-dbconvertstreams"
 }
 
