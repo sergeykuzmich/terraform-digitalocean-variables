@@ -434,7 +434,7 @@ variable "do_application_dokku-20-04" {
 }
 
 variable "do_application_doteamaccount-pocketbase" {
-  description = "PocketBase 0.26.1 on Ubuntu 22.04"
+  description = "PocketBase 0.26.3 on Ubuntu 22.04"
   default     = "doteamaccount-pocketbase"
 }
 
@@ -639,7 +639,7 @@ variable "do_application_jitsiserver-20-04" {
 }
 
 variable "do_application_kandralabs-zulip-18-04" {
-  description = "Zulip 10.0 on Ubuntu 22.04"
+  description = "Zulip 10.1 on Ubuntu 22.04"
   default     = "kandralabs-zulip-18-04"
 }
 
@@ -854,7 +854,7 @@ variable "do_application_nginx" {
 }
 
 variable "do_application_nirvatosoftware-nirvashare-20-04" {
-  description = "NirvaShare 6.1.0 on Ubuntu 20.04 (LTS)"
+  description = "NirvaShare 6.2.1 on Ubuntu 24.04 (LTS)"
   default     = "nirvatosoftware-nirvashare-20-04"
 }
 
@@ -959,7 +959,7 @@ variable "do_application_playboxtechnolog-ottstream" {
 }
 
 variable "do_application_plesk-20-04" {
-  description = "Plesk 18.0.66 on Ubuntu 22.04"
+  description = "Plesk 18.0.68 on Ubuntu 22.04"
   default     = "plesk-20-04"
 }
 
@@ -1059,7 +1059,7 @@ variable "do_application_seatablegmbh-seatable" {
 }
 
 variable "do_application_semaphore" {
-  description = "Semaphore 2.13.0 on Ubuntu 22.04"
+  description = "Semaphore 2.13.1 on Ubuntu 22.04"
   default     = "semaphore"
 }
 
