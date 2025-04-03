@@ -1298,6 +1298,11 @@ variable "do_application_victoriametrics-victoriametricss" {
   default     = "victoriametrics-victoriametricss"
 }
 
+variable "do_application_vodianetworks-vodiapbxprepaido" {
+  description = "Vodia PBX Prepaid Offer 69.5.6 on Ubuntu 22.04"
+  default     = "vodianetworks-vodiapbxprepaido"
+}
+
 variable "do_application_vodianetworks-vodiaphonesystem-10" {
   description = "Vodia Multi-tenant Cloud PBX 69.5.3 on Debian 10 x64"
   default     = "vodianetworks-vodiaphonesystem-10"
