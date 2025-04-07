@@ -93,6 +93,11 @@ variable "do_application_askarlabs-passwordlab" {
   default     = "askarlabs-passwordlab"
 }
 
+variable "do_application_aumkarthakur-pennpostgresexpr" {
+  description = "PENN (Postgres + Express + Next.js) 1 on Ubuntu 24.04"
+  default     = "aumkarthakur-pennpostgresexpr"
+}
+
 variable "do_application_auspiciaab-theplanminderpos-20-04" {
   description = "ThePlanMinder PostgreSQL 1.04 on Ubuntu 24.04"
   default     = "auspiciaab-theplanminderpos-20-04"
@@ -139,7 +144,7 @@ variable "do_application_bigcloud-odoo" {
 }
 
 variable "do_application_bitwarden" {
-  description = "Bitwarden 2025.3.0 on Ubuntu 22.04"
+  description = "Bitwarden 2025.3.1 on Ubuntu 22.04"
   default     = "bitwarden"
 }
 
@@ -204,7 +209,7 @@ variable "do_application_clickhouse" {
 }
 
 variable "do_application_cloudron-20-04" {
-  description = "Cloudron 8.3.0 on Ubuntu 24.04"
+  description = "Cloudron 8.3.1 on Ubuntu 24.04"
   default     = "cloudron-20-04"
 }
 
@@ -434,7 +439,7 @@ variable "do_application_dokku-20-04" {
 }
 
 variable "do_application_doteamaccount-pocketbase" {
-  description = "PocketBase 0.26.3 on Ubuntu 22.04"
+  description = "PocketBase 0.26.6 on Ubuntu 22.04"
   default     = "doteamaccount-pocketbase"
 }
 
@@ -868,6 +873,11 @@ variable "do_application_npool" {
   default     = "npool"
 }
 
+variable "do_application_omniedge-omniedgesupernod" {
+  description = "omniedge-supernode 2.6 on Ubuntu 22.04"
+  default     = "omniedge-omniedgesupernod"
+}
+
 variable "do_application_openblocks" {
   description = "Openblocks 1.1.8 on Ubuntu 20.04 (LTS)"
   default     = "openblocks"
@@ -959,12 +969,12 @@ variable "do_application_playboxtechnolog-ottstream" {
 }
 
 variable "do_application_plesk-20-04" {
-  description = "Plesk 18.0.68 on Ubuntu 22.04"
+  description = "Plesk 18.0.68 on Ubuntu 24.04"
   default     = "plesk-20-04"
 }
 
 variable "do_application_plesk-pleskalmalinux" {
-  description = "Plesk (AlmaLinux) 18.0.66 on AlmaLinux 9"
+  description = "Plesk (AlmaLinux) 18.0.68 on AlmaLinux 9"
   default     = "plesk-pleskalmalinux"
 }
 
@@ -999,7 +1009,7 @@ variable "do_application_questdb-20-04" {
 }
 
 variable "do_application_rabbitmq" {
-  description = "RabbitMQ 4.0.7 on Ubuntu 22.04"
+  description = "RabbitMQ 4.0.8 on Ubuntu 22.04"
   default     = "rabbitmq"
 }
 
