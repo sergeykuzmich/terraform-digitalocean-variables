@@ -474,7 +474,7 @@ variable "do_application_elasticsearch" {
 }
 
 variable "do_application_eltrino-magento2opensour-20-04" {
-  description = "Magento 2 Open Source 1.6.14 on Ubuntu 20.04 (LTS)"
+  description = "Magento 2 Open Source 1.6.15 on Ubuntu 20.04 (LTS)"
   default     = "eltrino-magento2opensour-20-04"
 }
 
@@ -514,7 +514,7 @@ variable "do_application_flowforge" {
 }
 
 variable "do_application_flowforge-flowfuse" {
-  description = "FlowFuse 2.15.0 on Ubuntu 22.04"
+  description = "FlowFuse 2.16.0 on Ubuntu 22.04"
   default     = "flowforge-flowfuse"
 }
 
@@ -1074,7 +1074,7 @@ variable "do_application_semaphore" {
 }
 
 variable "do_application_severalnines-clustercontrol-20-04" {
-  description = "ClusterControl 2.3.0 on Ubuntu 20.04"
+  description = "ClusterControl 2.3.2 on Ubuntu 20.04"
   default     = "severalnines-clustercontrol-20-04"
 }
 
@@ -1151,6 +1151,11 @@ variable "do_application_sharklabs-openmptcprouter" {
 variable "do_application_sharklabs-openwebui" {
   description = "Open WebUI on Ubuntu 22.04"
   default     = "sharklabs-openwebui"
+}
+
+variable "do_application_sharklabs-pangolin" {
+  description = "Pangolin 1.2.0 on Ubuntu 24.04 LTS"
+  default     = "sharklabs-pangolin"
 }
 
 variable "do_application_sharklabs-paperminecraftse" {
@@ -1314,7 +1319,7 @@ variable "do_application_vodianetworks-vodiapbxprepaido" {
 }
 
 variable "do_application_vodianetworks-vodiaphonesystem-10" {
-  description = "Vodia Multi-tenant Cloud PBX 69.5.3 on Debian 10 x64"
+  description = "Vodia Multi-tenant Cloud PBX 69.5.7 on Ubuntu 24.04"
   default     = "vodianetworks-vodiaphonesystem-10"
 }
 
