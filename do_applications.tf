@@ -144,7 +144,7 @@ variable "do_application_bigcloud-odoo" {
 }
 
 variable "do_application_bitwarden" {
-  description = "Bitwarden 2025.3.1 on Ubuntu 22.04"
+  description = "Bitwarden 2025.4.1 on Ubuntu 22.04"
   default     = "bitwarden"
 }
 
@@ -439,7 +439,7 @@ variable "do_application_dokku-20-04" {
 }
 
 variable "do_application_doteamaccount-pocketbase" {
-  description = "PocketBase 0.26.6 on Ubuntu 22.04"
+  description = "PocketBase 0.27.0 on Ubuntu 22.04"
   default     = "doteamaccount-pocketbase"
 }
 
@@ -644,7 +644,7 @@ variable "do_application_jitsiserver-20-04" {
 }
 
 variable "do_application_kandralabs-zulip-18-04" {
-  description = "Zulip 10.1 on Ubuntu 22.04"
+  description = "Zulip 10.2 on Ubuntu 22.04"
   default     = "kandralabs-zulip-18-04"
 }
 
@@ -1009,7 +1009,7 @@ variable "do_application_questdb-20-04" {
 }
 
 variable "do_application_rabbitmq" {
-  description = "RabbitMQ 4.0.8 on Ubuntu 22.04"
+  description = "RabbitMQ 4.1.0 on Ubuntu 22.04"
   default     = "rabbitmq"
 }
 
