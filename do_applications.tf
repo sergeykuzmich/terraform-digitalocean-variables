@@ -439,7 +439,7 @@ variable "do_application_dokku-20-04" {
 }
 
 variable "do_application_doteamaccount-pocketbase" {
-  description = "PocketBase 0.27.0 on Ubuntu 22.04"
+  description = "PocketBase 0.27.1 on Ubuntu 22.04"
   default     = "doteamaccount-pocketbase"
 }
 
@@ -1044,7 +1044,7 @@ variable "do_application_saltcorn-20-04" {
 }
 
 variable "do_application_sandflysecurity-20-04" {
-  description = "Sandfly Security 5.3.1 on Ubuntu 22.04"
+  description = "Sandfly Security 5.4.0 on Ubuntu 22.04"
   default     = "sandflysecurity-20-04"
 }
 
