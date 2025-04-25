@@ -84,7 +84,7 @@ variable "do_application_ascensiosystemsi-onlyofficedocspa" {
 }
 
 variable "do_application_ascensiosystemsi-onlyofficeeditor-18-04-4" {
-  description = "ONLYOFFICE Docs 8.3.1.1 on Ubuntu 24.04 LTS"
+  description = "ONLYOFFICE Docs 8.3.3.1 on Ubuntu 24.04 LTS"
   default     = "ascensiosystemsi-onlyofficeeditor-18-04-4"
 }
 
