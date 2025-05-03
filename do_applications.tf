@@ -994,7 +994,7 @@ variable "do_application_postalsystemso-emailengine" {
 }
 
 variable "do_application_prometheus-18-04" {
-  description = "Prometheus 2.54.1 on Ubuntu 24.04"
+  description = "Prometheus 3.3.0 on Ubuntu 24.04"
   default     = "prometheus-18-04"
 }
 
