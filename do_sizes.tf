@@ -253,6 +253,16 @@ variable "do_size_gd-8vcpu-32gb-intel" {
   default     = "gd-8vcpu-32gb-intel"
 }
 
+variable "do_size_gpu-4000adax1-20gb" {
+  description = "32GB RAM; 8 CPU; 500GB SSD - $565/mo"
+  default     = "gpu-4000adax1-20gb"
+}
+
+variable "do_size_gpu-6000adax1-48gb" {
+  description = "64GB RAM; 8 CPU; 500GB SSD - $1406/mo"
+  default     = "gpu-6000adax1-48gb"
+}
+
 variable "do_size_gpu-h100x1-80gb" {
   description = "240GB RAM; 20 CPU; 720GB SSD - $2522/mo"
   default     = "gpu-h100x1-80gb"
