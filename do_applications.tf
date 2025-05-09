@@ -439,7 +439,7 @@ variable "do_application_dokku-20-04" {
 }
 
 variable "do_application_doteamaccount-pocketbase" {
-  description = "PocketBase 0.27.1 on Ubuntu 22.04"
+  description = "PocketBase 0.27.2 on Ubuntu 22.04"
   default     = "doteamaccount-pocketbase"
 }
 
@@ -744,7 +744,7 @@ variable "do_application_litespeedtechnol-openlitespeedrai-20-04" {
 }
 
 variable "do_application_litespeedtechnol-openlitespeedwor-20-04" {
-  description = "OpenLiteSpeed WordPress 6.7 on Ubuntu 24.04"
+  description = "OpenLiteSpeed WordPress 6.8.1 on Ubuntu 24.04"
   default     = "litespeedtechnol-openlitespeedwor-20-04"
 }
 
