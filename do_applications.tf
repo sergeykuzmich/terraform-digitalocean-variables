@@ -144,7 +144,7 @@ variable "do_application_bigcloud-odoo" {
 }
 
 variable "do_application_bitwarden" {
-  description = "Bitwarden 2025.4.2 on Ubuntu 22.04"
+  description = "Bitwarden 2025.5.0 on Ubuntu 22.04"
   default     = "bitwarden"
 }
 
@@ -514,7 +514,7 @@ variable "do_application_flowforge" {
 }
 
 variable "do_application_flowforge-flowfuse" {
-  description = "FlowFuse 2.16.0 on Ubuntu 22.04"
+  description = "FlowFuse 2.17.0 on Ubuntu 22.04"
   default     = "flowforge-flowfuse"
 }
 
@@ -644,7 +644,7 @@ variable "do_application_jitsiserver-20-04" {
 }
 
 variable "do_application_kandralabs-zulip-18-04" {
-  description = "Zulip 10.2 on Ubuntu 22.04"
+  description = "Zulip 10.3 on Ubuntu 22.04"
   default     = "kandralabs-zulip-18-04"
 }
 
