@@ -1329,7 +1329,7 @@ variable "do_application_warpspeedvpn-wpcontroller" {
 }
 
 variable "do_application_wgdashboard" {
-  description = "WGDashboard on Ubuntu 22.04"
+  description = "WGDashboard 4.2.3 on Ubuntu 22.04"
   default     = "wgdashboard"
 }
 
