@@ -144,7 +144,7 @@ variable "do_application_bigcloud-odoo" {
 }
 
 variable "do_application_bitwarden" {
-  description = "Bitwarden 2025.5.0 on Ubuntu 22.04"
+  description = "Bitwarden 2025.5.1 on Ubuntu 22.04"
   default     = "bitwarden"
 }
 
@@ -328,6 +328,11 @@ variable "do_application_digitaloceanai-googlegemma29bit" {
   default     = "digitaloceanai-googlegemma29bit"
 }
 
+variable "do_application_digitaloceanai-jupyterlabamdmi3" {
+  description = "JupyterLab - AMD MI300x 4.4.2 on AI/ML Ready Linux"
+  default     = "digitaloceanai-jupyterlabamdmi3"
+}
+
 variable "do_application_digitaloceanai-llama31405binstr" {
   description = "Llama 3.1 405B Instruct FP8 - Single GPU 3.1 405b on Ubuntu AI/ML Ready"
   default     = "digitaloceanai-llama31405binstr"
@@ -439,7 +444,7 @@ variable "do_application_dokku-20-04" {
 }
 
 variable "do_application_doteamaccount-pocketbase" {
-  description = "PocketBase 0.28.0 on Ubuntu 22.04"
+  description = "PocketBase 0.28.1 on Ubuntu 22.04"
   default     = "doteamaccount-pocketbase"
 }
 
@@ -649,7 +654,7 @@ variable "do_application_kandralabs-zulip-18-04" {
 }
 
 variable "do_application_kasmtechnologies-kasmworkspaces-18-04" {
-  description = "Kasm Workspaces 1.12.0 on Ubuntu 20.04"
+  description = "Kasm Workspaces 1.17.0.bbc15c on Ubuntu 24.04"
   default     = "kasmtechnologies-kasmworkspaces-18-04"
 }
 
@@ -774,7 +779,7 @@ variable "do_application_mean" {
 }
 
 variable "do_application_meilisas-meilisearch-10" {
-  description = "MeiliSearch 1.13.0 on Debian 11 (Bullseye)"
+  description = "MeiliSearch 1.14.0 on Debian 11 (Bullseye)"
   default     = "meilisas-meilisearch-10"
 }
 
@@ -1039,12 +1044,12 @@ variable "do_application_runcloud-runcloud2004-20-04" {
 }
 
 variable "do_application_saltcorn-20-04" {
-  description = "Saltcorn 1.0.0 on Debian 12"
+  description = "Saltcorn 1.2.0 on Debian 12"
   default     = "saltcorn-20-04"
 }
 
 variable "do_application_sandflysecurity-20-04" {
-  description = "Sandfly Security 5.4.0 on Ubuntu 22.04"
+  description = "Sandfly Security 5.4.2 on Ubuntu 22.04"
   default     = "sandflysecurity-20-04"
 }
 
@@ -1246,6 +1251,11 @@ variable "do_application_superinverse-statusnook" {
 variable "do_application_supernetworks-spr" {
   description = "SPR 0.3.13 on Ubuntu 24.04"
   default     = "supernetworks-spr"
+}
+
+variable "do_application_svnplus" {
+  description = "SVNPlus 0.1 on Ubuntu 24.04"
+  default     = "svnplus"
 }
 
 variable "do_application_swarmfoundation-swarmlightnode" {
