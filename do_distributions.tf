@@ -44,12 +44,12 @@ variable "do_distibution_gpu-amd-base" {
 }
 
 variable "do_distibution_gpu-h100x1-base" {
-  description = "Ubuntu AI/ML Ready"
+  description = "Ubuntu NVIDIA AI/ML Ready"
   default     = "gpu-h100x1-base"
 }
 
 variable "do_distibution_gpu-h100x8-base" {
-  description = "Ubuntu AI/ML Ready with NVLink"
+  description = "Ubuntu NVIDIA AI/ML Ready w/ NVLink"
   default     = "gpu-h100x8-base"
 }
 
