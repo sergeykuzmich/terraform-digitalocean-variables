@@ -1354,7 +1354,7 @@ variable "do_application_wikijs-18-04" {
 }
 
 variable "do_application_wordpress-20-04" {
-  description = "WordPress 6.4.5 on Ubuntu 22.04"
+  description = "WordPress 6.8.1 on Ubuntu 22.04"
   default     = "wordpress-20-04"
 }
 
