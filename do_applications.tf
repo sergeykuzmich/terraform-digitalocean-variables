@@ -423,6 +423,11 @@ variable "do_application_digitaloceanai-researchhermes3l" {
   default     = "digitaloceanai-researchhermes3l"
 }
 
+variable "do_application_digitaloceanai-rocmsoftware" {
+  description = "ROCm™ Software 6.4.1 on Ubuntu 24.0"
+  default     = "digitaloceanai-rocmsoftware"
+}
+
 variable "do_application_discourse-20-04" {
   description = "Discourse on Ubuntu 22.04"
   default     = "discourse-20-04"
