@@ -423,9 +423,19 @@ variable "do_application_digitaloceanai-researchhermes3l" {
   default     = "digitaloceanai-researchhermes3l"
 }
 
+variable "do_application_digitaloceanai-rocmjupyter" {
+  description = "ROCm Jupyter 6.12.12 on Ubuntu 24.04"
+  default     = "digitaloceanai-rocmjupyter"
+}
+
 variable "do_application_digitaloceanai-rocmsoftware" {
   description = "ROCm™ Software 6.4.1 on Ubuntu 24.0"
   default     = "digitaloceanai-rocmsoftware"
+}
+
+variable "do_application_digitaloceanai-rocmvllmjupyter" {
+  description = "ROCm vLLM (Jupyter) 6.12.12 on Ubuntu 24.04"
+  default     = "digitaloceanai-rocmvllmjupyter"
 }
 
 variable "do_application_discourse-20-04" {
@@ -629,7 +639,7 @@ variable "do_application_invoiceninja-20-0-4" {
 }
 
 variable "do_application_ispmanager-ispmanager6" {
-  description = "Ispmanager 6 6.110.2 on Ubuntu 20.04"
+  description = "Ispmanager 6 6.120.1 on Ubuntu 24.04"
   default     = "ispmanager-ispmanager6"
 }
 
