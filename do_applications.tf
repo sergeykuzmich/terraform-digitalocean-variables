@@ -428,6 +428,16 @@ variable "do_application_digitaloceanai-rocmjupyter" {
   default     = "digitaloceanai-rocmjupyter"
 }
 
+variable "do_application_digitaloceanai-rocmmegatronjupy" {
+  description = "ROCm Megatron (Jupyter) 6.12.12 on Ubuntu 24.04"
+  default     = "digitaloceanai-rocmmegatronjupy"
+}
+
+variable "do_application_digitaloceanai-rocmpytorchjupyt" {
+  description = "ROCm PyTorch (Jupyter) 6.12.12 on Ubuntu 24.04"
+  default     = "digitaloceanai-rocmpytorchjupyt"
+}
+
 variable "do_application_digitaloceanai-rocmsoftware" {
   description = "ROCm™ Software 6.4.1 on Ubuntu 24.0"
   default     = "digitaloceanai-rocmsoftware"
