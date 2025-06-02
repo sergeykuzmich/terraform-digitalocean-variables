@@ -144,7 +144,7 @@ variable "do_application_bigcloud-odoo" {
 }
 
 variable "do_application_bitwarden" {
-  description = "Bitwarden 2025.5.1 on Ubuntu 22.04"
+  description = "Bitwarden 2025.5.2 on Ubuntu 22.04"
   default     = "bitwarden"
 }
 
@@ -599,7 +599,7 @@ variable "do_application_hashicorpvault" {
 }
 
 variable "do_application_hollaex-hollaexkit" {
-  description = "HollaEx Kit 2.13.3 on Ubuntu 20.04"
+  description = "HollaEx Kit 2.15.3 on Ubuntu 20.04"
   default     = "hollaex-hollaexkit"
 }
 
