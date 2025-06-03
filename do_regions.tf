@@ -13,6 +13,11 @@ variable "do_region_ams3" {
   default     = "ams3"
 }
 
+variable "do_region_atl1" {
+  description = "Atlanta 1"
+  default     = "atl1"
+}
+
 variable "do_region_blr1" {
   description = "Bangalore 1"
   default     = "blr1"

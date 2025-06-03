@@ -474,7 +474,7 @@ variable "do_application_doteamaccount-pocketbase" {
 }
 
 variable "do_application_drakkarsoftware-octobot" {
-  description = "OctoBot 1.0.0 on Ubuntu 22.04"
+  description = "OctoBot 1.0.1 on Ubuntu 22.04"
   default     = "drakkarsoftware-octobot"
 }
 
