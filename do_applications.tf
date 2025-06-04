@@ -444,8 +444,13 @@ variable "do_application_digitaloceanai-rocmsoftware" {
 }
 
 variable "do_application_digitaloceanai-rocmvllmjupyter" {
-  description = "ROCm vLLM (Jupyter) 6.12.12 on Ubuntu 24.04"
+  description = "vLLM 0.8.6 on Ubuntu 24.04"
   default     = "digitaloceanai-rocmvllmjupyter"
+}
+
+variable "do_application_digitaloceanai-sglang" {
+  description = "SGLang 0.4.6 on Ubuntu 24.04"
+  default     = "digitaloceanai-sglang"
 }
 
 variable "do_application_discourse-20-04" {
