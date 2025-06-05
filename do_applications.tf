@@ -328,6 +328,11 @@ variable "do_application_digitaloceanai-googlegemma29bit" {
   default     = "digitaloceanai-googlegemma29bit"
 }
 
+variable "do_application_digitaloceanai-jax" {
+  description = "JAX 0.4.35 on Ubuntu 24.04"
+  default     = "digitaloceanai-jax"
+}
+
 variable "do_application_digitaloceanai-jupyterlabamdmi3" {
   description = "JupyterLab - AMD MI300x 4.4.2 on AI/ML Ready Linux"
   default     = "digitaloceanai-jupyterlabamdmi3"
@@ -424,17 +429,17 @@ variable "do_application_digitaloceanai-researchhermes3l" {
 }
 
 variable "do_application_digitaloceanai-rocmjupyter" {
-  description = "ROCm Jupyter 6.12.12 on Ubuntu 24.04"
+  description = "ROCm™ Software 6.4.0 on Ubuntu 24.04"
   default     = "digitaloceanai-rocmjupyter"
 }
 
 variable "do_application_digitaloceanai-rocmmegatronjupy" {
-  description = "ROCm Megatron (Jupyter) 6.12.12 on Ubuntu 24.04"
+  description = "Megatron 0.10.0 on Ubuntu 24.04"
   default     = "digitaloceanai-rocmmegatronjupy"
 }
 
 variable "do_application_digitaloceanai-rocmpytorchjupyt" {
-  description = "ROCm PyTorch (Jupyter) 6.12.12 on Ubuntu 24.04"
+  description = "PyTorch 2.6.0 on Ubuntu 24.04"
   default     = "digitaloceanai-rocmpytorchjupyt"
 }
 
