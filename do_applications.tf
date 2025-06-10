@@ -38,6 +38,11 @@ variable "do_application_akaunting-20-04" {
   default     = "akaunting-20-04"
 }
 
+variable "do_application_amd-torchtune" {
+  description = "TorchTune 2.6.0 on Ubuntu 24.04"
+  default     = "amd-torchtune"
+}
+
 variable "do_application_analythium-shinyproxy-20-04" {
   description = "ShinyProxy 3.1.1 on Ubuntu 24.04"
   default     = "analythium-shinyproxy-20-04"
