@@ -484,7 +484,7 @@ variable "do_application_dokku-20-04" {
 }
 
 variable "do_application_doteamaccount-pocketbase" {
-  description = "PocketBase 0.28.2 on Ubuntu 22.04"
+  description = "PocketBase 0.28.3 on Ubuntu 22.04"
   default     = "doteamaccount-pocketbase"
 }
 
@@ -559,7 +559,7 @@ variable "do_application_flowforge" {
 }
 
 variable "do_application_flowforge-flowfuse" {
-  description = "FlowFuse 2.17.0 on Ubuntu 22.04"
+  description = "FlowFuse 2.18.0 on Ubuntu 22.04"
   default     = "flowforge-flowfuse"
 }
 
@@ -614,7 +614,7 @@ variable "do_application_hashicorpvault" {
 }
 
 variable "do_application_hollaex-hollaexkit" {
-  description = "HollaEx Kit 2.15.3 on Ubuntu 20.04"
+  description = "HollaEx Kit 2.15.4 on Ubuntu 20.04"
   default     = "hollaex-hollaexkit"
 }
 
@@ -819,7 +819,7 @@ variable "do_application_mean" {
 }
 
 variable "do_application_meilisas-meilisearch-10" {
-  description = "MeiliSearch 1.14.0 on Debian 11 (Bullseye)"
+  description = "MeiliSearch 1.15.0 on Debian 11 (Bullseye)"
   default     = "meilisas-meilisearch-10"
 }
 
@@ -1054,7 +1054,7 @@ variable "do_application_questdb-20-04" {
 }
 
 variable "do_application_rabbitmq" {
-  description = "RabbitMQ 4.1.0 on Ubuntu 22.04"
+  description = "RabbitMQ 4.1.1 on Ubuntu 22.04"
   default     = "rabbitmq"
 }
 
