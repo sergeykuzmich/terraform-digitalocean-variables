@@ -84,7 +84,7 @@ variable "do_application_ascensiosystem-onlyoffice-18-04" {
 }
 
 variable "do_application_ascensiosystemsi-onlyofficedocspa" {
-  description = "ONLYOFFICE DocSpace 3.0 on Ubuntu 24.04 LTS"
+  description = "ONLYOFFICE DocSpace 3.1 on Ubuntu 24.04 LTS"
   default     = "ascensiosystemsi-onlyofficedocspa"
 }
 
@@ -549,7 +549,7 @@ variable "do_application_flask" {
 }
 
 variable "do_application_flexifyio-flexifyiomulticl-20-04" {
-  description = "Flexify.IO Multi-cloud / Migration 2.20.0 on Ubuntu 24.04.2 LTS"
+  description = "Flexify.IO Multi-cloud / Migration 2.21.0 on Ubuntu 24.04.2 LTS"
   default     = "flexifyio-flexifyiomulticl-20-04"
 }
 
@@ -684,7 +684,7 @@ variable "do_application_jenkins" {
 }
 
 variable "do_application_jitsiserver-20-04" {
-  description = "Jitsi Server on Ubuntu 22.04"
+  description = "Jitsi Server on Ubuntu 24.04"
   default     = "jitsiserver-20-04"
 }
 
@@ -856,11 +856,6 @@ variable "do_application_monetdbsolutions-monetdb" {
 variable "do_application_mongodb-18-04" {
   description = "MongoDB 7.0.0 on Ubuntu 22.04"
   default     = "mongodb-18-04"
-}
-
-variable "do_application_mpdev-testingupdateapp" {
-  description = "testing update app without image 1 on Ubuntu 20.04"
-  default     = "mpdev-testingupdateapp"
 }
 
 variable "do_application_multiversx-multiversxfullob" {
@@ -1218,11 +1213,6 @@ variable "do_application_sharklabs-prometheus2541" {
   default     = "sharklabs-prometheus2541"
 }
 
-variable "do_application_sharklabs-testproject" {
-  description = "test-project 1 on Ubuntu 22.04"
-  default     = "sharklabs-testproject"
-}
-
 variable "do_application_sharklabs-valkey" {
   description = "Valkey 7.2.5 on Ubuntu 22.04"
   default     = "sharklabs-valkey"
@@ -1316,11 +1306,6 @@ variable "do_application_tebex-tebexrconadapter" {
 variable "do_application_temporal" {
   description = "Temporal 1.22.4 on Ubuntu 22.04"
   default     = "temporal"
-}
-
-variable "do_application_test433" {
-  description = "Test433 2.3 on Ubuntu 18.04"
-  default     = "test433"
 }
 
 variable "do_application_thegrampsproject-grampsweb" {
