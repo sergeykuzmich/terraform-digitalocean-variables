@@ -149,7 +149,7 @@ variable "do_application_bigcloud-odoo" {
 }
 
 variable "do_application_bitwarden" {
-  description = "Bitwarden 2025.5.2 on Ubuntu 22.04"
+  description = "Bitwarden 2025.6.0 on Ubuntu 24.04"
   default     = "bitwarden"
 }
 
@@ -574,7 +574,7 @@ variable "do_application_gitlab-gitlabenterprise-20-04" {
 }
 
 variable "do_application_goauthentikio-authentik" {
-  description = "authentik 2025.2.2 on Ubuntu 24.04"
+  description = "authentik 2025.6.1 on Ubuntu 24.04"
   default     = "goauthentikio-authentik"
 }
 
@@ -614,7 +614,7 @@ variable "do_application_hashicorpvault" {
 }
 
 variable "do_application_hollaex-hollaexkit" {
-  description = "HollaEx Kit 2.15.4 on Ubuntu 20.04"
+  description = "HollaEx Kit 2.15.5 on Ubuntu 20.04"
   default     = "hollaex-hollaexkit"
 }
 
@@ -1301,6 +1301,11 @@ variable "do_application_swpanel" {
 variable "do_application_tebex-tebexrconadapter" {
   description = "Tebex RCON Adapter 1.1.1 on 24.04"
   default     = "tebex-tebexrconadapter"
+}
+
+variable "do_application_techdomeai-sparrow" {
+  description = "Sparrow 1.0.0 on Ubuntu 24.04"
+  default     = "techdomeai-sparrow"
 }
 
 variable "do_application_temporal" {
