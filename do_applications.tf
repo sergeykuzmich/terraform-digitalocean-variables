@@ -574,7 +574,7 @@ variable "do_application_gitlab-gitlabenterprise-20-04" {
 }
 
 variable "do_application_goauthentikio-authentik" {
-  description = "authentik 2025.6.1 on Ubuntu 24.04"
+  description = "authentik 2025.6.2 on Ubuntu 24.04"
   default     = "goauthentikio-authentik"
 }
 
