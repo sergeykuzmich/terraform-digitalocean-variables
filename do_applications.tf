@@ -484,7 +484,7 @@ variable "do_application_dokku-20-04" {
 }
 
 variable "do_application_doteamaccount-pocketbase" {
-  description = "PocketBase 0.28.3 on Ubuntu 22.04"
+  description = "PocketBase 0.28.4 on Ubuntu 22.04"
   default     = "doteamaccount-pocketbase"
 }
 
@@ -534,7 +534,7 @@ variable "do_application_farm" {
 }
 
 variable "do_application_fastpanel-deb-9" {
-  description = "FASTPANEL 1.10-ubuntu20.04p505 on Ubuntu 20.04"
+  description = "FASTPANEL 1.11-ubuntu20.04p1 on Ubuntu 20.04"
   default     = "fastpanel-deb-9"
 }
 
@@ -974,7 +974,7 @@ variable "do_application_ossrs-srs" {
 }
 
 variable "do_application_passboltsa-passboltce-20-04" {
-  description = "Passbolt CE 4.9.1-1 on Ubuntu 20.04"
+  description = "Passbolt CE 5.2.0-1 on Ubuntu 24.04"
   default     = "passboltsa-passboltce-20-04"
 }
 
@@ -1119,7 +1119,7 @@ variable "do_application_severalnines-clustercontrol-20-04" {
 }
 
 variable "do_application_sharklabs-anaconda" {
-  description = "Anaconda 2024.10-1 on Ubuntu 22.04 (LTS)"
+  description = "Anaconda 2025.06-0 on Ubuntu 22.04 (LTS)"
   default     = "sharklabs-anaconda"
 }
 
