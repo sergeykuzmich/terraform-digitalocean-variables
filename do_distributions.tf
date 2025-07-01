@@ -44,7 +44,7 @@ variable "do_distibution_gpu-h100x1-base" {
 }
 
 variable "do_distibution_gpu-h100x8-base" {
-  description = "Ubuntu NVIDIA AI/ML Ready w/ NVLink"
+  description = "Ubuntu NVIDIA AI/ML Ready with NVLink"
   default     = "gpu-h100x8-base"
 }
 
@@ -56,11 +56,6 @@ variable "do_distibution_rockylinux-8-x64" {
 variable "do_distibution_rockylinux-9-x64" {
   description = "Rocky Linux 9 x64"
   default     = "rockylinux-9-x64"
-}
-
-variable "do_distibution_ubuntu-20-04-x64" {
-  description = "Ubuntu 20.04 (LTS) x64"
-  default     = "ubuntu-20-04-x64"
 }
 
 variable "do_distibution_ubuntu-22-04-x64" {

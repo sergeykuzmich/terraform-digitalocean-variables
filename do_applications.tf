@@ -4,7 +4,7 @@
 
 
 variable "do_application_3cxcommunication-3cx" {
-  description = "3CX 20.0.5.551 on Debian 12 (Bookworm)"
+  description = "3CX 20.0.6.724 on Debian 12 (Bookworm)"
   default     = "3cxcommunication-3cx"
 }
 
@@ -149,7 +149,7 @@ variable "do_application_bigcloud-odoo" {
 }
 
 variable "do_application_bitwarden" {
-  description = "Bitwarden 2025.6.0 on Ubuntu 24.04"
+  description = "Bitwarden 2025.6.2 on Ubuntu 24.04"
   default     = "bitwarden"
 }
 
@@ -1201,6 +1201,11 @@ variable "do_application_sharklabs-pangolin" {
 variable "do_application_sharklabs-paperminecraftse" {
   description = "Paper: Minecraft Server 1.20.4 on Ubuntu 22.04"
   default     = "sharklabs-paperminecraftse"
+}
+
+variable "do_application_sharklabs-perconamonitorin" {
+  description = "Percona Monitoring and Management 3 on Ubuntu 24.04"
+  default     = "sharklabs-perconamonitorin"
 }
 
 variable "do_application_sharklabs-piholevpn" {
