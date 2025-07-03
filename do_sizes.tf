@@ -259,7 +259,7 @@ variable "do_size_gpu-4000adax1-20gb" {
 }
 
 variable "do_size_gpu-6000adax1-48gb" {
-  description = "64GB RAM; 8 CPU; 500GB SSD - $1406/mo"
+  description = "64GB RAM; 8 CPU; 500GB SSD - $1168/mo"
   default     = "gpu-6000adax1-48gb"
 }
 

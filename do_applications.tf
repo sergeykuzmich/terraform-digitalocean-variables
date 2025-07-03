@@ -1058,6 +1058,11 @@ variable "do_application_rackware-rackwarecloudmig" {
   default     = "rackware-rackwarecloudmig"
 }
 
+variable "do_application_ringq" {
+  description = "RingQ 8.7.61 on Debian 11 x64"
+  default     = "ringq"
+}
+
 variable "do_application_rocketchat-20-04" {
   description = "Rocket.Chat 6.12.0 on Ubuntu 20.04"
   default     = "rocketchat-20-04"
