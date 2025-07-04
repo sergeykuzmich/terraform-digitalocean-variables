@@ -283,6 +283,16 @@ variable "do_application_devrel-teleport-20-04" {
   default     = "devrel-teleport-20-04"
 }
 
+variable "do_application_digitaloceanai-1clickinferencer" {
+  description = "1-Click Inference Ready 1x 1.0 on Linux AI/ML Ready"
+  default     = "digitaloceanai-1clickinferencer"
+}
+
+variable "do_application_digitaloceanai-1clickinferenceready8x" {
+  description = "1-Click Inference Ready 8x 1.0 on Linux AI/ML Ready"
+  default     = "digitaloceanai-1clickinferenceready8x"
+}
+
 variable "do_application_digitaloceanai-deepseekr1671b1x" {
   description = "DeepSeek R1 671B 1x R1-671B on Linux AI/ML Ready"
   default     = "digitaloceanai-deepseekr1671b1x"
@@ -559,7 +569,7 @@ variable "do_application_flowforge" {
 }
 
 variable "do_application_flowforge-flowfuse" {
-  description = "FlowFuse 2.18.0 on Ubuntu 22.04"
+  description = "FlowFuse 2.19.0 on Ubuntu 22.04"
   default     = "flowforge-flowfuse"
 }
 
@@ -689,7 +699,7 @@ variable "do_application_jitsiserver-20-04" {
 }
 
 variable "do_application_kandralabs-zulip-18-04" {
-  description = "Zulip 10.3 on Ubuntu 22.04"
+  description = "Zulip 10.4 on Ubuntu 22.04"
   default     = "kandralabs-zulip-18-04"
 }
 
@@ -769,17 +779,17 @@ variable "do_application_litespeedtechnol-openlitespeeddja-20-04" {
 }
 
 variable "do_application_litespeedtechnol-openlitespeeddru" {
-  description = "OpenLiteSpeed Drupal 11.0.1 on Ubuntu 24.04"
+  description = "OpenLiteSpeed Drupal 11.2.2 on Ubuntu 24.04"
   default     = "litespeedtechnol-openlitespeeddru"
 }
 
 variable "do_application_litespeedtechnol-openlitespeedjoo-20-04" {
-  description = "OpenLiteSpeed Joomla 5.1.2 on Ubuntu 24.04"
+  description = "OpenLiteSpeed Joomla 5.3.1 on Ubuntu 24.04"
   default     = "litespeedtechnol-openlitespeedjoo-20-04"
 }
 
 variable "do_application_litespeedtechnol-openlitespeednod-20-04" {
-  description = "OpenLiteSpeed NodeJS 18.20.4 on Ubuntu 24.04"
+  description = "OpenLiteSpeed NodeJS 22.17.0 on Ubuntu 24.04"
   default     = "litespeedtechnol-openlitespeednod-20-04"
 }
 
