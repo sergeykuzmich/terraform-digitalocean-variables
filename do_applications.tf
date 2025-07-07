@@ -624,7 +624,7 @@ variable "do_application_hashicorpvault" {
 }
 
 variable "do_application_hollaex-hollaexkit" {
-  description = "HollaEx Kit 2.15.5 on Ubuntu 20.04"
+  description = "HollaEx Kit 2.15.8 on Ubuntu 20.04"
   default     = "hollaex-hollaexkit"
 }
 
@@ -769,7 +769,7 @@ variable "do_application_linuxpatchcom-linuxpatchapplia" {
 }
 
 variable "do_application_litespeedtechnol-cyberpanel-20-04" {
-  description = "CyberPanel 2.3.6 on Ubuntu 22.04"
+  description = "CyberPanel 2.4.2 on Ubuntu 22.04"
   default     = "litespeedtechnol-cyberpanel-20-04"
 }
 
@@ -1326,6 +1326,11 @@ variable "do_application_tebex-tebexrconadapter" {
 variable "do_application_techdomeai-sparrow" {
   description = "Sparrow 1.0.0 on Ubuntu 24.04"
   default     = "techdomeai-sparrow"
+}
+
+variable "do_application_techdomeai-sparrowcommunity" {
+  description = "Sparrow Community Edition 1.2.0 on 24.04"
+  default     = "techdomeai-sparrowcommunity"
 }
 
 variable "do_application_temporal" {
