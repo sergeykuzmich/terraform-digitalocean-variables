@@ -44,7 +44,7 @@ variable "do_application_amd-torchtune" {
 }
 
 variable "do_application_analythium-shinyproxy-20-04" {
-  description = "ShinyProxy 3.1.1 on Ubuntu 24.04"
+  description = "ShinyProxy 3.2.0 on Ubuntu 24.04"
   default     = "analythium-shinyproxy-20-04"
 }
 
@@ -149,7 +149,7 @@ variable "do_application_bigcloud-odoo" {
 }
 
 variable "do_application_bitwarden" {
-  description = "Bitwarden 2025.6.2 on Ubuntu 24.04"
+  description = "Bitwarden 2025.7.0 on Ubuntu 24.04"
   default     = "bitwarden"
 }
 
@@ -624,7 +624,7 @@ variable "do_application_hashicorpvault" {
 }
 
 variable "do_application_hollaex-hollaexkit" {
-  description = "HollaEx Kit 2.15.8 on Ubuntu 20.04"
+  description = "HollaEx Kit 2.15.9 on Ubuntu 20.04"
   default     = "hollaex-hollaexkit"
 }
 
@@ -794,7 +794,7 @@ variable "do_application_litespeedtechnol-openlitespeednod-20-04" {
 }
 
 variable "do_application_litespeedtechnol-openlitespeedrai-20-04" {
-  description = "OpenLiteSpeed Rails 7.1.4 on Ubuntu 24.04"
+  description = "OpenLiteSpeed Rails 8.0.2 on Ubuntu 24.04"
   default     = "litespeedtechnol-openlitespeedrai-20-04"
 }
 
