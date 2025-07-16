@@ -323,6 +323,11 @@ variable "do_application_digitaloceanai-deepseekr1distillqwen7b8x" {
   default     = "digitaloceanai-deepseekr1distillqwen7b8x"
 }
 
+variable "do_application_digitaloceanai-ernie4521ba3bbas" {
+  description = "ERNIE 4.5-21B-A3B-Base - Single GPU 4.5-21B-A3 on AI/ML Ready"
+  default     = "digitaloceanai-ernie4521ba3bbas"
+}
+
 variable "do_application_digitaloceanai-googlegemma227bi" {
   description = "Google Gemma 2 27B - Multi GPU 2-27b-it on Ubuntu AI/ML Ready"
   default     = "digitaloceanai-googlegemma227bi"
