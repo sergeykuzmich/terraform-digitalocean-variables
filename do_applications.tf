@@ -289,7 +289,7 @@ variable "do_application_digitaloceanai-1clickinferencer" {
 }
 
 variable "do_application_digitaloceanai-1clickinferenceready8x" {
-  description = "1-Click Inference Ready 8x 1.0 on Linux AI/ML Ready"
+  description = "1-Click Inference Ready - Multi GPU 1.0.2 on Linux AI/ML Ready"
   default     = "digitaloceanai-1clickinferenceready8x"
 }
 
