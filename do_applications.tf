@@ -304,12 +304,12 @@ variable "do_application_digitaloceanai-deepseekr1671b8x" {
 }
 
 variable "do_application_digitaloceanai-deepseekr1distil" {
-  description = "DeepSeek R1 Distill Qwen 7B 1x R1-Distill-Qwen-7B on Linux AI/ML Ready"
+  description = "DeepSeek R1 Distill Qwen 7B - Single GPU Distill-Qwen-7B on Linux AI/ML Ready"
   default     = "digitaloceanai-deepseekr1distil"
 }
 
 variable "do_application_digitaloceanai-deepseekr1distillllama8b1x" {
-  description = "DeepSeek R1 Distill Llama 8B 1x R1-Distill-Llama-8B on Linux AI/ML Ready"
+  description = "DeepSeek R1 Distill Llama 8B - Single GPU Distill-Llama-8B on Linux AI/ML Ready"
   default     = "digitaloceanai-deepseekr1distillllama8b1x"
 }
 
@@ -441,6 +441,11 @@ variable "do_application_digitaloceanai-nresearchhermes3llama318b1x" {
 variable "do_application_digitaloceanai-qwen27b1x" {
   description = "Qwen 2 7B - Single GPU 2-7B-Instruct on Ubuntu AI/ML Ready"
   default     = "digitaloceanai-qwen27b1x"
+}
+
+variable "do_application_digitaloceanai-qwen29b" {
+  description = "Qwen 2 7B - Multi GPU 2-7B-Instruct on DO AI/ML Multi GPU"
+  default     = "digitaloceanai-qwen29b"
 }
 
 variable "do_application_digitaloceanai-researchhermes3l" {
