@@ -369,7 +369,7 @@ variable "do_application_digitaloceanai-llama31405binstructfp8" {
 }
 
 variable "do_application_digitaloceanai-llama3211bvision" {
-  description = "llama-3.2-11b-vision-instruct-1x 11b-vision-instruct on DO AI/ML"
+  description = "Llama 3.2 11B Vision Instruct - Single GPU 3.2-11B-Vision-Instruct on Linux AI/ML Ready"
   default     = "digitaloceanai-llama3211bvision"
 }
 
@@ -404,7 +404,7 @@ variable "do_application_digitaloceanai-metallamallama318binstruct8x" {
 }
 
 variable "do_application_digitaloceanai-mistral7binstruc" {
-  description = "Mistral-7B-Instruct-v0-3-1x 7B-Instruct-v0.3 on Ubuntu AI/ML Ready"
+  description = "Mistral 7B Instruct v0.3 - Single GPU 7B-Instruct-v0.3 on Ubuntu AI/ML Ready"
   default     = "digitaloceanai-mistral7binstruc"
 }
 
