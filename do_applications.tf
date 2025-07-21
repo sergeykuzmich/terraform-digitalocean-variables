@@ -89,7 +89,7 @@ variable "do_application_ascensiosystemsi-onlyofficedocspa" {
 }
 
 variable "do_application_ascensiosystemsi-onlyofficeeditor-18-04-4" {
-  description = "ONLYOFFICE Docs 8.3.3.1 on Ubuntu 24.04 LTS"
+  description = "ONLYOFFICE Docs 9.0.3 on Ubuntu 24.04 LTS"
   default     = "ascensiosystemsi-onlyofficeeditor-18-04-4"
 }
 
@@ -504,7 +504,7 @@ variable "do_application_dokku-20-04" {
 }
 
 variable "do_application_doteamaccount-pocketbase" {
-  description = "PocketBase 0.28.4 on Ubuntu 22.04"
+  description = "PocketBase 0.29.0 on Ubuntu 22.04"
   default     = "doteamaccount-pocketbase"
 }
 
@@ -783,6 +783,11 @@ variable "do_application_litespeedtechnol-cyberpanel-20-04" {
   default     = "litespeedtechnol-cyberpanel-20-04"
 }
 
+variable "do_application_litespeedtechnol-openlitespeedcla-18-04" {
+  description = "OpenLiteSpeed ClassicPress 2.4.1 on Ubuntu 24.04"
+  default     = "litespeedtechnol-openlitespeedcla-18-04"
+}
+
 variable "do_application_litespeedtechnol-openlitespeeddja-20-04" {
   description = "OpenLiteSpeed Django 5.1.0 on Ubuntu 24.04"
   default     = "litespeedtechnol-openlitespeeddja-20-04"
@@ -994,7 +999,7 @@ variable "do_application_ossrs-srs" {
 }
 
 variable "do_application_passboltsa-passboltce-20-04" {
-  description = "Passbolt CE 5.2.0-1 on Ubuntu 24.04"
+  description = "Passbolt CE 5.3.2-1 on Ubuntu 24.04"
   default     = "passboltsa-passboltce-20-04"
 }
 
@@ -1109,7 +1114,7 @@ variable "do_application_saltcorn-20-04" {
 }
 
 variable "do_application_sandflysecurity-20-04" {
-  description = "Sandfly Security 5.4.2 on Ubuntu 22.04"
+  description = "Sandfly Security 5.5.0 on Ubuntu 22.04"
   default     = "sandflysecurity-20-04"
 }
 
@@ -1139,12 +1144,12 @@ variable "do_application_semaphore" {
 }
 
 variable "do_application_severalnines-clustercontrol-20-04" {
-  description = "ClusterControl 2.3.2 on Ubuntu 20.04"
+  description = "ClusterControl 2.3.3 on Ubuntu 20.04"
   default     = "severalnines-clustercontrol-20-04"
 }
 
 variable "do_application_sharklabs-anaconda" {
-  description = "Anaconda 2025.06-0 on Ubuntu 22.04 (LTS)"
+  description = "Anaconda 2025.06-1 on Ubuntu 22.04 (LTS)"
   default     = "sharklabs-anaconda"
 }
 
@@ -1341,6 +1346,11 @@ variable "do_application_techdomeai-sparrow" {
 variable "do_application_techdomeai-sparrowcommunity" {
   description = "Sparrow Community Edition 1.2.0 on 24.04"
   default     = "techdomeai-sparrowcommunity"
+}
+
+variable "do_application_techdomeai-sparrowcommunityedition1" {
+  description = "Sparrow-Community-Edition 1.3.0 on 24.04"
+  default     = "techdomeai-sparrowcommunityedition1"
 }
 
 variable "do_application_temporal" {
