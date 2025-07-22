@@ -284,7 +284,7 @@ variable "do_application_devrel-teleport-20-04" {
 }
 
 variable "do_application_digitaloceanai-1clickinferencer" {
-  description = "1-Click Inference Ready 1x 1.0 on Linux AI/ML Ready"
+  description = "1-Click Inference Ready - Single GPU 1.0.2 on Linux AI/ML Ready"
   default     = "digitaloceanai-1clickinferencer"
 }
 
