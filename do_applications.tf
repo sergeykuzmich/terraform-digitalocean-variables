@@ -38,9 +38,29 @@ variable "do_application_akaunting-20-04" {
   default     = "akaunting-20-04"
 }
 
+variable "do_application_amd-jax0435" {
+  description = "JAX 0.4.35 0.4.35 on Ubuntu 24.04"
+  default     = "amd-jax0435"
+}
+
+variable "do_application_amd-megatron0100" {
+  description = "Megatron 0.10.0 0.10.0 on Ubuntu 24.04"
+  default     = "amd-megatron0100"
+}
+
+variable "do_application_amd-pytorch251" {
+  description = "PyTorch 2.5.1 2.5.1 on Ubuntu 24.04"
+  default     = "amd-pytorch251"
+}
+
 variable "do_application_amd-torchtune" {
   description = "TorchTune 2.6.0 on Ubuntu 24.04"
   default     = "amd-torchtune"
+}
+
+variable "do_application_amd-vllm085" {
+  description = "vLLM 0.8.5 0.8.5 on Ubuntu 24.04"
+  default     = "amd-vllm085"
 }
 
 variable "do_application_analythium-shinyproxy-20-04" {
@@ -289,7 +309,7 @@ variable "do_application_digitaloceanai-1clickinferencer" {
 }
 
 variable "do_application_digitaloceanai-1clickinferenceready8x" {
-  description = "1-Click Inference Ready - Multi GPU 1.0.2 on Linux AI/ML Ready"
+  description = "1-Click Inference Ready - Multi GPU 1.0.4 on Linux AI/ML Ready"
   default     = "digitaloceanai-1clickinferenceready8x"
 }
 
