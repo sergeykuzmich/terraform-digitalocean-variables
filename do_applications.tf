@@ -53,6 +53,11 @@ variable "do_application_amd-pytorch251" {
   default     = "amd-pytorch251"
 }
 
+variable "do_application_amd-sglang046" {
+  description = "SGLang 0.4.6 0.4.6 on Ubuntu 24.04"
+  default     = "amd-sglang046"
+}
+
 variable "do_application_amd-torchtune" {
   description = "TorchTune 2.6.0 on Ubuntu 24.04"
   default     = "amd-torchtune"
@@ -499,7 +504,7 @@ variable "do_application_digitaloceanai-rocmvllmjupyter" {
 }
 
 variable "do_application_digitaloceanai-sglang" {
-  description = "SGLang 0.4.6 on Ubuntu 24.04"
+  description = "SGLang 0.4.9 on Ubuntu 24.04"
   default     = "digitaloceanai-sglang"
 }
 

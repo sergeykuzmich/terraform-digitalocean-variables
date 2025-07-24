@@ -18,11 +18,6 @@ variable "do_distibution_centos-stream-9-x64" {
   default     = "centos-stream-9-x64"
 }
 
-variable "do_distibution_debian-11-x64" {
-  description = "Debian 11 x64"
-  default     = "debian-11-x64"
-}
-
 variable "do_distibution_debian-12-x64" {
   description = "Debian 12 x64"
   default     = "debian-12-x64"
@@ -76,5 +71,10 @@ variable "do_distibution_ubuntu-24-04-x64" {
 variable "do_distibution_ubuntu-24-10-x64" {
   description = "Ubuntu 24.10 x64"
   default     = "ubuntu-24-10-x64"
+}
+
+variable "do_distibution_ubuntu-25-04-x64" {
+  description = "Ubuntu 25.04 x64"
+  default     = "ubuntu-25-04-x64"
 }
     
