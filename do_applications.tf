@@ -604,7 +604,7 @@ variable "do_application_flowforge" {
 }
 
 variable "do_application_flowforge-flowfuse" {
-  description = "FlowFuse 2.19.0 on Ubuntu 22.04"
+  description = "FlowFuse 2.19.1 on Ubuntu 22.04"
   default     = "flowforge-flowfuse"
 }
 
@@ -1109,7 +1109,7 @@ variable "do_application_rackware-rackwarecloudmig" {
 }
 
 variable "do_application_ringq" {
-  description = "RingQ 8.7.61 on Debian 11 x64"
+  description = "RingQ 8.7.66 on Debian 11 x64"
   default     = "ringq"
 }
 
