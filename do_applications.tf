@@ -609,7 +609,7 @@ variable "do_application_flowforge-flowfuse" {
 }
 
 variable "do_application_ghost-20-04" {
-  description = "Ghost on Ubuntu 22.04"
+  description = "Ghost on Ubuntu 24.04"
   default     = "ghost-20-04"
 }
 
@@ -924,7 +924,7 @@ variable "do_application_multiversx-multiversxtestne" {
 }
 
 variable "do_application_mysql-20-04" {
-  description = "MySQL on Ubuntu 20.04"
+  description = "MySQL on Ubuntu 24.04"
   default     = "mysql-20-04"
 }
 
@@ -1374,7 +1374,7 @@ variable "do_application_techdomeai-sparrowcommunity" {
 }
 
 variable "do_application_techdomeai-sparrowcommunityedition1" {
-  description = "Sparrow-Community-Edition 1.3.0 on 24.04"
+  description = "Sparrow-Community-Edition 1.3.1 on 24.04"
   default     = "techdomeai-sparrowcommunityedition1"
 }
 
