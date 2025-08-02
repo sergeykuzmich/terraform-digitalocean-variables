@@ -84,7 +84,7 @@ variable "do_application_antmedia-antmediaserveren-18-04" {
 }
 
 variable "do_application_apliteni-keitaro" {
-  description = "Keitaro 10.3.10 on CentOS 9 Stream"
+  description = "Keitaro 11.0.4 on CentOS 9 Stream"
   default     = "apliteni-keitaro"
 }
 
@@ -604,7 +604,7 @@ variable "do_application_flowforge" {
 }
 
 variable "do_application_flowforge-flowfuse" {
-  description = "FlowFuse 2.19.1 on Ubuntu 22.04"
+  description = "FlowFuse 2.20.0 on Ubuntu 22.04"
   default     = "flowforge-flowfuse"
 }
 
@@ -1049,7 +1049,7 @@ variable "do_application_pirichaintechnol-pirisubchainsnod" {
 }
 
 variable "do_application_planesoftware-planecommunityed" {
-  description = "Plane (Community Edition) 0.23.1 on Ubuntu 22.04"
+  description = "Plane (Community Edition) 0.28.0 on Ubuntu 24.04"
   default     = "planesoftware-planecommunityed"
 }
 
