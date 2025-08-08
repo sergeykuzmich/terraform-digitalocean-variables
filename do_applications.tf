@@ -48,6 +48,11 @@ variable "do_application_amd-megatron0100" {
   default     = "amd-megatron0100"
 }
 
+variable "do_application_amd-openaigptoss" {
+  description = "OpenAI GPT OSS 120b on Ubuntu 24.04"
+  default     = "amd-openaigptoss"
+}
+
 variable "do_application_amd-pytorch251" {
   description = "PyTorch 2.5.1 2.5.1 on Ubuntu 24.04"
   default     = "amd-pytorch251"
@@ -764,12 +769,12 @@ variable "do_application_laravel-forge-ubuntu-20-04" {
 }
 
 variable "do_application_laravel-forge-ubuntu-22-04" {
-  description = "Laravel Forge - Ubuntu 22.04 0.4.2 on Ubuntu 22.04"
+  description = "Laravel Forge - Ubuntu 22.04 0.5.1 on Ubuntu 22.04"
   default     = "laravel-forge-ubuntu-22-04"
 }
 
 variable "do_application_laravel-forge-ubuntu-24-04" {
-  description = "Laravel Forge - Ubuntu 24.04 0.4.2 on Ubuntu 24.04"
+  description = "Laravel Forge - Ubuntu 24.04 0.5.1 on Ubuntu 24.04"
   default     = "laravel-forge-ubuntu-24-04"
 }
 

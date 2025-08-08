@@ -273,6 +273,16 @@ variable "do_size_gpu-h100x8-640gb" {
   default     = "gpu-h100x8-640gb"
 }
 
+variable "do_size_gpu-h200x1-141gb" {
+  description = "240GB RAM; 24 CPU; 720GB SSD - $2559/mo"
+  default     = "gpu-h200x1-141gb"
+}
+
+variable "do_size_gpu-h200x8-1128gb" {
+  description = "1920GB RAM; 192 CPU; 1.998046875TB SSD - $20475/mo"
+  default     = "gpu-h200x8-1128gb"
+}
+
 variable "do_size_gpu-l40sx1-48gb" {
   description = "64GB RAM; 8 CPU; 500GB SSD - $1168/mo"
   default     = "gpu-l40sx1-48gb"
