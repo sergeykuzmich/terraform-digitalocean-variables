@@ -79,12 +79,12 @@ variable "do_application_analythium-shinyproxy-20-04" {
 }
 
 variable "do_application_antmedia-antmediaserverco-18-04" {
-  description = "Ant Media Server Community Edition 2.14.0 on Ubuntu 22.04"
+  description = "Ant Media Server Community Edition 2.15.0 on Ubuntu 22.04"
   default     = "antmedia-antmediaserverco-18-04"
 }
 
 variable "do_application_antmedia-antmediaserveren-18-04" {
-  description = "Ant Media Server Enterprise Edition 2.14.0 on Ubuntu 22.04"
+  description = "Ant Media Server Enterprise Edition 2.15.0 on Ubuntu 24.04"
   default     = "antmedia-antmediaserveren-18-04"
 }
 
@@ -179,7 +179,7 @@ variable "do_application_bigcloud-odoo" {
 }
 
 variable "do_application_bitwarden" {
-  description = "Bitwarden 2025.7.2 on Ubuntu 24.04"
+  description = "Bitwarden 2025.7.3 on Ubuntu 24.04"
   default     = "bitwarden"
 }
 
@@ -534,7 +534,7 @@ variable "do_application_dokku-20-04" {
 }
 
 variable "do_application_doteamaccount-pocketbase" {
-  description = "PocketBase 0.29.1 on Ubuntu 22.04"
+  description = "PocketBase 0.29.2 on Ubuntu 22.04"
   default     = "doteamaccount-pocketbase"
 }
 
@@ -884,7 +884,7 @@ variable "do_application_mern" {
 }
 
 variable "do_application_mgtcommercegmbh-cloudpanel2ubunt" {
-  description = "CloudPanel 2 - Ubuntu 24.04 2.5.1 on Ubuntu 24.04"
+  description = "CloudPanel 2 - Ubuntu 24.04 2.5.2 on Ubuntu 24.04"
   default     = "mgtcommercegmbh-cloudpanel2ubunt"
 }
 
