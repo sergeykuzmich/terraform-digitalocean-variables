@@ -1058,6 +1058,11 @@ variable "do_application_planesoftware-planecommunityed" {
   default     = "planesoftware-planecommunityed"
 }
 
+variable "do_application_plausibleanalyti" {
+  description = "Plausible Analytics 3.0.4 on Ubuntu 24.04"
+  default     = "plausibleanalyti"
+}
+
 variable "do_application_playboxtechnolog-ottstream" {
   description = "OTT Stream 1.0 on Centos 7"
   default     = "playboxtechnolog-ottstream"
