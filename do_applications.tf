@@ -89,7 +89,7 @@ variable "do_application_antmedia-antmediaserveren-18-04" {
 }
 
 variable "do_application_apliteni-keitaro" {
-  description = "Keitaro 11.0.4 on CentOS 9 Stream"
+  description = "Keitaro 11.0.6 on CentOS 9 Stream"
   default     = "apliteni-keitaro"
 }
 
@@ -739,7 +739,7 @@ variable "do_application_jitsiserver-20-04" {
 }
 
 variable "do_application_kandralabs-zulip-18-04" {
-  description = "Zulip 10.4 on Ubuntu 22.04"
+  description = "Zulip 11.0 on Ubuntu 22.04"
   default     = "kandralabs-zulip-18-04"
 }
 
@@ -1149,7 +1149,7 @@ variable "do_application_saltcorn-20-04" {
 }
 
 variable "do_application_sandflysecurity-20-04" {
-  description = "Sandfly Security 5.5.0 on Ubuntu 22.04"
+  description = "Sandfly Security 5.5.1 on Ubuntu 22.04"
   default     = "sandflysecurity-20-04"
 }
 
