@@ -53,6 +53,11 @@ variable "do_distibution_gpu-h100x8-base" {
   default     = "gpu-h100x8-base"
 }
 
+variable "do_distibution_rockylinux-10-x64" {
+  description = "Rocky Linux 10 x64"
+  default     = "rockylinux-10-x64"
+}
+
 variable "do_distibution_rockylinux-8-x64" {
   description = "Rocky Linux 8 x64"
   default     = "rockylinux-8-x64"
