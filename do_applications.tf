@@ -179,7 +179,7 @@ variable "do_application_bigcloud-odoo" {
 }
 
 variable "do_application_bitwarden" {
-  description = "Bitwarden 2025.7.3 on Ubuntu 24.04"
+  description = "Bitwarden 2025.8.0 on Ubuntu 24.04"
   default     = "bitwarden"
 }
 
@@ -249,7 +249,7 @@ variable "do_application_cloudron-20-04" {
 }
 
 variable "do_application_codelathe-filecloud-20-04" {
-  description = "FileCloud 23.241 on Ubuntu 22.04"
+  description = "FileCloud  23.242.0.29412 on Ubuntu 22.04"
   default     = "codelathe-filecloud-20-04"
 }
 
@@ -271,6 +271,11 @@ variable "do_application_cpanel-cpanelwhmforalma" {
 variable "do_application_cpanel-cpanelwhmforubun" {
   description = "cPanel & WHM® for Ubuntu RELEASE on Ubuntu 22.04"
   default     = "cpanel-cpanelwhmforubun"
+}
+
+variable "do_application_cpanel-wpsquared" {
+  description = "WP Squared RELEASE on CloudLinux 8"
+  default     = "cpanel-wpsquared"
 }
 
 variable "do_application_csmm-20-04" {
@@ -624,7 +629,7 @@ variable "do_application_gitlab-gitlabenterprise-20-04" {
 }
 
 variable "do_application_goauthentikio-authentik" {
-  description = "authentik 2025.6.2 on Ubuntu 24.04"
+  description = "authentik 2025.8.0 on Ubuntu 24.04"
   default     = "goauthentikio-authentik"
 }
 
