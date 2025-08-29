@@ -179,7 +179,7 @@ variable "do_application_bigcloud-odoo" {
 }
 
 variable "do_application_bitwarden" {
-  description = "Bitwarden 2025.8.0 on Ubuntu 24.04"
+  description = "Bitwarden 2025.8.1 on Ubuntu 24.04"
   default     = "bitwarden"
 }
 
@@ -614,7 +614,7 @@ variable "do_application_flowforge" {
 }
 
 variable "do_application_flowforge-flowfuse" {
-  description = "FlowFuse 2.20.0 on Ubuntu 22.04"
+  description = "FlowFuse 2.21.0 on Ubuntu 22.04"
   default     = "flowforge-flowfuse"
 }
 
@@ -814,7 +814,7 @@ variable "do_application_linuxpatchcom-linuxpatchapplia" {
 }
 
 variable "do_application_litespeedtechnol-cyberpanel-20-04" {
-  description = "CyberPanel 2.4.2 on Ubuntu 22.04"
+  description = "CyberPanel 2.4.3 on Ubuntu 22.04"
   default     = "litespeedtechnol-cyberpanel-20-04"
 }
 
@@ -849,7 +849,7 @@ variable "do_application_litespeedtechnol-openlitespeedrai-20-04" {
 }
 
 variable "do_application_litespeedtechnol-openlitespeedwor-20-04" {
-  description = "OpenLiteSpeed WordPress 6.8.1 on Ubuntu 24.04"
+  description = "OpenLiteSpeed WordPress 6.8.2 on Ubuntu 24.04"
   default     = "litespeedtechnol-openlitespeedwor-20-04"
 }
 
@@ -1114,7 +1114,7 @@ variable "do_application_questdb-20-04" {
 }
 
 variable "do_application_rabbitmq" {
-  description = "RabbitMQ 4.1.2 on Ubuntu 22.04"
+  description = "RabbitMQ 4.1.3 on Ubuntu 22.04"
   default     = "rabbitmq"
 }
 
