@@ -14,7 +14,7 @@ variable "do_application_3cxcommunication-3cxv18" {
 }
 
 variable "do_application_aapanel" {
-  description = "aaPanel 7.0.13 on Ubuntu 22.04"
+  description = "aaPanel 7.0.23 on Ubuntu 22.04"
   default     = "aapanel"
 }
 
@@ -679,22 +679,22 @@ variable "do_application_ibsurgeon-hqbirdfirebird" {
 }
 
 variable "do_application_ibsurgeon-hqbirdfirebirdv2" {
-  description = "HQbird Firebird v2.5 2.5.9.27174-11.0.070 on CentOS 9.x"
+  description = "HQbird Firebird v2.5 2.5.9.27190-11.3.08 on Ubuntu 24.04"
   default     = "ibsurgeon-hqbirdfirebirdv2"
 }
 
 variable "do_application_ibsurgeon-hqbirdfirebirdv3" {
-  description = "HQbird Firebird v3.0 3.0.12.33746-11.0.07 on CentOS 9.x"
+  description = "HQbird Firebird v3.0 3.0.12.33818-11.3.08 on Ubuntu 24.04"
   default     = "ibsurgeon-hqbirdfirebirdv3"
 }
 
 variable "do_application_ibsurgeon-hqbirdfirebirdv4" {
-  description = "HQbird Firebird v4.0 4.0.5.3109-11.0.0703 on CentOS 9.x"
+  description = "HQbird Firebird v4.0 4.0.5.3222-11.3.0811 on Ubuntu 24.04"
   default     = "ibsurgeon-hqbirdfirebirdv4"
 }
 
 variable "do_application_ibsurgeon-hqbirdfirebirdv5" {
-  description = "HQbird Firebird v5.0 5.0.1.1428-11.0.0703 on CentOS 9.x"
+  description = "HQbird Firebird v5.0 5.0.1.183-11.3.0811 on Ubuntu 24.04"
   default     = "ibsurgeon-hqbirdfirebirdv5"
 }
 
@@ -1389,7 +1389,7 @@ variable "do_application_techdomeai-sparrowcommunity" {
 }
 
 variable "do_application_techdomeai-sparrowcommunityedition1" {
-  description = "Sparrow-Community-Edition 1.3.2 on 24.04"
+  description = "Sparrow-Community-Edition 1.4.0 on 24.04"
   default     = "techdomeai-sparrowcommunityedition1"
 }
 
