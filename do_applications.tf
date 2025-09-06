@@ -179,7 +179,7 @@ variable "do_application_bigcloud-odoo" {
 }
 
 variable "do_application_bitwarden" {
-  description = "Bitwarden 2025.8.1 on Ubuntu 24.04"
+  description = "Bitwarden 2025.8.2 on Ubuntu 24.04"
   default     = "bitwarden"
 }
 
@@ -618,6 +618,11 @@ variable "do_application_flowforge-flowfuse" {
   default     = "flowforge-flowfuse"
 }
 
+variable "do_application_futo-immich" {
+  description = "Immich release on Ubuntu 24.04 (LTS)"
+  default     = "futo-immich"
+}
+
 variable "do_application_ghost-20-04" {
   description = "Ghost on Ubuntu 24.04"
   default     = "ghost-20-04"
@@ -629,7 +634,7 @@ variable "do_application_gitlab-gitlabenterprise-20-04" {
 }
 
 variable "do_application_goauthentikio-authentik" {
-  description = "authentik 2025.8.0 on Ubuntu 24.04"
+  description = "authentik 2025.8.1 on Ubuntu 24.04"
   default     = "goauthentikio-authentik"
 }
 
@@ -1469,7 +1474,7 @@ variable "do_application_wikijs-18-04" {
 }
 
 variable "do_application_wordpress-20-04" {
-  description = "WordPress 6.8.1 on Ubuntu 22.04"
+  description = "WordPress on Ubuntu 22.04"
   default     = "wordpress-20-04"
 }
 
