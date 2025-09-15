@@ -139,7 +139,7 @@ variable "do_application_auspiciaab-theplanminderpos-20-04" {
 }
 
 variable "do_application_automazeme-n8n" {
-  description = "n8n 1.67.1 on Ubuntu 22.04 (LTS)"
+  description = "n8n 1.110.1 on Ubuntu 24.04 (LTS)"
   default     = "automazeme-n8n"
 }
 
@@ -179,7 +179,7 @@ variable "do_application_bigcloud-odoo" {
 }
 
 variable "do_application_bitwarden" {
-  description = "Bitwarden 2025.8.2 on Ubuntu 24.04"
+  description = "Bitwarden 2025.8.3 on Ubuntu 24.04"
   default     = "bitwarden"
 }
 
@@ -749,7 +749,7 @@ variable "do_application_jitsiserver-20-04" {
 }
 
 variable "do_application_kandralabs-zulip-18-04" {
-  description = "Zulip 11.0 on Ubuntu 22.04"
+  description = "Zulip 11.1 on Ubuntu 22.04"
   default     = "kandralabs-zulip-18-04"
 }
 
@@ -819,7 +819,7 @@ variable "do_application_linuxpatchcom-linuxpatchapplia" {
 }
 
 variable "do_application_litespeedtechnol-cyberpanel-20-04" {
-  description = "CyberPanel 2.4.3 on Ubuntu 22.04"
+  description = "CyberPanel 2.4.4 on Ubuntu 24.04"
   default     = "litespeedtechnol-cyberpanel-20-04"
 }
 
@@ -1061,6 +1061,11 @@ variable "do_application_phpmyadmin-20-04" {
 variable "do_application_pirichaintechnol-pirisubchainsnod" {
   description = "Pirisubchains Node 1.0.6 on 22.04"
   default     = "pirichaintechnol-pirisubchainsnod"
+}
+
+variable "do_application_planesoftware-plane" {
+  description = "Plane 1.14.1 on Ubuntu 22.04 LTS"
+  default     = "planesoftware-plane"
 }
 
 variable "do_application_planesoftware-planecommunityed" {
@@ -1439,7 +1444,7 @@ variable "do_application_victoriametrics-victorialogssing" {
 }
 
 variable "do_application_victoriametrics-victoriametricss" {
-  description = "VictoriaMetrics Single 1.104.0 on Ubuntu 22.04"
+  description = "VictoriaMetrics Single 1.125.1 on Ubuntu 22.04"
   default     = "victoriametrics-victoriametricss"
 }
 
