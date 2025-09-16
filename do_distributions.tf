@@ -18,6 +18,11 @@ variable "do_distibution_almalinux-9-x64" {
   default     = "almalinux-9-x64"
 }
 
+variable "do_distibution_centos-stream-10-x64" {
+  description = "CentOS 10 Stream x64"
+  default     = "centos-stream-10-x64"
+}
+
 variable "do_distibution_centos-stream-9-x64" {
   description = "CentOS 9 Stream x64"
   default     = "centos-stream-9-x64"
@@ -26,6 +31,11 @@ variable "do_distibution_centos-stream-9-x64" {
 variable "do_distibution_debian-12-x64" {
   description = "Debian 12 x64"
   default     = "debian-12-x64"
+}
+
+variable "do_distibution_debian-13-x64" {
+  description = "Debian 13 x64"
+  default     = "debian-13-x64"
 }
 
 variable "do_distibution_fedora-41-x64" {

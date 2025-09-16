@@ -1329,7 +1329,7 @@ variable "do_application_smartarget-wordpresswoocomm" {
 }
 
 variable "do_application_softlab24-opensourcesocial-18-04" {
-  description = "Open Source Social Network 6.6.0 on Ubuntu 22.04"
+  description = "Open Source Social Network 8.1.0 on Ubuntu 22.04"
   default     = "softlab24-opensourcesocial-18-04"
 }
 
