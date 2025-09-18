@@ -58,6 +58,11 @@ variable "do_application_amd-pytorch251" {
   default     = "amd-pytorch251"
 }
 
+variable "do_application_amd-rocm7software" {
+  description = "ROCm™ 7 Software 7 on Ubuntu 24.04"
+  default     = "amd-rocm7software"
+}
+
 variable "do_application_amd-sglang046" {
   description = "SGLang 0.4.6 0.4.6 on Ubuntu 24.04"
   default     = "amd-sglang046"
