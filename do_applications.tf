@@ -59,7 +59,7 @@ variable "do_application_amd-pytorch251" {
 }
 
 variable "do_application_amd-rocm7software" {
-  description = "ROCm™ 7 Software 7 on Ubuntu 24.04"
+  description = "ROCm™ 7 Software on Ubuntu 24.04"
   default     = "amd-rocm7software"
 }
 
