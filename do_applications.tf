@@ -99,7 +99,7 @@ variable "do_application_apliteni-keitaro" {
 }
 
 variable "do_application_appsmith-18-04" {
-  description = "Appsmith 1.7 on Ubuntu 20.04"
+  description = "Appsmith 1.85 on Ubuntu 24.04"
   default     = "appsmith-18-04"
 }
 
@@ -184,7 +184,7 @@ variable "do_application_bigcloud-odoo" {
 }
 
 variable "do_application_bitwarden" {
-  description = "Bitwarden 2025.8.3 on Ubuntu 24.04"
+  description = "Bitwarden 2025.9.0 on Ubuntu 24.04"
   default     = "bitwarden"
 }
 
@@ -304,7 +304,7 @@ variable "do_application_decyphertekio-uptimekuma" {
 }
 
 variable "do_application_depomo-chartbrew" {
-  description = "Chartbrew 3.5.1 on Ubuntu 20.04"
+  description = "Chartbrew 4.3.0 on Ubuntu 22.04"
   default     = "depomo-chartbrew"
 }
 
@@ -754,7 +754,7 @@ variable "do_application_jitsiserver-20-04" {
 }
 
 variable "do_application_kandralabs-zulip-18-04" {
-  description = "Zulip 11.1 on Ubuntu 22.04"
+  description = "Zulip 11.2 on Ubuntu 22.04"
   default     = "kandralabs-zulip-18-04"
 }
 
@@ -1044,7 +1044,7 @@ variable "do_application_ossrs-srs" {
 }
 
 variable "do_application_passboltsa-passboltce-20-04" {
-  description = "Passbolt CE 5.3.2-1 on Ubuntu 24.04"
+  description = "Passbolt CE 5.5.0-1 on Debian 12"
   default     = "passboltsa-passboltce-20-04"
 }
 
@@ -1191,6 +1191,11 @@ variable "do_application_searchblox-searchbloxenterp-7-6" {
 variable "do_application_seatablegmbh-seatable" {
   description = "SeaTable 5.0.8 on Debian 11"
   default     = "seatablegmbh-seatable"
+}
+
+variable "do_application_securityroots-dradis" {
+  description = "dradis 4.17.1 on Debian 12"
+  default     = "securityroots-dradis"
 }
 
 variable "do_application_semaphore" {
@@ -1444,7 +1449,7 @@ variable "do_application_varnishsoftware-varnishcache-18-04" {
 }
 
 variable "do_application_victoriametrics-victorialogssing" {
-  description = "VictoriaLogs Single 1.5.0 on 24.04"
+  description = "VictoriaLogs Single 1.33.1 on 24.04"
   default     = "victoriametrics-victorialogssing"
 }
 
@@ -1469,7 +1474,7 @@ variable "do_application_warpspeedvpn-wpcontroller" {
 }
 
 variable "do_application_wgdashboard" {
-  description = "WGDashboard 4.2.3 on Ubuntu 22.04"
+  description = "WGDashboard 4.3.0.1 on Ubuntu 22.04"
   default     = "wgdashboard"
 }
 
