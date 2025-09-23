@@ -368,26 +368,6 @@ variable "do_application_digitaloceanai-ernie4521ba3bbas" {
   default     = "digitaloceanai-ernie4521ba3bbas"
 }
 
-variable "do_application_digitaloceanai-googlegemma227bi" {
-  description = "Google Gemma 2 27B - Multi GPU 2-27b-it on Ubuntu AI/ML Ready"
-  default     = "digitaloceanai-googlegemma227bi"
-}
-
-variable "do_application_digitaloceanai-googlegemma227bit1x" {
-  description = "Google Gemma 2 27B - Single GPU 2-27b-it on Ubuntu AI/ML Ready"
-  default     = "digitaloceanai-googlegemma227bit1x"
-}
-
-variable "do_application_digitaloceanai-googlegemma29b" {
-  description = "Google Gemma 2 9B - Multi GPU 2-9b-it on Ubuntu AI/ML Ready"
-  default     = "digitaloceanai-googlegemma29b"
-}
-
-variable "do_application_digitaloceanai-googlegemma29bit" {
-  description = "Google Gemma 2 9B - Single GPU 2-9b-it on Ubuntu AI/ML Ready"
-  default     = "digitaloceanai-googlegemma29bit"
-}
-
 variable "do_application_digitaloceanai-jax" {
   description = "JAX 0.4.35 on Ubuntu 24.04"
   default     = "digitaloceanai-jax"
@@ -396,101 +376,6 @@ variable "do_application_digitaloceanai-jax" {
 variable "do_application_digitaloceanai-jupyterlabamdmi3" {
   description = "JupyterLab - AMD MI300x 4.4.2 on AI/ML Ready Linux"
   default     = "digitaloceanai-jupyterlabamdmi3"
-}
-
-variable "do_application_digitaloceanai-llama31405binstr" {
-  description = "Llama 3.1 405B Instruct FP8 - Single GPU 3.1 405b on Ubuntu AI/ML Ready"
-  default     = "digitaloceanai-llama31405binstr"
-}
-
-variable "do_application_digitaloceanai-llama31405binstructfp8" {
-  description = "Llama 3.1 405B Instruct FP8 - Multi GPU Llama 3.1 405B on Ubuntu AI/ML Ready"
-  default     = "digitaloceanai-llama31405binstructfp8"
-}
-
-variable "do_application_digitaloceanai-llama3211bvision" {
-  description = "Llama 3.2 11B Vision Instruct - Single GPU 3.2-11B-Vision-Instruct on Linux AI/ML Ready"
-  default     = "digitaloceanai-llama3211bvision"
-}
-
-variable "do_application_digitaloceanai-llama3211bvisioninstruct8x" {
-  description = "llama-3.2-11b-vision-instruct-8x 11b-vision-instruct on AI ML"
-  default     = "digitaloceanai-llama3211bvisioninstruct8x"
-}
-
-variable "do_application_digitaloceanai-llama3290bvision" {
-  description = "llama-3.2-90b-vision-instruct-8x 90b-vision-instruct on AL ML"
-  default     = "digitaloceanai-llama3290bvision"
-}
-
-variable "do_application_digitaloceanai-metallamallama31" {
-  description = "Llama 3.1 8B Instruct - Single GPU 3.1-8B-Instruct on Ubuntu AI/ML Ready"
-  default     = "digitaloceanai-metallamallama31"
-}
-
-variable "do_application_digitaloceanai-metallamallama3170binstruct1" {
-  description = "Llama 3.1 70B Instruct - Single GPU 3.1-70B-Instruct on Ubuntu AI/ML Ready"
-  default     = "digitaloceanai-metallamallama3170binstruct1"
-}
-
-variable "do_application_digitaloceanai-metallamallama3170binstruct8" {
-  description = "Llama 3.1 70B Instruct - Multi GPU 3.1-70B-Instruct on Ubuntu AI/ML Ready"
-  default     = "digitaloceanai-metallamallama3170binstruct8"
-}
-
-variable "do_application_digitaloceanai-metallamallama318binstruct8x" {
-  description = "Llama 3.1 8B Instruct - Multi GPU 3.1-8B-Instruct on Ubuntu AI/ML Ready"
-  default     = "digitaloceanai-metallamallama318binstruct8x"
-}
-
-variable "do_application_digitaloceanai-mistral7binstruc" {
-  description = "Mistral 7B Instruct v0.3 - Single GPU 7B-Instruct-v0.3 on Ubuntu AI/ML Ready"
-  default     = "digitaloceanai-mistral7binstruc"
-}
-
-variable "do_application_digitaloceanai-mistral7binstructv038x" {
-  description = "Mistral 7B Instruct v0.3 - Multi GPU 7B-Instruct-v0.3 on Ubuntu AI/ML Ready"
-  default     = "digitaloceanai-mistral7binstructv038x"
-}
-
-variable "do_application_digitaloceanai-mixtral8x22binst" {
-  description = "Mixtral 8x22B Instruct v0.1 - Multi GPU 8x22B-Instruct-v0.1 on Ubuntu AI/ML Ready"
-  default     = "digitaloceanai-mixtral8x22binst"
-}
-
-variable "do_application_digitaloceanai-mixtral8x7binstructv018x" {
-  description = "Mixtral 8x7B Instruct v0.1 - Multi GPU 8x7B-Instruct-v0.1 on Ubuntu AI/ML Ready"
-  default     = "digitaloceanai-mixtral8x7binstructv018x"
-}
-
-variable "do_application_digitaloceanai-noushermes2mixtr" {
-  description = "NousResearch Nous Hermes 2 Mixtral 8x7B DPO - Multi GPU Hermes-2-Mixtral-8x7B-DP0 on Ubuntu AI/ML Ready"
-  default     = "digitaloceanai-noushermes2mixtr"
-}
-
-variable "do_application_digitaloceanai-nresearchhermes3" {
-  description = "NousResearch Hermes 3 Llama 3.1  70B - Multi GPU 3-Llama-3.1-70B on Ubuntu AI/ML Ready"
-  default     = "digitaloceanai-nresearchhermes3"
-}
-
-variable "do_application_digitaloceanai-nresearchhermes3llama318b1x" {
-  description = "NousResearch Hermes 3 Llama 3.1  8B - Single GPU 3-Llama-3.1-8B on Ubuntu AI/ML Ready"
-  default     = "digitaloceanai-nresearchhermes3llama318b1x"
-}
-
-variable "do_application_digitaloceanai-qwen27b1x" {
-  description = "Qwen 2 7B - Single GPU 2-7B-Instruct on Ubuntu AI/ML Ready"
-  default     = "digitaloceanai-qwen27b1x"
-}
-
-variable "do_application_digitaloceanai-qwen29b" {
-  description = "Qwen 2 7B - Multi GPU 2-7B-Instruct on DO AI/ML Multi GPU"
-  default     = "digitaloceanai-qwen29b"
-}
-
-variable "do_application_digitaloceanai-researchhermes3l" {
-  description = "NousResearch Hermes 3 Llama 3.1  405B - Multi GPU 3-Llama-3.1-405B on Ubuntu AI/ML Ready"
-  default     = "digitaloceanai-researchhermes3l"
 }
 
 variable "do_application_digitaloceanai-rocmjupyter" {
