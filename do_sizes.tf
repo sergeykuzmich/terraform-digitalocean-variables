@@ -123,6 +123,66 @@ variable "do_size_c2-8vcpu-16gb-intel" {
   default     = "c2-8vcpu-16gb-intel"
 }
 
+variable "do_size_c5-16vcpu-32gb" {
+  description = "32GB RAM; 16 CPU; 0.9765625TB SSD - $496/mo"
+  default     = "c5-16vcpu-32gb"
+}
+
+variable "do_size_c5-16vcpu-32gb-intel" {
+  description = "32GB RAM; 16 CPU; 0.9765625TB SSD - $645/mo"
+  default     = "c5-16vcpu-32gb-intel"
+}
+
+variable "do_size_c5-2vcpu-4gb" {
+  description = "4GB RAM; 2 CPU; 125GB SSD - $62/mo"
+  default     = "c5-2vcpu-4gb"
+}
+
+variable "do_size_c5-32vcpu-64gb" {
+  description = "64GB RAM; 32 CPU; 1.953125TB SSD - $992/mo"
+  default     = "c5-32vcpu-64gb"
+}
+
+variable "do_size_c5-32vcpu-64gb-intel" {
+  description = "64GB RAM; 32 CPU; 1.953125TB SSD - $1290/mo"
+  default     = "c5-32vcpu-64gb-intel"
+}
+
+variable "do_size_c5-48vcpu-96gb" {
+  description = "96GB RAM; 48 CPU; 2.9296875TB SSD - $1488/mo"
+  default     = "c5-48vcpu-96gb"
+}
+
+variable "do_size_c5-48vcpu-96gb-intel" {
+  description = "96GB RAM; 48 CPU; 2.9296875TB SSD - $1934/mo"
+  default     = "c5-48vcpu-96gb-intel"
+}
+
+variable "do_size_c5-4vcpu-8gb" {
+  description = "8GB RAM; 4 CPU; 250GB SSD - $124/mo"
+  default     = "c5-4vcpu-8gb"
+}
+
+variable "do_size_c5-4vcpu-8gb-intel" {
+  description = "8GB RAM; 4 CPU; 250GB SSD - $161/mo"
+  default     = "c5-4vcpu-8gb-intel"
+}
+
+variable "do_size_c5-60vcpu-120gb-intel" {
+  description = "120GB RAM; 60 CPU; 3.662109375TB SSD - $2419/mo"
+  default     = "c5-60vcpu-120gb-intel"
+}
+
+variable "do_size_c5-8vcpu-16gb" {
+  description = "16GB RAM; 8 CPU; 500GB SSD - $248/mo"
+  default     = "c5-8vcpu-16gb"
+}
+
+variable "do_size_c5-8vcpu-16gb-intel" {
+  description = "16GB RAM; 8 CPU; 500GB SSD - $322/mo"
+  default     = "c5-8vcpu-16gb-intel"
+}
+
 variable "do_size_g-16vcpu-64gb" {
   description = "64GB RAM; 16 CPU; 200GB SSD - $504/mo"
   default     = "g-16vcpu-64gb"
@@ -186,6 +246,71 @@ variable "do_size_g-8vcpu-32gb" {
 variable "do_size_g-8vcpu-32gb-intel" {
   description = "32GB RAM; 8 CPU; 120GB SSD - $302/mo"
   default     = "g-8vcpu-32gb-intel"
+}
+
+variable "do_size_g5_5-16vcpu-64gb-intel" {
+  description = "64GB RAM; 16 CPU; 1.2890625TB SSD - $735/mo"
+  default     = "g5_5-16vcpu-64gb-intel"
+}
+
+variable "do_size_g5_5-2vcpu-8gb-intel" {
+  description = "8GB RAM; 2 CPU; 165GB SSD - $92/mo"
+  default     = "g5_5-2vcpu-8gb-intel"
+}
+
+variable "do_size_g5_5-32vcpu-128gb-intel" {
+  description = "128GB RAM; 32 CPU; 2.578125TB SSD - $1469/mo"
+  default     = "g5_5-32vcpu-128gb-intel"
+}
+
+variable "do_size_g5_5-48vcpu-192gb-intel" {
+  description = "192GB RAM; 48 CPU; 3.8671875TB SSD - $2203/mo"
+  default     = "g5_5-48vcpu-192gb-intel"
+}
+
+variable "do_size_g5_5-4vcpu-16gb-intel" {
+  description = "16GB RAM; 4 CPU; 330GB SSD - $183/mo"
+  default     = "g5_5-4vcpu-16gb-intel"
+}
+
+variable "do_size_g5_5-60vcpu-240gb-intel" {
+  description = "240GB RAM; 60 CPU; 4.833984375TB SSD - $2755/mo"
+  default     = "g5_5-60vcpu-240gb-intel"
+}
+
+variable "do_size_g5_5-8vcpu-32gb-intel" {
+  description = "32GB RAM; 8 CPU; 660GB SSD - $367/mo"
+  default     = "g5_5-8vcpu-32gb-intel"
+}
+
+variable "do_size_g6_5-16vcpu-64gb" {
+  description = "64GB RAM; 16 CPU; 1.26953125TB SSD - $724/mo"
+  default     = "g6_5-16vcpu-64gb"
+}
+
+variable "do_size_g6_5-2vcpu-8gb" {
+  description = "8GB RAM; 2 CPU; 163GB SSD - $91/mo"
+  default     = "g6_5-2vcpu-8gb"
+}
+
+variable "do_size_g6_5-32vcpu-128gb" {
+  description = "128GB RAM; 32 CPU; 2.5390625TB SSD - $1448/mo"
+  default     = "g6_5-32vcpu-128gb"
+}
+
+variable "do_size_g6_5-40vcpu-160gb" {
+  description = "160GB RAM; 40 CPU; 3.173828125TB SSD - $1810/mo"
+  default     = "g6_5-40vcpu-160gb"
+}
+
+variable "do_size_g6_5-4vcpu-16gb" {
+  description = "16GB RAM; 4 CPU; 325GB SSD - $181/mo"
+  default     = "g6_5-4vcpu-16gb"
+}
+
+variable "do_size_g6_5-8vcpu-32gb" {
+  description = "32GB RAM; 8 CPU; 650GB SSD - $362/mo"
+  default     = "g6_5-8vcpu-32gb"
 }
 
 variable "do_size_gd-16vcpu-64gb" {

@@ -944,7 +944,7 @@ variable "do_application_photoprism-20-04" {
 }
 
 variable "do_application_phpmyadmin-20-04" {
-  description = "PhpMyAdmin on Ubuntu 22.04"
+  description = "PhpMyAdmin on Ubuntu 24.04"
   default     = "phpmyadmin-20-04"
 }
 
