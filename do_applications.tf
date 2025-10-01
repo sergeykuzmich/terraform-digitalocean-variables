@@ -169,7 +169,7 @@ variable "do_application_azuracast-20-04" {
 }
 
 variable "do_application_babybuddy" {
-  description = "Baby Buddy 2.5.0 on Ubuntu 24.04 (LTS)"
+  description = "Baby Buddy 2.7.1 on Ubuntu 24.04 (LTS)"
   default     = "babybuddy"
 }
 
@@ -304,7 +304,7 @@ variable "do_application_decyphertekio-uptimekuma" {
 }
 
 variable "do_application_depomo-chartbrew" {
-  description = "Chartbrew 4.3.0 on Ubuntu 22.04"
+  description = "Chartbrew 4.4.0 on Ubuntu 22.04"
   default     = "depomo-chartbrew"
 }
 
@@ -504,7 +504,7 @@ variable "do_application_flowforge" {
 }
 
 variable "do_application_flowforge-flowfuse" {
-  description = "FlowFuse 2.21.0 on Ubuntu 22.04"
+  description = "FlowFuse 2.22.0 on Ubuntu 22.04"
   default     = "flowforge-flowfuse"
 }
 
@@ -564,7 +564,7 @@ variable "do_application_hashicorpvault" {
 }
 
 variable "do_application_hollaex-hollaexkit" {
-  description = "HollaEx Kit 2.15.9 on Ubuntu 20.04"
+  description = "HollaEx Kit 2.16.1 on Ubuntu 20.04"
   default     = "hollaex-hollaexkit"
 }
 
@@ -889,7 +889,7 @@ variable "do_application_openpanel" {
 }
 
 variable "do_application_openvpn-18-04" {
-  description = "OpenVPN Access Server 2.11.3 on Ubuntu 22.04"
+  description = "OpenVPN Access Server 2.14.3 on Ubuntu 24.04"
   default     = "openvpn-18-04"
 }
 
@@ -1294,7 +1294,7 @@ variable "do_application_techdomeai-sparrowcommunity" {
 }
 
 variable "do_application_techdomeai-sparrowcommunityedition1" {
-  description = "Sparrow-Community-Edition 1.4.0 on 24.04"
+  description = "Sparrow-Community-Edition 1.4.1 on 24.04"
   default     = "techdomeai-sparrowcommunityedition1"
 }
 
