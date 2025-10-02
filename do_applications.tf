@@ -68,6 +68,11 @@ variable "do_application_amd-sglang046" {
   default     = "amd-sglang046"
 }
 
+variable "do_application_amd-sglangrocm7" {
+  description = "SGLang (ROCm7) 0.4.9 on Ubuntu 24.04"
+  default     = "amd-sglangrocm7"
+}
+
 variable "do_application_amd-torchtune" {
   description = "TorchTune 2.6.0 on Ubuntu 24.04"
   default     = "amd-torchtune"
@@ -76,6 +81,11 @@ variable "do_application_amd-torchtune" {
 variable "do_application_amd-vllm085" {
   description = "vLLM 0.8.5 0.8.5 on Ubuntu 24.04"
   default     = "amd-vllm085"
+}
+
+variable "do_application_amd-vllmrocm7" {
+  description = "vLLM (ROCm7) 0.9.2 on Ubuntu 24.04"
+  default     = "amd-vllmrocm7"
 }
 
 variable "do_application_analythium-shinyproxy-20-04" {
