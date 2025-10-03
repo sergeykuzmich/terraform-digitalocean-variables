@@ -48,6 +48,11 @@ variable "do_application_amd-megatron0100" {
   default     = "amd-megatron0100"
 }
 
+variable "do_application_amd-megatronrocm7" {
+  description = "Megatron (ROCm 7) 0.10.0 + ROCm 7.0 on Ubuntu 24.04"
+  default     = "amd-megatronrocm7"
+}
+
 variable "do_application_amd-openaigptoss" {
   description = "OpenAI GPT OSS 120b on Ubuntu 24.04"
   default     = "amd-openaigptoss"
@@ -56,6 +61,11 @@ variable "do_application_amd-openaigptoss" {
 variable "do_application_amd-pytorch251" {
   description = "PyTorch 2.5.1 2.5.1 on Ubuntu 24.04"
   default     = "amd-pytorch251"
+}
+
+variable "do_application_amd-pytorchrocm7" {
+  description = "PyTorch (ROCm7) 2.6.0 on Ubuntu 24.04"
+  default     = "amd-pytorchrocm7"
 }
 
 variable "do_application_amd-rocm7software" {
@@ -1106,6 +1116,11 @@ variable "do_application_severalnines-clustercontrol-20-04" {
 variable "do_application_sharklabs-anaconda" {
   description = "Anaconda 2025.06-1 on Ubuntu 22.04 (LTS)"
   default     = "sharklabs-anaconda"
+}
+
+variable "do_application_sharklabs-campfire" {
+  description = "Campfire on Ubuntu 24.04"
+  default     = "sharklabs-campfire"
 }
 
 variable "do_application_sharklabs-codeserver1" {
