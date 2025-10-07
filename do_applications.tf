@@ -58,6 +58,11 @@ variable "do_application_amd-openaigptoss" {
   default     = "amd-openaigptoss"
 }
 
+variable "do_application_amd-openaigptossrocm" {
+  description = "OpenAI GPT OSS (ROCm 7) 120b on Ubuntu 24.04"
+  default     = "amd-openaigptossrocm"
+}
+
 variable "do_application_amd-pytorch251" {
   description = "PyTorch 2.5.1 2.5.1 on Ubuntu 24.04"
   default     = "amd-pytorch251"
