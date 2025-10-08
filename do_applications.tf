@@ -454,7 +454,7 @@ variable "do_application_dokku-20-04" {
 }
 
 variable "do_application_doteamaccount-pocketbase" {
-  description = "PocketBase 0.30.0 on Ubuntu 22.04"
+  description = "PocketBase 0.30.1 on Ubuntu 22.04"
   default     = "doteamaccount-pocketbase"
 }
 
@@ -959,7 +959,7 @@ variable "do_application_passboltsa-passboltce-20-04" {
 }
 
 variable "do_application_perforce-perforcehelixcor" {
-  description = "Perforce Helix Core 2024.2 on Rocky 9.5"
+  description = "Perforce Helix Core 2025.1 on Rocky 9.5"
   default     = "perforce-perforcehelixcor"
 }
 
