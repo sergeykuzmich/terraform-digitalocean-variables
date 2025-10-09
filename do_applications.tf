@@ -549,7 +549,7 @@ variable "do_application_gitlab-gitlabenterprise-20-04" {
 }
 
 variable "do_application_goauthentikio-authentik" {
-  description = "authentik 2025.8.1 on Ubuntu 24.04"
+  description = "authentik 2025.8.4 on Ubuntu 24.04"
   default     = "goauthentikio-authentik"
 }
 
@@ -999,12 +999,12 @@ variable "do_application_playboxtechnolog-ottstream" {
 }
 
 variable "do_application_plesk-20-04" {
-  description = "Plesk 18.0.68 on Ubuntu 24.04"
+  description = "Plesk 18.0.73 on Ubuntu 24.04"
   default     = "plesk-20-04"
 }
 
 variable "do_application_plesk-pleskalmalinux" {
-  description = "Plesk (AlmaLinux) 18.0.68 on AlmaLinux 9"
+  description = "Plesk (AlmaLinux) 18.0.73 on AlmaLinux 9"
   default     = "plesk-pleskalmalinux"
 }
 
