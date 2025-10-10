@@ -1224,7 +1224,7 @@ variable "do_application_sharklabs-prometheus2541" {
 }
 
 variable "do_application_sharklabs-valkey" {
-  description = "Valkey 7.2.5 on Ubuntu 22.04"
+  description = "Valkey 8.1.4 on Ubuntu 22.04"
   default     = "sharklabs-valkey"
 }
 
