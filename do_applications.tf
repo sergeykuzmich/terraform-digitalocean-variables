@@ -329,7 +329,7 @@ variable "do_application_decyphertekio-uptimekuma" {
 }
 
 variable "do_application_depomo-chartbrew" {
-  description = "Chartbrew 4.4.0 on Ubuntu 22.04"
+  description = "Chartbrew 4.5.0 on Ubuntu 22.04"
   default     = "depomo-chartbrew"
 }
 
@@ -454,7 +454,7 @@ variable "do_application_dokku-20-04" {
 }
 
 variable "do_application_doteamaccount-pocketbase" {
-  description = "PocketBase 0.30.1 on Ubuntu 22.04"
+  description = "PocketBase 0.30.2 on Ubuntu 22.04"
   default     = "doteamaccount-pocketbase"
 }
 
@@ -599,7 +599,7 @@ variable "do_application_ibsurgeon-hqbirdfirebird" {
 }
 
 variable "do_application_ibsurgeon-hqbirdfirebirdv2" {
-  description = "HQbird Firebird v2.5 2.5.9.27190-11.3.08 on Ubuntu 24.04"
+  description = "HQbird Firebird v2.5 2.5.9.27190-11.3.10 on Ubuntu 24.04"
   default     = "ibsurgeon-hqbirdfirebirdv2"
 }
 
@@ -954,7 +954,7 @@ variable "do_application_ossrs-srs" {
 }
 
 variable "do_application_passboltsa-passboltce-20-04" {
-  description = "Passbolt CE 5.5.0-1 on Debian 12"
+  description = "Passbolt CE 5.6.0-1 on Debian 12"
   default     = "passboltsa-passboltce-20-04"
 }
 
