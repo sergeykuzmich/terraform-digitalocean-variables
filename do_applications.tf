@@ -209,7 +209,7 @@ variable "do_application_bigcloud-odoo" {
 }
 
 variable "do_application_bitwarden" {
-  description = "Bitwarden 2025.9.2 on Ubuntu 24.04"
+  description = "Bitwarden 2025.10.0 on Ubuntu 24.04"
   default     = "bitwarden"
 }
 
@@ -454,7 +454,7 @@ variable "do_application_dokku-20-04" {
 }
 
 variable "do_application_doteamaccount-pocketbase" {
-  description = "PocketBase 0.30.2 on Ubuntu 22.04"
+  description = "PocketBase 0.30.3 on Ubuntu 22.04"
   default     = "doteamaccount-pocketbase"
 }
 
@@ -879,7 +879,7 @@ variable "do_application_nginx" {
 }
 
 variable "do_application_nirvatosoftware-nirvashare-20-04" {
-  description = "NirvaShare 6.2.1 on Ubuntu 24.04 (LTS)"
+  description = "NirvaShare 6.4.0 on Ubuntu 24.04 (LTS)"
   default     = "nirvatosoftware-nirvashare-20-04"
 }
 
