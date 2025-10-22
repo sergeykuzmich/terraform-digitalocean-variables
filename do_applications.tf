@@ -224,7 +224,7 @@ variable "do_application_border0" {
 }
 
 variable "do_application_botguardo-botguardgatekeep" {
-  description = "BotGuard GateKeeper 1.4.3 on Debian 12 (bookworm)"
+  description = "BotGuard GateKeeper 1.5.3-4 on Debian 12 (bookworm)"
   default     = "botguardo-botguardgatekeep"
 }
 
@@ -454,7 +454,7 @@ variable "do_application_dokku-20-04" {
 }
 
 variable "do_application_doteamaccount-pocketbase" {
-  description = "PocketBase 0.30.3 on Ubuntu 22.04"
+  description = "PocketBase 0.30.4 on Ubuntu 22.04"
   default     = "doteamaccount-pocketbase"
 }
 
@@ -589,7 +589,7 @@ variable "do_application_hashicorpvault" {
 }
 
 variable "do_application_hollaex-hollaexkit" {
-  description = "HollaEx Kit 2.16.1 on Ubuntu 20.04"
+  description = "HollaEx Kit 2.16.2 on Ubuntu 20.04"
   default     = "hollaex-hollaexkit"
 }
 
@@ -599,22 +599,22 @@ variable "do_application_ibsurgeon-hqbirdfirebird" {
 }
 
 variable "do_application_ibsurgeon-hqbirdfirebirdv2" {
-  description = "HQbird Firebird v2.5 2.5.9.27190-11.3.10 on Ubuntu 24.04"
+  description = "HQbird Firebird v2.5 2.5.9.27190-11.3.101 on Ubuntu 24.04"
   default     = "ibsurgeon-hqbirdfirebirdv2"
 }
 
 variable "do_application_ibsurgeon-hqbirdfirebirdv3" {
-  description = "HQbird Firebird v3.0 3.0.12.33818-11.3.08 on Ubuntu 24.04"
+  description = "HQbird Firebird v3.0 3.0.14.33827-11.3.10 on Ubuntu 24.04"
   default     = "ibsurgeon-hqbirdfirebirdv3"
 }
 
 variable "do_application_ibsurgeon-hqbirdfirebirdv4" {
-  description = "HQbird Firebird v4.0 4.0.5.3222-11.3.0811 on Ubuntu 24.04"
+  description = "HQbird Firebird v4.0 4.0.6.3223-11.3.1017 on Ubuntu 24.04"
   default     = "ibsurgeon-hqbirdfirebirdv4"
 }
 
 variable "do_application_ibsurgeon-hqbirdfirebirdv5" {
-  description = "HQbird Firebird v5.0 5.0.1.183-11.3.0811 on Ubuntu 24.04"
+  description = "HQbird Firebird v5.0 5.0.4.1722-11.3.1017 on Ubuntu 24.04"
   default     = "ibsurgeon-hqbirdfirebirdv5"
 }
 
