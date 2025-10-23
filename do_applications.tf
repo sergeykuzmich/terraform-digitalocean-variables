@@ -4,7 +4,7 @@
 
 
 variable "do_application_3cxcommunication-3cx" {
-  description = "3CX 20.0.7.1057 on Debian 12 (Bookworm)"
+  description = "3CX 20.0.7.1060 on Debian 12 (Bookworm)"
   default     = "3cxcommunication-3cx"
 }
 
@@ -339,7 +339,7 @@ variable "do_application_deskpro" {
 }
 
 variable "do_application_devdojo-laravel-20-04" {
-  description = "Laravel 11.26.0 on Ubuntu 22.04"
+  description = "Laravel 12.35.0 on Ubuntu 24.04"
   default     = "devdojo-laravel-20-04"
 }
 
