@@ -293,6 +293,11 @@ variable "do_application_convoy" {
   default     = "convoy"
 }
 
+variable "do_application_coreflux-corefluxmqttbrok" {
+  description = "Coreflux MQTT Broker 1.6.4 on Ubuntu 22.04"
+  default     = "coreflux-corefluxmqttbrok"
+}
+
 variable "do_application_cpanel-cpanelwhmforalma" {
   description = "cPanel & WHM® for AlmaLinux 9 RELEASE on AlmaLinux 9"
   default     = "cpanel-cpanelwhmforalma"
@@ -339,7 +344,7 @@ variable "do_application_deskpro" {
 }
 
 variable "do_application_devdojo-laravel-20-04" {
-  description = "Laravel 12.35.0 on Ubuntu 24.04"
+  description = "Laravel 12.35.1 on Ubuntu 24.04"
   default     = "devdojo-laravel-20-04"
 }
 
@@ -449,12 +454,12 @@ variable "do_application_docker-20-04" {
 }
 
 variable "do_application_dokku-20-04" {
-  description = "Dokku 0.35.16 on Ubuntu 22.04"
+  description = "Dokku 0.36.9 on Ubuntu 24.04"
   default     = "dokku-20-04"
 }
 
 variable "do_application_doteamaccount-pocketbase" {
-  description = "PocketBase 0.30.4 on Ubuntu 22.04"
+  description = "PocketBase 0.31.0 on Ubuntu 22.04"
   default     = "doteamaccount-pocketbase"
 }
 
@@ -529,8 +534,13 @@ variable "do_application_flowforge" {
 }
 
 variable "do_application_flowforge-flowfuse" {
-  description = "FlowFuse 2.22.0 on Ubuntu 22.04"
+  description = "FlowFuse 2.23.0 on Ubuntu 22.04"
   default     = "flowforge-flowfuse"
+}
+
+variable "do_application_fossorial-pangolince1" {
+  description = "Pangolin (CE) on Ubuntu 24.04"
+  default     = "fossorial-pangolince1"
 }
 
 variable "do_application_futo-immich" {
@@ -624,7 +634,7 @@ variable "do_application_ikigaisystems-fundamento" {
 }
 
 variable "do_application_in4it-vpnserver" {
-  description = "VPN Server 1.1.4 on Ubuntu 24.04"
+  description = "VPN Server 1.1.12 on Ubuntu 24.04"
   default     = "in4it-vpnserver"
 }
 
@@ -664,7 +674,7 @@ variable "do_application_jitsiserver-20-04" {
 }
 
 variable "do_application_kandralabs-zulip-18-04" {
-  description = "Zulip 11.2 on Ubuntu 22.04"
+  description = "Zulip 11.4 on Ubuntu 22.04"
   default     = "kandralabs-zulip-18-04"
 }
 
@@ -1074,7 +1084,7 @@ variable "do_application_runcloud-runcloud2004-20-04" {
 }
 
 variable "do_application_saltcorn-20-04" {
-  description = "Saltcorn 1.2.0 on Debian 12"
+  description = "Saltcorn 1.4.0 on Debian 12"
   default     = "saltcorn-20-04"
 }
 
@@ -1334,7 +1344,7 @@ variable "do_application_temporal" {
 }
 
 variable "do_application_thegrampsproject-grampsweb" {
-  description = "Gramps Web 0.22.2+ on Ubuntu 20.04"
+  description = "Gramps Web 2.0 on Ubuntu 22.04"
   default     = "thegrampsproject-grampsweb"
 }
 
