@@ -994,7 +994,7 @@ variable "do_application_planesoftware-plane" {
 }
 
 variable "do_application_planesoftware-planecommunityed" {
-  description = "Plane (Community Edition) 1.0.0 on Ubuntu 24.04"
+  description = "Plane (Community Edition) 1.1.0 on Ubuntu 24.04"
   default     = "planesoftware-planecommunityed"
 }
 
