@@ -149,7 +149,7 @@ variable "do_application_ascensiosystemsi-onlyofficedocspa" {
 }
 
 variable "do_application_ascensiosystemsi-onlyofficeeditor-18-04-4" {
-  description = "ONLYOFFICE Docs 9.0.3 on Ubuntu 24.04 LTS"
+  description = "ONLYOFFICE Docs 9.1.0 on Ubuntu 24.04 LTS"
   default     = "ascensiosystemsi-onlyofficeeditor-18-04-4"
 }
 
@@ -209,7 +209,7 @@ variable "do_application_bigcloud-odoo" {
 }
 
 variable "do_application_bitwarden" {
-  description = "Bitwarden 2025.10.0 on Ubuntu 24.04"
+  description = "Bitwarden 2025.10.1 on Ubuntu 24.04"
   default     = "bitwarden"
 }
 
@@ -844,7 +844,7 @@ variable "do_application_monetdbsolutions-monetdb" {
 }
 
 variable "do_application_mongodb-18-04" {
-  description = "MongoDB 7.0.0 on Ubuntu 22.04"
+  description = "MongoDB 7.0.0 on Ubuntu 24.04"
   default     = "mongodb-18-04"
 }
 
