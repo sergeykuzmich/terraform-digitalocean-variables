@@ -313,9 +313,19 @@ variable "do_application_cpanel-wpsquared" {
   default     = "cpanel-wpsquared"
 }
 
+variable "do_application_crivion-laranodepanel" {
+  description = "Laranode Panel 1 on Ubuntu 24.04"
+  default     = "crivion-laranodepanel"
+}
+
 variable "do_application_csmm-20-04" {
   description = "CSMM 1.20.2 on Ubuntu 20.04"
   default     = "csmm-20-04"
+}
+
+variable "do_application_cyborgtest-yborgtestserver" {
+  description = "сyborgtest-server 5.7.2 on 22.04"
+  default     = "cyborgtest-yborgtestserver"
 }
 
 variable "do_application_decyphertekio-jenkinscicd" {
@@ -989,7 +999,7 @@ variable "do_application_pirichaintechnol-pirisubchainsnod" {
 }
 
 variable "do_application_planesoftware-plane" {
-  description = "Plane 1.14.1 on Ubuntu 22.04 LTS"
+  description = "Plane 1.16.0 on Ubuntu 22.04 LTS"
   default     = "planesoftware-plane"
 }
 
@@ -1144,7 +1154,7 @@ variable "do_application_sharklabs-codeserver1" {
 }
 
 variable "do_application_sharklabs-conduktorconsole" {
-  description = "Conduktor Console 1.24.0 on Ubuntu 24.04"
+  description = "Conduktor Console on Ubuntu 24.04"
   default     = "sharklabs-conduktorconsole"
 }
 
