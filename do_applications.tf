@@ -344,7 +344,7 @@ variable "do_application_decyphertekio-uptimekuma" {
 }
 
 variable "do_application_depomo-chartbrew" {
-  description = "Chartbrew 4.5.0 on Ubuntu 22.04"
+  description = "Chartbrew 4.6.0 on Ubuntu 22.04"
   default     = "depomo-chartbrew"
 }
 
