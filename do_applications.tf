@@ -209,7 +209,7 @@ variable "do_application_bigcloud-odoo" {
 }
 
 variable "do_application_bitwarden" {
-  description = "Bitwarden 2025.10.1 on Ubuntu 24.04"
+  description = "Bitwarden 2025.11.0 on Ubuntu 24.04"
   default     = "bitwarden"
 }
 
@@ -469,7 +469,7 @@ variable "do_application_dokku-20-04" {
 }
 
 variable "do_application_doteamaccount-pocketbase" {
-  description = "PocketBase 0.32.0 on Ubuntu 22.04"
+  description = "PocketBase 0.33.0 on Ubuntu 22.04"
   default     = "doteamaccount-pocketbase"
 }
 
@@ -981,6 +981,11 @@ variable "do_application_passboltsa-passboltce-20-04" {
 variable "do_application_perforce-perforcehelixcor" {
   description = "Perforce Helix Core 2025.1 on Rocky 9.5"
   default     = "perforce-perforcehelixcor"
+}
+
+variable "do_application_pgsync" {
+  description = "PGSync 6.0.0 on Ubuntu 22.04 LTS"
+  default     = "pgsync"
 }
 
 variable "do_application_photoprism-20-04" {
