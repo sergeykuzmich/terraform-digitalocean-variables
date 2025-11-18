@@ -844,7 +844,7 @@ variable "do_application_minecraftforgeed" {
 }
 
 variable "do_application_mjmair-inventree" {
-  description = "InvenTree 0.16.8 on Ubuntu 20.04"
+  description = "InvenTree 1.1.1 on Ubuntu 24.04"
   default     = "mjmair-inventree"
 }
 
