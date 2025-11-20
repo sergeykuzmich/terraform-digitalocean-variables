@@ -73,6 +73,11 @@ variable "do_application_amd-pytorchrocm7" {
   default     = "amd-pytorchrocm7"
 }
 
+variable "do_application_amd-rocm71software" {
+  description = "ROCm™ 7.1 Software 7.1 on Ubuntu 24.04"
+  default     = "amd-rocm71software"
+}
+
 variable "do_application_amd-rocm7software" {
   description = "ROCm™ 7 Software on Ubuntu 24.04"
   default     = "amd-rocm7software"
@@ -231,6 +236,11 @@ variable "do_application_botguardo-botguardgatekeep" {
 variable "do_application_botguardo-botguardingressc" {
   description = "BotGuard Ingress Controller 1.0 on Debian 11 (bullseye)"
   default     = "botguardo-botguardingressc"
+}
+
+variable "do_application_cagent" {
+  description = "cagent 1.9.10 on Ubuntu 24.04"
+  default     = "cagent"
 }
 
 variable "do_application_caligrafybypostc-caligrafy" {
