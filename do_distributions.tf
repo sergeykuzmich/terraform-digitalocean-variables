@@ -38,11 +38,6 @@ variable "do_distibution_debian-13-x64" {
   default     = "debian-13-x64"
 }
 
-variable "do_distibution_fedora-41-x64" {
-  description = "Fedora 41 x64"
-  default     = "fedora-41-x64"
-}
-
 variable "do_distibution_fedora-42-x64" {
   description = "Fedora 42 x64"
   default     = "fedora-42-x64"
