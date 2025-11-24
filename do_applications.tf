@@ -474,12 +474,12 @@ variable "do_application_docker-20-04" {
 }
 
 variable "do_application_dokku-20-04" {
-  description = "Dokku 0.36.9 on Ubuntu 24.04"
+  description = "Dokku 0.37.0 on Ubuntu 24.04"
   default     = "dokku-20-04"
 }
 
 variable "do_application_doteamaccount-pocketbase" {
-  description = "PocketBase 0.33.0 on Ubuntu 22.04"
+  description = "PocketBase 0.34.0 on Ubuntu 22.04"
   default     = "doteamaccount-pocketbase"
 }
 
@@ -579,7 +579,7 @@ variable "do_application_gitlab-gitlabenterprise-20-04" {
 }
 
 variable "do_application_goauthentikio-authentik" {
-  description = "authentik 2025.8.4 on Ubuntu 24.04"
+  description = "authentik 2025.10.2 on Ubuntu 24.04"
   default     = "goauthentikio-authentik"
 }
 
@@ -699,7 +699,7 @@ variable "do_application_kandralabs-zulip-18-04" {
 }
 
 variable "do_application_kasmtechnologies-kasmworkspaces-18-04" {
-  description = "Kasm Workspaces 1.17.0.bbc15c on Ubuntu 24.04"
+  description = "Kasm Workspaces 1.18.1 on Ubuntu 24.04"
   default     = "kasmtechnologies-kasmworkspaces-18-04"
 }
 
