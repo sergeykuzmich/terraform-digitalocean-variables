@@ -1404,7 +1404,7 @@ variable "do_application_victoriametrics-victorialogssing" {
 }
 
 variable "do_application_victoriametrics-victoriametricss" {
-  description = "VictoriaMetrics Single 1.125.1 on Ubuntu 22.04"
+  description = "VictoriaMetrics Single 1.129.1 on Ubuntu 24.04"
   default     = "victoriametrics-victoriametricss"
 }
 
