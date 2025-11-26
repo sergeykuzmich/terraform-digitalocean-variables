@@ -303,6 +303,11 @@ variable "do_application_convoy" {
   default     = "convoy"
 }
 
+variable "do_application_coolify" {
+  description = "Coolify 4.0-beta on Ubuntu 24.04"
+  default     = "coolify"
+}
+
 variable "do_application_coreflux-corefluxmqttbrok" {
   description = "Coreflux MQTT Broker 1.6.4 on Ubuntu 22.04"
   default     = "coreflux-corefluxmqttbrok"
