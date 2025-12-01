@@ -304,7 +304,7 @@ variable "do_application_convoy" {
 }
 
 variable "do_application_coolify" {
-  description = "Coolify 4.0-beta on Ubuntu 24.04"
+  description = "Coolify 4.0.0-beta.450 on Ubuntu 24.04"
   default     = "coolify"
 }
 
@@ -779,27 +779,27 @@ variable "do_application_litespeedtechnol-openlitespeedcla-18-04" {
 }
 
 variable "do_application_litespeedtechnol-openlitespeeddja-20-04" {
-  description = "OpenLiteSpeed Django 5.2 on Ubuntu 24.04"
+  description = "OpenLiteSpeed Django 5.2.9 on Ubuntu 24.04"
   default     = "litespeedtechnol-openlitespeeddja-20-04"
 }
 
 variable "do_application_litespeedtechnol-openlitespeeddru" {
-  description = "OpenLiteSpeed Drupal 11.2.2 on Ubuntu 24.04"
+  description = "OpenLiteSpeed Drupal 11.2.8 on Ubuntu 24.04"
   default     = "litespeedtechnol-openlitespeeddru"
 }
 
 variable "do_application_litespeedtechnol-openlitespeedjoo-20-04" {
-  description = "OpenLiteSpeed Joomla 5.3.1 on Ubuntu 24.04"
+  description = "OpenLiteSpeed Joomla 5.3.4 on Ubuntu 24.04"
   default     = "litespeedtechnol-openlitespeedjoo-20-04"
 }
 
 variable "do_application_litespeedtechnol-openlitespeednod-20-04" {
-  description = "OpenLiteSpeed NodeJS 22.17.0 on Ubuntu 24.04"
+  description = "OpenLiteSpeed NodeJS 24.11.1 on Ubuntu 24.04"
   default     = "litespeedtechnol-openlitespeednod-20-04"
 }
 
 variable "do_application_litespeedtechnol-openlitespeedrai-20-04" {
-  description = "OpenLiteSpeed Rails 8.0.2 on Ubuntu 24.04"
+  description = "OpenLiteSpeed Rails 8.1.1 on Ubuntu 24.04"
   default     = "litespeedtechnol-openlitespeedrai-20-04"
 }
 
