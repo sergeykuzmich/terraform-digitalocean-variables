@@ -484,7 +484,7 @@ variable "do_application_dokku-20-04" {
 }
 
 variable "do_application_doteamaccount-pocketbase" {
-  description = "PocketBase 0.34.0 on Ubuntu 22.04"
+  description = "PocketBase 0.34.1 on Ubuntu 22.04"
   default     = "doteamaccount-pocketbase"
 }
 
@@ -1144,7 +1144,7 @@ variable "do_application_seatablegmbh-seatable" {
 }
 
 variable "do_application_securityroots-dradis" {
-  description = "dradis 4.18.0 on Debian 12"
+  description = "dradis 4.19.0 on Debian 12"
   default     = "securityroots-dradis"
 }
 
@@ -1154,7 +1154,7 @@ variable "do_application_semaphore" {
 }
 
 variable "do_application_severalnines-clustercontrol-20-04" {
-  description = "ClusterControl 2.3.3 on Ubuntu 20.04"
+  description = "ClusterControl 2.3.4 on Ubuntu 24.04"
   default     = "severalnines-clustercontrol-20-04"
 }
 
@@ -1364,7 +1364,7 @@ variable "do_application_techdomeai-sparrowcommunity" {
 }
 
 variable "do_application_techdomeai-sparrowcommunityedition1" {
-  description = "Sparrow-Community-Edition 1.4.2 on 24.04"
+  description = "Sparrow-Community-Edition 1.4.3 on 24.04"
   default     = "techdomeai-sparrowcommunityedition1"
 }
 
