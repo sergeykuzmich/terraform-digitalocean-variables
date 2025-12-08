@@ -479,12 +479,12 @@ variable "do_application_docker-20-04" {
 }
 
 variable "do_application_dokku-20-04" {
-  description = "Dokku 0.37.0 on Ubuntu 24.04"
+  description = "Dokku 0.37.1 on Ubuntu 24.04"
   default     = "dokku-20-04"
 }
 
 variable "do_application_doteamaccount-pocketbase" {
-  description = "PocketBase 0.34.1 on Ubuntu 22.04"
+  description = "PocketBase 0.34.2 on Ubuntu 22.04"
   default     = "doteamaccount-pocketbase"
 }
 
@@ -844,7 +844,7 @@ variable "do_application_mern" {
 }
 
 variable "do_application_mgtcommercegmbh-cloudpanel2ubunt" {
-  description = "CloudPanel 2 - Ubuntu 24.04 2.5.2 on Ubuntu 24.04"
+  description = "CloudPanel 2 - Ubuntu 24.04 2.5.3 on Ubuntu 24.04"
   default     = "mgtcommercegmbh-cloudpanel2ubunt"
 }
 
@@ -999,7 +999,7 @@ variable "do_application_perforce-perforcehelixcor" {
 }
 
 variable "do_application_pgsync" {
-  description = "PGSync 6.0.0 on Ubuntu 22.04 LTS"
+  description = "PGSync 7.0.0 on Ubuntu 22.04 LTS"
   default     = "pgsync"
 }
 
