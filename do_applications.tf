@@ -284,7 +284,7 @@ variable "do_application_clickhouse" {
 }
 
 variable "do_application_cloudron-20-04" {
-  description = "Cloudron 8.3.1 on Ubuntu 24.04"
+  description = "Cloudron 9.0.14 on Ubuntu 24.04"
   default     = "cloudron-20-04"
 }
 
@@ -304,7 +304,7 @@ variable "do_application_convoy" {
 }
 
 variable "do_application_coolify" {
-  description = "Coolify 4.0.0-beta.450 on Ubuntu 24.04"
+  description = "Coolify 4.0.0-beta.452 on Ubuntu 24.04"
   default     = "coolify"
 }
 
