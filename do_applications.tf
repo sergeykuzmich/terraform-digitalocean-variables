@@ -114,12 +114,12 @@ variable "do_application_analythium-shinyproxy-20-04" {
 }
 
 variable "do_application_antmedia-antmediaserverco-18-04" {
-  description = "Ant Media Server Community Edition 2.15.0 on Ubuntu 22.04"
+  description = "Ant Media Server Community Edition 2.16.2 on Ubuntu 24.04"
   default     = "antmedia-antmediaserverco-18-04"
 }
 
 variable "do_application_antmedia-antmediaserveren-18-04" {
-  description = "Ant Media Server Enterprise Edition 2.15.0 on Ubuntu 24.04"
+  description = "Ant Media Server Enterprise Edition 2.16.2 on Ubuntu 24.04"
   default     = "antmedia-antmediaserveren-18-04"
 }
 
@@ -154,7 +154,7 @@ variable "do_application_ascensiosystemsi-onlyofficedocspa" {
 }
 
 variable "do_application_ascensiosystemsi-onlyofficeeditor-18-04-4" {
-  description = "ONLYOFFICE Docs 9.1.0 on Ubuntu 24.04 LTS"
+  description = "ONLYOFFICE Docs 9.2.0 on Ubuntu 24.04 LTS"
   default     = "ascensiosystemsi-onlyofficeeditor-18-04-4"
 }
 
@@ -284,7 +284,7 @@ variable "do_application_clickhouse" {
 }
 
 variable "do_application_cloudron-20-04" {
-  description = "Cloudron 9.0.14 on Ubuntu 24.04"
+  description = "Cloudron 9.0.15 on Ubuntu 24.04"
   default     = "cloudron-20-04"
 }
 
@@ -479,7 +479,7 @@ variable "do_application_docker-20-04" {
 }
 
 variable "do_application_dokku-20-04" {
-  description = "Dokku 0.37.1 on Ubuntu 24.04"
+  description = "Dokku 0.37.2 on Ubuntu 24.04"
   default     = "dokku-20-04"
 }
 
@@ -534,7 +534,7 @@ variable "do_application_farm" {
 }
 
 variable "do_application_fastpanel-deb-9" {
-  description = "FASTPANEL 1.11-ubuntu20.04p1 on Ubuntu 20.04"
+  description = "FASTPANEL 1.11-ubuntu20.04p54 on Ubuntu 24.04"
   default     = "fastpanel-deb-9"
 }
 
@@ -576,6 +576,11 @@ variable "do_application_futo-immich" {
 variable "do_application_ghost-20-04" {
   description = "Ghost on Ubuntu 24.04"
   default     = "ghost-20-04"
+}
+
+variable "do_application_gibsonai-memori" {
+  description = "Memori 1.0 on Ubuntu 24.04 (LTS)"
+  default     = "gibsonai-memori"
 }
 
 variable "do_application_gitlab-gitlabenterprise-20-04" {
@@ -1089,7 +1094,7 @@ variable "do_application_rackware-rackwarecloudmig" {
 }
 
 variable "do_application_ringq" {
-  description = "RingQ 8.7.66 on Debian 11 x64"
+  description = "RingQ 8.7.64 on Debian 12 x64"
   default     = "ringq"
 }
 
@@ -1159,7 +1164,7 @@ variable "do_application_severalnines-clustercontrol-20-04" {
 }
 
 variable "do_application_sharklabs-anaconda" {
-  description = "Anaconda 2025.06-1 on Ubuntu 22.04 (LTS)"
+  description = "Anaconda 2025.12-1 on Ubuntu 22.04 (LTS)"
   default     = "sharklabs-anaconda"
 }
 
@@ -1364,7 +1369,7 @@ variable "do_application_techdomeai-sparrowcommunity" {
 }
 
 variable "do_application_techdomeai-sparrowcommunityedition1" {
-  description = "Sparrow-Community-Edition 1.4.3 on 24.04"
+  description = "Sparrow-Community-Edition 1.4.4 on 24.04"
   default     = "techdomeai-sparrowcommunityedition1"
 }
 
@@ -1396,6 +1401,11 @@ variable "do_application_uibakery" {
 variable "do_application_utnadmins-utunnelvpn" {
   description = "UTunnel VPN 10114 on Ubuntu 24.04"
   default     = "utnadmins-utunnelvpn"
+}
+
+variable "do_application_vagrant" {
+  description = "Vagrant 2.4.9 on Ubuntu 24.04"
+  default     = "vagrant"
 }
 
 variable "do_application_varnishsoftware-varnishcache-18-04" {
