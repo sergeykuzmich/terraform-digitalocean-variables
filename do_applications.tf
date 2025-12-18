@@ -1268,6 +1268,11 @@ variable "do_application_sharklabs-prometheus2541" {
   default     = "sharklabs-prometheus2541"
 }
 
+variable "do_application_sharklabs-strapi1click" {
+  description = "Strapi 1-click 5.0.0 on Ubuntu 24.04"
+  default     = "sharklabs-strapi1click"
+}
+
 variable "do_application_sharklabs-valkey" {
   description = "Valkey 8.1.4 on Ubuntu 22.04"
   default     = "sharklabs-valkey"
