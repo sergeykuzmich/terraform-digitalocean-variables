@@ -1109,7 +1109,7 @@ variable "do_application_rstudio-20-04" {
 }
 
 variable "do_application_rubyonrails-20-04" {
-  description = "Ruby on Rails 7.0.4.2 on Ubuntu 22.04"
+  description = "Ruby on Rails 8.1.1 on Ubuntu 24.04"
   default     = "rubyonrails-20-04"
 }
 
