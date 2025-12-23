@@ -874,7 +874,7 @@ variable "do_application_monetdbsolutions-monetdb" {
 }
 
 variable "do_application_mongodb-18-04" {
-  description = "MongoDB 7.0.0 on Ubuntu 24.04"
+  description = "MongoDB 8.0.17 on Ubuntu 24.04"
   default     = "mongodb-18-04"
 }
 
