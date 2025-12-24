@@ -304,7 +304,7 @@ variable "do_application_convoy" {
 }
 
 variable "do_application_coolify" {
-  description = "Coolify 4.0.0-beta.452 on Ubuntu 24.04"
+  description = "Coolify 4.0.0-beta.458 on Ubuntu 24.04"
   default     = "coolify"
 }
 
