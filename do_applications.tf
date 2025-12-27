@@ -124,7 +124,7 @@ variable "do_application_antmedia-antmediaserveren-18-04" {
 }
 
 variable "do_application_apliteni-keitaro" {
-  description = "Keitaro 11.0.11 on CentOS 9 Stream"
+  description = "Keitaro 11.0.19 on CentOS 9 Stream"
   default     = "apliteni-keitaro"
 }
 
@@ -484,7 +484,7 @@ variable "do_application_dokku-20-04" {
 }
 
 variable "do_application_doteamaccount-pocketbase" {
-  description = "PocketBase 0.34.2 on Ubuntu 22.04"
+  description = "PocketBase 0.35.0 on Ubuntu 22.04"
   default     = "doteamaccount-pocketbase"
 }
 
@@ -559,7 +559,7 @@ variable "do_application_flowforge" {
 }
 
 variable "do_application_flowforge-flowfuse" {
-  description = "FlowFuse 2.24.0 on Ubuntu 22.04"
+  description = "FlowFuse 2.25.0 on Ubuntu 22.04"
   default     = "flowforge-flowfuse"
 }
 
@@ -1179,7 +1179,7 @@ variable "do_application_sharklabs-codeserver1" {
 }
 
 variable "do_application_sharklabs-conduktorconsole" {
-  description = "Conduktor Console on Ubuntu 24.04"
+  description = "Conduktor Console 1.41.0 on Ubuntu 24.04"
   default     = "sharklabs-conduktorconsole"
 }
 
