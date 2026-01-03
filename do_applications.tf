@@ -1379,7 +1379,7 @@ variable "do_application_techdomeai-sparrowcommunityedition1" {
 }
 
 variable "do_application_temporal" {
-  description = "Temporal 1.22.4 on Ubuntu 22.04"
+  description = "Temporal 1.29.1 on Ubuntu 24.04"
   default     = "temporal"
 }
 
