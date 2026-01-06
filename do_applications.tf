@@ -1464,7 +1464,7 @@ variable "do_application_wordpress-20-04" {
 }
 
 variable "do_application_wordsmythcreatio-aresmush" {
-  description = "AresMUSH 1.5.2 on Ubuntu 22.04"
+  description = "AresMUSH 2.9.0 on Ubuntu 24.04"
   default     = "wordsmythcreatio-aresmush"
 }
 
