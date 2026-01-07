@@ -214,7 +214,7 @@ variable "do_application_bigcloud-odoo" {
 }
 
 variable "do_application_bitwarden" {
-  description = "Bitwarden 2025.12.0 on Ubuntu 24.04"
+  description = "Bitwarden 2025.12.1 on Ubuntu 24.04"
   default     = "bitwarden"
 }
 
@@ -279,7 +279,7 @@ variable "do_application_chevereto-xrdebug" {
 }
 
 variable "do_application_clickhouse" {
-  description = "ClickHouse 23.10.4.25 on Ubuntu 22.04"
+  description = "ClickHouse 23.10.4.25 on Ubuntu 24.04"
   default     = "clickhouse"
 }
 
@@ -304,7 +304,7 @@ variable "do_application_convoy" {
 }
 
 variable "do_application_coolify" {
-  description = "Coolify 4.0.0-beta.458 on Ubuntu 24.04"
+  description = "Coolify 4.0.0-beta.460 on Ubuntu 24.04"
   default     = "coolify"
 }
 
@@ -479,7 +479,7 @@ variable "do_application_docker-20-04" {
 }
 
 variable "do_application_dokku-20-04" {
-  description = "Dokku 0.37.2 on Ubuntu 24.04"
+  description = "Dokku 0.37.3 on Ubuntu 24.04"
   default     = "dokku-20-04"
 }
 
@@ -549,7 +549,7 @@ variable "do_application_flask" {
 }
 
 variable "do_application_flexifyio-flexifyiomulticl-20-04" {
-  description = "Flexify.IO Multi-cloud / Migration 2.21.0 on Ubuntu 24.04.2 LTS"
+  description = "Flexify.IO Multi-cloud / Migration 2.22.0 on Ubuntu 24.04 LTS"
   default     = "flexifyio-flexifyiomulticl-20-04"
 }
 
