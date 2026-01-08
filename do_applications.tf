@@ -359,7 +359,7 @@ variable "do_application_decyphertekio-uptimekuma" {
 }
 
 variable "do_application_depomo-chartbrew" {
-  description = "Chartbrew 4.6.0 on Ubuntu 22.04"
+  description = "Chartbrew 4.7.0 on Ubuntu 22.04"
   default     = "depomo-chartbrew"
 }
 
@@ -844,7 +844,7 @@ variable "do_application_meilisas-meilisearch-10" {
 }
 
 variable "do_application_mern" {
-  description = "MERN 1.0 on Ubuntu 22.04"
+  description = "MERN on Ubuntu 22.04"
   default     = "mern"
 }
 
