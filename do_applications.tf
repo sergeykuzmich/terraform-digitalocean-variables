@@ -109,7 +109,7 @@ variable "do_application_amd-vllmrocm7" {
 }
 
 variable "do_application_analythium-shinyproxy-20-04" {
-  description = "ShinyProxy 3.2.0 on Ubuntu 24.04"
+  description = "ShinyProxy 3.2.2 on Ubuntu 24.04"
   default     = "analythium-shinyproxy-20-04"
 }
 
@@ -214,7 +214,7 @@ variable "do_application_bigcloud-odoo" {
 }
 
 variable "do_application_bitwarden" {
-  description = "Bitwarden 2025.12.1 on Ubuntu 24.04"
+  description = "Bitwarden 2025.12.2 on Ubuntu 24.04"
   default     = "bitwarden"
 }
 
@@ -469,7 +469,7 @@ variable "do_application_discourse-20-04" {
 }
 
 variable "do_application_django-20-04" {
-  description = "Django 5.0 on Ubuntu 22.04"
+  description = "Django 6.0.1 on Ubuntu 22.04"
   default     = "django-20-04"
 }
 
@@ -484,7 +484,7 @@ variable "do_application_dokku-20-04" {
 }
 
 variable "do_application_doteamaccount-pocketbase" {
-  description = "PocketBase 0.35.0 on Ubuntu 22.04"
+  description = "PocketBase 0.35.1 on Ubuntu 22.04"
   default     = "doteamaccount-pocketbase"
 }
 
@@ -809,7 +809,7 @@ variable "do_application_litespeedtechnol-openlitespeedrai-20-04" {
 }
 
 variable "do_application_litespeedtechnol-openlitespeedwor-20-04" {
-  description = "OpenLiteSpeed WordPress 6.8.2 on Ubuntu 24.04"
+  description = "OpenLiteSpeed WordPress 6.9 on Ubuntu 24.04"
   default     = "litespeedtechnol-openlitespeedwor-20-04"
 }
 
@@ -909,7 +909,7 @@ variable "do_application_neuralmagic-deepsparseinfere" {
 }
 
 variable "do_application_nextcloudgmbh-nextcloud" {
-  description = "Nextcloud 4.5.0 on Ubuntu 22.04 (LTS)"
+  description = "Nextcloud 5.0.0 on Ubuntu 24.04 (LTS)"
   default     = "nextcloudgmbh-nextcloud"
 }
 
@@ -1238,6 +1238,11 @@ variable "do_application_sharklabs-openmptcprouter" {
   default     = "sharklabs-openmptcprouter"
 }
 
+variable "do_application_sharklabs-opensearch" {
+  description = "OpenSearch 3.4.0 on Ubuntu 24.04"
+  default     = "sharklabs-opensearch"
+}
+
 variable "do_application_sharklabs-openwebui" {
   description = "Open WebUI on Ubuntu 22.04"
   default     = "sharklabs-openwebui"
@@ -1419,12 +1424,12 @@ variable "do_application_varnishsoftware-varnishcache-18-04" {
 }
 
 variable "do_application_victoriametrics-victorialogssing" {
-  description = "VictoriaLogs Single 1.33.1 on 24.04"
+  description = "VictoriaLogs Single 1.43.1 on 24.04"
   default     = "victoriametrics-victorialogssing"
 }
 
 variable "do_application_victoriametrics-victoriametricss" {
-  description = "VictoriaMetrics Single 1.129.1 on Ubuntu 24.04"
+  description = "VictoriaMetrics Single 1.133.0 on Ubuntu 24.04"
   default     = "victoriametrics-victoriametricss"
 }
 
