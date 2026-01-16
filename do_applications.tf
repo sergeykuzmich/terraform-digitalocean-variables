@@ -1379,7 +1379,7 @@ variable "do_application_techdomeai-sparrowcommunity" {
 }
 
 variable "do_application_techdomeai-sparrowcommunityedition1" {
-  description = "Sparrow-Community-Edition 1.4.4 on 24.04"
+  description = "Sparrow-Community-Edition 1.4.5 on 24.04"
   default     = "techdomeai-sparrowcommunityedition1"
 }
 
