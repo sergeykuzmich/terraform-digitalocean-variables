@@ -1164,7 +1164,7 @@ variable "do_application_severalnines-clustercontrol-20-04" {
 }
 
 variable "do_application_sharklabs-anaconda" {
-  description = "Anaconda 2025.12-1 on Ubuntu 22.04 (LTS)"
+  description = "Anaconda 2025.12-2 on Ubuntu 22.04 (LTS)"
   default     = "sharklabs-anaconda"
 }
 
