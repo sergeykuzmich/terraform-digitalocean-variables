@@ -1094,7 +1094,7 @@ variable "do_application_rackware-rackwarecloudmig" {
 }
 
 variable "do_application_ringq" {
-  description = "RingQ 8.7.64 on Debian 12 x64"
+  description = "RingQ 8.7.65 on Debian 12 x64"
   default     = "ringq"
 }
 
