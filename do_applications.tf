@@ -479,7 +479,7 @@ variable "do_application_docker-20-04" {
 }
 
 variable "do_application_dokku-20-04" {
-  description = "Dokku 0.37.3 on Ubuntu 24.04"
+  description = "Dokku 0.37.5 on Ubuntu 24.04"
   default     = "dokku-20-04"
 }
 
@@ -589,7 +589,7 @@ variable "do_application_gitlab-gitlabenterprise-20-04" {
 }
 
 variable "do_application_goauthentikio-authentik" {
-  description = "authentik 2025.10.2 on Ubuntu 24.04"
+  description = "authentik 2025.12.1 on Ubuntu 24.04"
   default     = "goauthentikio-authentik"
 }
 
@@ -1003,6 +1003,11 @@ variable "do_application_perforce-perforcehelixcor" {
   default     = "perforce-perforcehelixcor"
 }
 
+variable "do_application_perforce-perforcep4helixc" {
+  description = "Perforce P4 (Helix Core) 2025.2.0 on rocky 9"
+  default     = "perforce-perforcep4helixc"
+}
+
 variable "do_application_pgsync" {
   description = "PGSync 7.0.0 on Ubuntu 22.04 LTS"
   default     = "pgsync"
@@ -1024,7 +1029,7 @@ variable "do_application_pirichaintechnol-pirisubchainsnod" {
 }
 
 variable "do_application_planesoftware-plane" {
-  description = "Plane 1.16.0 on Ubuntu 22.04 LTS"
+  description = "Plane 2.2.0 on Ubuntu 22.04 LTS"
   default     = "planesoftware-plane"
 }
 
@@ -1431,6 +1436,11 @@ variable "do_application_victoriametrics-victorialogssing" {
 variable "do_application_victoriametrics-victoriametricss" {
   description = "VictoriaMetrics Single 1.133.0 on Ubuntu 24.04"
   default     = "victoriametrics-victoriametricss"
+}
+
+variable "do_application_virolateam-virolamessenger" {
+  description = "Virola Messenger 2.6.3 on Ubuntu 24.04"
+  default     = "virolateam-virolamessenger"
 }
 
 variable "do_application_vodianetworks-vodiapbxprepaido" {
