@@ -304,7 +304,7 @@ variable "do_application_convoy" {
 }
 
 variable "do_application_coolify" {
-  description = "Coolify 4.0.0-beta.460 on Ubuntu 24.04"
+  description = "Coolify 4.0.0-beta.462 on Ubuntu 24.04"
   default     = "coolify"
 }
 
@@ -484,7 +484,7 @@ variable "do_application_dokku-20-04" {
 }
 
 variable "do_application_doteamaccount-pocketbase" {
-  description = "PocketBase 0.35.1 on Ubuntu 22.04"
+  description = "PocketBase 0.36.0 on Ubuntu 22.04"
   default     = "doteamaccount-pocketbase"
 }
 
@@ -1129,7 +1129,7 @@ variable "do_application_saltcorn-20-04" {
 }
 
 variable "do_application_sandflysecurity-20-04" {
-  description = "Sandfly Security 5.5.4 on Ubuntu 22.04"
+  description = "Sandfly Security 5.6.0 on Ubuntu 22.04"
   default     = "sandflysecurity-20-04"
 }
 
