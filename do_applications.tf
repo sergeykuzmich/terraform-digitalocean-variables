@@ -868,6 +868,11 @@ variable "do_application_mjmair-inventree" {
   default     = "mjmair-inventree"
 }
 
+variable "do_application_moltbot" {
+  description = "Moltbot 1.24-1 on Ubuntu"
+  default     = "moltbot"
+}
+
 variable "do_application_monetdbsolutions-monetdb" {
   description = "MonetDB 11.49.9 on Ubuntu 20.04"
   default     = "monetdbsolutions-monetdb"
