@@ -953,6 +953,11 @@ variable "do_application_openboxes-openboxesserver" {
   default     = "openboxes-openboxesserver"
 }
 
+variable "do_application_openclaw" {
+  description = "OpenClaw 1.24 on Ubuntu"
+  default     = "openclaw"
+}
+
 variable "do_application_openpanel" {
   description = "OpenPanel 0.2.1 on Ubuntu 22.04"
   default     = "openpanel"
