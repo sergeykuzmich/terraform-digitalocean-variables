@@ -668,6 +668,11 @@ variable "do_application_in4it-vpnserver" {
   default     = "in4it-vpnserver"
 }
 
+variable "do_application_infosoftbdsoluti-nextgenswitch" {
+  description = "NextGenSwitch 1.0 on AlmaLinux 9.x"
+  default     = "infosoftbdsoluti-nextgenswitch"
+}
+
 variable "do_application_intel-intelgprofilercr" {
   description = "Intel gProfiler Crypto Demo 1.3 on Ubuntu 20.04"
   default     = "intel-intelgprofilercr"
@@ -1134,7 +1139,7 @@ variable "do_application_runcloud-runcloud2004-20-04" {
 }
 
 variable "do_application_saltcorn-20-04" {
-  description = "Saltcorn 1.4.0 on Debian 12"
+  description = "Saltcorn 1.5.0 on Debian 13"
   default     = "saltcorn-20-04"
 }
 
