@@ -658,6 +658,11 @@ variable "do_application_ibsurgeon-hqbirdfirebirdv5" {
   default     = "ibsurgeon-hqbirdfirebirdv5"
 }
 
+variable "do_application_icewarp" {
+  description = "IceWarp 14.2 on Rocky Linux 9.x"
+  default     = "icewarp"
+}
+
 variable "do_application_ikigaisystems-fundamento" {
   description = "Fundamento 0.1.0 on Ubuntu 22.04"
   default     = "ikigaisystems-fundamento"
@@ -959,7 +964,7 @@ variable "do_application_openboxes-openboxesserver" {
 }
 
 variable "do_application_openclaw" {
-  description = "OpenClaw 1.24 on Ubuntu"
+  description = "OpenClaw 2.1 on Ubuntu"
   default     = "openclaw"
 }
 
