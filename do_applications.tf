@@ -284,7 +284,7 @@ variable "do_application_clickhouse" {
 }
 
 variable "do_application_cloudron-20-04" {
-  description = "Cloudron 9.0.15 on Ubuntu 24.04"
+  description = "Cloudron 9.0.17 on Ubuntu 24.04"
   default     = "cloudron-20-04"
 }
 
@@ -484,7 +484,7 @@ variable "do_application_dokku-20-04" {
 }
 
 variable "do_application_doteamaccount-pocketbase" {
-  description = "PocketBase 0.36.1 on Ubuntu 22.04"
+  description = "PocketBase 0.36.2 on Ubuntu 22.04"
   default     = "doteamaccount-pocketbase"
 }
 
@@ -559,7 +559,7 @@ variable "do_application_flowforge" {
 }
 
 variable "do_application_flowforge-flowfuse" {
-  description = "FlowFuse 2.25.0 on Ubuntu 22.04"
+  description = "FlowFuse 2.26.1 on Ubuntu 22.04"
   default     = "flowforge-flowfuse"
 }
 
@@ -711,6 +711,11 @@ variable "do_application_jenkins" {
 variable "do_application_jitsiserver-20-04" {
   description = "Jitsi Server on Ubuntu 24.04"
   default     = "jitsiserver-20-04"
+}
+
+variable "do_application_josecanchila-thormail" {
+  description = "ThorMail 1.0.b on Ubuntu 24.04 (LTS)"
+  default     = "josecanchila-thormail"
 }
 
 variable "do_application_kandralabs-zulip-18-04" {
