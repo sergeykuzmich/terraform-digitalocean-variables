@@ -4,7 +4,7 @@
 
 
 variable "do_application_3cxcommunication-3cx" {
-  description = "3CX 20.0.7.1080 on Debian 12 (Bookworm)"
+  description = "3CX 20.0.8.1109 on Debian 12 (Bookworm)"
   default     = "3cxcommunication-3cx"
 }
 
@@ -969,7 +969,7 @@ variable "do_application_openboxes-openboxesserver" {
 }
 
 variable "do_application_openclaw" {
-  description = "OpenClaw 2.3 on Ubuntu"
+  description = "OpenClaw 2.9 on Ubuntu"
   default     = "openclaw"
 }
 
