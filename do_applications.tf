@@ -214,7 +214,7 @@ variable "do_application_bigcloud-odoo" {
 }
 
 variable "do_application_bitwarden" {
-  description = "Bitwarden 2026.1.0 on Ubuntu 24.04"
+  description = "Bitwarden 2026.1.2 on Ubuntu 24.04"
   default     = "bitwarden"
 }
 
