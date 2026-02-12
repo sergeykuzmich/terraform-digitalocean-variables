@@ -114,12 +114,12 @@ variable "do_application_analythium-shinyproxy-20-04" {
 }
 
 variable "do_application_antmedia-antmediaserverco-18-04" {
-  description = "Ant Media Server Community Edition 2.16.2 on Ubuntu 24.04"
+  description = "Ant Media Server Community Edition 2.17.0 on Ubuntu 24.04"
   default     = "antmedia-antmediaserverco-18-04"
 }
 
 variable "do_application_antmedia-antmediaserveren-18-04" {
-  description = "Ant Media Server Enterprise Edition 2.16.2 on Ubuntu 24.04"
+  description = "Ant Media Server Enterprise Edition 2.17.0 on Ubuntu 24.04"
   default     = "antmedia-antmediaserveren-18-04"
 }
 
@@ -359,7 +359,7 @@ variable "do_application_decyphertekio-uptimekuma" {
 }
 
 variable "do_application_depomo-chartbrew" {
-  description = "Chartbrew 4.7.0 on Ubuntu 22.04"
+  description = "Chartbrew 4.8.1 on Ubuntu 22.04"
   default     = "depomo-chartbrew"
 }
 
@@ -469,7 +469,7 @@ variable "do_application_discourse-20-04" {
 }
 
 variable "do_application_django-20-04" {
-  description = "Django 6.0.1 on Ubuntu 22.04"
+  description = "Django 6.0.2 on Ubuntu 22.04"
   default     = "django-20-04"
 }
 
