@@ -1209,7 +1209,7 @@ variable "do_application_sharklabs-codeserver1" {
 }
 
 variable "do_application_sharklabs-conduktorconsole" {
-  description = "Conduktor Console 1.41.0 on Ubuntu 24.04"
+  description = "Conduktor Console 1.43.0 on Ubuntu 24.04"
   default     = "sharklabs-conduktorconsole"
 }
 
