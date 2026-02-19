@@ -484,7 +484,7 @@ variable "do_application_dokku-20-04" {
 }
 
 variable "do_application_doteamaccount-pocketbase" {
-  description = "PocketBase 0.36.3 on Ubuntu 22.04"
+  description = "PocketBase 0.36.4 on Ubuntu 22.04"
   default     = "doteamaccount-pocketbase"
 }
 
@@ -549,7 +549,7 @@ variable "do_application_flask" {
 }
 
 variable "do_application_flexifyio-flexifyiomulticl-20-04" {
-  description = "Flexify.IO Multi-cloud / Migration 2.22.0 on Ubuntu 24.04 LTS"
+  description = "Flexify.IO Multi-cloud / Migration 2.23.0 on Ubuntu 24.04 LTS"
   default     = "flexifyio-flexifyiomulticl-20-04"
 }
 
@@ -973,13 +973,18 @@ variable "do_application_openclaw" {
   default     = "openclaw"
 }
 
+variable "do_application_opencode" {
+  description = "OpenCode 1.2.6 on Ubuntu 24.04"
+  default     = "opencode"
+}
+
 variable "do_application_openpanel" {
   description = "OpenPanel 0.2.1 on Ubuntu 22.04"
   default     = "openpanel"
 }
 
 variable "do_application_openvpn-18-04" {
-  description = "OpenVPN Access Server 2.14.3 on Ubuntu 24.04"
+  description = "OpenVPN Access Server 3.0.2 on Ubuntu 24.04"
   default     = "openvpn-18-04"
 }
 
