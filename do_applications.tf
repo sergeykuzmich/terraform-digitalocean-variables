@@ -214,7 +214,7 @@ variable "do_application_bigcloud-odoo" {
 }
 
 variable "do_application_bitwarden" {
-  description = "Bitwarden 2026.1.2 on Ubuntu 24.04"
+  description = "Bitwarden 2026.2.0 on Ubuntu 24.04"
   default     = "bitwarden"
 }
 
@@ -484,7 +484,7 @@ variable "do_application_dokku-20-04" {
 }
 
 variable "do_application_doteamaccount-pocketbase" {
-  description = "PocketBase 0.36.4 on Ubuntu 22.04"
+  description = "PocketBase 0.36.5 on Ubuntu 22.04"
   default     = "doteamaccount-pocketbase"
 }
 
@@ -1129,7 +1129,7 @@ variable "do_application_rackware-rackwarecloudmig" {
 }
 
 variable "do_application_ringq" {
-  description = "RingQ 8.7.65 on Debian 12 x64"
+  description = "RingQ 8.7.67 on Debian 12 x64"
   default     = "ringq"
 }
 
