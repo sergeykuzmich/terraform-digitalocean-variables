@@ -384,7 +384,7 @@ variable "do_application_digitaloceanai-1clickinferencer" {
 }
 
 variable "do_application_digitaloceanai-1clickinferenceready8x" {
-  description = "1-Click Inference Ready - Multi GPU 1.0.4 on Linux AI/ML Ready"
+  description = "1-Click Inference Ready - Multi GPU 1.1.0 on Linux AI/ML Ready"
   default     = "digitaloceanai-1clickinferenceready8x"
 }
 
@@ -571,6 +571,11 @@ variable "do_application_fossorial-pangolince1" {
 variable "do_application_futo-immich" {
   description = "Immich release on Ubuntu 24.04 (LTS)"
   default     = "futo-immich"
+}
+
+variable "do_application_genesisdb-genesisdbce" {
+  description = "GenesisDB CE 1.1.3 on Ubuntu 24.04 (LTS) x"
+  default     = "genesisdb-genesisdbce"
 }
 
 variable "do_application_ghost-20-04" {
@@ -969,7 +974,7 @@ variable "do_application_openboxes-openboxesserver" {
 }
 
 variable "do_application_openclaw" {
-  description = "OpenClaw 2.22 on Ubuntu"
+  description = "OpenClaw 2.23 on Ubuntu"
   default     = "openclaw"
 }
 
