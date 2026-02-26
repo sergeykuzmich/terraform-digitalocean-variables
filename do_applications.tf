@@ -114,12 +114,12 @@ variable "do_application_analythium-shinyproxy-20-04" {
 }
 
 variable "do_application_antmedia-antmediaserverco-18-04" {
-  description = "Ant Media Server Community Edition 2.17.0 on Ubuntu 24.04"
+  description = "Ant Media Server Community Edition 2.17.1 on Ubuntu 24.04"
   default     = "antmedia-antmediaserverco-18-04"
 }
 
 variable "do_application_antmedia-antmediaserveren-18-04" {
-  description = "Ant Media Server Enterprise Edition 2.17.0 on Ubuntu 24.04"
+  description = "Ant Media Server Enterprise Edition 2.17.1 on Ubuntu 24.04"
   default     = "antmedia-antmediaserveren-18-04"
 }
 
@@ -304,7 +304,7 @@ variable "do_application_convoy" {
 }
 
 variable "do_application_coolify" {
-  description = "Coolify 4.0.0-beta.462 on Ubuntu 24.04"
+  description = "Coolify 4.0.0-beta.463 on Ubuntu 24.04"
   default     = "coolify"
 }
 
@@ -1219,7 +1219,7 @@ variable "do_application_sharklabs-codeserver1" {
 }
 
 variable "do_application_sharklabs-conduktorconsole" {
-  description = "Conduktor Console 1.43.0 on Ubuntu 24.04"
+  description = "Conduktor Console 1.43.1 on Ubuntu 24.04"
   default     = "sharklabs-conduktorconsole"
 }
 
