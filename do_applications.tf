@@ -979,7 +979,7 @@ variable "do_application_openclaw" {
 }
 
 variable "do_application_opencode" {
-  description = "OpenCode 1.2.6 on Ubuntu 24.04"
+  description = "OpenCode 1.2.15 on Ubuntu 24.04"
   default     = "opencode"
 }
 
