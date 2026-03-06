@@ -843,6 +843,11 @@ variable "do_application_m3o-micro" {
   default     = "m3o-micro"
 }
 
+variable "do_application_mangati-novosga" {
+  description = "NovoSGA 2.2 on Ubuntu 22.04"
+  default     = "mangati-novosga"
+}
+
 variable "do_application_mariadb" {
   description = "MariaDB 10.6.12 on Ubuntu 22.04"
   default     = "mariadb"
@@ -1026,6 +1031,11 @@ variable "do_application_osmosislabs-osmosis" {
 variable "do_application_ossrs-srs" {
   description = "SRS 5.13.31 on Ubuntu 20.04"
   default     = "ossrs-srs"
+}
+
+variable "do_application_owncast-10" {
+  description = "Owncast on Debian 13"
+  default     = "owncast-10"
 }
 
 variable "do_application_passboltsa-passboltce-20-04" {
@@ -1504,7 +1514,7 @@ variable "do_application_whmcs" {
 }
 
 variable "do_application_wikijs-18-04" {
-  description = "Wiki.js 2.5.292 on Ubuntu 20.04 (LTS)"
+  description = "Wiki.js 2.5.312 on Ubuntu 24.04 (LTS)"
   default     = "wikijs-18-04"
 }
 
