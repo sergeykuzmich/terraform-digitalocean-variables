@@ -529,7 +529,7 @@ variable "do_application_eummena-moodle-10" {
 }
 
 variable "do_application_farm" {
-  description = "FARM 1.0 on Ubuntu 22.04"
+  description = "FARM 1.0 on Ubuntu 24.04"
   default     = "farm"
 }
 
