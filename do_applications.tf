@@ -214,7 +214,7 @@ variable "do_application_bigcloud-odoo" {
 }
 
 variable "do_application_bitwarden" {
-  description = "Bitwarden 2026.2.0 on Ubuntu 24.04"
+  description = "Bitwarden 2026.2.1 on Ubuntu 24.04"
   default     = "bitwarden"
 }
 
@@ -469,7 +469,7 @@ variable "do_application_discourse-20-04" {
 }
 
 variable "do_application_django-20-04" {
-  description = "Django 6.0.2 on Ubuntu 22.04"
+  description = "Django 6.0.3 on Ubuntu 22.04"
   default     = "django-20-04"
 }
 
