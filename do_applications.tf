@@ -123,6 +123,11 @@ variable "do_application_antmedia-antmediaserveren-18-04" {
   default     = "antmedia-antmediaserveren-18-04"
 }
 
+variable "do_application_anythingmcp" {
+  description = "AnythingMCP 0.1.1 on Ubuntu 24.04"
+  default     = "anythingmcp"
+}
+
 variable "do_application_apliteni-keitaro" {
   description = "Keitaro 11.0.19 on CentOS 9 Stream"
   default     = "apliteni-keitaro"
@@ -994,7 +999,7 @@ variable "do_application_openpanel" {
 }
 
 variable "do_application_openvpn-18-04" {
-  description = "OpenVPN Access Server 3.0.2 on Ubuntu 24.04"
+  description = "OpenVPN Access Server 3.1.0 on Ubuntu 24.04"
   default     = "openvpn-18-04"
 }
 
@@ -1229,7 +1234,7 @@ variable "do_application_sharklabs-codeserver1" {
 }
 
 variable "do_application_sharklabs-conduktorconsole" {
-  description = "Conduktor Console 1.43.1 on Ubuntu 24.04"
+  description = "Conduktor Console 1.43.2 on Ubuntu 24.04"
   default     = "sharklabs-conduktorconsole"
 }
 
