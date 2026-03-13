@@ -189,7 +189,7 @@ variable "do_application_autopanel-postfix" {
 }
 
 variable "do_application_autopanel-selfhostedemails" {
-  description = "Self Hosted Email Server 0.1 on Ubuntu 24.04"
+  description = "Self Hosted Email Server 0.1.1 on Ubuntu 24.04"
   default     = "autopanel-selfhostedemails"
 }
 
@@ -489,7 +489,7 @@ variable "do_application_dokku-20-04" {
 }
 
 variable "do_application_doteamaccount-pocketbase" {
-  description = "PocketBase 0.36.5 on Ubuntu 22.04"
+  description = "PocketBase 0.36.6 on Ubuntu 22.04"
   default     = "doteamaccount-pocketbase"
 }
 
@@ -564,7 +564,7 @@ variable "do_application_flowforge" {
 }
 
 variable "do_application_flowforge-flowfuse" {
-  description = "FlowFuse 2.26.1 on Ubuntu 22.04"
+  description = "FlowFuse 2.28.0 on Ubuntu 22.04"
   default     = "flowforge-flowfuse"
 }
 
@@ -979,7 +979,7 @@ variable "do_application_openblocks" {
 }
 
 variable "do_application_openboxes-openboxesserver" {
-  description = "OpenBoxes Server 0.8.20 on Ubuntu 22.04"
+  description = "OpenBoxes Server 0.8.20 on Ubuntu 24.04 LTS"
   default     = "openboxes-openboxesserver"
 }
 
@@ -1489,7 +1489,7 @@ variable "do_application_victoriametrics-victoriametricss" {
 }
 
 variable "do_application_virolateam-virolamessenger" {
-  description = "Virola Messenger 2.6.3 on Ubuntu 24.04"
+  description = "Virola Messenger 2.6.5 on Ubuntu 24.04"
   default     = "virolateam-virolamessenger"
 }
 
