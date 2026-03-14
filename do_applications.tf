@@ -363,6 +363,11 @@ variable "do_application_decyphertekio-uptimekuma" {
   default     = "decyphertekio-uptimekuma"
 }
 
+variable "do_application_defensia-defensiaagent" {
+  description = "defensia-agent 1.0.0 on Ubuntu 24.04"
+  default     = "defensia-defensiaagent"
+}
+
 variable "do_application_depomo-chartbrew" {
   description = "Chartbrew 4.8.1 on Ubuntu 22.04"
   default     = "depomo-chartbrew"
@@ -984,7 +989,7 @@ variable "do_application_openboxes-openboxesserver" {
 }
 
 variable "do_application_openclaw" {
-  description = "OpenClaw 3.2 on Ubuntu"
+  description = "OpenClaw 3.12 on Ubuntu"
   default     = "openclaw"
 }
 
@@ -996,6 +1001,46 @@ variable "do_application_opencode" {
 variable "do_application_openpanel" {
   description = "OpenPanel 0.2.1 on Ubuntu 22.04"
   default     = "openpanel"
+}
+
+variable "do_application_openrouter-spawnclaude" {
+  description = "Spawn claude 0.1.0 on Ubuntu 24.04 (LTS)"
+  default     = "openrouter-spawnclaude"
+}
+
+variable "do_application_openrouter-spawncodex" {
+  description = "Spawn Codex 0.1.0 on Ubuntu 24.04 (LTS)"
+  default     = "openrouter-spawncodex"
+}
+
+variable "do_application_openrouter-spawnhermes" {
+  description = "Spawn Hermes 0.1.0 on Ubuntu 24.04 (LTS)"
+  default     = "openrouter-spawnhermes"
+}
+
+variable "do_application_openrouter-spawnjunie" {
+  description = "Spawn Junie 0.1.0 on Ubuntu 24.04 (LTS)"
+  default     = "openrouter-spawnjunie"
+}
+
+variable "do_application_openrouter-spawnkilocode" {
+  description = "Spawn Kilo Code 0.1.0 on Ubuntu 24.04 (LTS)"
+  default     = "openrouter-spawnkilocode"
+}
+
+variable "do_application_openrouter-spawnopenclaw" {
+  description = "Spawn OpenClaw 0.1.0 on Ubuntu 24.04 (LTS)"
+  default     = "openrouter-spawnopenclaw"
+}
+
+variable "do_application_openrouter-spawnopencode" {
+  description = "Spawn OpenCode 0.1.0 on Ubuntu 24.04 (LTS)"
+  default     = "openrouter-spawnopencode"
+}
+
+variable "do_application_openrouter-spawnzeroclaw" {
+  description = "Spawn ZeroClaw 0.1.0 on Ubuntu 24.04 (LTS)"
+  default     = "openrouter-spawnzeroclaw"
 }
 
 variable "do_application_openvpn-18-04" {
@@ -1264,7 +1309,7 @@ variable "do_application_sharklabs-keycloak" {
 }
 
 variable "do_application_sharklabs-kibana" {
-  description = "Kibana on Ubuntu 22.04"
+  description = "Kibana on Ubuntu 24.04"
   default     = "sharklabs-kibana"
 }
 
