@@ -309,7 +309,7 @@ variable "do_application_convoy" {
 }
 
 variable "do_application_coolify" {
-  description = "Coolify 4.0.0-beta.463 on Ubuntu 24.04"
+  description = "Coolify 4.0.0-beta.468 on Ubuntu 24.04"
   default     = "coolify"
 }
 
@@ -489,7 +489,7 @@ variable "do_application_docker-20-04" {
 }
 
 variable "do_application_dokku-20-04" {
-  description = "Dokku 0.37.5 on Ubuntu 24.04"
+  description = "Dokku 0.37.7 on Ubuntu 24.04"
   default     = "dokku-20-04"
 }
 
@@ -604,7 +604,7 @@ variable "do_application_gitlab-gitlabenterprise-20-04" {
 }
 
 variable "do_application_goauthentikio-authentik" {
-  description = "authentik 2025.12.1 on Ubuntu 24.04"
+  description = "authentik 2026.2.1 on Ubuntu 24.04"
   default     = "goauthentikio-authentik"
 }
 
