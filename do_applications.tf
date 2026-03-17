@@ -108,6 +108,11 @@ variable "do_application_amd-vllmrocm7" {
   default     = "amd-vllmrocm7"
 }
 
+variable "do_application_amddevelopercloud-rocm72software" {
+  description = "ROCm™ 7.2 Software 7.2 on Ubuntu 24.04"
+  default     = "amddevelopercloud-rocm72software"
+}
+
 variable "do_application_analythium-shinyproxy-20-04" {
   description = "ShinyProxy 3.2.2 on Ubuntu 24.04"
   default     = "analythium-shinyproxy-20-04"

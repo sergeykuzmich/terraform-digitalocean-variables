@@ -48,6 +48,11 @@ variable "do_region_nyc3" {
   default     = "nyc3"
 }
 
+variable "do_region_ric1" {
+  description = "Richmond 1"
+  default     = "ric1"
+}
+
 variable "do_region_sfo1" {
   description = "San Francisco 1"
   default     = "sfo1"
