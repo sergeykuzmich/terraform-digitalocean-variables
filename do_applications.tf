@@ -499,7 +499,7 @@ variable "do_application_dokku-20-04" {
 }
 
 variable "do_application_doteamaccount-pocketbase" {
-  description = "PocketBase 0.36.6 on Ubuntu 22.04"
+  description = "PocketBase 0.36.7 on Ubuntu 22.04"
   default     = "doteamaccount-pocketbase"
 }
 
@@ -999,7 +999,7 @@ variable "do_application_openclaw" {
 }
 
 variable "do_application_opencode" {
-  description = "OpenCode 1.2.15 on Ubuntu 24.04"
+  description = "OpenCode 1.2.27 on Ubuntu 24.04"
   default     = "opencode"
 }
 
@@ -1149,12 +1149,12 @@ variable "do_application_playboxtechnolog-ottstream" {
 }
 
 variable "do_application_plesk-20-04" {
-  description = "Plesk 18.0.73 on Ubuntu 24.04"
+  description = "Plesk 18.0.76 on Ubuntu 24.04"
   default     = "plesk-20-04"
 }
 
 variable "do_application_plesk-pleskalmalinux" {
-  description = "Plesk (AlmaLinux) 18.0.73 on AlmaLinux 9"
+  description = "Plesk (AlmaLinux) 18.0.76 on AlmaLinux 9"
   default     = "plesk-pleskalmalinux"
 }
 
@@ -1199,7 +1199,7 @@ variable "do_application_rackware-rackwarecloudmig" {
 }
 
 variable "do_application_ringq" {
-  description = "RingQ 8.7.67 on Debian 12 x64"
+  description = "RingQ 8.7.68 on Debian 12 x64"
   default     = "ringq"
 }
 
