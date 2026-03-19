@@ -1333,6 +1333,11 @@ variable "do_application_sharklabs-minecraftjavaedi-18-04" {
   default     = "sharklabs-minecraftjavaedi-18-04"
 }
 
+variable "do_application_sharklabs-nemoclawalpha" {
+  description = "NemoClaw (Alpha) 0.0.1-alpha on Ubuntu 24.04"
+  default     = "sharklabs-nemoclawalpha"
+}
+
 variable "do_application_sharklabs-ollamawithopenwe" {
   description = "Ollama with Open WebUI 0.3.6 on Ubuntu 22.04"
   default     = "sharklabs-ollamawithopenwe"
@@ -1451,6 +1456,11 @@ variable "do_application_superinverse-statusnook" {
 variable "do_application_supernetworks-spr" {
   description = "SPR 0.3.13 on Ubuntu 24.04"
   default     = "supernetworks-spr"
+}
+
+variable "do_application_superplane" {
+  description = "SuperPlane on Ubuntu 24.04 (LTS)"
+  default     = "superplane"
 }
 
 variable "do_application_svnplus" {
