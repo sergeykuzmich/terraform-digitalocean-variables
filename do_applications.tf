@@ -108,6 +108,11 @@ variable "do_application_amd-vllmrocm7" {
   default     = "amd-vllmrocm7"
 }
 
+variable "do_application_amddeveloperclou-sglang059" {
+  description = "SGLang 0.5.9 0.5.9 - ROCm 7.0 on Ubuntu 24.04"
+  default     = "amddeveloperclou-sglang059"
+}
+
 variable "do_application_amddeveloperclou-vllm0171" {
   description = "vLLM 0.17.1 0.17.1 on Ubuntu 24.04"
   default     = "amddeveloperclou-vllm0171"
