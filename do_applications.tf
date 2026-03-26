@@ -503,6 +503,11 @@ variable "do_application_docker-20-04" {
   default     = "docker-20-04"
 }
 
+variable "do_application_dockeragent" {
+  description = "Docker Agent 1.36.1 on Ubuntu 24.04"
+  default     = "dockeragent"
+}
+
 variable "do_application_dokku-20-04" {
   description = "Dokku 0.37.7 on Ubuntu 24.04"
   default     = "dokku-20-04"
@@ -1239,7 +1244,7 @@ variable "do_application_saltcorn-20-04" {
 }
 
 variable "do_application_sandflysecurity-20-04" {
-  description = "Sandfly Security 5.6.0 on Ubuntu 22.04"
+  description = "Sandfly Security 5.7.0 on Debian 13 (Trixie)"
   default     = "sandflysecurity-20-04"
 }
 
