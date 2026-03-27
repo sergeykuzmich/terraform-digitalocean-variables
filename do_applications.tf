@@ -174,7 +174,7 @@ variable "do_application_ascensiosystemsi-onlyofficedocspa" {
 }
 
 variable "do_application_ascensiosystemsi-onlyofficeeditor-18-04-4" {
-  description = "ONLYOFFICE Docs 9.2.0 on Ubuntu 24.04 LTS"
+  description = "ONLYOFFICE Docs 9.3.1 on Ubuntu 24.04 LTS"
   default     = "ascensiosystemsi-onlyofficeeditor-18-04-4"
 }
 
@@ -589,7 +589,7 @@ variable "do_application_flowforge" {
 }
 
 variable "do_application_flowforge-flowfuse" {
-  description = "FlowFuse 2.28.0 on Ubuntu 22.04"
+  description = "FlowFuse 2.28.1 on Ubuntu 22.04"
   default     = "flowforge-flowfuse"
 }
 
