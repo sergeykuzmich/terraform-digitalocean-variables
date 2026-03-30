@@ -854,7 +854,7 @@ variable "do_application_litespeedtechnol-openlitespeednod-20-04" {
 }
 
 variable "do_application_litespeedtechnol-openlitespeedrai-20-04" {
-  description = "OpenLiteSpeed Rails 8.1.1 on Ubuntu 24.04"
+  description = "OpenLiteSpeed Rails 8.1.3 on Ubuntu 24.04"
   default     = "litespeedtechnol-openlitespeedrai-20-04"
 }
 
