@@ -54,7 +54,7 @@ variable "do_distibution_gpu-amd-base" {
 }
 
 variable "do_distibution_gpu-h100x1-base" {
-  description = "Ubuntu NVIDIA AI/ML Ready"
+  description = "Ubuntu NVIDIA AI/ML Ready Image"
   default     = "gpu-h100x1-base"
 }
 
