@@ -504,7 +504,7 @@ variable "do_application_docker-20-04" {
 }
 
 variable "do_application_dockeragent" {
-  description = "Docker Agent 1.36.1 on Ubuntu 24.04"
+  description = "Docker Agent 1.40.0 on Ubuntu 24.04"
   default     = "dockeragent"
 }
 
@@ -514,7 +514,7 @@ variable "do_application_dokku-20-04" {
 }
 
 variable "do_application_doteamaccount-pocketbase" {
-  description = "PocketBase 0.36.7 on Ubuntu 22.04"
+  description = "PocketBase 0.36.8 on Ubuntu 22.04"
   default     = "doteamaccount-pocketbase"
 }
 
@@ -544,7 +544,7 @@ variable "do_application_edgedb-gel" {
 }
 
 variable "do_application_elasticsearch" {
-  description = "ElasticSearch on Ubuntu 22.04"
+  description = "ElasticSearch on Ubuntu 24.04"
   default     = "elasticsearch"
 }
 
@@ -919,7 +919,7 @@ variable "do_application_minecraftforgeed" {
 }
 
 variable "do_application_mjmair-inventree" {
-  description = "InvenTree 1.1.1 on Ubuntu 24.04"
+  description = "InvenTree 1.2.6 on Ubuntu 24.04"
   default     = "mjmair-inventree"
 }
 
@@ -1014,7 +1014,7 @@ variable "do_application_openclaw" {
 }
 
 variable "do_application_opencode" {
-  description = "OpenCode 1.2.27 on Ubuntu 24.04"
+  description = "OpenCode 1.3.13 on Ubuntu 24.04"
   default     = "opencode"
 }
 
@@ -1599,7 +1599,7 @@ variable "do_application_wikijs-18-04" {
 }
 
 variable "do_application_wordpress-20-04" {
-  description = "WordPress on Ubuntu 22.04"
+  description = "WordPress on Ubuntu 24.04"
   default     = "wordpress-20-04"
 }
 
