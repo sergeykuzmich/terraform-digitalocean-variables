@@ -234,7 +234,7 @@ variable "do_application_bigcloud-odoo" {
 }
 
 variable "do_application_bitwarden" {
-  description = "Bitwarden 2026.3.1 on Ubuntu 24.04"
+  description = "Bitwarden 2026.3.2 on Ubuntu 24.04"
   default     = "bitwarden"
 }
 
@@ -324,7 +324,7 @@ variable "do_application_convoy" {
 }
 
 variable "do_application_coolify" {
-  description = "Coolify 4.0.0-beta.468 on Ubuntu 24.04"
+  description = "Coolify 4.0.0-beta.470 on Ubuntu 24.04"
   default     = "coolify"
 }
 
@@ -724,7 +724,7 @@ variable "do_application_invoiceninja-20-0-4" {
 }
 
 variable "do_application_ispmanager-ispmanager6" {
-  description = "Ispmanager 6 6.120.1 on Ubuntu 24.04"
+  description = "Ispmanager 6 6.138.1 on Ubuntu 24.04"
   default     = "ispmanager-ispmanager6"
 }
 
@@ -1213,6 +1213,11 @@ variable "do_application_rackware-rackwarecloudmig" {
   default     = "rackware-rackwarecloudmig"
 }
 
+variable "do_application_rexarsystems-ngstack" {
+  description = "NgStack 1.5.0 on Ubuntu 24.04 LTS"
+  default     = "rexarsystems-ngstack"
+}
+
 variable "do_application_ringq" {
   description = "RingQ 8.7.68 on Debian 12 x64"
   default     = "ringq"
@@ -1434,7 +1439,7 @@ variable "do_application_smartarget-wordpresswoocomm" {
 }
 
 variable "do_application_softlab24-opensourcesocial-18-04" {
-  description = "Open Source Social Network 8.1.0 on Ubuntu 22.04"
+  description = "Open Source Social Network 9.4 on Ubuntu 24.04 (LTS)"
   default     = "softlab24-opensourcesocial-18-04"
 }
 
