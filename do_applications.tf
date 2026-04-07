@@ -513,6 +513,11 @@ variable "do_application_dokku-20-04" {
   default     = "dokku-20-04"
 }
 
+variable "do_application_doteamaccount-helloworld" {
+  description = "Hello World 2026.4.6.0 on Ubuntu 24.04"
+  default     = "doteamaccount-helloworld"
+}
+
 variable "do_application_doteamaccount-pocketbase" {
   description = "PocketBase 0.36.8 on Ubuntu 22.04"
   default     = "doteamaccount-pocketbase"
@@ -1651,6 +1656,11 @@ variable "do_application_zabbix-zabbixserver62" {
 variable "do_application_zabbix-zabbixserver64" {
   description = "Zabbix Server 6.4 6.4.1 on Rocky Linux 9.1"
   default     = "zabbix-zabbixserver64"
+}
+
+variable "do_application_zeroclaw" {
+  description = "ZeroClaw 0.6.8 on Ubuntu 24.04"
+  default     = "zeroclaw"
 }
 
 variable "do_application_zeslecp-7" {
