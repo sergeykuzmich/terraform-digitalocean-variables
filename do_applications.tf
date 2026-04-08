@@ -759,7 +759,7 @@ variable "do_application_josecanchila-thormail" {
 }
 
 variable "do_application_kandralabs-zulip-18-04" {
-  description = "Zulip 11.4 on Ubuntu 22.04"
+  description = "Zulip 11.6 on Ubuntu 22.04"
   default     = "kandralabs-zulip-18-04"
 }
 
