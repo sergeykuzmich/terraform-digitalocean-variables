@@ -1014,12 +1014,12 @@ variable "do_application_openboxes-openboxesserver" {
 }
 
 variable "do_application_openclaw" {
-  description = "OpenClaw 3.12 on Ubuntu"
+  description = "OpenClaw 4.9 on Ubuntu"
   default     = "openclaw"
 }
 
 variable "do_application_opencode" {
-  description = "OpenCode 1.3.13 on Ubuntu 24.04"
+  description = "OpenCode 1.4.3 on Ubuntu 24.04"
   default     = "opencode"
 }
 
