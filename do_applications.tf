@@ -494,7 +494,7 @@ variable "do_application_discourse-20-04" {
 }
 
 variable "do_application_django-20-04" {
-  description = "Django 6.0.3 on Ubuntu 22.04"
+  description = "Django 6.0.4 on Ubuntu 22.04"
   default     = "django-20-04"
 }
 
@@ -519,7 +519,7 @@ variable "do_application_doteamaccount-helloworld" {
 }
 
 variable "do_application_doteamaccount-pocketbase" {
-  description = "PocketBase 0.36.8 on Ubuntu 22.04"
+  description = "PocketBase 0.36.9 on Ubuntu 22.04"
   default     = "doteamaccount-pocketbase"
 }
 
@@ -594,7 +594,7 @@ variable "do_application_flowforge" {
 }
 
 variable "do_application_flowforge-flowfuse" {
-  description = "FlowFuse 2.29.0 on Ubuntu 22.04"
+  description = "FlowFuse 2.29.1 on Ubuntu 22.04"
   default     = "flowforge-flowfuse"
 }
 
@@ -669,7 +669,7 @@ variable "do_application_hashicorpvault" {
 }
 
 variable "do_application_hollaex-hollaexkit" {
-  description = "HollaEx Kit 2.16.2 on Ubuntu 20.04"
+  description = "HollaEx Kit 2.17.7 on Ubuntu 24.04"
   default     = "hollaex-hollaexkit"
 }
 
@@ -1309,7 +1309,7 @@ variable "do_application_sharklabs-codeserver1" {
 }
 
 variable "do_application_sharklabs-conduktorconsole" {
-  description = "Conduktor Console 1.43.2 on Ubuntu 24.04"
+  description = "Conduktor Console 1.44.1 on Ubuntu 24.04"
   default     = "sharklabs-conduktorconsole"
 }
 
@@ -1344,7 +1344,7 @@ variable "do_application_sharklabs-kibana" {
 }
 
 variable "do_application_sharklabs-logstash" {
-  description = "LogStash on Ubuntu 22.04"
+  description = "LogStash on Ubuntu 24.04"
   default     = "sharklabs-logstash"
 }
 
