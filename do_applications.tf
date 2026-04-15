@@ -1578,6 +1578,11 @@ variable "do_application_virolateam-virolamessenger" {
   default     = "virolateam-virolamessenger"
 }
 
+variable "do_application_vodianetworks-vodiaanalyticsse" {
+  description = "Vodia Analytics Server 1.0.0 on Ubuntu 24.04 (LTS)"
+  default     = "vodianetworks-vodiaanalyticsse"
+}
+
 variable "do_application_vodianetworks-vodiapbxprepaido" {
   description = "Vodia PBX Prepaid Offer 69.5.6 on Ubuntu 22.04"
   default     = "vodianetworks-vodiapbxprepaido"
