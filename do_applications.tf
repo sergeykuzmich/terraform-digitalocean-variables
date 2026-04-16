@@ -298,13 +298,18 @@ variable "do_application_chevereto-xrdebug" {
   default     = "chevereto-xrdebug"
 }
 
+variable "do_application_citedy-adclaw" {
+  description = "AdClaw 1.0.0 on Ubuntu 24.04 LTS"
+  default     = "citedy-adclaw"
+}
+
 variable "do_application_clickhouse" {
   description = "ClickHouse 23.10.4.25 on Ubuntu 24.04"
   default     = "clickhouse"
 }
 
 variable "do_application_cloudron-20-04" {
-  description = "Cloudron 9.0.17 on Ubuntu 24.04"
+  description = "Cloudron 9.1.6 on Ubuntu 24.04"
   default     = "cloudron-20-04"
 }
 
