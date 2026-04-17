@@ -509,7 +509,7 @@ variable "do_application_docker-20-04" {
 }
 
 variable "do_application_dockeragent" {
-  description = "Docker Agent 1.40.0 on Ubuntu 24.04"
+  description = "Docker Agent 1.44.0 on Ubuntu 24.04"
   default     = "dockeragent"
 }
 
@@ -704,7 +704,7 @@ variable "do_application_ibsurgeon-hqbirdfirebirdv5" {
 }
 
 variable "do_application_icewarp" {
-  description = "IceWarp 14.2 on Rocky Linux 9.x"
+  description = "IceWarp 14.3 on Rocky Linux 9.x"
   default     = "icewarp"
 }
 
@@ -834,7 +834,7 @@ variable "do_application_linuxpatchcom-linuxpatchapplia" {
 }
 
 variable "do_application_litespeedtechnol-cyberpanel-20-04" {
-  description = "CyberPanel 2.4.4 on Ubuntu 24.04"
+  description = "CyberPanel 2.4.5 on Ubuntu 24.04"
   default     = "litespeedtechnol-cyberpanel-20-04"
 }
 
