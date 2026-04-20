@@ -219,7 +219,7 @@ variable "do_application_azuracast-20-04" {
 }
 
 variable "do_application_babybuddy" {
-  description = "Baby Buddy 2.7.1 on Ubuntu 24.04 (LTS)"
+  description = "Baby Buddy 2.8.0 on Ubuntu 24.04 (LTS)"
   default     = "babybuddy"
 }
 
@@ -514,7 +514,7 @@ variable "do_application_dockeragent" {
 }
 
 variable "do_application_dokku-20-04" {
-  description = "Dokku 0.37.7 on Ubuntu 24.04"
+  description = "Dokku 0.37.8 on Ubuntu 24.04"
   default     = "dokku-20-04"
 }
 
@@ -1284,7 +1284,7 @@ variable "do_application_seatablegmbh-seatable" {
 }
 
 variable "do_application_securityroots-dradis" {
-  description = "dradis 4.19.0 on Debian 12"
+  description = "dradis 5.0.0 on Debian 12"
   default     = "securityroots-dradis"
 }
 
