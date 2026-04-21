@@ -524,7 +524,7 @@ variable "do_application_doteamaccount-helloworld" {
 }
 
 variable "do_application_doteamaccount-pocketbase" {
-  description = "PocketBase 0.36.9 on Ubuntu 22.04"
+  description = "PocketBase 0.37.1 on Ubuntu 22.04"
   default     = "doteamaccount-pocketbase"
 }
 
@@ -1024,7 +1024,7 @@ variable "do_application_openclaw" {
 }
 
 variable "do_application_opencode" {
-  description = "OpenCode 1.4.3 on Ubuntu 24.04"
+  description = "OpenCode 1.14.18 on Ubuntu 24.04"
   default     = "opencode"
 }
 
