@@ -524,7 +524,7 @@ variable "do_application_doteamaccount-helloworld" {
 }
 
 variable "do_application_doteamaccount-pocketbase" {
-  description = "PocketBase 0.37.1 on Ubuntu 22.04"
+  description = "PocketBase 0.37.2 on Ubuntu 22.04"
   default     = "doteamaccount-pocketbase"
 }
 
@@ -844,7 +844,7 @@ variable "do_application_litespeedtechnol-openlitespeedcla-18-04" {
 }
 
 variable "do_application_litespeedtechnol-openlitespeeddja-20-04" {
-  description = "OpenLiteSpeed Django 5.2.9 on Ubuntu 24.04"
+  description = "OpenLiteSpeed Django 6.0.2 on Ubuntu 24.04"
   default     = "litespeedtechnol-openlitespeeddja-20-04"
 }
 
