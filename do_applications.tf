@@ -108,6 +108,11 @@ variable "do_application_amd-vllmrocm7" {
   default     = "amd-vllmrocm7"
 }
 
+variable "do_application_amddeveloperclou-pytorch2100rocm7" {
+  description = "PyTorch 2.10.0 (ROCm 7.2) 2.10.0 - ROCm 7.2 on Ubuntu 24.04"
+  default     = "amddeveloperclou-pytorch2100rocm7"
+}
+
 variable "do_application_amddeveloperclou-sglang059" {
   description = "SGLang 0.5.9 0.5.9 - ROCm 7.0 on Ubuntu 24.04"
   default     = "amddeveloperclou-sglang059"
