@@ -524,7 +524,7 @@ variable "do_application_dokku-20-04" {
 }
 
 variable "do_application_doteamaccount-helloworld" {
-  description = "Hello World 2026.4.9 on Ubuntu 24.04"
+  description = "Hello World 2026.4.23 on Ubuntu 24.04"
   default     = "doteamaccount-helloworld"
 }
 
