@@ -514,7 +514,7 @@ variable "do_application_docker-20-04" {
 }
 
 variable "do_application_dockeragent" {
-  description = "Docker Agent 1.44.0 on Ubuntu 24.04"
+  description = "Docker Agent 1.50.0 on Ubuntu 24.04"
   default     = "dockeragent"
 }
 
