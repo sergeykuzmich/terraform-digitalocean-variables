@@ -239,7 +239,7 @@ variable "do_application_bigcloud-odoo" {
 }
 
 variable "do_application_bitwarden" {
-  description = "Bitwarden 2026.3.2 on Ubuntu 24.04"
+  description = "Bitwarden 2026.4.0 on Ubuntu 24.04"
   default     = "bitwarden"
 }
 
@@ -529,7 +529,7 @@ variable "do_application_doteamaccount-helloworld" {
 }
 
 variable "do_application_doteamaccount-pocketbase" {
-  description = "PocketBase 0.37.2 on Ubuntu 22.04"
+  description = "PocketBase 0.37.3 on Ubuntu 22.04"
   default     = "doteamaccount-pocketbase"
 }
 
@@ -859,7 +859,7 @@ variable "do_application_litespeedtechnol-openlitespeeddru" {
 }
 
 variable "do_application_litespeedtechnol-openlitespeedjoo-20-04" {
-  description = "OpenLiteSpeed Joomla 5.3.4 on Ubuntu 24.04"
+  description = "OpenLiteSpeed Joomla 6.1.0 on Ubuntu 24.04"
   default     = "litespeedtechnol-openlitespeedjoo-20-04"
 }
 
