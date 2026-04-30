@@ -344,7 +344,7 @@ variable "do_application_coreflux-corefluxmqttbrok" {
 }
 
 variable "do_application_cpanel-cpanelwhmforalma" {
-  description = "cPanel & WHM® for AlmaLinux 9 RELEASE on AlmaLinux 9"
+  description = "cPanel & WHM® for AlmaLinux 9 11.134.0.20 on AlmaLinux 9"
   default     = "cpanel-cpanelwhmforalma"
 }
 
