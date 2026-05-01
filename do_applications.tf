@@ -349,7 +349,7 @@ variable "do_application_cpanel-cpanelwhmforalma" {
 }
 
 variable "do_application_cpanel-cpanelwhmforubun" {
-  description = "cPanel & WHM® for Ubuntu RELEASE on Ubuntu 22.04"
+  description = "cPanel & WHM® for Ubuntu 11.134.0.20 on Ubuntu 22.04"
   default     = "cpanel-cpanelwhmforubun"
 }
 
@@ -529,7 +529,7 @@ variable "do_application_doteamaccount-helloworld" {
 }
 
 variable "do_application_doteamaccount-pocketbase" {
-  description = "PocketBase 0.37.3 on Ubuntu 22.04"
+  description = "PocketBase 0.37.4 on Ubuntu 22.04"
   default     = "doteamaccount-pocketbase"
 }
 
@@ -1029,7 +1029,7 @@ variable "do_application_openclaw" {
 }
 
 variable "do_application_opencode" {
-  description = "OpenCode 1.14.18 on Ubuntu 24.04"
+  description = "OpenCode 1.14.30 on Ubuntu 24.04"
   default     = "opencode"
 }
 
@@ -1299,7 +1299,7 @@ variable "do_application_semaphore" {
 }
 
 variable "do_application_severalnines-clustercontrol-20-04" {
-  description = "ClusterControl 2.3.4 on Ubuntu 24.04"
+  description = "ClusterControl 2.4.0 on Ubuntu 24.04"
   default     = "severalnines-clustercontrol-20-04"
 }
 
@@ -1591,6 +1591,11 @@ variable "do_application_virolateam-virolamessenger" {
 variable "do_application_vodianetworks-vodiaanalyticsse" {
   description = "Vodia Analytics Server 1.0.0 on Ubuntu 24.04 (LTS)"
   default     = "vodianetworks-vodiaanalyticsse"
+}
+
+variable "do_application_vodianetworks-vodiamonitor1" {
+  description = "Vodia Monitor 1.0.0 on Ubuntu 24.04 LTS"
+  default     = "vodianetworks-vodiamonitor1"
 }
 
 variable "do_application_vodianetworks-vodiapbxprepaido" {
