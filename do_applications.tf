@@ -643,6 +643,11 @@ variable "do_application_goauthentikio-authentik" {
   default     = "goauthentikio-authentik"
 }
 
+variable "do_application_goose" {
+  description = "Goose 1.33.1 on Ubuntu 24.04"
+  default     = "goose"
+}
+
 variable "do_application_grafana-18-04" {
   description = "Grafana 11.2 on Ubuntu 24.04"
   default     = "grafana-18-04"
@@ -1029,7 +1034,7 @@ variable "do_application_openclaw" {
 }
 
 variable "do_application_opencode" {
-  description = "OpenCode 1.14.30 on Ubuntu 24.04"
+  description = "OpenCode 1.14.32 on Ubuntu 24.04"
   default     = "opencode"
 }
 
