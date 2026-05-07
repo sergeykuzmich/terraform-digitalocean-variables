@@ -334,7 +334,7 @@ variable "do_application_convoy" {
 }
 
 variable "do_application_coolify" {
-  description = "Coolify 4.0.0-beta.470 on Ubuntu 24.04"
+  description = "Coolify 4.0.0 on Ubuntu 24.04"
   default     = "coolify"
 }
 
@@ -589,12 +589,12 @@ variable "do_application_flashphoner-7-6" {
 }
 
 variable "do_application_flask" {
-  description = "Flask 3.0.0 on Ubuntu 22.04"
+  description = "Flask 3.0.1 on Ubuntu 22.04"
   default     = "flask"
 }
 
 variable "do_application_flexifyio-flexifyiomulticl-20-04" {
-  description = "Flexify.IO Multi-cloud / Migration 2.23.0 on Ubuntu 24.04 LTS"
+  description = "Flexify.IO Multi-cloud / Migration 2.24.0 on Ubuntu 24.04 LTS"
   default     = "flexifyio-flexifyiomulticl-20-04"
 }
 
