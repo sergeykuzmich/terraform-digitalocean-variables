@@ -283,6 +283,11 @@ variable "do_application_caprover-18-04" {
   default     = "caprover-18-04"
 }
 
+variable "do_application_celiumssolutions-celiumsmemoryai" {
+  description = "Celiums Memory AI 1.2.7 on Ubuntu 24.04 (LTS)"
+  default     = "celiumssolutions-celiumsmemoryai"
+}
+
 variable "do_application_certellixcom-certellix" {
   description = "Certellix 1.4.2 on Ubuntu 24.04 LTS"
   default     = "certellixcom-certellix"
@@ -304,7 +309,7 @@ variable "do_application_chevereto-xrdebug" {
 }
 
 variable "do_application_citedy-adclaw" {
-  description = "AdClaw 1.0.0 on Ubuntu 24.04 LTS"
+  description = "AdClaw 1.0.2 on Ubuntu 24.04 LTS"
   default     = "citedy-adclaw"
 }
 
@@ -564,7 +569,7 @@ variable "do_application_elasticsearch" {
 }
 
 variable "do_application_eltrino-magento2opensour-20-04" {
-  description = "Magento 2 Open Source 1.6.15 on Ubuntu 20.04 (LTS)"
+  description = "Magento 2 Open Source 1.6.19 on Ubuntu 20.04 (LTS)"
   default     = "eltrino-magento2opensour-20-04"
 }
 
@@ -774,7 +779,7 @@ variable "do_application_josecanchila-thormail" {
 }
 
 variable "do_application_kandralabs-zulip-18-04" {
-  description = "Zulip 11.6 on Ubuntu 22.04"
+  description = "Zulip 12.0 on Ubuntu 22.04"
   default     = "kandralabs-zulip-18-04"
 }
 
@@ -1029,7 +1034,7 @@ variable "do_application_openboxes-openboxesserver" {
 }
 
 variable "do_application_openclaw" {
-  description = "OpenClaw 4.9 on Ubuntu"
+  description = "OpenClaw 2026.5.6 on Ubuntu"
   default     = "openclaw"
 }
 
@@ -1239,7 +1244,7 @@ variable "do_application_rexarsystems-ngstack" {
 }
 
 variable "do_application_ringq" {
-  description = "RingQ 8.7.68 on Debian 12 x64"
+  description = "RingQ 8.7.69 on Debian 12 x64"
   default     = "ringq"
 }
 
