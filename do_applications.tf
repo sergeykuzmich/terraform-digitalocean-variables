@@ -519,12 +519,12 @@ variable "do_application_docker-20-04" {
 }
 
 variable "do_application_dockeragent" {
-  description = "Docker Agent 1.50.0 on Ubuntu 24.04"
+  description = "Docker Agent 1.54.0 on Ubuntu 24.04"
   default     = "dockeragent"
 }
 
 variable "do_application_dokku-20-04" {
-  description = "Dokku 0.37.8 on Ubuntu 24.04"
+  description = "Dokku 0.38.0 on Ubuntu 24.04"
   default     = "dokku-20-04"
 }
 
@@ -1329,7 +1329,7 @@ variable "do_application_sharklabs-codeserver1" {
 }
 
 variable "do_application_sharklabs-conduktorconsole" {
-  description = "Conduktor Console 1.44.1 on Ubuntu 24.04"
+  description = "Conduktor Console 1.45.0 on Ubuntu 24.04"
   default     = "sharklabs-conduktorconsole"
 }
 
