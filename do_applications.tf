@@ -134,12 +134,12 @@ variable "do_application_analythium-shinyproxy-20-04" {
 }
 
 variable "do_application_antmedia-antmediaserverco-18-04" {
-  description = "Ant Media Server Community Edition 2.17.1 on Ubuntu 24.04"
+  description = "Ant Media Server Community Edition 3.0.3 on Ubuntu 24.04"
   default     = "antmedia-antmediaserverco-18-04"
 }
 
 variable "do_application_antmedia-antmediaserveren-18-04" {
-  description = "Ant Media Server Enterprise Edition 2.17.1 on Ubuntu 24.04"
+  description = "Ant Media Server Enterprise Edition 3.0.3 on Ubuntu 24.04"
   default     = "antmedia-antmediaserveren-18-04"
 }
 
@@ -349,12 +349,12 @@ variable "do_application_coreflux-corefluxmqttbrok" {
 }
 
 variable "do_application_cpanel-cpanelwhmforalma" {
-  description = "cPanel & WHM® for AlmaLinux 9 11.134.0.20 on AlmaLinux 9"
+  description = "cPanel & WHM® for AlmaLinux 9 11.134.0.23 on AlmaLinux 9"
   default     = "cpanel-cpanelwhmforalma"
 }
 
 variable "do_application_cpanel-cpanelwhmforubun" {
-  description = "cPanel & WHM® for Ubuntu 11.134.0.20 on Ubuntu 22.04"
+  description = "cPanel & WHM® for Ubuntu 11.134.0.25 on Ubuntu 22.04"
   default     = "cpanel-cpanelwhmforubun"
 }
 
