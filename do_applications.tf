@@ -239,7 +239,7 @@ variable "do_application_bigcloud-odoo" {
 }
 
 variable "do_application_bitwarden" {
-  description = "Bitwarden 2026.4.0 on Ubuntu 24.04"
+  description = "Bitwarden 2026.4.1 on Ubuntu 24.04"
   default     = "bitwarden"
 }
 
@@ -1039,7 +1039,7 @@ variable "do_application_openclaw" {
 }
 
 variable "do_application_opencode" {
-  description = "OpenCode 1.14.32 on Ubuntu 24.04"
+  description = "OpenCode 1.14.41 on Ubuntu 24.04"
   default     = "opencode"
 }
 
