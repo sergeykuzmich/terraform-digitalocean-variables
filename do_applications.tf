@@ -534,7 +534,7 @@ variable "do_application_doteamaccount-helloworld" {
 }
 
 variable "do_application_doteamaccount-pocketbase" {
-  description = "PocketBase 0.37.4 on Ubuntu 22.04"
+  description = "PocketBase 0.38.0 on Ubuntu 22.04"
   default     = "doteamaccount-pocketbase"
 }
 
@@ -864,7 +864,7 @@ variable "do_application_litespeedtechnol-openlitespeeddja-20-04" {
 }
 
 variable "do_application_litespeedtechnol-openlitespeeddru" {
-  description = "OpenLiteSpeed Drupal 11.2.8 on Ubuntu 24.04"
+  description = "OpenLiteSpeed Drupal 11.3.9 on Ubuntu 24.04"
   default     = "litespeedtechnol-openlitespeeddru"
 }
 
@@ -874,7 +874,7 @@ variable "do_application_litespeedtechnol-openlitespeedjoo-20-04" {
 }
 
 variable "do_application_litespeedtechnol-openlitespeednod-20-04" {
-  description = "OpenLiteSpeed NodeJS 24.11.1 on Ubuntu 24.04"
+  description = "OpenLiteSpeed NodeJS 26.1.0 on Ubuntu 24.04"
   default     = "litespeedtechnol-openlitespeednod-20-04"
 }
 
@@ -1624,7 +1624,7 @@ variable "do_application_warpspeedvpn-wpcontroller" {
 }
 
 variable "do_application_wgdashboard" {
-  description = "WGDashboard 4.3.0.1 on Ubuntu 22.04"
+  description = "WGDashboard 4.3.3 on Ubuntu 24.04"
   default     = "wgdashboard"
 }
 
