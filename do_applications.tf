@@ -1618,6 +1618,11 @@ variable "do_application_vodianetworks-vodiaphonesystem-10" {
   default     = "vodianetworks-vodiaphonesystem-10"
 }
 
+variable "do_application_vodianetworks-vodiawallboardss" {
+  description = "Vodia Wallboards. Server 1.0.0 on Ubuntu 24.04 (LTS)"
+  default     = "vodianetworks-vodiawallboardss"
+}
+
 variable "do_application_warpspeedvpn-wpcontroller" {
   description = "wpcontroller 20221127181653 on Ubuntu 22.04"
   default     = "warpspeedvpn-wpcontroller"
