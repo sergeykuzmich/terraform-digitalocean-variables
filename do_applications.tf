@@ -349,12 +349,12 @@ variable "do_application_coreflux-corefluxmqttbrok" {
 }
 
 variable "do_application_cpanel-cpanelwhmforalma" {
-  description = "cPanel & WHM® for AlmaLinux 9 11.134.0.23 on AlmaLinux 9"
+  description = "cPanel & WHM® for AlmaLinux 9 11.134.0.26 on AlmaLinux 9"
   default     = "cpanel-cpanelwhmforalma"
 }
 
 variable "do_application_cpanel-cpanelwhmforubun" {
-  description = "cPanel & WHM® for Ubuntu 11.134.0.25 on Ubuntu 22.04"
+  description = "cPanel & WHM® for Ubuntu 11.134.0.26 on Ubuntu 22.04"
   default     = "cpanel-cpanelwhmforubun"
 }
 
@@ -1266,6 +1266,26 @@ variable "do_application_rubyonrails-20-04" {
 variable "do_application_runcloud-runcloud2004-20-04" {
   description = "RunCloud-20.04 2.6.1.1 on Ubuntu 20.04"
   default     = "runcloud-runcloud2004-20-04"
+}
+
+variable "do_application_runcloud-runcloud2404ngin" {
+  description = "RunCloud-24.04 (NGINX, MariaDB) 2.17 on Ubuntu 24.04"
+  default     = "runcloud-runcloud2404ngin"
+}
+
+variable "do_application_runcloud-runcloud2404nginxmysql" {
+  description = "RunCloud-24.04 (NGINX, MySQL) 2.17 on Ubuntu 24.04"
+  default     = "runcloud-runcloud2404nginxmysql"
+}
+
+variable "do_application_runcloud-runcloud2404olsm" {
+  description = "RunCloud-24.04 (OLS, MariaDB) 2.17 on Ubuntu 24.04"
+  default     = "runcloud-runcloud2404olsm"
+}
+
+variable "do_application_runcloud-runcloud2404olsmysql" {
+  description = "RunCloud-24.04 (OLS, MySQL) 2.17 on Ubuntu 24.04"
+  default     = "runcloud-runcloud2404olsmysql"
 }
 
 variable "do_application_saltcorn-20-04" {
