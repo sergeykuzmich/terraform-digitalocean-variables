@@ -509,7 +509,7 @@ variable "do_application_discourse-20-04" {
 }
 
 variable "do_application_django-20-04" {
-  description = "Django 6.0.4 on Ubuntu 22.04"
+  description = "Django 6.0.5 on Ubuntu 22.04"
   default     = "django-20-04"
 }
 
@@ -609,7 +609,7 @@ variable "do_application_flowforge" {
 }
 
 variable "do_application_flowforge-flowfuse" {
-  description = "FlowFuse 2.29.1 on Ubuntu 22.04"
+  description = "FlowFuse 2.30.0 on Ubuntu 22.04"
   default     = "flowforge-flowfuse"
 }
 
