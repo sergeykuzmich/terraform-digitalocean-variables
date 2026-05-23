@@ -29,7 +29,7 @@ variable "do_application_activepieces" {
 }
 
 variable "do_application_airflow" {
-  description = "Airflow 2.8.3 on Ubuntu 22.04"
+  description = "Airflow 3.1.8 on Ubuntu 24.04"
   default     = "airflow"
 }
 
@@ -333,6 +333,11 @@ variable "do_application_codertechnologie-vscodeserver" {
   default     = "codertechnologie-vscodeserver"
 }
 
+variable "do_application_codexcli" {
+  description = "Codex CLI 0.133.0 on Ubuntu 24.04"
+  default     = "codexcli"
+}
+
 variable "do_application_convoy" {
   description = "Convoy 0.6.0 on Ubuntu 20.04"
   default     = "convoy"
@@ -504,7 +509,7 @@ variable "do_application_digitaloceanai-sglang" {
 }
 
 variable "do_application_discourse-20-04" {
-  description = "Discourse on Ubuntu 22.04"
+  description = "Discourse on Ubuntu 24.04"
   default     = "discourse-20-04"
 }
 
