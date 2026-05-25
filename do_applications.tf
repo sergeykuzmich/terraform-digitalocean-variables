@@ -149,7 +149,7 @@ variable "do_application_anythingmcp" {
 }
 
 variable "do_application_apliteni-keitaro" {
-  description = "Keitaro 11.0.19 on CentOS 9 Stream"
+  description = "Keitaro 11.1.4 on CentOS 9 Stream"
   default     = "apliteni-keitaro"
 }
 
@@ -1249,7 +1249,7 @@ variable "do_application_rexarsystems-ngstack" {
 }
 
 variable "do_application_ringq" {
-  description = "RingQ 8.7.69 on Debian 12 x64"
+  description = "RingQ 8.7.70 on Debian 12 x64"
   default     = "ringq"
 }
 
