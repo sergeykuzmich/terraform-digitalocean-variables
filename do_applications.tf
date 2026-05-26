@@ -319,7 +319,7 @@ variable "do_application_clickhouse" {
 }
 
 variable "do_application_cloudron-20-04" {
-  description = "Cloudron 9.1.6 on Ubuntu 24.04"
+  description = "Cloudron 9.2.0 on Ubuntu 24.04"
   default     = "cloudron-20-04"
 }
 
@@ -354,17 +354,17 @@ variable "do_application_coreflux-corefluxmqttbrok" {
 }
 
 variable "do_application_cpanel-cpanelwhmforalma" {
-  description = "cPanel & WHM® for AlmaLinux 9 11.134.0.26 on AlmaLinux 9"
+  description = "cPanel & WHM® for AlmaLinux 9 11.134.0.28 on AlmaLinux 9"
   default     = "cpanel-cpanelwhmforalma"
 }
 
 variable "do_application_cpanel-cpanelwhmforubun" {
-  description = "cPanel & WHM® for Ubuntu 11.134.0.26 on Ubuntu 22.04"
+  description = "cPanel & WHM® for Ubuntu 11.134.0.28 on Ubuntu 22.04"
   default     = "cpanel-cpanelwhmforubun"
 }
 
 variable "do_application_cpanel-wpsquared" {
-  description = "WP Squared RELEASE on CloudLinux 8"
+  description = "WP Squared 11.136.1.15 on CloudLinux 8"
   default     = "cpanel-wpsquared"
 }
 
@@ -524,7 +524,7 @@ variable "do_application_docker-20-04" {
 }
 
 variable "do_application_dockeragent" {
-  description = "Docker Agent 1.54.0 on Ubuntu 24.04"
+  description = "Docker Agent 1.60.0 on Ubuntu 24.04"
   default     = "dockeragent"
 }
 
@@ -729,7 +729,7 @@ variable "do_application_icewarp" {
 }
 
 variable "do_application_ikigaisystems-fundamento" {
-  description = "Fundamento 0.1.0 on Ubuntu 22.04"
+  description = "Fundamento 0.2.0 on Ubuntu 24.04"
   default     = "ikigaisystems-fundamento"
 }
 
@@ -1354,7 +1354,7 @@ variable "do_application_sharklabs-codeserver1" {
 }
 
 variable "do_application_sharklabs-conduktorconsole" {
-  description = "Conduktor Console 1.45.0 on Ubuntu 24.04"
+  description = "Conduktor Console 1.45.1 on Ubuntu 24.04"
   default     = "sharklabs-conduktorconsole"
 }
 
