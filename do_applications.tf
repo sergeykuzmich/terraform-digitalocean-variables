@@ -344,7 +344,7 @@ variable "do_application_convoy" {
 }
 
 variable "do_application_coolify" {
-  description = "Coolify 4.0.0 on Ubuntu 24.04"
+  description = "Coolify 4.1.0 on Ubuntu 24.04"
   default     = "coolify"
 }
 
@@ -529,7 +529,7 @@ variable "do_application_dockeragent" {
 }
 
 variable "do_application_dokku-20-04" {
-  description = "Dokku 0.38.0 on Ubuntu 24.04"
+  description = "Dokku 0.38.5 on Ubuntu 24.04"
   default     = "dokku-20-04"
 }
 
@@ -1044,7 +1044,7 @@ variable "do_application_openclaw" {
 }
 
 variable "do_application_opencode" {
-  description = "OpenCode 1.14.41 on Ubuntu 24.04"
+  description = "OpenCode 1.15.5 on Ubuntu 24.04"
   default     = "opencode"
 }
 
