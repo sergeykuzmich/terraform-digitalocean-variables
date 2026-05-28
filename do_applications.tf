@@ -354,12 +354,12 @@ variable "do_application_coreflux-corefluxmqttbrok" {
 }
 
 variable "do_application_cpanel-cpanelwhmforalma" {
-  description = "cPanel & WHM® for AlmaLinux 9 11.134.0.28 on AlmaLinux 9"
+  description = "cPanel & WHM® for AlmaLinux 9 11.134.0.30 on AlmaLinux 9"
   default     = "cpanel-cpanelwhmforalma"
 }
 
 variable "do_application_cpanel-cpanelwhmforubun" {
-  description = "cPanel & WHM® for Ubuntu 11.134.0.28 on Ubuntu 22.04"
+  description = "cPanel & WHM® for Ubuntu 11.134.0.30 on Ubuntu 22.04"
   default     = "cpanel-cpanelwhmforubun"
 }
 
@@ -539,7 +539,7 @@ variable "do_application_doteamaccount-helloworld" {
 }
 
 variable "do_application_doteamaccount-pocketbase" {
-  description = "PocketBase 0.38.0 on Ubuntu 22.04"
+  description = "PocketBase 0.38.1 on Ubuntu 22.04"
   default     = "doteamaccount-pocketbase"
 }
 
@@ -1719,7 +1719,7 @@ variable "do_application_zabbix-zabbixserver64" {
 }
 
 variable "do_application_zeroclaw" {
-  description = "ZeroClaw 0.6.8 on Ubuntu 24.04"
+  description = "ZeroClaw 0.1.7 on Ubuntu 24.04"
   default     = "zeroclaw"
 }
 
