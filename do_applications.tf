@@ -514,7 +514,7 @@ variable "do_application_discourse-20-04" {
 }
 
 variable "do_application_django-20-04" {
-  description = "Django 6.0.5 on Ubuntu 22.04"
+  description = "Django 6.0.5 on Ubuntu 24.04"
   default     = "django-20-04"
 }
 
@@ -539,7 +539,7 @@ variable "do_application_doteamaccount-helloworld" {
 }
 
 variable "do_application_doteamaccount-pocketbase" {
-  description = "PocketBase 0.38.1 on Ubuntu 22.04"
+  description = "PocketBase 0.38.2 on Ubuntu 22.04"
   default     = "doteamaccount-pocketbase"
 }
 
