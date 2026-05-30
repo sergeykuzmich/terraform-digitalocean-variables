@@ -693,6 +693,11 @@ variable "do_application_hashicorpvault" {
   default     = "hashicorpvault"
 }
 
+variable "do_application_hermesagent" {
+  description = "Hermes Agent 0.14.0 on Ubuntu 24.04"
+  default     = "hermesagent"
+}
+
 variable "do_application_hollaex-hollaexkit" {
   description = "HollaEx Kit 2.17.7 on Ubuntu 24.04"
   default     = "hollaex-hollaexkit"
