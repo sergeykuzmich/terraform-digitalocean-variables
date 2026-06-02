@@ -309,7 +309,7 @@ variable "do_application_chevereto-xrdebug" {
 }
 
 variable "do_application_citedy-adclaw" {
-  description = "AdClaw 1.0.2 on Ubuntu 24.04 LTS"
+  description = "AdClaw core on Ubuntu 24.04 LTS"
   default     = "citedy-adclaw"
 }
 
