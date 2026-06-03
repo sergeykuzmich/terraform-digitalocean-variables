@@ -338,6 +338,11 @@ variable "do_application_codexcli" {
   default     = "codexcli"
 }
 
+variable "do_application_codexuniversal" {
+  description = "Codex Universal on Ubuntu 24.04"
+  default     = "codexuniversal"
+}
+
 variable "do_application_convoy" {
   description = "Convoy 0.6.0 on Ubuntu 20.04"
   default     = "convoy"
