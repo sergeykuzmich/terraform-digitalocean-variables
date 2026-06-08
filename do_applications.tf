@@ -519,7 +519,7 @@ variable "do_application_discourse-20-04" {
 }
 
 variable "do_application_django-20-04" {
-  description = "Django 6.0.5 on Ubuntu 24.04"
+  description = "Django 6.0.6 on Ubuntu 24.04"
   default     = "django-20-04"
 }
 
@@ -544,7 +544,7 @@ variable "do_application_doteamaccount-helloworld" {
 }
 
 variable "do_application_doteamaccount-pocketbase" {
-  description = "PocketBase 0.39.0 on Ubuntu 22.04"
+  description = "PocketBase 0.39.1 on Ubuntu 22.04"
   default     = "doteamaccount-pocketbase"
 }
 
@@ -619,7 +619,7 @@ variable "do_application_flowforge" {
 }
 
 variable "do_application_flowforge-flowfuse" {
-  description = "FlowFuse 2.30.0 on Ubuntu 22.04"
+  description = "FlowFuse 2.31.0 on Ubuntu 22.04"
   default     = "flowforge-flowfuse"
 }
 
@@ -959,7 +959,7 @@ variable "do_application_minecraftforgeed" {
 }
 
 variable "do_application_mjmair-inventree" {
-  description = "InvenTree 1.2.6 on Ubuntu 24.04"
+  description = "InvenTree 1.3.4 on Ubuntu 24.04"
   default     = "mjmair-inventree"
 }
 
@@ -1729,7 +1729,7 @@ variable "do_application_zabbix-zabbixserver64" {
 }
 
 variable "do_application_zeroclaw" {
-  description = "ZeroClaw 0.1.7 on Ubuntu 24.04"
+  description = "ZeroClaw v0.7.5 on Ubuntu 24.04"
   default     = "zeroclaw"
 }
 
