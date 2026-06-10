@@ -349,7 +349,7 @@ variable "do_application_convoy" {
 }
 
 variable "do_application_coolify" {
-  description = "Coolify 4.1.0 on Ubuntu 24.04"
+  description = "Coolify 4.1.1 on Ubuntu 24.04"
   default     = "coolify"
 }
 
@@ -359,7 +359,7 @@ variable "do_application_coreflux-corefluxmqttbrok" {
 }
 
 variable "do_application_cpanel-cpanelwhmforalma" {
-  description = "cPanel & WHM® for AlmaLinux 9 11.134.0.30 on AlmaLinux 9"
+  description = "cPanel & WHM® for AlmaLinux 9 11.134.0.34 on AlmaLinux 9"
   default     = "cpanel-cpanelwhmforalma"
 }
 
@@ -529,12 +529,12 @@ variable "do_application_docker-20-04" {
 }
 
 variable "do_application_dockeragent" {
-  description = "Docker Agent 1.60.0 on Ubuntu 24.04"
+  description = "Docker Agent 1.72.0 on Ubuntu 24.04"
   default     = "dockeragent"
 }
 
 variable "do_application_dokku-20-04" {
-  description = "Dokku 0.38.5 on Ubuntu 24.04"
+  description = "Dokku 0.38.16 on Ubuntu 24.04"
   default     = "dokku-20-04"
 }
 
@@ -1054,7 +1054,7 @@ variable "do_application_openclaw" {
 }
 
 variable "do_application_opencode" {
-  description = "OpenCode 1.15.5 on Ubuntu 24.04"
+  description = "OpenCode 1.15.13 on Ubuntu 24.04"
   default     = "opencode"
 }
 
