@@ -28,11 +28,6 @@ variable "do_distibution_centos-stream-9-x64" {
   default     = "centos-stream-9-x64"
 }
 
-variable "do_distibution_debian-12-x64" {
-  description = "Debian 12 x64"
-  default     = "debian-12-x64"
-}
-
 variable "do_distibution_debian-13-x64" {
   description = "Debian 13 x64"
   default     = "debian-13-x64"

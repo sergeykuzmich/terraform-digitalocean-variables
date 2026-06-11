@@ -153,6 +153,11 @@ variable "do_application_apliteni-keitaro" {
   default     = "apliteni-keitaro"
 }
 
+variable "do_application_apps4rent-jenkinsonubuntu2" {
+  description = "Jenkins on ubuntu 24.04  2.555.2 on Ubuntu 24.04"
+  default     = "apps4rent-jenkinsonubuntu2"
+}
+
 variable "do_application_appsmith-18-04" {
   description = "Appsmith 1.85 on Ubuntu 24.04"
   default     = "appsmith-18-04"
@@ -544,7 +549,7 @@ variable "do_application_doteamaccount-helloworld" {
 }
 
 variable "do_application_doteamaccount-pocketbase" {
-  description = "PocketBase 0.39.1 on Ubuntu 22.04"
+  description = "PocketBase 0.39.2 on Ubuntu 22.04"
   default     = "doteamaccount-pocketbase"
 }
 
@@ -604,7 +609,7 @@ variable "do_application_flashphoner-7-6" {
 }
 
 variable "do_application_flask" {
-  description = "Flask 3.0.1 on Ubuntu 22.04"
+  description = "Flask 3.1.3 on Ubuntu 24.04"
   default     = "flask"
 }
 
@@ -784,7 +789,7 @@ variable "do_application_jenkins" {
 }
 
 variable "do_application_jitsiserver-20-04" {
-  description = "Jitsi Server on Ubuntu 24.04"
+  description = "Jitsi Server 1.0.9268 on Ubuntu 24.04"
   default     = "jitsiserver-20-04"
 }
 
@@ -919,7 +924,7 @@ variable "do_application_mangati-novosga" {
 }
 
 variable "do_application_mariadb" {
-  description = "MariaDB 10.6.12 on Ubuntu 22.04"
+  description = "MariaDB 10.11.14 on Ubuntu 24.04"
   default     = "mariadb"
 }
 
@@ -929,7 +934,7 @@ variable "do_application_mastodon-18-04" {
 }
 
 variable "do_application_mean" {
-  description = "MEAN 1.0 on Ubuntu 22.04"
+  description = "MEAN 8.0.17 on Ubuntu 24.04"
   default     = "mean"
 }
 
