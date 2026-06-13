@@ -549,7 +549,7 @@ variable "do_application_doteamaccount-helloworld" {
 }
 
 variable "do_application_doteamaccount-pocketbase" {
-  description = "PocketBase 0.39.2 on Ubuntu 22.04"
+  description = "PocketBase 0.39.3 on Ubuntu 22.04"
   default     = "doteamaccount-pocketbase"
 }
 
@@ -594,7 +594,7 @@ variable "do_application_eummena-moodle-10" {
 }
 
 variable "do_application_farm" {
-  description = "FARM 1.0 on Ubuntu 24.04"
+  description = "FARM on Ubuntu 24.04"
   default     = "farm"
 }
 
@@ -1599,7 +1599,7 @@ variable "do_application_tips4designsrl-uxwizz" {
 }
 
 variable "do_application_ubuntudesktopgno" {
-  description = "Ubuntu Desktop (GNOME) 1.524 on Ubuntu 22.04"
+  description = "Ubuntu Desktop (GNOME) 1.539 on Ubuntu 24.04"
   default     = "ubuntudesktopgno"
 }
 
