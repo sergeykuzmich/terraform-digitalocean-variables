@@ -244,7 +244,7 @@ variable "do_application_bigcloud-odoo" {
 }
 
 variable "do_application_bitwarden" {
-  description = "Bitwarden 2026.5.0 on Ubuntu 24.04"
+  description = "Bitwarden 2026.6.0 on Ubuntu 24.04"
   default     = "bitwarden"
 }
 
@@ -364,7 +364,7 @@ variable "do_application_coreflux-corefluxmqttbrok" {
 }
 
 variable "do_application_cpanel-cpanelwhmforalma" {
-  description = "cPanel & WHM® for AlmaLinux 9 11.134.0.34 on AlmaLinux 9"
+  description = "cPanel & WHM® for AlmaLinux 9 11.136.0.22 on AlmaLinux 9"
   default     = "cpanel-cpanelwhmforalma"
 }
 
@@ -624,7 +624,7 @@ variable "do_application_flowforge" {
 }
 
 variable "do_application_flowforge-flowfuse" {
-  description = "FlowFuse 2.31.0 on Ubuntu 22.04"
+  description = "FlowFuse 2.31.2 on Ubuntu 22.04"
   default     = "flowforge-flowfuse"
 }
 
@@ -659,7 +659,7 @@ variable "do_application_gitlab-gitlabenterprise-20-04" {
 }
 
 variable "do_application_goauthentikio-authentik" {
-  description = "authentik 2026.2.1 on Ubuntu 24.04"
+  description = "authentik 2026.5.3 on Ubuntu 24.04"
   default     = "goauthentikio-authentik"
 }
 
@@ -1339,7 +1339,7 @@ variable "do_application_seatablegmbh-seatable" {
 }
 
 variable "do_application_securityroots-dradis" {
-  description = "dradis 5.0.0 on Debian 12"
+  description = "dradis 5.1.0 on Debian 12"
   default     = "securityroots-dradis"
 }
 
