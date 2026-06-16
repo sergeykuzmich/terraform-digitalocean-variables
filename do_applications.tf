@@ -549,7 +549,7 @@ variable "do_application_doteamaccount-helloworld" {
 }
 
 variable "do_application_doteamaccount-pocketbase" {
-  description = "PocketBase 0.39.3 on Ubuntu 22.04"
+  description = "PocketBase 0.39.4 on Ubuntu 22.04"
   default     = "doteamaccount-pocketbase"
 }
 
