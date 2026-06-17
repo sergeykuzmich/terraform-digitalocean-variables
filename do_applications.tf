@@ -4,7 +4,7 @@
 
 
 variable "do_application_3cxcommunication-3cx" {
-  description = "3CX 20.0.8.1131 on Debian 12 (Bookworm)"
+  description = "3CX 20.0.9.995 on Debian 12 (Bookworm)"
   default     = "3cxcommunication-3cx"
 }
 
@@ -434,7 +434,7 @@ variable "do_application_devrel-teleport-20-04" {
 }
 
 variable "do_application_digitaloceanai-1clickinferencer" {
-  description = "1-Click Inference Ready - Single GPU 1.0.2 on Linux AI/ML Ready"
+  description = "1-Click Inference Ready - Single GPU 1.1.1 on Linux AI/ML Ready"
   default     = "digitaloceanai-1clickinferencer"
 }
 
@@ -676,6 +676,11 @@ variable "do_application_grafana-18-04" {
 variable "do_application_gravitl-netmaker" {
   description = "Netmaker 0.18.7 on Ubuntu 22.10"
   default     = "gravitl-netmaker"
+}
+
+variable "do_application_grokbuild" {
+  description = "Grok Build 0.2.51 on Ubuntu 24.04"
+  default     = "grokbuild"
 }
 
 variable "do_application_haltdos-haltdoscommunity" {
@@ -1384,7 +1389,7 @@ variable "do_application_sharklabs-dropletnfsserver" {
 }
 
 variable "do_application_sharklabs-erpodoo" {
-  description = "Odoo ERP 16 on Ubuntu 22.04"
+  description = "Odoo ERP on Ubuntu 24.04"
   default     = "sharklabs-erpodoo"
 }
 
