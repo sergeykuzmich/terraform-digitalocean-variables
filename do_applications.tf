@@ -158,6 +158,11 @@ variable "do_application_apps4rent-jenkinsonubuntu2" {
   default     = "apps4rent-jenkinsonubuntu2"
 }
 
+variable "do_application_apps4rent-typescriptonubun" {
+  description = "TypeScript on ubuntu 24.04 6.0.3 on Ubuntu 24.04"
+  default     = "apps4rent-typescriptonubun"
+}
+
 variable "do_application_appsmith-18-04" {
   description = "Appsmith 1.85 on Ubuntu 24.04"
   default     = "appsmith-18-04"
@@ -354,7 +359,7 @@ variable "do_application_convoy" {
 }
 
 variable "do_application_coolify" {
-  description = "Coolify 4.1.1 on Ubuntu 24.04"
+  description = "Coolify 4.1.2 on Ubuntu 24.04"
   default     = "coolify"
 }
 
@@ -584,7 +589,7 @@ variable "do_application_elasticsearch" {
 }
 
 variable "do_application_eltrino-magento2opensour-20-04" {
-  description = "Magento 2 Open Source 1.6.19 on Ubuntu 20.04 (LTS)"
+  description = "Magento 2 Open Source 1.7.0 on Ubuntu 24.04 (LTS)"
   default     = "eltrino-magento2opensour-20-04"
 }
 
@@ -1534,7 +1539,7 @@ variable "do_application_stretchshop" {
 }
 
 variable "do_application_supabase" {
-  description = "Supabase 3.8 on Ubuntu 22.04"
+  description = "Supabase 3.9 on Ubuntu 22.04"
   default     = "supabase"
 }
 
