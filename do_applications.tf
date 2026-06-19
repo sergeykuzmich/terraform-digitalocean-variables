@@ -379,7 +379,7 @@ variable "do_application_cpanel-cpanelwhmforubun" {
 }
 
 variable "do_application_cpanel-wpsquared" {
-  description = "WP Squared 11.136.1.15 on CloudLinux 8"
+  description = "WP Squared 11.138.1.2 on CloudLinux 8"
   default     = "cpanel-wpsquared"
 }
 
@@ -629,7 +629,7 @@ variable "do_application_flowforge" {
 }
 
 variable "do_application_flowforge-flowfuse" {
-  description = "FlowFuse 2.31.2 on Ubuntu 22.04"
+  description = "FlowFuse 2.31.3 on Ubuntu 22.04"
   default     = "flowforge-flowfuse"
 }
 
@@ -1069,7 +1069,7 @@ variable "do_application_openclaw" {
 }
 
 variable "do_application_opencode" {
-  description = "OpenCode 1.15.13 on Ubuntu 24.04"
+  description = "OpenCode 1.17.8 on Ubuntu 24.04"
   default     = "opencode"
 }
 
@@ -1479,7 +1479,7 @@ variable "do_application_sharklabs-prometheus2541" {
 }
 
 variable "do_application_sharklabs-strapi1click" {
-  description = "Strapi 1-click 5.0.0 on Ubuntu 24.04"
+  description = "Strapi 5.0.0 on Ubuntu 24.04"
   default     = "sharklabs-strapi1click"
 }
 
@@ -1694,7 +1694,7 @@ variable "do_application_wikijs-18-04" {
 }
 
 variable "do_application_wordpress-20-04" {
-  description = "WordPress on Ubuntu 24.04"
+  description = "WordPress 6.9.4 on Ubuntu 24.04"
   default     = "wordpress-20-04"
 }
 
@@ -1744,7 +1744,7 @@ variable "do_application_zabbix-zabbixserver64" {
 }
 
 variable "do_application_zeroclaw" {
-  description = "ZeroClaw v0.7.5 on Ubuntu 24.04"
+  description = "ZeroClaw v0.8.0 on Ubuntu 24.04"
   default     = "zeroclaw"
 }
 
