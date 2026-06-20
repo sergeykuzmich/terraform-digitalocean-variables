@@ -113,6 +113,11 @@ variable "do_application_amddeveloperclou-pytorch2100rocm7" {
   default     = "amddeveloperclou-pytorch2100rocm7"
 }
 
+variable "do_application_amddeveloperclou-rocm724" {
+  description = "ROCm™ 7.2.4 7.2.4 on Ubuntu 24.04"
+  default     = "amddeveloperclou-rocm724"
+}
+
 variable "do_application_amddeveloperclou-sglang059" {
   description = "SGLang 0.5.9 0.5.9 - ROCm 7.0 on Ubuntu 24.04"
   default     = "amddeveloperclou-sglang059"
@@ -121,6 +126,16 @@ variable "do_application_amddeveloperclou-sglang059" {
 variable "do_application_amddeveloperclou-vllm0171" {
   description = "vLLM 0.17.1 0.17.1 on Ubuntu 24.04"
   default     = "amddeveloperclou-vllm0171"
+}
+
+variable "do_application_amddeveloperclou-vllm0230" {
+  description = "vLLM 0.23.0 0.23.0 on Ubuntu 24.04"
+  default     = "amddeveloperclou-vllm0230"
+}
+
+variable "do_application_amddeveloperclou-vllm0230rocm724" {
+  description = "vLLM 0.23.0 (ROCm 7.2.4) 0.23.0 on Ubuntu 24.04"
+  default     = "amddeveloperclou-vllm0230rocm724"
 }
 
 variable "do_application_amddevelopercloud-rocm72software" {
