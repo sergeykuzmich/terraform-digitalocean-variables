@@ -554,7 +554,7 @@ variable "do_application_docker-20-04" {
 }
 
 variable "do_application_dockeragent" {
-  description = "Docker Agent 1.72.0 on Ubuntu 24.04"
+  description = "Docker Agent 1.81.2 on Ubuntu 24.04"
   default     = "dockeragent"
 }
 
@@ -699,7 +699,7 @@ variable "do_application_gravitl-netmaker" {
 }
 
 variable "do_application_grokbuild" {
-  description = "Grok Build 0.2.51 on Ubuntu 24.04"
+  description = "Grok Build 0.2.56 on Ubuntu 24.04"
   default     = "grokbuild"
 }
 
@@ -1383,6 +1383,11 @@ variable "do_application_sharklabs-anaconda" {
   default     = "sharklabs-anaconda"
 }
 
+variable "do_application_sharklabs-apachekafka" {
+  description = "Apache Kafka 3.1.0 on Ubuntu 24.04"
+  default     = "sharklabs-apachekafka"
+}
+
 variable "do_application_sharklabs-campfire" {
   description = "Campfire on Ubuntu 24.04"
   default     = "sharklabs-campfire"
@@ -1394,7 +1399,7 @@ variable "do_application_sharklabs-codeserver1" {
 }
 
 variable "do_application_sharklabs-conduktorconsole" {
-  description = "Conduktor Console 1.45.1 on Ubuntu 24.04"
+  description = "Conduktor Console 1.46.0 on Ubuntu 24.04"
   default     = "sharklabs-conduktorconsole"
 }
 
@@ -1411,6 +1416,11 @@ variable "do_application_sharklabs-dropletnfsserver" {
 variable "do_application_sharklabs-erpodoo" {
   description = "Odoo ERP on Ubuntu 24.04"
   default     = "sharklabs-erpodoo"
+}
+
+variable "do_application_sharklabs-foldinghome-18-04" {
+  description = "Folding@home 8.5.5 on Ubuntu 24.04"
+  default     = "sharklabs-foldinghome-18-04"
 }
 
 variable "do_application_sharklabs-jupyternotebook" {
