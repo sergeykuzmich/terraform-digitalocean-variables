@@ -389,7 +389,7 @@ variable "do_application_cpanel-cpanelwhmforalma" {
 }
 
 variable "do_application_cpanel-cpanelwhmforubun" {
-  description = "cPanel & WHM® for Ubuntu 11.134.0.30 on Ubuntu 22.04"
+  description = "cPanel & WHM® for Ubuntu 11.136.0.22 on Ubuntu 22.04"
   default     = "cpanel-cpanelwhmforubun"
 }
 
