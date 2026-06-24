@@ -724,7 +724,7 @@ variable "do_application_harperdb-18-04" {
 }
 
 variable "do_application_hashicorpvault" {
-  description = "HashiCorp Vault 1.14.8 on Ubuntu 22.04"
+  description = "HashiCorp Vault on Ubuntu 24.04"
   default     = "hashicorpvault"
 }
 

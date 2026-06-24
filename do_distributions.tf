@@ -38,6 +38,11 @@ variable "do_distibution_fedora-43-x64" {
   default     = "fedora-43-x64"
 }
 
+variable "do_distibution_fedora-44-x64" {
+  description = "Fedora 44 x64"
+  default     = "fedora-44-x64"
+}
+
 variable "do_distibution_gpu-amd-base" {
   description = "Ubuntu AMD AI/ML Ready Image"
   default     = "gpu-amd-base"
