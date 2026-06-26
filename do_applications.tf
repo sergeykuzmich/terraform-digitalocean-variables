@@ -14,7 +14,7 @@ variable "do_application_3cxcommunication-3cxv18" {
 }
 
 variable "do_application_aapanel" {
-  description = "aaPanel 7.0.23 on Ubuntu 22.04"
+  description = "aaPanel 8.0.3 on Ubuntu 24.04"
   default     = "aapanel"
 }
 
@@ -384,7 +384,7 @@ variable "do_application_coreflux-corefluxmqttbrok" {
 }
 
 variable "do_application_cpanel-cpanelwhmforalma" {
-  description = "cPanel & WHM® for AlmaLinux 9 11.136.0.22 on AlmaLinux 9"
+  description = "cPanel & WHM® for AlmaLinux 9 11.136.0.24 on AlmaLinux 9"
   default     = "cpanel-cpanelwhmforalma"
 }
 
@@ -434,7 +434,7 @@ variable "do_application_defensia-defensiaagent" {
 }
 
 variable "do_application_depomo-chartbrew" {
-  description = "Chartbrew 4.8.1 on Ubuntu 22.04"
+  description = "Chartbrew 5.2.2 on Ubuntu 22.04"
   default     = "depomo-chartbrew"
 }
 
@@ -914,7 +914,7 @@ variable "do_application_litespeedtechnol-openlitespeeddru" {
 }
 
 variable "do_application_litespeedtechnol-openlitespeedjoo-20-04" {
-  description = "OpenLiteSpeed Joomla 6.1.0 on Ubuntu 24.04"
+  description = "OpenLiteSpeed Joomla 6.1.1 on Ubuntu 24.04"
   default     = "litespeedtechnol-openlitespeedjoo-20-04"
 }
 
@@ -929,7 +929,7 @@ variable "do_application_litespeedtechnol-openlitespeedrai-20-04" {
 }
 
 variable "do_application_litespeedtechnol-openlitespeedwor-20-04" {
-  description = "OpenLiteSpeed WordPress 6.9 on Ubuntu 24.04"
+  description = "OpenLiteSpeed WordPress 7.0 on Ubuntu 24.04"
   default     = "litespeedtechnol-openlitespeedwor-20-04"
 }
 
@@ -1039,7 +1039,7 @@ variable "do_application_neuralmagic-deepsparseinfere" {
 }
 
 variable "do_application_nextcloudgmbh-nextcloud" {
-  description = "Nextcloud 5.0.0 on Ubuntu 24.04 (LTS)"
+  description = "Nextcloud 6.0.0 on Ubuntu 24.04 (LTS)"
   default     = "nextcloudgmbh-nextcloud"
 }
 
@@ -1179,7 +1179,7 @@ variable "do_application_owncast-10" {
 }
 
 variable "do_application_passboltsa-passboltce-20-04" {
-  description = "Passbolt CE 5.6.0-1 on Debian 12"
+  description = "Passbolt CE 5.13.0-1 on Debian 13"
   default     = "passboltsa-passboltce-20-04"
 }
 
@@ -1689,12 +1689,12 @@ variable "do_application_vodianetworks-vodiapbxprepaido" {
 }
 
 variable "do_application_vodianetworks-vodiaphonesystem-10" {
-  description = "Vodia Multi-tenant Cloud PBX 69.5.7 on Ubuntu 24.04"
+  description = "Vodia Multi-tenant Cloud PBX 70.4 on Ubuntu 24.04"
   default     = "vodianetworks-vodiaphonesystem-10"
 }
 
 variable "do_application_vodianetworks-vodiawallboardss" {
-  description = "Vodia Wallboards. Server 1.0.0 on Ubuntu 24.04 (LTS)"
+  description = "Vodia Wallboards Server 1.0.0 on Ubuntu 24.04 (LTS)"
   default     = "vodianetworks-vodiawallboardss"
 }
 
