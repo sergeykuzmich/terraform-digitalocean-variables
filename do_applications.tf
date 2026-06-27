@@ -1684,7 +1684,7 @@ variable "do_application_vodianetworks-vodiamonitor1" {
 }
 
 variable "do_application_vodianetworks-vodiapbxprepaido" {
-  description = "Vodia PBX Prepaid Offer 69.5.6 on Ubuntu 22.04"
+  description = "Vodia PBX Prepaid Offer 70.4 on Ubuntu 22.04"
   default     = "vodianetworks-vodiapbxprepaido"
 }
 
