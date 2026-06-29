@@ -824,7 +824,7 @@ variable "do_application_josecanchila-thormail" {
 }
 
 variable "do_application_kandralabs-zulip-18-04" {
-  description = "Zulip 12.0 on Ubuntu 22.04"
+  description = "Zulip 12.1 on Ubuntu 22.04"
   default     = "kandralabs-zulip-18-04"
 }
 
@@ -1084,7 +1084,7 @@ variable "do_application_openclaw" {
 }
 
 variable "do_application_opencode" {
-  description = "OpenCode 1.17.8 on Ubuntu 24.04"
+  description = "OpenCode 1.17.11 on Ubuntu 24.04"
   default     = "opencode"
 }
 
@@ -1334,7 +1334,7 @@ variable "do_application_runcloud-runcloud2404olsmysql" {
 }
 
 variable "do_application_saltcorn-20-04" {
-  description = "Saltcorn 1.5.0 on Debian 13"
+  description = "Saltcorn 1.6.0 on Debian 13"
   default     = "saltcorn-20-04"
 }
 
