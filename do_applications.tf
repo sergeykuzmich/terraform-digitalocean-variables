@@ -108,6 +108,11 @@ variable "do_application_amd-vllmrocm7" {
   default     = "amd-vllmrocm7"
 }
 
+variable "do_application_amddeveloperclou-jax082rocm724" {
+  description = "JAX 0.8.2 (ROCm 7.2.4) 0.8.2 on Ubuntu 24.04"
+  default     = "amddeveloperclou-jax082rocm724"
+}
+
 variable "do_application_amddeveloperclou-pytorch2100rocm7" {
   description = "PyTorch 2.10.0 (ROCm 7.2) 2.10.0 - ROCm 7.2 on Ubuntu 24.04"
   default     = "amddeveloperclou-pytorch2100rocm7"
@@ -116,6 +121,11 @@ variable "do_application_amddeveloperclou-pytorch2100rocm7" {
 variable "do_application_amddeveloperclou-rocm724" {
   description = "ROCm™ 7.2.4 7.2.4 on Ubuntu 24.04"
   default     = "amddeveloperclou-rocm724"
+}
+
+variable "do_application_amddeveloperclou-sglang0514rocm72" {
+  description = "SGLang 0.5.14 (ROCm 7.2.4) 0.5.14 on Ubuntu 24.04"
+  default     = "amddeveloperclou-sglang0514rocm72"
 }
 
 variable "do_application_amddeveloperclou-sglang059" {
@@ -136,6 +146,11 @@ variable "do_application_amddeveloperclou-vllm0230" {
 variable "do_application_amddeveloperclou-vllm0230rocm724" {
   description = "vLLM 0.23.0 (ROCm 7.2.4) 0.23.0 on Ubuntu 24.04"
   default     = "amddeveloperclou-vllm0230rocm724"
+}
+
+variable "do_application_amddevelopercloud-pytorch2100rocm724" {
+  description = "PyTorch 2.10.0 (ROCm 7.2.4) 2.10.0 on Ubuntu 24.04"
+  default     = "amddevelopercloud-pytorch2100rocm724"
 }
 
 variable "do_application_amddevelopercloud-rocm72software" {
@@ -269,7 +284,7 @@ variable "do_application_bitwarden" {
 }
 
 variable "do_application_blueskysocialpds" {
-  description = "BlueSky Social PDS 0.4 on Ubuntu 22.04"
+  description = "BlueSky Social PDS 0.4 on Ubuntu 24.04"
   default     = "blueskysocialpds"
 }
 
@@ -884,7 +899,7 @@ variable "do_application_lemp-20-04" {
 }
 
 variable "do_application_linuxgsm" {
-  description = "LinuxGSM 1.0 on Ubuntu 22.04"
+  description = "LinuxGSM 26.1.0 on Ubuntu 24.04"
   default     = "linuxgsm"
 }
 
