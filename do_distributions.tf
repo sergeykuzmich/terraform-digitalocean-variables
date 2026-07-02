@@ -87,4 +87,9 @@ variable "do_distibution_ubuntu-25-10-x64" {
   description = "Ubuntu 25.10 x64"
   default     = "ubuntu-25-10-x64"
 }
+
+variable "do_distibution_ubuntu-26-04-x64" {
+  description = "Ubuntu 26.04 (LTS) x64"
+  default     = "ubuntu-26-04-x64"
+}
     
