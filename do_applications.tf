@@ -1304,7 +1304,7 @@ variable "do_application_rexarsystems-ngstack" {
 }
 
 variable "do_application_ringq" {
-  description = "RingQ 8.7.70 on Debian 12 x64"
+  description = "RingQ 8.7.71 on Debian 12 x64"
   default     = "ringq"
 }
 
@@ -1679,7 +1679,7 @@ variable "do_application_victoriametrics-victorialogssing" {
 }
 
 variable "do_application_victoriametrics-victoriametricss" {
-  description = "VictoriaMetrics Single 1.133.0 on Ubuntu 24.04"
+  description = "VictoriaMetrics Single 1.146.0 on Ubuntu 24.04"
   default     = "victoriametrics-victoriametricss"
 }
 
@@ -1729,7 +1729,7 @@ variable "do_application_whmcs" {
 }
 
 variable "do_application_wikijs-18-04" {
-  description = "Wiki.js 2.5.312 on Ubuntu 24.04 (LTS)"
+  description = "Wiki.js 2.5.314 on Ubuntu 24.04 (LTS)"
   default     = "wikijs-18-04"
 }
 
