@@ -188,6 +188,11 @@ variable "do_application_apps4rent-jenkinsonubuntu2" {
   default     = "apps4rent-jenkinsonubuntu2"
 }
 
+variable "do_application_apps4rent-rprogrammingonub" {
+  description = "R-programming-on-ubuntu-24.04 4.3.3 on Ubuntu 24.04"
+  default     = "apps4rent-rprogrammingonub"
+}
+
 variable "do_application_apps4rent-typescriptonubun" {
   description = "TypeScript on ubuntu 24.04 6.0.3 on Ubuntu 24.04"
   default     = "apps4rent-typescriptonubun"
@@ -279,7 +284,7 @@ variable "do_application_bigcloud-odoo" {
 }
 
 variable "do_application_bitwarden" {
-  description = "Bitwarden 2026.6.0 on Ubuntu 24.04"
+  description = "Bitwarden 2026.6.1 on Ubuntu 24.04"
   default     = "bitwarden"
 }
 
