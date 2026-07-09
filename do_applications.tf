@@ -994,7 +994,7 @@ variable "do_application_mern" {
 }
 
 variable "do_application_mgtcommercegmbh-cloudpanel2ubunt" {
-  description = "CloudPanel 2 - Ubuntu 24.04 2.5.3 on Ubuntu 24.04"
+  description = "CloudPanel 2 - Ubuntu 24.04 2.5.4 on Ubuntu 24.04"
   default     = "mgtcommercegmbh-cloudpanel2ubunt"
 }
 
@@ -1359,7 +1359,7 @@ variable "do_application_saltcorn-20-04" {
 }
 
 variable "do_application_sandflysecurity-20-04" {
-  description = "Sandfly Security 5.7.0 on Debian 13 (Trixie)"
+  description = "Sandfly Security 5.8.0 on Debian 13 (Trixie)"
   default     = "sandflysecurity-20-04"
 }
 
@@ -1654,7 +1654,7 @@ variable "do_application_tips4designsrl-uxwizz" {
 }
 
 variable "do_application_ubuntudesktopgno" {
-  description = "Ubuntu Desktop (GNOME) 1.539 on Ubuntu 24.04"
+  description = "Ubuntu Desktop (GNOME) on Ubuntu 24.04"
   default     = "ubuntudesktopgno"
 }
 
@@ -1679,7 +1679,7 @@ variable "do_application_varnishsoftware-varnishcache-18-04" {
 }
 
 variable "do_application_victoriametrics-victorialogssing" {
-  description = "VictoriaLogs Single 1.43.1 on 24.04"
+  description = "VictoriaLogs Single 1.51.0 on 24.04"
   default     = "victoriametrics-victorialogssing"
 }
 
