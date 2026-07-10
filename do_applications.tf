@@ -183,6 +183,11 @@ variable "do_application_apliteni-keitaro" {
   default     = "apliteni-keitaro"
 }
 
+variable "do_application_apps4rent-apache2onubuntu2" {
+  description = "Apache2 on Ubuntu24-04 2.4.58 on Ubuntu 24.04"
+  default     = "apps4rent-apache2onubuntu2"
+}
+
 variable "do_application_apps4rent-jenkinsonubuntu2" {
   description = "Jenkins on ubuntu 24.04  2.555.2 on Ubuntu 24.04"
   default     = "apps4rent-jenkinsonubuntu2"
@@ -328,6 +333,11 @@ variable "do_application_caprover-18-04" {
   default     = "caprover-18-04"
 }
 
+variable "do_application_celerp" {
+  description = "Celerp on Ubuntu 24.04 (LTS) x"
+  default     = "celerp"
+}
+
 variable "do_application_celiumssolutions-celiumsmemoryai" {
   description = "Celiums Memory AI 1.2.7 on Ubuntu 24.04 (LTS)"
   default     = "celiumssolutions-celiumsmemoryai"
@@ -356,6 +366,11 @@ variable "do_application_chevereto-xrdebug" {
 variable "do_application_citedy-adclaw" {
   description = "AdClaw core on Ubuntu 24.04 LTS"
   default     = "citedy-adclaw"
+}
+
+variable "do_application_clevervpn-clevervpncluster" {
+  description = "Clever VPN Clustered Server v2.1.6 on ubuntu 24.4"
+  default     = "clevervpn-clevervpncluster"
 }
 
 variable "do_application_clickhouse" {
@@ -404,7 +419,7 @@ variable "do_application_coreflux-corefluxmqttbrok" {
 }
 
 variable "do_application_cpanel-cpanelwhmforalma" {
-  description = "cPanel & WHM® for AlmaLinux 9 11.136.0.24 on AlmaLinux 9"
+  description = "cPanel & WHM® for AlmaLinux 9 11.136.0.25 on AlmaLinux 9"
   default     = "cpanel-cpanelwhmforalma"
 }
 
@@ -589,7 +604,7 @@ variable "do_application_doteamaccount-helloworld" {
 }
 
 variable "do_application_doteamaccount-pocketbase" {
-  description = "PocketBase 0.39.4 on Ubuntu 22.04"
+  description = "PocketBase 0.39.5 on Ubuntu 22.04"
   default     = "doteamaccount-pocketbase"
 }
 
@@ -1789,7 +1804,7 @@ variable "do_application_zabbix-zabbixserver64" {
 }
 
 variable "do_application_zeroclaw" {
-  description = "ZeroClaw v0.8.0 on Ubuntu 24.04"
+  description = "ZeroClaw v0.8.2 on Ubuntu 24.04"
   default     = "zeroclaw"
 }
 
