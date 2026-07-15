@@ -193,6 +193,21 @@ variable "do_application_apps4rent-jenkinsonubuntu2" {
   default     = "apps4rent-jenkinsonubuntu2"
 }
 
+variable "do_application_apps4rent-nginxonubuntu240" {
+  description = "Nginx on Ubuntu24-04 1.24.0 on Ubuntu 24.04"
+  default     = "apps4rent-nginxonubuntu240"
+}
+
+variable "do_application_apps4rent-opentofuonubuntu" {
+  description = "Opentofu-on-Ubuntu24-04 1.12.3 on Ubuntu 24.04"
+  default     = "apps4rent-opentofuonubuntu"
+}
+
+variable "do_application_apps4rent-postgresqlonubun" {
+  description = "PostgreSQL on Ubuntu24.04 15.1 on Ubuntu 24.04"
+  default     = "apps4rent-postgresqlonubun"
+}
+
 variable "do_application_apps4rent-rprogrammingonub" {
   description = "R-programming-on-ubuntu-24.04 4.3.3 on Ubuntu 24.04"
   default     = "apps4rent-rprogrammingonub"
@@ -289,7 +304,7 @@ variable "do_application_bigcloud-odoo" {
 }
 
 variable "do_application_bitwarden" {
-  description = "Bitwarden 2026.6.1 on Ubuntu 24.04"
+  description = "Bitwarden 2026.6.2 on Ubuntu 24.04"
   default     = "bitwarden"
 }
 
@@ -389,7 +404,7 @@ variable "do_application_codelathe-filecloud-20-04" {
 }
 
 variable "do_application_codertechnologie-vscodeserver" {
-  description = "VS Code Server 4.19.1 on Ubuntu 22.04 (LTS)"
+  description = "VS Code Server 4.126.0 on Ubuntu 22.04 (LTS)"
   default     = "codertechnologie-vscodeserver"
 }
 
@@ -594,7 +609,7 @@ variable "do_application_dockeragent" {
 }
 
 variable "do_application_dokku-20-04" {
-  description = "Dokku 0.38.16 on Ubuntu 24.04"
+  description = "Dokku 0.38.20 on Ubuntu 24.04"
   default     = "dokku-20-04"
 }
 
@@ -764,7 +779,7 @@ variable "do_application_hashicorpvault" {
 }
 
 variable "do_application_hermesagent" {
-  description = "Hermes Agent 0.14.0 on Ubuntu 24.04"
+  description = "Hermes Agent v2026.7.7.2 on Ubuntu 24.04"
   default     = "hermesagent"
 }
 
@@ -1609,7 +1624,7 @@ variable "do_application_superinverse-statusnook" {
 }
 
 variable "do_application_supernetworks-spr" {
-  description = "SPR 0.3.13 on Ubuntu 24.04"
+  description = "SPR 1.1.8 on Ubuntu 24.04"
   default     = "supernetworks-spr"
 }
 
