@@ -38,6 +38,11 @@ variable "do_application_akaunting-20-04" {
   default     = "akaunting-20-04"
 }
 
+variable "do_application_alby-albyhub" {
+  description = "Alby Hub 1.23.0 on Ubuntu 24.04"
+  default     = "alby-albyhub"
+}
+
 variable "do_application_amd-jax0435" {
   description = "JAX 0.4.35 0.4.35 on Ubuntu 24.04"
   default     = "amd-jax0435"
@@ -133,6 +138,11 @@ variable "do_application_amddeveloperclou-sglang059" {
   default     = "amddeveloperclou-sglang059"
 }
 
+variable "do_application_amddeveloperclou-unslothstudioroc" {
+  description = "Unsloth Studio (ROCm 7.2.4) 2026.7.2 on Ubuntu 24.04"
+  default     = "amddeveloperclou-unslothstudioroc"
+}
+
 variable "do_application_amddeveloperclou-vllm0171" {
   description = "vLLM 0.17.1 0.17.1 on Ubuntu 24.04"
   default     = "amddeveloperclou-vllm0171"
@@ -188,6 +198,16 @@ variable "do_application_apps4rent-apache2onubuntu2" {
   default     = "apps4rent-apache2onubuntu2"
 }
 
+variable "do_application_apps4rent-djangoscikitlear" {
+  description = "Django-Scikitlearn on Ubuntu24-04 6.0.7,1.9.0 on Ubuntu 24.04"
+  default     = "apps4rent-djangoscikitlear"
+}
+
+variable "do_application_apps4rent-golangonubuntu24" {
+  description = "Golang on Ubuntu24.04 1.26.5 on Ubuntu 24.04"
+  default     = "apps4rent-golangonubuntu24"
+}
+
 variable "do_application_apps4rent-jenkinsonubuntu2" {
   description = "Jenkins on ubuntu 24.04  2.555.2 on Ubuntu 24.04"
   default     = "apps4rent-jenkinsonubuntu2"
@@ -198,6 +218,11 @@ variable "do_application_apps4rent-nginxonubuntu240" {
   default     = "apps4rent-nginxonubuntu240"
 }
 
+variable "do_application_apps4rent-openjdk17onubunt" {
+  description = "OpenJDK17 on Ubuntu24-04 17.0.19 on Ubuntu 24.04"
+  default     = "apps4rent-openjdk17onubunt"
+}
+
 variable "do_application_apps4rent-opentofuonubuntu" {
   description = "Opentofu-on-Ubuntu24-04 1.12.3 on Ubuntu 24.04"
   default     = "apps4rent-opentofuonubuntu"
@@ -206,6 +231,11 @@ variable "do_application_apps4rent-opentofuonubuntu" {
 variable "do_application_apps4rent-postgresqlonubun" {
   description = "PostgreSQL on Ubuntu24.04 15.1 on Ubuntu 24.04"
   default     = "apps4rent-postgresqlonubun"
+}
+
+variable "do_application_apps4rent-redisonubuntu240" {
+  description = "Redis on Ubuntu24.04 7.0.15 on Ubuntu 24.04"
+  default     = "apps4rent-redisonubuntu240"
 }
 
 variable "do_application_apps4rent-rprogrammingonub" {
@@ -434,7 +464,7 @@ variable "do_application_coreflux-corefluxmqttbrok" {
 }
 
 variable "do_application_cpanel-cpanelwhmforalma" {
-  description = "cPanel & WHM® for AlmaLinux 9 11.136.0.25 on AlmaLinux 9"
+  description = "cPanel & WHM® for AlmaLinux 9 11.136.0.28 on AlmaLinux 9"
   default     = "cpanel-cpanelwhmforalma"
 }
 
@@ -619,7 +649,7 @@ variable "do_application_doteamaccount-helloworld" {
 }
 
 variable "do_application_doteamaccount-pocketbase" {
-  description = "PocketBase 0.39.5 on Ubuntu 22.04"
+  description = "PocketBase 0.39.6 on Ubuntu 22.04"
   default     = "doteamaccount-pocketbase"
 }
 
@@ -1034,7 +1064,7 @@ variable "do_application_microwebercms-microweber-20-04" {
 }
 
 variable "do_application_minecraftforgeed" {
-  description = "Minecraft Forge Edition Server 1.20.2 on Ubuntu 22.04"
+  description = "Minecraft Forge Edition Server 26.1.2 on Ubuntu 24.04"
   default     = "minecraftforgeed"
 }
 
@@ -1129,7 +1159,7 @@ variable "do_application_openboxes-openboxesserver" {
 }
 
 variable "do_application_openclaw" {
-  description = "OpenClaw 2026.5.19 on Ubuntu 24.04"
+  description = "OpenClaw 2026.6.11 on Ubuntu 24.04"
   default     = "openclaw"
 }
 
@@ -1464,7 +1494,7 @@ variable "do_application_sharklabs-dropletnfsserver" {
 }
 
 variable "do_application_sharklabs-erpodoo" {
-  description = "Odoo ERP on Ubuntu 24.04"
+  description = "Odoo ERP 19.5 on Ubuntu 24.04"
   default     = "sharklabs-erpodoo"
 }
 

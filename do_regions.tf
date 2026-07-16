@@ -33,6 +33,11 @@ variable "do_region_lon1" {
   default     = "lon1"
 }
 
+variable "do_region_mkc1" {
+  description = "Kansas City 1"
+  default     = "mkc1"
+}
+
 variable "do_region_nyc1" {
   description = "New York 1"
   default     = "nyc1"
