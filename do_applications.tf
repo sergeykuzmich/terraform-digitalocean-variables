@@ -123,6 +123,11 @@ variable "do_application_amddeveloperclou-pytorch2100rocm7" {
   default     = "amddeveloperclou-pytorch2100rocm7"
 }
 
+variable "do_application_amddeveloperclou-rocm714software" {
+  description = "ROCm™ 7.14 Software 7.14 on Ubuntu 24.04"
+  default     = "amddeveloperclou-rocm714software"
+}
+
 variable "do_application_amddeveloperclou-rocm724" {
   description = "ROCm™ 7.2.4 7.2.4 on Ubuntu 24.04"
   default     = "amddeveloperclou-rocm724"
@@ -139,7 +144,7 @@ variable "do_application_amddeveloperclou-sglang059" {
 }
 
 variable "do_application_amddeveloperclou-unslothstudioroc" {
-  description = "Unsloth Studio (ROCm 7.2.4) 2026.7.2 on Ubuntu 24.04"
+  description = "Unsloth Studio (ROCm 7.2.4) 2026.7.3 on Ubuntu 24.04"
   default     = "amddeveloperclou-unslothstudioroc"
 }
 
@@ -1164,7 +1169,7 @@ variable "do_application_openclaw" {
 }
 
 variable "do_application_opencode" {
-  description = "OpenCode 1.17.11 on Ubuntu 24.04"
+  description = "OpenCode 1.17.14 on Ubuntu 24.04"
   default     = "opencode"
 }
 
