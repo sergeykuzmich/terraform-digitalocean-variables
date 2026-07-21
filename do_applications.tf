@@ -113,6 +113,11 @@ variable "do_application_amd-vllmrocm7" {
   default     = "amd-vllmrocm7"
 }
 
+variable "do_application_amddeveloperclou-amdprimus" {
+  description = "AMD Primus™ v26.4 on Ubuntu 24.04"
+  default     = "amddeveloperclou-amdprimus"
+}
+
 variable "do_application_amddeveloperclou-jax082rocm724" {
   description = "JAX 0.8.2 (ROCm 7.2.4) 0.8.2 on Ubuntu 24.04"
   default     = "amddeveloperclou-jax082rocm724"
