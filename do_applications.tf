@@ -474,7 +474,7 @@ variable "do_application_coreflux-corefluxmqttbrok" {
 }
 
 variable "do_application_cpanel-cpanelwhmforalma" {
-  description = "cPanel & WHM® for AlmaLinux 9 11.136.0.28 on AlmaLinux 9"
+  description = "cPanel & WHM® for AlmaLinux 9 11.136.0.29 on AlmaLinux 9"
   default     = "cpanel-cpanelwhmforalma"
 }
 
@@ -659,7 +659,7 @@ variable "do_application_doteamaccount-helloworld" {
 }
 
 variable "do_application_doteamaccount-pocketbase" {
-  description = "PocketBase 0.39.7 on Ubuntu 22.04"
+  description = "PocketBase 0.39.8 on Ubuntu 22.04"
   default     = "doteamaccount-pocketbase"
 }
 
@@ -1268,6 +1268,11 @@ variable "do_application_owncast-10" {
   default     = "owncast-10"
 }
 
+variable "do_application_panelica-panelicahostingp" {
+  description = "Panelica Hosting Panel 1.0.355 on Ubuntu 24.04"
+  default     = "panelica-panelicahostingp"
+}
+
 variable "do_application_passboltsa-passboltce-20-04" {
   description = "Passbolt CE 5.13.0-1 on Debian 13"
   default     = "passboltsa-passboltce-20-04"
@@ -1458,6 +1463,11 @@ variable "do_application_securityroots-dradis" {
   default     = "securityroots-dradis"
 }
 
+variable "do_application_sekoyatech-libredbstudio" {
+  description = "LibreDB Studio 0.9.59 on Ubuntu 24.04"
+  default     = "sekoyatech-libredbstudio"
+}
+
 variable "do_application_semaphore" {
   description = "Semaphore 2.13.1 on Ubuntu 22.04"
   default     = "semaphore"
@@ -1499,7 +1509,7 @@ variable "do_application_sharklabs-counterstrike2" {
 }
 
 variable "do_application_sharklabs-dropletnfsserver" {
-  description = "Droplet NFS Server on Ubuntu 22.04"
+  description = "Droplet NFS Server on Ubuntu 24.04"
   default     = "sharklabs-dropletnfsserver"
 }
 
@@ -1539,7 +1549,7 @@ variable "do_application_sharklabs-matrixsynapsebac-10" {
 }
 
 variable "do_application_sharklabs-minecraftjavaedi-18-04" {
-  description = "Minecraft: Java Edition Server 1.20.1 on Ubuntu 22.04"
+  description = "Minecraft: Java Edition Server 26.2 on Ubuntu 24.04"
   default     = "sharklabs-minecraftjavaedi-18-04"
 }
 
@@ -1574,7 +1584,7 @@ variable "do_application_sharklabs-pangolin" {
 }
 
 variable "do_application_sharklabs-paperminecraftse" {
-  description = "Paper: Minecraft Server 1.20.4 on Ubuntu 22.04"
+  description = "Paper: Minecraft Server 26.1.2 on Ubuntu 24.04"
   default     = "sharklabs-paperminecraftse"
 }
 
