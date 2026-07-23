@@ -1664,7 +1664,7 @@ variable "do_application_stretchshop" {
 }
 
 variable "do_application_supabase" {
-  description = "Supabase 3.9 on Ubuntu 22.04"
+  description = "Supabase 1.26.05 on Ubuntu 24.04"
   default     = "supabase"
 }
 
