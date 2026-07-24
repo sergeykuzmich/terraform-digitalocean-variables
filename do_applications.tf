@@ -208,6 +208,11 @@ variable "do_application_apps4rent-apache2onubuntu2" {
   default     = "apps4rent-apache2onubuntu2"
 }
 
+variable "do_application_apps4rent-buildahonubuntu2" {
+  description = "Buildah on Ubuntu24.04 1.33.7 on Ubuntu 24.04"
+  default     = "apps4rent-buildahonubuntu2"
+}
+
 variable "do_application_apps4rent-djangoscikitlear" {
   description = "Django-Scikitlearn on Ubuntu24-04 6.0.7,1.9.0 on Ubuntu 24.04"
   default     = "apps4rent-djangoscikitlear"
@@ -238,9 +243,19 @@ variable "do_application_apps4rent-opentofuonubuntu" {
   default     = "apps4rent-opentofuonubuntu"
 }
 
+variable "do_application_apps4rent-podmanubuntu2404" {
+  description = "Podman Ubuntu24.04 4.9.3 on Ubuntu 24.04"
+  default     = "apps4rent-podmanubuntu2404"
+}
+
 variable "do_application_apps4rent-postgresqlonubun" {
   description = "PostgreSQL on Ubuntu24.04 15.1 on Ubuntu 24.04"
   default     = "apps4rent-postgresqlonubun"
+}
+
+variable "do_application_apps4rent-pulumiubuntu2404" {
+  description = "Pulumi Ubuntu24.04 3.251.0 on Ubuntu 24.04"
+  default     = "apps4rent-pulumiubuntu2404"
 }
 
 variable "do_application_apps4rent-redisonubuntu240" {
@@ -649,7 +664,7 @@ variable "do_application_dockeragent" {
 }
 
 variable "do_application_dokku-20-04" {
-  description = "Dokku 0.38.20 on Ubuntu 24.04"
+  description = "Dokku 0.38.25 on Ubuntu 24.04"
   default     = "dokku-20-04"
 }
 
@@ -659,7 +674,7 @@ variable "do_application_doteamaccount-helloworld" {
 }
 
 variable "do_application_doteamaccount-pocketbase" {
-  description = "PocketBase 0.39.8 on Ubuntu 22.04"
+  description = "PocketBase 0.39.9 on Ubuntu 22.04"
   default     = "doteamaccount-pocketbase"
 }
 
@@ -778,6 +793,11 @@ variable "do_application_goose" {
   default     = "goose"
 }
 
+variable "do_application_gorails-hatchbox" {
+  description = "Hatchbox 1.0.0 on Ubuntu 26.04"
+  default     = "gorails-hatchbox"
+}
+
 variable "do_application_grafana-18-04" {
   description = "Grafana 11.2 on Ubuntu 24.04"
   default     = "grafana-18-04"
@@ -819,7 +839,7 @@ variable "do_application_hashicorpvault" {
 }
 
 variable "do_application_hermesagent" {
-  description = "Hermes Agent v2026.7.7.2 on Ubuntu 24.04"
+  description = "Hermes Agent v2026.7.20 on Ubuntu 24.04"
   default     = "hermesagent"
 }
 
@@ -1309,7 +1329,7 @@ variable "do_application_pirichaintechnol-pirisubchainsnod" {
 }
 
 variable "do_application_planesoftware-plane" {
-  description = "Plane 2.2.0 on Ubuntu 22.04 LTS"
+  description = "Plane 3.0.0 on Ubuntu 22.04 LTS"
   default     = "planesoftware-plane"
 }
 
