@@ -149,7 +149,7 @@ variable "do_application_amddeveloperclou-sglang059" {
 }
 
 variable "do_application_amddeveloperclou-unslothstudioroc" {
-  description = "Unsloth Studio (ROCm 7.2.4) 2026.7.3 on Ubuntu 24.04"
+  description = "Unsloth Studio (ROCm 7.2.4) 2026.7.5 on Ubuntu 24.04"
   default     = "amddeveloperclou-unslothstudioroc"
 }
 
@@ -794,7 +794,7 @@ variable "do_application_goose" {
 }
 
 variable "do_application_gorails-hatchbox" {
-  description = "Hatchbox 1.0.0 on Ubuntu 26.04"
+  description = "Hatchbox 1.0.1 on Ubuntu 26.04"
   default     = "gorails-hatchbox"
 }
 
@@ -809,7 +809,7 @@ variable "do_application_gravitl-netmaker" {
 }
 
 variable "do_application_grokbuild" {
-  description = "Grok Build 0.2.56 on Ubuntu 24.04"
+  description = "Grok Build 0.2.111 on Ubuntu 24.04"
   default     = "grokbuild"
 }
 
