@@ -28,6 +28,11 @@ variable "do_application_activepieces" {
   default     = "activepieces"
 }
 
+variable "do_application_adminbolt" {
+  description = "AdminBolt 1.4.0 on AlmaLinux 9.x"
+  default     = "adminbolt"
+}
+
 variable "do_application_airflow" {
   description = "Airflow 3.1.8 on Ubuntu 24.04"
   default     = "airflow"
@@ -179,7 +184,7 @@ variable "do_application_amddevelopercloud-rocm72software" {
 }
 
 variable "do_application_analythium-shinyproxy-20-04" {
-  description = "ShinyProxy 3.2.2 on Ubuntu 24.04"
+  description = "ShinyProxy 3.2.4 on Ubuntu 24.04"
   default     = "analythium-shinyproxy-20-04"
 }
 
@@ -314,7 +319,7 @@ variable "do_application_aumkarthakur-pennpostgresexpr" {
 }
 
 variable "do_application_auspiciaab-theplanminderpos-20-04" {
-  description = "ThePlanMinder PostgreSQL 1.04 on Ubuntu 24.04"
+  description = "ThePlanMinder PostgreSQL 1.05 on Ubuntu 24.04"
   default     = "auspiciaab-theplanminderpos-20-04"
 }
 
@@ -649,7 +654,7 @@ variable "do_application_discourse-20-04" {
 }
 
 variable "do_application_django-20-04" {
-  description = "Django 6.0.6 on Ubuntu 24.04"
+  description = "Django 6.0.7 on Ubuntu 24.04"
   default     = "django-20-04"
 }
 
@@ -659,7 +664,7 @@ variable "do_application_docker-20-04" {
 }
 
 variable "do_application_dockeragent" {
-  description = "Docker Agent 1.81.2 on Ubuntu 24.04"
+  description = "Docker Agent 1.90.0 on Ubuntu 24.04"
   default     = "dockeragent"
 }
 
@@ -749,7 +754,7 @@ variable "do_application_flowforge" {
 }
 
 variable "do_application_flowforge-flowfuse" {
-  description = "FlowFuse 2.31.3 on Ubuntu 22.04"
+  description = "FlowFuse 2.32.0 on Ubuntu 22.04"
   default     = "flowforge-flowfuse"
 }
 
@@ -1004,7 +1009,7 @@ variable "do_application_linuxpatchcom-linuxpatchapplia" {
 }
 
 variable "do_application_litespeedtechnol-cyberpanel-20-04" {
-  description = "CyberPanel 2.4.5 on Ubuntu 24.04"
+  description = "CyberPanel 2.4.7 on Ubuntu 24.04"
   default     = "litespeedtechnol-cyberpanel-20-04"
 }
 
@@ -1194,7 +1199,7 @@ variable "do_application_openclaw" {
 }
 
 variable "do_application_opencode" {
-  description = "OpenCode 1.17.14 on Ubuntu 24.04"
+  description = "OpenCode 1.18.5 on Ubuntu 24.04"
   default     = "opencode"
 }
 
@@ -1519,7 +1524,7 @@ variable "do_application_sharklabs-codeserver1" {
 }
 
 variable "do_application_sharklabs-conduktorconsole" {
-  description = "Conduktor Console 1.46.0 on Ubuntu 24.04"
+  description = "Conduktor Console 1.46.1 on Ubuntu 24.04"
   default     = "sharklabs-conduktorconsole"
 }
 
@@ -1744,7 +1749,7 @@ variable "do_application_temporal" {
 }
 
 variable "do_application_thegrampsproject-grampsweb" {
-  description = "Gramps Web 2.0 on Ubuntu 22.04"
+  description = "Gramps Web 3.0 on Ubuntu 22.04"
   default     = "thegrampsproject-grampsweb"
 }
 
