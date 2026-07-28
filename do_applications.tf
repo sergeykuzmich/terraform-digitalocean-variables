@@ -708,6 +708,11 @@ variable "do_application_edgedb-gel" {
   default     = "edgedb-gel"
 }
 
+variable "do_application_eduardokraus-lmsfriendlyinsta" {
+  description = "LMS Friendly Installation 5.0.2 on Ubuntu 24.04"
+  default     = "eduardokraus-lmsfriendlyinsta"
+}
+
 variable "do_application_elasticsearch" {
   description = "ElasticSearch on Ubuntu 24.04"
   default     = "elasticsearch"
@@ -1844,7 +1849,7 @@ variable "do_application_wikijs-18-04" {
 }
 
 variable "do_application_wordpress-20-04" {
-  description = "WordPress 6.9.5 on Ubuntu 24.04"
+  description = "WordPress 7.0.2 on Ubuntu 24.04"
   default     = "wordpress-20-04"
 }
 
