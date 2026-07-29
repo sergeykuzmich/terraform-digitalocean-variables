@@ -364,7 +364,7 @@ variable "do_application_bigcloud-odoo" {
 }
 
 variable "do_application_bitwarden" {
-  description = "Bitwarden 2026.6.2 on Ubuntu 24.04"
+  description = "Bitwarden 2026.7.0 on Ubuntu 24.04"
   default     = "bitwarden"
 }
 
@@ -1004,7 +1004,7 @@ variable "do_application_lemp-20-04" {
 }
 
 variable "do_application_linuxgsm" {
-  description = "LinuxGSM 26.1.0 on Ubuntu 24.04"
+  description = "LinuxGSM 26.2.0 on Ubuntu 24.04"
   default     = "linuxgsm"
 }
 
@@ -1169,7 +1169,7 @@ variable "do_application_nginx" {
 }
 
 variable "do_application_nirvatosoftware-nirvashare-20-04" {
-  description = "NirvaShare 7.0.0 on Ubuntu 24.04 (LTS)"
+  description = "NirvaShare 7.2.0 on Ubuntu 24.04 (LTS)"
   default     = "nirvatosoftware-nirvashare-20-04"
 }
 
@@ -1199,13 +1199,18 @@ variable "do_application_openboxes-openboxesserver" {
 }
 
 variable "do_application_openclaw" {
-  description = "OpenClaw 2026.6.11 on Ubuntu 24.04"
+  description = "OpenClaw 2026.7.1-2 on Ubuntu 24.04"
   default     = "openclaw"
 }
 
 variable "do_application_opencode" {
   description = "OpenCode 1.18.5 on Ubuntu 24.04"
   default     = "opencode"
+}
+
+variable "do_application_openhands" {
+  description = "OpenHands 1.4.0 on 24.04"
+  default     = "openhands"
 }
 
 variable "do_application_openpanel" {
@@ -1299,13 +1304,18 @@ variable "do_application_owncast-10" {
 }
 
 variable "do_application_panelica-panelicahostingp" {
-  description = "Panelica Hosting Panel 1.0.355 on Ubuntu 24.04"
+  description = "Panelica Hosting Panel 1.0.375 on Ubuntu 24.04"
   default     = "panelica-panelicahostingp"
 }
 
 variable "do_application_passboltsa-passboltce-20-04" {
   description = "Passbolt CE 5.13.0-1 on Debian 13"
   default     = "passboltsa-passboltce-20-04"
+}
+
+variable "do_application_payram" {
+  description = "PayRam 1.0.0 on Ubuntu 24.04 (LTS)"
+  default     = "payram"
 }
 
 variable "do_application_perforce-perforcehelixcor" {
@@ -1464,13 +1474,18 @@ variable "do_application_saltcorn-20-04" {
 }
 
 variable "do_application_sandflysecurity-20-04" {
-  description = "Sandfly Security 5.8.0 on Debian 13 (Trixie)"
+  description = "Sandfly Security 5.8.1 on Debian 13 (Trixie)"
   default     = "sandflysecurity-20-04"
 }
 
 variable "do_application_scalegrid-scalegridcentos7" {
   description = "Scalegrid-Centos7 1 on Centos7"
   default     = "scalegrid-scalegridcentos7"
+}
+
+variable "do_application_scottmillerio-hellonewworld" {
+  description = "Hello New World 2 on 24.04"
+  default     = "scottmillerio-hellonewworld"
 }
 
 variable "do_application_searchblox-searchai" {
@@ -1589,7 +1604,7 @@ variable "do_application_sharklabs-nemoclawalpha" {
 }
 
 variable "do_application_sharklabs-ollamawithopenwe" {
-  description = "Ollama with Open WebUI 0.3.6 on Ubuntu 22.04"
+  description = "Ollama with Open WebUI 0.10.2 on Ubuntu 24.04"
   default     = "sharklabs-ollamawithopenwe"
 }
 
