@@ -494,7 +494,7 @@ variable "do_application_coreflux-corefluxmqttbrok" {
 }
 
 variable "do_application_cpanel-cpanelwhmforalma" {
-  description = "cPanel & WHM® for AlmaLinux 9 11.136.0.29 on AlmaLinux 9"
+  description = "cPanel & WHM® for AlmaLinux 9 11.136.0.31 on AlmaLinux 9"
   default     = "cpanel-cpanelwhmforalma"
 }
 
@@ -1309,7 +1309,7 @@ variable "do_application_panelica-panelicahostingp" {
 }
 
 variable "do_application_passboltsa-passboltce-20-04" {
-  description = "Passbolt CE 5.13.0-1 on Debian 13"
+  description = "Passbolt CE 5.14.0-1 on Debian 13"
   default     = "passboltsa-passboltce-20-04"
 }
 
@@ -1569,7 +1569,7 @@ variable "do_application_sharklabs-foldinghome-18-04" {
 }
 
 variable "do_application_sharklabs-jupyternotebook" {
-  description = "Jupyter Notebook 4.2.4 on Ubuntu 22.04"
+  description = "Jupyter Notebook 7.4.5 on Ubuntu 24.04"
   default     = "sharklabs-jupyternotebook"
 }
 
