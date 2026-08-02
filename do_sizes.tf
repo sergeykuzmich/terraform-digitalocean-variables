@@ -389,22 +389,22 @@ variable "do_size_gpu-6000adax1-48gb" {
 }
 
 variable "do_size_gpu-h100x1-80gb" {
-  description = "240GB RAM; 20 CPU; 720GB SSD - $2522/mo"
+  description = "240GB RAM; 20 CPU; 720GB SSD - $3281/mo"
   default     = "gpu-h100x1-80gb"
 }
 
 variable "do_size_gpu-h100x8-640gb" {
-  description = "1920GB RAM; 160 CPU; 1.998046875TB SSD - $17796/mo"
+  description = "1920GB RAM; 160 CPU; 1.998046875TB SSD - $26248/mo"
   default     = "gpu-h100x8-640gb"
 }
 
 variable "do_size_gpu-h200x1-141gb" {
-  description = "240GB RAM; 24 CPU; 720GB SSD - $2559/mo"
+  description = "240GB RAM; 24 CPU; 720GB SSD - $3326/mo"
   default     = "gpu-h200x1-141gb"
 }
 
 variable "do_size_gpu-h200x8-1128gb" {
-  description = "1920GB RAM; 192 CPU; 1.998046875TB SSD - $20475/mo"
+  description = "1920GB RAM; 192 CPU; 1.998046875TB SSD - $26605/mo"
   default     = "gpu-h200x8-1128gb"
 }
 
@@ -414,12 +414,12 @@ variable "do_size_gpu-l40sx1-48gb" {
 }
 
 variable "do_size_gpu-mi300x1-192gb" {
-  description = "240GB RAM; 20 CPU; 720GB SSD - $1481/mo"
+  description = "240GB RAM; 20 CPU; 720GB SSD - $1927/mo"
   default     = "gpu-mi300x1-192gb"
 }
 
 variable "do_size_gpu-mi300x8-1536gb" {
-  description = "1920GB RAM; 160 CPU; 1.998046875TB SSD - $11844/mo"
+  description = "1920GB RAM; 160 CPU; 1.998046875TB SSD - $15416/mo"
   default     = "gpu-mi300x8-1536gb"
 }
 
