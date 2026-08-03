@@ -29,7 +29,7 @@ variable "do_application_activepieces" {
 }
 
 variable "do_application_adminbolt" {
-  description = "AdminBolt 1.4.0 on AlmaLinux 9.x"
+  description = "AdminBolt 1.5.0 on AlmaLinux 9.x"
   default     = "adminbolt"
 }
 
@@ -439,7 +439,7 @@ variable "do_application_chevereto-xrdebug" {
 }
 
 variable "do_application_citedy-adclaw" {
-  description = "AdClaw core on Ubuntu 24.04 LTS"
+  description = "AdClaw 1.0.33 on Ubuntu 24.04 LTS"
   default     = "citedy-adclaw"
 }
 
@@ -679,7 +679,7 @@ variable "do_application_doteamaccount-helloworld" {
 }
 
 variable "do_application_doteamaccount-pocketbase" {
-  description = "PocketBase 0.39.9 on Ubuntu 22.04"
+  description = "PocketBase 0.39.10 on Ubuntu 22.04"
   default     = "doteamaccount-pocketbase"
 }
 
@@ -759,7 +759,7 @@ variable "do_application_flowforge" {
 }
 
 variable "do_application_flowforge-flowfuse" {
-  description = "FlowFuse 2.32.0 on Ubuntu 22.04"
+  description = "FlowFuse 2.33.0 on Ubuntu 22.04"
   default     = "flowforge-flowfuse"
 }
 
@@ -819,7 +819,7 @@ variable "do_application_gravitl-netmaker" {
 }
 
 variable "do_application_grokbuild" {
-  description = "Grok Build 0.2.111 on Ubuntu 24.04"
+  description = "Grok Build 0.2.118 on Ubuntu 24.04"
   default     = "grokbuild"
 }
 
