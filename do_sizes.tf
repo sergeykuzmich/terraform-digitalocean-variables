@@ -423,6 +423,16 @@ variable "do_size_gpu-mi300x8-1536gb" {
   default     = "gpu-mi300x8-1536gb"
 }
 
+variable "do_size_gpu-mi325x1-256gb" {
+  description = "160GB RAM; 20 CPU; 720GB SSD - $2827/mo"
+  default     = "gpu-mi325x1-256gb"
+}
+
+variable "do_size_gpu-mi325x8-2048gb" {
+  description = "1280GB RAM; 160 CPU; 1.998046875TB SSD - $22618/mo"
+  default     = "gpu-mi325x8-2048gb"
+}
+
 variable "do_size_m-16vcpu-128gb" {
   description = "128GB RAM; 16 CPU; 400GB SSD - $672/mo"
   default     = "m-16vcpu-128gb"

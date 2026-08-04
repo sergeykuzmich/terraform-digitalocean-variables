@@ -128,6 +128,11 @@ variable "do_application_amddeveloperclou-jax082rocm724" {
   default     = "amddeveloperclou-jax082rocm724"
 }
 
+variable "do_application_amddeveloperclou-kimik32biton8xmi" {
+  description = "Kimi K3 2-bit on 8x MI300X UD-Q2_K_XL on Ubuntu 24.04"
+  default     = "amddeveloperclou-kimik32biton8xmi"
+}
+
 variable "do_application_amddeveloperclou-pytorch2100rocm7" {
   description = "PyTorch 2.10.0 (ROCm 7.2) 2.10.0 - ROCm 7.2 on Ubuntu 24.04"
   default     = "amddeveloperclou-pytorch2100rocm7"
@@ -1228,6 +1233,11 @@ variable "do_application_openrouter-spawncodex" {
   default     = "openrouter-spawncodex"
 }
 
+variable "do_application_openrouter-spawncursor" {
+  description = "Spawn Cursor 0.1.0 on Ubuntu 24.04 (LTS)"
+  default     = "openrouter-spawncursor"
+}
+
 variable "do_application_openrouter-spawnhermes" {
   description = "Spawn Hermes 0.1.0 on Ubuntu 24.04 (LTS)"
   default     = "openrouter-spawnhermes"
@@ -1251,6 +1261,16 @@ variable "do_application_openrouter-spawnopenclaw" {
 variable "do_application_openrouter-spawnopencode" {
   description = "Spawn OpenCode 0.1.0 on Ubuntu 24.04 (LTS)"
   default     = "openrouter-spawnopencode"
+}
+
+variable "do_application_openrouter-spawnpi" {
+  description = "Spawn Pi 0.1.0 on Ubuntu 24.04 (LTS)"
+  default     = "openrouter-spawnpi"
+}
+
+variable "do_application_openrouter-spawnt3code" {
+  description = "Spawn t3code 0.1.0 on Ubuntu 24.04 (LTS)"
+  default     = "openrouter-spawnt3code"
 }
 
 variable "do_application_openrouter-spawnzeroclaw" {
