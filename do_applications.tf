@@ -659,7 +659,7 @@ variable "do_application_discourse-20-04" {
 }
 
 variable "do_application_django-20-04" {
-  description = "Django 6.0.7 on Ubuntu 24.04"
+  description = "Django 6.0.8 on Ubuntu 24.04"
   default     = "django-20-04"
 }
 
@@ -764,7 +764,7 @@ variable "do_application_flowforge" {
 }
 
 variable "do_application_flowforge-flowfuse" {
-  description = "FlowFuse 2.33.0 on Ubuntu 22.04"
+  description = "FlowFuse 2.33.2 on Ubuntu 22.04"
   default     = "flowforge-flowfuse"
 }
 
@@ -1209,7 +1209,7 @@ variable "do_application_openclaw" {
 }
 
 variable "do_application_opencode" {
-  description = "OpenCode 1.18.5 on Ubuntu 24.04"
+  description = "OpenCode 1.18.12 on Ubuntu 24.04"
   default     = "opencode"
 }
 
