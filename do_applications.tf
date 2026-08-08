@@ -133,6 +133,11 @@ variable "do_application_amddeveloperclou-kimik32biton8xmi" {
   default     = "amddeveloperclou-kimik32biton8xmi"
 }
 
+variable "do_application_amddeveloperclou-minimaxh3videoau" {
+  description = "MiniMax-H3 Video+Audio on 8x MI300X FL2VA+Ref2VA on Ubuntu 24.04"
+  default     = "amddeveloperclou-minimaxh3videoau"
+}
+
 variable "do_application_amddeveloperclou-pytorch2100rocm7" {
   description = "PyTorch 2.10.0 (ROCm 7.2) 2.10.0 - ROCm 7.2 on Ubuntu 24.04"
   default     = "amddeveloperclou-pytorch2100rocm7"
