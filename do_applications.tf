@@ -509,12 +509,12 @@ variable "do_application_cpanel-cpanelwhmforalma" {
 }
 
 variable "do_application_cpanel-cpanelwhmforubun" {
-  description = "cPanel & WHM® for Ubuntu 11.136.0.22 on Ubuntu 22.04"
+  description = "cPanel & WHM® for Ubuntu 11.136.0.33 on Ubuntu 22.04"
   default     = "cpanel-cpanelwhmforubun"
 }
 
 variable "do_application_cpanel-wpsquared" {
-  description = "WP Squared 11.138.1.2 on CloudLinux 8"
+  description = "WP Squared 11.138.1.6 on CloudLinux 8"
   default     = "cpanel-wpsquared"
 }
 
@@ -924,7 +924,7 @@ variable "do_application_invoiceninja-20-0-4" {
 }
 
 variable "do_application_ispmanager-ispmanager6" {
-  description = "Ispmanager 6 6.138.1 on Ubuntu 24.04"
+  description = "Ispmanager 6 6.146.2 on Ubuntu 24.04"
   default     = "ispmanager-ispmanager6"
 }
 
@@ -1284,7 +1284,7 @@ variable "do_application_openrouter-spawnzeroclaw" {
 }
 
 variable "do_application_openvpn-18-04" {
-  description = "OpenVPN Access Server 3.1.0 on Ubuntu 24.04"
+  description = "OpenVPN Access Server 3.2.2 on Ubuntu 24.04"
   default     = "openvpn-18-04"
 }
 
@@ -1334,7 +1334,7 @@ variable "do_application_panelica-panelicahostingp" {
 }
 
 variable "do_application_passboltsa-passboltce-20-04" {
-  description = "Passbolt CE 5.14.0-1 on Debian 13"
+  description = "Passbolt CE 5.14.3-1 on Debian 13"
   default     = "passboltsa-passboltce-20-04"
 }
 
