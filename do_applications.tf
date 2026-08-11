@@ -679,7 +679,7 @@ variable "do_application_dockeragent" {
 }
 
 variable "do_application_dokku-20-04" {
-  description = "Dokku 0.38.25 on Ubuntu 24.04"
+  description = "Dokku 0.38.26 on Ubuntu 24.04"
   default     = "dokku-20-04"
 }
 
@@ -829,7 +829,7 @@ variable "do_application_gravitl-netmaker" {
 }
 
 variable "do_application_grokbuild" {
-  description = "Grok Build 0.2.118 on Ubuntu 24.04"
+  description = "Grok Build 1.0.0 on Ubuntu 24.04"
   default     = "grokbuild"
 }
 
@@ -1644,7 +1644,7 @@ variable "do_application_sharklabs-opensearch" {
 }
 
 variable "do_application_sharklabs-openwebui" {
-  description = "Open WebUI on Ubuntu 22.04"
+  description = "Open WebUI 0.10.2 on Ubuntu 24.04"
   default     = "sharklabs-openwebui"
 }
 
