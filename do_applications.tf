@@ -143,6 +143,11 @@ variable "do_application_amddeveloperclou-pytorch2100rocm7" {
   default     = "amddeveloperclou-pytorch2100rocm7"
 }
 
+variable "do_application_amddeveloperclou-qwen383biton8xmi" {
+  description = "Qwen3.8 3-bit on 8x MI300X UD-IQ3_XXS on Ubuntu 24.04"
+  default     = "amddeveloperclou-qwen383biton8xmi"
+}
+
 variable "do_application_amddeveloperclou-rocm714software" {
   description = "ROCm™ 7.14 Software 7.14 on Ubuntu 24.04"
   default     = "amddeveloperclou-rocm714software"
@@ -164,7 +169,7 @@ variable "do_application_amddeveloperclou-sglang059" {
 }
 
 variable "do_application_amddeveloperclou-unslothstudioroc" {
-  description = "Unsloth Studio (ROCm 7.2.4) 2026.7.5 on Ubuntu 24.04"
+  description = "Unsloth Studio (ROCm 7.2.4) 2026.8.16 on Ubuntu 24.04"
   default     = "amddeveloperclou-unslothstudioroc"
 }
 
@@ -181,6 +186,11 @@ variable "do_application_amddeveloperclou-vllm0230" {
 variable "do_application_amddeveloperclou-vllm0230rocm724" {
   description = "vLLM 0.23.0 (ROCm 7.2.4) 0.23.0 on Ubuntu 24.04"
   default     = "amddeveloperclou-vllm0230rocm724"
+}
+
+variable "do_application_amddeveloperclou-vllm0271vllmomni" {
+  description = "vLLM 0.27.1 + vLLM-Omni (ROCm 7.14) 0.27.1 on Ubuntu 24.04"
+  default     = "amddeveloperclou-vllm0271vllmomni"
 }
 
 variable "do_application_amddevelopercloud-pytorch2100rocm724" {

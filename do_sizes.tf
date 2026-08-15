@@ -454,22 +454,22 @@ variable "do_size_gpu-mi325x8-2048gb" {
 }
 
 variable "do_size_gpu-mi350x1-288gb-spot" {
-  description = "256GB RAM; 24 CPU; 720GB SSD - $5208/mo"
+  description = "256GB RAM; 24 CPU; 720GB SSD - $2976/mo"
   default     = "gpu-mi350x1-288gb-spot"
 }
 
 variable "do_size_gpu-mi350x8-2304gb-spot" {
-  description = "2048GB RAM; 192 CPU; 1.998046875TB SSD - $41664/mo"
+  description = "2048GB RAM; 192 CPU; 1.998046875TB SSD - $23808/mo"
   default     = "gpu-mi350x8-2304gb-spot"
 }
 
 variable "do_size_gpu-mi355x1-288gb-spot" {
-  description = "256GB RAM; 24 CPU; 720GB SSD - $5952/mo"
+  description = "256GB RAM; 24 CPU; 720GB SSD - $3348/mo"
   default     = "gpu-mi355x1-288gb-spot"
 }
 
 variable "do_size_gpu-mi355x8-2304gb-spot" {
-  description = "2048GB RAM; 192 CPU; 1.998046875TB SSD - $47616/mo"
+  description = "2048GB RAM; 192 CPU; 1.998046875TB SSD - $26784/mo"
   default     = "gpu-mi355x8-2304gb-spot"
 }
 
