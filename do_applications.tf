@@ -168,6 +168,11 @@ variable "do_application_amddeveloperclou-sglang059" {
   default     = "amddeveloperclou-sglang059"
 }
 
+variable "do_application_amddeveloperclou-unslothstudio" {
+  description = "Unsloth Studio 2026.8.18 on Ubuntu 24.04"
+  default     = "amddeveloperclou-unslothstudio"
+}
+
 variable "do_application_amddeveloperclou-unslothstudioroc" {
   description = "Unsloth Studio (ROCm 7.2.4) 2026.8.18 on Ubuntu 24.04"
   default     = "amddeveloperclou-unslothstudioroc"
@@ -504,7 +509,7 @@ variable "do_application_convoy" {
 }
 
 variable "do_application_coolify" {
-  description = "Coolify 4.1.2 on Ubuntu 24.04"
+  description = "Coolify 4.3.1 on Ubuntu 24.04"
   default     = "coolify"
 }
 
@@ -629,7 +634,7 @@ variable "do_application_digitaloceanai-ernie4521ba3bbas" {
 }
 
 variable "do_application_digitaloceanai-jax" {
-  description = "JAX 0.4.35 on Ubuntu 24.04"
+  description = "JAX 0.11.1 on Ubuntu 24.04"
   default     = "digitaloceanai-jax"
 }
 
@@ -699,7 +704,7 @@ variable "do_application_doteamaccount-helloworld" {
 }
 
 variable "do_application_doteamaccount-pocketbase" {
-  description = "PocketBase 0.39.10 on Ubuntu 22.04"
+  description = "PocketBase 0.39.11 on Ubuntu 22.04"
   default     = "doteamaccount-pocketbase"
 }
 
@@ -1229,7 +1234,7 @@ variable "do_application_openclaw" {
 }
 
 variable "do_application_opencode" {
-  description = "OpenCode 1.18.12 on Ubuntu 24.04"
+  description = "OpenCode 1.18.18 on Ubuntu 24.04"
   default     = "opencode"
 }
 
