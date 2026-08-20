@@ -29,7 +29,7 @@ variable "do_application_activepieces" {
 }
 
 variable "do_application_adminbolt" {
-  description = "AdminBolt 1.5.0 on AlmaLinux 9.x"
+  description = "AdminBolt 1.7.0 on AlmaLinux 9.x"
   default     = "adminbolt"
 }
 
@@ -389,7 +389,7 @@ variable "do_application_bigcloud-odoo" {
 }
 
 variable "do_application_bitwarden" {
-  description = "Bitwarden 2026.7.0 on Ubuntu 24.04"
+  description = "Bitwarden 2026.7.2 on Ubuntu 24.04"
   default     = "bitwarden"
 }
 
@@ -689,12 +689,12 @@ variable "do_application_docker-20-04" {
 }
 
 variable "do_application_dockeragent" {
-  description = "Docker Agent 1.90.0 on Ubuntu 24.04"
+  description = "Docker Agent 1.120.0 on Ubuntu 24.04"
   default     = "dockeragent"
 }
 
 variable "do_application_dokku-20-04" {
-  description = "Dokku 0.38.26 on Ubuntu 24.04"
+  description = "Dokku 0.38.27 on Ubuntu 24.04"
   default     = "dokku-20-04"
 }
 
@@ -844,7 +844,7 @@ variable "do_application_gravitl-netmaker" {
 }
 
 variable "do_application_grokbuild" {
-  description = "Grok Build 1.0.0 on Ubuntu 24.04"
+  description = "Grok Build 1.0.5 on Ubuntu 24.04"
   default     = "grokbuild"
 }
 
@@ -1306,6 +1306,11 @@ variable "do_application_openrouter-spawnzeroclaw" {
 variable "do_application_openvpn-18-04" {
   description = "OpenVPN Access Server 3.2.2 on Ubuntu 24.04"
   default     = "openvpn-18-04"
+}
+
+variable "do_application_operateengineeri-operate" {
+  description = "Operate 1.0.0 on Ubuntu 24.04"
+  default     = "operateengineeri-operate"
 }
 
 variable "do_application_optimajet-workflowserver-18-04" {
