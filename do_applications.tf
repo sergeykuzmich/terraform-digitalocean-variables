@@ -429,7 +429,7 @@ variable "do_application_callabacloud-callabacloudlive" {
 }
 
 variable "do_application_caprover-18-04" {
-  description = "CapRover 1.13.3 on Ubuntu 22.04"
+  description = "CapRover 1.15.1 on Ubuntu 24.04"
   default     = "caprover-18-04"
 }
 
@@ -531,6 +531,11 @@ variable "do_application_cpanel-cpanelwhmforubun" {
 variable "do_application_cpanel-wpsquared" {
   description = "WP Squared 11.138.1.6 on CloudLinux 8"
   default     = "cpanel-wpsquared"
+}
+
+variable "do_application_craftcms" {
+  description = "Craft CMS 5.10.11 on 24.04"
+  default     = "craftcms"
 }
 
 variable "do_application_crivion-laranodepanel" {
@@ -753,6 +758,11 @@ variable "do_application_eummena-moodle-10" {
   default     = "eummena-moodle-10"
 }
 
+variable "do_application_exa" {
+  description = "Exa 3.2.1 on 24.04"
+  default     = "exa"
+}
+
 variable "do_application_farm" {
   description = "FARM on Ubuntu 24.04"
   default     = "farm"
@@ -953,6 +963,11 @@ variable "do_application_jelastic-virtuozzoapplica" {
   default     = "jelastic-virtuozzoapplica"
 }
 
+variable "do_application_jellyfin" {
+  description = "Jellyfin 10.11.11 on 24.04"
+  default     = "jellyfin"
+}
+
 variable "do_application_jenkins" {
   description = "Jenkins 2.426.3 on Ubuntu 22.04"
   default     = "jenkins"
@@ -1079,7 +1094,7 @@ variable "do_application_litespeedtechnol-openlitespeedrai-20-04" {
 }
 
 variable "do_application_litespeedtechnol-openlitespeedwor-20-04" {
-  description = "OpenLiteSpeed WordPress 7.0.1 on Ubuntu 26.04"
+  description = "OpenLiteSpeed WordPress 7.0.4 on Ubuntu 26.04"
   default     = "litespeedtechnol-openlitespeedwor-20-04"
 }
 
@@ -1384,7 +1399,7 @@ variable "do_application_pgsync" {
 }
 
 variable "do_application_photoprism-20-04" {
-  description = "PhotoPrism on Ubuntu 22.04"
+  description = "PhotoPrism on Ubuntu 26.04"
   default     = "photoprism-20-04"
 }
 
