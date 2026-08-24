@@ -389,7 +389,7 @@ variable "do_application_bigcloud-odoo" {
 }
 
 variable "do_application_bitwarden" {
-  description = "Bitwarden 2026.7.2 on Ubuntu 24.04"
+  description = "Bitwarden 2026.8.0 on Ubuntu 24.04"
   default     = "bitwarden"
 }
 
@@ -1124,7 +1124,7 @@ variable "do_application_mastodon-18-04" {
 }
 
 variable "do_application_mean" {
-  description = "MEAN 8.0.17 on Ubuntu 24.04"
+  description = "MEAN on Ubuntu 24.04"
   default     = "mean"
 }
 
@@ -1254,7 +1254,7 @@ variable "do_application_opencode" {
 }
 
 variable "do_application_openhands" {
-  description = "OpenHands 1.4.0 on 24.04"
+  description = "OpenHands 1.14.0 on 24.04"
   default     = "openhands"
 }
 
@@ -1374,7 +1374,7 @@ variable "do_application_panelica-panelicahostingp" {
 }
 
 variable "do_application_passboltsa-passboltce-20-04" {
-  description = "Passbolt CE 5.14.3-1 on Debian 13"
+  description = "Passbolt CE 5.15.0-1 on Debian 13"
   default     = "passboltsa-passboltce-20-04"
 }
 
