@@ -194,18 +194,23 @@ variable "do_application_amddeveloperclou-vllm0230rocm724" {
 }
 
 variable "do_application_amddeveloperclou-vllm0271vllmomni" {
-  description = "vLLM 0.27.1 + vLLM-Omni (ROCm 7.14) 0.27.1 on Ubuntu 24.04"
+  description = "vLLM 0.28.0 + vLLM-Omni (ROCm 7.14) 0.28.0 on Ubuntu 24.04"
   default     = "amddeveloperclou-vllm0271vllmomni"
 }
 
 variable "do_application_amddevelopercloud-pytorch2100rocm724" {
-  description = "PyTorch 2.10.0 (ROCm 7.2.4) 2.12.0 on Ubuntu 24.04"
+  description = "PyTorch 2.10.0 (ROCm 7.2.4) 2.11.0 on Ubuntu 24.04"
   default     = "amddevelopercloud-pytorch2100rocm724"
 }
 
 variable "do_application_amddevelopercloud-rocm72software" {
   description = "ROCm™ 7.2 Software 7.2 on Ubuntu 24.04"
   default     = "amddevelopercloud-rocm72software"
+}
+
+variable "do_application_amddevelopercloud-vllm0271vllmomni0270rc1rocm714" {
+  description = "vLLM 0.27.1 + vLLM-Omni 0.27.0rc1 (ROCm 7.14) 0.27.1 on Ubuntu 24.04"
+  default     = "amddevelopercloud-vllm0271vllmomni0270rc1rocm714"
 }
 
 variable "do_application_analythium-shinyproxy-20-04" {
@@ -1034,7 +1039,7 @@ variable "do_application_laravelforge-laravelforgeubun" {
 }
 
 variable "do_application_laravelforge-laravelforgeubuntu2604" {
-  description = "Laravel Forge - Ubuntu 26.04 0.1.0 on Ubuntu 26.04"
+  description = "Laravel Forge - Ubuntu 26.04 0.1.1 on Ubuntu 26.04"
   default     = "laravelforge-laravelforgeubuntu2604"
 }
 
@@ -1569,7 +1574,7 @@ variable "do_application_seatablegmbh-seatable" {
 }
 
 variable "do_application_securityroots-dradis" {
-  description = "dradis 5.1.0 on Debian 12"
+  description = "dradis 5.2.0 on Debian 12"
   default     = "securityroots-dradis"
 }
 
