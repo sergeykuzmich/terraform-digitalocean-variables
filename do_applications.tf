@@ -148,6 +148,11 @@ variable "do_application_amddeveloperclou-qwen383biton8xmi" {
   default     = "amddeveloperclou-qwen383biton8xmi"
 }
 
+variable "do_application_amddeveloperclou-rocm100" {
+  description = "ROCm 10.0 10.0 on Ubuntu 24.04"
+  default     = "amddeveloperclou-rocm100"
+}
+
 variable "do_application_amddeveloperclou-rocm714software" {
   description = "ROCm™ 7.14 Software 7.14 on Ubuntu 24.04"
   default     = "amddeveloperclou-rocm714software"
@@ -174,7 +179,7 @@ variable "do_application_amddeveloperclou-unslothstudio" {
 }
 
 variable "do_application_amddeveloperclou-unslothstudioroc" {
-  description = "Unsloth Studio (ROCm 7.2.4) 2026.8.21 on Ubuntu 24.04"
+  description = "Unsloth Studio (ROCm 7.2.4) 2026.8.22 on Ubuntu 24.04"
   default     = "amddeveloperclou-unslothstudioroc"
 }
 
@@ -199,7 +204,7 @@ variable "do_application_amddeveloperclou-vllm0271vllmomni" {
 }
 
 variable "do_application_amddevelopercloud-pytorch2100rocm724" {
-  description = "PyTorch 2.10.0 (ROCm 7.2.4) 2.11.0 on Ubuntu 24.04"
+  description = "PyTorch 2.10.0 (ROCm 7.2.4) 2.13.0 on Ubuntu 24.04"
   default     = "amddevelopercloud-pytorch2100rocm724"
 }
 
@@ -989,7 +994,7 @@ variable "do_application_josecanchila-thormail" {
 }
 
 variable "do_application_kandralabs-zulip-18-04" {
-  description = "Zulip 12.1 on Ubuntu 22.04"
+  description = "Zulip 12.2 on Ubuntu 22.04"
   default     = "kandralabs-zulip-18-04"
 }
 
@@ -1049,7 +1054,7 @@ variable "do_application_launchwp-launchwpio" {
 }
 
 variable "do_application_lemp-20-04" {
-  description = "LEMP on Ubuntu 24.04"
+  description = "LEMP on Ubuntu 26.04"
   default     = "lemp-20-04"
 }
 
