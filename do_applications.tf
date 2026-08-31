@@ -529,17 +529,17 @@ variable "do_application_coreflux-corefluxmqttbrok" {
 }
 
 variable "do_application_cpanel-cpanelwhmforalma" {
-  description = "cPanel & WHM® for AlmaLinux 9 11.136.0.32 on AlmaLinux 9"
+  description = "cPanel & WHM® for AlmaLinux 9 11.136.0.37 on AlmaLinux 9"
   default     = "cpanel-cpanelwhmforalma"
 }
 
 variable "do_application_cpanel-cpanelwhmforubun" {
-  description = "cPanel & WHM® for Ubuntu 11.136.0.33 on Ubuntu 22.04"
+  description = "cPanel & WHM® for Ubuntu 11.136.0.37 on Ubuntu 22.04"
   default     = "cpanel-cpanelwhmforubun"
 }
 
 variable "do_application_cpanel-wpsquared" {
-  description = "WP Squared 11.138.1.6 on CloudLinux 8"
+  description = "WP Squared 11.138.1.7 on CloudLinux 8"
   default     = "cpanel-wpsquared"
 }
 
@@ -833,6 +833,11 @@ variable "do_application_gibsonai-memori" {
   default     = "gibsonai-memori"
 }
 
+variable "do_application_githubactionsrun" {
+  description = "Github Actions Runner 2.336.0 on 24.04"
+  default     = "githubactionsrun"
+}
+
 variable "do_application_gitlab-gitlabenterprise-20-04" {
   description = "GitLab Enterprise Edition on Ubuntu 22.04"
   default     = "gitlab-gitlabenterprise-20-04"
@@ -1069,7 +1074,7 @@ variable "do_application_linuxpatchcom-linuxpatchapplia" {
 }
 
 variable "do_application_litespeedtechnol-cyberpanel-20-04" {
-  description = "CyberPanel 2.4.7 on Ubuntu 24.04"
+  description = "CyberPanel 3.0.4 on Ubuntu 26.04"
   default     = "litespeedtechnol-cyberpanel-20-04"
 }
 
@@ -1334,7 +1339,7 @@ variable "do_application_openvpn-18-04" {
 }
 
 variable "do_application_operateengineeri-operate" {
-  description = "Operate 1.0.0 on Ubuntu 24.04"
+  description = "Operate 1.1.0 on Ubuntu 24.04"
   default     = "operateengineeri-operate"
 }
 
