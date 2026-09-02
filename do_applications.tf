@@ -204,7 +204,7 @@ variable "do_application_amddeveloperclou-vllm0271vllmomni" {
 }
 
 variable "do_application_amddevelopercloud-pytorch2100rocm724" {
-  description = "PyTorch 2.10.0 (ROCm 7.2.4) 2.13.0 on Ubuntu 24.04"
+  description = "PyTorch 2.10.0 (ROCm 7.2.4) 2.10.0 on Ubuntu 24.04"
   default     = "amddevelopercloud-pytorch2100rocm724"
 }
 
@@ -421,6 +421,11 @@ variable "do_application_botguardo-botguardgatekeep" {
 variable "do_application_botguardo-botguardingressc" {
   description = "BotGuard Ingress Controller 1.0 on Debian 11 (bullseye)"
   default     = "botguardo-botguardingressc"
+}
+
+variable "do_application_buzz" {
+  description = "Buzz 0.2.0 on 24.04"
+  default     = "buzz"
 }
 
 variable "do_application_cagent" {
@@ -719,7 +724,7 @@ variable "do_application_doteamaccount-helloworld" {
 }
 
 variable "do_application_doteamaccount-pocketbase" {
-  description = "PocketBase 0.39.11 on Ubuntu 22.04"
+  description = "PocketBase 0.40.0 on Ubuntu 22.04"
   default     = "doteamaccount-pocketbase"
 }
 
@@ -1259,17 +1264,17 @@ variable "do_application_openboxes-openboxesserver" {
 }
 
 variable "do_application_openclaw" {
-  description = "OpenClaw 2026.7.1-2 on Ubuntu 24.04"
+  description = "OpenClaw 2026.8.2 on Ubuntu 24.04"
   default     = "openclaw"
 }
 
 variable "do_application_opencode" {
-  description = "OpenCode 1.18.18 on Ubuntu 24.04"
+  description = "OpenCode 1.18.25 on Ubuntu 24.04"
   default     = "opencode"
 }
 
 variable "do_application_openhands" {
-  description = "OpenHands 1.14.0 on 24.04"
+  description = "OpenHands 1.16.0 on 24.04"
   default     = "openhands"
 }
 
@@ -1429,7 +1434,7 @@ variable "do_application_pirichaintechnol-pirisubchainsnod" {
 }
 
 variable "do_application_planesoftware-plane" {
-  description = "Plane 3.0.0 on Ubuntu 22.04 LTS"
+  description = "Plane 3.1.2 on Ubuntu 24.04 LTS"
   default     = "planesoftware-plane"
 }
 
@@ -1994,7 +1999,7 @@ variable "do_application_zabbix-zabbixserver64" {
 }
 
 variable "do_application_zeroclaw" {
-  description = "ZeroClaw v0.8.2 on Ubuntu 24.04"
+  description = "ZeroClaw v0.8.4 on Ubuntu 24.04"
   default     = "zeroclaw"
 }
 
