@@ -904,7 +904,7 @@ variable "do_application_hashicorpvault" {
 }
 
 variable "do_application_hermesagent" {
-  description = "Hermes Agent v2026.7.20 on Ubuntu 24.04"
+  description = "Hermes Agent v2026.8.31 on Ubuntu 24.04"
   default     = "hermesagent"
 }
 
