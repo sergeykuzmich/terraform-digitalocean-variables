@@ -724,7 +724,7 @@ variable "do_application_doteamaccount-helloworld" {
 }
 
 variable "do_application_doteamaccount-pocketbase" {
-  description = "PocketBase 0.40.0 on Ubuntu 22.04"
+  description = "PocketBase 0.40.1 on Ubuntu 22.04"
   default     = "doteamaccount-pocketbase"
 }
 
@@ -809,7 +809,7 @@ variable "do_application_flowforge" {
 }
 
 variable "do_application_flowforge-flowfuse" {
-  description = "FlowFuse 2.33.2 on Ubuntu 22.04"
+  description = "FlowFuse 3.0.0 on Ubuntu 22.04"
   default     = "flowforge-flowfuse"
 }
 
@@ -874,7 +874,7 @@ variable "do_application_gravitl-netmaker" {
 }
 
 variable "do_application_grokbuild" {
-  description = "Grok Build 1.0.5 on Ubuntu 24.04"
+  description = "Grok Build 1.0.13 on Ubuntu 24.04"
   default     = "grokbuild"
 }
 
@@ -1269,7 +1269,7 @@ variable "do_application_openclaw" {
 }
 
 variable "do_application_opencode" {
-  description = "OpenCode 1.18.25 on Ubuntu 24.04"
+  description = "OpenCode 1.18.26 on Ubuntu 24.04"
   default     = "opencode"
 }
 
