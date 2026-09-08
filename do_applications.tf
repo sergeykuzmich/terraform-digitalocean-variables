@@ -524,7 +524,7 @@ variable "do_application_convoy" {
 }
 
 variable "do_application_coolify" {
-  description = "Coolify 4.3.1 on Ubuntu 24.04"
+  description = "Coolify 4.3.12 on Ubuntu 24.04"
   default     = "coolify"
 }
 
@@ -709,7 +709,7 @@ variable "do_application_docker-20-04" {
 }
 
 variable "do_application_dockeragent" {
-  description = "Docker Agent 1.120.0 on Ubuntu 24.04"
+  description = "Docker Agent 1.127.0 on Ubuntu 24.04"
   default     = "dockeragent"
 }
 
@@ -788,6 +788,11 @@ variable "do_application_fastpanel-deb-9" {
   default     = "fastpanel-deb-9"
 }
 
+variable "do_application_figranium" {
+  description = "Figranium 0.15.1 on 22.04"
+  default     = "figranium"
+}
+
 variable "do_application_flashphoner-7-6" {
   description = "Flashphoner Web Call Server 5.2.1484 on CentOS 7.6"
   default     = "flashphoner-7-6"
@@ -849,7 +854,7 @@ variable "do_application_gitlab-gitlabenterprise-20-04" {
 }
 
 variable "do_application_goauthentikio-authentik" {
-  description = "authentik 2026.5.3 on Ubuntu 24.04"
+  description = "authentik 2026.8.1 on Ubuntu 24.04"
   default     = "goauthentikio-authentik"
 }
 
@@ -1116,6 +1121,11 @@ variable "do_application_litespeedtechnol-openlitespeedrai-20-04" {
 variable "do_application_litespeedtechnol-openlitespeedwor-20-04" {
   description = "OpenLiteSpeed WordPress 7.0.4 on Ubuntu 26.04"
   default     = "litespeedtechnol-openlitespeedwor-20-04"
+}
+
+variable "do_application_logicielpcbee-spokes" {
+  description = "Spokes 1.0.0 on Ubuntu 22.04"
+  default     = "logicielpcbee-spokes"
 }
 
 variable "do_application_logstore" {
