@@ -179,7 +179,7 @@ variable "do_application_amddeveloperclou-unslothstudio" {
 }
 
 variable "do_application_amddeveloperclou-unslothstudioroc" {
-  description = "Unsloth Studio (ROCm 7.2.4) 2026.8.22 on Ubuntu 24.04"
+  description = "Unsloth Studio (ROCm 7.2.4) 2026.9.3 on Ubuntu 24.04"
   default     = "amddeveloperclou-unslothstudioroc"
 }
 
@@ -199,7 +199,7 @@ variable "do_application_amddeveloperclou-vllm0230rocm724" {
 }
 
 variable "do_application_amddeveloperclou-vllm0271vllmomni" {
-  description = "vLLM 0.28.0 + vLLM-Omni (ROCm 7.14) 0.28.0 on Ubuntu 24.04"
+  description = "vLLM 0.29.0 + vLLM-Omni (ROCm 7.14) 0.29.0 on Ubuntu 24.04"
   default     = "amddeveloperclou-vllm0271vllmomni"
 }
 
@@ -724,7 +724,7 @@ variable "do_application_doteamaccount-helloworld" {
 }
 
 variable "do_application_doteamaccount-pocketbase" {
-  description = "PocketBase 0.40.1 on Ubuntu 22.04"
+  description = "PocketBase 0.40.2 on Ubuntu 22.04"
   default     = "doteamaccount-pocketbase"
 }
 
@@ -1483,6 +1483,11 @@ variable "do_application_plesk-plesktest" {
   default     = "plesk-plesktest"
 }
 
+variable "do_application_plex" {
+  description = "Plex 1.43.2.10687-563d026 on 24.04"
+  default     = "plex"
+}
+
 variable "do_application_postalsystemso-emailengine" {
   description = "EmailEngine 2.50.9 on Ubuntu 22.04"
   default     = "postalsystemso-emailengine"
@@ -1519,7 +1524,7 @@ variable "do_application_rexarsystems-ngstack" {
 }
 
 variable "do_application_ringq" {
-  description = "RingQ 8.7.71 on Debian 12 x64"
+  description = "RingQ 9.1.0 on Debian 13 x64"
   default     = "ringq"
 }
 
@@ -1714,7 +1719,7 @@ variable "do_application_sharklabs-opensearch" {
 }
 
 variable "do_application_sharklabs-openwebui" {
-  description = "Open WebUI 0.10.2 on Ubuntu 24.04"
+  description = "Open WebUI 0.11.3 on Ubuntu 24.04"
   default     = "sharklabs-openwebui"
 }
 
