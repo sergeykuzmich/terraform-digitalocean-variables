@@ -179,7 +179,7 @@ variable "do_application_amddeveloperclou-unslothstudio" {
 }
 
 variable "do_application_amddeveloperclou-unslothstudioroc" {
-  description = "Unsloth Studio (ROCm 7.2.4) 2026.9.3 on Ubuntu 24.04"
+  description = "Unsloth Studio (ROCm 7.2.4) 2026.9.4 on Ubuntu 24.04"
   default     = "amddeveloperclou-unslothstudioroc"
 }
 
@@ -709,7 +709,7 @@ variable "do_application_docker-20-04" {
 }
 
 variable "do_application_dockeragent" {
-  description = "Docker Agent 1.127.0 on Ubuntu 24.04"
+  description = "Docker Agent 1.36.1 on Ubuntu 24.04"
   default     = "dockeragent"
 }
 
@@ -724,7 +724,7 @@ variable "do_application_doteamaccount-helloworld" {
 }
 
 variable "do_application_doteamaccount-pocketbase" {
-  description = "PocketBase 0.40.2 on Ubuntu 22.04"
+  description = "PocketBase 0.40.3 on Ubuntu 22.04"
   default     = "doteamaccount-pocketbase"
 }
 
@@ -789,7 +789,7 @@ variable "do_application_fastpanel-deb-9" {
 }
 
 variable "do_application_figranium" {
-  description = "Figranium 0.15.1 on 22.04"
+  description = "Figranium 0.17 on 22.04"
   default     = "figranium"
 }
 
@@ -859,7 +859,7 @@ variable "do_application_goauthentikio-authentik" {
 }
 
 variable "do_application_goose" {
-  description = "Goose 1.33.1 on Ubuntu 24.04"
+  description = "Goose 1.50.0 on Ubuntu 24.04"
   default     = "goose"
 }
 
@@ -879,7 +879,7 @@ variable "do_application_gravitl-netmaker" {
 }
 
 variable "do_application_grokbuild" {
-  description = "Grok Build 1.0.13 on Ubuntu 24.04"
+  description = "Grok Build 1.0.24 on Ubuntu 24.04"
   default     = "grokbuild"
 }
 
@@ -1984,7 +1984,7 @@ variable "do_application_xplex" {
 }
 
 variable "do_application_yeastar-yeastarpseriesph" {
-  description = "Yeastar P-Series Phone System 83.18.0.72 on Ubuntu 24.04 LTS"
+  description = "Yeastar P-Series Phone System 83.23.0.126 on Ubuntu 24.04 LTS"
   default     = "yeastar-yeastarpseriesph"
 }
 
