@@ -663,6 +663,11 @@ variable "do_application_digitaloceanai-jupyterlabamdmi3" {
   default     = "digitaloceanai-jupyterlabamdmi3"
 }
 
+variable "do_application_digitaloceanai-omarchy" {
+  description = "Omarchy 3.8.5 on Arch Linux"
+  default     = "digitaloceanai-omarchy"
+}
+
 variable "do_application_digitaloceanai-rocmjupyter" {
   description = "ROCm™ Software 6.4.0 on Ubuntu 24.04"
   default     = "digitaloceanai-rocmjupyter"
