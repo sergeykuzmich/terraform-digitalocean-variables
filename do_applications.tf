@@ -224,12 +224,12 @@ variable "do_application_analythium-shinyproxy-20-04" {
 }
 
 variable "do_application_antmedia-antmediaserverco-18-04" {
-  description = "Ant Media Server Community Edition 3.0.3 on Ubuntu 24.04"
+  description = "Ant Media Server Community Edition 3.1.0 on Ubuntu 24.04"
   default     = "antmedia-antmediaserverco-18-04"
 }
 
 variable "do_application_antmedia-antmediaserveren-18-04" {
-  description = "Ant Media Server Enterprise Edition 3.0.3 on Ubuntu 24.04"
+  description = "Ant Media Server Enterprise Edition 3.1.0 on Ubuntu 24.04"
   default     = "antmedia-antmediaserveren-18-04"
 }
 
@@ -729,7 +729,7 @@ variable "do_application_doteamaccount-helloworld" {
 }
 
 variable "do_application_doteamaccount-pocketbase" {
-  description = "PocketBase 0.40.3 on Ubuntu 22.04"
+  description = "PocketBase 0.40.4 on Ubuntu 22.04"
   default     = "doteamaccount-pocketbase"
 }
 
@@ -1124,7 +1124,7 @@ variable "do_application_litespeedtechnol-openlitespeedrai-20-04" {
 }
 
 variable "do_application_litespeedtechnol-openlitespeedwor-20-04" {
-  description = "OpenLiteSpeed WordPress 7.0.4 on Ubuntu 26.04"
+  description = "OpenLiteSpeed WordPress 7.1.0 on Ubuntu 26.04"
   default     = "litespeedtechnol-openlitespeedwor-20-04"
 }
 
@@ -1279,7 +1279,7 @@ variable "do_application_openboxes-openboxesserver" {
 }
 
 variable "do_application_openclaw" {
-  description = "OpenClaw 2026.9.3 on Ubuntu 24.04"
+  description = "OpenClaw 2026.9.4 on Ubuntu 24.04"
   default     = "openclaw"
 }
 
@@ -1289,7 +1289,7 @@ variable "do_application_opencode" {
 }
 
 variable "do_application_openhands" {
-  description = "OpenHands 1.16.0 on 24.04"
+  description = "OpenHands 1.17.0 on 24.04"
   default     = "openhands"
 }
 
@@ -1579,7 +1579,7 @@ variable "do_application_saltcorn-20-04" {
 }
 
 variable "do_application_sandflysecurity-20-04" {
-  description = "Sandfly Security 5.8.1 on Debian 13 (Trixie)"
+  description = "Sandfly Security 5.8.2 on Debian 13 (Trixie)"
   default     = "sandflysecurity-20-04"
 }
 
