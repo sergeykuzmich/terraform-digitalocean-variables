@@ -664,7 +664,7 @@ variable "do_application_digitaloceanai-jupyterlabamdmi3" {
 }
 
 variable "do_application_digitaloceanai-omarchy" {
-  description = "Omarchy 3.8.5 on Arch Linux"
+  description = "Omarchy 4.0.3 on Arch Linux"
   default     = "digitaloceanai-omarchy"
 }
 
@@ -1031,6 +1031,11 @@ variable "do_application_kromit-titra-20-04" {
 variable "do_application_kuyio-konnectvpna" {
   description = "Konnect VPN Access Server 2310.0 on Ubuntu 20.04"
   default     = "kuyio-konnectvpna"
+}
+
+variable "do_application_kwikquery-tabbydb" {
+  description = "tabbydb 4.1.1 on Ubuntu 22.04"
+  default     = "kwikquery-tabbydb"
 }
 
 variable "do_application_lamp-20-04" {
