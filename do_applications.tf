@@ -399,7 +399,7 @@ variable "do_application_bigcloud-odoo" {
 }
 
 variable "do_application_bitwarden" {
-  description = "Bitwarden 2026.8.0 on Ubuntu 24.04"
+  description = "Bitwarden 2026.8.1 on Ubuntu 24.04"
   default     = "bitwarden"
 }
 
@@ -494,7 +494,7 @@ variable "do_application_clickhouse" {
 }
 
 variable "do_application_cloudron-20-04" {
-  description = "Cloudron 9.2.0 on Ubuntu 24.04"
+  description = "Cloudron 10.0.5 on Ubuntu 26.04"
   default     = "cloudron-20-04"
 }
 
@@ -534,23 +534,28 @@ variable "do_application_coreflux-corefluxmqttbrok" {
 }
 
 variable "do_application_cpanel-cpanelwhmforalma" {
-  description = "cPanel & WHM® for AlmaLinux 9 11.136.0.37 on AlmaLinux 9"
+  description = "cPanel & WHM® for AlmaLinux 9 11.136.0.39 on AlmaLinux 9"
   default     = "cpanel-cpanelwhmforalma"
 }
 
 variable "do_application_cpanel-cpanelwhmforubun" {
-  description = "cPanel & WHM® for Ubuntu 11.136.0.37 on Ubuntu 22.04"
+  description = "cPanel & WHM® for Ubuntu 11.136.0.39 on Ubuntu 22.04"
   default     = "cpanel-cpanelwhmforubun"
 }
 
 variable "do_application_cpanel-wpsquared" {
-  description = "WP Squared 11.138.1.7 on CloudLinux 8"
+  description = "WP Squared 11.138.1.9 on CloudLinux 8"
   default     = "cpanel-wpsquared"
 }
 
 variable "do_application_craftcms" {
   description = "Craft CMS 5.10.11 on 24.04"
   default     = "craftcms"
+}
+
+variable "do_application_cratera" {
+  description = "Cratera 1.1.0 on Ubuntu 24.04"
+  default     = "cratera"
 }
 
 variable "do_application_crivion-laranodepanel" {
@@ -664,7 +669,7 @@ variable "do_application_digitaloceanai-jupyterlabamdmi3" {
 }
 
 variable "do_application_digitaloceanai-omarchy" {
-  description = "Omarchy 4.0.3 on Arch Linux"
+  description = "Omarchy 4.0.3 on Omarchy"
   default     = "digitaloceanai-omarchy"
 }
 
@@ -714,7 +719,7 @@ variable "do_application_docker-20-04" {
 }
 
 variable "do_application_dockeragent" {
-  description = "Docker Agent 1.36.1 on Ubuntu 24.04"
+  description = "Docker Agent 1.139.0 on Ubuntu 24.04"
   default     = "dockeragent"
 }
 
@@ -809,7 +814,7 @@ variable "do_application_flask" {
 }
 
 variable "do_application_flexifyio-flexifyiomulticl-20-04" {
-  description = "Flexify.IO Multi-cloud / Migration 2.24.0 on Ubuntu 24.04 LTS"
+  description = "Flexify.IO Multi-cloud / Migration 2.25.1 on Ubuntu 24.04 LTS"
   default     = "flexifyio-flexifyiomulticl-20-04"
 }
 
@@ -819,7 +824,7 @@ variable "do_application_flowforge" {
 }
 
 variable "do_application_flowforge-flowfuse" {
-  description = "FlowFuse 3.0.0 on Ubuntu 22.04"
+  description = "FlowFuse 3.0.2 on Ubuntu 22.04"
   default     = "flowforge-flowfuse"
 }
 
@@ -914,7 +919,7 @@ variable "do_application_hashicorpvault" {
 }
 
 variable "do_application_hermesagent" {
-  description = "Hermes Agent v2026.8.31 on Ubuntu 24.04"
+  description = "Hermes Agent v2026.9.7 on Ubuntu 24.04"
   default     = "hermesagent"
 }
 
@@ -1289,7 +1294,7 @@ variable "do_application_openclaw" {
 }
 
 variable "do_application_opencode" {
-  description = "OpenCode 1.18.26 on Ubuntu 24.04"
+  description = "OpenCode 1.18.27 on Ubuntu 24.04"
   default     = "opencode"
 }
 
@@ -1364,7 +1369,7 @@ variable "do_application_openvpn-18-04" {
 }
 
 variable "do_application_operateengineeri-operate" {
-  description = "Operate 1.1.0 on Ubuntu 24.04"
+  description = "Operate 1.2.0 on Ubuntu 24.04"
   default     = "operateengineeri-operate"
 }
 
@@ -2024,7 +2029,7 @@ variable "do_application_zabbix-zabbixserver64" {
 }
 
 variable "do_application_zeroclaw" {
-  description = "ZeroClaw v0.8.4 on Ubuntu 24.04"
+  description = "ZeroClaw v0.8.5 on Ubuntu 24.04"
   default     = "zeroclaw"
 }
 
