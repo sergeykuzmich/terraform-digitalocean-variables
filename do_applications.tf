@@ -23,6 +23,11 @@ variable "do_application_aapanel-aapanellnmp" {
   default     = "aapanel-aapanellnmp"
 }
 
+variable "do_application_abilityai-trinity" {
+  description = "Trinity 0.9.5 on Ubuntu 24.04"
+  default     = "abilityai-trinity"
+}
+
 variable "do_application_activepieces" {
   description = "Activepieces 0.3.13 on Ubuntu 22.04"
   default     = "activepieces"
@@ -514,7 +519,7 @@ variable "do_application_codertechnologie-vscodeserver" {
 }
 
 variable "do_application_codexcli" {
-  description = "Codex CLI 0.133.0 on Ubuntu 24.04"
+  description = "Codex CLI 0.154.0 on Ubuntu 24.04"
   default     = "codexcli"
 }
 
@@ -529,7 +534,7 @@ variable "do_application_convoy" {
 }
 
 variable "do_application_coolify" {
-  description = "Coolify 4.3.12 on Ubuntu 24.04"
+  description = "Coolify 4.3.21 on Ubuntu 24.04"
   default     = "coolify"
 }
 
@@ -894,7 +899,7 @@ variable "do_application_gravitl-netmaker" {
 }
 
 variable "do_application_grokbuild" {
-  description = "Grok Build 1.0.24 on Ubuntu 24.04"
+  description = "Grok Build 1.0.34 on Ubuntu 24.04"
   default     = "grokbuild"
 }
 
@@ -919,7 +924,7 @@ variable "do_application_harperdb-18-04" {
 }
 
 variable "do_application_hashicorpvault" {
-  description = "HashiCorp Vault on Ubuntu 24.04"
+  description = "HashiCorp Vault 2.1.1 on Ubuntu 24.04"
   default     = "hashicorpvault"
 }
 
@@ -1424,7 +1429,7 @@ variable "do_application_panelica-panelicahostingp" {
 }
 
 variable "do_application_passboltsa-passboltce-20-04" {
-  description = "Passbolt CE 5.15.0-1 on Debian 13"
+  description = "Passbolt CE 5.16.0-1 on Debian 13"
   default     = "passboltsa-passboltce-20-04"
 }
 
@@ -1629,7 +1634,7 @@ variable "do_application_securityroots-dradis" {
 }
 
 variable "do_application_sekoyatech-libredbstudio" {
-  description = "LibreDB Studio 0.9.59 on Ubuntu 24.04"
+  description = "LibreDB Studio 0.16.0 on Ubuntu 24.04"
   default     = "sekoyatech-libredbstudio"
 }
 
@@ -1679,7 +1684,7 @@ variable "do_application_sharklabs-dropletnfsserver" {
 }
 
 variable "do_application_sharklabs-erpodoo" {
-  description = "Odoo ERP 19.5 on Ubuntu 24.04"
+  description = "Odoo ERP 20.1 on Ubuntu 24.04"
   default     = "sharklabs-erpodoo"
 }
 
