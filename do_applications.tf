@@ -124,7 +124,7 @@ variable "do_application_amd-vllmrocm7" {
 }
 
 variable "do_application_amddeveloperclou-amdprimus" {
-  description = "AMD Primus™ v26.6.0 on Ubuntu 24.04"
+  description = "AMD Primus™ v26.7.0 on Ubuntu 24.04"
   default     = "amddeveloperclou-amdprimus"
 }
 
@@ -184,7 +184,7 @@ variable "do_application_amddeveloperclou-unslothstudio" {
 }
 
 variable "do_application_amddeveloperclou-unslothstudioroc" {
-  description = "Unsloth Studio (ROCm 7.2.4) 2026.9.7 on Ubuntu 24.04"
+  description = "Unsloth Studio (ROCm 7.2.4) 2026.9.11 on Ubuntu 24.04"
   default     = "amddeveloperclou-unslothstudioroc"
 }
 
@@ -204,7 +204,7 @@ variable "do_application_amddeveloperclou-vllm0230rocm724" {
 }
 
 variable "do_application_amddeveloperclou-vllm0271vllmomni" {
-  description = "vLLM 0.29.0 + vLLM-Omni (ROCm 7.14) 0.29.0 on Ubuntu 24.04"
+  description = "vLLM 0.30.0 + vLLM-Omni (ROCm 7.14) 0.30.0 on Ubuntu 24.04"
   default     = "amddeveloperclou-vllm0271vllmomni"
 }
 
