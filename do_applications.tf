@@ -409,7 +409,7 @@ variable "do_application_bigcloud-odoo" {
 }
 
 variable "do_application_bitwarden" {
-  description = "Bitwarden 2026.8.1 on Ubuntu 24.04"
+  description = "Bitwarden 2026.8.2 on Ubuntu 24.04"
   default     = "bitwarden"
 }
 
@@ -564,7 +564,7 @@ variable "do_application_craftcms" {
 }
 
 variable "do_application_cratera" {
-  description = "Cratera 1.1.0 on Ubuntu 24.04"
+  description = "Cratera 1.2.0 on Ubuntu 24.04"
   default     = "cratera"
 }
 
@@ -679,7 +679,7 @@ variable "do_application_digitaloceanai-jupyterlabamdmi3" {
 }
 
 variable "do_application_digitaloceanai-omarchy" {
-  description = "Omarchy 4.0.3 on Omarchy"
+  description = "Omarchy 4.0.4 on Omarchy"
   default     = "digitaloceanai-omarchy"
 }
 
@@ -711,6 +711,11 @@ variable "do_application_digitaloceanai-rocmvllmjupyter" {
 variable "do_application_digitaloceanai-sglang" {
   description = "SGLang 0.4.9 on Ubuntu 24.04"
   default     = "digitaloceanai-sglang"
+}
+
+variable "do_application_disco" {
+  description = "Disco 0.32.0 on Ubuntu 24.04"
+  default     = "disco"
 }
 
 variable "do_application_discourse-20-04" {
@@ -929,7 +934,7 @@ variable "do_application_hashicorpvault" {
 }
 
 variable "do_application_hermesagent" {
-  description = "Hermes Agent v2026.9.7 on Ubuntu 24.04"
+  description = "Hermes Agent 2026.9.14 on Ubuntu 24.04"
   default     = "hermesagent"
 }
 
@@ -1169,7 +1174,7 @@ variable "do_application_mangati-novosga" {
 }
 
 variable "do_application_mariadb" {
-  description = "MariaDB 10.11.14 on Ubuntu 24.04"
+  description = "MariaDB on Ubuntu 24.04"
   default     = "mariadb"
 }
 
@@ -1719,7 +1724,7 @@ variable "do_application_sharklabs-matrixsynapsebac-10" {
 }
 
 variable "do_application_sharklabs-minecraftjavaedi-18-04" {
-  description = "Minecraft: Java Edition Server 26.2 on Ubuntu 24.04"
+  description = "Minecraft: Java Edition Server 26.3 on Ubuntu 24.04"
   default     = "sharklabs-minecraftjavaedi-18-04"
 }
 
@@ -1744,7 +1749,7 @@ variable "do_application_sharklabs-opensearch" {
 }
 
 variable "do_application_sharklabs-openwebui" {
-  description = "Open WebUI 0.11.3 on Ubuntu 24.04"
+  description = "Open WebUI 0.11.4 on Ubuntu 24.04"
   default     = "sharklabs-openwebui"
 }
 
@@ -1826,6 +1831,11 @@ variable "do_application_spinupwp" {
 variable "do_application_stacksfoundation-stacksblockchain" {
   description = "Stacks Blockchain 2.05.0.6.0 on Debian 11"
   default     = "stacksfoundation-stacksblockchain"
+}
+
+variable "do_application_stoxello-composecontrol" {
+  description = "Compose Control 0.1.0 on Ubuntu 24.04 LTS"
+  default     = "stoxello-composecontrol"
 }
 
 variable "do_application_stretchshop" {
