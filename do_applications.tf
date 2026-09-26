@@ -394,7 +394,7 @@ variable "do_application_azuracast-20-04" {
 }
 
 variable "do_application_babybuddy" {
-  description = "Baby Buddy 2.8.0 on Ubuntu 24.04 (LTS)"
+  description = "Baby Buddy 2.11.0 on Ubuntu 24.04 (LTS)"
   default     = "babybuddy"
 }
 
@@ -544,7 +544,7 @@ variable "do_application_coreflux-corefluxmqttbrok" {
 }
 
 variable "do_application_cpanel-cpanelwhmforalma" {
-  description = "cPanel & WHM® for AlmaLinux 9 11.136.0.39 on AlmaLinux 9"
+  description = "cPanel & WHM® for AlmaLinux 9 11.138.0.7 on AlmaLinux 9"
   default     = "cpanel-cpanelwhmforalma"
 }
 
@@ -859,7 +859,7 @@ variable "do_application_genesisdb-genesisdbce" {
 }
 
 variable "do_application_ghost-20-04" {
-  description = "Ghost on Ubuntu 24.04"
+  description = "Ghost 6.64.0 on Ubuntu 24.04"
   default     = "ghost-20-04"
 }
 
@@ -1034,7 +1034,7 @@ variable "do_application_josecanchila-thormail" {
 }
 
 variable "do_application_kandralabs-zulip-18-04" {
-  description = "Zulip 12.2 on Ubuntu 22.04"
+  description = "Zulip 12.3 on Ubuntu 22.04"
   default     = "kandralabs-zulip-18-04"
 }
 
@@ -1129,7 +1129,7 @@ variable "do_application_litespeedtechnol-openlitespeeddja-20-04" {
 }
 
 variable "do_application_litespeedtechnol-openlitespeeddru" {
-  description = "OpenLiteSpeed Drupal 11.3.9 on Ubuntu 24.04"
+  description = "OpenLiteSpeed Drupal 11.4.7 on Ubuntu 26.04"
   default     = "litespeedtechnol-openlitespeeddru"
 }
 
@@ -1429,7 +1429,7 @@ variable "do_application_owncast-10" {
 }
 
 variable "do_application_panelica-panelicahostingp" {
-  description = "Panelica Hosting Panel 1.0.375 on Ubuntu 24.04"
+  description = "Panelica Hosting Panel 1.0.544 on Ubuntu 24.04"
   default     = "panelica-panelicahostingp"
 }
 
@@ -1634,12 +1634,12 @@ variable "do_application_seatablegmbh-seatable" {
 }
 
 variable "do_application_securityroots-dradis" {
-  description = "dradis 5.2.0 on Debian 12"
+  description = "dradis 5.4.0 on Debian 13"
   default     = "securityroots-dradis"
 }
 
 variable "do_application_sekoyatech-libredbstudio" {
-  description = "LibreDB Studio 0.16.0 on Ubuntu 24.04"
+  description = "LibreDB Studio 0.16.1 on Ubuntu 24.04"
   default     = "sekoyatech-libredbstudio"
 }
 
@@ -1999,7 +1999,7 @@ variable "do_application_wikijs-18-04" {
 }
 
 variable "do_application_wordpress-20-04" {
-  description = "WordPress 7.0.2 on Ubuntu 24.04"
+  description = "WordPress 7.1.2 on Ubuntu 24.04"
   default     = "wordpress-20-04"
 }
 
