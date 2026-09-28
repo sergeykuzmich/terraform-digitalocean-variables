@@ -433,6 +433,11 @@ variable "do_application_botguardo-botguardingressc" {
   default     = "botguardo-botguardingressc"
 }
 
+variable "do_application_btcpayserver" {
+  description = "BTCPay Server 2.4.4 on Ubuntu 24.04"
+  default     = "btcpayserver"
+}
+
 variable "do_application_buzz" {
   description = "Buzz 0.2.0 on 24.04"
   default     = "buzz"
@@ -739,7 +744,7 @@ variable "do_application_dockeragent" {
 }
 
 variable "do_application_dokku-20-04" {
-  description = "Dokku 0.38.27 on Ubuntu 24.04"
+  description = "Dokku 0.38.30 on Ubuntu 24.04"
   default     = "dokku-20-04"
 }
 
@@ -839,7 +844,7 @@ variable "do_application_flowforge" {
 }
 
 variable "do_application_flowforge-flowfuse" {
-  description = "FlowFuse 3.0.2 on Ubuntu 22.04"
+  description = "FlowFuse 3.1.0 on Ubuntu 22.04"
   default     = "flowforge-flowfuse"
 }
 
@@ -859,7 +864,7 @@ variable "do_application_genesisdb-genesisdbce" {
 }
 
 variable "do_application_ghost-20-04" {
-  description = "Ghost 6.64.0 on Ubuntu 24.04"
+  description = "Ghost 6.65.0 on Ubuntu 24.04"
   default     = "ghost-20-04"
 }
 
@@ -1524,7 +1529,7 @@ variable "do_application_postalsystemso-emailengine" {
 }
 
 variable "do_application_prometheus-18-04" {
-  description = "Prometheus 3.3.0 on Ubuntu 24.04"
+  description = "Prometheus 3.14.0 on Ubuntu 24.04"
   default     = "prometheus-18-04"
 }
 
@@ -1784,7 +1789,7 @@ variable "do_application_sharklabs-strapi1click" {
 }
 
 variable "do_application_sharklabs-valkey" {
-  description = "Valkey 8.1.4 on Ubuntu 22.04"
+  description = "Valkey on Ubuntu 22.04"
   default     = "sharklabs-valkey"
 }
 
