@@ -499,7 +499,7 @@ variable "do_application_citedy-adclaw" {
 }
 
 variable "do_application_clevervpn-clevervpncluster" {
-  description = "Clever VPN Clustered Server v2.1.6 on ubuntu 24.4"
+  description = "Clever VPN Clustered Server v2.1.11 on ubuntu 24.4"
   default     = "clevervpn-clevervpncluster"
 }
 
@@ -549,7 +549,7 @@ variable "do_application_coreflux-corefluxmqttbrok" {
 }
 
 variable "do_application_cpanel-cpanelwhmforalma" {
-  description = "cPanel & WHM® for AlmaLinux 9 11.138.0.7 on AlmaLinux 9"
+  description = "cPanel & WHM® for AlmaLinux 9 11.138.0.10 on AlmaLinux 9"
   default     = "cpanel-cpanelwhmforalma"
 }
 
@@ -739,7 +739,7 @@ variable "do_application_docker-20-04" {
 }
 
 variable "do_application_dockeragent" {
-  description = "Docker Agent 1.139.0 on Ubuntu 24.04"
+  description = "Docker Agent 1.144.0 on Ubuntu 24.04"
   default     = "dockeragent"
 }
 
@@ -909,7 +909,7 @@ variable "do_application_gravitl-netmaker" {
 }
 
 variable "do_application_grokbuild" {
-  description = "Grok Build 1.0.34 on Ubuntu 24.04"
+  description = "Grok Build 1.0.44 on Ubuntu 24.04"
   default     = "grokbuild"
 }
 
@@ -939,7 +939,7 @@ variable "do_application_hashicorpvault" {
 }
 
 variable "do_application_hermesagent" {
-  description = "Hermes Agent 2026.9.14 on Ubuntu 24.04"
+  description = "Hermes Agent v2026.9.24 on Ubuntu 24.04"
   default     = "hermesagent"
 }
 
@@ -1019,7 +1019,7 @@ variable "do_application_jelastic-virtuozzoapplica" {
 }
 
 variable "do_application_jellyfin" {
-  description = "Jellyfin 10.11.11 on 24.04"
+  description = "Jellyfin 12.1 on 24.04"
   default     = "jellyfin"
 }
 
@@ -1059,7 +1059,7 @@ variable "do_application_kuyio-konnectvpna" {
 }
 
 variable "do_application_kwikquery-tabbydb" {
-  description = "tabbydb 4.1.1 on Ubuntu 22.04"
+  description = "tabbydb 4.1.3 on Ubuntu 22.04"
   default     = "kwikquery-tabbydb"
 }
 
@@ -1319,7 +1319,7 @@ variable "do_application_opencode" {
 }
 
 variable "do_application_openhands" {
-  description = "OpenHands 1.17.0 on 24.04"
+  description = "OpenHands 1.24.0 on 24.04"
   default     = "openhands"
 }
 
@@ -1489,7 +1489,7 @@ variable "do_application_planesoftware-planecommunityed" {
 }
 
 variable "do_application_plausibleanalyti" {
-  description = "Plausible Analytics 3.0.4 on Ubuntu 24.04"
+  description = "Plausible Analytics 3.2.1 on Ubuntu 24.04"
   default     = "plausibleanalyti"
 }
 
@@ -1499,12 +1499,12 @@ variable "do_application_playboxtechnolog-ottstream" {
 }
 
 variable "do_application_plesk-20-04" {
-  description = "Plesk 18.0.76 on Ubuntu 24.04"
+  description = "Plesk 18.0.81 on Ubuntu 24.04"
   default     = "plesk-20-04"
 }
 
 variable "do_application_plesk-pleskalmalinux" {
-  description = "Plesk (AlmaLinux) 18.0.76 on AlmaLinux 9"
+  description = "Plesk (AlmaLinux) 18.0.81 on AlmaLinux 9"
   default     = "plesk-pleskalmalinux"
 }
 
@@ -1749,7 +1749,7 @@ variable "do_application_sharklabs-openmptcprouter" {
 }
 
 variable "do_application_sharklabs-opensearch" {
-  description = "OpenSearch 3.4.0 on Ubuntu 24.04"
+  description = "OpenSearch 3.8.0 on Ubuntu 24.04"
   default     = "sharklabs-opensearch"
 }
 
