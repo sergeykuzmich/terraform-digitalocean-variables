@@ -39,7 +39,7 @@ variable "do_application_adminbolt" {
 }
 
 variable "do_application_airflow" {
-  description = "Airflow 3.1.8 on Ubuntu 24.04"
+  description = "Airflow 3.3.2 on Ubuntu 24.04"
   default     = "airflow"
 }
 
@@ -1529,7 +1529,7 @@ variable "do_application_postalsystemso-emailengine" {
 }
 
 variable "do_application_prometheus-18-04" {
-  description = "Prometheus 3.14.0 on Ubuntu 24.04"
+  description = "Prometheus 3.15.0 on Ubuntu 24.04"
   default     = "prometheus-18-04"
 }
 
@@ -1644,7 +1644,7 @@ variable "do_application_securityroots-dradis" {
 }
 
 variable "do_application_sekoyatech-libredbstudio" {
-  description = "LibreDB Studio 0.16.1 on Ubuntu 24.04"
+  description = "LibreDB Studio 0.17.0 on Ubuntu 24.04"
   default     = "sekoyatech-libredbstudio"
 }
 
@@ -2021,6 +2021,11 @@ variable "do_application_wpclouddeploy" {
 variable "do_application_xplex" {
   description = "xplex 1.0.0 on Ubuntu 22.04 (LTS)"
   default     = "xplex"
+}
+
+variable "do_application_ycqm" {
+  description = "YC QM on Ubuntu 24.04"
+  default     = "ycqm"
 }
 
 variable "do_application_yeastar-yeastarpseriesph" {
