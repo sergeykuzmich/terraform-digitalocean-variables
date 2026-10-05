@@ -409,7 +409,7 @@ variable "do_application_bigcloud-odoo" {
 }
 
 variable "do_application_bitwarden" {
-  description = "Bitwarden 2026.8.2 on Ubuntu 24.04"
+  description = "Bitwarden 2026.9.1 on Ubuntu 24.04"
   default     = "bitwarden"
 }
 
@@ -819,7 +819,7 @@ variable "do_application_fastpanel-deb-9" {
 }
 
 variable "do_application_figranium" {
-  description = "Figranium 0.17 on 22.04"
+  description = "Figranium 0.20 on 22.04"
   default     = "figranium"
 }
 
@@ -1814,7 +1814,7 @@ variable "do_application_smartarget-prestashop" {
 }
 
 variable "do_application_smartarget-wordpresswoocomm" {
-  description = "WordPress-WooCommerce 9.5.2 on Ubuntu 24.04 (LTS)"
+  description = "WordPress-WooCommerce 11.1.2 on Ubuntu 22.04 (LTS)"
   default     = "smartarget-wordpresswoocomm"
 }
 
