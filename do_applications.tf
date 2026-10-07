@@ -1298,6 +1298,11 @@ variable "do_application_omniedge-omniedgesupernod" {
   default     = "omniedge-omniedgesupernod"
 }
 
+variable "do_application_omniroute" {
+  description = "OmniRoute 3.8.51 on 24.04"
+  default     = "omniroute"
+}
+
 variable "do_application_openblocks" {
   description = "Openblocks 1.1.8 on Ubuntu 20.04 (LTS)"
   default     = "openblocks"
