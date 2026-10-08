@@ -148,6 +148,11 @@ variable "do_application_amddeveloperclou-pytorch2100rocm7" {
   default     = "amddeveloperclou-pytorch2100rocm7"
 }
 
+variable "do_application_amddeveloperclou-pytorch2140rocm1" {
+  description = "PyTorch 2.14.0 (ROCm 10.1) 2.14.0 on Ubuntu 24.04"
+  default     = "amddeveloperclou-pytorch2140rocm1"
+}
+
 variable "do_application_amddeveloperclou-qwen383biton8xmi" {
   description = "Qwen3.8 3-bit on 8x MI300X UD-IQ3_XXS on Ubuntu 24.04"
   default     = "amddeveloperclou-qwen383biton8xmi"
@@ -156,6 +161,11 @@ variable "do_application_amddeveloperclou-qwen383biton8xmi" {
 variable "do_application_amddeveloperclou-rocm100" {
   description = "ROCm 10.0 10.0 on Ubuntu 24.04"
   default     = "amddeveloperclou-rocm100"
+}
+
+variable "do_application_amddeveloperclou-rocm101" {
+  description = "ROCm 10.1 10.1 on Ubuntu 24.04"
+  default     = "amddeveloperclou-rocm101"
 }
 
 variable "do_application_amddeveloperclou-rocm714software" {
@@ -539,7 +549,7 @@ variable "do_application_convoy" {
 }
 
 variable "do_application_coolify" {
-  description = "Coolify 4.3.21 on Ubuntu 24.04"
+  description = "Coolify 4.4.0 on Ubuntu 24.04"
   default     = "coolify"
 }
 
