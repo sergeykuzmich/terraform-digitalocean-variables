@@ -254,7 +254,7 @@ variable "do_application_antmedia-antmediaserveren-18-04" {
 }
 
 variable "do_application_anythingmcp" {
-  description = "AnythingMCP 0.1.1 on Ubuntu 24.04"
+  description = "AnythingMCP 0.18.0 on Ubuntu 24.04"
   default     = "anythingmcp"
 }
 
@@ -493,6 +493,11 @@ variable "do_application_chaarmiworlds-metaverse" {
   default     = "chaarmiworlds-metaverse"
 }
 
+variable "do_application_chainstack-chainstackblockc" {
+  description = "Chainstack Blockchain Management 2.63.0 on Ubuntu 24.04 (LTS)"
+  default     = "chainstack-chainstackblockc"
+}
+
 variable "do_application_chevereto-20-04" {
   description = "Chevereto 4 on Ubuntu 22.04 LTS"
   default     = "chevereto-20-04"
@@ -529,7 +534,7 @@ variable "do_application_codelathe-filecloud-20-04" {
 }
 
 variable "do_application_codertechnologie-vscodeserver" {
-  description = "VS Code Server 4.126.0 on Ubuntu 22.04 (LTS)"
+  description = "VS Code Server 4.141.0 on Ubuntu 22.04 (LTS)"
   default     = "codertechnologie-vscodeserver"
 }
 
@@ -559,7 +564,7 @@ variable "do_application_coreflux-corefluxmqttbrok" {
 }
 
 variable "do_application_cpanel-cpanelwhmforalma" {
-  description = "cPanel & WHM® for AlmaLinux 9 11.138.0.10 on AlmaLinux 9"
+  description = "cPanel & WHM® for AlmaLinux 9 11.138.0.11 on AlmaLinux 9"
   default     = "cpanel-cpanelwhmforalma"
 }
 
@@ -749,12 +754,12 @@ variable "do_application_docker-20-04" {
 }
 
 variable "do_application_dockeragent" {
-  description = "Docker Agent 1.144.0 on Ubuntu 24.04"
+  description = "Docker Agent 1.149.0 on Ubuntu 24.04"
   default     = "dockeragent"
 }
 
 variable "do_application_dokku-20-04" {
-  description = "Dokku 0.38.30 on Ubuntu 24.04"
+  description = "Dokku 0.38.31 on Ubuntu 24.04"
   default     = "dokku-20-04"
 }
 
@@ -874,7 +879,7 @@ variable "do_application_genesisdb-genesisdbce" {
 }
 
 variable "do_application_ghost-20-04" {
-  description = "Ghost 6.65.0 on Ubuntu 24.04"
+  description = "Ghost 6.67.0 on Ubuntu 24.04"
   default     = "ghost-20-04"
 }
 
@@ -899,7 +904,7 @@ variable "do_application_goauthentikio-authentik" {
 }
 
 variable "do_application_goose" {
-  description = "Goose 1.50.0 on Ubuntu 24.04"
+  description = "Goose 1.53.0 on Ubuntu 24.04"
   default     = "goose"
 }
 
@@ -1029,7 +1034,7 @@ variable "do_application_jelastic-virtuozzoapplica" {
 }
 
 variable "do_application_jellyfin" {
-  description = "Jellyfin 12.1 on 24.04"
+  description = "Jellyfin 12.2 on 24.04"
   default     = "jellyfin"
 }
 
@@ -1039,7 +1044,7 @@ variable "do_application_jenkins" {
 }
 
 variable "do_application_jitsiserver-20-04" {
-  description = "Jitsi Server 1.0.9268 on Ubuntu 24.04"
+  description = "Jitsi Server on Ubuntu 24.04"
   default     = "jitsiserver-20-04"
 }
 
@@ -1129,7 +1134,7 @@ variable "do_application_linuxpatchcom-linuxpatchapplia" {
 }
 
 variable "do_application_litespeedtechnol-cyberpanel-20-04" {
-  description = "CyberPanel 3.0.4 on Ubuntu 26.04"
+  description = "CyberPanel 3.0.6 on Ubuntu 26.04"
   default     = "litespeedtechnol-cyberpanel-20-04"
 }
 
@@ -1334,7 +1339,7 @@ variable "do_application_opencode" {
 }
 
 variable "do_application_openhands" {
-  description = "OpenHands 1.24.0 on 24.04"
+  description = "OpenHands 1.18.0 on 24.04"
   default     = "openhands"
 }
 
@@ -1449,7 +1454,7 @@ variable "do_application_owncast-10" {
 }
 
 variable "do_application_panelica-panelicahostingp" {
-  description = "Panelica Hosting Panel 1.0.544 on Ubuntu 24.04"
+  description = "Panelica Hosting Panel 1.0.556 on Ubuntu 24.04"
   default     = "panelica-panelicahostingp"
 }
 
@@ -1534,7 +1539,7 @@ variable "do_application_plesk-plesktest" {
 }
 
 variable "do_application_plex" {
-  description = "Plex 1.43.2.10687-563d026 on 24.04"
+  description = "Plex 1.43.4.10903-e5521bd8c on 24.04"
   default     = "plex"
 }
 
@@ -1566,6 +1571,11 @@ variable "do_application_rabbitmq" {
 variable "do_application_rackware-rackwarecloudmig" {
   description = "RackWare Cloud Migration 7.4.5.6 on CentOS 7.x"
   default     = "rackware-rackwarecloudmig"
+}
+
+variable "do_application_rajeshtestdelete" {
+  description = "rajesh-test-delete 2.3.5 on Ubuntu 24.04"
+  default     = "rajeshtestdelete"
 }
 
 variable "do_application_rexarsystems-ngstack" {
@@ -1996,6 +2006,11 @@ variable "do_application_vodianetworks-vodiaphonesystem-10" {
 variable "do_application_vodianetworks-vodiawallboardss" {
   description = "Vodia Wallboards Server 1.0.0 on Ubuntu 24.04 (LTS)"
   default     = "vodianetworks-vodiawallboardss"
+}
+
+variable "do_application_vyogotechnologie-erpnextcrmhrmsth" {
+  description = "ERPNext, CRM, HRMS & the Frappe App Ecosystem by Vyogo 16.0.0 on Ubuntu 24.04"
+  default     = "vyogotechnologie-erpnextcrmhrmsth"
 }
 
 variable "do_application_warpspeedvpn-wpcontroller" {
