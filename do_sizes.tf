@@ -809,22 +809,22 @@ variable "do_size_gpu-6000adax1-48gb" {
 }
 
 variable "do_size_gpu-b300x1-288gb-lc-spot" {
-  description = "448GB RAM; 28 CPU; 720GB SSD - $5952/mo"
+  description = "448GB RAM; 28 CPU; 720GB SSD - $4590/mo"
   default     = "gpu-b300x1-288gb-lc-spot"
 }
 
 variable "do_size_gpu-b300x1-288gb-spot" {
-  description = "448GB RAM; 28 CPU; 720GB SSD - $5952/mo"
+  description = "448GB RAM; 28 CPU; 720GB SSD - $4590/mo"
   default     = "gpu-b300x1-288gb-spot"
 }
 
 variable "do_size_gpu-b300x8-2304gb-lc-spot" {
-  description = "3584GB RAM; 224 CPU; 1.998046875TB SSD - $47616/mo"
+  description = "3584GB RAM; 224 CPU; 1.998046875TB SSD - $36724/mo"
   default     = "gpu-b300x8-2304gb-lc-spot"
 }
 
 variable "do_size_gpu-b300x8-2304gb-spot" {
-  description = "3584GB RAM; 224 CPU; 1.998046875TB SSD - $47616/mo"
+  description = "3584GB RAM; 224 CPU; 1.998046875TB SSD - $36724/mo"
   default     = "gpu-b300x8-2304gb-spot"
 }
 
