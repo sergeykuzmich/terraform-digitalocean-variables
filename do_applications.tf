@@ -859,7 +859,7 @@ variable "do_application_flowforge" {
 }
 
 variable "do_application_flowforge-flowfuse" {
-  description = "FlowFuse 3.1.0 on Ubuntu 22.04"
+  description = "FlowFuse 3.1.1 on Ubuntu 22.04"
   default     = "flowforge-flowfuse"
 }
 
@@ -904,7 +904,7 @@ variable "do_application_goauthentikio-authentik" {
 }
 
 variable "do_application_goose" {
-  description = "Goose 1.53.0 on Ubuntu 24.04"
+  description = "Goose v1.54.0 on Ubuntu 24.04"
   default     = "goose"
 }
 
@@ -1124,7 +1124,7 @@ variable "do_application_lemp-20-04" {
 }
 
 variable "do_application_linuxgsm" {
-  description = "LinuxGSM 26.2.0 on Ubuntu 24.04"
+  description = "LinuxGSM 26.3.0 on Ubuntu 24.04"
   default     = "linuxgsm"
 }
 
@@ -1564,7 +1564,7 @@ variable "do_application_questdb-20-04" {
 }
 
 variable "do_application_rabbitmq" {
-  description = "RabbitMQ 4.1.3 on Ubuntu 22.04"
+  description = "RabbitMQ 4.3.6 on Ubuntu 22.04"
   default     = "rabbitmq"
 }
 
@@ -1669,7 +1669,7 @@ variable "do_application_securityroots-dradis" {
 }
 
 variable "do_application_sekoyatech-libredbstudio" {
-  description = "LibreDB Studio 0.17.0 on Ubuntu 24.04"
+  description = "LibreDB Studio 0.18.2 on Ubuntu 24.04 LTS"
   default     = "sekoyatech-libredbstudio"
 }
 
@@ -1774,12 +1774,12 @@ variable "do_application_sharklabs-openmptcprouter" {
 }
 
 variable "do_application_sharklabs-opensearch" {
-  description = "OpenSearch 3.8.0 on Ubuntu 24.04"
+  description = "OpenSearch 3.9.0 on Ubuntu 24.04"
   default     = "sharklabs-opensearch"
 }
 
 variable "do_application_sharklabs-openwebui" {
-  description = "Open WebUI 0.11.4 on Ubuntu 24.04"
+  description = "Open WebUI 0.12.0 on Ubuntu 24.04"
   default     = "sharklabs-openwebui"
 }
 
@@ -2034,7 +2034,7 @@ variable "do_application_wikijs-18-04" {
 }
 
 variable "do_application_wordpress-20-04" {
-  description = "WordPress 7.1.2 on Ubuntu 24.04"
+  description = "WordPress on Ubuntu 24.04"
   default     = "wordpress-20-04"
 }
 
