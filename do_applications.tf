@@ -124,7 +124,7 @@ variable "do_application_amd-vllmrocm7" {
 }
 
 variable "do_application_amddeveloperclou-amdprimus" {
-  description = "AMD Primus™ v26.7.0 on Ubuntu 24.04"
+  description = "AMD Primus™ v26.8.0 on Ubuntu 24.04"
   default     = "amddeveloperclou-amdprimus"
 }
 
