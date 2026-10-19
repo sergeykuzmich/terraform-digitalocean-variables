@@ -34,7 +34,7 @@ variable "do_application_activepieces" {
 }
 
 variable "do_application_adminbolt" {
-  description = "AdminBolt 1.7.0 on AlmaLinux 9.x"
+  description = "AdminBolt 1.9.2 on AlmaLinux 9.x"
   default     = "adminbolt"
 }
 
@@ -734,7 +734,7 @@ variable "do_application_digitaloceanai-sglang" {
 }
 
 variable "do_application_disco" {
-  description = "Disco 0.32.0 on Ubuntu 24.04"
+  description = "Disco 0.34.0 on Ubuntu 24.04"
   default     = "disco"
 }
 
@@ -769,7 +769,7 @@ variable "do_application_doteamaccount-helloworld" {
 }
 
 variable "do_application_doteamaccount-pocketbase" {
-  description = "PocketBase 0.40.4 on Ubuntu 22.04"
+  description = "PocketBase 0.40.5 on Ubuntu 22.04"
   default     = "doteamaccount-pocketbase"
 }
 
@@ -1059,7 +1059,7 @@ variable "do_application_kandralabs-zulip-18-04" {
 }
 
 variable "do_application_kasmtechnologies-kasmworkspaces-18-04" {
-  description = "Kasm Workspaces 1.18.1 on Ubuntu 24.04"
+  description = "Kasm Workspaces 1.19.0 on Ubuntu 24.04"
   default     = "kasmtechnologies-kasmworkspaces-18-04"
 }
 
@@ -1404,7 +1404,7 @@ variable "do_application_openrouter-spawnzeroclaw" {
 }
 
 variable "do_application_openvpn-18-04" {
-  description = "OpenVPN Access Server 3.2.2 on Ubuntu 24.04"
+  description = "OpenVPN Access Server 3.2.3 on Ubuntu 26.04"
   default     = "openvpn-18-04"
 }
 
@@ -1474,7 +1474,7 @@ variable "do_application_perforce-perforcehelixcor" {
 }
 
 variable "do_application_perforce-perforcep4helixc" {
-  description = "Perforce P4 (Helix Core) 2025.2.0 on rocky 9"
+  description = "Perforce P4 (Helix Core) 2026.1.0 on rocky 9"
   default     = "perforce-perforcep4helixc"
 }
 
@@ -1544,7 +1544,7 @@ variable "do_application_plex" {
 }
 
 variable "do_application_postalsystemso-emailengine" {
-  description = "EmailEngine 2.50.9 on Ubuntu 22.04"
+  description = "EmailEngine 2.84.1 on Ubuntu 24.04"
   default     = "postalsystemso-emailengine"
 }
 
@@ -1669,7 +1669,7 @@ variable "do_application_securityroots-dradis" {
 }
 
 variable "do_application_sekoyatech-libredbstudio" {
-  description = "LibreDB Studio 0.18.2 on Ubuntu 24.04 LTS"
+  description = "LibreDB Studio 1.0.0 on Ubuntu 24.04 LTS"
   default     = "sekoyatech-libredbstudio"
 }
 
@@ -1749,7 +1749,7 @@ variable "do_application_sharklabs-logstash" {
 }
 
 variable "do_application_sharklabs-matrixsynapsebac-10" {
-  description = "Matrix (Synapse backend) 0.1.7 on Debian 12 (bookworm)"
+  description = "Matrix (Synapse backend) 1.162.0 on Debian 13"
   default     = "sharklabs-matrixsynapsebac-10"
 }
 
@@ -1929,7 +1929,7 @@ variable "do_application_techdomeai-sparrowcommunityedition1" {
 }
 
 variable "do_application_temporal" {
-  description = "Temporal 1.29.1 on Ubuntu 24.04"
+  description = "Temporal 1.32.1 on Ubuntu 24.04"
   default     = "temporal"
 }
 
@@ -1959,7 +1959,7 @@ variable "do_application_utnadmins-utunnelvpn" {
 }
 
 variable "do_application_vagrant" {
-  description = "Vagrant 2.4.9 on Ubuntu 24.04"
+  description = "Vagrant on Ubuntu 24.04"
   default     = "vagrant"
 }
 
