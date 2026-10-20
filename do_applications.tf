@@ -924,7 +924,7 @@ variable "do_application_gravitl-netmaker" {
 }
 
 variable "do_application_grokbuild" {
-  description = "Grok Build 1.0.44 on Ubuntu 24.04"
+  description = "Grok Build 1.0.46 on Ubuntu 24.04"
   default     = "grokbuild"
 }
 
@@ -1094,7 +1094,7 @@ variable "do_application_laravel-forge-ubuntu-22-04" {
 }
 
 variable "do_application_laravel-forge-ubuntu-24-04" {
-  description = "Laravel Forge - Ubuntu 24.04 0.5.2 on Ubuntu 24.04"
+  description = "Laravel Forge - Ubuntu 24.04 0.5.3 on Ubuntu 24.04"
   default     = "laravel-forge-ubuntu-24-04"
 }
 
@@ -1109,7 +1109,7 @@ variable "do_application_laravelforge-laravelforgeubun" {
 }
 
 variable "do_application_laravelforge-laravelforgeubuntu2604" {
-  description = "Laravel Forge - Ubuntu 26.04 0.1.1 on Ubuntu 26.04"
+  description = "Laravel Forge - Ubuntu 26.04 0.1.2 on Ubuntu 26.04"
   default     = "laravelforge-laravelforgeubuntu2604"
 }
 
