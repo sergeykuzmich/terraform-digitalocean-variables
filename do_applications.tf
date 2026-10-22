@@ -1214,7 +1214,7 @@ variable "do_application_meilisas-meilisearch-10" {
 }
 
 variable "do_application_mern" {
-  description = "MERN on Ubuntu 22.04"
+  description = "MERN on Ubuntu 24.04"
   default     = "mern"
 }
 
