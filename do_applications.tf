@@ -544,7 +544,7 @@ variable "do_application_codexcli" {
 }
 
 variable "do_application_codexuniversal" {
-  description = "Codex Universal on Ubuntu 24.04"
+  description = "Codex Universal 2026.05.02 on Ubuntu 24.04"
   default     = "codexuniversal"
 }
 
@@ -554,7 +554,7 @@ variable "do_application_convoy" {
 }
 
 variable "do_application_coolify" {
-  description = "Coolify 4.4.0 on Ubuntu 24.04"
+  description = "Coolify 4.4.7 on Ubuntu 24.04"
   default     = "coolify"
 }
 
@@ -564,7 +564,7 @@ variable "do_application_coreflux-corefluxmqttbrok" {
 }
 
 variable "do_application_cpanel-cpanelwhmforalma" {
-  description = "cPanel & WHM® for AlmaLinux 9 11.138.0.11 on AlmaLinux 9"
+  description = "cPanel & WHM® for AlmaLinux 9 11.138.0.15 on AlmaLinux 9"
   default     = "cpanel-cpanelwhmforalma"
 }
 
@@ -579,7 +579,7 @@ variable "do_application_cpanel-wpsquared" {
 }
 
 variable "do_application_craftcms" {
-  description = "Craft CMS 5.10.11 on 24.04"
+  description = "Craft CMS 5.11.5.1 on 24.04"
   default     = "craftcms"
 }
 
@@ -859,7 +859,7 @@ variable "do_application_flowforge" {
 }
 
 variable "do_application_flowforge-flowfuse" {
-  description = "FlowFuse 3.1.1 on Ubuntu 22.04"
+  description = "FlowFuse 3.2.0 on Ubuntu 22.04"
   default     = "flowforge-flowfuse"
 }
 
@@ -1229,7 +1229,7 @@ variable "do_application_microwebercms-microweber-20-04" {
 }
 
 variable "do_application_minecraftforgeed" {
-  description = "Minecraft Forge Edition Server 26.1.2 on Ubuntu 24.04"
+  description = "Minecraft Forge Edition Server 26.3-66.0.13 on Ubuntu 24.04"
   default     = "minecraftforgeed"
 }
 
@@ -1249,7 +1249,7 @@ variable "do_application_monetdbsolutions-monetdb" {
 }
 
 variable "do_application_mongodb-18-04" {
-  description = "MongoDB 8.0.17 on Ubuntu 24.04"
+  description = "MongoDB 8.0.34 on Ubuntu 24.04"
   default     = "mongodb-18-04"
 }
 
@@ -1519,12 +1519,12 @@ variable "do_application_playboxtechnolog-ottstream" {
 }
 
 variable "do_application_plesk-20-04" {
-  description = "Plesk 18.0.81 on Ubuntu 24.04"
+  description = "Plesk 18.0.81.4 on Ubuntu 24.04"
   default     = "plesk-20-04"
 }
 
 variable "do_application_plesk-pleskalmalinux" {
-  description = "Plesk (AlmaLinux) 18.0.81 on AlmaLinux 9"
+  description = "Plesk (AlmaLinux) 18.0.81.4 on AlmaLinux 9"
   default     = "plesk-pleskalmalinux"
 }
 
@@ -1599,7 +1599,7 @@ variable "do_application_rstudio-20-04" {
 }
 
 variable "do_application_rubyonrails-20-04" {
-  description = "Ruby on Rails 8.1.1 on Ubuntu 24.04"
+  description = "Ruby on Rails 8.1.4 on Ubuntu 24.04"
   default     = "rubyonrails-20-04"
 }
 
@@ -1809,7 +1809,7 @@ variable "do_application_sharklabs-prometheus2541" {
 }
 
 variable "do_application_sharklabs-strapi1click" {
-  description = "Strapi 5.0.0 on Ubuntu 24.04"
+  description = "Strapi 5.56.0 on Ubuntu 24.04"
   default     = "sharklabs-strapi1click"
 }
 
@@ -1874,7 +1874,7 @@ variable "do_application_stretchshop" {
 }
 
 variable "do_application_supabase" {
-  description = "Supabase 1.26.05 on Ubuntu 24.04"
+  description = "Supabase v1.26.08 on Ubuntu 24.04"
   default     = "supabase"
 }
 
