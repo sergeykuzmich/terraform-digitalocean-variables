@@ -879,7 +879,7 @@ variable "do_application_genesisdb-genesisdbce" {
 }
 
 variable "do_application_ghost-20-04" {
-  description = "Ghost 6.67.0 on Ubuntu 24.04"
+  description = "Ghost 6.71.0 on Ubuntu 24.04"
   default     = "ghost-20-04"
 }
 
