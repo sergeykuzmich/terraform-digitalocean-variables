@@ -519,7 +519,7 @@ variable "do_application_clevervpn-clevervpncluster" {
 }
 
 variable "do_application_clickhouse" {
-  description = "ClickHouse 23.10.4.25 on Ubuntu 24.04"
+  description = "ClickHouse on Ubuntu 24.04"
   default     = "clickhouse"
 }
 
@@ -534,7 +534,7 @@ variable "do_application_codelathe-filecloud-20-04" {
 }
 
 variable "do_application_codertechnologie-vscodeserver" {
-  description = "VS Code Server 4.141.0 on Ubuntu 22.04 (LTS)"
+  description = "VS Code Server 4.143.1 on Ubuntu 22.04 (LTS)"
   default     = "codertechnologie-vscodeserver"
 }
 
@@ -564,17 +564,17 @@ variable "do_application_coreflux-corefluxmqttbrok" {
 }
 
 variable "do_application_cpanel-cpanelwhmforalma" {
-  description = "cPanel & WHM® for AlmaLinux 9 11.138.0.15 on AlmaLinux 9"
+  description = "cPanel & WHM® for AlmaLinux 9 11.138.0.18 on AlmaLinux 9"
   default     = "cpanel-cpanelwhmforalma"
 }
 
 variable "do_application_cpanel-cpanelwhmforubun" {
-  description = "cPanel & WHM® for Ubuntu 11.136.0.39 on Ubuntu 22.04"
+  description = "cPanel & WHM® for Ubuntu 11.138.0.18 on Ubuntu 22.04"
   default     = "cpanel-cpanelwhmforubun"
 }
 
 variable "do_application_cpanel-wpsquared" {
-  description = "WP Squared 11.138.1.9 on CloudLinux 8"
+  description = "WP Squared 11.138.1.18 on CloudLinux 8"
   default     = "cpanel-wpsquared"
 }
 
@@ -899,7 +899,7 @@ variable "do_application_gitlab-gitlabenterprise-20-04" {
 }
 
 variable "do_application_goauthentikio-authentik" {
-  description = "authentik 2026.8.1 on Ubuntu 24.04"
+  description = "authentik 2026.8.5 on Ubuntu 24.04"
   default     = "goauthentikio-authentik"
 }
 
@@ -1034,7 +1034,7 @@ variable "do_application_jelastic-virtuozzoapplica" {
 }
 
 variable "do_application_jellyfin" {
-  description = "Jellyfin 12.2 on 24.04"
+  description = "Jellyfin 12.3 on 24.04"
   default     = "jellyfin"
 }
 
@@ -1459,7 +1459,7 @@ variable "do_application_panelica-panelicahostingp" {
 }
 
 variable "do_application_passboltsa-passboltce-20-04" {
-  description = "Passbolt CE 5.16.0-1 on Debian 13"
+  description = "Passbolt CE 5.17.0-1 on Debian 13"
   default     = "passboltsa-passboltce-20-04"
 }
 
@@ -1549,7 +1549,7 @@ variable "do_application_postalsystemso-emailengine" {
 }
 
 variable "do_application_prometheus-18-04" {
-  description = "Prometheus 3.15.0 on Ubuntu 24.04"
+  description = "Prometheus 3.15.1 on Ubuntu 24.04"
   default     = "prometheus-18-04"
 }
 
@@ -1844,7 +1844,7 @@ variable "do_application_smartarget-wordpresswoocomm" {
 }
 
 variable "do_application_softlab24-opensourcesocial-18-04" {
-  description = "Open Source Social Network 9.4 on Ubuntu 24.04 (LTS)"
+  description = "Open Source Social Network 10.1 on Ubuntu 24.04 (LTS)"
   default     = "softlab24-opensourcesocial-18-04"
 }
 
