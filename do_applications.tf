@@ -1329,7 +1329,7 @@ variable "do_application_openboxes-openboxesserver" {
 }
 
 variable "do_application_openclaw" {
-  description = "OpenClaw 2026.9.4 on Ubuntu 24.04"
+  description = "OpenClaw 2026.10.7 on Ubuntu 24.04"
   default     = "openclaw"
 }
 
