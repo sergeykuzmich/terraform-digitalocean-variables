@@ -34,7 +34,7 @@ variable "do_application_activepieces" {
 }
 
 variable "do_application_adminbolt" {
-  description = "AdminBolt 1.9.2 on AlmaLinux 9.x"
+  description = "AdminBolt 1.9.3 on AlmaLinux 9.x"
   default     = "adminbolt"
 }
 
@@ -1134,7 +1134,7 @@ variable "do_application_linuxpatchcom-linuxpatchapplia" {
 }
 
 variable "do_application_litespeedtechnol-cyberpanel-20-04" {
-  description = "CyberPanel 3.0.6 on Ubuntu 26.04"
+  description = "CyberPanel 3.0.8 on Ubuntu 26.04"
   default     = "litespeedtechnol-cyberpanel-20-04"
 }
 
@@ -1144,7 +1144,7 @@ variable "do_application_litespeedtechnol-openlitespeedcla-18-04" {
 }
 
 variable "do_application_litespeedtechnol-openlitespeeddja-20-04" {
-  description = "OpenLiteSpeed Django 6.0.2 on Ubuntu 24.04"
+  description = "OpenLiteSpeed Django 6.1.3 on Ubuntu 26.04"
   default     = "litespeedtechnol-openlitespeeddja-20-04"
 }
 
@@ -1154,22 +1154,22 @@ variable "do_application_litespeedtechnol-openlitespeeddru" {
 }
 
 variable "do_application_litespeedtechnol-openlitespeedjoo-20-04" {
-  description = "OpenLiteSpeed Joomla 6.1.1 on Ubuntu 24.04"
+  description = "OpenLiteSpeed Joomla 6.1.3 on Ubuntu 26.04"
   default     = "litespeedtechnol-openlitespeedjoo-20-04"
 }
 
 variable "do_application_litespeedtechnol-openlitespeednod-20-04" {
-  description = "OpenLiteSpeed NodeJS 26.1.0 on Ubuntu 24.04"
+  description = "OpenLiteSpeed NodeJS 26.12.1 on Ubuntu 26.04"
   default     = "litespeedtechnol-openlitespeednod-20-04"
 }
 
 variable "do_application_litespeedtechnol-openlitespeedrai-20-04" {
-  description = "OpenLiteSpeed Rails 8.1.3 on Ubuntu 24.04"
+  description = "OpenLiteSpeed Rails 8.1.4 on Ubuntu 26.04"
   default     = "litespeedtechnol-openlitespeedrai-20-04"
 }
 
 variable "do_application_litespeedtechnol-openlitespeedwor-20-04" {
-  description = "OpenLiteSpeed WordPress 7.1.0 on Ubuntu 26.04"
+  description = "OpenLiteSpeed WordPress 7.1.3 on Ubuntu 26.04"
   default     = "litespeedtechnol-openlitespeedwor-20-04"
 }
 
@@ -1339,7 +1339,7 @@ variable "do_application_opencode" {
 }
 
 variable "do_application_openhands" {
-  description = "OpenHands 1.18.0 on 24.04"
+  description = "OpenHands 1.33.0 on 24.04"
   default     = "openhands"
 }
 
