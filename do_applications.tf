@@ -953,6 +953,11 @@ variable "do_application_hashicorpvault" {
   default     = "hashicorpvault"
 }
 
+variable "do_application_herdr" {
+  description = "Herdr 0.9.3 on 24.04"
+  default     = "herdr"
+}
+
 variable "do_application_hermesagent" {
   description = "Hermes Agent v2026.9.24 on Ubuntu 24.04"
   default     = "hermesagent"
