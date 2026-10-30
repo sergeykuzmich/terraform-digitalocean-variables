@@ -14,7 +14,7 @@ variable "do_application_3cxcommunication-3cxv18" {
 }
 
 variable "do_application_aapanel" {
-  description = "aaPanel 8.0.3 on Ubuntu 24.04"
+  description = "aaPanel 8.0.7 on Ubuntu 24.04"
   default     = "aapanel"
 }
 
@@ -259,7 +259,7 @@ variable "do_application_anythingmcp" {
 }
 
 variable "do_application_apliteni-keitaro" {
-  description = "Keitaro 11.1.4 on CentOS 9 Stream"
+  description = "Keitaro 11.5.0 on CentOS 9 Stream"
   default     = "apliteni-keitaro"
 }
 
@@ -449,7 +449,7 @@ variable "do_application_btcpayserver" {
 }
 
 variable "do_application_buzz" {
-  description = "Buzz 0.2.0 on 24.04"
+  description = "Buzz 0.2.1 on 24.04"
   default     = "buzz"
 }
 
@@ -524,7 +524,7 @@ variable "do_application_clickhouse" {
 }
 
 variable "do_application_cloudron-20-04" {
-  description = "Cloudron 10.0.5 on Ubuntu 26.04"
+  description = "Cloudron 10.1.6 on Ubuntu 26.04"
   default     = "cloudron-20-04"
 }
 
@@ -914,7 +914,7 @@ variable "do_application_gorails-hatchbox" {
 }
 
 variable "do_application_grafana-18-04" {
-  description = "Grafana 11.2 on Ubuntu 24.04"
+  description = "Grafana on Ubuntu 24.04"
   default     = "grafana-18-04"
 }
 
@@ -924,7 +924,7 @@ variable "do_application_gravitl-netmaker" {
 }
 
 variable "do_application_grokbuild" {
-  description = "Grok Build 1.0.46 on Ubuntu 24.04"
+  description = "Grok Build 1.0.70 on Ubuntu 24.04"
   default     = "grokbuild"
 }
 
@@ -1224,7 +1224,7 @@ variable "do_application_mern" {
 }
 
 variable "do_application_mgtcommercegmbh-cloudpanel2ubunt" {
-  description = "CloudPanel 2 - Ubuntu 24.04 2.5.4 on Ubuntu 24.04"
+  description = "CloudPanel 2 - Ubuntu 24.04 2.5.4 on Ubuntu 26.04"
   default     = "mgtcommercegmbh-cloudpanel2ubunt"
 }
 
@@ -1239,7 +1239,7 @@ variable "do_application_minecraftforgeed" {
 }
 
 variable "do_application_mjmair-inventree" {
-  description = "InvenTree 1.3.4 on Ubuntu 24.04"
+  description = "InvenTree 1.6.1 on Ubuntu 24.04"
   default     = "mjmair-inventree"
 }
 
