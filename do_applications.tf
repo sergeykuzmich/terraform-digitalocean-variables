@@ -1414,7 +1414,7 @@ variable "do_application_openvpn-18-04" {
 }
 
 variable "do_application_operateengineeri-operate" {
-  description = "Operate 1.2.0 on Ubuntu 24.04"
+  description = "Operate 1.4.0 on Ubuntu 24.04"
   default     = "operateengineeri-operate"
 }
 
@@ -1799,7 +1799,7 @@ variable "do_application_sharklabs-paperminecraftse" {
 }
 
 variable "do_application_sharklabs-perconamonitorin" {
-  description = "Percona Monitoring and Management 3 on Ubuntu 24.04"
+  description = "Percona Monitoring and Management 3.9.1 on Ubuntu 24.04"
   default     = "sharklabs-perconamonitorin"
 }
 
