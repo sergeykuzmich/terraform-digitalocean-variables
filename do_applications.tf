@@ -769,7 +769,7 @@ variable "do_application_doteamaccount-helloworld" {
 }
 
 variable "do_application_doteamaccount-pocketbase" {
-  description = "PocketBase 0.40.5 on Ubuntu 22.04"
+  description = "PocketBase 0.40.6 on Ubuntu 22.04"
   default     = "doteamaccount-pocketbase"
 }
 
@@ -871,6 +871,11 @@ variable "do_application_fossorial-pangolince1" {
 variable "do_application_futo-immich" {
   description = "Immich release on Ubuntu 24.04 (LTS)"
   default     = "futo-immich"
+}
+
+variable "do_application_genesisdb" {
+  description = "GenesisDB 2.0.0 on Ubuntu 24.04 LTS"
+  default     = "genesisdb"
 }
 
 variable "do_application_genesisdb-genesisdbce" {
@@ -1764,7 +1769,7 @@ variable "do_application_sharklabs-minecraftjavaedi-18-04" {
 }
 
 variable "do_application_sharklabs-nemoclawalpha" {
-  description = "NemoClaw (Alpha) 0.0.1-alpha on Ubuntu 24.04"
+  description = "NemoClaw (Alpha) 0.0.137 on Ubuntu 24.04"
   default     = "sharklabs-nemoclawalpha"
 }
 
@@ -1939,7 +1944,7 @@ variable "do_application_temporal" {
 }
 
 variable "do_application_thegrampsproject-grampsweb" {
-  description = "Gramps Web 3.0 on Ubuntu 22.04"
+  description = "Gramps Web 4.0 on Ubuntu 26.04"
   default     = "thegrampsproject-grampsweb"
 }
 
@@ -2064,7 +2069,7 @@ variable "do_application_ycqm" {
 }
 
 variable "do_application_yeastar-yeastarpseriesph" {
-  description = "Yeastar P-Series Phone System 83.23.0.126 on Ubuntu 24.04 LTS"
+  description = "Yeastar P-Series Phone System 83.24.0.124 on Ubuntu 24.04 LTS"
   default     = "yeastar-yeastarpseriesph"
 }
 
