@@ -419,12 +419,12 @@ variable "do_application_bigcloud-odoo" {
 }
 
 variable "do_application_bitwarden" {
-  description = "Bitwarden 2026.9.1 on Ubuntu 24.04"
+  description = "Bitwarden 2026.10.1 on Ubuntu 24.04"
   default     = "bitwarden"
 }
 
 variable "do_application_blueskysocialpds" {
-  description = "BlueSky Social PDS 0.4 on Ubuntu 24.04"
+  description = "BlueSky Social PDS on Ubuntu 24.04"
   default     = "blueskysocialpds"
 }
 
@@ -539,7 +539,7 @@ variable "do_application_codertechnologie-vscodeserver" {
 }
 
 variable "do_application_codexcli" {
-  description = "Codex CLI 0.154.0 on Ubuntu 24.04"
+  description = "Codex CLI 0.166.0 on Ubuntu 24.04"
   default     = "codexcli"
 }
 
@@ -596,6 +596,11 @@ variable "do_application_crivion-laranodepanel" {
 variable "do_application_csmm-20-04" {
   description = "CSMM 1.20.2 on Ubuntu 20.04"
   default     = "csmm-20-04"
+}
+
+variable "do_application_cubitetechnologi-cubite-20-04" {
+  description = "CUBITE Verawood (Tutor 22) on Ubuntu 24.04"
+  default     = "cubitetechnologi-cubite-20-04"
 }
 
 variable "do_application_cyborgtest-yborgtestserver" {
@@ -999,7 +1004,7 @@ variable "do_application_ibsurgeon-hqbirdfirebirdv5" {
 }
 
 variable "do_application_icewarp" {
-  description = "IceWarp 14.3 on Rocky Linux 9.x"
+  description = "IceWarp 14.3.0.13 on Rocky Linux 9.x"
   default     = "icewarp"
 }
 
@@ -1239,7 +1244,7 @@ variable "do_application_microwebercms-microweber-20-04" {
 }
 
 variable "do_application_minecraftforgeed" {
-  description = "Minecraft Forge Edition Server 26.3-66.0.13 on Ubuntu 24.04"
+  description = "Minecraft Forge Edition Server 26.3-66.1.2 on Ubuntu 24.04"
   default     = "minecraftforgeed"
 }
 
@@ -1324,7 +1329,7 @@ variable "do_application_omniedge-omniedgesupernod" {
 }
 
 variable "do_application_omniroute" {
-  description = "OmniRoute 3.8.51 on 24.04"
+  description = "OmniRoute 3.8.52 on 24.04"
   default     = "omniroute"
 }
 
@@ -1344,7 +1349,7 @@ variable "do_application_openclaw" {
 }
 
 variable "do_application_opencode" {
-  description = "OpenCode 1.18.27 on Ubuntu 24.04"
+  description = "OpenCode 1.18.32 on Ubuntu 24.04"
   default     = "opencode"
 }
 
@@ -1464,7 +1469,7 @@ variable "do_application_owncast-10" {
 }
 
 variable "do_application_panelica-panelicahostingp" {
-  description = "Panelica Hosting Panel 1.0.556 on Ubuntu 24.04"
+  description = "Panelica Hosting Panel 1.0.567 on Ubuntu 24.04"
   default     = "panelica-panelicahostingp"
 }
 
@@ -1474,7 +1479,7 @@ variable "do_application_passboltsa-passboltce-20-04" {
 }
 
 variable "do_application_payram" {
-  description = "PayRam 1.0.0 on Ubuntu 24.04 (LTS)"
+  description = "PayRam 1.0.1 on Ubuntu 26.04 (LTS)"
   default     = "payram"
 }
 
@@ -1574,7 +1579,7 @@ variable "do_application_questdb-20-04" {
 }
 
 variable "do_application_rabbitmq" {
-  description = "RabbitMQ 4.3.6 on Ubuntu 22.04"
+  description = "RabbitMQ 4.4.0 on Ubuntu 22.04"
   default     = "rabbitmq"
 }
 
@@ -1679,7 +1684,7 @@ variable "do_application_securityroots-dradis" {
 }
 
 variable "do_application_sekoyatech-libredbstudio" {
-  description = "LibreDB Studio 1.0.0 on Ubuntu 24.04 LTS"
+  description = "LibreDB Studio 1.0.0 on 24.04"
   default     = "sekoyatech-libredbstudio"
 }
 
@@ -1774,7 +1779,7 @@ variable "do_application_sharklabs-nemoclawalpha" {
 }
 
 variable "do_application_sharklabs-ollamawithopenwe" {
-  description = "Ollama with Open WebUI 0.10.2 on Ubuntu 24.04"
+  description = "Ollama with Open WebUI 0.40.8 on Ubuntu 24.04"
   default     = "sharklabs-ollamawithopenwe"
 }
 
@@ -1789,7 +1794,7 @@ variable "do_application_sharklabs-opensearch" {
 }
 
 variable "do_application_sharklabs-openwebui" {
-  description = "Open WebUI 0.12.0 on Ubuntu 24.04"
+  description = "Open WebUI 0.12.3 on Ubuntu 24.04"
   default     = "sharklabs-openwebui"
 }
 
@@ -1844,12 +1849,12 @@ variable "do_application_slotixsro-dbconvertstreams" {
 }
 
 variable "do_application_smartarget-prestashop" {
-  description = "PrestaShop 8.1.5 on Ubuntu 22.04"
+  description = "PrestaShop 8.2.8 on Ubuntu 22.04"
   default     = "smartarget-prestashop"
 }
 
 variable "do_application_smartarget-wordpresswoocomm" {
-  description = "WordPress-WooCommerce 11.1.2 on Ubuntu 22.04 (LTS)"
+  description = "WordPress-WooCommerce 11.2.1 on Ubuntu 22.04 (LTS)"
   default     = "smartarget-wordpresswoocomm"
 }
 
