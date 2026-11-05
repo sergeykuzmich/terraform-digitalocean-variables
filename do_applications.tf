@@ -124,7 +124,7 @@ variable "do_application_amd-vllmrocm7" {
 }
 
 variable "do_application_amddeveloperclou-amdprimus" {
-  description = "AMD Primus™ v26.8.0 on Ubuntu 24.04"
+  description = "AMD Primus™ v26.9.0 on Ubuntu 24.04"
   default     = "amddeveloperclou-amdprimus"
 }
 
@@ -554,7 +554,7 @@ variable "do_application_convoy" {
 }
 
 variable "do_application_coolify" {
-  description = "Coolify 4.4.7 on Ubuntu 24.04"
+  description = "Coolify 4.6.0 on Ubuntu 24.04"
   default     = "coolify"
 }
 
@@ -764,7 +764,7 @@ variable "do_application_dockeragent" {
 }
 
 variable "do_application_dokku-20-04" {
-  description = "Dokku 0.38.31 on Ubuntu 24.04"
+  description = "Dokku 0.38.34 on Ubuntu 24.04"
   default     = "dokku-20-04"
 }
 
@@ -1944,7 +1944,7 @@ variable "do_application_techdomeai-sparrowcommunityedition1" {
 }
 
 variable "do_application_temporal" {
-  description = "Temporal 1.32.1 on Ubuntu 24.04"
+  description = "Temporal 1.32.2 on Ubuntu 24.04"
   default     = "temporal"
 }
 
