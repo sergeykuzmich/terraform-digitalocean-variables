@@ -1109,7 +1109,7 @@ variable "do_application_laravel-forge-ubuntu-22-04" {
 }
 
 variable "do_application_laravel-forge-ubuntu-24-04" {
-  description = "Laravel Forge - Ubuntu 24.04 0.5.3 on Ubuntu 24.04"
+  description = "Laravel Forge - Ubuntu 24.04 0.5.4 on Ubuntu 24.04"
   default     = "laravel-forge-ubuntu-24-04"
 }
 
@@ -1124,7 +1124,7 @@ variable "do_application_laravelforge-laravelforgeubun" {
 }
 
 variable "do_application_laravelforge-laravelforgeubuntu2604" {
-  description = "Laravel Forge - Ubuntu 26.04 0.1.2 on Ubuntu 26.04"
+  description = "Laravel Forge - Ubuntu 26.04 0.1.3 on Ubuntu 26.04"
   default     = "laravelforge-laravelforgeubuntu2604"
 }
 
@@ -1749,7 +1749,7 @@ variable "do_application_sharklabs-jupyternotebook" {
 }
 
 variable "do_application_sharklabs-keycloak" {
-  description = "Keycloak 25.0 on Ubuntu 22.04"
+  description = "Keycloak 26.7.4 on Ubuntu 24.04"
   default     = "sharklabs-keycloak"
 }
 
