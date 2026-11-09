@@ -1069,7 +1069,7 @@ variable "do_application_josecanchila-thormail" {
 }
 
 variable "do_application_kandralabs-zulip-18-04" {
-  description = "Zulip 12.3 on Ubuntu 22.04"
+  description = "Zulip 12.4 on Ubuntu 22.04"
   default     = "kandralabs-zulip-18-04"
 }
 
@@ -1564,7 +1564,7 @@ variable "do_application_postalsystemso-emailengine" {
 }
 
 variable "do_application_prometheus-18-04" {
-  description = "Prometheus 3.15.1 on Ubuntu 24.04"
+  description = "Prometheus 3.16.0 on Ubuntu 24.04"
   default     = "prometheus-18-04"
 }
 
@@ -1859,7 +1859,7 @@ variable "do_application_smartarget-wordpresswoocomm" {
 }
 
 variable "do_application_softlab24-opensourcesocial-18-04" {
-  description = "Open Source Social Network 10.1 on Ubuntu 24.04 (LTS)"
+  description = "Open Source Social Network 10.1 on Ubuntu 26.04 (LTS)"
   default     = "softlab24-opensourcesocial-18-04"
 }
 
