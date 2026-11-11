@@ -39,7 +39,7 @@ variable "do_application_adminbolt" {
 }
 
 variable "do_application_airflow" {
-  description = "Airflow 3.3.2 on Ubuntu 24.04"
+  description = "Airflow 3.4.0 on Ubuntu 24.04"
   default     = "airflow"
 }
 
@@ -444,8 +444,13 @@ variable "do_application_botguardo-botguardingressc" {
 }
 
 variable "do_application_btcpayserver" {
-  description = "BTCPay Server 2.4.4 on Ubuntu 24.04"
+  description = "BTCPay Server 2.4.7 on Ubuntu 24.04"
   default     = "btcpayserver"
+}
+
+variable "do_application_bunkercloudservi-warpspeedvpn-18-04" {
+  description = "WarpSpeed VPN 2.1.0 on Debian 13"
+  default     = "bunkercloudservi-warpspeedvpn-18-04"
 }
 
 variable "do_application_buzz" {
@@ -534,7 +539,7 @@ variable "do_application_codelathe-filecloud-20-04" {
 }
 
 variable "do_application_codertechnologie-vscodeserver" {
-  description = "VS Code Server 4.143.1 on Ubuntu 22.04 (LTS)"
+  description = "VS Code Server 4.144.0 on Ubuntu 22.04 (LTS)"
   default     = "codertechnologie-vscodeserver"
 }
 
@@ -579,7 +584,7 @@ variable "do_application_cpanel-wpsquared" {
 }
 
 variable "do_application_craftcms" {
-  description = "Craft CMS 5.11.5.1 on 24.04"
+  description = "Craft CMS 5.12.0 on 24.04"
   default     = "craftcms"
 }
 
@@ -704,7 +709,7 @@ variable "do_application_digitaloceanai-jupyterlabamdmi3" {
 }
 
 variable "do_application_digitaloceanai-omarchy" {
-  description = "Omarchy 4.0.4 on Omarchy"
+  description = "Omarchy 4.5.0 on Omarchy"
   default     = "digitaloceanai-omarchy"
 }
 
@@ -889,7 +894,7 @@ variable "do_application_genesisdb-genesisdbce" {
 }
 
 variable "do_application_ghost-20-04" {
-  description = "Ghost 6.71.0 on Ubuntu 24.04"
+  description = "Ghost 6.74.0 on Ubuntu 24.04"
   default     = "ghost-20-04"
 }
 
@@ -934,7 +939,7 @@ variable "do_application_gravitl-netmaker" {
 }
 
 variable "do_application_grokbuild" {
-  description = "Grok Build 1.0.70 on Ubuntu 24.04"
+  description = "Grok Build 1.0.77 on Ubuntu 24.04"
   default     = "grokbuild"
 }
 
@@ -1049,7 +1054,7 @@ variable "do_application_jelastic-virtuozzoapplica" {
 }
 
 variable "do_application_jellyfin" {
-  description = "Jellyfin 12.3 on 24.04"
+  description = "Jellyfin 12.4 on 24.04"
   default     = "jellyfin"
 }
 
@@ -1184,7 +1189,7 @@ variable "do_application_litespeedtechnol-openlitespeedrai-20-04" {
 }
 
 variable "do_application_litespeedtechnol-openlitespeedwor-20-04" {
-  description = "OpenLiteSpeed WordPress 7.1.3 on Ubuntu 26.04"
+  description = "OpenLiteSpeed WordPress 7.1.4 on Ubuntu 26.04"
   default     = "litespeedtechnol-openlitespeedwor-20-04"
 }
 
@@ -1349,12 +1354,12 @@ variable "do_application_openclaw" {
 }
 
 variable "do_application_opencode" {
-  description = "OpenCode 1.18.32 on Ubuntu 24.04"
+  description = "OpenCode 1.19.5 on Ubuntu 24.04"
   default     = "opencode"
 }
 
 variable "do_application_openhands" {
-  description = "OpenHands 1.33.0 on 24.04"
+  description = "OpenHands 1.34.0 on 24.04"
   default     = "openhands"
 }
 
@@ -1554,7 +1559,7 @@ variable "do_application_plesk-plesktest" {
 }
 
 variable "do_application_plex" {
-  description = "Plex 1.43.4.10903-e5521bd8c on 24.04"
+  description = "Plex 1.43.5.11079-b3b13e506 on 24.04"
   default     = "plex"
 }
 
@@ -1599,7 +1604,7 @@ variable "do_application_rexarsystems-ngstack" {
 }
 
 variable "do_application_ringq" {
-  description = "RingQ 9.1.0 on Debian 13 x64"
+  description = "RingQ 9.2.0 on Debian 13 x64"
   default     = "ringq"
 }
 
