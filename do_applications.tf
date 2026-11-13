@@ -4,7 +4,7 @@
 
 
 variable "do_application_3cxcommunication-3cx" {
-  description = "3CX 20.0.9.995 on Debian 12 (Bookworm)"
+  description = "3CX 20.0.10.1785 on Debian 12 (Bookworm)"
   default     = "3cxcommunication-3cx"
 }
 
@@ -544,7 +544,7 @@ variable "do_application_codertechnologie-vscodeserver" {
 }
 
 variable "do_application_codexcli" {
-  description = "Codex CLI 0.166.0 on Ubuntu 24.04"
+  description = "Codex CLI 0.167.1 on Ubuntu 24.04"
   default     = "codexcli"
 }
 
@@ -559,7 +559,7 @@ variable "do_application_convoy" {
 }
 
 variable "do_application_coolify" {
-  description = "Coolify 4.6.0 on Ubuntu 24.04"
+  description = "Coolify 4.7.5 on Ubuntu 24.04"
   default     = "coolify"
 }
 
@@ -919,7 +919,7 @@ variable "do_application_goauthentikio-authentik" {
 }
 
 variable "do_application_goose" {
-  description = "Goose v1.54.0 on Ubuntu 24.04"
+  description = "Goose v1.55.0 on Ubuntu 24.04"
   default     = "goose"
 }
 
@@ -1039,7 +1039,7 @@ variable "do_application_invoiceninja-20-0-4" {
 }
 
 variable "do_application_ispmanager-ispmanager6" {
-  description = "Ispmanager 6 6.146.2 on Ubuntu 24.04"
+  description = "Ispmanager 6 6.155.0 on Ubuntu 26.04"
   default     = "ispmanager-ispmanager6"
 }
 
@@ -1249,7 +1249,7 @@ variable "do_application_microwebercms-microweber-20-04" {
 }
 
 variable "do_application_minecraftforgeed" {
-  description = "Minecraft Forge Edition Server 26.3-66.1.2 on Ubuntu 24.04"
+  description = "Minecraft Forge Edition Server 26.3-66.1.5 on Ubuntu 24.04"
   default     = "minecraftforgeed"
 }
 
@@ -1479,7 +1479,7 @@ variable "do_application_panelica-panelicahostingp" {
 }
 
 variable "do_application_passboltsa-passboltce-20-04" {
-  description = "Passbolt CE 5.17.0-1 on Debian 13"
+  description = "Passbolt CE 5.18.0-1 on Debian 13"
   default     = "passboltsa-passboltce-20-04"
 }
 
@@ -1814,7 +1814,7 @@ variable "do_application_sharklabs-paperminecraftse" {
 }
 
 variable "do_application_sharklabs-perconamonitorin" {
-  description = "Percona Monitoring and Management 3.9.1 on Ubuntu 24.04"
+  description = "Percona Monitoring and Management 3.10.0 on Ubuntu 24.04"
   default     = "sharklabs-perconamonitorin"
 }
 
@@ -2049,7 +2049,7 @@ variable "do_application_whmcs" {
 }
 
 variable "do_application_wikijs-18-04" {
-  description = "Wiki.js 2.5.314 on Ubuntu 24.04 (LTS)"
+  description = "Wiki.js 3.3.0 on Ubuntu 26.04 (LTS)"
   default     = "wikijs-18-04"
 }
 
