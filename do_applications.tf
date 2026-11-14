@@ -754,7 +754,7 @@ variable "do_application_discourse-20-04" {
 }
 
 variable "do_application_django-20-04" {
-  description = "Django 6.0.8 on Ubuntu 24.04"
+  description = "Django 6.1.2 on Ubuntu 24.04"
   default     = "django-20-04"
 }
 
@@ -764,7 +764,7 @@ variable "do_application_docker-20-04" {
 }
 
 variable "do_application_dockeragent" {
-  description = "Docker Agent 1.149.0 on Ubuntu 24.04"
+  description = "Docker Agent 1.150.0 on Ubuntu 24.04"
   default     = "dockeragent"
 }
 
@@ -964,7 +964,7 @@ variable "do_application_harperdb-18-04" {
 }
 
 variable "do_application_hashicorpvault" {
-  description = "HashiCorp Vault 2.1.1 on Ubuntu 24.04"
+  description = "HashiCorp Vault 2.1.2 on Ubuntu 24.04"
   default     = "hashicorpvault"
 }
 
@@ -1144,7 +1144,7 @@ variable "do_application_lemp-20-04" {
 }
 
 variable "do_application_linuxgsm" {
-  description = "LinuxGSM 26.3.0 on Ubuntu 24.04"
+  description = "LinuxGSM 26.4.0 on Ubuntu 24.04"
   default     = "linuxgsm"
 }
 
@@ -1316,6 +1316,11 @@ variable "do_application_nginx" {
 variable "do_application_nirvatosoftware-nirvashare-20-04" {
   description = "NirvaShare 7.2.0 on Ubuntu 24.04 (LTS)"
   default     = "nirvatosoftware-nirvashare-20-04"
+}
+
+variable "do_application_nod" {
+  description = "Nod 0.7.2 on Ubuntu 24.04"
+  default     = "nod"
 }
 
 variable "do_application_nodejs-20-04" {
@@ -1619,7 +1624,7 @@ variable "do_application_rstudio-20-04" {
 }
 
 variable "do_application_rubyonrails-20-04" {
-  description = "Ruby on Rails 8.1.4 on Ubuntu 24.04"
+  description = "Ruby on Rails 8.1.4.1 on Ubuntu 24.04"
   default     = "rubyonrails-20-04"
 }
 
@@ -1724,7 +1729,7 @@ variable "do_application_sharklabs-codeserver1" {
 }
 
 variable "do_application_sharklabs-conduktorconsole" {
-  description = "Conduktor Console 1.46.1 on Ubuntu 24.04"
+  description = "Conduktor Console 1.47.0 on Ubuntu 24.04"
   default     = "sharklabs-conduktorconsole"
 }
 
@@ -1749,12 +1754,12 @@ variable "do_application_sharklabs-foldinghome-18-04" {
 }
 
 variable "do_application_sharklabs-jupyternotebook" {
-  description = "Jupyter Notebook 7.4.5 on Ubuntu 24.04"
+  description = "Jupyter Notebook 4.6.4 on Ubuntu 24.04"
   default     = "sharklabs-jupyternotebook"
 }
 
 variable "do_application_sharklabs-keycloak" {
-  description = "Keycloak 26.7.4 on Ubuntu 24.04"
+  description = "Keycloak 26.8.2 on Ubuntu 24.04"
   default     = "sharklabs-keycloak"
 }
 
@@ -1769,7 +1774,7 @@ variable "do_application_sharklabs-logstash" {
 }
 
 variable "do_application_sharklabs-matrixsynapsebac-10" {
-  description = "Matrix (Synapse backend) 1.162.0 on Debian 13"
+  description = "Matrix (Synapse backend) on Debian 13"
   default     = "sharklabs-matrixsynapsebac-10"
 }
 
@@ -2109,7 +2114,7 @@ variable "do_application_zabbix-zabbixserver64" {
 }
 
 variable "do_application_zeroclaw" {
-  description = "ZeroClaw v0.8.5 on Ubuntu 24.04"
+  description = "ZeroClaw v0.8.6 on Ubuntu 24.04"
   default     = "zeroclaw"
 }
 
