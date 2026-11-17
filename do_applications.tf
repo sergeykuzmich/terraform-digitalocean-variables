@@ -214,7 +214,7 @@ variable "do_application_amddeveloperclou-vllm0230rocm724" {
 }
 
 variable "do_application_amddeveloperclou-vllm0271vllmomni" {
-  description = "vLLM 0.30.0 + vLLM-Omni (ROCm 7.14) 0.30.0 on Ubuntu 24.04"
+  description = "vLLM 0.33.0 + vLLM-Omni (ROCm 7.14) 0.33.0 on Ubuntu 24.04"
   default     = "amddeveloperclou-vllm0271vllmomni"
 }
 
