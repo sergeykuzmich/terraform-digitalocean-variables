@@ -24,7 +24,7 @@ variable "do_application_aapanel-aapanellnmp" {
 }
 
 variable "do_application_abilityai-trinity" {
-  description = "Trinity 0.9.5 on Ubuntu 24.04"
+  description = "Trinity 1.0.5 on Ubuntu 24.04"
   default     = "abilityai-trinity"
 }
 
@@ -194,7 +194,7 @@ variable "do_application_amddeveloperclou-unslothstudio" {
 }
 
 variable "do_application_amddeveloperclou-unslothstudioroc" {
-  description = "Unsloth Studio (ROCm 7.2.4) 2026.9.11 on Ubuntu 24.04"
+  description = "Unsloth Studio (ROCm 7.2.4) 2026.9.12 on Ubuntu 24.04"
   default     = "amddeveloperclou-unslothstudioroc"
 }
 
@@ -244,12 +244,12 @@ variable "do_application_analythium-shinyproxy-20-04" {
 }
 
 variable "do_application_antmedia-antmediaserverco-18-04" {
-  description = "Ant Media Server Community Edition 3.1.0 on Ubuntu 24.04"
+  description = "Ant Media Server Community Edition 3.2.0 on Ubuntu 24.04"
   default     = "antmedia-antmediaserverco-18-04"
 }
 
 variable "do_application_antmedia-antmediaserveren-18-04" {
-  description = "Ant Media Server Enterprise Edition 3.1.0 on Ubuntu 24.04"
+  description = "Ant Media Server Enterprise Edition 3.2.0 on Ubuntu 24.04"
   default     = "antmedia-antmediaserveren-18-04"
 }
 
@@ -454,7 +454,7 @@ variable "do_application_bunkercloudservi-warpspeedvpn-18-04" {
 }
 
 variable "do_application_buzz" {
-  description = "Buzz 0.2.1 on 24.04"
+  description = "Buzz 0.3.0 on 24.04"
   default     = "buzz"
 }
 
@@ -1154,7 +1154,7 @@ variable "do_application_linuxpatchcom-linuxpatchapplia" {
 }
 
 variable "do_application_litespeedtechnol-cyberpanel-20-04" {
-  description = "CyberPanel 3.0.8 on Ubuntu 26.04"
+  description = "CyberPanel 3.0.8-2 on Ubuntu 26.04"
   default     = "litespeedtechnol-cyberpanel-20-04"
 }
 
@@ -1689,7 +1689,7 @@ variable "do_application_seatablegmbh-seatable" {
 }
 
 variable "do_application_securityroots-dradis" {
-  description = "dradis 5.4.0 on Debian 13"
+  description = "dradis 5.5.0 on Debian 13"
   default     = "securityroots-dradis"
 }
 
@@ -1749,7 +1749,7 @@ variable "do_application_sharklabs-erpodoo" {
 }
 
 variable "do_application_sharklabs-foldinghome-18-04" {
-  description = "Folding@home 8.5.5 on Ubuntu 24.04"
+  description = "Folding@home 8.5.6 on Ubuntu 24.04"
   default     = "sharklabs-foldinghome-18-04"
 }
 
