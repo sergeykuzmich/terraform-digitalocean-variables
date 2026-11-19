@@ -214,7 +214,7 @@ variable "do_application_amddeveloperclou-vllm0230rocm724" {
 }
 
 variable "do_application_amddeveloperclou-vllm0271vllmomni" {
-  description = "vLLM 0.33.0 + vLLM-Omni (ROCm 7.14) 0.33.0 on Ubuntu 24.04"
+  description = "vLLM 0.34.0 + vLLM-Omni (ROCm 7.14) 0.34.0 on Ubuntu 24.04"
   default     = "amddeveloperclou-vllm0271vllmomni"
 }
 
@@ -448,8 +448,13 @@ variable "do_application_btcpayserver" {
   default     = "btcpayserver"
 }
 
+variable "do_application_bunkercloudservi-litebackup" {
+  description = "Litebackup 0.3.30 on Debian 13"
+  default     = "bunkercloudservi-litebackup"
+}
+
 variable "do_application_bunkercloudservi-warpspeedvpn-18-04" {
-  description = "WarpSpeed VPN 2.1.0 on Debian 13"
+  description = "WarpSpeed VPN 2.5.9 on Debian 13"
   default     = "bunkercloudservi-warpspeedvpn-18-04"
 }
 
@@ -894,7 +899,7 @@ variable "do_application_genesisdb-genesisdbce" {
 }
 
 variable "do_application_ghost-20-04" {
-  description = "Ghost 6.74.0 on Ubuntu 24.04"
+  description = "Ghost 6.78.0 on Ubuntu 24.04"
   default     = "ghost-20-04"
 }
 
@@ -1074,7 +1079,7 @@ variable "do_application_josecanchila-thormail" {
 }
 
 variable "do_application_kandralabs-zulip-18-04" {
-  description = "Zulip 12.4 on Ubuntu 22.04"
+  description = "Zulip 13.2 on Ubuntu 22.04"
   default     = "kandralabs-zulip-18-04"
 }
 
@@ -1339,7 +1344,7 @@ variable "do_application_omniedge-omniedgesupernod" {
 }
 
 variable "do_application_omniroute" {
-  description = "OmniRoute 3.8.52 on 24.04"
+  description = "OmniRoute 3.8.53 on 24.04"
   default     = "omniroute"
 }
 
@@ -1354,7 +1359,7 @@ variable "do_application_openboxes-openboxesserver" {
 }
 
 variable "do_application_openclaw" {
-  description = "OpenClaw 2026.10.10 on Ubuntu 24.04"
+  description = "OpenClaw 2026.11.4 on Ubuntu 24.04"
   default     = "openclaw"
 }
 
@@ -1429,7 +1434,7 @@ variable "do_application_openrouter-spawnzeroclaw" {
 }
 
 variable "do_application_openvpn-18-04" {
-  description = "OpenVPN Access Server 3.2.3 on Ubuntu 26.04"
+  description = "OpenVPN Access Server 3.2.4 on Ubuntu 26.04"
   default     = "openvpn-18-04"
 }
 
@@ -1484,7 +1489,7 @@ variable "do_application_panelica-panelicahostingp" {
 }
 
 variable "do_application_passboltsa-passboltce-20-04" {
-  description = "Passbolt CE 5.18.0-1 on Debian 13"
+  description = "Passbolt CE 5.18.0-2 on Debian 13"
   default     = "passboltsa-passboltce-20-04"
 }
 
@@ -1571,6 +1576,11 @@ variable "do_application_plex" {
 variable "do_application_postalsystemso-emailengine" {
   description = "EmailEngine 2.84.1 on Ubuntu 24.04"
   default     = "postalsystemso-emailengine"
+}
+
+variable "do_application_privatebydefault" {
+  description = "Private by Default 1.0.1 on Ubuntu 24.04"
+  default     = "privatebydefault"
 }
 
 variable "do_application_prometheus-18-04" {
@@ -1789,7 +1799,7 @@ variable "do_application_sharklabs-nemoclawalpha" {
 }
 
 variable "do_application_sharklabs-ollamawithopenwe" {
-  description = "Ollama with Open WebUI 0.40.8 on Ubuntu 24.04"
+  description = "Ollama with Open WebUI 0.40.16 on Ubuntu 24.04"
   default     = "sharklabs-ollamawithopenwe"
 }
 
@@ -1804,7 +1814,7 @@ variable "do_application_sharklabs-opensearch" {
 }
 
 variable "do_application_sharklabs-openwebui" {
-  description = "Open WebUI 0.12.3 on Ubuntu 24.04"
+  description = "Open WebUI 0.13.3 on Ubuntu 24.04"
   default     = "sharklabs-openwebui"
 }
 
