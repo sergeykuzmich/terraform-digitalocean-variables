@@ -168,6 +168,11 @@ variable "do_application_amddeveloperclou-rocm101" {
   default     = "amddeveloperclou-rocm101"
 }
 
+variable "do_application_amddeveloperclou-rocm102" {
+  description = "ROCm 10.2 10.2 on Ubuntu 24.04"
+  default     = "amddeveloperclou-rocm102"
+}
+
 variable "do_application_amddeveloperclou-rocm714software" {
   description = "ROCm™ 7.14 Software 7.14 on Ubuntu 24.04"
   default     = "amddeveloperclou-rocm714software"
@@ -194,7 +199,7 @@ variable "do_application_amddeveloperclou-unslothstudio" {
 }
 
 variable "do_application_amddeveloperclou-unslothstudioroc" {
-  description = "Unsloth Studio (ROCm 7.2.4) 2026.9.12 on Ubuntu 24.04"
+  description = "Unsloth Studio (ROCm 7.2.4) 2026.11.7 on Ubuntu 24.04"
   default     = "amddeveloperclou-unslothstudioroc"
 }
 
@@ -419,7 +424,7 @@ variable "do_application_bigcloud-odoo" {
 }
 
 variable "do_application_bitwarden" {
-  description = "Bitwarden 2026.10.1 on Ubuntu 24.04"
+  description = "Bitwarden 2026.11.0 on Ubuntu 24.04"
   default     = "bitwarden"
 }
 
@@ -544,7 +549,7 @@ variable "do_application_codelathe-filecloud-20-04" {
 }
 
 variable "do_application_codertechnologie-vscodeserver" {
-  description = "VS Code Server 4.144.0 on Ubuntu 22.04 (LTS)"
+  description = "VS Code Server 4.145.2 on Ubuntu 22.04 (LTS)"
   default     = "codertechnologie-vscodeserver"
 }
 
@@ -589,7 +594,7 @@ variable "do_application_cpanel-wpsquared" {
 }
 
 variable "do_application_craftcms" {
-  description = "Craft CMS 5.12.0 on 24.04"
+  description = "Craft CMS 5.12.1 on 24.04"
   default     = "craftcms"
 }
 
@@ -874,7 +879,7 @@ variable "do_application_flowforge" {
 }
 
 variable "do_application_flowforge-flowfuse" {
-  description = "FlowFuse 3.2.0 on Ubuntu 22.04"
+  description = "FlowFuse 3.3.0 on Ubuntu 22.04"
   default     = "flowforge-flowfuse"
 }
 
@@ -944,7 +949,7 @@ variable "do_application_gravitl-netmaker" {
 }
 
 variable "do_application_grokbuild" {
-  description = "Grok Build 1.0.77 on Ubuntu 24.04"
+  description = "Grok Build 1.0.89 on Ubuntu 24.04"
   default     = "grokbuild"
 }
 
@@ -1079,7 +1084,7 @@ variable "do_application_josecanchila-thormail" {
 }
 
 variable "do_application_kandralabs-zulip-18-04" {
-  description = "Zulip 13.2 on Ubuntu 22.04"
+  description = "Zulip 13.3 on Ubuntu 22.04"
   default     = "kandralabs-zulip-18-04"
 }
 
@@ -1364,12 +1369,12 @@ variable "do_application_openclaw" {
 }
 
 variable "do_application_opencode" {
-  description = "OpenCode 1.19.5 on Ubuntu 24.04"
+  description = "OpenCode 1.19.6 on Ubuntu 24.04"
   default     = "opencode"
 }
 
 variable "do_application_openhands" {
-  description = "OpenHands 1.34.0 on 24.04"
+  description = "OpenHands 1.42.0 on 24.04"
   default     = "openhands"
 }
 
@@ -1599,7 +1604,7 @@ variable "do_application_questdb-20-04" {
 }
 
 variable "do_application_rabbitmq" {
-  description = "RabbitMQ 4.4.0 on Ubuntu 22.04"
+  description = "RabbitMQ 4.4.1 on Ubuntu 22.04"
   default     = "rabbitmq"
 }
 
