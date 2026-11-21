@@ -4,7 +4,7 @@
 
 
 variable "do_application_3cxcommunication-3cx" {
-  description = "3CX 20.0.10.1785 on Debian 12 (Bookworm)"
+  description = "3CX 20.0.10.1801 on Debian 12 (Bookworm)"
   default     = "3cxcommunication-3cx"
 }
 
@@ -128,6 +128,16 @@ variable "do_application_amddeveloperclou-amdprimus" {
   default     = "amddeveloperclou-amdprimus"
 }
 
+variable "do_application_amddeveloperclou-jax0120rocm101" {
+  description = "JAX 0.12.0 (ROCm 10.1) 0.12.0 on Ubuntu 24.04"
+  default     = "amddeveloperclou-jax0120rocm101"
+}
+
+variable "do_application_amddeveloperclou-jax0120rocm714" {
+  description = "JAX 0.12.0 (ROCm 7.14) 0.12.0 on Ubuntu 24.04"
+  default     = "amddeveloperclou-jax0120rocm714"
+}
+
 variable "do_application_amddeveloperclou-jax082rocm724" {
   description = "JAX 0.8.2 (ROCm 7.2.4) 0.8.2 on Ubuntu 24.04"
   default     = "amddeveloperclou-jax082rocm724"
@@ -151,6 +161,11 @@ variable "do_application_amddeveloperclou-pytorch2100rocm7" {
 variable "do_application_amddeveloperclou-pytorch2140rocm1" {
   description = "PyTorch 2.14.0 (ROCm 10.1) 2.14.0 on Ubuntu 24.04"
   default     = "amddeveloperclou-pytorch2140rocm1"
+}
+
+variable "do_application_amddeveloperclou-pytorch2150rocm1" {
+  description = "PyTorch 2.15.0 (ROCm 10.2) 2.15.0 on Ubuntu 24.04"
+  default     = "amddeveloperclou-pytorch2150rocm1"
 }
 
 variable "do_application_amddeveloperclou-qwen383biton8xmi" {
@@ -188,6 +203,11 @@ variable "do_application_amddeveloperclou-sglang0514rocm72" {
   default     = "amddeveloperclou-sglang0514rocm72"
 }
 
+variable "do_application_amddeveloperclou-sglang0523rocm72" {
+  description = "SGLang 0.5.23 (ROCm 7.2.4) 0.5.23 on Ubuntu 24.04"
+  default     = "amddeveloperclou-sglang0523rocm72"
+}
+
 variable "do_application_amddeveloperclou-sglang059" {
   description = "SGLang 0.5.9 0.5.9 - ROCm 7.0 on Ubuntu 24.04"
   default     = "amddeveloperclou-sglang059"
@@ -199,7 +219,7 @@ variable "do_application_amddeveloperclou-unslothstudio" {
 }
 
 variable "do_application_amddeveloperclou-unslothstudioroc" {
-  description = "Unsloth Studio (ROCm 7.2.4) 2026.11.7 on Ubuntu 24.04"
+  description = "Unsloth Studio (ROCm 7.2.4) 2026.11.9 on Ubuntu 24.04"
   default     = "amddeveloperclou-unslothstudioroc"
 }
 
@@ -554,7 +574,7 @@ variable "do_application_codertechnologie-vscodeserver" {
 }
 
 variable "do_application_codexcli" {
-  description = "Codex CLI 0.167.1 on Ubuntu 24.04"
+  description = "Codex CLI 0.171.0 on Ubuntu 24.04"
   default     = "codexcli"
 }
 
@@ -569,7 +589,7 @@ variable "do_application_convoy" {
 }
 
 variable "do_application_coolify" {
-  description = "Coolify 4.7.5 on Ubuntu 24.04"
+  description = "Coolify 4.7.6 on Ubuntu 24.04"
   default     = "coolify"
 }
 
@@ -1259,7 +1279,7 @@ variable "do_application_microwebercms-microweber-20-04" {
 }
 
 variable "do_application_minecraftforgeed" {
-  description = "Minecraft Forge Edition Server 26.3-66.1.5 on Ubuntu 24.04"
+  description = "Minecraft Forge Edition Server 26.3-66.1.9 on Ubuntu 24.04"
   default     = "minecraftforgeed"
 }
 
@@ -1744,7 +1764,7 @@ variable "do_application_sharklabs-codeserver1" {
 }
 
 variable "do_application_sharklabs-conduktorconsole" {
-  description = "Conduktor Console 1.47.0 on Ubuntu 24.04"
+  description = "Conduktor Console 1.49.0 on Ubuntu 24.04"
   default     = "sharklabs-conduktorconsole"
 }
 
@@ -2129,7 +2149,7 @@ variable "do_application_zabbix-zabbixserver64" {
 }
 
 variable "do_application_zeroclaw" {
-  description = "ZeroClaw v0.8.6 on Ubuntu 24.04"
+  description = "ZeroClaw 0.9.0 on Ubuntu 24.04"
   default     = "zeroclaw"
 }
 
