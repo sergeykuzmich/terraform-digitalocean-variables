@@ -784,7 +784,7 @@ variable "do_application_discourse-20-04" {
 }
 
 variable "do_application_django-20-04" {
-  description = "Django 6.1.2 on Ubuntu 24.04"
+  description = "Django 6.1.3 on Ubuntu 24.04"
   default     = "django-20-04"
 }
 
@@ -794,7 +794,7 @@ variable "do_application_docker-20-04" {
 }
 
 variable "do_application_dockeragent" {
-  description = "Docker Agent 1.150.0 on Ubuntu 24.04"
+  description = "Docker Agent 1.163.0 on Ubuntu 24.04"
   default     = "dockeragent"
 }
 
@@ -949,7 +949,7 @@ variable "do_application_goauthentikio-authentik" {
 }
 
 variable "do_application_goose" {
-  description = "Goose v1.55.0 on Ubuntu 24.04"
+  description = "Goose v1.60.2 on Ubuntu 24.04"
   default     = "goose"
 }
 
@@ -994,7 +994,7 @@ variable "do_application_harperdb-18-04" {
 }
 
 variable "do_application_hashicorpvault" {
-  description = "HashiCorp Vault 2.1.2 on Ubuntu 24.04"
+  description = "HashiCorp Vault 2.2.2 on Ubuntu 24.04"
   default     = "hashicorpvault"
 }
 
@@ -1039,7 +1039,7 @@ variable "do_application_ibsurgeon-hqbirdfirebirdv5" {
 }
 
 variable "do_application_icewarp" {
-  description = "IceWarp 14.3.0.13 on Rocky Linux 9.x"
+  description = "IceWarp 14.3.0.14 on Rocky Linux 9.x"
   default     = "icewarp"
 }
 
@@ -1174,7 +1174,7 @@ variable "do_application_lemp-20-04" {
 }
 
 variable "do_application_linuxgsm" {
-  description = "LinuxGSM 26.4.0 on Ubuntu 24.04"
+  description = "LinuxGSM 26.6.0 on Ubuntu 24.04"
   default     = "linuxgsm"
 }
 
@@ -1299,7 +1299,7 @@ variable "do_application_monetdbsolutions-monetdb" {
 }
 
 variable "do_application_mongodb-18-04" {
-  description = "MongoDB 8.0.34 on Ubuntu 24.04"
+  description = "MongoDB 8.0.38 on Ubuntu 24.04"
   default     = "mongodb-18-04"
 }
 
@@ -1564,7 +1564,7 @@ variable "do_application_planesoftware-planecommunityed" {
 }
 
 variable "do_application_plausibleanalyti" {
-  description = "Plausible Analytics 3.2.1 on Ubuntu 24.04"
+  description = "Plausible Analytics on Ubuntu 24.04"
   default     = "plausibleanalyti"
 }
 
