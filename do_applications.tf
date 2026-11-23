@@ -1068,6 +1068,11 @@ variable "do_application_invoiceninja-20-0-4" {
   default     = "invoiceninja-20-0-4"
 }
 
+variable "do_application_iskra" {
+  description = "Iskra 2.0.0-alpha.43 on Ubuntu 24.04 (LTS)"
+  default     = "iskra"
+}
+
 variable "do_application_ispmanager-ispmanager6" {
   description = "Ispmanager 6 6.155.0 on Ubuntu 26.04"
   default     = "ispmanager-ispmanager6"
