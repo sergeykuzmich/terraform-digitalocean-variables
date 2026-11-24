@@ -219,7 +219,7 @@ variable "do_application_amddeveloperclou-unslothstudio" {
 }
 
 variable "do_application_amddeveloperclou-unslothstudioroc" {
-  description = "Unsloth Studio (ROCm 7.2.4) 2026.11.9 on Ubuntu 24.04"
+  description = "Unsloth Studio (ROCm 7.2.4) 2026.11.10 on Ubuntu 24.04"
   default     = "amddeveloperclou-unslothstudioroc"
 }
 
@@ -954,7 +954,7 @@ variable "do_application_goose" {
 }
 
 variable "do_application_gorails-hatchbox" {
-  description = "Hatchbox 1.0.1 on Ubuntu 26.04"
+  description = "Hatchbox 1.0.13 on Ubuntu 26.04"
   default     = "gorails-hatchbox"
 }
 
@@ -1579,12 +1579,12 @@ variable "do_application_playboxtechnolog-ottstream" {
 }
 
 variable "do_application_plesk-20-04" {
-  description = "Plesk 18.0.81.4 on Ubuntu 24.04"
+  description = "Plesk 18.0.82 on Ubuntu 24.04"
   default     = "plesk-20-04"
 }
 
 variable "do_application_plesk-pleskalmalinux" {
-  description = "Plesk (AlmaLinux) 18.0.81.4 on AlmaLinux 9"
+  description = "Plesk (AlmaLinux) 18.0.82 on AlmaLinux 9"
   default     = "plesk-pleskalmalinux"
 }
 
