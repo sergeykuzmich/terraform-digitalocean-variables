@@ -34,7 +34,7 @@ variable "do_application_activepieces" {
 }
 
 variable "do_application_adminbolt" {
-  description = "AdminBolt 1.9.3 on AlmaLinux 9.x"
+  description = "AdminBolt 1.9.7 on AlmaLinux 9.x"
   default     = "adminbolt"
 }
 
@@ -1809,7 +1809,7 @@ variable "do_application_sharklabs-kibana" {
 }
 
 variable "do_application_sharklabs-logstash" {
-  description = "LogStash on Ubuntu 24.04"
+  description = "LogStash 9.5.7 on Ubuntu 24.04"
   default     = "sharklabs-logstash"
 }
 
