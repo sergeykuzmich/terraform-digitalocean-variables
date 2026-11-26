@@ -49,7 +49,7 @@ variable "do_application_akaunting-20-04" {
 }
 
 variable "do_application_alby-albyhub" {
-  description = "Alby Hub 1.23.0 on Ubuntu 24.04"
+  description = "Alby Hub v1.24.8 on Ubuntu 24.04"
   default     = "alby-albyhub"
 }
 
@@ -934,7 +934,7 @@ variable "do_application_gibsonai-memori" {
 }
 
 variable "do_application_githubactionsrun" {
-  description = "Github Actions Runner 2.336.0 on 24.04"
+  description = "Github Actions Runner 2.338.2 on 24.04"
   default     = "githubactionsrun"
 }
 
@@ -1518,6 +1518,11 @@ variable "do_application_panelica-panelicahostingp" {
   default     = "panelica-panelicahostingp"
 }
 
+variable "do_application_paperclip" {
+  description = "Paperclip 2026.1117.0 on 24.04"
+  default     = "paperclip"
+}
+
 variable "do_application_passboltsa-passboltce-20-04" {
   description = "Passbolt CE 5.18.0-2 on Debian 13"
   default     = "passboltsa-passboltce-20-04"
@@ -1839,7 +1844,7 @@ variable "do_application_sharklabs-openmptcprouter" {
 }
 
 variable "do_application_sharklabs-opensearch" {
-  description = "OpenSearch 3.9.0 on Ubuntu 24.04"
+  description = "OpenSearch 3.10.1 on Ubuntu 24.04"
   default     = "sharklabs-opensearch"
 }
 
